@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | Rice and Protein</title>
+  <meta name="description" content="Recipes, calorie counts, diet talk, and the honest story of losing 40kg on Malaysian food. No keto, no starving.">
+  <link rel="canonical" href="https://riceandprotein.com/blog.html">
+  <meta property="og:title" content="Blog | Rice and Protein">
+  <meta property="og:description" content="Recipes, calorie counts, diet talk, and the honest story of losing 40kg on Malaysian food.">
+  <meta property="og:url" content="https://riceandprotein.com/blog.html">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="site-logo">Rice and <span>Protein</span></a>
+      <nav>
+        <ul class="site-nav" id="site-nav">
+          <li><a href="index.html">Home</a></li>
+          <li class="nav-item">
+            <a href="blog.html">Blog &#9662;</a>
+            <ul class="nav-dropdown">
+              <li><a href="blog.html?cat=recipes">Recipes</a></li>
+              <li><a href="blog.html?cat=calories">Calorie Counts</a></li>
+              <li><a href="blog.html?cat=diet">Diet Talk</a></li>
+              <li><a href="blog.html?cat=gym">Gym &amp; Fitness</a></li>
+              <li><a href="blog.html?cat=mindset">Mindset</a></li>
+              <li><a href="blog.html?cat=journey">My Journey</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="blog-header">
+    <h1 class="blog-header__title">All Posts</h1>
+    <p class="blog-header__sub">Recipes, calorie counts, diet talk and real weight loss from KL</p>
+  </div>
+
+  <div class="category-tabs">
+    <button class="category-tab active" data-cat="all">All</button>
+    <button class="category-tab" data-cat="recipes">Recipes</button>
+    <button class="category-tab" data-cat="calories">Calorie Counts</button>
+    <button class="category-tab" data-cat="diet">Diet Talk</button>
+    <button class="category-tab" data-cat="gym">Gym &amp; Fitness</button>
+    <button class="category-tab" data-cat="mindset">Mindset</button>
+    <button class="category-tab" data-cat="journey">My Journey</button>
+  </div>
+
+  <section class="section">
+    <div class="section-inner">
+      <div class="cards-grid" id="posts-grid">
+        <!-- Posts will appear here as they are published -->
+        <div style="grid-column: 1 / -1; text-align: center; padding: 80px 0; color: var(--muted); font-size: 15px; line-height: 1.8;">
+          <p style="font-family:'Playfair Display',serif; font-size:24px; color:var(--text); margin-bottom:16px;">Posts coming soon.</p>
+          <p>Working on the first batch. Subscribe below or <a href="about.html" style="color:var(--accent); font-weight:600;">read the about page</a> while you wait.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-logo">Rice and <span>Protein</span></div>
+    <ul class="footer-links">
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <p class="footer-copy">&#169; 2026 riceandprotein.com</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    const tabs = document.querySelectorAll('.category-tab');
+    const cards = document.querySelectorAll('#posts-grid .card');
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        const cat = tab.dataset.cat;
+        cards.forEach(card => {
+          card.style.display = (cat === 'all' || card.dataset.cat === cat) ? '' : 'none';
+        });
+      });
+    });
+
+    const params = new URLSearchParams(window.location.search);
+    const catParam = params.get('cat');
+    if (catParam) {
+      const match = document.querySelector(`.category-tab[data-cat="${catParam}"]`);
+      if (match) match.click();
+    }
+  </script>
+</body>
+</html>

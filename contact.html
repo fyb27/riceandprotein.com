@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Rice and Protein</title>
+  <meta name="description" content="Questions, recipe requests, or just want to say the blog helped you. I read everything.">
+  <link rel="canonical" href="https://riceandprotein.com/contact.html">
+  <meta property="og:title" content="Contact | Rice and Protein">
+  <meta property="og:description" content="Questions, recipe requests, or just want to say the blog helped you. I read everything.">
+  <meta property="og:url" content="https://riceandprotein.com/contact.html">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .contact-form { max-width: 560px; }
+    .form-group { margin-bottom: 24px; }
+    .form-group label {
+      display: block;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 14px 16px;
+      border: 1.5px solid var(--border);
+      background: var(--white);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 15px;
+      color: var(--text);
+      outline: none;
+      transition: border-color 0.2s;
+      border-radius: 0;
+      -webkit-appearance: none;
+    }
+    .form-group input:focus,
+    .form-group textarea:focus { border-color: var(--accent); }
+    .form-group textarea { min-height: 140px; resize: vertical; }
+    .form-submit {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--white);
+      background: var(--accent);
+      border: none;
+      padding: 16px 40px;
+      cursor: pointer;
+      transition: background 0.2s;
+      font-family: 'DM Sans', sans-serif;
+    }
+    .form-submit:hover { background: var(--accent2); }
+    html, body { height: 100%; }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="site-logo">Rice and <span>Protein</span></a>
+      <nav>
+        <ul class="site-nav" id="site-nav">
+          <li><a href="index.html">Home</a></li>
+          <li class="nav-item">
+            <a href="blog.html">Blog &#9662;</a>
+            <ul class="nav-dropdown">
+              <li><a href="blog.html?cat=recipes">Recipes</a></li>
+              <li><a href="blog.html?cat=calories">Calorie Counts</a></li>
+              <li><a href="blog.html?cat=diet">Diet Talk</a></li>
+              <li><a href="blog.html?cat=gym">Gym &amp; Fitness</a></li>
+              <li><a href="blog.html?cat=mindset">Mindset</a></li>
+              <li><a href="blog.html?cat=journey">My Journey</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-wrap">
+    <section class="section" style="padding-top: 80px;">
+      <div class="section-inner">
+        <p style="font-size:11px; letter-spacing:2.5px; text-transform:uppercase; color:var(--accent); font-weight:600; margin-bottom:24px;">Contact</p>
+        <h1 style="font-family:'Playfair Display',serif; font-size:clamp(32px,5vw,48px); font-weight:700; margin-bottom:16px;">Say hello</h1>
+        <p style="font-size:16px; color:var(--muted); margin-bottom:48px; max-width:560px;">Questions, recipe requests, calorie queries, or just want to say the blog helped you. I read everything.</p>
+
+        <form class="contact-form" action="https://formspree.io/f/xpqngrwj" method="POST">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="form-submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-logo">Rice and <span>Protein</span></div>
+    <ul class="footer-links">
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <p class="footer-copy">&#169; 2026 riceandprotein.com</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

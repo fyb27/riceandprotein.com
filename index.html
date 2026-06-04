@@ -1355,13 +1355,12 @@
        FOOD DATA  (per 100g unless noted)
     ---------------------------------------------------------- */
     var FOOD = {
-      rice:    { carbPct: 0.28, kcal: 130 },  // cooked white rice
-      potato:  { carbPct: 0.17, kcal: 77  },  // boiled potato
-      oats:    { carbPct: 0.66, kcal: 389 },  // raw oats
-      chicken: { protPct: 0.31, kcal: 165 },  // cooked chicken breast
-      steak:   { protPct: 0.26, kcal: 215 }   // lean cooked steak
-      // eggs: 6g protein each, 70 kcal each
-      // oil: ~884 kcal/100g, fat = 100g/100g
+      rice:    { kcal: 130 },  // 1.30 kcal/g (cooked white rice)
+      potato:  { kcal:  87 },  // 0.87 kcal/g (boiled potato)
+      oats:    { kcal: 389 },  // 3.89 kcal/g (raw oats)
+      chicken: { kcal: 165 },  // 1.65 kcal/g (cooked chicken breast)
+      steak:   { kcal: 271 }   // 2.71 kcal/g (lean cooked steak)
+      // eggs: 78 kcal each
     };
 
     /* ----------------------------------------------------------
@@ -1370,48 +1369,44 @@
     function updateMeals(cals) {
       if (!cals || cals <= 0) return;
 
-      var protG = (cals * 0.30) / 4;
-      var carbG = (cals * 0.45) / 4;
-      var fatG  = (cals * 0.25) / 9;
+      var carbCals    = cals * 0.45;
+      var proteinCals = cals * 0.30;
+      var fatCals     = cals * 0.25;
 
-      $('total-protein').textContent = Math.round(protG) + 'g protein';
-      $('total-carbs').textContent   = Math.round(carbG) + 'g carbs';
-      $('total-fat').textContent     = Math.round(fatG) + 'g fat';
+      $('total-protein').textContent = Math.round(proteinCals / 4) + 'g protein';
+      $('total-carbs').textContent   = Math.round(carbCals / 4) + 'g carbs';
+      $('total-fat').textContent     = Math.round(fatCals / 9) + 'g fat';
 
-      // Each carb food = 1/3 of carbG
-      var carbPer = carbG / 3;
-      function carbCard(food, gId, kcalId) {
-        var g = Math.round(carbPer / food.carbPct * 100);
-        $(gId).textContent    = g + 'g';
-        $(kcalId).textContent = Math.round(g * food.kcal / 100) + ' kcal';
-      }
-      carbCard(FOOD.rice,   'rice-g',   'rice-kcal');
-      carbCard(FOOD.potato, 'potato-g', 'potato-kcal');
-      carbCard(FOOD.oats,   'oats-g',   'oats-kcal');
+      var riceG   = Math.round((carbCals / 3) / 1.3);
+      var potatoG = Math.round((carbCals / 3) / 0.87);
+      var oatsG   = Math.round((carbCals / 3) / 3.89);
 
-      // Each protein food = 1/3 of protG
-      var protPer = protG / 3;
+      $('rice-g').textContent    = riceG + 'g';
+      $('rice-kcal').textContent = Math.round(riceG * 1.3) + ' kcal';
+      $('potato-g').textContent    = potatoG + 'g';
+      $('potato-kcal').textContent = Math.round(potatoG * 0.87) + ' kcal';
+      $('oats-g').textContent    = oatsG + 'g';
+      $('oats-kcal').textContent = Math.round(oatsG * 3.89) + ' kcal';
 
-      var chickenG = Math.round(protPer / FOOD.chicken.protPct * 100);
+      var chickenG = Math.round((proteinCals / 3) / 1.65);
+      var eggs     = Math.round((proteinCals / 3) / 78);
+      var steakG   = Math.round((proteinCals / 3) / 2.71);
+
       $('chicken-g').textContent    = chickenG + 'g';
-      $('chicken-kcal').textContent = Math.round(chickenG * FOOD.chicken.kcal / 100) + ' kcal';
-
-      var eggs = Math.max(1, Math.round(protPer / 6));
+      $('chicken-kcal').textContent = Math.round(chickenG * 1.65) + ' kcal';
       $('egg-g').textContent    = eggs + (eggs === 1 ? ' egg' : ' eggs');
-      $('egg-kcal').textContent = (eggs * 70) + ' kcal';
-
-      var steakG = Math.round(protPer / FOOD.steak.protPct * 100);
+      $('egg-kcal').textContent = (eggs * 78) + ' kcal';
       $('steak-g').textContent    = steakG + 'g';
-      $('steak-kcal').textContent = Math.round(steakG * FOOD.steak.kcal / 100) + ' kcal';
+      $('steak-kcal').textContent = Math.round(steakG * 2.71) + ' kcal';
 
-      // Fat: 50/50 between oils. Oil ~884 kcal/100g
-      var oilG    = Math.round(fatG / 2);
-      var oilTbsp = (oilG / 14).toFixed(1);
-      var oilKcal = Math.round(oilG * 8.84);
-      $('oliveoil-g').textContent    = oilG + 'g (' + oilTbsp + ' tbsp)';
-      $('oliveoil-kcal').textContent = oilKcal + ' kcal';
-      $('cookingoil-g').textContent    = oilG + 'g (' + oilTbsp + ' tbsp)';
-      $('cookingoil-kcal').textContent = oilKcal + ' kcal';
+      var oliveOilG   = Math.round((fatCals / 2) / 8.84);
+      var cookingOilG = Math.round((fatCals / 2) / 8.84);
+      var oilTbsp = (oliveOilG / 14).toFixed(1);
+
+      $('oliveoil-g').textContent    = oliveOilG + 'g (' + oilTbsp + ' tbsp)';
+      $('oliveoil-kcal').textContent = Math.round(oliveOilG * 8.84) + ' kcal';
+      $('cookingoil-g').textContent    = cookingOilG + 'g (' + oilTbsp + ' tbsp)';
+      $('cookingoil-kcal').textContent = Math.round(cookingOilG * 8.84) + ' kcal';
     }
 
     /* ----------------------------------------------------------
@@ -1420,12 +1415,16 @@
        muscular: bool
        mood: 'happy' | 'neutral' | 'sad'
     ---------------------------------------------------------- */
-    function drawBody(svgId, fat, muscular, mood) {
+    function drawBody(svgId, fat, muscular, mood, opts) {
+      opts = opts || {};
       var el = $(svgId);
       if (!el) return;
       fat = Math.max(0, Math.min(1, fat));
 
-      var cx   = 60;
+      var vbW  = opts.vbW || 120;
+      var cx   = vbW / 2;
+      if (opts.vbW) el.setAttribute('viewBox', '0 0 ' + vbW + ' 200');
+
       var skin = '#E8D5C4';
       var body = fat > 0.45 ? '#D4BEA8' : '#DCCFC4';
       var ac   = '#C8622A';
@@ -1437,14 +1436,14 @@
       var neckT  = headCY + headR;       // 38
       var neckB  = neckT + 10;           // 48
 
-      var shW    = 36 + fat * 22 + (muscular ? 12 : 0);
-      var wsW    = 26 + fat * 26 - (muscular ? 6 : 0);
+      var shW    = opts.shW  || (36 + fat * 22 + (muscular ? 12 : 0));
+      var wsW    = opts.wsW  || (26 + fat * 26 - (muscular ? 6 : 0));
       var hipW   = 34 + fat * 28;
       var torsoT = neckB;                // 48
       var waistY = torsoT + 36;          // 84
       var torsoB = torsoT + 66;          // 114
 
-      var armW   = 10 + fat * 6 + (muscular ? 3 : 0);
+      var armW   = opts.armW || (10 + fat * 6 + (muscular ? 3 : 0));
       var armT   = torsoT + 4;           // 52
       var armB   = armT + 54;            // 106
 
@@ -1569,6 +1568,7 @@
           now:  { fat: curFat,             musc: false, mood: curFat > 0.4 ? 'sad'    : 'neutral' },
           diet: { fat: tgtFat + 0.04,      musc: false, mood: 'neutral' },
           lift: { fat: tgtFat,             musc: true,  mood: 'happy'   },
+          liftOpts: { shW: 60 },
           dietMsg: 'Weight drops. But without lifting you lose muscle too.',
           liftMsg: 'Same timeline. But the muscle stays and you look leaner.'
         },
@@ -1576,6 +1576,7 @@
           now:  { fat: curFat,             musc: false, mood: 'neutral' },
           diet: { fat: tgtFat + 0.06,      musc: false, mood: 'neutral' },
           lift: { fat: Math.max(0, tgtFat - 0.04), musc: true, mood: 'happy' },
+          liftOpts: { shW: 80, wsW: 55 },
           dietMsg: 'Fat drops. Muscle stays the same. Decent result.',
           liftMsg: 'Fat drops AND muscle grows. This is the move.'
         },
@@ -1583,6 +1584,7 @@
           now:  { fat: curFat,             musc: false, mood: 'neutral' },
           diet: { fat: Math.max(0, curFat - 0.15), musc: false, mood: 'neutral' },
           lift: { fat: Math.max(0, tgtFat - 0.04), musc: true,  mood: 'happy' },
+          liftOpts: { shW: 100, wsW: 70, armW: 18, vbW: 140 },
           dietMsg: 'You lose some fat but build almost no muscle.',
           liftMsg: 'Small surplus plus lifting: stronger, bigger, leaner.'
         }
@@ -1592,7 +1594,7 @@
 
       drawBody('svg-now',  cfg.now.fat,  cfg.now.musc,  cfg.now.mood);
       drawBody('svg-diet', cfg.diet.fat, cfg.diet.musc, 'neutral');
-      drawBody('svg-lift', cfg.lift.fat, cfg.lift.musc, cfg.lift.mood);
+      drawBody('svg-lift', cfg.lift.fat, cfg.lift.musc, cfg.lift.mood, cfg.liftOpts);
 
       var bmiCat = bmi > 30 ? 'Obese' : bmi > 25 ? 'Overweight' : bmi > 18.5 ? 'Normal range' : 'Underweight';
       $('fig-now-stat').textContent  = Math.round(w) + 'kg, BMI ' + bmi.toFixed(1);
@@ -1806,6 +1808,8 @@
 
       $('results').classList.add('visible');
 
+      S.weight_kg = w;
+      S.height_cm = h;
       S.tdee = avg;
       renderGoal();
 

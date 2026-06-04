@@ -877,9 +877,791 @@
     </div>
   </section>
 
+  <style>
+    /* ============================================================
+       PART 2: MEAL PLANNER + TRANSFORMATION STYLES
+    ============================================================ */
+
+    /* --- Meal Planner --- */
+    .macro-groups {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .macro-group__head {
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1.5px solid var(--border);
+    }
+
+    .macro-group__name {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 5px;
+    }
+
+    .macro-group__total {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--accent);
+    }
+
+    .food-card {
+      background: var(--white);
+      border: 1.5px solid var(--border);
+      padding: 20px 14px;
+      text-align: center;
+      margin-bottom: 12px;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.45s ease, transform 0.45s ease, box-shadow 0.2s;
+    }
+
+    .food-card.in-view {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .food-card:hover {
+      box-shadow: 0 6px 20px rgba(0,0,0,0.07);
+    }
+
+    .food-card__icon {
+      width: 56px;
+      height: 56px;
+      display: block;
+      margin: 0 auto 12px;
+    }
+
+    .food-card__name {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 7px;
+    }
+
+    .food-card__grams {
+      font-family: 'DM Serif Display', serif;
+      font-size: 22px;
+      color: var(--accent);
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+
+    .food-card__kcal {
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    .fat-note {
+      padding: 14px 16px;
+      background: var(--bg2);
+      border: 1.5px solid var(--border);
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.6;
+      margin-top: 4px;
+    }
+
+    .meals-disclaimer {
+      margin-top: 36px;
+      padding: 18px 22px;
+      background: var(--white);
+      border-left: 3px solid var(--accent);
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    /* --- Transformation --- */
+    .t-goals {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 48px;
+    }
+
+    .t-goal-btn {
+      padding: 11px 28px;
+      font-size: 13px;
+      font-weight: 600;
+      background: var(--white);
+      border: 1.5px solid var(--border);
+      color: var(--muted);
+      transition: background 0.2s, color 0.2s, border-color 0.2s;
+    }
+
+    .t-goal-btn.active {
+      background: var(--text);
+      color: var(--white);
+      border-color: var(--text);
+    }
+
+    .figures-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-bottom: 40px;
+    }
+
+    .figure-col {
+      text-align: center;
+    }
+
+    .figure-col__svg {
+      display: block;
+      max-width: 100px;
+      margin: 0 auto 16px;
+    }
+
+    .figure-col__tag {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .figure-col__stat {
+      font-family: 'DM Serif Display', serif;
+      font-size: 18px;
+      color: var(--accent);
+      margin-bottom: 6px;
+      min-height: 26px;
+    }
+
+    .figure-col__msg {
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .transform-callout {
+      padding: 22px 26px;
+      background: var(--white);
+      border: 1.5px solid var(--border);
+      border-left: 4px solid var(--accent);
+      font-size: 15px;
+      color: var(--text);
+      line-height: 1.75;
+      max-width: 640px;
+    }
+
+    /* --- Footer --- */
+    .site-footer {
+      background: var(--text);
+      color: rgba(255,255,255,0.55);
+      padding: 48px 24px;
+      text-align: center;
+    }
+
+    .footer-logo {
+      font-family: 'DM Serif Display', serif;
+      font-size: 22px;
+      font-weight: 400;
+      color: var(--white);
+      margin-bottom: 16px;
+    }
+
+    .footer-logo span { color: var(--accent); }
+
+    .footer-links {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      list-style: none;
+      margin-bottom: 20px;
+    }
+
+    .footer-links a {
+      font-size: 11px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.5);
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover { color: var(--white); }
+
+    .footer-disclaimer {
+      font-size: 11px;
+      color: rgba(255,255,255,0.3);
+      max-width: 460px;
+      margin: 0 auto;
+      line-height: 1.65;
+    }
+
+    /* --- Responsive Part 2 --- */
+    @media (max-width: 900px) {
+      .macro-groups { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 640px) {
+      .macro-groups { grid-template-columns: repeat(2, 1fr); gap: 14px; }
+      .figures-row {
+        grid-template-columns: 1fr;
+        max-width: 220px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .figure-col__svg { max-width: 80px; }
+      .t-goal-btn { padding: 10px 18px; font-size: 12px; }
+    }
+
+    @media (max-width: 420px) {
+      .macro-groups { grid-template-columns: 1fr; }
+    }
+  </style>
+
   <!-- ============================================================
-       PART 2 GOES HERE
+       SECTION 3: MEAL PLANNER
   ============================================================ -->
+  <section class="tool-section" id="meals">
+    <div class="tool-wrap" style="max-width:1080px;">
+      <p class="section-eyebrow">Step 3</p>
+      <h2 class="section-title">What does that actually look like on a plate?</h2>
+      <p class="section-desc">Protein 30%, carbs 45%, fat 25%. Each card shows how much food equals your share of each macro group.</p>
+
+      <div class="macro-groups">
+
+        <!-- CARBS -->
+        <div>
+          <div class="macro-group__head">
+            <div class="macro-group__name">Carbs</div>
+            <div class="macro-group__total" id="total-carbs">-- g carbs</div>
+          </div>
+          <div class="food-card">
+            <svg class="food-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M10 38 Q32 50 54 38 Q54 56 32 58 Q10 56 10 38 Z" fill="#E8E2D9" stroke="#C8622A" stroke-width="1.8" stroke-linejoin="round"/>
+              <path d="M10 38 Q32 28 54 38" fill="none" stroke="#C8622A" stroke-width="1.8" stroke-linecap="round"/>
+              <circle cx="24" cy="34" r="2.5" fill="#C8622A" opacity="0.45"/>
+              <circle cx="32" cy="32" r="2.5" fill="#C8622A" opacity="0.45"/>
+              <circle cx="40" cy="34" r="2.5" fill="#C8622A" opacity="0.45"/>
+              <circle cx="28" cy="39" r="2" fill="#C8622A" opacity="0.45"/>
+              <circle cx="36" cy="39" r="2" fill="#C8622A" opacity="0.45"/>
+            </svg>
+            <div class="food-card__name">Cooked White Rice</div>
+            <div class="food-card__grams" id="rice-g">--</div>
+            <div class="food-card__kcal" id="rice-kcal">-- kcal</div>
+          </div>
+          <div class="food-card">
+            <svg class="food-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M12 36 Q12 22 24 16 Q38 10 50 20 Q60 28 54 42 Q48 54 34 56 Q16 56 12 44 Q10 40 12 36 Z" fill="#E8E2D9" stroke="#C8622A" stroke-width="1.8"/>
+              <circle cx="24" cy="28" r="3" fill="none" stroke="#C8622A" stroke-width="1.5"/>
+              <circle cx="40" cy="24" r="2.5" fill="none" stroke="#C8622A" stroke-width="1.5"/>
+              <circle cx="44" cy="40" r="2.5" fill="none" stroke="#C8622A" stroke-width="1.5"/>
+            </svg>
+            <div class="food-card__name">Boiled Potato</div>
+            <div class="food-card__grams" id="potato-g">--</div>
+            <div class="food-card__kcal" id="potato-kcal">-- kcal</div>
+          </div>
+          <div class="food-card">
+            <svg class="food-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M10 40 Q32 52 54 40 Q54 58 32 60 Q10 58 10 40 Z" fill="#E8E2D9" stroke="#C8622A" stroke-width="1.8" stroke-linejoin="round"/>
+              <path d="M10 40 Q32 30 54 40" fill="none" stroke="#C8622A" stroke-width="1.8" stroke-linecap="round"/>
+              <path d="M16 34 Q20 30 24 34 Q28 38 32 34 Q36 30 40 34 Q44 38 48 34" fill="none" stroke="#C8622A" stroke-width="1.6" stroke-linecap="round"/>
+            </svg>
+            <div class="food-card__name">Oats (raw)</div>
+            <div class="food-card__grams" id="oats-g">--</div>
+            <div class="food-card__kcal" id="oats-kcal">-- kcal</div>
+          </div>
+        </div>
+
+        <!-- PROTEIN -->
+        <div>
+          <div class="macro-group__head">
+            <div class="macro-group__name">Protein</div>
+            <div class="macro-group__total" id="total-protein">-- g protein</div>
+          </div>
+          <div class="food-card">
+            <svg class="food-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M14 44 Q10 30 16 18 Q24 8 36 12 Q50 14 54 28 Q58 40 48 50 Q38 58 26 56 Q14 52 14 44 Z" fill="#E8E2D9" stroke="#C8622A" stroke-width="1.8"/>
+              <path d="M22 24 Q30 20 40 24" fill="none" stroke="#C8622A" stroke-width="1.3" stroke-linecap="round" opacity="0.5"/>
+              <path d="M20 34 Q30 30 42 34" fill="none" stroke="#C8622A" stroke-width="1.3" stroke-linecap="round" opacity="0.5"/>
+            </svg>
+            <div class="food-card__name">Chicken Breast</div>
+            <div class="food-card__grams" id="chicken-g">--</div>
+            <div class="food-card__kcal" id="chicken-kcal">-- kcal</div>
+          </div>
+          <div class="food-card">
+            <svg class="food-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M36 50 Q30 42 32 28 Q34 14 44 14 Q54 14 56 28 Q58 42 52 50 Z" fill="#FAF8F4" stroke="#C8622A" stroke-width="1.8"/>
+              <path d="M18 50 Q12 42 14 28 Q16 14 26 14 Q36 14 38 28 Q40 42 34 50 Z" fill="#E8E2D9" stroke="#C8622A" stroke-width="1.8"/>
+            </svg>
+            <div class="food-card__name">Eggs</div>
+            <div class="food-card__grams" id="egg-g">--</div>
+            <div class="food-card__kcal" id="egg-kcal">-- kcal</div>
+          </div>
+          <div class="food-card">
+            <svg class="food-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M10 44 Q8 30 14 18 Q20 8 32 8 Q46 8 54 20 Q62 32 56 46 Q50 58 36 60 Q18 60 10 44 Z" fill="#E8E2D9" stroke="#C8622A" stroke-width="1.8"/>
+              <path d="M18 32 Q30 28 46 32" fill="none" stroke="#C8622A" stroke-width="1.3" stroke-linecap="round" opacity="0.5"/>
+              <path d="M16 44 Q28 40 44 44" fill="none" stroke="#C8622A" stroke-width="1.3" stroke-linecap="round" opacity="0.5"/>
+            </svg>
+            <div class="food-card__name">Lean Steak</div>
+            <div class="food-card__grams" id="steak-g">--</div>
+            <div class="food-card__kcal" id="steak-kcal">-- kcal</div>
+          </div>
+        </div>
+
+        <!-- FAT -->
+        <div>
+          <div class="macro-group__head">
+            <div class="macro-group__name">Fat / Cooking</div>
+            <div class="macro-group__total" id="total-fat">-- g fat</div>
+          </div>
+          <div class="food-card">
+            <svg class="food-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="26" y="6" width="12" height="8" rx="2.5" fill="#E8E2D9" stroke="#C8622A" stroke-width="1.5"/>
+              <path d="M20 20 L22 14 H42 L44 20 V52 Q44 58 38 58 H26 Q20 58 20 52 Z" fill="#E8E2D9" stroke="#C8622A" stroke-width="1.8"/>
+              <line x1="20" y1="32" x2="44" y2="32" stroke="#C8622A" stroke-width="1" opacity="0.4"/>
+              <path d="M26 44 Q32 40 38 44" fill="none" stroke="#C8622A" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+            </svg>
+            <div class="food-card__name">Olive Oil</div>
+            <div class="food-card__grams" id="oliveoil-g">--</div>
+            <div class="food-card__kcal" id="oliveoil-kcal">-- kcal</div>
+          </div>
+          <div class="food-card">
+            <svg class="food-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="22" y="6" width="20" height="8" rx="2.5" fill="#E8E2D9" stroke="#C8622A" stroke-width="1.5"/>
+              <rect x="16" y="16" width="32" height="42" rx="4" fill="#E8E2D9" stroke="#C8622A" stroke-width="1.8"/>
+              <rect x="22" y="28" width="20" height="2.5" rx="1.2" fill="#C8622A" opacity="0.3"/>
+              <rect x="22" y="37" width="16" height="2.5" rx="1.2" fill="#C8622A" opacity="0.3"/>
+              <rect x="22" y="46" width="12" height="2.5" rx="1.2" fill="#C8622A" opacity="0.3"/>
+            </svg>
+            <div class="food-card__name">Cooking Oil</div>
+            <div class="food-card__grams" id="cookingoil-g">--</div>
+            <div class="food-card__kcal" id="cookingoil-kcal">-- kcal</div>
+          </div>
+          <div class="fat-note">Oils are calorie dense. A few tablespoons covers your fat target. Track carefully.</div>
+        </div>
+
+        <!-- VOLUME -->
+        <div>
+          <div class="macro-group__head">
+            <div class="macro-group__name">Volume</div>
+            <div class="macro-group__total">Eat as much as you want</div>
+          </div>
+          <div class="food-card">
+            <svg class="food-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="22" cy="26" r="10" fill="#D4EDD4" stroke="#C8622A" stroke-width="1.8"/>
+              <circle cx="42" cy="24" r="10" fill="#D4EDD4" stroke="#C8622A" stroke-width="1.8"/>
+              <circle cx="32" cy="20" r="12" fill="#D4EDD4" stroke="#C8622A" stroke-width="1.8"/>
+              <rect x="28" y="36" width="8" height="20" rx="3" fill="#E8E2D9" stroke="#C8622A" stroke-width="1.5"/>
+            </svg>
+            <div class="food-card__name">Broccoli</div>
+            <div class="food-card__grams">200g</div>
+            <div class="food-card__kcal">~70 kcal</div>
+          </div>
+          <div class="food-card">
+            <svg class="food-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M32 56 Q18 44 14 30 Q10 18 18 12 Q26 6 32 16 Q38 6 46 12 Q54 18 50 30 Q46 44 32 56 Z" fill="#D4EDD4" stroke="#C8622A" stroke-width="1.8"/>
+              <line x1="32" y1="56" x2="32" y2="16" stroke="#C8622A" stroke-width="1.3" opacity="0.5" stroke-linecap="round"/>
+              <path d="M32 38 Q24 32 18 26" fill="none" stroke="#C8622A" stroke-width="1" opacity="0.45"/>
+              <path d="M32 38 Q40 32 46 26" fill="none" stroke="#C8622A" stroke-width="1" opacity="0.45"/>
+              <path d="M32 48 Q26 44 22 40" fill="none" stroke="#C8622A" stroke-width="1" opacity="0.45"/>
+              <path d="M32 48 Q38 44 42 40" fill="none" stroke="#C8622A" stroke-width="1" opacity="0.45"/>
+            </svg>
+            <div class="food-card__name">Spinach</div>
+            <div class="food-card__grams">200g</div>
+            <div class="food-card__kcal">~46 kcal</div>
+          </div>
+          <div class="food-card">
+            <svg class="food-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <ellipse cx="32" cy="44" rx="18" ry="11" fill="#D4EDD4" stroke="#C8622A" stroke-width="1.8"/>
+              <circle cx="32" cy="44" r="6" fill="#FAF8F4" stroke="#C8622A" stroke-width="1.2" opacity="0.8"/>
+              <ellipse cx="32" cy="28" rx="18" ry="11" fill="#D4EDD4" stroke="#C8622A" stroke-width="1.8"/>
+              <circle cx="32" cy="28" r="6" fill="#FAF8F4" stroke="#C8622A" stroke-width="1.2" opacity="0.8"/>
+            </svg>
+            <div class="food-card__name">Cucumber</div>
+            <div class="food-card__grams">200g</div>
+            <div class="food-card__kcal">~30 kcal</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="meals-disclaimer">
+        <strong>These are examples, not a meal plan.</strong> The grams show what hitting each macro group looks like in real food. Mix and match however you want as long as total calories match your target.
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SECTION 4: TRANSFORMATION
+  ============================================================ -->
+  <section class="tool-section tool-section--alt" id="transformation">
+    <div class="tool-wrap">
+      <p class="section-eyebrow">Step 4</p>
+      <h2 class="section-title">What will you actually look like?</h2>
+      <p class="section-desc">Same calorie target. Two completely different outcomes. This is why lifting matters beyond the scale number.</p>
+
+      <div class="t-goals">
+        <button class="t-goal-btn active" data-tg="lose" type="button">Lose Weight</button>
+        <button class="t-goal-btn" data-tg="recomp" type="button">Lose Fat + Get Fit</button>
+        <button class="t-goal-btn" data-tg="muscle" type="button">Build Muscle</button>
+      </div>
+
+      <div class="figures-row">
+        <div class="figure-col">
+          <svg class="figure-col__svg" id="svg-now" viewBox="0 0 120 200" xmlns="http://www.w3.org/2000/svg" aria-label="Current body shape"></svg>
+          <div class="figure-col__tag">Right now</div>
+          <div class="figure-col__stat" id="fig-now-stat"></div>
+          <div class="figure-col__msg" id="fig-now-msg">Fill in the calculator above.</div>
+        </div>
+        <div class="figure-col">
+          <svg class="figure-col__svg" id="svg-diet" viewBox="0 0 120 200" xmlns="http://www.w3.org/2000/svg" aria-label="Diet only result"></svg>
+          <div class="figure-col__tag">Diet only</div>
+          <div class="figure-col__stat" id="fig-diet-time"></div>
+          <div class="figure-col__msg" id="fig-diet-msg">Lose the weight.</div>
+        </div>
+        <div class="figure-col">
+          <svg class="figure-col__svg" id="svg-lift" viewBox="0 0 120 200" xmlns="http://www.w3.org/2000/svg" aria-label="Diet plus lifting result"></svg>
+          <div class="figure-col__tag">Diet + lifting</div>
+          <div class="figure-col__stat" id="fig-lift-time"></div>
+          <div class="figure-col__msg" id="fig-lift-msg">Same timeline. Way better result.</div>
+        </div>
+      </div>
+
+      <div class="transform-callout" id="transform-callout">
+        Lifting 3x a week doesn't make you huge. It means when the fat comes off, there's actual muscle underneath. You'll look leaner at the same weight, your clothes fit differently, and you're way less likely to regain. The scale won't always show it. The mirror will.
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-logo">Rice and <span>Protein</span></div>
+    <ul class="footer-links">
+      <li><a href="about.html">About</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <p class="footer-disclaimer">This tool is for informational purposes only. Calorie estimates are based on population averages and may not reflect your individual metabolism. Talk to a doctor before making major changes to your diet or exercise routine.</p>
+  </footer>
+
+  <script>
+  (function () {
+    'use strict';
+
+    function $(id) { return document.getElementById(id); }
+
+    /* ----------------------------------------------------------
+       FOOD DATA  (per 100g unless noted)
+    ---------------------------------------------------------- */
+    var FOOD = {
+      rice:    { carbPct: 0.28, kcal: 130 },  // cooked white rice
+      potato:  { carbPct: 0.17, kcal: 77  },  // boiled potato
+      oats:    { carbPct: 0.66, kcal: 389 },  // raw oats
+      chicken: { protPct: 0.31, kcal: 165 },  // cooked chicken breast
+      steak:   { protPct: 0.26, kcal: 215 }   // lean cooked steak
+      // eggs: 6g protein each, 70 kcal each
+      // oil: ~884 kcal/100g, fat = 100g/100g
+    };
+
+    /* ----------------------------------------------------------
+       MEAL PLANNER
+    ---------------------------------------------------------- */
+    function updateMeals(cals) {
+      if (!cals || cals <= 0) return;
+
+      var protG = (cals * 0.30) / 4;
+      var carbG = (cals * 0.45) / 4;
+      var fatG  = (cals * 0.25) / 9;
+
+      $('total-protein').textContent = Math.round(protG) + 'g protein';
+      $('total-carbs').textContent   = Math.round(carbG) + 'g carbs';
+      $('total-fat').textContent     = Math.round(fatG) + 'g fat';
+
+      // Each carb food = 1/3 of carbG
+      var carbPer = carbG / 3;
+      function carbCard(food, gId, kcalId) {
+        var g = Math.round(carbPer / food.carbPct * 100);
+        $(gId).textContent    = g + 'g';
+        $(kcalId).textContent = Math.round(g * food.kcal / 100) + ' kcal';
+      }
+      carbCard(FOOD.rice,   'rice-g',   'rice-kcal');
+      carbCard(FOOD.potato, 'potato-g', 'potato-kcal');
+      carbCard(FOOD.oats,   'oats-g',   'oats-kcal');
+
+      // Each protein food = 1/3 of protG
+      var protPer = protG / 3;
+
+      var chickenG = Math.round(protPer / FOOD.chicken.protPct * 100);
+      $('chicken-g').textContent    = chickenG + 'g';
+      $('chicken-kcal').textContent = Math.round(chickenG * FOOD.chicken.kcal / 100) + ' kcal';
+
+      var eggs = Math.max(1, Math.round(protPer / 6));
+      $('egg-g').textContent    = eggs + (eggs === 1 ? ' egg' : ' eggs');
+      $('egg-kcal').textContent = (eggs * 70) + ' kcal';
+
+      var steakG = Math.round(protPer / FOOD.steak.protPct * 100);
+      $('steak-g').textContent    = steakG + 'g';
+      $('steak-kcal').textContent = Math.round(steakG * FOOD.steak.kcal / 100) + ' kcal';
+
+      // Fat: 50/50 between oils. Oil ~884 kcal/100g
+      var oilG    = Math.round(fatG / 2);
+      var oilTbsp = (oilG / 14).toFixed(1);
+      var oilKcal = Math.round(oilG * 8.84);
+      $('oliveoil-g').textContent    = oilG + 'g (' + oilTbsp + ' tbsp)';
+      $('oliveoil-kcal').textContent = oilKcal + ' kcal';
+      $('cookingoil-g').textContent    = oilG + 'g (' + oilTbsp + ' tbsp)';
+      $('cookingoil-kcal').textContent = oilKcal + ' kcal';
+    }
+
+    /* ----------------------------------------------------------
+       SVG FIGURE DRAWING
+       fat: 0.0 (lean) to 1.0 (obese)
+       muscular: bool
+       mood: 'happy' | 'neutral' | 'sad'
+    ---------------------------------------------------------- */
+    function drawBody(svgId, fat, muscular, mood) {
+      var el = $(svgId);
+      if (!el) return;
+      fat = Math.max(0, Math.min(1, fat));
+
+      var cx   = 60;
+      var skin = '#E8D5C4';
+      var body = fat > 0.45 ? '#D4BEA8' : '#DCCFC4';
+      var ac   = '#C8622A';
+      var sw   = 1.6;
+
+      // Measurements scale with fatness
+      var headR  = 16, headCY = 22;
+      var neckW  = 9;
+      var neckT  = headCY + headR;       // 38
+      var neckB  = neckT + 10;           // 48
+
+      var shW    = 36 + fat * 22 + (muscular ? 12 : 0);
+      var wsW    = 26 + fat * 26 - (muscular ? 6 : 0);
+      var hipW   = 34 + fat * 28;
+      var torsoT = neckB;                // 48
+      var waistY = torsoT + 36;          // 84
+      var torsoB = torsoT + 66;          // 114
+
+      var armW   = 10 + fat * 6 + (muscular ? 3 : 0);
+      var armT   = torsoT + 4;           // 52
+      var armB   = armT + 54;            // 106
+
+      var legW   = 14 + fat * 5;
+      var legT   = torsoB;               // 114
+      var legB   = legT + 72;            // 186
+
+      var lAX    = cx - shW / 2 - armW / 2 + 2;
+      var rAX    = cx + shW / 2 + armW / 2 - 2;
+
+      function rct(x, y, w, h, rx, fill) {
+        return '<rect x="' + x.toFixed(1) + '" y="' + y + '" width="' + w.toFixed(1) +
+               '" height="' + h + '" rx="' + rx.toFixed(1) +
+               '" fill="' + fill + '" stroke="' + ac + '" stroke-width="' + sw + '"/>';
+      }
+
+      var o = '';
+
+      // Arms (behind torso)
+      o += rct(lAX - armW / 2, armT, armW, armB - armT, armW / 2, body);
+      o += rct(rAX - armW / 2, armT, armW, armB - armT, armW / 2, body);
+
+      // Legs
+      o += rct(cx - legW - 3, legT, legW, legB - legT, legW / 2, body);
+      o += rct(cx + 3,        legT, legW, legB - legT, legW / 2, body);
+
+      // Torso (shoulder to waist to hip via quadratic bezier)
+      var tl = cx - shW / 2, tr = cx + shW / 2;
+      var wl = cx - wsW / 2, wr = cx + wsW / 2;
+      var hl = cx - hipW / 2, hr = cx + hipW / 2;
+      o += '<path d="M' + tl.toFixed(1) + ' ' + torsoT +
+           ' Q' + wl.toFixed(1) + ' ' + waistY + ' ' + hl.toFixed(1) + ' ' + torsoB +
+           ' L' + hr.toFixed(1) + ' ' + torsoB +
+           ' Q' + wr.toFixed(1) + ' ' + waistY + ' ' + tr.toFixed(1) + ' ' + torsoT +
+           ' Z" fill="' + body + '" stroke="' + ac + '" stroke-width="' + sw + '"/>';
+
+      // Muscle definition lines
+      if (muscular) {
+        o += '<line x1="' + (cx - 9) + '" y1="' + (torsoT + 10) + '" x2="' + (cx - 3) + '" y2="' + waistY +
+             '" stroke="' + ac + '" stroke-width="1" stroke-linecap="round" opacity="0.22"/>';
+        o += '<line x1="' + (cx + 9) + '" y1="' + (torsoT + 10) + '" x2="' + (cx + 3) + '" y2="' + waistY +
+             '" stroke="' + ac + '" stroke-width="1" stroke-linecap="round" opacity="0.22"/>';
+      }
+
+      // Neck
+      o += rct(cx - neckW / 2, neckT, neckW, neckB - neckT, neckW / 2, skin);
+
+      // Head
+      o += '<circle cx="' + cx + '" cy="' + headCY + '" r="' + headR +
+           '" fill="' + skin + '" stroke="' + ac + '" stroke-width="' + sw + '"/>';
+
+      // Eyes
+      o += '<circle cx="' + (cx - 5) + '" cy="' + (headCY - 3) + '" r="2" fill="' + ac + '"/>';
+      o += '<circle cx="' + (cx + 5) + '" cy="' + (headCY - 3) + '" r="2" fill="' + ac + '"/>';
+
+      // Mouth
+      var my = headCY;
+      if (mood === 'happy') {
+        o += '<path d="M' + (cx - 5) + ' ' + (my + 5) + ' Q' + cx + ' ' + (my + 12) +
+             ' ' + (cx + 5) + ' ' + (my + 5) + '" stroke="' + ac +
+             '" stroke-width="1.6" fill="none" stroke-linecap="round"/>';
+      } else if (mood === 'sad') {
+        o += '<path d="M' + (cx - 5) + ' ' + (my + 11) + ' Q' + cx + ' ' + (my + 5) +
+             ' ' + (cx + 5) + ' ' + (my + 11) + '" stroke="' + ac +
+             '" stroke-width="1.6" fill="none" stroke-linecap="round"/>';
+      } else {
+        o += '<line x1="' + (cx - 4) + '" y1="' + (my + 8) + '" x2="' + (cx + 4) + '" y2="' + (my + 8) +
+             '" stroke="' + ac + '" stroke-width="1.6" stroke-linecap="round"/>';
+      }
+
+      el.innerHTML = o;
+    }
+
+    /* ----------------------------------------------------------
+       TRANSFORMATION
+    ---------------------------------------------------------- */
+    var tgoal = 'lose';
+
+    var CALLOUTS = {
+      lose:   'Diet only and you lose fat, sure. But without lifting you also lose muscle. End result: a smaller version of the same shape. Add 3x lifting a week and the fat comes off but the muscle stays. Your clothes fit completely differently.',
+      recomp: 'Body recomposition is real. Eating at a moderate deficit while lifting means your body burns fat for fuel and builds muscle from your protein intake. The scale barely moves some weeks but how you look changes a lot.',
+      muscle: 'To build muscle you need two things: a small calorie surplus and you need to lift. The lifting matters way more than the extra food. Keep the surplus small, protein high, and train 3x a week minimum.'
+    };
+
+    function updateTransformation(state) {
+      var w   = state.weight_kg || 0;
+      var h   = state.height_cm || 0;
+      var td  = state.tdee      || 0;
+      var pct = state.pct       || 20;
+
+      if (!w || !h) {
+        drawBody('svg-now',  0.62, false, 'neutral');
+        drawBody('svg-diet', 0.28, false, 'neutral');
+        drawBody('svg-lift', 0.20, true,  'happy');
+        $('fig-now-stat').textContent  = '';
+        $('fig-diet-time').textContent = '';
+        $('fig-lift-time').textContent = '';
+        $('fig-now-msg').textContent   = 'Fill in the calculator above.';
+        $('fig-diet-msg').textContent  = 'Lose the weight.';
+        $('fig-lift-msg').textContent  = 'Same timeline. Way better result.';
+        return;
+      }
+
+      var hm  = h / 100;
+      var bmi = w / (hm * hm);
+      // Map BMI 18.5-40 to fatness 0-1
+      var curFat = Math.min(1, Math.max(0, (bmi - 18.5) / (40 - 18.5)));
+
+      // Target: reach BMI 22
+      var targetW  = 22 * hm * hm;
+      var toLose   = Math.max(0, w - targetW);
+
+      // Months to goal based on daily deficit
+      var dailyDef = td > 0 ? td * (pct / 100) : w * 10 * 0.20;
+      var months   = dailyDef > 0 ? Math.ceil((toLose * 7700) / (dailyDef * 30)) : 0;
+
+      // Fatness at target weight (BMI 22)
+      var tgtFat = Math.max(0, (22 - 18.5) / (40 - 18.5));  // ~0.168
+
+      var cfgs = {
+        lose: {
+          now:  { fat: curFat,             musc: false, mood: curFat > 0.4 ? 'sad'    : 'neutral' },
+          diet: { fat: tgtFat + 0.04,      musc: false, mood: 'neutral' },
+          lift: { fat: tgtFat,             musc: true,  mood: 'happy'   },
+          dietMsg: 'Weight drops. But without lifting you lose muscle too.',
+          liftMsg: 'Same timeline. But the muscle stays and you look leaner.'
+        },
+        recomp: {
+          now:  { fat: curFat,             musc: false, mood: 'neutral' },
+          diet: { fat: tgtFat + 0.06,      musc: false, mood: 'neutral' },
+          lift: { fat: Math.max(0, tgtFat - 0.04), musc: true, mood: 'happy' },
+          dietMsg: 'Fat drops. Muscle stays the same. Decent result.',
+          liftMsg: 'Fat drops AND muscle grows. This is the move.'
+        },
+        muscle: {
+          now:  { fat: curFat,             musc: false, mood: 'neutral' },
+          diet: { fat: Math.max(0, curFat - 0.15), musc: false, mood: 'neutral' },
+          lift: { fat: Math.max(0, tgtFat - 0.04), musc: true,  mood: 'happy' },
+          dietMsg: 'You lose some fat but build almost no muscle.',
+          liftMsg: 'Small surplus plus lifting: stronger, bigger, leaner.'
+        }
+      };
+
+      var cfg = cfgs[tgoal];
+
+      drawBody('svg-now',  cfg.now.fat,  cfg.now.musc,  cfg.now.mood);
+      drawBody('svg-diet', cfg.diet.fat, cfg.diet.musc, 'neutral');
+      drawBody('svg-lift', cfg.lift.fat, cfg.lift.musc, cfg.lift.mood);
+
+      var bmiCat = bmi > 30 ? 'Obese' : bmi > 25 ? 'Overweight' : bmi > 18.5 ? 'Normal range' : 'Underweight';
+      $('fig-now-stat').textContent  = Math.round(w) + 'kg, BMI ' + bmi.toFixed(1);
+      $('fig-now-msg').textContent   = bmiCat + '. ' + (bmi > 27 ? 'You got this.' : bmi > 23 ? 'Not far off.' : 'Already decent.');
+
+      if (months > 0) {
+        var tStr = months < 2 ? 'About 1 month' : 'About ' + months + ' months';
+        $('fig-diet-time').textContent = tStr;
+        $('fig-lift-time').textContent = tStr;
+      } else {
+        $('fig-diet-time').textContent = 'Already in range';
+        $('fig-lift-time').textContent = 'Focus on building';
+      }
+
+      $('fig-diet-msg').textContent   = cfg.dietMsg;
+      $('fig-lift-msg').textContent   = cfg.liftMsg;
+      $('transform-callout').textContent = CALLOUTS[tgoal];
+    }
+
+    /* ----------------------------------------------------------
+       TRANSFORMATION GOAL BUTTONS
+    ---------------------------------------------------------- */
+    document.querySelectorAll('.t-goal-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        tgoal = btn.dataset.tg;
+        document.querySelectorAll('.t-goal-btn').forEach(function (b) {
+          b.classList.toggle('active', b === btn);
+        });
+        var s = (window.RNP && window.RNP.getState) ? window.RNP.getState() : {};
+        updateTransformation(s);
+      });
+    });
+
+    /* ----------------------------------------------------------
+       FOOD CARD SCROLL ANIMATION
+    ---------------------------------------------------------- */
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) {
+            e.target.classList.add('in-view');
+            io.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.1 });
+
+      document.querySelectorAll('.food-card').forEach(function (card, i) {
+        card.style.transitionDelay = ((i % 3) * 0.1) + 's';
+        io.observe(card);
+      });
+    } else {
+      document.querySelectorAll('.food-card').forEach(function (c) {
+        c.classList.add('in-view');
+      });
+    }
+
+    /* ----------------------------------------------------------
+       RECEIVE UPDATES FROM PART 1
+    ---------------------------------------------------------- */
+    window.onGoalUpdate = function (state) {
+      updateMeals(state.targetCals || state.tdee);
+      updateTransformation(state);
+    };
+
+    // Draw default figures on load
+    updateTransformation({});
+
+  })();
+  </script>
 
   <script>
   (function () {

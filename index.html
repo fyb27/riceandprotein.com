@@ -1012,11 +1012,123 @@
       text-align: center;
     }
 
-    .figure-col__svg {
-      display: block;
-      max-width: 100px;
+    /* ---- Body Figures ---- */
+    .body-figure {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
       margin: 0 auto 16px;
     }
+
+    .bf-head {
+      width: 38px; height: 38px;
+      border-radius: 50%;
+      background: #E8C5A8;
+      position: relative;
+      flex-shrink: 0;
+    }
+    .bf-head::before {
+      content: '';
+      position: absolute;
+      width: 5px; height: 5px;
+      border-radius: 50%;
+      background: var(--accent);
+      top: 11px; left: 7px;
+      box-shadow: 12px 0 0 var(--accent);
+    }
+    .bf-head::after {
+      content: '';
+      position: absolute;
+      width: 12px; height: 2px;
+      background: var(--accent);
+      border-radius: 2px;
+      bottom: 9px;
+      left: 50%; transform: translateX(-50%);
+    }
+    .body-figure[data-mood="happy"] .bf-head::after {
+      width: 14px; height: 8px;
+      background: transparent;
+      border-bottom: 2.5px solid var(--accent);
+      border-radius: 0 0 99px 99px;
+      bottom: 7px;
+    }
+    .body-figure[data-mood="sad"] .bf-head::after {
+      width: 12px; height: 6px;
+      background: transparent;
+      border-top: 2.5px solid var(--accent);
+      border-radius: 99px 99px 0 0;
+      top: 24px; bottom: auto;
+    }
+
+    .bf-neck {
+      background: #E8C5A8;
+      border-radius: 0 0 4px 4px;
+      margin-top: -2px;
+      flex-shrink: 0;
+      position: relative;
+      z-index: 2;
+    }
+
+    .bf-upper { display: flex; align-items: flex-start; flex-shrink: 0; }
+    .bf-arm   { border-radius: 99px; flex-shrink: 0; }
+    .bf-torso { position: relative; flex-shrink: 0; }
+    .bf-legs  { display: flex; flex-shrink: 0; margin-top: 3px; }
+    .bf-leg   { border-radius: 99px; flex-shrink: 0; }
+
+    /* Fat */
+    .body-figure--fat .bf-neck  { width: 16px; height: 8px; }
+    .body-figure--fat .bf-upper { gap: 2px; }
+    .body-figure--fat .bf-arm   { width: 13px; height: 55px; background: #D4A88A; margin-top: 2px; }
+    .body-figure--fat .bf-torso {
+      width: 60px; height: 70px;
+      background: #D4A88A;
+      border-radius: 14px;
+      overflow: visible;
+    }
+    .body-figure--fat .bf-torso::after {
+      content: '';
+      position: absolute;
+      width: 52px; height: 38px;
+      background: #C49272;
+      border-radius: 50%;
+      bottom: 8px;
+      left: 50%; transform: translateX(-50%);
+    }
+    .body-figure--fat .bf-legs { gap: 7px; }
+    .body-figure--fat .bf-leg  { width: 19px; height: 58px; background: #D4A88A; }
+
+    /* Slim */
+    .body-figure--slim .bf-neck  { width: 13px; height: 8px; }
+    .body-figure--slim .bf-upper { gap: 2px; }
+    .body-figure--slim .bf-arm   { width: 10px; height: 54px; background: #DABC9C; margin-top: 2px; }
+    .body-figure--slim .bf-torso {
+      width: 44px; height: 68px;
+      background: #DABC9C;
+      border-radius: 10px 10px 8px 8px;
+    }
+    .body-figure--slim .bf-legs { gap: 5px; }
+    .body-figure--slim .bf-leg  { width: 15px; height: 63px; background: #DABC9C; }
+
+    /* Fit */
+    .body-figure--fit .bf-neck  { width: 13px; height: 8px; }
+    .body-figure--fit .bf-upper { gap: 2px; }
+    .body-figure--fit .bf-arm   { width: 12px; height: 54px; background: #C8966A; margin-top: 2px; }
+    .body-figure--fit .bf-torso {
+      width: 62px; height: 62px;
+      background: #C8966A;
+      clip-path: polygon(0% 0%, 100% 0%, 74% 100%, 26% 100%);
+    }
+    .body-figure--fit .bf-torso::after {
+      content: '';
+      position: absolute;
+      top: 14px; left: 50%;
+      transform: translateX(-50%);
+      width: 2px; height: 28px;
+      background: rgba(168, 78, 34, 0.22);
+      border-radius: 1px;
+    }
+    .body-figure--fit .bf-legs { gap: 5px; }
+    .body-figure--fit .bf-leg  { width: 17px; height: 65px; background: #C8966A; }
 
     .figure-col__tag {
       font-size: 10px;
@@ -1109,7 +1221,7 @@
         margin-left: auto;
         margin-right: auto;
       }
-      .figure-col__svg { max-width: 80px; }
+      .body-figure { transform: scale(0.82); transform-origin: top center; }
       .t-goal-btn { padding: 10px 18px; font-size: 12px; }
     }
 
@@ -1309,19 +1421,55 @@
 
       <div class="figures-row">
         <div class="figure-col">
-          <svg class="figure-col__svg" id="svg-now" viewBox="0 0 120 200" xmlns="http://www.w3.org/2000/svg" aria-label="Current body shape"></svg>
+          <div class="body-figure body-figure--fat" id="fig-now" data-mood="neutral" aria-label="Current body shape">
+            <div class="bf-head"></div>
+            <div class="bf-neck"></div>
+            <div class="bf-upper">
+              <div class="bf-arm"></div>
+              <div class="bf-torso"></div>
+              <div class="bf-arm"></div>
+            </div>
+            <div class="bf-legs">
+              <div class="bf-leg"></div>
+              <div class="bf-leg"></div>
+            </div>
+          </div>
           <div class="figure-col__tag">Right now</div>
           <div class="figure-col__stat" id="fig-now-stat"></div>
           <div class="figure-col__msg" id="fig-now-msg">Fill in the calculator above.</div>
         </div>
         <div class="figure-col">
-          <svg class="figure-col__svg" id="svg-diet" viewBox="0 0 120 200" xmlns="http://www.w3.org/2000/svg" aria-label="Diet only result"></svg>
+          <div class="body-figure body-figure--slim" id="fig-diet" data-mood="neutral" aria-label="Diet only result">
+            <div class="bf-head"></div>
+            <div class="bf-neck"></div>
+            <div class="bf-upper">
+              <div class="bf-arm"></div>
+              <div class="bf-torso"></div>
+              <div class="bf-arm"></div>
+            </div>
+            <div class="bf-legs">
+              <div class="bf-leg"></div>
+              <div class="bf-leg"></div>
+            </div>
+          </div>
           <div class="figure-col__tag">Diet only</div>
           <div class="figure-col__stat" id="fig-diet-time"></div>
           <div class="figure-col__msg" id="fig-diet-msg">Lose the weight.</div>
         </div>
         <div class="figure-col">
-          <svg class="figure-col__svg" id="svg-lift" viewBox="0 0 120 200" xmlns="http://www.w3.org/2000/svg" aria-label="Diet plus lifting result"></svg>
+          <div class="body-figure body-figure--fit" id="fig-lift" data-mood="happy" aria-label="Diet plus lifting result">
+            <div class="bf-head"></div>
+            <div class="bf-neck"></div>
+            <div class="bf-upper">
+              <div class="bf-arm"></div>
+              <div class="bf-torso"></div>
+              <div class="bf-arm"></div>
+            </div>
+            <div class="bf-legs">
+              <div class="bf-leg"></div>
+              <div class="bf-leg"></div>
+            </div>
+          </div>
           <div class="figure-col__tag">Diet + lifting</div>
           <div class="figure-col__stat" id="fig-lift-time"></div>
           <div class="figure-col__msg" id="fig-lift-msg">Same timeline. Way better result.</div>
@@ -1410,111 +1558,13 @@
     }
 
     /* ----------------------------------------------------------
-       SVG FIGURE DRAWING
-       fat: 0.0 (lean) to 1.0 (obese)
-       muscular: bool
-       mood: 'happy' | 'neutral' | 'sad'
+       CSS FIGURE STATE
     ---------------------------------------------------------- */
-    function drawBody(svgId, fat, muscular, mood, opts) {
-      opts = opts || {};
-      var el = $(svgId);
+    function setFigure(id, state, mood) {
+      var el = $(id);
       if (!el) return;
-      fat = Math.max(0, Math.min(1, fat));
-
-      var vbW  = opts.vbW || 120;
-      var cx   = vbW / 2;
-      if (opts.vbW) el.setAttribute('viewBox', '0 0 ' + vbW + ' 200');
-
-      var skin = '#E8D5C4';
-      var body = fat > 0.45 ? '#D4BEA8' : '#DCCFC4';
-      var ac   = '#C8622A';
-      var sw   = 1.6;
-
-      // Measurements scale with fatness
-      var headR  = 16, headCY = 22;
-      var neckW  = 9;
-      var neckT  = headCY + headR;       // 38
-      var neckB  = neckT + 10;           // 48
-
-      var shW    = opts.shW  || (36 + fat * 22 + (muscular ? 12 : 0));
-      var wsW    = opts.wsW  || (26 + fat * 26 - (muscular ? 6 : 0));
-      var hipW   = 34 + fat * 28;
-      var torsoT = neckB;                // 48
-      var waistY = torsoT + 36;          // 84
-      var torsoB = torsoT + 66;          // 114
-
-      var armW   = opts.armW || (10 + fat * 6 + (muscular ? 3 : 0));
-      var armT   = torsoT + 4;           // 52
-      var armB   = armT + 54;            // 106
-
-      var legW   = 14 + fat * 5;
-      var legT   = torsoB;               // 114
-      var legB   = legT + 72;            // 186
-
-      var lAX    = cx - shW / 2 - armW / 2 + 2;
-      var rAX    = cx + shW / 2 + armW / 2 - 2;
-
-      function rct(x, y, w, h, rx, fill) {
-        return '<rect x="' + x.toFixed(1) + '" y="' + y + '" width="' + w.toFixed(1) +
-               '" height="' + h + '" rx="' + rx.toFixed(1) +
-               '" fill="' + fill + '" stroke="' + ac + '" stroke-width="' + sw + '"/>';
-      }
-
-      var o = '';
-
-      // Arms (behind torso)
-      o += rct(lAX - armW / 2, armT, armW, armB - armT, armW / 2, body);
-      o += rct(rAX - armW / 2, armT, armW, armB - armT, armW / 2, body);
-
-      // Legs
-      o += rct(cx - legW - 3, legT, legW, legB - legT, legW / 2, body);
-      o += rct(cx + 3,        legT, legW, legB - legT, legW / 2, body);
-
-      // Torso (shoulder to waist to hip via quadratic bezier)
-      var tl = cx - shW / 2, tr = cx + shW / 2;
-      var wl = cx - wsW / 2, wr = cx + wsW / 2;
-      var hl = cx - hipW / 2, hr = cx + hipW / 2;
-      o += '<path d="M' + tl.toFixed(1) + ' ' + torsoT +
-           ' Q' + wl.toFixed(1) + ' ' + waistY + ' ' + hl.toFixed(1) + ' ' + torsoB +
-           ' L' + hr.toFixed(1) + ' ' + torsoB +
-           ' Q' + wr.toFixed(1) + ' ' + waistY + ' ' + tr.toFixed(1) + ' ' + torsoT +
-           ' Z" fill="' + body + '" stroke="' + ac + '" stroke-width="' + sw + '"/>';
-
-      // Muscle definition lines
-      if (muscular) {
-        o += '<line x1="' + (cx - 9) + '" y1="' + (torsoT + 10) + '" x2="' + (cx - 3) + '" y2="' + waistY +
-             '" stroke="' + ac + '" stroke-width="1" stroke-linecap="round" opacity="0.22"/>';
-        o += '<line x1="' + (cx + 9) + '" y1="' + (torsoT + 10) + '" x2="' + (cx + 3) + '" y2="' + waistY +
-             '" stroke="' + ac + '" stroke-width="1" stroke-linecap="round" opacity="0.22"/>';
-      }
-
-      // Neck
-      o += rct(cx - neckW / 2, neckT, neckW, neckB - neckT, neckW / 2, skin);
-
-      // Head
-      o += '<circle cx="' + cx + '" cy="' + headCY + '" r="' + headR +
-           '" fill="' + skin + '" stroke="' + ac + '" stroke-width="' + sw + '"/>';
-
-      // Eyes
-      o += '<circle cx="' + (cx - 5) + '" cy="' + (headCY - 3) + '" r="2" fill="' + ac + '"/>';
-      o += '<circle cx="' + (cx + 5) + '" cy="' + (headCY - 3) + '" r="2" fill="' + ac + '"/>';
-
-      // Mouth
-      var my = headCY;
-      if (mood === 'happy') {
-        o += '<path d="M' + (cx - 5) + ' ' + (my + 5) + ' Q' + cx + ' ' + (my + 12) +
-             ' ' + (cx + 5) + ' ' + (my + 5) + '" stroke="' + ac +
-             '" stroke-width="1.6" fill="none" stroke-linecap="round"/>';
-      } else if (mood === 'sad') {
-        o += '<path d="M' + (cx - 5) + ' ' + (my + 11) + ' Q' + cx + ' ' + (my + 5) +
-             ' ' + (cx + 5) + ' ' + (my + 11) + '" stroke="' + ac +
-             '" stroke-width="1.6" fill="none" stroke-linecap="round"/>';
-      } else {
-        o += '<line x1="' + (cx - 4) + '" y1="' + (my + 8) + '" x2="' + (cx + 4) + '" y2="' + (my + 8) +
-             '" stroke="' + ac + '" stroke-width="1.6" stroke-linecap="round"/>';
-      }
-
-      el.innerHTML = o;
+      el.className = 'body-figure body-figure--' + state;
+      el.setAttribute('data-mood', mood || 'neutral');
     }
 
     /* ----------------------------------------------------------
@@ -1528,16 +1578,24 @@
       muscle: 'To build muscle you need two things: a small calorie surplus and you need to lift. The lifting matters way more than the extra food. Keep the surplus small, protein high, and train 3x a week minimum.'
     };
 
+    var MSGS = {
+      lose:   { diet: 'Weight drops. But without lifting you lose muscle too.',    lift: 'Same timeline. But the muscle stays and you look leaner.' },
+      recomp: { diet: 'Fat drops. Muscle stays the same. Decent result.',          lift: 'Fat drops AND muscle grows. This is the move.' },
+      muscle: { diet: 'You lose some fat but build almost no muscle.',             lift: 'Small surplus plus lifting: stronger, bigger, leaner.' }
+    };
+
     function updateTransformation(state) {
       var w   = state.weight_kg || 0;
       var h   = state.height_cm || 0;
       var td  = state.tdee      || 0;
       var pct = state.pct       || 20;
 
+      $('transform-callout').textContent = CALLOUTS[tgoal];
+
       if (!w || !h) {
-        drawBody('svg-now',  0.62, false, 'neutral');
-        drawBody('svg-diet', 0.28, false, 'neutral');
-        drawBody('svg-lift', 0.20, true,  'happy');
+        setFigure('fig-now',  'fat',  'neutral');
+        setFigure('fig-diet', 'slim', 'neutral');
+        setFigure('fig-lift', 'fit',  'happy');
         $('fig-now-stat').textContent  = '';
         $('fig-diet-time').textContent = '';
         $('fig-lift-time').textContent = '';
@@ -1549,56 +1607,23 @@
 
       var hm  = h / 100;
       var bmi = w / (hm * hm);
-      // Map BMI 18.5-40 to fatness 0-1
       var curFat = Math.min(1, Math.max(0, (bmi - 18.5) / (40 - 18.5)));
 
-      // Target: reach BMI 22
+      var nowState = curFat > 0.4 ? 'fat' : curFat > 0.15 ? 'slim' : 'fit';
+      var nowMood  = curFat > 0.45 ? 'sad' : 'neutral';
+
+      setFigure('fig-now',  nowState, nowMood);
+      setFigure('fig-diet', 'slim', 'neutral');
+      setFigure('fig-lift', 'fit',  'happy');
+
       var targetW  = 22 * hm * hm;
       var toLose   = Math.max(0, w - targetW);
-
-      // Months to goal based on daily deficit
       var dailyDef = td > 0 ? td * (pct / 100) : w * 10 * 0.20;
       var months   = dailyDef > 0 ? Math.ceil((toLose * 7700) / (dailyDef * 30)) : 0;
 
-      // Fatness at target weight (BMI 22)
-      var tgtFat = Math.max(0, (22 - 18.5) / (40 - 18.5));  // ~0.168
-
-      var cfgs = {
-        lose: {
-          now:  { fat: curFat,             musc: false, mood: curFat > 0.4 ? 'sad'    : 'neutral' },
-          diet: { fat: tgtFat + 0.04,      musc: false, mood: 'neutral' },
-          lift: { fat: tgtFat,             musc: true,  mood: 'happy'   },
-          liftOpts: { shW: 60 },
-          dietMsg: 'Weight drops. But without lifting you lose muscle too.',
-          liftMsg: 'Same timeline. But the muscle stays and you look leaner.'
-        },
-        recomp: {
-          now:  { fat: curFat,             musc: false, mood: 'neutral' },
-          diet: { fat: tgtFat + 0.06,      musc: false, mood: 'neutral' },
-          lift: { fat: Math.max(0, tgtFat - 0.04), musc: true, mood: 'happy' },
-          liftOpts: { shW: 80, wsW: 55 },
-          dietMsg: 'Fat drops. Muscle stays the same. Decent result.',
-          liftMsg: 'Fat drops AND muscle grows. This is the move.'
-        },
-        muscle: {
-          now:  { fat: curFat,             musc: false, mood: 'neutral' },
-          diet: { fat: Math.max(0, curFat - 0.15), musc: false, mood: 'neutral' },
-          lift: { fat: Math.max(0, tgtFat - 0.04), musc: true,  mood: 'happy' },
-          liftOpts: { shW: 100, wsW: 70, armW: 18, vbW: 140 },
-          dietMsg: 'You lose some fat but build almost no muscle.',
-          liftMsg: 'Small surplus plus lifting: stronger, bigger, leaner.'
-        }
-      };
-
-      var cfg = cfgs[tgoal];
-
-      drawBody('svg-now',  cfg.now.fat,  cfg.now.musc,  cfg.now.mood);
-      drawBody('svg-diet', cfg.diet.fat, cfg.diet.musc, 'neutral');
-      drawBody('svg-lift', cfg.lift.fat, cfg.lift.musc, cfg.lift.mood, cfg.liftOpts);
-
       var bmiCat = bmi > 30 ? 'Obese' : bmi > 25 ? 'Overweight' : bmi > 18.5 ? 'Normal range' : 'Underweight';
-      $('fig-now-stat').textContent  = Math.round(w) + 'kg, BMI ' + bmi.toFixed(1);
-      $('fig-now-msg').textContent   = bmiCat + '. ' + (bmi > 27 ? 'You got this.' : bmi > 23 ? 'Not far off.' : 'Already decent.');
+      $('fig-now-stat').textContent = Math.round(w) + 'kg, BMI ' + bmi.toFixed(1);
+      $('fig-now-msg').textContent  = bmiCat + '. ' + (bmi > 27 ? 'You got this.' : bmi > 23 ? 'Not far off.' : 'Already decent.');
 
       if (months > 0) {
         var tStr = months < 2 ? 'About 1 month' : 'About ' + months + ' months';
@@ -1609,9 +1634,8 @@
         $('fig-lift-time').textContent = 'Focus on building';
       }
 
-      $('fig-diet-msg').textContent   = cfg.dietMsg;
-      $('fig-lift-msg').textContent   = cfg.liftMsg;
-      $('transform-callout').textContent = CALLOUTS[tgoal];
+      $('fig-diet-msg').textContent = MSGS[tgoal].diet;
+      $('fig-lift-msg').textContent = MSGS[tgoal].lift;
     }
 
     /* ----------------------------------------------------------

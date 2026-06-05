@@ -958,6 +958,89 @@
       font-style: italic;
     }
 
+    /* SUMMARY (section 07) */
+    .sum-msg-locked {
+      font-size: 14px;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    .summary-card {
+      border: 1.5px solid var(--border);
+      overflow: hidden;
+      margin-bottom: 24px;
+    }
+
+    .summary-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 22px;
+      border-bottom: 1px solid var(--border);
+      gap: 20px;
+    }
+
+    .summary-row:last-child { border-bottom: none; }
+
+    .summary-row__label {
+      font-size: 13px;
+      color: var(--muted);
+      flex: 1;
+    }
+
+    .summary-row__hint {
+      display: block;
+      font-size: 11px;
+      opacity: 0.75;
+      margin-top: 2px;
+    }
+
+    .summary-row__val {
+      font-family: 'DM Serif Display', serif;
+      font-size: 20px;
+      color: var(--accent);
+      line-height: 1;
+      text-align: right;
+      flex-shrink: 0;
+      white-space: nowrap;
+    }
+
+    .summary-row__unit {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 12px;
+      color: var(--muted);
+      font-weight: 400;
+      margin-left: 3px;
+    }
+
+    .summary-sentence {
+      font-family: 'DM Serif Display', serif;
+      font-size: 20px;
+      line-height: 1.45;
+      color: var(--accent);
+      margin-bottom: 20px;
+      max-width: 600px;
+    }
+
+    .summary-copy {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 24px;
+      background: var(--accent);
+      color: var(--white);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      border: none;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .summary-copy:hover { background: var(--accent2); }
+
     /* RESPONSIVE */
     @media (max-width: 640px) {
       .site-nav { display: none; }
@@ -997,6 +1080,9 @@
       .protein-card { padding: 20px 16px; flex-direction: column; align-items: flex-start; gap: 10px; }
       .acc-title { font-size: 18px; }
       .pb-level-btn { font-size: 12px; padding: 10px 8px; }
+      .summary-row { flex-direction: column; align-items: flex-start; gap: 4px; padding: 12px 16px; }
+      .summary-row__val { text-align: left; font-size: 18px; }
+      .summary-sentence { font-size: 17px; }
       .pb-row { flex-wrap: wrap; gap: 8px; }
       .pb-row__food { width: 100%; order: 1; flex: none; }
       .pb-row__amt { width: 72px; order: 2; }
@@ -1165,7 +1251,7 @@
       </div>
     </div>
 
-    <!-- ACCORDIONS: SECTIONS 2-6 -->
+    <!-- ACCORDIONS: SECTIONS 2-7 -->
     <div class="accordions">
 
       <!-- SECTION 2: HOW TO HIT YOUR PROTEIN TARGET -->
@@ -1316,6 +1402,80 @@
       </div>
 
 
+      <!-- SECTION 7: YOUR SUMMARY -->
+      <div class="accordion" id="acc-7">
+        <div class="acc-header" role="button" tabindex="0" aria-expanded="false" aria-controls="acc-7-body">
+          <span class="acc-num">07</span>
+          <span class="acc-title">Your summary</span>
+          <svg class="acc-chevron" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M4 7l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="acc-body" id="acc-7-body">
+          <div class="acc-content">
+
+            <div id="summary-locked">
+              <p class="sum-msg-locked">Complete Step 1 above to see your summary.</p>
+            </div>
+
+            <div id="summary-unlocked" hidden>
+              <div class="summary-card">
+
+                <div class="summary-row">
+                  <div class="summary-row__label">BMR<span class="summary-row__hint">what your body burns at complete rest</span></div>
+                  <div class="summary-row__val"><span id="sum-bmr">--</span><span class="summary-row__unit">kcal/day</span></div>
+                </div>
+
+                <div class="summary-row">
+                  <div class="summary-row__label">TDEE<span class="summary-row__hint">your maintenance calories</span></div>
+                  <div class="summary-row__val"><span id="sum-tdee">--</span><span class="summary-row__unit">kcal/day</span></div>
+                </div>
+
+                <div class="summary-row">
+                  <div class="summary-row__label">Daily calorie target<span class="summary-row__hint" id="sum-target-hint">your deficit target</span></div>
+                  <div class="summary-row__val"><span id="sum-target">--</span><span class="summary-row__unit">kcal/day</span></div>
+                </div>
+
+                <div class="summary-row">
+                  <div class="summary-row__label">Protein target<span class="summary-row__hint">per day</span></div>
+                  <div class="summary-row__val" id="sum-protein">-- to --g</div>
+                </div>
+
+                <div class="summary-row">
+                  <div class="summary-row__label">Current weight</div>
+                  <div class="summary-row__val"><span id="sum-cw">--</span><span class="summary-row__unit">kg</span></div>
+                </div>
+
+                <div class="summary-row" id="sum-row-gw">
+                  <div class="summary-row__label">Goal weight</div>
+                  <div class="summary-row__val"><span id="sum-gw">--</span><span class="summary-row__unit">kg</span></div>
+                </div>
+
+                <div class="summary-row" id="sum-row-wtl">
+                  <div class="summary-row__label">Weight to lose</div>
+                  <div class="summary-row__val"><span id="sum-wtl">--</span><span class="summary-row__unit">kg</span></div>
+                </div>
+
+                <div class="summary-row" id="sum-row-time">
+                  <div class="summary-row__label">Estimated time to goal</div>
+                  <div class="summary-row__val"><span id="sum-time">--</span><span class="summary-row__unit">months</span></div>
+                </div>
+
+                <div class="summary-row">
+                  <div class="summary-row__label" id="sum-deficit-label">Weekly calorie deficit</div>
+                  <div class="summary-row__val"><span id="sum-deficit">--</span><span class="summary-row__unit">kcal</span></div>
+                </div>
+
+              </div>
+
+              <p class="summary-sentence" id="sum-sentence"></p>
+              <button class="summary-copy" id="sum-copy" type="button">Copy my numbers</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 
@@ -1341,6 +1501,7 @@
       weight_kg:   0,
       height_cm:   0,
       goal_weight: 0,
+      bmr:         0,
       tdee:        0,
       mode:        'cut',
       pct:         20,
@@ -1424,6 +1585,7 @@
       S.weight_kg = weight;
       S.height_cm = height;
       S.tdee      = avg;
+      S.bmr       = Math.round((bmrMifflin(weight, height, age, S.sex) + bmrHarris(weight, height, age, S.sex) + bmrSchofield(weight, age, S.sex)) / 3);
 
       var gw = parseFloat($('inp-goal-weight').value);
       S.goal_weight = (!isNaN(gw) && gw > 0) ? gw : 0;
@@ -1638,6 +1800,118 @@
       recalcAcc2();
     });
 
+    /* SUMMARY (section 07) */
+    function updateSummary() {
+      var locked   = $('summary-locked');
+      var unlocked = $('summary-unlocked');
+      if (!S.tdee) {
+        locked.removeAttribute('hidden');
+        unlocked.setAttribute('hidden', '');
+        return;
+      }
+      locked.setAttribute('hidden', '');
+      unlocked.removeAttribute('hidden');
+
+      var w   = S.goal_weight || S.weight_kg;
+      var lo  = Math.round(w * 1.6);
+      var hi  = Math.round(w * 2.2);
+      var mid = Math.round(w * 1.9);
+
+      $('sum-bmr').textContent         = fmt(S.bmr);
+      $('sum-tdee').textContent        = fmt(S.tdee);
+      $('sum-target').textContent      = fmt(S.targetCals);
+      $('sum-target-hint').textContent = S.mode === 'cut' ? 'your deficit target' : 'your surplus target';
+      $('sum-protein').textContent     = lo + ' to ' + hi + 'g';
+      $('sum-cw').textContent          = S.weight_kg;
+
+      var gwRow = $('sum-row-gw');
+      if (S.goal_weight > 0) {
+        gwRow.removeAttribute('hidden');
+        $('sum-gw').textContent = S.goal_weight;
+      } else {
+        gwRow.setAttribute('hidden', '');
+      }
+
+      var wtlRow  = $('sum-row-wtl');
+      var timeRow = $('sum-row-time');
+      var months  = 0;
+
+      if (S.mode === 'cut' && S.goal_weight > 0 && S.weight_kg > S.goal_weight) {
+        wtlRow.removeAttribute('hidden');
+        $('sum-wtl').textContent = (S.weight_kg - S.goal_weight).toFixed(1);
+
+        var dailyDef   = S.tdee * (S.pct / 100);
+        var weeklyLoss = (dailyDef / 1000) * 0.9;
+        if (weeklyLoss > 0) {
+          var weeks = Math.ceil((S.weight_kg - S.goal_weight) / weeklyLoss);
+          months = Math.ceil(weeks / 4.3);
+          timeRow.removeAttribute('hidden');
+          $('sum-time').textContent = months;
+        } else {
+          timeRow.setAttribute('hidden', '');
+        }
+      } else {
+        wtlRow.setAttribute('hidden', '');
+        timeRow.setAttribute('hidden', '');
+      }
+
+      var weeklyDef = Math.round(S.tdee * (S.pct / 100) * 7);
+      $('sum-deficit-label').textContent = S.mode === 'cut' ? 'Weekly calorie deficit' : 'Weekly calorie surplus';
+      $('sum-deficit').textContent       = fmt(weeklyDef);
+
+      var sentEl = $('sum-sentence');
+      if (S.mode === 'cut' && S.goal_weight > 0 && months > 0) {
+        sentEl.textContent = 'Eat ' + fmt(S.targetCals) + 'kcal a day, hit ' + mid + 'g of protein, and you will reach ' + S.goal_weight + 'kg in roughly ' + months + ' months.';
+      } else if (S.mode === 'cut') {
+        sentEl.textContent = 'Eat ' + fmt(S.targetCals) + 'kcal a day and hit ' + mid + 'g of protein every day.';
+      } else {
+        sentEl.textContent = 'Eat ' + fmt(S.targetCals) + 'kcal a day, hit ' + mid + 'g of protein, and stay consistent.';
+      }
+    }
+
+    $('sum-copy').addEventListener('click', function () {
+      var w      = S.goal_weight || S.weight_kg;
+      var lo     = Math.round(w * 1.6);
+      var hi     = Math.round(w * 2.2);
+      var months = 0;
+      if (S.mode === 'cut' && S.goal_weight > 0 && S.weight_kg > S.goal_weight) {
+        var dailyDef   = S.tdee * (S.pct / 100);
+        var weeklyLoss = (dailyDef / 1000) * 0.9;
+        if (weeklyLoss > 0) {
+          months = Math.ceil(Math.ceil((S.weight_kg - S.goal_weight) / weeklyLoss) / 4.3);
+        }
+      }
+      var goalLine = (S.goal_weight > 0 && months > 0)
+        ? 'Goal: ' + S.goal_weight + 'kg in ' + months + ' months'
+        : 'Goal weight: ' + (S.goal_weight > 0 ? S.goal_weight + 'kg' : 'not set');
+      var text = [
+        'My numbers from riceandprotein.com',
+        'BMR: ' + fmt(S.bmr) + 'kcal',
+        'TDEE: ' + fmt(S.tdee) + 'kcal',
+        'Daily target: ' + fmt(S.targetCals) + 'kcal',
+        'Protein: ' + lo + 'g to ' + hi + 'g',
+        goalLine
+      ].join('\n');
+
+      var btn = this;
+      function onCopied() {
+        btn.textContent = 'Copied!';
+        setTimeout(function () { btn.textContent = 'Copy my numbers'; }, 2000);
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(onCopied);
+      } else {
+        var ta = document.createElement('textarea');
+        ta.value = text;
+        ta.style.cssText = 'position:fixed;opacity:0;top:0;left:0';
+        document.body.appendChild(ta);
+        ta.select();
+        try { document.execCommand('copy'); } catch (e) {}
+        document.body.removeChild(ta);
+        onCopied();
+      }
+    });
+
     /* GOAL SELECTOR */
     $('btn-cut').addEventListener('click', function () {
       S.mode = 'cut';
@@ -1703,6 +1977,7 @@
       $('goal-desc').innerHTML   = desc;
       $('goal-note').textContent = note;
       S.targetCals               = target;
+      updateSummary();
     }
 
     /* TIMELINE */

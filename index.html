@@ -629,6 +629,39 @@
       color: var(--text);
     }
 
+    /* TRANSFORMATION TOGGLE */
+    .transf-toggle {
+      display: inline-flex;
+      border: 1.5px solid var(--border);
+      overflow: hidden;
+      margin-top: 32px;
+      margin-bottom: 20px;
+    }
+
+    .transf-btn {
+      padding: 10px 28px;
+      font-size: 13px;
+      font-weight: 600;
+      background: var(--white);
+      border: none;
+      color: var(--muted);
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+    }
+
+    .transf-btn + .transf-btn { border-left: 1.5px solid var(--border); }
+
+    .transf-btn.active {
+      background: var(--accent);
+      color: var(--white);
+    }
+
+    .transf-img {
+      display: block;
+      width: 100%;
+      border-radius: 8px;
+    }
+
     /* FOOTER */
     .site-footer {
       background: var(--text);
@@ -964,6 +997,13 @@
               <p>Women do not need to worry about becoming bulky. Building large amounts of muscle requires years of training and specific conditions. Three sessions per week will improve strength and shape, not create bulk.</p>
               <p>If the gym feels too far away right now, start with the diet. Nutrition does most of the work. Add lifting when you are ready.</p>
             </div>
+
+            <div class="transf-toggle" role="group" aria-label="View transformation example">
+              <button class="transf-btn active" id="transf-male" type="button">Male</button>
+              <button class="transf-btn" id="transf-female" type="button">Female</button>
+            </div>
+            <img class="transf-img" id="transf-img" src="images/transformation-male.jpg" alt="Male body transformation — fat loss with resistance training">
+
           </div>
         </div>
       </div>
@@ -1212,6 +1252,37 @@
         $('tl-weeks').textContent = '';
       }
     }
+
+    /* TRANSFORMATION TOGGLE */
+    (function () {
+      var img  = $('transf-img');
+      var btnM = $('transf-male');
+      var btnF = $('transf-female');
+      if (!img || !btnM || !btnF) return;
+
+      function recalcAcc5() {
+        var body = $('acc-5-body');
+        if (body && $('acc-5').classList.contains('open')) {
+          body.style.maxHeight = body.scrollHeight + 'px';
+        }
+      }
+
+      img.addEventListener('load', recalcAcc5);
+
+      btnM.addEventListener('click', function () {
+        img.src = 'images/transformation-male.jpg';
+        img.alt = 'Male body transformation — fat loss with resistance training';
+        btnM.classList.add('active');
+        btnF.classList.remove('active');
+      });
+
+      btnF.addEventListener('click', function () {
+        img.src = 'images/transformation-female.jpg';
+        img.alt = 'Female body transformation — fat loss with resistance training';
+        btnF.classList.add('active');
+        btnM.classList.remove('active');
+      });
+    })();
 
     /* ACCORDIONS */
     document.querySelectorAll('.accordion').forEach(function (acc) {

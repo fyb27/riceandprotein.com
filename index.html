@@ -16,20 +16,17 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
 
   <style>
-    /* ============================================================
-       CSS VARIABLES + RESET
-    ============================================================ */
     :root {
-      --bg:       #FAF8F4;
-      --bg2:      #F2F0EB;
-      --accent:   #C8622A;
-      --accent2:  #A84E22;
-      --text:     #1C1C1A;
-      --muted:    #6B6B67;
-      --border:   #E8E2D9;
-      --white:    #ffffff;
-      --max:      1100px;
-      --header-h: 64px;
+      --bg:        #FAF8F4;
+      --bg2:       #F2F0EB;
+      --accent:    #C8622A;
+      --accent2:   #A84E22;
+      --text:      #1C1C1A;
+      --muted:     #6B6B67;
+      --border:    #E8E2D9;
+      --white:     #ffffff;
+      --max:       860px;
+      --header-h:  56px;
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -40,7 +37,7 @@
       background: var(--bg);
       color: var(--text);
       font-size: 16px;
-      line-height: 1.6;
+      line-height: 1.65;
       -webkit-font-smoothing: antialiased;
     }
 
@@ -49,9 +46,7 @@
     button { font-family: 'DM Sans', sans-serif; cursor: pointer; }
     input, select { font-family: 'DM Sans', sans-serif; }
 
-    /* ============================================================
-       HEADER
-    ============================================================ */
+    /* HEADER */
     .site-header {
       position: fixed;
       top: 0; left: 0; right: 0;
@@ -67,261 +62,75 @@
       max-width: var(--max);
       margin: 0 auto;
       padding: 0 24px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
     }
 
     .site-logo {
       font-family: 'DM Serif Display', serif;
-      font-size: 20px;
+      font-size: 18px;
       font-weight: 400;
       color: var(--white);
-      letter-spacing: -0.3px;
+      letter-spacing: -0.2px;
     }
 
     .site-logo span { color: var(--accent); }
 
-    .site-nav {
-      display: flex;
-      align-items: center;
-      gap: 28px;
-      list-style: none;
-    }
-
-    .site-nav a {
-      font-size: 12px;
-      font-weight: 500;
-      letter-spacing: 1.2px;
-      text-transform: uppercase;
-      color: rgba(255,255,255,0.75);
-      transition: color 0.2s;
-    }
-
-    .site-nav a:hover { color: var(--white); }
-
-    .nav-item { position: relative; }
-
-    .nav-dropdown {
-      position: absolute;
-      top: calc(100% + 16px);
-      left: 0;
-      background: var(--text);
-      border: 1px solid rgba(255,255,255,0.1);
-      min-width: 180px;
-      padding: 8px 0;
-      list-style: none;
-      opacity: 0;
-      pointer-events: none;
-      transform: translateY(-6px);
-      transition: opacity 0.2s, transform 0.2s;
-    }
-
-    .nav-item::after {
-      content: '';
-      position: absolute;
-      top: 100%;
-      left: 0; right: 0;
-      height: 16px;
-    }
-
-    .nav-item:hover .nav-dropdown {
-      opacity: 1;
-      pointer-events: all;
-      transform: translateY(0);
-    }
-
-    .nav-dropdown li a {
-      display: block;
-      padding: 10px 20px;
-      font-size: 12px;
-      letter-spacing: 0.8px;
-      color: rgba(255,255,255,0.65);
-      transition: color 0.15s, background 0.15s;
-    }
-
-    .nav-dropdown li a:hover {
-      color: var(--white);
-      background: rgba(255,255,255,0.06);
-    }
-
-    .nav-toggle {
-      display: none;
-      background: none;
-      border: none;
-      flex-direction: column;
-      gap: 5px;
-      padding: 4px;
-    }
-
-    .nav-toggle span {
-      display: block;
-      width: 24px;
-      height: 2px;
-      background: var(--white);
-      transition: transform 0.3s;
-    }
-
-    /* ============================================================
-       HERO
-    ============================================================ */
-    .hero {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 80vh;
-      text-align: center;
-      padding: calc(var(--header-h) + 80px) 24px 80px;
-      background: var(--bg);
-    }
-
-    .hero__eyebrow {
-      font-size: 11px;
-      font-weight: 600;
-      letter-spacing: 3.5px;
-      text-transform: uppercase;
-      color: var(--muted);
-      margin-bottom: 24px;
-    }
-
-    .hero__title {
-      font-family: 'DM Serif Display', serif;
-      font-size: clamp(44px, 8vw, 88px);
-      font-weight: 400;
-      line-height: 1.0;
-      color: var(--text);
-      margin-bottom: 8px;
-      letter-spacing: -1px;
-    }
-
-    .hero__title span { color: var(--accent); }
-
-    .hero__title em {
-      font-style: italic;
-      color: var(--muted);
-    }
-
-    .hero__sub {
-      font-size: clamp(15px, 2vw, 18px);
-      color: var(--muted);
-      max-width: 500px;
-      line-height: 1.65;
-      margin-top: 20px;
-      margin-bottom: 44px;
-    }
-
-    .hero__cta {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      background: var(--accent);
-      color: var(--white);
-      font-size: 13px;
-      font-weight: 600;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      padding: 15px 36px;
-      transition: background 0.2s;
-    }
-
-    .hero__cta:hover { background: var(--accent2); }
-
-    .hero__cta svg {
-      flex-shrink: 0;
-      transition: transform 0.2s;
-    }
-
-    .hero__cta:hover svg { transform: translateY(3px); }
-
-    .hero__proof {
-      margin-top: 48px;
-      display: flex;
-      align-items: center;
-      gap: 24px;
-      color: var(--muted);
-      font-size: 13px;
-    }
-
-    .hero__proof-divider {
-      width: 1px;
-      height: 24px;
-      background: var(--border);
-    }
-
-    .hero__proof strong {
-      font-weight: 600;
-      color: var(--text);
-    }
-
-    /* ============================================================
-       SHARED SECTION STYLES
-    ============================================================ */
-    .tool-section {
-      padding: 88px 24px;
-      border-top: 1px solid var(--border);
-    }
-
-    .tool-section--alt {
-      background: var(--bg2);
-    }
-
-    .tool-wrap {
-      max-width: 860px;
+    /* PAGE */
+    .page {
+      max-width: var(--max);
       margin: 0 auto;
+      padding: calc(var(--header-h) + 72px) 24px 80px;
     }
 
-    .section-eyebrow {
-      font-size: 11px;
-      font-weight: 600;
-      letter-spacing: 3px;
-      text-transform: uppercase;
-      color: var(--accent);
-      margin-bottom: 14px;
-    }
-
-    .section-title {
+    /* SECTION 1 HERO TEXT */
+    .s1-title {
       font-family: 'DM Serif Display', serif;
-      font-size: clamp(28px, 4vw, 46px);
+      font-size: clamp(36px, 6vw, 60px);
       font-weight: 400;
-      line-height: 1.1;
+      line-height: 1.05;
       color: var(--text);
-      margin-bottom: 12px;
+      margin-bottom: 10px;
       letter-spacing: -0.5px;
     }
 
-    .section-desc {
-      font-size: 16px;
+    .s1-title span { color: var(--accent); }
+
+    .s1-sub {
+      font-size: 15px;
       color: var(--muted);
-      max-width: 520px;
-      line-height: 1.65;
       margin-bottom: 48px;
+      line-height: 1.65;
     }
 
-    /* ============================================================
-       CALCULATOR: FORM
-    ============================================================ */
-    .calc-form {
+    /* FORM CARDS */
+    .form-card {
       background: var(--white);
       border: 1.5px solid var(--border);
-      padding: 36px;
+      padding: 32px;
+      margin-bottom: 20px;
     }
 
+    .block-label {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 20px;
+      display: block;
+    }
+
+    /* CALC GRID */
     .calc-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
+      gap: 18px;
       margin-bottom: 20px;
     }
 
     .calc-field {
       display: flex;
       flex-direction: column;
-      gap: 8px;
-    }
-
-    .calc-field--full {
-      grid-column: 1 / -1;
+      gap: 7px;
     }
 
     .calc-label {
@@ -334,7 +143,7 @@
 
     .calc-input {
       width: 100%;
-      padding: 11px 14px;
+      padding: 10px 13px;
       font-size: 15px;
       color: var(--text);
       background: var(--bg);
@@ -346,10 +155,11 @@
     }
 
     .calc-input:focus { border-color: var(--accent); }
+    .calc-input.error { border-color: #D94F4F; }
 
     .calc-select {
       width: 100%;
-      padding: 11px 36px 11px 14px;
+      padding: 10px 34px 10px 13px;
       font-size: 15px;
       color: var(--text);
       background: var(--bg);
@@ -359,24 +169,23 @@
       appearance: none;
       background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='7' viewBox='0 0 12 7'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%236B6B67' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
       background-repeat: no-repeat;
-      background-position: right 14px center;
+      background-position: right 13px center;
       cursor: pointer;
       transition: border-color 0.2s;
     }
 
     .calc-select:focus { border-color: var(--accent); }
 
-    /* Segmented toggle (sex, units) */
-    .seg-toggle {
+    /* SEGMENTED TOGGLE */
+    .seg {
       display: flex;
       border: 1.5px solid var(--border);
       overflow: hidden;
-      background: var(--bg);
     }
 
-    .seg-toggle__btn {
+    .seg__btn {
       flex: 1;
-      padding: 11px 8px;
+      padding: 10px 8px;
       font-size: 13px;
       font-weight: 500;
       background: var(--bg);
@@ -386,50 +195,32 @@
       line-height: 1;
     }
 
-    .seg-toggle__btn + .seg-toggle__btn {
-      border-left: 1.5px solid var(--border);
-    }
+    .seg__btn + .seg__btn { border-left: 1.5px solid var(--border); }
 
-    .seg-toggle__btn.active {
+    .seg__btn.active {
       background: var(--text);
       color: var(--white);
     }
 
-    /* Input + unit toggle side by side */
-    .input-with-unit {
-      display: flex;
-      gap: 8px;
-    }
-
-    .input-with-unit .calc-input { flex: 1; min-width: 0; }
-    .input-with-unit .seg-toggle { width: 88px; flex-shrink: 0; }
-
-    /* Calculate button */
+    /* CALC BUTTON */
     .calc-btn {
       width: 100%;
-      padding: 16px;
+      padding: 15px;
       background: var(--accent);
       color: var(--white);
-      font-size: 13px;
+      font-size: 12px;
       font-weight: 600;
       letter-spacing: 1.5px;
       text-transform: uppercase;
       border: none;
       transition: background 0.2s;
-      margin-top: 4px;
     }
 
     .calc-btn:hover { background: var(--accent2); }
 
-    /* Error state */
-    .calc-input.error,
-    .calc-select.error { border-color: #D94F4F; }
-
-    /* ============================================================
-       CALCULATOR: RESULTS
-    ============================================================ */
+    /* RESULTS */
     .results {
-      margin-top: 32px;
+      margin-top: 28px;
       display: none;
     }
 
@@ -438,22 +229,22 @@
     .results-label {
       font-size: 10px;
       font-weight: 700;
-      letter-spacing: 2.5px;
+      letter-spacing: 2px;
       text-transform: uppercase;
       color: var(--muted);
-      margin-bottom: 16px;
+      margin-bottom: 14px;
     }
 
     .results-cards {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      gap: 12px;
+      gap: 10px;
     }
 
     .result-card {
-      background: var(--white);
+      background: var(--bg);
       border: 1.5px solid var(--border);
-      padding: 20px 16px 18px;
+      padding: 18px 14px 16px;
       text-align: center;
     }
 
@@ -463,17 +254,17 @@
     }
 
     .result-card__name {
-      font-size: 10px;
+      font-size: 9px;
       font-weight: 700;
       letter-spacing: 1.5px;
       text-transform: uppercase;
       color: var(--muted);
-      margin-bottom: 10px;
+      margin-bottom: 8px;
     }
 
     .result-card__num {
       font-family: 'DM Serif Display', serif;
-      font-size: 34px;
+      font-size: 28px;
       line-height: 1;
       color: var(--text);
       margin-bottom: 4px;
@@ -482,28 +273,27 @@
     .result-card--avg .result-card__num { color: var(--accent); }
 
     .result-card__unit {
-      font-size: 11px;
+      font-size: 10px;
       color: var(--muted);
     }
 
     .results-note {
-      margin-top: 14px;
+      margin-top: 12px;
       font-size: 13px;
       color: var(--muted);
+      font-style: italic;
     }
 
-    /* ============================================================
-       GOAL SELECTOR
-    ============================================================ */
-    .goal-mode-toggle {
+    /* GOAL SELECTOR */
+    .goal-toggle {
       display: inline-flex;
       border: 1.5px solid var(--border);
       overflow: hidden;
-      margin-bottom: 36px;
+      margin-bottom: 28px;
     }
 
-    .goal-mode-btn {
-      padding: 13px 36px;
+    .goal-btn {
+      padding: 11px 32px;
       font-size: 14px;
       font-weight: 600;
       background: var(--white);
@@ -512,24 +302,20 @@
       transition: background 0.2s, color 0.2s;
     }
 
-    .goal-mode-btn + .goal-mode-btn {
-      border-left: 1.5px solid var(--border);
-    }
+    .goal-btn + .goal-btn { border-left: 1.5px solid var(--border); }
 
-    .goal-mode-btn.active {
+    .goal-btn.active {
       background: var(--text);
       color: var(--white);
     }
 
-    .slider-block {
-      margin-bottom: 36px;
-    }
+    .slider-block { margin-bottom: 28px; }
 
     .slider-header {
       display: flex;
       justify-content: space-between;
       align-items: baseline;
-      margin-bottom: 14px;
+      margin-bottom: 12px;
     }
 
     .slider-header__label {
@@ -540,7 +326,7 @@
 
     .slider-header__val {
       font-family: 'DM Serif Display', serif;
-      font-size: 32px;
+      font-size: 28px;
       line-height: 1;
       color: var(--accent);
     }
@@ -557,17 +343,17 @@
 
     input[type="range"]::-webkit-slider-thumb {
       -webkit-appearance: none;
-      width: 22px;
-      height: 22px;
+      width: 20px;
+      height: 20px;
       border-radius: 50%;
       background: var(--accent);
       cursor: pointer;
-      box-shadow: 0 2px 8px rgba(200,98,42,0.35);
+      box-shadow: 0 2px 8px rgba(200, 98, 42, 0.3);
     }
 
     input[type="range"]::-moz-range-thumb {
-      width: 22px;
-      height: 22px;
+      width: 20px;
+      height: 20px;
       border-radius: 50%;
       background: var(--accent);
       border: none;
@@ -577,105 +363,334 @@
     .slider-ticks {
       display: flex;
       justify-content: space-between;
-      margin-top: 8px;
+      margin-top: 7px;
       font-size: 11px;
       color: var(--muted);
     }
 
-    .slider-ticks span.warn { color: var(--accent); font-weight: 600; }
+    .warn { color: var(--accent); font-weight: 600; }
 
     .goal-result {
       display: flex;
       align-items: stretch;
-      gap: 0;
       border: 1.5px solid var(--border);
-      background: var(--white);
+      background: var(--bg);
       overflow: hidden;
     }
 
-    .goal-result__accent-bar {
+    .goal-result__bar {
       width: 4px;
       background: var(--accent);
       flex-shrink: 0;
     }
 
     .goal-result__body {
-      padding: 24px 28px;
+      padding: 20px 24px;
       flex: 1;
     }
 
     .goal-result__kcal {
       font-family: 'DM Serif Display', serif;
-      font-size: 56px;
+      font-size: 48px;
       line-height: 1;
       color: var(--accent);
       margin-bottom: 6px;
     }
 
     .goal-result__kcal span {
-      font-size: 20px;
+      font-size: 16px;
       color: var(--muted);
       margin-left: 4px;
     }
 
-    .goal-result__desc {
+    .goal-result__desc { font-size: 13px; color: var(--muted); }
+
+    .goal-note {
+      margin-top: 12px;
+      font-size: 13px;
+      color: var(--muted);
+      font-style: italic;
+      min-height: 20px;
+    }
+
+    /* PROTEIN CARD */
+    .protein-card {
+      background: var(--white);
+      border: 1.5px solid var(--border);
+      padding: 26px 32px;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      margin-bottom: 20px;
+    }
+
+    .protein-card__num {
+      font-family: 'DM Serif Display', serif;
+      font-size: 38px;
+      color: var(--accent);
+      line-height: 1;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .protein-card__text {
+      font-size: 14px;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .protein-card__text strong { color: var(--text); font-weight: 600; }
+
+    /* ACCORDIONS */
+    .accordions { margin-top: 56px; }
+
+    .accordion { border-top: 1.5px solid var(--border); }
+
+    .acc-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 26px 0;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .acc-header:hover .acc-title { color: var(--accent); }
+
+    .acc-num {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--accent);
+      flex-shrink: 0;
+      width: 28px;
+    }
+
+    .acc-title {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(20px, 3vw, 27px);
+      font-weight: 400;
+      color: var(--text);
+      flex: 1;
+      line-height: 1.2;
+      transition: color 0.2s;
+    }
+
+    .acc-chevron {
+      width: 20px;
+      height: 20px;
+      flex-shrink: 0;
+      color: var(--muted);
+      transition: transform 0.3s ease;
+    }
+
+    .accordion.open .acc-chevron { transform: rotate(180deg); }
+
+    .acc-body {
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 0.38s ease;
+    }
+
+    .acc-content { padding-bottom: 52px; }
+
+    /* COPY */
+    .copy {
+      font-size: 16px;
+      color: var(--text);
+      line-height: 1.8;
+      max-width: 660px;
+    }
+
+    .copy p { margin-bottom: 20px; }
+    .copy p:last-child { margin-bottom: 0; }
+
+    /* SECTION 2: TIMELINE */
+    .timeline-stat {
+      background: var(--white);
+      border: 1.5px solid var(--border);
+      border-left: 4px solid var(--accent);
+      padding: 22px 26px;
+      margin-bottom: 24px;
+    }
+
+    .timeline-stat__weekly {
+      font-family: 'DM Serif Display', serif;
+      font-size: 20px;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+
+    .timeline-stat__weeks {
       font-size: 14px;
       color: var(--muted);
     }
 
-    .goal-result__desc strong {
+    .timeline-motive {
+      padding: 24px 28px;
+      background: var(--bg2);
+      border: 1.5px solid var(--border);
+      font-size: 15px;
+      line-height: 1.85;
       color: var(--text);
-      font-weight: 600;
     }
 
-    .goal-note {
-      margin-top: 16px;
+    /* MEAL PLANNER */
+    .freq-row {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 32px;
+    }
+
+    .freq-btn {
+      width: 50px;
+      height: 50px;
+      border: 1.5px solid var(--border);
+      background: var(--white);
+      font-size: 17px;
+      font-weight: 600;
+      color: var(--muted);
+      transition: background 0.15s, color 0.15s, border-color 0.15s;
+    }
+
+    .freq-btn.active {
+      background: var(--text);
+      color: var(--white);
+      border-color: var(--text);
+    }
+
+    .meal-cards { display: flex; flex-direction: column; gap: 16px; }
+
+    .meal-card {
+      background: var(--white);
+      border: 1.5px solid var(--border);
+      padding: 24px;
+    }
+
+    .meal-card__hd {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 18px;
+    }
+
+    .meal-card__sel {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-bottom: 20px;
+    }
+
+    .meal-card__sel-field label {
+      display: block;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .meal-card__macros {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .mpill {
+      background: var(--bg);
+      border: 1.5px solid var(--border);
+      padding: 12px 8px;
+      text-align: center;
+    }
+
+    .mpill__lbl {
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 5px;
+    }
+
+    .mpill__val {
+      font-family: 'DM Serif Display', serif;
+      font-size: 20px;
+      color: var(--accent);
+      line-height: 1;
+    }
+
+    .mpill--veg .mpill__val { color: var(--text); font-size: 17px; }
+
+    .meal-card__foot {
       font-size: 13px;
       color: var(--muted);
-      min-height: 20px;
       font-style: italic;
+      padding-top: 14px;
+      border-top: 1px solid var(--border);
     }
 
-    /* ============================================================
-       MOBILE NAV
-    ============================================================ */
+    .meal-card__foot strong {
+      color: var(--text);
+      font-weight: 600;
+      font-style: normal;
+    }
+
+    /* FOOTER */
+    .site-footer {
+      background: var(--text);
+      color: rgba(255, 255, 255, 0.45);
+      padding: 52px 24px;
+      text-align: center;
+    }
+
+    .footer-logo {
+      font-family: 'DM Serif Display', serif;
+      font-size: 20px;
+      color: var(--white);
+      margin-bottom: 10px;
+    }
+
+    .footer-logo span { color: var(--accent); }
+
+    .footer-tag {
+      font-size: 13px;
+      margin-bottom: 22px;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 28px;
+      justify-content: center;
+      list-style: none;
+    }
+
+    .footer-links a {
+      font-size: 11px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.4);
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover { color: var(--white); }
+
+    /* RESPONSIVE */
     @media (max-width: 640px) {
-      .site-nav { display: none; }
-      .nav-toggle { display: flex; }
-
-      .site-nav.is-open {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        position: fixed;
-        top: var(--header-h);
-        left: 0; right: 0;
-        background: var(--text);
-        padding: 24px;
-        gap: 20px;
-        z-index: 99;
-      }
-    }
-
-    /* ============================================================
-       RESPONSIVE: CALCULATOR
-    ============================================================ */
-    @media (max-width: 780px) {
+      .page { padding: calc(var(--header-h) + 40px) 16px 60px; }
+      .form-card { padding: 20px 16px; }
+      .calc-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
       .results-cards { grid-template-columns: repeat(2, 1fr); }
-    }
-
-    @media (max-width: 640px) {
-      .calc-form { padding: 24px 20px; }
-      .calc-grid { grid-template-columns: 1fr 1fr; gap: 14px; }
-      .calc-field--full { grid-column: 1 / -1; }
-      .results-cards { grid-template-columns: repeat(2, 1fr); }
-      .tool-section { padding: 64px 16px; }
-      .hero { padding: calc(var(--header-h) + 56px) 16px 56px; }
-      .hero__proof { flex-direction: column; gap: 8px; }
-      .hero__proof-divider { display: none; }
-      .goal-mode-toggle { display: flex; width: 100%; }
-      .goal-mode-btn { flex: 1; padding: 13px 16px; }
-      .goal-result__kcal { font-size: 44px; }
+      .goal-toggle { display: flex; width: 100%; }
+      .goal-btn { flex: 1; padding: 11px 10px; font-size: 13px; }
+      .goal-result__kcal { font-size: 38px; }
+      .protein-card { padding: 20px 16px; flex-direction: column; align-items: flex-start; gap: 10px; }
+      .meal-card__sel { grid-template-columns: 1fr; }
+      .acc-title { font-size: 18px; }
     }
 
     @media (max-width: 420px) {
@@ -685,167 +700,100 @@
 </head>
 <body>
 
-  <!-- HEADER -->
   <header class="site-header">
     <div class="header-inner">
       <a href="index.html" class="site-logo">Rice and <span>Protein</span></a>
-      <nav>
-        <ul class="site-nav" id="site-nav">
-          <li><a href="index.html">Home</a></li>
-          <li class="nav-item">
-            <a href="blog.html">Blog &#9662;</a>
-            <ul class="nav-dropdown">
-              <li><a href="blog.html?cat=recipes">Recipes</a></li>
-              <li><a href="blog.html?cat=calories">Calorie Counts</a></li>
-              <li><a href="blog.html?cat=diet">Diet Talk</a></li>
-              <li><a href="blog.html?cat=gym">Gym &amp; Fitness</a></li>
-              <li><a href="blog.html?cat=mindset">Mindset</a></li>
-              <li><a href="blog.html?cat=journey">My Journey</a></li>
-            </ul>
-          </li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
-          <span></span><span></span><span></span>
-        </button>
-      </nav>
     </div>
   </header>
 
-  <!-- ============================================================
-       HERO
-  ============================================================ -->
-  <section class="hero">
-    <p class="hero__eyebrow">120kg to 80kg</p>
-    <h1 class="hero__title">Rice and <span>Protein</span></h1>
-    <p class="hero__sub">Lost 40kg eating rice every single day. Figure out your numbers below and stop guessing.</p>
-    <a href="#calculator" class="hero__cta">
-      Calculate my calories
-      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <path d="M7 1v12M1 8l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-    </a>
-    <div class="hero__proof">
-      <span><strong>40kg lost</strong> in 18 months</span>
-      <div class="hero__proof-divider"></div>
-      <span>No keto. No supplements. <strong>Just rice.</strong></span>
-      <div class="hero__proof-divider"></div>
-      <span>3 formulas averaged for <strong>accuracy</strong></span>
-    </div>
-  </section>
+  <div class="page">
 
-  <!-- ============================================================
-       SECTION 1: TDEE CALCULATOR
-  ============================================================ -->
-  <section class="tool-section" id="calculator">
-    <div class="tool-wrap">
-      <p class="section-eyebrow">Step 1</p>
-      <h2 class="section-title">How many calories do you actually burn?</h2>
-      <p class="section-desc">We run 3 different formulas and show you all of them. The average is what we use downstream. More honest than picking one and hoping for the best.</p>
+    <!-- SECTION 1: YOUR NUMBERS (always visible) -->
+    <h1 class="s1-title">Your <span>Numbers</span></h1>
+    <p class="s1-sub">Fill this in once. Everything below updates live.</p>
 
-      <div class="calc-form">
-        <div class="calc-grid">
+    <div class="form-card">
+      <span class="block-label">TDEE Calculator</span>
+      <div class="calc-grid">
 
-          <!-- Age -->
-          <div class="calc-field">
-            <label class="calc-label" for="inp-age">Age</label>
-            <input class="calc-input" type="number" id="inp-age" placeholder="30" min="15" max="80" inputmode="numeric">
-          </div>
-
-          <!-- Sex -->
-          <div class="calc-field">
-            <label class="calc-label">Sex</label>
-            <div class="seg-toggle" id="sex-toggle" role="group" aria-label="Sex">
-              <button class="seg-toggle__btn active" data-val="male" type="button">Male</button>
-              <button class="seg-toggle__btn" data-val="female" type="button">Female</button>
-            </div>
-          </div>
-
-          <!-- Weight -->
-          <div class="calc-field">
-            <label class="calc-label" for="inp-weight">Weight</label>
-            <div class="input-with-unit">
-              <input class="calc-input" type="number" id="inp-weight" placeholder="80" min="30" max="300" inputmode="decimal">
-              <div class="seg-toggle" id="wunit-toggle" role="group" aria-label="Weight unit">
-                <button class="seg-toggle__btn active" data-val="kg" type="button">kg</button>
-                <button class="seg-toggle__btn" data-val="lbs" type="button">lbs</button>
-              </div>
-            </div>
-          </div>
-
-          <!-- Height -->
-          <div class="calc-field">
-            <label class="calc-label" for="inp-height">Height</label>
-            <div class="input-with-unit">
-              <input class="calc-input" type="number" id="inp-height" placeholder="175" min="100" max="260" inputmode="decimal">
-              <div class="seg-toggle" id="hunit-toggle" role="group" aria-label="Height unit">
-                <button class="seg-toggle__btn active" data-val="cm" type="button">cm</button>
-                <button class="seg-toggle__btn" data-val="in" type="button">in</button>
-              </div>
-            </div>
-          </div>
-
-          <!-- Activity -->
-          <div class="calc-field calc-field--full">
-            <label class="calc-label" for="inp-activity">Activity Level</label>
-            <select class="calc-select" id="inp-activity">
-              <option value="1.2">Sedentary (desk job, little to no exercise)</option>
-              <option value="1.375">Lightly Active (1-3 days exercise per week)</option>
-              <option value="1.55" selected>Moderately Active (3-5 days per week)</option>
-              <option value="1.725">Very Active (hard training 6-7 days per week)</option>
-              <option value="1.9">Extra Active (physical job + daily hard training)</option>
-            </select>
-          </div>
-
+        <div class="calc-field">
+          <label class="calc-label" for="inp-age">Age</label>
+          <input class="calc-input" type="number" id="inp-age" placeholder="30" min="15" max="80" inputmode="numeric">
         </div>
 
-        <button class="calc-btn" id="calc-btn" type="button">Calculate my TDEE</button>
-
-        <!-- Results -->
-        <div class="results" id="results">
-          <p class="results-label">Your estimated TDEE (maintenance calories per day)</p>
-          <div class="results-cards">
-            <div class="result-card">
-              <div class="result-card__name">Mifflin-St Jeor</div>
-              <div class="result-card__num" id="res-mifflin">0</div>
-              <div class="result-card__unit">kcal / day</div>
-            </div>
-            <div class="result-card">
-              <div class="result-card__name">Harris-Benedict</div>
-              <div class="result-card__num" id="res-harris">0</div>
-              <div class="result-card__unit">kcal / day</div>
-            </div>
-            <div class="result-card">
-              <div class="result-card__name">Schofield</div>
-              <div class="result-card__num" id="res-schofield">0</div>
-              <div class="result-card__unit">kcal / day</div>
-            </div>
-            <div class="result-card result-card--avg">
-              <div class="result-card__name">Average</div>
-              <div class="result-card__num" id="res-avg">0</div>
-              <div class="result-card__unit">kcal / day</div>
-            </div>
+        <div class="calc-field">
+          <label class="calc-label">Sex</label>
+          <div class="seg" id="sex-toggle" role="group" aria-label="Sex">
+            <button class="seg__btn active" data-val="male" type="button">Male</button>
+            <button class="seg__btn" data-val="female" type="button">Female</button>
           </div>
-          <p class="results-note" id="results-note"></p>
         </div>
+
+        <div class="calc-field">
+          <label class="calc-label" for="inp-goal-weight">Goal Weight (kg)</label>
+          <input class="calc-input" type="number" id="inp-goal-weight" placeholder="70" min="30" max="250" inputmode="decimal">
+        </div>
+
+        <div class="calc-field">
+          <label class="calc-label" for="inp-weight">Current Weight (kg)</label>
+          <input class="calc-input" type="number" id="inp-weight" placeholder="90" min="30" max="300" inputmode="decimal">
+        </div>
+
+        <div class="calc-field">
+          <label class="calc-label" for="inp-height">Height (cm)</label>
+          <input class="calc-input" type="number" id="inp-height" placeholder="175" min="100" max="260" inputmode="decimal">
+        </div>
+
+        <div class="calc-field">
+          <label class="calc-label" for="inp-activity">Activity Level</label>
+          <select class="calc-select" id="inp-activity">
+            <option value="1.2">Sedentary (desk job, little exercise)</option>
+            <option value="1.375">Lightly Active (1-3 days/week)</option>
+            <option value="1.55" selected>Moderately Active (3-5 days/week)</option>
+            <option value="1.725">Very Active (6-7 days/week)</option>
+            <option value="1.9">Extra Active (physical job + daily training)</option>
+          </select>
+        </div>
+
       </div>
 
+      <button class="calc-btn" id="calc-btn" type="button">Calculate my TDEE</button>
+
+      <div class="results" id="results">
+        <p class="results-label">Your estimated TDEE (maintenance calories per day)</p>
+        <div class="results-cards">
+          <div class="result-card">
+            <div class="result-card__name">Mifflin-St Jeor</div>
+            <div class="result-card__num" id="res-mifflin">0</div>
+            <div class="result-card__unit">kcal / day</div>
+          </div>
+          <div class="result-card">
+            <div class="result-card__name">Harris-Benedict</div>
+            <div class="result-card__num" id="res-harris">0</div>
+            <div class="result-card__unit">kcal / day</div>
+          </div>
+          <div class="result-card">
+            <div class="result-card__name">Schofield</div>
+            <div class="result-card__num" id="res-schofield">0</div>
+            <div class="result-card__unit">kcal / day</div>
+          </div>
+          <div class="result-card result-card--avg">
+            <div class="result-card__name">Average</div>
+            <div class="result-card__num" id="res-avg">0</div>
+            <div class="result-card__unit">kcal / day</div>
+          </div>
+        </div>
+        <p class="results-note" id="results-note"></p>
+      </div>
     </div>
-  </section>
 
-  <!-- ============================================================
-       SECTION 2: GOAL SELECTOR
-  ============================================================ -->
-  <section class="tool-section tool-section--alt" id="goal">
-    <div class="tool-wrap">
-      <p class="section-eyebrow">Step 2</p>
-      <h2 class="section-title">What's the goal?</h2>
-      <p class="section-desc">Cut to lose fat, bulk to build muscle. Drag the slider and your target calories update live.</p>
+    <!-- GOAL SELECTOR -->
+    <div class="form-card">
+      <span class="block-label">Your Goal</span>
 
-      <div class="goal-mode-toggle" role="group" aria-label="Goal mode">
-        <button class="goal-mode-btn active" id="btn-cut" type="button">Cut (lose fat)</button>
-        <button class="goal-mode-btn" id="btn-bulk" type="button">Bulk (build muscle)</button>
+      <div class="goal-toggle" role="group" aria-label="Goal mode">
+        <button class="goal-btn active" id="btn-cut" type="button">Cut (lose fat)</button>
+        <button class="goal-btn" id="btn-bulk" type="button">Bulk (build muscle)</button>
       </div>
 
       <div class="slider-block">
@@ -861,921 +809,245 @@
       </div>
 
       <div class="goal-result">
-        <div class="goal-result__accent-bar"></div>
+        <div class="goal-result__bar"></div>
         <div class="goal-result__body">
-          <div class="goal-result__kcal" id="goal-kcal">
-            -- <span>kcal / day</span>
-          </div>
-          <div class="goal-result__desc" id="goal-desc">
-            Fill in the calculator above to see your target.
-          </div>
+          <div class="goal-result__kcal" id="goal-kcal">-- <span>kcal / day</span></div>
+          <div class="goal-result__desc" id="goal-desc">Fill in the calculator above to see your target.</div>
         </div>
       </div>
 
       <p class="goal-note" id="goal-note"></p>
-
     </div>
-  </section>
 
-  <style>
-    /* ============================================================
-       PART 2: MEAL PLANNER + TRANSFORMATION STYLES
-    ============================================================ */
-
-    /* --- Meal Planner --- */
-    .macro-groups {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 20px;
-    }
-
-    .macro-group__head {
-      margin-bottom: 16px;
-      padding-bottom: 12px;
-      border-bottom: 1.5px solid var(--border);
-    }
-
-    .macro-group__name {
-      font-size: 10px;
-      font-weight: 700;
-      letter-spacing: 2.5px;
-      text-transform: uppercase;
-      color: var(--muted);
-      margin-bottom: 5px;
-    }
-
-    .macro-group__total {
-      font-size: 13px;
-      font-weight: 600;
-      color: var(--accent);
-    }
-
-    .food-card {
-      background: var(--white);
-      border: 1.5px solid var(--border);
-      padding: 20px 14px;
-      text-align: center;
-      margin-bottom: 12px;
-      opacity: 0;
-      transform: translateY(20px);
-      transition: opacity 0.45s ease, transform 0.45s ease, box-shadow 0.2s;
-    }
-
-    .food-card.in-view {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    .food-card:hover {
-      box-shadow: 0 6px 20px rgba(0,0,0,0.07);
-    }
-
-    .food-card__icon {
-      width: 56px;
-      height: 56px;
-      display: block;
-      margin: 0 auto 12px;
-    }
-
-    .food-card__name {
-      font-size: 12px;
-      font-weight: 600;
-      color: var(--text);
-      margin-bottom: 7px;
-    }
-
-    .food-card__grams {
-      font-family: 'DM Serif Display', serif;
-      font-size: 22px;
-      color: var(--accent);
-      line-height: 1;
-      margin-bottom: 4px;
-    }
-
-    .food-card__kcal {
-      font-size: 11px;
-      color: var(--muted);
-    }
-
-    .fat-note {
-      padding: 14px 16px;
-      background: var(--bg2);
-      border: 1.5px solid var(--border);
-      font-size: 12px;
-      color: var(--muted);
-      line-height: 1.6;
-      margin-top: 4px;
-    }
-
-    .meals-disclaimer {
-      margin-top: 36px;
-      padding: 18px 22px;
-      background: var(--white);
-      border-left: 3px solid var(--accent);
-      font-size: 13px;
-      color: var(--muted);
-      line-height: 1.65;
-    }
-
-    /* --- Transformation --- */
-    .t-goals {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      margin-bottom: 48px;
-    }
-
-    .t-goal-btn {
-      padding: 11px 28px;
-      font-size: 13px;
-      font-weight: 600;
-      background: var(--white);
-      border: 1.5px solid var(--border);
-      color: var(--muted);
-      transition: background 0.2s, color 0.2s, border-color 0.2s;
-    }
-
-    .t-goal-btn.active {
-      background: var(--text);
-      color: var(--white);
-      border-color: var(--text);
-    }
-
-    .figures-row {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 24px;
-      margin-bottom: 40px;
-    }
-
-    .figure-col {
-      text-align: center;
-    }
-
-    /* ---- Body Figures ---- */
-    .body-figure {
-      display: inline-flex;
-      flex-direction: column;
-      align-items: center;
-      margin: 0 auto 16px;
-    }
-
-    .bf-head {
-      width: 38px; height: 38px;
-      border-radius: 50%;
-      background: #E8C5A8;
-      position: relative;
-      flex-shrink: 0;
-    }
-    .bf-head::before {
-      content: '';
-      position: absolute;
-      width: 5px; height: 5px;
-      border-radius: 50%;
-      background: var(--accent);
-      top: 11px; left: 7px;
-      box-shadow: 12px 0 0 var(--accent);
-    }
-    .bf-head::after {
-      content: '';
-      position: absolute;
-      width: 12px; height: 2px;
-      background: var(--accent);
-      border-radius: 2px;
-      bottom: 9px;
-      left: 50%; transform: translateX(-50%);
-    }
-    .body-figure[data-mood="happy"] .bf-head::after {
-      width: 14px; height: 8px;
-      background: transparent;
-      border-bottom: 2.5px solid var(--accent);
-      border-radius: 0 0 99px 99px;
-      bottom: 7px;
-    }
-    .body-figure[data-mood="sad"] .bf-head::after {
-      width: 12px; height: 6px;
-      background: transparent;
-      border-top: 2.5px solid var(--accent);
-      border-radius: 99px 99px 0 0;
-      top: 24px; bottom: auto;
-    }
-
-    .bf-neck {
-      background: #E8C5A8;
-      border-radius: 0 0 4px 4px;
-      margin-top: -2px;
-      flex-shrink: 0;
-      position: relative;
-      z-index: 2;
-    }
-
-    .bf-upper { display: flex; align-items: flex-start; flex-shrink: 0; }
-    .bf-arm   { border-radius: 99px; flex-shrink: 0; }
-    .bf-torso { position: relative; flex-shrink: 0; }
-    .bf-legs  { display: flex; flex-shrink: 0; margin-top: 3px; }
-    .bf-leg   { border-radius: 99px; flex-shrink: 0; }
-
-    /* Fat */
-    .body-figure--fat .bf-neck  { width: 16px; height: 8px; }
-    .body-figure--fat .bf-upper { gap: 2px; }
-    .body-figure--fat .bf-arm   { width: 13px; height: 55px; background: #D4A88A; margin-top: 2px; }
-    .body-figure--fat .bf-torso {
-      width: 60px; height: 70px;
-      background: #D4A88A;
-      border-radius: 14px;
-      overflow: visible;
-    }
-    .body-figure--fat .bf-torso::after {
-      content: '';
-      position: absolute;
-      width: 52px; height: 38px;
-      background: #C49272;
-      border-radius: 50%;
-      bottom: 8px;
-      left: 50%; transform: translateX(-50%);
-    }
-    .body-figure--fat .bf-legs { gap: 7px; }
-    .body-figure--fat .bf-leg  { width: 19px; height: 58px; background: #D4A88A; }
-
-    /* Slim */
-    .body-figure--slim .bf-neck  { width: 13px; height: 8px; }
-    .body-figure--slim .bf-upper { gap: 2px; }
-    .body-figure--slim .bf-arm   { width: 10px; height: 54px; background: #DABC9C; margin-top: 2px; }
-    .body-figure--slim .bf-torso {
-      width: 44px; height: 68px;
-      background: #DABC9C;
-      border-radius: 10px 10px 8px 8px;
-    }
-    .body-figure--slim .bf-legs { gap: 5px; }
-    .body-figure--slim .bf-leg  { width: 15px; height: 63px; background: #DABC9C; }
-
-    /* Fit */
-    .body-figure--fit .bf-neck  { width: 13px; height: 8px; }
-    .body-figure--fit .bf-upper { gap: 2px; }
-    .body-figure--fit .bf-arm   { width: 12px; height: 54px; background: #C8966A; margin-top: 2px; }
-    .body-figure--fit .bf-torso {
-      width: 62px; height: 62px;
-      background: #C8966A;
-      clip-path: polygon(0% 0%, 100% 0%, 74% 100%, 26% 100%);
-    }
-    .body-figure--fit .bf-torso::after {
-      content: '';
-      position: absolute;
-      top: 14px; left: 50%;
-      transform: translateX(-50%);
-      width: 2px; height: 28px;
-      background: rgba(168, 78, 34, 0.22);
-      border-radius: 1px;
-    }
-    .body-figure--fit .bf-legs { gap: 5px; }
-    .body-figure--fit .bf-leg  { width: 17px; height: 65px; background: #C8966A; }
-
-    .figure-col__tag {
-      font-size: 10px;
-      font-weight: 700;
-      letter-spacing: 2.5px;
-      text-transform: uppercase;
-      color: var(--muted);
-      margin-bottom: 6px;
-    }
-
-    .figure-col__stat {
-      font-family: 'DM Serif Display', serif;
-      font-size: 18px;
-      color: var(--accent);
-      margin-bottom: 6px;
-      min-height: 26px;
-    }
-
-    .figure-col__msg {
-      font-size: 12px;
-      color: var(--muted);
-      line-height: 1.55;
-    }
-
-    .transform-callout {
-      padding: 22px 26px;
-      background: var(--white);
-      border: 1.5px solid var(--border);
-      border-left: 4px solid var(--accent);
-      font-size: 15px;
-      color: var(--text);
-      line-height: 1.75;
-      max-width: 640px;
-    }
-
-    /* --- Footer --- */
-    .site-footer {
-      background: var(--text);
-      color: rgba(255,255,255,0.55);
-      padding: 48px 24px;
-      text-align: center;
-    }
-
-    .footer-logo {
-      font-family: 'DM Serif Display', serif;
-      font-size: 22px;
-      font-weight: 400;
-      color: var(--white);
-      margin-bottom: 16px;
-    }
-
-    .footer-logo span { color: var(--accent); }
-
-    .footer-links {
-      display: flex;
-      gap: 24px;
-      justify-content: center;
-      list-style: none;
-      margin-bottom: 20px;
-    }
-
-    .footer-links a {
-      font-size: 11px;
-      letter-spacing: 1.5px;
-      text-transform: uppercase;
-      color: rgba(255,255,255,0.5);
-      transition: color 0.2s;
-    }
-
-    .footer-links a:hover { color: var(--white); }
-
-    .footer-disclaimer {
-      font-size: 11px;
-      color: rgba(255,255,255,0.3);
-      max-width: 460px;
-      margin: 0 auto;
-      line-height: 1.65;
-    }
-
-    /* --- Responsive Part 2 --- */
-    @media (max-width: 900px) {
-      .macro-groups { grid-template-columns: repeat(2, 1fr); }
-    }
-
-    @media (max-width: 640px) {
-      .macro-groups { grid-template-columns: repeat(2, 1fr); gap: 14px; }
-      .figures-row {
-        grid-template-columns: 1fr;
-        max-width: 220px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      .body-figure { transform: scale(0.82); transform-origin: top center; }
-      .t-goal-btn { padding: 10px 18px; font-size: 12px; }
-    }
-
-    @media (max-width: 420px) {
-      .macro-groups { grid-template-columns: 1fr; }
-    }
-  </style>
-
-  <!-- ============================================================
-       SECTION 3: MEAL PLANNER
-  ============================================================ -->
-  <section class="tool-section" id="meals">
-    <div class="tool-wrap" style="max-width:1080px;">
-      <p class="section-eyebrow">Step 3</p>
-      <h2 class="section-title">What does that actually look like on a plate?</h2>
-      <p class="section-desc">Protein 30%, carbs 45%, fat 25%. Each card shows how much food equals your share of each macro group.</p>
-
-      <div class="macro-groups">
-
-        <!-- CARBS -->
-        <div>
-          <div class="macro-group__head">
-            <div class="macro-group__name">Carbs</div>
-            <div class="macro-group__total" id="total-carbs">-- g carbs</div>
-          </div>
-          <div class="food-card">
-            <svg class="food-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M10 38 Q32 50 54 38 Q54 56 32 58 Q10 56 10 38 Z" fill="#E8E2D9" stroke="#C8622A" stroke-width="1.8" stroke-linejoin="round"/>
-              <path d="M10 38 Q32 28 54 38" fill="none" stroke="#C8622A" stroke-width="1.8" stroke-linecap="round"/>
-              <circle cx="24" cy="34" r="2.5" fill="#C8622A" opacity="0.45"/>
-              <circle cx="32" cy="32" r="2.5" fill="#C8622A" opacity="0.45"/>
-              <circle cx="40" cy="34" r="2.5" fill="#C8622A" opacity="0.45"/>
-              <circle cx="28" cy="39" r="2" fill="#C8622A" opacity="0.45"/>
-              <circle cx="36" cy="39" r="2" fill="#C8622A" opacity="0.45"/>
-            </svg>
-            <div class="food-card__name">Cooked White Rice</div>
-            <div class="food-card__grams" id="rice-g">--</div>
-            <div class="food-card__kcal" id="rice-kcal">-- kcal</div>
-          </div>
-          <div class="food-card">
-            <svg class="food-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M12 36 Q12 22 24 16 Q38 10 50 20 Q60 28 54 42 Q48 54 34 56 Q16 56 12 44 Q10 40 12 36 Z" fill="#E8E2D9" stroke="#C8622A" stroke-width="1.8"/>
-              <circle cx="24" cy="28" r="3" fill="none" stroke="#C8622A" stroke-width="1.5"/>
-              <circle cx="40" cy="24" r="2.5" fill="none" stroke="#C8622A" stroke-width="1.5"/>
-              <circle cx="44" cy="40" r="2.5" fill="none" stroke="#C8622A" stroke-width="1.5"/>
-            </svg>
-            <div class="food-card__name">Boiled Potato</div>
-            <div class="food-card__grams" id="potato-g">--</div>
-            <div class="food-card__kcal" id="potato-kcal">-- kcal</div>
-          </div>
-          <div class="food-card">
-            <svg class="food-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M10 40 Q32 52 54 40 Q54 58 32 60 Q10 58 10 40 Z" fill="#E8E2D9" stroke="#C8622A" stroke-width="1.8" stroke-linejoin="round"/>
-              <path d="M10 40 Q32 30 54 40" fill="none" stroke="#C8622A" stroke-width="1.8" stroke-linecap="round"/>
-              <path d="M16 34 Q20 30 24 34 Q28 38 32 34 Q36 30 40 34 Q44 38 48 34" fill="none" stroke="#C8622A" stroke-width="1.6" stroke-linecap="round"/>
-            </svg>
-            <div class="food-card__name">Oats (raw)</div>
-            <div class="food-card__grams" id="oats-g">--</div>
-            <div class="food-card__kcal" id="oats-kcal">-- kcal</div>
-          </div>
-        </div>
-
-        <!-- PROTEIN -->
-        <div>
-          <div class="macro-group__head">
-            <div class="macro-group__name">Protein</div>
-            <div class="macro-group__total" id="total-protein">-- g protein</div>
-          </div>
-          <div class="food-card">
-            <svg class="food-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M14 44 Q10 30 16 18 Q24 8 36 12 Q50 14 54 28 Q58 40 48 50 Q38 58 26 56 Q14 52 14 44 Z" fill="#E8E2D9" stroke="#C8622A" stroke-width="1.8"/>
-              <path d="M22 24 Q30 20 40 24" fill="none" stroke="#C8622A" stroke-width="1.3" stroke-linecap="round" opacity="0.5"/>
-              <path d="M20 34 Q30 30 42 34" fill="none" stroke="#C8622A" stroke-width="1.3" stroke-linecap="round" opacity="0.5"/>
-            </svg>
-            <div class="food-card__name">Chicken Breast</div>
-            <div class="food-card__grams" id="chicken-g">--</div>
-            <div class="food-card__kcal" id="chicken-kcal">-- kcal</div>
-          </div>
-          <div class="food-card">
-            <svg class="food-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M36 50 Q30 42 32 28 Q34 14 44 14 Q54 14 56 28 Q58 42 52 50 Z" fill="#FAF8F4" stroke="#C8622A" stroke-width="1.8"/>
-              <path d="M18 50 Q12 42 14 28 Q16 14 26 14 Q36 14 38 28 Q40 42 34 50 Z" fill="#E8E2D9" stroke="#C8622A" stroke-width="1.8"/>
-            </svg>
-            <div class="food-card__name">Eggs</div>
-            <div class="food-card__grams" id="egg-g">--</div>
-            <div class="food-card__kcal" id="egg-kcal">-- kcal</div>
-          </div>
-          <div class="food-card">
-            <svg class="food-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M10 44 Q8 30 14 18 Q20 8 32 8 Q46 8 54 20 Q62 32 56 46 Q50 58 36 60 Q18 60 10 44 Z" fill="#E8E2D9" stroke="#C8622A" stroke-width="1.8"/>
-              <path d="M18 32 Q30 28 46 32" fill="none" stroke="#C8622A" stroke-width="1.3" stroke-linecap="round" opacity="0.5"/>
-              <path d="M16 44 Q28 40 44 44" fill="none" stroke="#C8622A" stroke-width="1.3" stroke-linecap="round" opacity="0.5"/>
-            </svg>
-            <div class="food-card__name">Lean Steak</div>
-            <div class="food-card__grams" id="steak-g">--</div>
-            <div class="food-card__kcal" id="steak-kcal">-- kcal</div>
-          </div>
-        </div>
-
-        <!-- FAT -->
-        <div>
-          <div class="macro-group__head">
-            <div class="macro-group__name">Fat / Cooking</div>
-            <div class="macro-group__total" id="total-fat">-- g fat</div>
-          </div>
-          <div class="food-card">
-            <svg class="food-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <rect x="26" y="6" width="12" height="8" rx="2.5" fill="#E8E2D9" stroke="#C8622A" stroke-width="1.5"/>
-              <path d="M20 20 L22 14 H42 L44 20 V52 Q44 58 38 58 H26 Q20 58 20 52 Z" fill="#E8E2D9" stroke="#C8622A" stroke-width="1.8"/>
-              <line x1="20" y1="32" x2="44" y2="32" stroke="#C8622A" stroke-width="1" opacity="0.4"/>
-              <path d="M26 44 Q32 40 38 44" fill="none" stroke="#C8622A" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
-            </svg>
-            <div class="food-card__name">Olive Oil</div>
-            <div class="food-card__grams" id="oliveoil-g">--</div>
-            <div class="food-card__kcal" id="oliveoil-kcal">-- kcal</div>
-          </div>
-          <div class="food-card">
-            <svg class="food-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <rect x="22" y="6" width="20" height="8" rx="2.5" fill="#E8E2D9" stroke="#C8622A" stroke-width="1.5"/>
-              <rect x="16" y="16" width="32" height="42" rx="4" fill="#E8E2D9" stroke="#C8622A" stroke-width="1.8"/>
-              <rect x="22" y="28" width="20" height="2.5" rx="1.2" fill="#C8622A" opacity="0.3"/>
-              <rect x="22" y="37" width="16" height="2.5" rx="1.2" fill="#C8622A" opacity="0.3"/>
-              <rect x="22" y="46" width="12" height="2.5" rx="1.2" fill="#C8622A" opacity="0.3"/>
-            </svg>
-            <div class="food-card__name">Cooking Oil</div>
-            <div class="food-card__grams" id="cookingoil-g">--</div>
-            <div class="food-card__kcal" id="cookingoil-kcal">-- kcal</div>
-          </div>
-          <div class="fat-note">Oils are calorie dense. A few tablespoons covers your fat target. Track carefully.</div>
-        </div>
-
-        <!-- VOLUME -->
-        <div>
-          <div class="macro-group__head">
-            <div class="macro-group__name">Volume</div>
-            <div class="macro-group__total">Eat as much as you want</div>
-          </div>
-          <div class="food-card">
-            <svg class="food-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <circle cx="22" cy="26" r="10" fill="#D4EDD4" stroke="#C8622A" stroke-width="1.8"/>
-              <circle cx="42" cy="24" r="10" fill="#D4EDD4" stroke="#C8622A" stroke-width="1.8"/>
-              <circle cx="32" cy="20" r="12" fill="#D4EDD4" stroke="#C8622A" stroke-width="1.8"/>
-              <rect x="28" y="36" width="8" height="20" rx="3" fill="#E8E2D9" stroke="#C8622A" stroke-width="1.5"/>
-            </svg>
-            <div class="food-card__name">Broccoli</div>
-            <div class="food-card__grams">200g</div>
-            <div class="food-card__kcal">~70 kcal</div>
-          </div>
-          <div class="food-card">
-            <svg class="food-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M32 56 Q18 44 14 30 Q10 18 18 12 Q26 6 32 16 Q38 6 46 12 Q54 18 50 30 Q46 44 32 56 Z" fill="#D4EDD4" stroke="#C8622A" stroke-width="1.8"/>
-              <line x1="32" y1="56" x2="32" y2="16" stroke="#C8622A" stroke-width="1.3" opacity="0.5" stroke-linecap="round"/>
-              <path d="M32 38 Q24 32 18 26" fill="none" stroke="#C8622A" stroke-width="1" opacity="0.45"/>
-              <path d="M32 38 Q40 32 46 26" fill="none" stroke="#C8622A" stroke-width="1" opacity="0.45"/>
-              <path d="M32 48 Q26 44 22 40" fill="none" stroke="#C8622A" stroke-width="1" opacity="0.45"/>
-              <path d="M32 48 Q38 44 42 40" fill="none" stroke="#C8622A" stroke-width="1" opacity="0.45"/>
-            </svg>
-            <div class="food-card__name">Spinach</div>
-            <div class="food-card__grams">200g</div>
-            <div class="food-card__kcal">~46 kcal</div>
-          </div>
-          <div class="food-card">
-            <svg class="food-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <ellipse cx="32" cy="44" rx="18" ry="11" fill="#D4EDD4" stroke="#C8622A" stroke-width="1.8"/>
-              <circle cx="32" cy="44" r="6" fill="#FAF8F4" stroke="#C8622A" stroke-width="1.2" opacity="0.8"/>
-              <ellipse cx="32" cy="28" rx="18" ry="11" fill="#D4EDD4" stroke="#C8622A" stroke-width="1.8"/>
-              <circle cx="32" cy="28" r="6" fill="#FAF8F4" stroke="#C8622A" stroke-width="1.2" opacity="0.8"/>
-            </svg>
-            <div class="food-card__name">Cucumber</div>
-            <div class="food-card__grams">200g</div>
-            <div class="food-card__kcal">~30 kcal</div>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="meals-disclaimer">
-        <strong>These are examples, not a meal plan.</strong> The grams show what hitting each macro group looks like in real food. Mix and match however you want as long as total calories match your target.
+    <!-- PROTEIN TARGET -->
+    <div class="protein-card">
+      <div class="protein-card__num" id="protein-range">-- to --g</div>
+      <div class="protein-card__text">
+        <strong>Daily protein target.</strong> Based on <span id="protein-bw">your bodyweight</span> x 1.6g to x 2.2g. Hit the high end if you are cutting or lifting.
       </div>
     </div>
-  </section>
 
-  <!-- ============================================================
-       SECTION 4: TRANSFORMATION
-  ============================================================ -->
-  <section class="tool-section tool-section--alt" id="transformation">
-    <div class="tool-wrap">
-      <p class="section-eyebrow">Step 4</p>
-      <h2 class="section-title">What will you actually look like?</h2>
-      <p class="section-desc">Same calorie target. Two completely different outcomes. This is why lifting matters beyond the scale number.</p>
+    <!-- ACCORDIONS: SECTIONS 2-7 -->
+    <div class="accordions">
 
-      <div class="t-goals">
-        <button class="t-goal-btn active" data-tg="lose" type="button">Lose Weight</button>
-        <button class="t-goal-btn" data-tg="recomp" type="button">Lose Fat + Get Fit</button>
-        <button class="t-goal-btn" data-tg="muscle" type="button">Build Muscle</button>
-      </div>
-
-      <div class="figures-row">
-        <div class="figure-col">
-          <div class="body-figure body-figure--fat" id="fig-now" data-mood="neutral" aria-label="Current body shape">
-            <div class="bf-head"></div>
-            <div class="bf-neck"></div>
-            <div class="bf-upper">
-              <div class="bf-arm"></div>
-              <div class="bf-torso"></div>
-              <div class="bf-arm"></div>
-            </div>
-            <div class="bf-legs">
-              <div class="bf-leg"></div>
-              <div class="bf-leg"></div>
-            </div>
-          </div>
-          <div class="figure-col__tag">Right now</div>
-          <div class="figure-col__stat" id="fig-now-stat"></div>
-          <div class="figure-col__msg" id="fig-now-msg">Fill in the calculator above.</div>
+      <!-- SECTION 2: HOW LONG WILL IT TAKE? -->
+      <div class="accordion" id="acc-2">
+        <div class="acc-header" role="button" tabindex="0" aria-expanded="false" aria-controls="acc-2-body">
+          <span class="acc-num">02</span>
+          <span class="acc-title">How long will it take?</span>
+          <svg class="acc-chevron" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M4 7l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
         </div>
-        <div class="figure-col">
-          <div class="body-figure body-figure--slim" id="fig-diet" data-mood="neutral" aria-label="Diet only result">
-            <div class="bf-head"></div>
-            <div class="bf-neck"></div>
-            <div class="bf-upper">
-              <div class="bf-arm"></div>
-              <div class="bf-torso"></div>
-              <div class="bf-arm"></div>
+        <div class="acc-body" id="acc-2-body">
+          <div class="acc-content">
+            <div class="timeline-stat">
+              <div class="timeline-stat__weekly" id="tl-weekly">Fill in your numbers above first.</div>
+              <div class="timeline-stat__weeks" id="tl-weeks"></div>
             </div>
-            <div class="bf-legs">
-              <div class="bf-leg"></div>
-              <div class="bf-leg"></div>
+            <div class="timeline-motive">
+              <p>But think about it this way. A year from now, you will be <strong id="age-plus-one">__</strong> regardless. The only question is what does <strong id="age-plus-one-2">__</strong> you look like? You don't have to do this just for yourself. Do it for the people around you. Your parents. Your partner. Your kids. People who want you around for a long time. One year. That's all it takes.</p>
             </div>
           </div>
-          <div class="figure-col__tag">Diet only</div>
-          <div class="figure-col__stat" id="fig-diet-time"></div>
-          <div class="figure-col__msg" id="fig-diet-msg">Lose the weight.</div>
-        </div>
-        <div class="figure-col">
-          <div class="body-figure body-figure--fit" id="fig-lift" data-mood="happy" aria-label="Diet plus lifting result">
-            <div class="bf-head"></div>
-            <div class="bf-neck"></div>
-            <div class="bf-upper">
-              <div class="bf-arm"></div>
-              <div class="bf-torso"></div>
-              <div class="bf-arm"></div>
-            </div>
-            <div class="bf-legs">
-              <div class="bf-leg"></div>
-              <div class="bf-leg"></div>
-            </div>
-          </div>
-          <div class="figure-col__tag">Diet + lifting</div>
-          <div class="figure-col__stat" id="fig-lift-time"></div>
-          <div class="figure-col__msg" id="fig-lift-msg">Same timeline. Way better result.</div>
         </div>
       </div>
 
-      <div class="transform-callout" id="transform-callout">
-        Lifting 3x a week doesn't make you huge. It means when the fat comes off, there's actual muscle underneath. You'll look leaner at the same weight, your clothes fit differently, and you're way less likely to regain. The scale won't always show it. The mirror will.
+      <!-- SECTION 3: WHY MOST DIETS FAIL -->
+      <div class="accordion" id="acc-3">
+        <div class="acc-header" role="button" tabindex="0" aria-expanded="false" aria-controls="acc-3-body">
+          <span class="acc-num">03</span>
+          <span class="acc-title">Why most diets fail</span>
+          <svg class="acc-chevron" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M4 7l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="acc-body" id="acc-3-body">
+          <div class="acc-content">
+            <div class="copy">
+              <p>Being from Malaysia, keto is hard. Asian food revolves around carbs. Mee goreng, nasi goreng, wan tan mee, chicken rice. Keto is also expensive to maintain. Paleo is similar, just messier. Intermittent fasting works but is hard to stick to long term. The real problem with all of them? One birthday party, one family dinner, and you feel like you've failed.</p>
+              <p>But carbs are not the culprit. It is the lack of awareness of what calories actually are. Think of your body like a car. Calories are fuel. Every day your body needs a certain amount to run. That number is your TDEE. Eat more than that number, you gain weight. Eat less, you lose weight. That is it.</p>
+              <p>No diet is magic. They are all just calorie control with extra rules. Volume eating has one rule: eat enough to hit your calorie target. Everything fits, as long as it fits the number.</p>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <!-- SECTION 4: THE SECRET TO MAKING IT EASY -->
+      <div class="accordion" id="acc-4">
+        <div class="acc-header" role="button" tabindex="0" aria-expanded="false" aria-controls="acc-4-body">
+          <span class="acc-num">04</span>
+          <span class="acc-title">The secret to making it easy</span>
+          <svg class="acc-chevron" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M4 7l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="acc-body" id="acc-4-body">
+          <div class="acc-content">
+            <div class="copy">
+              <p>As someone who has lost 40kg, I have tried every diet out there. Keto, paleo, intermittent fasting. They all work on the same principle: calories in vs calories out. You cannot cheat biology. But there is one approach that made it feel like it was not a diet at all. Volume eating.</p>
+              <p>The idea is simple. Eat low calorie foods in large quantities. Say you are eating 2000 calories across two meals, 1000 calories each. Structure each meal like this: 250g of rice or potato. 300g of chicken breast. Then fill the rest of your plate with vegetables or fruit.</p>
+              <p>That is nearly 1kg of food in one sitting. You will have trouble finishing it.</p>
+              <p>Swap the vegetables to whatever you like. Broccoli, cauliflower, any greens. Hate vegetables? 1kg of watermelon is only 300 calories. Eat your rice and chicken and have 1kg of watermelon as dessert.</p>
+              <p>That is the secret. Eat foods that are filling and low in calories, and losing weight feels easy.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION 5: WHAT TO EAT -->
+      <div class="accordion" id="acc-5">
+        <div class="acc-header" role="button" tabindex="0" aria-expanded="false" aria-controls="acc-5-body">
+          <span class="acc-num">05</span>
+          <span class="acc-title">What to eat</span>
+          <svg class="acc-chevron" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M4 7l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="acc-body" id="acc-5-body">
+          <div class="acc-content">
+
+            <div class="copy" style="margin-bottom: 44px;">
+              <p>Simple. Whole foods only. Nothing processed. Your plate has three parts.</p>
+              <p><strong>Carbs:</strong> rice or potato. Fills you up, fuels your body, gives you energy to lift.</p>
+              <p><strong>Protein:</strong> chicken breast or steak. Builds and keeps your muscle. Hit your protein target every day, non negotiable.</p>
+              <p><strong>Volume:</strong> pile on vegetables, raw or stir fried. Bowl of soup on the side. Finish with fruit. Eat until you are stuffed.</p>
+              <p>The meal planner below shows exactly how much of each food to eat based on your calorie target.</p>
+            </div>
+
+            <!-- AFFILIATE: kitchen scale -->
+
+            <span class="block-label">Meal Planner</span>
+
+            <p style="font-size:13px; color:var(--muted); margin-bottom:14px;">How many meals per day?</p>
+            <div class="freq-row">
+              <button class="freq-btn" data-meals="1" type="button">1</button>
+              <button class="freq-btn" data-meals="2" type="button">2</button>
+              <button class="freq-btn active" data-meals="3" type="button">3</button>
+              <button class="freq-btn" data-meals="4" type="button">4</button>
+            </div>
+
+            <div class="meal-cards" id="meal-cards"></div>
+
+            <!-- AFFILIATE: oil spray canister -->
+
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION 6: WHY YOU SHOULD LIFT -->
+      <div class="accordion" id="acc-6">
+        <div class="acc-header" role="button" tabindex="0" aria-expanded="false" aria-controls="acc-6-body">
+          <span class="acc-num">06</span>
+          <span class="acc-title">Why you should lift</span>
+          <svg class="acc-chevron" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M4 7l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="acc-body" id="acc-6-body">
+          <div class="acc-content">
+            <div class="copy">
+              <p>You are eating clean. But here is what takes it to the next level. Lifting heavy, at least twice or three times a week.</p>
+              <p>If all you do is eat less, you lose fat and muscle. Without muscle you will look scrawny, not lean. With muscle, you look completely different at the same weight.</p>
+              <p>Benefits of lifting: you build and retain muscle. More muscle means you burn more calories at rest, which means you can eat more. You look good, actually good. Your posture improves. You sleep better.</p>
+              <p>For the ladies, do not worry about getting bulky. It is extremely hard to get bulky. You will just end up looking amazing.</p>
+              <p>Lifting and eating clean go hand in hand. But if the gym feels like too much right now, start with the diet. Diet is 90% of the work anyway.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION 7: WHAT YOU WILL LOOK LIKE -->
+      <!-- STEP 7: silhouette figures, assets pending -->
+      <div class="accordion" id="acc-7">
+        <div class="acc-header" role="button" tabindex="0" aria-expanded="false" aria-controls="acc-7-body">
+          <span class="acc-num">07</span>
+          <span class="acc-title">What you will look like</span>
+          <svg class="acc-chevron" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M4 7l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="acc-body" id="acc-7-body">
+          <div class="acc-content">
+            <p style="font-size: 15px; color: var(--muted); font-style: italic;">Coming soon. Same calorie deficit. Two completely different outcomes depending on whether you lift.</p>
+          </div>
+        </div>
+      </div>
+
     </div>
-  </section>
+  </div>
 
-  <!-- FOOTER -->
   <footer class="site-footer">
     <div class="footer-logo">Rice and <span>Protein</span></div>
+    <p class="footer-tag">Built by someone who actually did it.</p>
     <ul class="footer-links">
-      <li><a href="about.html">About</a></li>
       <li><a href="blog.html">Blog</a></li>
+      <li><a href="about.html">About</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
-    <p class="footer-disclaimer">This tool is for informational purposes only. Calorie estimates are based on population averages and may not reflect your individual metabolism. Talk to a doctor before making major changes to your diet or exercise routine.</p>
   </footer>
 
   <script>
   (function () {
     'use strict';
 
-    function $(id) { return document.getElementById(id); }
-
-    /* ----------------------------------------------------------
-       FOOD DATA  (per 100g unless noted)
-    ---------------------------------------------------------- */
-    var FOOD = {
-      rice:    { kcal: 130 },  // 1.30 kcal/g (cooked white rice)
-      potato:  { kcal:  87 },  // 0.87 kcal/g (boiled potato)
-      oats:    { kcal: 389 },  // 3.89 kcal/g (raw oats)
-      chicken: { kcal: 165 },  // 1.65 kcal/g (cooked chicken breast)
-      steak:   { kcal: 271 }   // 2.71 kcal/g (lean cooked steak)
-      // eggs: 78 kcal each
-    };
-
-    /* ----------------------------------------------------------
-       MEAL PLANNER
-    ---------------------------------------------------------- */
-    function updateMeals(cals) {
-      if (!cals || cals <= 0) return;
-
-      var carbCals    = cals * 0.45;
-      var proteinCals = cals * 0.30;
-      var fatCals     = cals * 0.25;
-
-      $('total-protein').textContent = Math.round(proteinCals / 4) + 'g protein';
-      $('total-carbs').textContent   = Math.round(carbCals / 4) + 'g carbs';
-      $('total-fat').textContent     = Math.round(fatCals / 9) + 'g fat';
-
-      var riceG   = Math.round((carbCals / 3) / 1.3);
-      var potatoG = Math.round((carbCals / 3) / 0.87);
-      var oatsG   = Math.round((carbCals / 3) / 3.89);
-
-      $('rice-g').textContent    = riceG + 'g';
-      $('rice-kcal').textContent = Math.round(riceG * 1.3) + ' kcal';
-      $('potato-g').textContent    = potatoG + 'g';
-      $('potato-kcal').textContent = Math.round(potatoG * 0.87) + ' kcal';
-      $('oats-g').textContent    = oatsG + 'g';
-      $('oats-kcal').textContent = Math.round(oatsG * 3.89) + ' kcal';
-
-      var chickenG = Math.round((proteinCals / 3) / 1.65);
-      var eggs     = Math.round((proteinCals / 3) / 78);
-      var steakG   = Math.round((proteinCals / 3) / 2.71);
-
-      $('chicken-g').textContent    = chickenG + 'g';
-      $('chicken-kcal').textContent = Math.round(chickenG * 1.65) + ' kcal';
-      $('egg-g').textContent    = eggs + (eggs === 1 ? ' egg' : ' eggs');
-      $('egg-kcal').textContent = (eggs * 78) + ' kcal';
-      $('steak-g').textContent    = steakG + 'g';
-      $('steak-kcal').textContent = Math.round(steakG * 2.71) + ' kcal';
-
-      var oliveOilG   = Math.round((fatCals / 2) / 8.84);
-      var cookingOilG = Math.round((fatCals / 2) / 8.84);
-      var oilTbsp = (oliveOilG / 14).toFixed(1);
-
-      $('oliveoil-g').textContent    = oliveOilG + 'g (' + oilTbsp + ' tbsp)';
-      $('oliveoil-kcal').textContent = Math.round(oliveOilG * 8.84) + ' kcal';
-      $('cookingoil-g').textContent    = cookingOilG + 'g (' + oilTbsp + ' tbsp)';
-      $('cookingoil-kcal').textContent = Math.round(cookingOilG * 8.84) + ' kcal';
-    }
-
-    /* ----------------------------------------------------------
-       CSS FIGURE STATE
-    ---------------------------------------------------------- */
-    function setFigure(id, state, mood) {
-      var el = $(id);
-      if (!el) return;
-      el.className = 'body-figure body-figure--' + state;
-      el.setAttribute('data-mood', mood || 'neutral');
-    }
-
-    /* ----------------------------------------------------------
-       TRANSFORMATION
-    ---------------------------------------------------------- */
-    var tgoal = 'lose';
-
-    var CALLOUTS = {
-      lose:   'Diet only and you lose fat, sure. But without lifting you also lose muscle. End result: a smaller version of the same shape. Add 3x lifting a week and the fat comes off but the muscle stays. Your clothes fit completely differently.',
-      recomp: 'Body recomposition is real. Eating at a moderate deficit while lifting means your body burns fat for fuel and builds muscle from your protein intake. The scale barely moves some weeks but how you look changes a lot.',
-      muscle: 'To build muscle you need two things: a small calorie surplus and you need to lift. The lifting matters way more than the extra food. Keep the surplus small, protein high, and train 3x a week minimum.'
-    };
-
-    var MSGS = {
-      lose:   { diet: 'Weight drops. But without lifting you lose muscle too.',    lift: 'Same timeline. But the muscle stays and you look leaner.' },
-      recomp: { diet: 'Fat drops. Muscle stays the same. Decent result.',          lift: 'Fat drops AND muscle grows. This is the move.' },
-      muscle: { diet: 'You lose some fat but build almost no muscle.',             lift: 'Small surplus plus lifting: stronger, bigger, leaner.' }
-    };
-
-    function updateTransformation(state) {
-      var w   = state.weight_kg || 0;
-      var h   = state.height_cm || 0;
-      var td  = state.tdee      || 0;
-      var pct = state.pct       || 20;
-
-      $('transform-callout').textContent = CALLOUTS[tgoal];
-
-      if (!w || !h) {
-        setFigure('fig-now',  'fat',  'neutral');
-        setFigure('fig-diet', 'slim', 'neutral');
-        setFigure('fig-lift', 'fit',  'happy');
-        $('fig-now-stat').textContent  = '';
-        $('fig-diet-time').textContent = '';
-        $('fig-lift-time').textContent = '';
-        $('fig-now-msg').textContent   = 'Fill in the calculator above.';
-        $('fig-diet-msg').textContent  = 'Lose the weight.';
-        $('fig-lift-msg').textContent  = 'Same timeline. Way better result.';
-        return;
-      }
-
-      var hm  = h / 100;
-      var bmi = w / (hm * hm);
-      var curFat = Math.min(1, Math.max(0, (bmi - 18.5) / (40 - 18.5)));
-
-      var nowState = curFat > 0.4 ? 'fat' : curFat > 0.15 ? 'slim' : 'fit';
-      var nowMood  = curFat > 0.45 ? 'sad' : 'neutral';
-
-      setFigure('fig-now',  nowState, nowMood);
-      setFigure('fig-diet', 'slim', 'neutral');
-      setFigure('fig-lift', 'fit',  'happy');
-
-      var targetW  = 22 * hm * hm;
-      var toLose   = Math.max(0, w - targetW);
-      var dailyDef = td > 0 ? td * (pct / 100) : w * 10 * 0.20;
-      var months   = dailyDef > 0 ? Math.ceil((toLose * 7700) / (dailyDef * 30)) : 0;
-
-      var bmiCat = bmi > 30 ? 'Obese' : bmi > 25 ? 'Overweight' : bmi > 18.5 ? 'Normal range' : 'Underweight';
-      $('fig-now-stat').textContent = Math.round(w) + 'kg, BMI ' + bmi.toFixed(1);
-      $('fig-now-msg').textContent  = bmiCat + '. ' + (bmi > 27 ? 'You got this.' : bmi > 23 ? 'Not far off.' : 'Already decent.');
-
-      if (months > 0) {
-        var tStr = months < 2 ? 'About 1 month' : 'About ' + months + ' months';
-        $('fig-diet-time').textContent = tStr;
-        $('fig-lift-time').textContent = tStr;
-      } else {
-        $('fig-diet-time').textContent = 'Already in range';
-        $('fig-lift-time').textContent = 'Focus on building';
-      }
-
-      $('fig-diet-msg').textContent = MSGS[tgoal].diet;
-      $('fig-lift-msg').textContent = MSGS[tgoal].lift;
-    }
-
-    /* ----------------------------------------------------------
-       TRANSFORMATION GOAL BUTTONS
-    ---------------------------------------------------------- */
-    document.querySelectorAll('.t-goal-btn').forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        tgoal = btn.dataset.tg;
-        document.querySelectorAll('.t-goal-btn').forEach(function (b) {
-          b.classList.toggle('active', b === btn);
-        });
-        var s = (window.RNP && window.RNP.getState) ? window.RNP.getState() : {};
-        updateTransformation(s);
-      });
-    });
-
-    /* ----------------------------------------------------------
-       FOOD CARD SCROLL ANIMATION
-    ---------------------------------------------------------- */
-    if ('IntersectionObserver' in window) {
-      var io = new IntersectionObserver(function (entries) {
-        entries.forEach(function (e) {
-          if (e.isIntersecting) {
-            e.target.classList.add('in-view');
-            io.unobserve(e.target);
-          }
-        });
-      }, { threshold: 0.1 });
-
-      document.querySelectorAll('.food-card').forEach(function (card, i) {
-        card.style.transitionDelay = ((i % 3) * 0.1) + 's';
-        io.observe(card);
-      });
-    } else {
-      document.querySelectorAll('.food-card').forEach(function (c) {
-        c.classList.add('in-view');
-      });
-    }
-
-    /* ----------------------------------------------------------
-       RECEIVE UPDATES FROM PART 1
-    ---------------------------------------------------------- */
-    window.onGoalUpdate = function (state) {
-      updateMeals(state.targetCals || state.tdee);
-      updateTransformation(state);
-    };
-
-    // Draw default figures on load
-    updateTransformation({});
-
-  })();
-  </script>
-
-  <script>
-  (function () {
-    'use strict';
-
-    /* ----------------------------------------------------------
-       STATE
-    ---------------------------------------------------------- */
+    /* STATE */
     var S = {
-      sex: 'male',
-      wunit: 'kg',
-      hunit: 'cm',
-      tdee: 0,
-      mode: 'cut',
-      pct: 20
+      sex:         'male',
+      age:         0,
+      weight_kg:   0,
+      height_cm:   0,
+      goal_weight: 0,
+      tdee:        0,
+      mode:        'cut',
+      pct:         20,
+      targetCals:  0,
+      meals:       3
     };
 
-    /* ----------------------------------------------------------
-       HELPERS
-    ---------------------------------------------------------- */
+    /* HELPERS */
     function $(id) { return document.getElementById(id); }
-
-    function setSegActive(toggleEl, val) {
-      toggleEl.querySelectorAll('.seg-toggle__btn').forEach(function (btn) {
-        btn.classList.toggle('active', btn.dataset.val === val);
-      });
-    }
-
     function fmt(n) { return Math.round(n).toLocaleString(); }
 
-    /* ----------------------------------------------------------
-       SEGMENT TOGGLES: SEX
-    ---------------------------------------------------------- */
+    /* FOOD DATA (kcal per gram, or kcal per unit for eggs) */
+    var CARBS = {
+      'White Rice (cooked)':    { g: 1.30 },
+      'Sweet Potato (cooked)':  { g: 0.86 },
+      'Oats (raw)':             { g: 3.89 },
+      'Banana':                 { g: 0.89 },
+      'Bread (white)':          { g: 2.65 }
+    };
+
+    var PROTEINS = {
+      'Chicken Breast':  { g: 1.65 },
+      'Eggs':            { each: 78 },
+      'Tuna (canned)':   { g: 1.16 },
+      'Tofu (firm)':     { g: 0.76 },
+      'Steak (lean)':    { g: 2.71 },
+      'Greek Yogurt':    { g: 0.59 }
+    };
+
+    var VEG_G = 200;
+
+    /* SEX TOGGLE */
     $('sex-toggle').addEventListener('click', function (e) {
-      var btn = e.target.closest('.seg-toggle__btn');
+      var btn = e.target.closest('.seg__btn');
       if (!btn) return;
       S.sex = btn.dataset.val;
-      setSegActive($('sex-toggle'), S.sex);
+      $('sex-toggle').querySelectorAll('.seg__btn').forEach(function (b) {
+        b.classList.toggle('active', b === btn);
+      });
     });
 
-    /* ----------------------------------------------------------
-       SEGMENT TOGGLES: WEIGHT UNIT
-    ---------------------------------------------------------- */
-    $('wunit-toggle').addEventListener('click', function (e) {
-      var btn = e.target.closest('.seg-toggle__btn');
-      if (!btn) return;
-      var newUnit = btn.dataset.val;
-      if (newUnit === S.wunit) return;
-      var inp = $('inp-weight');
-      var v = parseFloat(inp.value);
-      if (!isNaN(v)) {
-        inp.value = newUnit === 'lbs' ? Math.round(v * 2.20462) : Math.round(v / 2.20462);
-      }
-      S.wunit = newUnit;
-      setSegActive($('wunit-toggle'), S.wunit);
-    });
-
-    /* ----------------------------------------------------------
-       SEGMENT TOGGLES: HEIGHT UNIT
-    ---------------------------------------------------------- */
-    $('hunit-toggle').addEventListener('click', function (e) {
-      var btn = e.target.closest('.seg-toggle__btn');
-      if (!btn) return;
-      var newUnit = btn.dataset.val;
-      if (newUnit === S.hunit) return;
-      var inp = $('inp-height');
-      var v = parseFloat(inp.value);
-      if (!isNaN(v)) {
-        inp.value = newUnit === 'in' ? +(v / 2.54).toFixed(1) : Math.round(v * 2.54);
-      }
-      S.hunit = newUnit;
-      setSegActive($('hunit-toggle'), S.hunit);
-    });
-
-    /* ----------------------------------------------------------
-       BMR FORMULAS
-       All take weight_kg, height_cm, age, sex
-    ---------------------------------------------------------- */
+    /* BMR FORMULAS */
     function bmrMifflin(w, h, a, sex) {
-      var base = 10 * w + 6.25 * h - 5 * a;
-      return sex === 'male' ? base + 5 : base - 161;
+      var b = 10 * w + 6.25 * h - 5 * a;
+      return sex === 'male' ? b + 5 : b - 161;
     }
 
     function bmrHarris(w, h, a, sex) {
-      if (sex === 'male') {
-        return 13.397 * w + 4.799 * h - 5.677 * a + 88.362;
-      }
-      return 9.247 * w + 3.098 * h - 4.330 * a + 447.593;
+      return sex === 'male'
+        ? 13.397 * w + 4.799 * h - 5.677 * a + 88.362
+        : 9.247  * w + 3.098 * h - 4.330 * a + 447.593;
     }
 
     function bmrSchofield(w, a, sex) {
@@ -1784,108 +1056,129 @@
         if (a < 30) return 15.057 * w + 692.2;
         if (a < 60) return 11.472 * w + 873.1;
         return 11.711 * w + 587.7;
-      } else {
-        if (a < 18) return 13.384 * w + 692.6;
-        if (a < 30) return 14.818 * w + 486.6;
-        if (a < 60) return  8.126 * w + 845.6;
-        return 9.082 * w + 658.5;
       }
+      if (a < 18) return 13.384 * w + 692.6;
+      if (a < 30) return 14.818 * w + 486.6;
+      if (a < 60) return  8.126 * w + 845.6;
+      return 9.082 * w + 658.5;
     }
 
-    /* ----------------------------------------------------------
-       CALCULATE BUTTON
-    ---------------------------------------------------------- */
+    /* CALCULATE */
     $('calc-btn').addEventListener('click', function () {
-      var ageEl   = $('inp-age');
+      var ageEl    = $('inp-age');
       var weightEl = $('inp-weight');
       var heightEl = $('inp-height');
 
       var age    = parseInt(ageEl.value, 10);
-      var wRaw   = parseFloat(weightEl.value);
-      var hRaw   = parseFloat(heightEl.value);
-      var activity = parseFloat($('inp-activity').value);
+      var weight = parseFloat(weightEl.value);
+      var height = parseFloat(heightEl.value);
+      var act    = parseFloat($('inp-activity').value);
 
-      // Validate
-      var valid = true;
       [ageEl, weightEl, heightEl].forEach(function (el) { el.classList.remove('error'); });
 
-      if (!age || age < 15 || age > 80)   { ageEl.classList.add('error');    valid = false; }
-      if (!wRaw || wRaw <= 0)             { weightEl.classList.add('error'); valid = false; }
-      if (!hRaw || hRaw <= 0)             { heightEl.classList.add('error'); valid = false; }
-      if (!valid) return;
+      var ok = true;
+      if (!age || age < 15 || age > 80) { ageEl.classList.add('error');    ok = false; }
+      if (!weight || weight <= 0)       { weightEl.classList.add('error'); ok = false; }
+      if (!height || height <= 0)       { heightEl.classList.add('error'); ok = false; }
+      if (!ok) return;
 
-      var w = S.wunit === 'lbs' ? wRaw / 2.20462 : wRaw;
-      var h = S.hunit === 'in'  ? hRaw * 2.54    : hRaw;
+      var mif = Math.round(bmrMifflin(weight, height, age, S.sex)   * act);
+      var har = Math.round(bmrHarris(weight, height, age, S.sex)    * act);
+      var sch = Math.round(bmrSchofield(weight, age, S.sex)         * act);
+      var avg = Math.round((mif + har + sch) / 3);
 
-      var mifflin   = Math.round(bmrMifflin(w, h, age, S.sex)   * activity);
-      var harris    = Math.round(bmrHarris(w, h, age, S.sex)    * activity);
-      var schofield = Math.round(bmrSchofield(w, age, S.sex)    * activity);
-      var avg       = Math.round((mifflin + harris + schofield) / 3);
-
-      $('res-mifflin').textContent   = fmt(mifflin);
-      $('res-harris').textContent    = fmt(harris);
-      $('res-schofield').textContent = fmt(schofield);
+      $('res-mifflin').textContent   = fmt(mif);
+      $('res-harris').textContent    = fmt(har);
+      $('res-schofield').textContent = fmt(sch);
       $('res-avg').textContent       = fmt(avg);
 
-      var spread = Math.max(mifflin, harris, schofield) - Math.min(mifflin, harris, schofield);
-      $('results-note').textContent = 'The three formulas are within ' + spread + ' kcal of each other. The average is used for your goal below.';
+      var spread = Math.max(mif, har, sch) - Math.min(mif, har, sch);
+      $('results-note').textContent = 'The three formulas are within ' + spread + ' kcal of each other. The average is what feeds into everything below.';
 
       $('results').classList.add('visible');
 
-      S.weight_kg = w;
-      S.height_cm = h;
-      S.tdee = avg;
-      renderGoal();
+      S.age       = age;
+      S.weight_kg = weight;
+      S.height_cm = height;
+      S.tdee      = avg;
 
-      // Smooth scroll to results on mobile
+      var gw = parseFloat($('inp-goal-weight').value);
+      S.goal_weight = (!isNaN(gw) && gw > 0) ? gw : 0;
+
+      updateProtein();
+      renderGoal();
+      updateTimeline();
+      renderMealCards();
+
       if (window.innerWidth < 640) {
         $('results').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
       }
     });
 
-    /* ----------------------------------------------------------
-       GOAL SELECTOR
-    ---------------------------------------------------------- */
+    /* Live age+1 update */
+    $('inp-age').addEventListener('input', function () {
+      var a = parseInt(this.value, 10);
+      if (!isNaN(a) && a > 0) {
+        $('age-plus-one').textContent   = a + 1;
+        $('age-plus-one-2').textContent = a + 1;
+      }
+    });
+
+    /* Live protein update as weight is typed */
+    $('inp-weight').addEventListener('input', function () {
+      var w = parseFloat(this.value);
+      if (!isNaN(w) && w > 0) {
+        S.weight_kg = w;
+        updateProtein();
+      }
+    });
+
+    /* PROTEIN */
+    function updateProtein() {
+      if (!S.weight_kg) return;
+      var lo = Math.round(S.weight_kg * 1.6);
+      var hi = Math.round(S.weight_kg * 2.2);
+      $('protein-range').textContent = lo + ' to ' + hi + 'g';
+      $('protein-bw').textContent    = S.weight_kg + 'kg bodyweight';
+    }
+
+    /* GOAL SELECTOR */
     $('btn-cut').addEventListener('click', function () {
       S.mode = 'cut';
       $('btn-cut').classList.add('active');
       $('btn-bulk').classList.remove('active');
-      var slider = $('goal-slider');
-      slider.min = 10; slider.max = 25; slider.value = 20;
-      S.pct = 20;
+      var sl = $('goal-slider');
+      sl.min = 10; sl.max = 25; sl.value = 20; S.pct = 20;
       $('slider-label').textContent = 'Deficit';
-      $('tick-min').textContent = 'Mild (10%)';
-      $('tick-max').textContent = 'Aggressive (25%)';
-      $('slider-pct').textContent = 20;
-      renderGoal();
+      $('tick-min').textContent     = 'Mild (10%)';
+      $('tick-max').textContent     = 'Aggressive (25%)';
+      $('slider-pct').textContent   = 20;
+      renderGoal(); updateTimeline(); renderMealCards();
     });
 
     $('btn-bulk').addEventListener('click', function () {
       S.mode = 'bulk';
       $('btn-bulk').classList.add('active');
       $('btn-cut').classList.remove('active');
-      var slider = $('goal-slider');
-      slider.min = 5; slider.max = 20; slider.value = 10;
-      S.pct = 10;
+      var sl = $('goal-slider');
+      sl.min = 5; sl.max = 20; sl.value = 10; S.pct = 10;
       $('slider-label').textContent = 'Surplus';
-      $('tick-min').textContent = 'Conservative (5%)';
-      $('tick-max').textContent = 'Aggressive (20%)';
-      $('slider-pct').textContent = 10;
-      renderGoal();
+      $('tick-min').textContent     = 'Conservative (5%)';
+      $('tick-max').textContent     = 'Aggressive (20%)';
+      $('slider-pct').textContent   = 10;
+      renderGoal(); updateTimeline(); renderMealCards();
     });
 
     $('goal-slider').addEventListener('input', function () {
       S.pct = parseInt(this.value, 10);
       $('slider-pct').textContent = S.pct;
-      renderGoal();
+      renderGoal(); updateTimeline(); renderMealCards();
     });
 
     function renderGoal() {
-      $('slider-pct').textContent = S.pct;
-
       if (!S.tdee) {
-        $('goal-kcal').innerHTML = '-- <span>kcal / day</span>';
-        $('goal-desc').innerHTML = 'Fill in the calculator above to see your target.';
+        $('goal-kcal').innerHTML  = '-- <span>kcal / day</span>';
+        $('goal-desc').innerHTML  = 'Fill in the calculator above to see your target.';
         $('goal-note').textContent = '';
         return;
       }
@@ -1894,53 +1187,180 @@
 
       if (S.mode === 'cut') {
         target = Math.round(S.tdee * (1 - S.pct / 100));
-        desc = '<strong>' + fmt(S.tdee) + '</strong> TDEE minus <strong>' + S.pct + '% deficit</strong> = your cut target';
-        if (S.pct >= 25) {
-          note = 'That is aggressive. Results come faster but hunger gets real. Keep protein high or you will lose muscle too.';
-        } else if (S.pct >= 20) {
-          note = 'Solid deficit. Sustainable for most people with a decent diet. This is where I ran most of my cut.';
-        } else {
-          note = 'Mild deficit. Slower progress but very easy to stick to. Good starting point if you have never dieted before.';
-        }
+        desc   = '<strong>' + fmt(S.tdee) + '</strong> TDEE minus <strong>' + S.pct + '% deficit</strong> = your cut target';
+        note   = S.pct >= 25
+          ? 'That is aggressive. Results come faster but hunger gets real. Keep protein high or you will lose muscle too.'
+          : S.pct >= 20
+            ? 'Solid deficit. Sustainable for most people with a decent diet. This is where I ran most of my cut.'
+            : 'Mild deficit. Slower progress but very easy to stick to. Good starting point if you have never dieted before.';
       } else {
         target = Math.round(S.tdee * (1 + S.pct / 100));
-        desc = '<strong>' + fmt(S.tdee) + '</strong> TDEE plus <strong>' + S.pct + '% surplus</strong> = your bulk target';
-        if (S.pct >= 15) {
-          note = 'Aggressive bulk. Muscle gains will be fast but so will the fat. Most people overshoot here and regret it.';
-        } else if (S.pct >= 10) {
-          note = 'Good lean bulk range. Slow and clean. You will gain muscle without adding a ton of fat on top.';
-        } else {
-          note = 'Very conservative surplus. Minimal fat gain, slow muscle growth. Fine if you are new to lifting.';
-        }
+        desc   = '<strong>' + fmt(S.tdee) + '</strong> TDEE plus <strong>' + S.pct + '% surplus</strong> = your bulk target';
+        note   = S.pct >= 15
+          ? 'Aggressive bulk. Muscle gains will be fast but so will the fat. Most people overshoot here and regret it.'
+          : S.pct >= 10
+            ? 'Good lean bulk range. Slow and clean. You will gain muscle without adding a ton of fat on top.'
+            : 'Very conservative surplus. Minimal fat gain, slow muscle growth. Fine if you are new to lifting.';
       }
 
-      $('goal-kcal').innerHTML = fmt(target) + ' <span>kcal / day</span>';
-      $('goal-desc').innerHTML = desc;
+      $('goal-kcal').innerHTML   = fmt(target) + ' <span>kcal / day</span>';
+      $('goal-desc').innerHTML   = desc;
       $('goal-note').textContent = note;
+      S.targetCals               = target;
+    }
 
-      S.targetCals = target;
+    /* TIMELINE */
+    function updateTimeline() {
+      var age = S.age || parseInt($('inp-age').value, 10);
+      if (!isNaN(age) && age > 0) {
+        $('age-plus-one').textContent   = age + 1;
+        $('age-plus-one-2').textContent = age + 1;
+      }
 
-      // Notify Part 2
-      if (typeof window.onGoalUpdate === 'function') {
-        window.onGoalUpdate(S);
+      if (!S.tdee || S.mode !== 'cut') {
+        $('tl-weekly').textContent = 'Fill in your numbers above first.';
+        $('tl-weeks').textContent  = '';
+        return;
+      }
+
+      var dailyDef   = S.tdee * (S.pct / 100);
+      var weeklyLoss = (dailyDef / 1000) * 0.9;
+
+      $('tl-weekly').textContent = 'At your ' + S.pct + '% deficit, you will lose approximately ' + weeklyLoss.toFixed(2) + 'kg per week.';
+
+      if (S.goal_weight > 0 && S.weight_kg > S.goal_weight && weeklyLoss > 0) {
+        var weeks  = Math.ceil((S.weight_kg - S.goal_weight) / weeklyLoss);
+        var months = Math.ceil(weeks / 4.3);
+        $('tl-weeks').textContent = 'You will reach ' + S.goal_weight + 'kg in roughly ' + weeks + ' weeks (about ' + months + ' month' + (months === 1 ? '' : 's') + ').';
+      } else {
+        $('tl-weeks').textContent = '';
       }
     }
 
-    /* ----------------------------------------------------------
-       MOBILE NAV TOGGLE
-    ---------------------------------------------------------- */
-    var navToggle = $('nav-toggle');
-    var siteNav   = $('site-nav');
+    /* MEAL CARDS */
+    var mealSel = {};
 
-    if (navToggle && siteNav) {
-      navToggle.addEventListener('click', function () {
-        siteNav.classList.toggle('is-open');
+    function getSel(i) {
+      if (!mealSel[i]) mealSel[i] = { carb: 'White Rice (cooked)', protein: 'Chicken Breast' };
+      return mealSel[i];
+    }
+
+    function opts(obj, selected) {
+      return Object.keys(obj).map(function (k) {
+        return '<option value="' + k + '"' + (k === selected ? ' selected' : '') + '>' + k + '</option>';
+      }).join('');
+    }
+
+    document.querySelectorAll('.freq-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        S.meals = parseInt(btn.dataset.meals, 10);
+        document.querySelectorAll('.freq-btn').forEach(function (b) {
+          b.classList.toggle('active', b === btn);
+        });
+        renderMealCards();
+        refreshAcc5();
+      });
+    });
+
+    function renderMealCards() {
+      var n       = S.meals;
+      var cals    = S.targetCals || S.tdee;
+      var carbPct = S.mode === 'bulk' ? 0.50 : 0.40;
+      var protPct = S.mode === 'bulk' ? 0.25 : 0.35;
+      var mCals   = cals > 0 ? cals / n : 0;
+      var cCals   = mCals * carbPct;
+      var pCals   = mCals * protPct;
+
+      var html = '';
+      for (var i = 0; i < n; i++) {
+        var sel   = getSel(i);
+        var cFood = CARBS[sel.carb]    || CARBS['White Rice (cooked)'];
+        var pFood = PROTEINS[sel.protein] || PROTEINS['Chicken Breast'];
+
+        var carbG = 0, protDisplay = '--', plateG = 0;
+        if (cals > 0) {
+          carbG = Math.round(cCals / cFood.g);
+          var protG;
+          if (pFood.each) {
+            var eggs = Math.max(1, Math.round(pCals / pFood.each));
+            protG        = eggs * 50;
+            protDisplay  = eggs + (eggs === 1 ? ' egg' : ' eggs');
+          } else {
+            protG       = Math.round(pCals / pFood.g);
+            protDisplay = protG + 'g';
+          }
+          plateG = carbG + protG + VEG_G;
+        }
+
+        var title = 'Meal ' + (i + 1) + (cals > 0 ? ' (' + Math.round(mCals) + ' kcal)' : '');
+
+        html += '<div class="meal-card">'
+          + '<div class="meal-card__hd">' + title + '</div>'
+          + '<div class="meal-card__sel">'
+          + '<div class="meal-card__sel-field"><label>Carb source</label>'
+          + '<select class="calc-select j-carb" data-i="' + i + '">' + opts(CARBS, sel.carb) + '</select></div>'
+          + '<div class="meal-card__sel-field"><label>Protein source</label>'
+          + '<select class="calc-select j-prot" data-i="' + i + '">' + opts(PROTEINS, sel.protein) + '</select></div>'
+          + '</div>'
+          + '<div class="meal-card__macros">'
+          + '<div class="mpill"><div class="mpill__lbl">Carb</div><div class="mpill__val">' + (cals > 0 ? carbG + 'g' : '--') + '</div></div>'
+          + '<div class="mpill"><div class="mpill__lbl">Protein</div><div class="mpill__val">' + protDisplay + '</div></div>'
+          + '<div class="mpill mpill--veg"><div class="mpill__lbl">Veg</div><div class="mpill__val">200g</div></div>'
+          + '</div>'
+          + '<div class="meal-card__foot">'
+          + (cals > 0
+            ? 'Your plate weighs <strong>' + plateG + 'g</strong>. That is volume eating. Not starving.'
+            : 'Fill in your numbers above to see gram amounts.')
+          + '</div>'
+          + '</div>';
+      }
+
+      $('meal-cards').innerHTML = html;
+
+      $('meal-cards').querySelectorAll('.j-carb').forEach(function (s) {
+        s.addEventListener('change', function () {
+          getSel(parseInt(this.dataset.i, 10)).carb = this.value;
+          renderMealCards(); refreshAcc5();
+        });
+      });
+
+      $('meal-cards').querySelectorAll('.j-prot').forEach(function (s) {
+        s.addEventListener('change', function () {
+          getSel(parseInt(this.dataset.i, 10)).protein = this.value;
+          renderMealCards(); refreshAcc5();
+        });
       });
     }
 
-    /* Export state for Part 2 */
-    window.RNP = window.RNP || {};
-    window.RNP.getState = function () { return S; };
+    function refreshAcc5() {
+      var acc  = $('acc-5');
+      var body = acc && acc.querySelector('.acc-body');
+      if (acc && acc.classList.contains('open') && body) {
+        body.style.maxHeight = body.scrollHeight + 'px';
+      }
+    }
+
+    /* ACCORDIONS */
+    document.querySelectorAll('.accordion').forEach(function (acc) {
+      var hd   = acc.querySelector('.acc-header');
+      var body = acc.querySelector('.acc-body');
+
+      hd.addEventListener('click', toggle);
+      hd.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }
+      });
+
+      function toggle() {
+        var opening = !acc.classList.contains('open');
+        acc.classList.toggle('open', opening);
+        hd.setAttribute('aria-expanded', String(opening));
+        body.style.maxHeight = opening ? body.scrollHeight + 'px' : '0';
+      }
+    });
+
+    /* INIT */
+    renderMealCards();
+    updateTimeline();
 
   })();
   </script>

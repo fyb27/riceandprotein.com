@@ -177,7 +177,7 @@
     /* SECTION 1 HERO TEXT */
     .s1-title {
       font-family: 'DM Serif Display', serif;
-      font-size: clamp(36px, 6vw, 60px);
+      font-size: 72px;
       font-weight: 400;
       line-height: 1.05;
       color: var(--text);
@@ -534,6 +534,30 @@
 
     .protein-card__text strong { color: var(--text); font-weight: 600; }
 
+    .protein-why {
+      display: block;
+      margin-top: 8px;
+      font-size: 12px;
+      color: var(--muted);
+      background: none;
+      border: none;
+      padding: 0;
+      cursor: pointer;
+      text-decoration: underline;
+      font-family: 'DM Sans', sans-serif;
+      text-align: left;
+    }
+
+    .protein-explain {
+      padding-top: 8px;
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .protein-explain p { margin-bottom: 10px; }
+    .protein-explain p:last-child { margin-bottom: 0; }
+
     /* ACCORDIONS */
     .accordions { margin-top: 56px; }
 
@@ -562,7 +586,7 @@
 
     .acc-title {
       font-family: 'DM Serif Display', serif;
-      font-size: clamp(20px, 3vw, 27px);
+      font-size: 36px;
       font-weight: 400;
       color: var(--text);
       flex: 1;
@@ -743,6 +767,7 @@
       }
       .site-nav.is-open .has-dropdown::after { display: none; }
       .page { padding: calc(var(--header-h) + 40px) 16px 60px; }
+      .s1-title { font-size: 42px; }
       .form-card { padding: 20px 16px; }
       .calc-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
       .results-cards { grid-template-columns: repeat(2, 1fr); }
@@ -905,6 +930,11 @@
       <div class="protein-card__num" id="protein-range">-- to --g</div>
       <div class="protein-card__text">
         <strong>Daily protein target.</strong> Based on your <span id="protein-bw">__kg goal weight</span> x 1.6g to 2.2g. Goal weight is used here, not current weight. This is how much protein your leaner body will need to hold on to its muscle.
+        <button class="protein-why" id="protein-why-btn" type="button">Why this amount?</button>
+        <div class="protein-explain" id="protein-explain" hidden>
+          <p>Protein takes more energy to digest than carbs or fat. It also keeps you full longer. Most importantly, it protects your muscle when you are in a calorie deficit. Without enough protein, your body breaks down muscle for fuel. You lose weight but end up soft and weak instead of lean.</p>
+          <p>The target here is 1.6g to 2.2g per kg of body weight. This is the range backed by most nutrition research for people trying to lose fat and keep muscle.</p>
+        </div>
       </div>
     </div>
 
@@ -1283,6 +1313,18 @@
         btnM.classList.remove('active');
       });
     })();
+
+    /* PROTEIN WHY TOGGLE */
+    $('protein-why-btn').addEventListener('click', function () {
+      var exp = $('protein-explain');
+      if (exp.hasAttribute('hidden')) {
+        exp.removeAttribute('hidden');
+        this.textContent = 'Hide explanation';
+      } else {
+        exp.setAttribute('hidden', '');
+        this.textContent = 'Why this amount?';
+      }
+    });
 
     /* ACCORDIONS */
     document.querySelectorAll('.accordion').forEach(function (acc) {

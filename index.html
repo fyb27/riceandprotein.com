@@ -875,6 +875,16 @@
       white-space: nowrap;
     }
 
+    .pb-row__kcal {
+      font-family: 'DM Serif Display', serif;
+      font-size: 18px;
+      color: var(--muted);
+      width: 76px;
+      text-align: right;
+      flex-shrink: 0;
+      white-space: nowrap;
+    }
+
     .pb-row__del {
       width: 30px;
       height: 30px;
@@ -941,6 +951,15 @@
     }
 
     .pb-total__of { font-size: 14px; color: var(--muted); }
+
+    .pb-total__row--kcal { margin-top: 10px; }
+
+    .pb-total__num--muted {
+      font-family: 'DM Serif Display', serif;
+      font-size: 32px;
+      line-height: 1;
+      color: var(--muted);
+    }
 
     .pb-status {
       font-size: 13px;
@@ -1087,8 +1106,9 @@
       .pb-row__food { width: 100%; order: 1; flex: none; }
       .pb-row__amt { width: 72px; order: 2; }
       .pb-row__unit { order: 3; flex: 1; width: auto; }
-      .pb-row__pro { order: 4; width: auto; }
-      .pb-row__del { order: 5; }
+      .pb-row__pro  { order: 4; width: auto; }
+      .pb-row__kcal { order: 5; width: auto; }
+      .pb-row__del  { order: 6; }
     }
 
     @media (max-width: 420px) {
@@ -1292,6 +1312,11 @@
                   <span class="pb-total__label">Total protein</span>
                   <span class="pb-total__num" id="pb-total-num">0g</span>
                   <span class="pb-total__of" id="pb-total-of">/ __g target</span>
+                </div>
+                <div class="pb-total__row pb-total__row--kcal">
+                  <span class="pb-total__label">Total calories</span>
+                  <span class="pb-total__num--muted" id="pb-total-kcal">0kcal</span>
+                  <span class="pb-total__of" id="pb-total-kcal-of"></span>
                 </div>
                 <p class="pb-status" id="pb-status"></p>
               </div>
@@ -1631,17 +1656,17 @@
 
     /* PROTEIN PLAN (section 02) */
     var FOODS = [
-      { key: 'chicken-breast',  label: 'Chicken breast (raw)',   pro100: 31,  unit: 'g' },
-      { key: 'chicken-thigh',   label: 'Chicken thigh (raw)',    pro100: 17,  unit: 'g' },
-      { key: 'eggs',            label: 'Eggs',                   pro100: 6.3, unit: 'pieces' },
-      { key: 'tuna',            label: 'Canned tuna (drained)',  pro100: 25,  unit: 'g' },
-      { key: 'beef',            label: 'Beef lean (raw)',         pro100: 26,  unit: 'g' },
-      { key: 'salmon',          label: 'Salmon (raw)',            pro100: 20,  unit: 'g' },
-      { key: 'tofu',            label: 'Tofu (firm)',             pro100: 8,   unit: 'g' },
-      { key: 'greek-yogurt',    label: 'Greek yogurt',            pro100: 10,  unit: 'g' },
-      { key: 'cottage-cheese',  label: 'Cottage cheese',          pro100: 11,  unit: 'g' },
-      { key: 'protein-powder',  label: 'Protein powder',          pro100: 25,  unit: 'scoops' },
-      { key: 'milk',            label: 'Milk full cream',         pro100: 3.4, unit: 'g' }
+      { key: 'chicken-breast',  label: 'Chicken breast (raw)',   pro100: 31,  kcal100: 165, unit: 'g' },
+      { key: 'chicken-thigh',   label: 'Chicken thigh (raw)',    pro100: 17,  kcal100: 209, unit: 'g' },
+      { key: 'eggs',            label: 'Eggs',                   pro100: 6.3, kcal100: 78,  unit: 'pieces' },
+      { key: 'tuna',            label: 'Canned tuna (drained)',  pro100: 25,  kcal100: 116, unit: 'g' },
+      { key: 'beef',            label: 'Beef lean (raw)',         pro100: 26,  kcal100: 218, unit: 'g' },
+      { key: 'salmon',          label: 'Salmon (raw)',            pro100: 20,  kcal100: 208, unit: 'g' },
+      { key: 'tofu',            label: 'Tofu (firm)',             pro100: 8,   kcal100: 76,  unit: 'g' },
+      { key: 'greek-yogurt',    label: 'Greek yogurt',            pro100: 10,  kcal100: 97,  unit: 'g' },
+      { key: 'cottage-cheese',  label: 'Cottage cheese',          pro100: 11,  kcal100: 98,  unit: 'g' },
+      { key: 'protein-powder',  label: 'Protein powder',          pro100: 25,  kcal100: 120, unit: 'scoops' },
+      { key: 'milk',            label: 'Milk full cream',         pro100: 3.4, kcal100: 61,  unit: 'g' }
     ];
 
     var PB_REASONS = {
@@ -1667,6 +1692,12 @@
       return amount * food.pro100;
     }
 
+    function calcRowKcal(food, amount) {
+      if (!amount || isNaN(amount) || amount <= 0) return 0;
+      if (food.unit === 'g') return amount * food.kcal100 / 100;
+      return amount * food.kcal100;
+    }
+
     function getPbTarget() {
       var w = S.goal_weight || S.weight_kg;
       if (!w) return 170;
@@ -1684,21 +1715,32 @@
     }
 
     function updateTotal() {
-      var rows  = document.querySelectorAll('#pb-rows .pb-row');
-      var total = 0;
+      var rows      = document.querySelectorAll('#pb-rows .pb-row');
+      var totalPro  = 0;
+      var totalKcal = 0;
       rows.forEach(function (row) {
         var sel = row.querySelector('.pb-food-sel');
         var inp = row.querySelector('.pb-amt-inp');
         var f   = getFoodData(sel.value);
         var amt = parseFloat(inp.value) || 0;
-        if (f) total += calcRowProtein(f, amt);
+        if (f) {
+          totalPro  += calcRowProtein(f, amt);
+          totalKcal += calcRowKcal(f, amt);
+        }
       });
-      var target       = getPbTarget();
-      var totalRounded = Math.round(total);
-      $('pb-total-num').textContent = totalRounded + 'g';
-      $('pb-total-of').textContent  = '/ ' + target + 'g target';
+      var proTarget        = getPbTarget();
+      var totalProRounded  = Math.round(totalPro);
+      var totalKcalRounded = Math.round(totalKcal);
+
+      $('pb-total-num').textContent  = totalProRounded + 'g';
+      $('pb-total-of').textContent   = '/ ' + proTarget + 'g target';
+      $('pb-total-kcal').textContent = totalKcalRounded + 'kcal';
+      $('pb-total-kcal-of').textContent = S.targetCals
+        ? '/ ' + fmt(S.targetCals) + 'kcal target'
+        : '';
+
       var statusEl = $('pb-status');
-      if (total < target) {
+      if (totalPro < proTarget) {
         statusEl.className   = 'pb-status pb-status--under';
         statusEl.textContent = 'Too low. You risk losing muscle on a deficit.';
       } else {
@@ -1721,7 +1763,9 @@
       var food   = getFoodData(foodKey);
       var unit   = food ? food.unit : 'g';
       var amtVal = (amount !== undefined && amount !== '') ? amount : '';
-      var proVal = (food && amtVal !== '') ? Math.round(calcRowProtein(food, parseFloat(amtVal) || 0)) : 0;
+      var amt0   = parseFloat(amtVal) || 0;
+      var proVal  = (food && amtVal !== '') ? Math.round(calcRowProtein(food, amt0)) : 0;
+      var kcalVal = (food && amtVal !== '') ? Math.round(calcRowKcal(food, amt0))    : 0;
 
       var div = document.createElement('div');
       div.className = 'pb-row';
@@ -1731,11 +1775,13 @@
         '<div class="pb-row__amt"><input type="number" class="pb-amt-inp" min="0" step="1" placeholder="0"' + (amtVal !== '' ? ' value="' + amtVal + '"' : '') + ' inputmode="decimal"></div>' +
         '<span class="pb-row__unit">' + unit + '</span>' +
         '<span class="pb-row__pro">' + proVal + 'g</span>' +
+        '<span class="pb-row__kcal">' + kcalVal + 'kcal</span>' +
         '<button class="pb-row__del" type="button" aria-label="Remove">&#215;</button>';
 
       var sel      = div.querySelector('.pb-food-sel');
       var inp      = div.querySelector('.pb-amt-inp');
       var proSpan  = div.querySelector('.pb-row__pro');
+      var kcalSpan = div.querySelector('.pb-row__kcal');
       var unitSpan = div.querySelector('.pb-row__unit');
 
       function recalcRow() {
@@ -1743,6 +1789,7 @@
         var amt = parseFloat(inp.value) || 0;
         unitSpan.textContent = f ? f.unit : 'g';
         proSpan.textContent  = Math.round(f ? calcRowProtein(f, amt) : 0) + 'g';
+        kcalSpan.textContent = Math.round(f ? calcRowKcal(f, amt)    : 0) + 'kcal';
         updateTotal();
       }
 

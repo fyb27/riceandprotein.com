@@ -823,7 +823,7 @@
     <div class="protein-card">
       <div class="protein-card__num" id="protein-range">-- to --g</div>
       <div class="protein-card__text">
-        <strong>Daily protein target.</strong> Based on <span id="protein-bw">your bodyweight</span> x 1.6g to x 2.2g. Hit the high end if you are cutting or lifting.
+        <strong>Daily protein target.</strong> Based on your <span id="protein-bw">__kg goal weight</span> x 1.6g to 2.2g. Protein needs are based on goal weight, not current weight.
       </div>
     </div>
 
@@ -1135,11 +1135,12 @@
 
     /* PROTEIN */
     function updateProtein() {
-      if (!S.weight_kg) return;
-      var lo = Math.round(S.weight_kg * 1.6);
-      var hi = Math.round(S.weight_kg * 2.2);
+      var w = S.goal_weight || S.weight_kg;
+      if (!w) return;
+      var lo = Math.round(w * 1.6);
+      var hi = Math.round(w * 2.2);
       $('protein-range').textContent = lo + ' to ' + hi + 'g';
-      $('protein-bw').textContent    = S.weight_kg + 'kg bodyweight';
+      $('protein-bw').textContent    = w + 'kg goal weight';
     }
 
     /* GOAL SELECTOR */
@@ -1191,8 +1192,8 @@
         note   = S.pct >= 25
           ? 'That is aggressive. Results come faster but hunger gets real. Keep protein high or you will lose muscle too.'
           : S.pct >= 20
-            ? 'Solid deficit. Sustainable for most people with a decent diet. This is where I ran most of my cut.'
-            : 'Mild deficit. Slower progress but very easy to stick to. Good starting point if you have never dieted before.';
+            ? ''
+            :'Mild deficit. Slower progress but very easy to stick to. Good starting point if you have never dieted before.';
       } else {
         target = Math.round(S.tdee * (1 + S.pct / 100));
         desc   = '<strong>' + fmt(S.tdee) + '</strong> TDEE plus <strong>' + S.pct + '% surplus</strong> = your bulk target';

@@ -738,6 +738,106 @@
 
     .footer-backlink a:hover { color: rgba(255,255,255,0.5); }
 
+    /* PROTEIN PLAN (section 02) */
+    .protein-plan-empty {
+      font-size: 14px;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    .protein-plan-target {
+      font-size: 15px;
+      color: var(--text);
+      margin-bottom: 20px;
+    }
+
+    .preset-btns {
+      display: flex;
+      width: -webkit-fit-content;
+      width: fit-content;
+      border: 1.5px solid var(--border);
+      overflow: hidden;
+      margin-bottom: 24px;
+    }
+
+    .preset-btn {
+      padding: 10px 22px;
+      font-size: 13px;
+      font-weight: 600;
+      background: var(--white);
+      border: none;
+      border-right: 1.5px solid var(--border);
+      color: var(--muted);
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+    }
+
+    .preset-btn:last-child { border-right: none; }
+
+    .preset-btn.active {
+      background: var(--accent);
+      color: var(--white);
+    }
+
+    .protein-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 14px;
+    }
+
+    .protein-table th {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-align: left;
+      padding: 0 0 10px;
+      border-bottom: 1.5px solid var(--border);
+    }
+
+    .protein-table th:nth-child(2),
+    .protein-table th:nth-child(3) { text-align: right; }
+
+    .protein-table td {
+      padding: 12px 0;
+      font-size: 15px;
+      border-bottom: 1px solid var(--border);
+      color: var(--text);
+      vertical-align: middle;
+    }
+
+    .protein-table td:nth-child(2) {
+      text-align: right;
+      color: var(--muted);
+      padding-right: 24px;
+    }
+
+    .protein-table td:nth-child(3) {
+      text-align: right;
+      font-weight: 600;
+      color: var(--accent);
+      white-space: nowrap;
+    }
+
+    .pp-total td {
+      padding: 14px 0;
+      font-weight: 700;
+      border-bottom: none;
+    }
+
+    .pp-total td:nth-child(3) {
+      font-family: 'DM Serif Display', serif;
+      font-size: 22px;
+      color: var(--accent);
+    }
+
+    .protein-plan-note {
+      font-size: 12px;
+      color: var(--muted);
+      font-style: italic;
+    }
+
     /* RESPONSIVE */
     @media (max-width: 640px) {
       .site-nav { display: none; }
@@ -776,6 +876,9 @@
       .goal-result__kcal { font-size: 38px; }
       .protein-card { padding: 20px 16px; flex-direction: column; align-items: flex-start; gap: 10px; }
       .acc-title { font-size: 18px; }
+      .preset-btns { width: 100%; }
+      .preset-btn { flex: 1; padding: 10px 8px; font-size: 12px; }
+      .protein-table td, .protein-table th { font-size: 13px; }
     }
 
     @media (max-width: 420px) {
@@ -938,19 +1041,64 @@
       </div>
     </div>
 
-    <!-- ACCORDIONS: SECTIONS 2-7 -->
+    <!-- ACCORDIONS: SECTIONS 2-6 -->
     <div class="accordions">
 
-      <!-- SECTION 2: HOW LONG WILL IT TAKE? -->
+      <!-- SECTION 2: HOW TO HIT YOUR PROTEIN TARGET -->
       <div class="accordion" id="acc-2">
         <div class="acc-header" role="button" tabindex="0" aria-expanded="false" aria-controls="acc-2-body">
           <span class="acc-num">02</span>
-          <span class="acc-title">How long will it take?</span>
+          <span class="acc-title">How to hit your protein target</span>
           <svg class="acc-chevron" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <path d="M4 7l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </div>
         <div class="acc-body" id="acc-2-body">
+          <div class="acc-content">
+            <div id="protein-plan-locked">
+              <p class="protein-plan-empty">Complete Step 1 above to get your personalised breakdown.</p>
+            </div>
+            <div id="protein-plan-unlocked" hidden>
+              <p class="protein-plan-target">Targeting <strong id="pp-target-g">__</strong>g of protein per day. Pick your approach:</p>
+              <div class="preset-btns" role="group" aria-label="Protein plan preset">
+                <button class="preset-btn active" data-preset="whole" type="button">Whole Foods</button>
+                <button class="preset-btn" data-preset="shake" type="button">Whole Foods + Shake</button>
+                <button class="preset-btn" data-preset="budget" type="button">Budget</button>
+              </div>
+              <table class="protein-table">
+                <thead>
+                  <tr>
+                    <th>Food</th>
+                    <th>Amount</th>
+                    <th>Protein</th>
+                  </tr>
+                </thead>
+                <tbody id="pp-tbody"></tbody>
+                <tfoot>
+                  <tr class="pp-total">
+                    <td>Total</td>
+                    <td></td>
+                    <td id="pp-total-g">—</td>
+                  </tr>
+                </tfoot>
+              </table>
+              <p class="protein-plan-note">All chicken amounts are raw weight. Cooking reduces weight by roughly 25%.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- SECTION 3: HOW LONG WILL IT TAKE? -->
+      <div class="accordion" id="acc-3">
+        <div class="acc-header" role="button" tabindex="0" aria-expanded="false" aria-controls="acc-3-body">
+          <span class="acc-num">03</span>
+          <span class="acc-title">How long will it take?</span>
+          <svg class="acc-chevron" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M4 7l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="acc-body" id="acc-3-body">
           <div class="acc-content">
             <div class="timeline-stat">
               <div class="timeline-stat__weekly" id="tl-weekly">Fill in your numbers above first.</div>
@@ -964,16 +1112,16 @@
       </div>
 
 
-      <!-- SECTION 3: THE SECRET TO MAKING IT EASY -->
-      <div class="accordion" id="acc-3">
-        <div class="acc-header" role="button" tabindex="0" aria-expanded="false" aria-controls="acc-3-body">
-          <span class="acc-num">03</span>
+      <!-- SECTION 4: THE SECRET TO MAKING IT EASY -->
+      <div class="accordion" id="acc-4">
+        <div class="acc-header" role="button" tabindex="0" aria-expanded="false" aria-controls="acc-4-body">
+          <span class="acc-num">04</span>
           <span class="acc-title">The secret to making it easy</span>
           <svg class="acc-chevron" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <path d="M4 7l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </div>
-        <div class="acc-body" id="acc-3-body">
+        <div class="acc-body" id="acc-4-body">
           <div class="acc-content">
             <div class="copy">
               <p>Hunger is the main reason diets fail. When you eat less, your body produces hunger signals. Most people can ignore them for a few days. But not for months. Volume eating solves this problem.</p>
@@ -985,16 +1133,16 @@
         </div>
       </div>
 
-      <!-- SECTION 4: WHAT TO EAT -->
-      <div class="accordion" id="acc-4">
-        <div class="acc-header" role="button" tabindex="0" aria-expanded="false" aria-controls="acc-4-body">
-          <span class="acc-num">04</span>
+      <!-- SECTION 5: WHAT TO EAT -->
+      <div class="accordion" id="acc-5">
+        <div class="acc-header" role="button" tabindex="0" aria-expanded="false" aria-controls="acc-5-body">
+          <span class="acc-num">05</span>
           <span class="acc-title">What to eat</span>
           <svg class="acc-chevron" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <path d="M4 7l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </div>
-        <div class="acc-body" id="acc-4-body">
+        <div class="acc-body" id="acc-5-body">
           <div class="acc-content">
 
             <div class="copy">
@@ -1009,16 +1157,16 @@
         </div>
       </div>
 
-      <!-- SECTION 5: WHY YOU SHOULD LIFT -->
-      <div class="accordion" id="acc-5">
-        <div class="acc-header" role="button" tabindex="0" aria-expanded="false" aria-controls="acc-5-body">
-          <span class="acc-num">05</span>
+      <!-- SECTION 6: WHY YOU SHOULD LIFT -->
+      <div class="accordion" id="acc-6">
+        <div class="acc-header" role="button" tabindex="0" aria-expanded="false" aria-controls="acc-6-body">
+          <span class="acc-num">06</span>
           <span class="acc-title">Why you should lift</span>
           <svg class="acc-chevron" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <path d="M4 7l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </div>
-        <div class="acc-body" id="acc-5-body">
+        <div class="acc-body" id="acc-6-body">
           <div class="acc-content">
             <div class="copy">
               <p>When the body is in a calorie deficit, it burns both fat and muscle for fuel. Without resistance training, a significant portion of the weight lost comes from muscle, not fat. The number on the scale drops, but the shape of the body stays roughly the same.</p>
@@ -1181,12 +1329,101 @@
     /* PROTEIN */
     function updateProtein() {
       var w = S.goal_weight || S.weight_kg;
-      if (!w) return;
-      var lo = Math.round(w * 1.6);
-      var hi = Math.round(w * 2.2);
-      $('protein-range').textContent = lo + ' to ' + hi + 'g';
-      $('protein-bw').textContent    = w + 'kg goal weight';
+      if (w) {
+        var lo = Math.round(w * 1.6);
+        var hi = Math.round(w * 2.2);
+        $('protein-range').textContent = lo + ' to ' + hi + 'g';
+        $('protein-bw').textContent    = w + 'kg goal weight';
+      }
+      updateProteinPlan();
     }
+
+    /* PROTEIN PLAN (section 02) */
+    var currentPreset = 'whole';
+
+    var PRESETS = {
+      whole: [
+        { name: 'Chicken breast (raw)', baseAmt: 310, basePro: 62, unit: 'g' },
+        { name: 'Eggs (large)',         baseAmt: 3,   basePro: 19, unit: 'eggs' },
+        { name: 'Canned tuna',          baseAmt: 150, basePro: 33, unit: 'g' }
+      ],
+      shake: [
+        { name: 'Chicken breast (raw)', baseAmt: 200, basePro: 40, unit: 'g' },
+        { name: 'Eggs (large)',         baseAmt: 2,   basePro: 13, unit: 'eggs' },
+        { name: 'Protein shake',        baseAmt: 1,   basePro: 25, unit: 'scoop' },
+        { name: 'Canned tuna',          baseAmt: 100, basePro: 22, unit: 'g' }
+      ],
+      budget: [
+        { name: 'Eggs (large)',          baseAmt: 4,   basePro: 25, unit: 'eggs' },
+        { name: 'Canned tuna',           baseAmt: 200, basePro: 44, unit: 'g' },
+        { name: 'Chicken thigh (raw)',   baseAmt: 300, basePro: 51, unit: 'g' }
+      ]
+    };
+
+    function renderPresetTable(target) {
+      var rows = PRESETS[currentPreset];
+      var baseTotal = rows.reduce(function (s, r) { return s + r.basePro; }, 0);
+      var scale = target / baseTotal;
+      var tbody = $('pp-tbody');
+      tbody.innerHTML = '';
+      var actualTotal = 0;
+      rows.forEach(function (row) {
+        var scaledAmt = Math.max(1, Math.round(row.baseAmt * scale));
+        var scaledPro = Math.round(row.basePro * scale);
+        actualTotal += scaledPro;
+        var amtStr;
+        if (row.unit === 'eggs') {
+          amtStr = scaledAmt + (scaledAmt === 1 ? ' egg' : ' eggs');
+        } else if (row.unit === 'scoop') {
+          amtStr = scaledAmt + (scaledAmt === 1 ? ' scoop' : ' scoops');
+        } else {
+          amtStr = scaledAmt + 'g';
+        }
+        var tr = document.createElement('tr');
+        tr.innerHTML = '<td>' + row.name + '</td><td>' + amtStr + '</td><td>' + scaledPro + 'g</td>';
+        tbody.appendChild(tr);
+      });
+      $('pp-total-g').textContent = actualTotal + 'g';
+    }
+
+    function updateProteinPlan() {
+      var w = S.goal_weight || S.weight_kg;
+      var locked   = $('protein-plan-locked');
+      var unlocked = $('protein-plan-unlocked');
+      if (!w || !S.tdee) {
+        locked.removeAttribute('hidden');
+        unlocked.setAttribute('hidden', '');
+        return;
+      }
+      locked.setAttribute('hidden', '');
+      unlocked.removeAttribute('hidden');
+      var target = Math.round(w * 1.9);
+      $('pp-target-g').textContent = target;
+      renderPresetTable(target);
+      var acc2 = $('acc-2');
+      var acc2body = $('acc-2-body');
+      if (acc2 && acc2.classList.contains('open')) {
+        acc2body.style.maxHeight = acc2body.scrollHeight + 'px';
+      }
+    }
+
+    document.querySelectorAll('.preset-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        currentPreset = btn.dataset.preset;
+        document.querySelectorAll('.preset-btn').forEach(function (b) {
+          b.classList.toggle('active', b === btn);
+        });
+        var w = S.goal_weight || S.weight_kg;
+        if (w && S.tdee) {
+          renderPresetTable(Math.round(w * 1.9));
+          var acc2 = $('acc-2');
+          var acc2body = $('acc-2-body');
+          if (acc2 && acc2.classList.contains('open')) {
+            acc2body.style.maxHeight = acc2body.scrollHeight + 'px';
+          }
+        }
+      });
+    });
 
     /* GOAL SELECTOR */
     $('btn-cut').addEventListener('click', function () {
@@ -1290,14 +1527,14 @@
       var btnF = $('transf-female');
       if (!img || !btnM || !btnF) return;
 
-      function recalcAcc5() {
-        var body = $('acc-5-body');
-        if (body && $('acc-5').classList.contains('open')) {
+      function recalcAcc6() {
+        var body = $('acc-6-body');
+        if (body && $('acc-6').classList.contains('open')) {
           body.style.maxHeight = body.scrollHeight + 'px';
         }
       }
 
-      img.addEventListener('load', recalcAcc5);
+      img.addEventListener('load', recalcAcc6);
 
       btnM.addEventListener('click', function () {
         img.src = 'images/transformation-male.jpg';

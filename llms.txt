@@ -1,0 +1,29 @@
+# Rice and Protein
+
+> A free TDEE calculator and practical weight loss guide. No keto, no supplements, no starving. Just calories in vs calories out, done sustainably.
+
+## What this site is
+
+Rice and Protein is a weight loss resource built around one principle: calorie balance. The site provides a free TDEE (Total Daily Energy Expenditure) calculator, a protein target guide, and practical diet guides for common approaches including CICO, volume eating, intermittent fasting, keto, paleo, and OMAD.
+
+The core philosophy: you can eat filling, satisfying food and still lose fat. Volume eating — building meals from high-volume, low-calorie-density foods like rice, chicken breast, and vegetables — is the main method advocated here.
+
+## Key tools
+
+- **TDEE Calculator** (homepage): Calculates maintenance calories using three formulas (Mifflin-St Jeor, Harris-Benedict, Schofield), averages them, then applies a user-selected deficit or surplus to give a daily calorie target.
+- **Protein Target**: Calculated from goal weight x 1.6g to 2.2g per kg.
+- **Goal selector**: Cut (fat loss) or Bulk (muscle gain), with adjustable deficit/surplus percentage.
+
+## Pages
+
+- [Home / Calculator](https://riceandprotein.com/)
+- [About](https://riceandprotein.com/about.html)
+- [Blog](https://riceandprotein.com/blog.html)
+- [Diet Guides](https://riceandprotein.com/diets.html)
+- [Keto Diet](https://riceandprotein.com/diets/keto.html)
+- [Intermittent Fasting](https://riceandprotein.com/diets/if.html)
+- [Paleo Diet](https://riceandprotein.com/diets/paleo.html)
+- [Calorie Counting (CICO)](https://riceandprotein.com/diets/cico.html)
+- [Volume Eating](https://riceandprotein.com/diets/volume-eating.html)
+- [OMAD](https://riceandprotein.com/diets/omad.html)
+- [Contact](https://riceandprotein.com/contact.html)

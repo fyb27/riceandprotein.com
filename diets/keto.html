@@ -8,6 +8,7 @@
   <link rel="canonical" href="https://riceandprotein.com/diets/keto.html">
   <meta property="og:title" content="Ketogenic Diet (Keto) | Rice and Protein">
   <meta property="og:description" content="Keto explained simply. Very low carb, high fat. Is it right for you?">
+  <meta property="og:image" content="https://riceandprotein.com/images/og-image.jpg">
   <meta property="og:url" content="https://riceandprotein.com/diets/keto.html">
   <meta property="og:type" content="article">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +18,7 @@
     :root { --bg:#FAF8F4; --bg2:#F2F0EB; --accent:#C8622A; --accent2:#A84E22; --text:#1C1C1A; --muted:#6B6B67; --border:#E8E2D9; --white:#ffffff; --max:800px; --header-h:56px; }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); font-size: 16px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); font-size: 16px; line-height: 1.65; -webkit-font-smoothing: antialiased; display: flex; flex-direction: column; min-height: 100vh; }
     a { text-decoration: none; color: inherit; }
     button { font-family: 'DM Sans', sans-serif; cursor: pointer; }
 
@@ -38,7 +39,7 @@
     .nav-toggle { display: none; flex-direction: column; gap: 5px; background: none; border: none; padding: 4px; cursor: pointer; }
     .nav-toggle span { display: block; width: 22px; height: 2px; background: var(--white); }
 
-    .page { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
+    .page { max-width: var(--max); margin: 0 auto; padding: 0 24px; flex: 1; width: 100%; }
 
     .diet-hero { padding: calc(var(--header-h) + 64px) 0 48px; border-bottom: 1.5px solid var(--border); }
     .diet-hero__eyebrow { font-size: 10px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--accent); margin-bottom: 14px; }
@@ -97,6 +98,9 @@
     .footer-links { display: flex; gap: 28px; justify-content: center; list-style: none; }
     .footer-links a { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: rgba(255,255,255,0.4); transition: color 0.2s; }
     .footer-links a:hover { color: var(--white); }
+    .footer-backlink { font-size: 12px; color: rgba(255,255,255,0.22); margin-top: 18px; }
+    .footer-backlink a { color: rgba(255,255,255,0.22); transition: color 0.2s; }
+    .footer-backlink a:hover { color: rgba(255,255,255,0.5); }
 
     @media (max-width: 640px) {
       .site-nav { display: none; } .nav-toggle { display: flex; }
@@ -247,6 +251,7 @@
       <li><a href="../about.html">About</a></li>
       <li><a href="../contact.html">Contact</a></li>
     </ul>
+    <p class="footer-backlink">Web design by <a href="https://sabahwebs.com">Sabah Webs</a></p>
   </footer>
 
   <script>

@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Free TDEE Calculator + Meal Planner | Rice and Protein</title>
-  <meta name="description" content="Figure out your exact calorie target, pick your goal, and see a real meal plan with actual gram amounts. Lost 40kg with this. No keto, no starving.">
+  <title>Free TDEE Calculator | Rice and Protein</title>
+  <meta name="description" content="Find your exact calorie target and protein goal in 30 seconds. Lost 40kg using this. No keto, no starving, just the numbers that actually matter.">
   <link rel="canonical" href="https://riceandprotein.com/">
-  <meta property="og:title" content="Free TDEE Calculator + Meal Planner | Rice and Protein">
-  <meta property="og:description" content="Figure out your exact calorie target, pick your goal, and see a real meal plan with actual gram amounts. No keto, no starving.">
+  <meta property="og:title" content="Free TDEE Calculator | Rice and Protein">
+  <meta property="og:description" content="Find your exact calorie target and protein goal in 30 seconds. No keto, no starving.">
+  <meta property="og:image" content="https://riceandprotein.com/images/og-image.jpg">
   <meta property="og:url" content="https://riceandprotein.com/">
   <meta property="og:type" content="website">
 
@@ -39,6 +40,9 @@
       font-size: 16px;
       line-height: 1.65;
       -webkit-font-smoothing: antialiased;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
     }
 
     a { text-decoration: none; color: inherit; }
@@ -166,6 +170,8 @@
       max-width: var(--max);
       margin: 0 auto;
       padding: calc(var(--header-h) + 72px) 24px 80px;
+      flex: 1;
+      width: 100%;
     }
 
     /* SECTION 1 HERO TEXT */
@@ -623,110 +629,6 @@
       color: var(--text);
     }
 
-    /* MEAL PLANNER */
-    .freq-row {
-      display: flex;
-      gap: 8px;
-      margin-bottom: 32px;
-    }
-
-    .freq-btn {
-      width: 50px;
-      height: 50px;
-      border: 1.5px solid var(--border);
-      background: var(--white);
-      font-size: 17px;
-      font-weight: 600;
-      color: var(--muted);
-      transition: background 0.15s, color 0.15s, border-color 0.15s;
-    }
-
-    .freq-btn.active {
-      background: var(--text);
-      color: var(--white);
-      border-color: var(--text);
-    }
-
-    .meal-cards { display: flex; flex-direction: column; gap: 16px; }
-
-    .meal-card {
-      background: var(--white);
-      border: 1.5px solid var(--border);
-      padding: 24px;
-    }
-
-    .meal-card__hd {
-      font-size: 10px;
-      font-weight: 700;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: var(--muted);
-      margin-bottom: 18px;
-    }
-
-    .meal-card__sel {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 14px;
-      margin-bottom: 20px;
-    }
-
-    .meal-card__sel-field label {
-      display: block;
-      font-size: 10px;
-      font-weight: 700;
-      letter-spacing: 1.5px;
-      text-transform: uppercase;
-      color: var(--muted);
-      margin-bottom: 6px;
-    }
-
-    .meal-card__macros {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 10px;
-      margin-bottom: 16px;
-    }
-
-    .mpill {
-      background: var(--bg);
-      border: 1.5px solid var(--border);
-      padding: 12px 8px;
-      text-align: center;
-    }
-
-    .mpill__lbl {
-      font-size: 9px;
-      font-weight: 700;
-      letter-spacing: 1.5px;
-      text-transform: uppercase;
-      color: var(--muted);
-      margin-bottom: 5px;
-    }
-
-    .mpill__val {
-      font-family: 'DM Serif Display', serif;
-      font-size: 20px;
-      color: var(--accent);
-      line-height: 1;
-    }
-
-    .mpill--veg .mpill__val { color: var(--text); font-size: 17px; }
-
-    .meal-card__foot {
-      font-size: 13px;
-      color: var(--muted);
-      font-style: italic;
-      padding-top: 14px;
-      border-top: 1px solid var(--border);
-    }
-
-    .meal-card__foot strong {
-      color: var(--text);
-      font-weight: 600;
-      font-style: normal;
-    }
-
     /* FOOTER */
     .site-footer {
       background: var(--text);
@@ -766,6 +668,19 @@
 
     .footer-links a:hover { color: var(--white); }
 
+    .footer-backlink {
+      font-size: 12px;
+      color: rgba(255,255,255,0.22);
+      margin-top: 18px;
+    }
+
+    .footer-backlink a {
+      color: rgba(255,255,255,0.22);
+      transition: color 0.2s;
+    }
+
+    .footer-backlink a:hover { color: rgba(255,255,255,0.5); }
+
     /* RESPONSIVE */
     @media (max-width: 640px) {
       .site-nav { display: none; }
@@ -802,7 +717,6 @@
       .goal-btn { flex: 1; padding: 11px 10px; font-size: 13px; }
       .goal-result__kcal { font-size: 38px; }
       .protein-card { padding: 20px 16px; flex-direction: column; align-items: flex-start; gap: 10px; }
-      .meal-card__sel { grid-template-columns: 1fr; }
       .acc-title { font-size: 18px; }
     }
 
@@ -843,7 +757,7 @@
   <div class="page">
 
     <!-- SECTION 1: YOUR NUMBERS (always visible) -->
-    <h1 class="s1-title">Start <span>Here</span></h1>
+    <h1 class="s1-title">Find your calories. <span>Hit your protein.</span> Lose the weight.</h1>
     <p class="s1-sub">Enter your numbers. Everything below updates automatically.</p>
 
     <div class="form-card">
@@ -1020,29 +934,13 @@
         <div class="acc-body" id="acc-4-body">
           <div class="acc-content">
 
-            <div class="copy" style="margin-bottom: 44px;">
+            <div class="copy">
               <p>Every plate needs three things.</p>
               <p><strong>Carbs</strong> give the body energy. Rice and potato are good choices. They are filling and have a medium calorie density. Not so high that they blow your target, not so low that they leave you hungry.</p>
               <p><strong>Protein</strong> protects muscle. When the body is in a deficit, it looks for fuel anywhere it can find it. If protein is too low, it breaks down muscle for energy. Hitting your protein target every day prevents this.</p>
               <p><strong>Vegetables</strong> add volume with almost no calories. A large pile of broccoli has fewer calories than a small handful of cashews. Eat as much as you want.</p>
-              <p>The meal planner below shows exact gram amounts based on your calorie target and goal.</p>
+              <p>A simple formula that works: 200-250g rice, 250-300g chicken breast, and as many vegetables as you can fit on the plate. That is close to 1kg of food per sitting, and it fits inside most calorie targets.</p>
             </div>
-
-            <!-- AFFILIATE: kitchen scale -->
-
-            <span class="block-label">Meal Planner</span>
-
-            <p style="font-size:13px; color:var(--muted); margin-bottom:14px;">How many meals per day?</p>
-            <div class="freq-row">
-              <button class="freq-btn" data-meals="1" type="button">1</button>
-              <button class="freq-btn" data-meals="2" type="button">2</button>
-              <button class="freq-btn active" data-meals="3" type="button">3</button>
-              <button class="freq-btn" data-meals="4" type="button">4</button>
-            </div>
-
-            <div class="meal-cards" id="meal-cards"></div>
-
-            <!-- AFFILIATE: oil spray canister -->
 
           </div>
         </div>
@@ -1082,6 +980,7 @@
       <li><a href="about.html">About</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
+    <p class="footer-backlink">Web design by <a href="https://sabahwebs.com">Sabah Webs</a></p>
   </footer>
 
   <script>
@@ -1098,33 +997,12 @@
       tdee:        0,
       mode:        'cut',
       pct:         20,
-      targetCals:  0,
-      meals:       3
+      targetCals:  0
     };
 
     /* HELPERS */
     function $(id) { return document.getElementById(id); }
     function fmt(n) { return Math.round(n).toLocaleString(); }
-
-    /* FOOD DATA (kcal per gram, or kcal per unit for eggs) */
-    var CARBS = {
-      'White Rice (cooked)':    { g: 1.30 },
-      'Sweet Potato (cooked)':  { g: 0.86 },
-      'Oats (raw)':             { g: 3.89 },
-      'Banana':                 { g: 0.89 },
-      'Bread (white)':          { g: 2.65 }
-    };
-
-    var PROTEINS = {
-      'Chicken Breast':  { g: 1.65 },
-      'Eggs':            { each: 78 },
-      'Tuna (canned)':   { g: 1.16 },
-      'Tofu (firm)':     { g: 0.76 },
-      'Steak (lean)':    { g: 2.71 },
-      'Greek Yogurt':    { g: 0.59 }
-    };
-
-    var VEG_G = 200;
 
     /* SEX TOGGLE */
     $('sex-toggle').addEventListener('click', function (e) {
@@ -1206,7 +1084,6 @@
       updateProtein();
       renderGoal();
       updateTimeline();
-      renderMealCards();
 
       if (window.innerWidth < 640) {
         $('results').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
@@ -1252,7 +1129,7 @@
       $('tick-min').textContent     = 'Mild (10%)';
       $('tick-max').textContent     = 'Aggressive (25%)';
       $('slider-pct').textContent   = 20;
-      renderGoal(); updateTimeline(); renderMealCards();
+      renderGoal(); updateTimeline();
     });
 
     $('btn-bulk').addEventListener('click', function () {
@@ -1265,13 +1142,13 @@
       $('tick-min').textContent     = 'Conservative (5%)';
       $('tick-max').textContent     = 'Aggressive (20%)';
       $('slider-pct').textContent   = 10;
-      renderGoal(); updateTimeline(); renderMealCards();
+      renderGoal(); updateTimeline();
     });
 
     $('goal-slider').addEventListener('input', function () {
       S.pct = parseInt(this.value, 10);
       $('slider-pct').textContent = S.pct;
-      renderGoal(); updateTimeline(); renderMealCards();
+      renderGoal(); updateTimeline();
     });
 
     function renderGoal() {
@@ -1336,109 +1213,6 @@
       }
     }
 
-    /* MEAL CARDS */
-    var mealSel = {};
-
-    function getSel(i) {
-      if (!mealSel[i]) mealSel[i] = { carb: 'White Rice (cooked)', protein: 'Chicken Breast' };
-      return mealSel[i];
-    }
-
-    function opts(obj, selected) {
-      return Object.keys(obj).map(function (k) {
-        return '<option value="' + k + '"' + (k === selected ? ' selected' : '') + '>' + k + '</option>';
-      }).join('');
-    }
-
-    document.querySelectorAll('.freq-btn').forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        S.meals = parseInt(btn.dataset.meals, 10);
-        document.querySelectorAll('.freq-btn').forEach(function (b) {
-          b.classList.toggle('active', b === btn);
-        });
-        renderMealCards();
-        refreshAcc5();
-      });
-    });
-
-    function renderMealCards() {
-      var n       = S.meals;
-      var cals    = S.targetCals || S.tdee;
-      var carbPct = S.mode === 'bulk' ? 0.50 : 0.40;
-      var protPct = S.mode === 'bulk' ? 0.25 : 0.35;
-      var mCals   = cals > 0 ? cals / n : 0;
-      var cCals   = mCals * carbPct;
-      var pCals   = mCals * protPct;
-
-      var html = '';
-      for (var i = 0; i < n; i++) {
-        var sel   = getSel(i);
-        var cFood = CARBS[sel.carb]    || CARBS['White Rice (cooked)'];
-        var pFood = PROTEINS[sel.protein] || PROTEINS['Chicken Breast'];
-
-        var carbG = 0, protDisplay = '--', plateG = 0;
-        if (cals > 0) {
-          carbG = Math.round(cCals / cFood.g);
-          var protG;
-          if (pFood.each) {
-            var eggs = Math.max(1, Math.round(pCals / pFood.each));
-            protG        = eggs * 50;
-            protDisplay  = eggs + (eggs === 1 ? ' egg' : ' eggs');
-          } else {
-            protG       = Math.round(pCals / pFood.g);
-            protDisplay = protG + 'g';
-          }
-          plateG = carbG + protG + VEG_G;
-        }
-
-        var title = 'Meal ' + (i + 1) + (cals > 0 ? ' (' + Math.round(mCals) + ' kcal)' : '');
-
-        html += '<div class="meal-card">'
-          + '<div class="meal-card__hd">' + title + '</div>'
-          + '<div class="meal-card__sel">'
-          + '<div class="meal-card__sel-field"><label>Carb source</label>'
-          + '<select class="calc-select j-carb" data-i="' + i + '">' + opts(CARBS, sel.carb) + '</select></div>'
-          + '<div class="meal-card__sel-field"><label>Protein source</label>'
-          + '<select class="calc-select j-prot" data-i="' + i + '">' + opts(PROTEINS, sel.protein) + '</select></div>'
-          + '</div>'
-          + '<div class="meal-card__macros">'
-          + '<div class="mpill"><div class="mpill__lbl">Carb</div><div class="mpill__val">' + (cals > 0 ? carbG + 'g' : '--') + '</div></div>'
-          + '<div class="mpill"><div class="mpill__lbl">Protein</div><div class="mpill__val">' + protDisplay + '</div></div>'
-          + '<div class="mpill mpill--veg"><div class="mpill__lbl">Veg</div><div class="mpill__val">200g</div></div>'
-          + '</div>'
-          + '<div class="meal-card__foot">'
-          + (cals > 0
-            ? 'Total plate weight: <strong>' + plateG + 'g</strong>. High volume. Low calories. You will feel full.'
-            : 'Enter your numbers above to see gram amounts.')
-          + '</div>'
-          + '</div>';
-      }
-
-      $('meal-cards').innerHTML = html;
-
-      $('meal-cards').querySelectorAll('.j-carb').forEach(function (s) {
-        s.addEventListener('change', function () {
-          getSel(parseInt(this.dataset.i, 10)).carb = this.value;
-          renderMealCards(); refreshAcc5();
-        });
-      });
-
-      $('meal-cards').querySelectorAll('.j-prot').forEach(function (s) {
-        s.addEventListener('change', function () {
-          getSel(parseInt(this.dataset.i, 10)).protein = this.value;
-          renderMealCards(); refreshAcc5();
-        });
-      });
-    }
-
-    function refreshAcc5() {
-      var acc  = $('acc-4');
-      var body = acc && acc.querySelector('.acc-body');
-      if (acc && acc.classList.contains('open') && body) {
-        body.style.maxHeight = body.scrollHeight + 'px';
-      }
-    }
-
     /* ACCORDIONS */
     document.querySelectorAll('.accordion').forEach(function (acc) {
       var hd   = acc.querySelector('.acc-header');
@@ -1467,7 +1241,6 @@
     }
 
     /* INIT */
-    renderMealCards();
     updateTimeline();
 
   })();

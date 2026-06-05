@@ -4,51 +4,60 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About | Rice and Protein</title>
-  <meta name="description" content="A 36-year-old Malaysian guy who went from 120kg to 80kg without keto, without starving, and without giving up rice.">
+  <meta name="description" content="The story behind Rice and Protein. A simple guide to losing weight without giving up the food you love.">
   <link rel="canonical" href="https://riceandprotein.com/about.html">
   <meta property="og:title" content="About | Rice and Protein">
-  <meta property="og:description" content="A 36-year-old Malaysian guy who went from 120kg to 80kg without keto, without starving, and without giving up rice.">
+  <meta property="og:description" content="The story behind Rice and Protein.">
   <meta property="og:url" content="https://riceandprotein.com/about.html">
   <meta property="og:type" content="website">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
   <style>
-    .about-wrap {
-      display: grid;
-      grid-template-columns: 260px 1fr;
-      gap: 64px;
-      align-items: start;
-    }
-    .about-photo {
-      position: sticky;
-      top: 96px;
-    }
-    .about-photo img {
-      width: 100%;
-      aspect-ratio: 3/4;
-      object-fit: cover;
-    }
-    .about-photo-caption {
-      font-size: 12px;
-      color: var(--muted);
-      margin-top: 12px;
-      text-align: center;
-    }
-    .about-text p {
-      font-size: 17px;
-      line-height: 1.8;
-      color: var(--text);
-      margin-bottom: 24px;
-    }
-    .about-text h2 {
-      font-family: 'Playfair Display', serif;
-      font-size: 22px;
-      font-weight: 700;
-      margin: 40px 0 16px;
-      color: var(--text);
-    }
-    @media (max-width: 768px) {
-      .about-wrap { grid-template-columns: 1fr; }
-      .about-photo { position: static; max-width: 220px; }
+    :root { --bg:#FAF8F4; --bg2:#F2F0EB; --accent:#C8622A; --accent2:#A84E22; --text:#1C1C1A; --muted:#6B6B67; --border:#E8E2D9; --white:#ffffff; --max:680px; --header-h:56px; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); font-size: 16px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { text-decoration: none; color: inherit; }
+    button { font-family: 'DM Sans', sans-serif; cursor: pointer; }
+
+    .site-header { position: fixed; top: 0; left: 0; right: 0; z-index: 100; height: var(--header-h); background: var(--text); display: flex; align-items: center; }
+    .header-inner { width: 100%; max-width: 1000px; margin: 0 auto; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; }
+    .site-logo { font-family: 'DM Serif Display', serif; font-size: 18px; font-weight: 400; color: var(--white); }
+    .site-logo span { color: var(--accent); }
+    .site-nav { display: flex; align-items: center; }
+    .nav-list { display: flex; align-items: center; gap: 28px; list-style: none; }
+    .nav-list > li > a { font-size: 11px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: rgba(255,255,255,0.7); transition: color 0.2s; }
+    .nav-list > li > a:hover { color: var(--white); }
+    .has-dropdown { position: relative; }
+    .has-dropdown::after { content: ''; position: absolute; top: 100%; left: 0; right: 0; height: 10px; }
+    .nav-dropdown { position: absolute; top: calc(100% + 10px); right: 0; background: var(--text); border: 1px solid rgba(255,255,255,0.12); min-width: 210px; padding: 8px 0; list-style: none; opacity: 0; pointer-events: none; transition: opacity 0.18s ease; z-index: 200; }
+    .has-dropdown:hover .nav-dropdown, .has-dropdown:focus-within .nav-dropdown { opacity: 1; pointer-events: all; }
+    .nav-dropdown li a { display: block; padding: 10px 20px; font-size: 13px; color: rgba(255,255,255,0.65); font-weight: 400; transition: color 0.15s, background 0.15s; }
+    .nav-dropdown li a:hover { color: var(--white); background: rgba(255,255,255,0.07); }
+    .nav-toggle { display: none; flex-direction: column; gap: 5px; background: none; border: none; padding: 4px; cursor: pointer; }
+    .nav-toggle span { display: block; width: 22px; height: 2px; background: var(--white); }
+
+    .page { max-width: var(--max); margin: 0 auto; padding: calc(var(--header-h) + 80px) 24px 100px; }
+    .page-title { font-family: 'DM Serif Display', serif; font-size: clamp(34px, 5vw, 52px); font-weight: 400; line-height: 1.05; color: var(--text); margin-bottom: 40px; letter-spacing: -0.5px; }
+    .page-title span { color: var(--accent); }
+    .about-body { font-size: 16px; color: var(--text); line-height: 1.85; }
+    .about-body p { margin-bottom: 24px; }
+
+    .site-footer { background: var(--text); color: rgba(255,255,255,0.45); padding: 48px 24px; text-align: center; }
+    .footer-logo { font-family: 'DM Serif Display', serif; font-size: 20px; color: var(--white); margin-bottom: 10px; }
+    .footer-logo span { color: var(--accent); }
+    .footer-tag { font-size: 13px; margin-bottom: 20px; }
+    .footer-links { display: flex; gap: 28px; justify-content: center; list-style: none; }
+    .footer-links a { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: rgba(255,255,255,0.4); transition: color 0.2s; }
+    .footer-links a:hover { color: var(--white); }
+
+    @media (max-width: 640px) {
+      .site-nav { display: none; } .nav-toggle { display: flex; }
+      .site-nav.is-open { display: block; position: fixed; top: var(--header-h); left: 0; right: 0; background: var(--text); padding: 20px 24px; z-index: 99; border-top: 1px solid rgba(255,255,255,0.1); }
+      .site-nav.is-open .nav-list { flex-direction: column; align-items: flex-start; gap: 14px; }
+      .site-nav.is-open .nav-dropdown { position: static; opacity: 1; pointer-events: all; background: transparent; border: none; padding: 6px 0 0 16px; }
+      .site-nav.is-open .has-dropdown::after { display: none; }
+      .page { padding: calc(var(--header-h) + 48px) 16px 72px; }
     }
   </style>
 </head>
@@ -57,82 +66,57 @@
   <header class="site-header">
     <div class="header-inner">
       <a href="index.html" class="site-logo">Rice and <span>Protein</span></a>
-      <nav>
-        <ul class="site-nav" id="site-nav">
-          <li><a href="index.html">Home</a></li>
-          <li class="nav-item">
-            <a href="blog.html">Blog &#9662;</a>
+      <nav class="site-nav" id="site-nav">
+        <ul class="nav-list">
+          <li><a href="about.html">About</a></li>
+          <li class="has-dropdown">
+            <a href="diets.html">Diets</a>
             <ul class="nav-dropdown">
-              <li><a href="blog.html?cat=recipes">Recipes</a></li>
-              <li><a href="blog.html?cat=calories">Calorie Counts</a></li>
-              <li><a href="blog.html?cat=diet">Diet Talk</a></li>
-              <li><a href="blog.html?cat=gym">Gym &amp; Fitness</a></li>
-              <li><a href="blog.html?cat=mindset">Mindset</a></li>
-              <li><a href="blog.html?cat=journey">My Journey</a></li>
+              <li><a href="diets/keto.html">Keto Diet</a></li>
+              <li><a href="diets/if.html">Intermittent Fasting</a></li>
+              <li><a href="diets/paleo.html">Paleo Diet</a></li>
+              <li><a href="diets/cico.html">Calorie Counting</a></li>
+              <li><a href="diets/volume-eating.html">Volume Eating</a></li>
+              <li><a href="diets/omad.html">OMAD</a></li>
             </ul>
           </li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
-        <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
-          <span></span><span></span><span></span>
-        </button>
       </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Menu" type="button">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </header>
 
-  <div class="page-wrap">
-    <section class="section" style="padding-top: 80px; padding-bottom: 80px;">
-      <div class="section-inner" style="max-width: 920px;">
-        <p style="font-size:11px; letter-spacing:2.5px; text-transform:uppercase; color:var(--accent); font-weight:600; margin-bottom:40px;">About</p>
-        <div class="about-wrap">
+  <div class="page">
+    <h1 class="page-title">About Rice and <span>Protein</span></h1>
 
-          <div class="about-photo">
-            <img src="images/profile.jpg" alt="Rice and Protein author" onerror="this.style.background='var(--bg2)'; this.style.minHeight='320px';">
-            <p class="about-photo-caption">Somewhere between 120kg and 80kg.</p>
-          </div>
+    <!-- ABOUT: personal story goes here -->
 
-          <div class="about-text">
-            <h1 style="font-family:'Playfair Display',serif; font-size:clamp(28px,4vw,44px); font-weight:700; line-height:1.15; margin-bottom:32px;">120kg to 80kg. No keto. No suffering. Just a lot of rice.</h1>
-
-            <p>I'm a 36-year-old Malaysian guy. At my heaviest I was 120kg. Not obese-on-TV heavy, but heavy enough that I was breathing hard going up two flights of stairs, heavy enough that my knees hurt on weekends, heavy enough that I was starting to get quietly worried about what my blood work was going to say.</p>
-
-            <p>I tried keto. It worked for about three weeks, then I went to a wedding and ate everything and never got back on it. I tried intermittent fasting. I lost maybe 4kg over two months but I was miserable and irritable by noon every day. I tried just "eating healthy" which is not an actual strategy and predictably achieved nothing.</p>
-
-            <p>What actually worked was embarrassingly simple: figure out how many calories you need, eat slightly less than that, make sure enough of it is protein so you don't lose muscle, go to the gym three times a week. That's the whole thing. It took 18 months to go from 120kg to 80kg and I didn't suffer once. I was full basically every day.</p>
-
-            <h2>Why the blog</h2>
-
-            <p>Because every time I told someone what I did, they didn't believe me. "That can't be right, you ate rice every day?" Yes, I ate rice every day. 250g cooked rice is only about 290 calories. The problem was never the rice. The problem was everything else I was eating on top of it, and the fact that I had zero idea how many calories were in anything.</p>
-
-            <p>Once I started tracking, I realised I was eating 3,200 calories a day without trying. Just... mamak twice a day, teh tarik, a few handfuls of nuts while working, a couple of biscuits. It adds up stupid fast when you're not paying attention.</p>
-
-            <p>I don't want to be a fitness influencer. I'm not selling anything. I just want to write down the stuff I wish someone had explained to me before I wasted three years on approaches that were never going to work.</p>
-
-            <h2>The numbers, since everyone asks</h2>
-
-            <p>Start weight: 120kg. Current weight: 80kg. Time taken: about 18 months of actually trying (after maybe two years of trying half-heartedly). Height: 173cm. Age when I started: 34. Diet: calories in vs calories out, high protein, no foods banned, just portions managed. Training: 3x full body weights per week, minimal cardio.</p>
-
-            <p>That's it. Everything on this blog is just the details of how I did that.</p>
-
-            <a href="contact.html" style="display:inline-block; font-size:11px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:var(--white); background:var(--accent); padding:14px 36px; transition:background 0.2s;" onmouseover="this.style.background='var(--accent2)'" onmouseout="this.style.background='var(--accent)'">Get in touch</a>
-          </div>
-
-        </div>
-      </div>
-    </section>
+    <div class="about-body">
+      <p>This site is about losing weight the simple way. No supplements. No complicated rules. No expensive meal kits. Just understanding how food and calories work, and using that knowledge to build a way of eating that actually lasts.</p>
+      <p>The tools here give you the numbers you need. Your TDEE. Your protein target. Your calorie goal. Once you have the numbers, the rest is just showing up consistently.</p>
+    </div>
   </div>
 
   <footer class="site-footer">
     <div class="footer-logo">Rice and <span>Protein</span></div>
+    <p class="footer-tag">Simple tools for people who want real results.</p>
     <ul class="footer-links">
       <li><a href="blog.html">Blog</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
-    <p class="footer-copy">&#169; 2026 riceandprotein.com</p>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script>
+  (function () {
+    var t = document.getElementById('nav-toggle');
+    var n = document.getElementById('site-nav');
+    if (t && n) t.addEventListener('click', function () { n.classList.toggle('is-open'); });
+  })();
+  </script>
 </body>
 </html>

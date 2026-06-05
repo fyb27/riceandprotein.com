@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ketogenic Diet (Keto) | Rice and Protein</title>
+  <meta name="description" content="Keto explained simply. Very low carb, high fat. Your body switches from burning sugar to burning fat. Is it right for you?">
+  <link rel="canonical" href="https://riceandprotein.com/diets/keto.html">
+  <meta property="og:title" content="Ketogenic Diet (Keto) | Rice and Protein">
+  <meta property="og:description" content="Keto explained simply. Very low carb, high fat. Is it right for you?">
+  <meta property="og:url" content="https://riceandprotein.com/diets/keto.html">
+  <meta property="og:type" content="article">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg:#FAF8F4; --bg2:#F2F0EB; --accent:#C8622A; --accent2:#A84E22; --text:#1C1C1A; --muted:#6B6B67; --border:#E8E2D9; --white:#ffffff; --max:800px; --header-h:56px; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); font-size: 16px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { text-decoration: none; color: inherit; }
+    button { font-family: 'DM Sans', sans-serif; cursor: pointer; }
+
+    .site-header { position: fixed; top: 0; left: 0; right: 0; z-index: 100; height: var(--header-h); background: var(--text); display: flex; align-items: center; }
+    .header-inner { width: 100%; max-width: 1000px; margin: 0 auto; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; }
+    .site-logo { font-family: 'DM Serif Display', serif; font-size: 18px; font-weight: 400; color: var(--white); }
+    .site-logo span { color: var(--accent); }
+    .site-nav { display: flex; align-items: center; }
+    .nav-list { display: flex; align-items: center; gap: 28px; list-style: none; }
+    .nav-list > li > a { font-size: 11px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: rgba(255,255,255,0.7); transition: color 0.2s; }
+    .nav-list > li > a:hover { color: var(--white); }
+    .has-dropdown { position: relative; }
+    .has-dropdown::after { content: ''; position: absolute; top: 100%; left: 0; right: 0; height: 10px; }
+    .nav-dropdown { position: absolute; top: calc(100% + 10px); right: 0; background: var(--text); border: 1px solid rgba(255,255,255,0.12); min-width: 210px; padding: 8px 0; list-style: none; opacity: 0; pointer-events: none; transition: opacity 0.18s ease; z-index: 200; }
+    .has-dropdown:hover .nav-dropdown, .has-dropdown:focus-within .nav-dropdown { opacity: 1; pointer-events: all; }
+    .nav-dropdown li a { display: block; padding: 10px 20px; font-size: 13px; color: rgba(255,255,255,0.65); font-weight: 400; transition: color 0.15s, background 0.15s; }
+    .nav-dropdown li a:hover { color: var(--white); background: rgba(255,255,255,0.07); }
+    .nav-toggle { display: none; flex-direction: column; gap: 5px; background: none; border: none; padding: 4px; cursor: pointer; }
+    .nav-toggle span { display: block; width: 22px; height: 2px; background: var(--white); }
+
+    .page { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
+
+    .diet-hero { padding: calc(var(--header-h) + 64px) 0 48px; border-bottom: 1.5px solid var(--border); }
+    .diet-hero__eyebrow { font-size: 10px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--accent); margin-bottom: 14px; }
+    .diet-hero__title { font-family: 'DM Serif Display', serif; font-size: clamp(32px, 5vw, 52px); font-weight: 400; line-height: 1.05; color: var(--text); margin-bottom: 14px; letter-spacing: -0.5px; }
+    .diet-hero__summary { font-size: 17px; color: var(--muted); line-height: 1.65; max-width: 520px; }
+
+    .diet-section { padding: 48px 0; border-bottom: 1.5px solid var(--border); }
+    .section-title { font-family: 'DM Serif Display', serif; font-size: clamp(20px, 2.5vw, 26px); font-weight: 400; color: var(--text); margin-bottom: 20px; letter-spacing: -0.3px; }
+    .body-text { font-size: 16px; color: var(--text); line-height: 1.8; }
+    .body-text p { margin-bottom: 14px; }
+    .body-text p:last-child { margin-bottom: 0; }
+
+    .meal-list { display: flex; flex-direction: column; gap: 12px; }
+    .meal-item { background: var(--white); border: 1.5px solid var(--border); border-left: 4px solid var(--accent); padding: 16px 20px; }
+    .meal-item__label { font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
+    .meal-item__text { font-size: 15px; color: var(--text); line-height: 1.65; }
+
+    .fit-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .fit-col { background: var(--white); border: 1.5px solid var(--border); padding: 22px; }
+    .fit-col__hd { font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 14px; }
+    .fit-col--good .fit-col__hd { color: #388E3C; }
+    .fit-col--skip .fit-col__hd { color: #C62828; }
+    .fit-col ul { list-style: none; }
+    .fit-col ul li { font-size: 15px; color: var(--text); line-height: 1.6; padding: 9px 0; border-bottom: 1px solid var(--border); display: flex; gap: 10px; align-items: flex-start; }
+    .fit-col ul li:last-child { border-bottom: none; padding-bottom: 0; }
+    .fit-col--good ul li::before { content: '+'; color: #388E3C; font-weight: 700; flex-shrink: 0; }
+    .fit-col--skip ul li::before { content: 'x'; color: #C62828; font-weight: 700; flex-shrink: 0; }
+
+    .pc-wrap { overflow-x: auto; }
+    .pc-table { width: 100%; border-collapse: collapse; border: 1.5px solid var(--border); }
+    .pc-table th { padding: 12px 16px; text-align: left; font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); background: var(--bg2); border-bottom: 1.5px solid var(--border); width: 50%; }
+    .pc-table td { padding: 13px 16px; font-size: 15px; color: var(--text); line-height: 1.6; border-bottom: 1px solid var(--border); vertical-align: top; }
+    .pc-table tr:last-child td { border-bottom: none; }
+    .pc-table .pro::before { content: '+ '; color: #388E3C; font-weight: 700; }
+    .pc-table .con::before { content: '- '; color: #C62828; font-weight: 700; }
+
+    .science-block { background: var(--bg2); border: 1.5px solid var(--border); padding: 24px; }
+    .science-block p { font-size: 15px; color: var(--text); line-height: 1.8; margin-bottom: 14px; }
+    .science-block p:last-child { margin-bottom: 0; }
+    .pub-link { font-size: 13px; font-weight: 600; color: var(--accent); border-bottom: 1.5px solid var(--accent); padding-bottom: 1px; }
+    .pub-link:hover { color: var(--accent2); border-color: var(--accent2); }
+
+    .community-text { font-size: 15px; color: var(--muted); line-height: 1.7; }
+    .community-text a { color: var(--accent); font-weight: 600; border-bottom: 1.5px solid var(--accent); padding-bottom: 1px; }
+    .community-text a:hover { color: var(--accent2); }
+
+    .cta-bar { background: var(--text); padding: 56px 24px; text-align: center; margin-top: 64px; }
+    .cta-bar__title { font-family: 'DM Serif Display', serif; font-size: clamp(20px, 3vw, 30px); color: var(--white); margin-bottom: 22px; font-weight: 400; }
+    .cta-bar__btn { display: inline-block; background: var(--accent); color: var(--white); font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 14px 36px; transition: background 0.2s; }
+    .cta-bar__btn:hover { background: var(--accent2); }
+
+    .site-footer { background: var(--text); color: rgba(255,255,255,0.45); padding: 48px 24px; text-align: center; }
+    .footer-logo { font-family: 'DM Serif Display', serif; font-size: 20px; color: var(--white); margin-bottom: 10px; }
+    .footer-logo span { color: var(--accent); }
+    .footer-tag { font-size: 13px; margin-bottom: 20px; }
+    .footer-links { display: flex; gap: 28px; justify-content: center; list-style: none; }
+    .footer-links a { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: rgba(255,255,255,0.4); transition: color 0.2s; }
+    .footer-links a:hover { color: var(--white); }
+
+    @media (max-width: 640px) {
+      .site-nav { display: none; } .nav-toggle { display: flex; }
+      .site-nav.is-open { display: block; position: fixed; top: var(--header-h); left: 0; right: 0; background: var(--text); padding: 20px 24px; z-index: 99; border-top: 1px solid rgba(255,255,255,0.1); }
+      .site-nav.is-open .nav-list { flex-direction: column; align-items: flex-start; gap: 14px; }
+      .site-nav.is-open .nav-dropdown { position: static; opacity: 1; pointer-events: all; background: transparent; border: none; padding: 6px 0 0 16px; }
+      .site-nav.is-open .has-dropdown::after { display: none; }
+      .fit-grid { grid-template-columns: 1fr; }
+      .diet-hero { padding: calc(var(--header-h) + 40px) 0 36px; }
+      .diet-section { padding: 36px 0; }
+      .page { padding: 0 16px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="../index.html" class="site-logo">Rice and <span>Protein</span></a>
+      <nav class="site-nav" id="site-nav">
+        <ul class="nav-list">
+          <li><a href="../about.html">About</a></li>
+          <li class="has-dropdown">
+            <a href="../diets.html">Diets</a>
+            <ul class="nav-dropdown">
+              <li><a href="keto.html">Keto Diet</a></li>
+              <li><a href="if.html">Intermittent Fasting</a></li>
+              <li><a href="paleo.html">Paleo Diet</a></li>
+              <li><a href="cico.html">Calorie Counting</a></li>
+              <li><a href="volume-eating.html">Volume Eating</a></li>
+              <li><a href="omad.html">OMAD</a></li>
+            </ul>
+          </li>
+          <li><a href="../blog.html">Blog</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Menu" type="button">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="page">
+
+    <div class="diet-hero">
+      <p class="diet-hero__eyebrow">Diet Guide</p>
+      <h1 class="diet-hero__title">Ketogenic Diet (Keto)</h1>
+      <p class="diet-hero__summary">Very low carb, high fat. Your body switches from burning sugar to burning fat.</p>
+    </div>
+
+    <div class="diet-section">
+      <h2 class="section-title">What is it?</h2>
+      <div class="body-text">
+        <p>Normally your body runs on carbs for energy. Keto cuts carbs so low that your body has to switch to burning fat instead. This state is called ketosis.</p>
+        <p>On a keto diet you eat mostly fat and protein. Carbs are kept under about 20 to 50 grams per day. That is roughly the amount in one small bowl of rice.</p>
+        <p>No rice, no bread, no noodles, no sugar.</p>
+      </div>
+    </div>
+
+    <div class="diet-section">
+      <h2 class="section-title">How does it actually work?</h2>
+      <div class="body-text">
+        <p>Think of your body like a hybrid car. Normally it runs on petrol, which is carbs. Keto forces it to switch to the electric battery, which is fat. Once the switch happens, the body burns fat for everything it needs to do. The longer you stay in ketosis, the more efficient your body gets at using fat as fuel.</p>
+      </div>
+    </div>
+
+    <div class="diet-section">
+      <h2 class="section-title">What does a typical day look like?</h2>
+      <div class="meal-list">
+        <div class="meal-item">
+          <div class="meal-item__label">Breakfast</div>
+          <div class="meal-item__text">3 scrambled eggs cooked in butter. 2 strips of bacon.</div>
+        </div>
+        <div class="meal-item">
+          <div class="meal-item__label">Lunch</div>
+          <div class="meal-item__text">200g grilled chicken thigh. Large handful of spinach. Olive oil dressing.</div>
+        </div>
+        <div class="meal-item">
+          <div class="meal-item__label">Dinner</div>
+          <div class="meal-item__text">250g salmon. Half an avocado. Stir fried broccoli in butter. No rice, no bread, no noodles.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="diet-section">
+      <h2 class="section-title">Is this diet for you?</h2>
+      <div class="fit-grid">
+        <div class="fit-col fit-col--good">
+          <div class="fit-col__hd">Good if you...</div>
+          <ul>
+            <li>Do not mind cutting carbs completely</li>
+            <li>Can afford slightly higher food costs</li>
+            <li>Want fast early results on the scale</li>
+          </ul>
+        </div>
+        <div class="fit-col fit-col--skip">
+          <div class="fit-col__hd">Skip it if you...</div>
+          <ul>
+            <li>Eat rice or noodles as a daily staple</li>
+            <li>Have a tight food budget</li>
+            <li>Eat out often and cannot control ingredients</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="diet-section">
+      <h2 class="section-title">Pros and Cons</h2>
+      <div class="pc-wrap">
+        <table class="pc-table">
+          <thead><tr><th>Pros</th><th>Cons</th></tr></thead>
+          <tbody>
+            <tr><td class="pro">Fast initial weight loss</td><td class="con">Very hard to maintain long term</td></tr>
+            <tr><td class="pro">Reduces hunger in many people</td><td class="con">Cuts out most Asian staple foods</td></tr>
+            <tr><td class="pro">May improve blood sugar control</td><td class="con">Higher food cost than most diets</td></tr>
+            <tr><td class="pro">Well researched for short term results</td><td class="con">Fatigue and headaches in the first week (keto flu)</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="diet-section">
+      <h2 class="section-title">The Science</h2>
+      <div class="science-block">
+        <p>The ketogenic diet has been studied extensively for weight loss and metabolic health. Research has shown that very low carb diets produce greater short term weight loss compared to low fat diets. Benefits include improved triglycerides and HDL cholesterol levels. Results are strongest in the first few months. Long term adherence is challenging for most people because of the strict carb restriction.</p>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/19439458/" target="_blank" rel="noopener noreferrer" class="pub-link">Read the research</a>
+      </div>
+    </div>
+
+    <div class="diet-section">
+      <h2 class="section-title">Community</h2>
+      <p class="community-text">Thousands of people doing this diet share their experience on Reddit. <a href="https://www.reddit.com/r/keto/" target="_blank" rel="noopener noreferrer">Visit r/keto</a></p>
+    </div>
+
+  </div>
+
+  <div class="cta-bar">
+    <div class="cta-bar__title">Ready to calculate your calories for this diet?</div>
+    <a href="../index.html" class="cta-bar__btn">Use The Calculator</a>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-logo">Rice and <span>Protein</span></div>
+    <p class="footer-tag">Simple tools for people who want real results.</p>
+    <ul class="footer-links">
+      <li><a href="../blog.html">Blog</a></li>
+      <li><a href="../about.html">About</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+    </ul>
+  </footer>
+
+  <script>
+  (function () {
+    var t = document.getElementById('nav-toggle');
+    var n = document.getElementById('site-nav');
+    if (t && n) t.addEventListener('click', function () { n.classList.toggle('is-open'); });
+  })();
+  </script>
+</body>
+</html>

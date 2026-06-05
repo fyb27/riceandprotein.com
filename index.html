@@ -62,6 +62,9 @@
       max-width: var(--max);
       margin: 0 auto;
       padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
 
     .site-logo {
@@ -73,6 +76,90 @@
     }
 
     .site-logo span { color: var(--accent); }
+
+    /* NAV */
+    .site-nav { display: flex; align-items: center; }
+
+    .nav-list {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      list-style: none;
+    }
+
+    .nav-list > li > a {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.7);
+      transition: color 0.2s;
+    }
+
+    .nav-list > li > a:hover { color: var(--white); }
+
+    .has-dropdown { position: relative; }
+
+    .has-dropdown::after {
+      content: '';
+      position: absolute;
+      top: 100%; left: 0; right: 0;
+      height: 10px;
+    }
+
+    .nav-dropdown {
+      position: absolute;
+      top: calc(100% + 10px);
+      right: 0;
+      background: var(--text);
+      border: 1px solid rgba(255,255,255,0.12);
+      min-width: 210px;
+      padding: 8px 0;
+      list-style: none;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.18s ease;
+      z-index: 200;
+    }
+
+    .has-dropdown:hover .nav-dropdown,
+    .has-dropdown:focus-within .nav-dropdown {
+      opacity: 1;
+      pointer-events: all;
+    }
+
+    .nav-dropdown li a {
+      display: block;
+      padding: 10px 20px;
+      font-size: 13px;
+      color: rgba(255,255,255,0.65);
+      transition: color 0.15s, background 0.15s;
+      font-weight: 400;
+      text-transform: none;
+      letter-spacing: 0;
+    }
+
+    .nav-dropdown li a:hover {
+      color: var(--white);
+      background: rgba(255,255,255,0.07);
+    }
+
+    .nav-toggle {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      background: none;
+      border: none;
+      padding: 4px;
+      cursor: pointer;
+    }
+
+    .nav-toggle span {
+      display: block;
+      width: 22px;
+      height: 2px;
+      background: var(--white);
+    }
 
     /* PAGE */
     .page {
@@ -681,6 +768,32 @@
 
     /* RESPONSIVE */
     @media (max-width: 640px) {
+      .site-nav { display: none; }
+      .nav-toggle { display: flex; }
+      .site-nav.is-open {
+        display: block;
+        position: fixed;
+        top: var(--header-h);
+        left: 0; right: 0;
+        background: var(--text);
+        padding: 20px 24px;
+        z-index: 99;
+        border-top: 1px solid rgba(255,255,255,0.1);
+      }
+      .site-nav.is-open .nav-list {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 14px;
+      }
+      .site-nav.is-open .nav-dropdown {
+        position: static;
+        opacity: 1;
+        pointer-events: all;
+        background: transparent;
+        border: none;
+        padding: 6px 0 0 16px;
+      }
+      .site-nav.is-open .has-dropdown::after { display: none; }
       .page { padding: calc(var(--header-h) + 40px) 16px 60px; }
       .form-card { padding: 20px 16px; }
       .calc-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
@@ -703,13 +816,34 @@
   <header class="site-header">
     <div class="header-inner">
       <a href="index.html" class="site-logo">Rice and <span>Protein</span></a>
+      <nav class="site-nav" id="site-nav">
+        <ul class="nav-list">
+          <li><a href="about.html">About</a></li>
+          <li class="has-dropdown">
+            <a href="diets.html">Diets</a>
+            <ul class="nav-dropdown">
+              <li><a href="diets/keto.html">Keto Diet</a></li>
+              <li><a href="diets/if.html">Intermittent Fasting</a></li>
+              <li><a href="diets/paleo.html">Paleo Diet</a></li>
+              <li><a href="diets/cico.html">Calorie Counting</a></li>
+              <li><a href="diets/volume-eating.html">Volume Eating</a></li>
+              <li><a href="diets/omad.html">OMAD</a></li>
+            </ul>
+          </li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Menu" type="button">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </header>
 
   <div class="page">
 
     <!-- SECTION 1: YOUR NUMBERS (always visible) -->
-    <h1 class="s1-title">Your <span>Numbers</span></h1>
+    <h1 class="s1-title">Start <span>Here</span></h1>
     <p class="s1-sub">Enter your numbers. Everything below updates automatically.</p>
 
     <div class="form-card">
@@ -852,36 +986,17 @@
         </div>
       </div>
 
-      <!-- SECTION 3: WHY MOST DIETS FAIL -->
+
+      <!-- SECTION 3: THE SECRET TO MAKING IT EASY -->
       <div class="accordion" id="acc-3">
         <div class="acc-header" role="button" tabindex="0" aria-expanded="false" aria-controls="acc-3-body">
           <span class="acc-num">03</span>
-          <span class="acc-title">Why most diets fail</span>
-          <svg class="acc-chevron" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M4 7l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </div>
-        <div class="acc-body" id="acc-3-body">
-          <div class="acc-content">
-            <div class="copy">
-              <p>Keto cuts out carbs. Paleo cuts out processed food. Intermittent fasting cuts out morning meals. They all work sometimes. But they all fail for the same reason. One celebration, one dinner out, one break in the rules. And people feel like they have failed the whole diet. So they quit.</p>
-              <p>The rules are not the problem. The problem is that most people do not understand why weight changes in the first place. Think of your body like a bucket. Every day, you pour fuel into it. That amount is your TDEE. Pour in more than the bucket holds, and the extra gets stored as body fat. Pour in less, and the body burns stored fat to make up the gap. That is all weight loss is.</p>
-              <p>Every diet that has ever worked did one thing: it helped people put less fuel in the bucket. Some did it by cutting carbs. Some by cutting meals. Volume eating does it by filling the bucket with low calorie food so hunger stays low. Same result. Much easier to stick to.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- SECTION 4: THE SECRET TO MAKING IT EASY -->
-      <div class="accordion" id="acc-4">
-        <div class="acc-header" role="button" tabindex="0" aria-expanded="false" aria-controls="acc-4-body">
-          <span class="acc-num">04</span>
           <span class="acc-title">The secret to making it easy</span>
           <svg class="acc-chevron" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <path d="M4 7l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </div>
-        <div class="acc-body" id="acc-4-body">
+        <div class="acc-body" id="acc-3-body">
           <div class="acc-content">
             <div class="copy">
               <p>Hunger is the main reason diets fail. When you eat less, your body produces hunger signals. Most people can ignore them for a few days. But not for months. Volume eating solves this problem.</p>
@@ -893,16 +1008,16 @@
         </div>
       </div>
 
-      <!-- SECTION 5: WHAT TO EAT -->
-      <div class="accordion" id="acc-5">
-        <div class="acc-header" role="button" tabindex="0" aria-expanded="false" aria-controls="acc-5-body">
-          <span class="acc-num">05</span>
+      <!-- SECTION 4: WHAT TO EAT -->
+      <div class="accordion" id="acc-4">
+        <div class="acc-header" role="button" tabindex="0" aria-expanded="false" aria-controls="acc-4-body">
+          <span class="acc-num">04</span>
           <span class="acc-title">What to eat</span>
           <svg class="acc-chevron" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <path d="M4 7l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </div>
-        <div class="acc-body" id="acc-5-body">
+        <div class="acc-body" id="acc-4-body">
           <div class="acc-content">
 
             <div class="copy" style="margin-bottom: 44px;">
@@ -933,16 +1048,16 @@
         </div>
       </div>
 
-      <!-- SECTION 6: WHY YOU SHOULD LIFT -->
-      <div class="accordion" id="acc-6">
-        <div class="acc-header" role="button" tabindex="0" aria-expanded="false" aria-controls="acc-6-body">
-          <span class="acc-num">06</span>
+      <!-- SECTION 5: WHY YOU SHOULD LIFT -->
+      <div class="accordion" id="acc-5">
+        <div class="acc-header" role="button" tabindex="0" aria-expanded="false" aria-controls="acc-5-body">
+          <span class="acc-num">05</span>
           <span class="acc-title">Why you should lift</span>
           <svg class="acc-chevron" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <path d="M4 7l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </div>
-        <div class="acc-body" id="acc-6-body">
+        <div class="acc-body" id="acc-5-body">
           <div class="acc-content">
             <div class="copy">
               <p>When the body is in a calorie deficit, it burns both fat and muscle for fuel. Without resistance training, a significant portion of the weight lost comes from muscle, not fat. The number on the scale drops, but the shape of the body stays roughly the same.</p>
@@ -955,22 +1070,6 @@
         </div>
       </div>
 
-      <!-- SECTION 7: WHAT YOU WILL LOOK LIKE -->
-      <!-- STEP 7: silhouette figures, assets pending -->
-      <div class="accordion" id="acc-7">
-        <div class="acc-header" role="button" tabindex="0" aria-expanded="false" aria-controls="acc-7-body">
-          <span class="acc-num">07</span>
-          <span class="acc-title">What you will look like</span>
-          <svg class="acc-chevron" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M4 7l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </div>
-        <div class="acc-body" id="acc-7-body">
-          <div class="acc-content">
-            <p style="font-size: 15px; color: var(--muted); font-style: italic;">Coming soon. Same calorie target. Two completely different body shapes, depending on whether resistance training is included.</p>
-          </div>
-        </div>
-      </div>
 
     </div>
   </div>
@@ -1333,7 +1432,7 @@
     }
 
     function refreshAcc5() {
-      var acc  = $('acc-5');
+      var acc  = $('acc-4');
       var body = acc && acc.querySelector('.acc-body');
       if (acc && acc.classList.contains('open') && body) {
         body.style.maxHeight = body.scrollHeight + 'px';
@@ -1357,6 +1456,15 @@
         body.style.maxHeight = opening ? body.scrollHeight + 'px' : '0';
       }
     });
+
+    /* NAV TOGGLE */
+    var navToggle = $('nav-toggle');
+    var siteNav   = $('site-nav');
+    if (navToggle && siteNav) {
+      navToggle.addEventListener('click', function () {
+        siteNav.classList.toggle('is-open');
+      });
+    }
 
     /* INIT */
     renderMealCards();

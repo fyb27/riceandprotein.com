@@ -3,26 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog | Rice and Protein</title>
-  <meta name="description" content="Simple guides, food breakdowns, and honest talk about losing weight.">
-  <link rel="canonical" href="https://riceandprotein.com/blog.html">
-  <meta property="og:title" content="Blog | Rice and Protein">
-  <meta property="og:description" content="Simple guides, food breakdowns, and honest talk about losing weight.">
-  <meta property="og:url" content="https://riceandprotein.com/blog.html">
+  <title>Diet Guides | Rice and Protein</title>
+  <meta name="description" content="Every popular diet explained simply. No hype. Just the facts. Keto, intermittent fasting, paleo, CICO, volume eating, and OMAD.">
+  <link rel="canonical" href="https://riceandprotein.com/diets.html">
+  <meta property="og:title" content="Diet Guides | Rice and Protein">
+  <meta property="og:description" content="Every popular diet explained simply. No hype. Just the facts.">
+  <meta property="og:url" content="https://riceandprotein.com/diets.html">
   <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
   <style>
-    :root { --bg:#FAF8F4; --bg2:#F2F0EB; --accent:#C8622A; --accent2:#A84E22; --text:#1C1C1A; --muted:#6B6B67; --border:#E8E2D9; --white:#ffffff; --max:860px; --header-h:56px; }
+    :root {
+      --bg:       #FAF8F4;
+      --bg2:      #F2F0EB;
+      --accent:   #C8622A;
+      --accent2:  #A84E22;
+      --text:     #1C1C1A;
+      --muted:    #6B6B67;
+      --border:   #E8E2D9;
+      --white:    #ffffff;
+      --max:      1000px;
+      --header-h: 56px;
+    }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
     body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); font-size: 16px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { text-decoration: none; color: inherit; }
     button { font-family: 'DM Sans', sans-serif; cursor: pointer; }
 
     .site-header { position: fixed; top: 0; left: 0; right: 0; z-index: 100; height: var(--header-h); background: var(--text); display: flex; align-items: center; }
     .header-inner { width: 100%; max-width: var(--max); margin: 0 auto; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; }
-    .site-logo { font-family: 'DM Serif Display', serif; font-size: 18px; font-weight: 400; color: var(--white); }
+    .site-logo { font-family: 'DM Serif Display', serif; font-size: 18px; font-weight: 400; color: var(--white); letter-spacing: -0.2px; }
     .site-logo span { color: var(--accent); }
     .site-nav { display: flex; align-items: center; }
     .nav-list { display: flex; align-items: center; gap: 28px; list-style: none; }
@@ -32,24 +44,26 @@
     .has-dropdown::after { content: ''; position: absolute; top: 100%; left: 0; right: 0; height: 10px; }
     .nav-dropdown { position: absolute; top: calc(100% + 10px); right: 0; background: var(--text); border: 1px solid rgba(255,255,255,0.12); min-width: 210px; padding: 8px 0; list-style: none; opacity: 0; pointer-events: none; transition: opacity 0.18s ease; z-index: 200; }
     .has-dropdown:hover .nav-dropdown, .has-dropdown:focus-within .nav-dropdown { opacity: 1; pointer-events: all; }
-    .nav-dropdown li a { display: block; padding: 10px 20px; font-size: 13px; color: rgba(255,255,255,0.65); font-weight: 400; transition: color 0.15s, background 0.15s; }
+    .nav-dropdown li a { display: block; padding: 10px 20px; font-size: 13px; color: rgba(255,255,255,0.65); transition: color 0.15s, background 0.15s; font-weight: 400; }
     .nav-dropdown li a:hover { color: var(--white); background: rgba(255,255,255,0.07); }
     .nav-toggle { display: none; flex-direction: column; gap: 5px; background: none; border: none; padding: 4px; cursor: pointer; }
     .nav-toggle span { display: block; width: 22px; height: 2px; background: var(--white); }
 
     .page { max-width: var(--max); margin: 0 auto; padding: calc(var(--header-h) + 72px) 24px 80px; }
-    .page-title { font-family: 'DM Serif Display', serif; font-size: clamp(34px, 5vw, 52px); font-weight: 400; line-height: 1.05; color: var(--text); margin-bottom: 10px; letter-spacing: -0.5px; }
-    .page-sub { font-size: 16px; color: var(--muted); margin-bottom: 52px; line-height: 1.65; }
 
-    .post-grid { display: flex; flex-direction: column; gap: 0; border-top: 1.5px solid var(--border); }
-    .post-card { background: var(--white); border-bottom: 1.5px solid var(--border); padding: 28px 24px; display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; transition: background 0.15s; }
-    .post-card:hover { background: var(--bg2); }
-    .post-card__left { flex: 1; }
-    .post-card__date { font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
-    .post-card__title { font-family: 'DM Serif Display', serif; font-size: clamp(18px, 2.5vw, 24px); font-weight: 400; color: var(--text); margin-bottom: 8px; line-height: 1.25; letter-spacing: -0.2px; }
-    .post-card__desc { font-size: 14px; color: var(--muted); line-height: 1.6; }
-    .post-card__btn { flex-shrink: 0; display: inline-block; background: var(--accent); color: var(--white); font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 10px 18px; transition: background 0.2s; white-space: nowrap; align-self: center; }
-    .post-card__btn:hover { background: var(--accent2); }
+    .page-hero { margin-bottom: 56px; }
+    .page-title { font-family: 'DM Serif Display', serif; font-size: clamp(36px, 5vw, 56px); font-weight: 400; line-height: 1.05; color: var(--text); margin-bottom: 12px; letter-spacing: -0.5px; }
+    .page-title span { color: var(--accent); }
+    .page-sub { font-size: 17px; color: var(--muted); line-height: 1.65; max-width: 500px; }
+
+    .diet-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .diet-card { background: var(--white); border: 1.5px solid var(--border); padding: 28px 24px; display: flex; flex-direction: column; gap: 12px; transition: box-shadow 0.2s; }
+    .diet-card:hover { box-shadow: 0 6px 24px rgba(0,0,0,0.07); }
+    .diet-card__name { font-family: 'DM Serif Display', serif; font-size: 22px; font-weight: 400; color: var(--text); }
+    .diet-card__what { font-size: 14px; color: var(--muted); line-height: 1.6; }
+    .diet-card__who { font-size: 13px; color: var(--muted); line-height: 1.6; font-style: italic; border-top: 1px solid var(--border); padding-top: 12px; margin-top: auto; }
+    .diet-card__btn { display: inline-block; margin-top: 4px; background: var(--accent); color: var(--white); font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 11px 20px; align-self: flex-start; transition: background 0.2s; }
+    .diet-card__btn:hover { background: var(--accent2); }
 
     .site-footer { background: var(--text); color: rgba(255,255,255,0.45); padding: 48px 24px; text-align: center; }
     .footer-logo { font-family: 'DM Serif Display', serif; font-size: 20px; color: var(--white); margin-bottom: 10px; }
@@ -60,14 +74,17 @@
     .footer-links a:hover { color: var(--white); }
 
     @media (max-width: 640px) {
-      .site-nav { display: none; } .nav-toggle { display: flex; }
+      .site-nav { display: none; }
+      .nav-toggle { display: flex; }
       .site-nav.is-open { display: block; position: fixed; top: var(--header-h); left: 0; right: 0; background: var(--text); padding: 20px 24px; z-index: 99; border-top: 1px solid rgba(255,255,255,0.1); }
       .site-nav.is-open .nav-list { flex-direction: column; align-items: flex-start; gap: 14px; }
       .site-nav.is-open .nav-dropdown { position: static; opacity: 1; pointer-events: all; background: transparent; border: none; padding: 6px 0 0 16px; }
       .site-nav.is-open .has-dropdown::after { display: none; }
+      .diet-grid { grid-template-columns: 1fr; }
       .page { padding: calc(var(--header-h) + 40px) 16px 60px; }
-      .post-card { flex-direction: column; gap: 16px; }
-      .post-card__btn { align-self: flex-start; }
+    }
+    @media (min-width: 641px) and (max-width: 900px) {
+      .diet-grid { grid-template-columns: repeat(2, 1fr); }
     }
   </style>
 </head>
@@ -101,37 +118,53 @@
   </header>
 
   <div class="page">
-    <h1 class="page-title">Blog</h1>
-    <p class="page-sub">Simple guides, food breakdowns, and honest talk about losing weight.</p>
+    <div class="page-hero">
+      <h1 class="page-title">Diet <span>Guides</span></h1>
+      <p class="page-sub">Every popular diet explained simply. No hype. Just the facts.</p>
+    </div>
 
-    <!-- BLOG: add real posts here -->
-    <div class="post-grid">
+    <div class="diet-grid">
 
-      <div class="post-card">
-        <div class="post-card__left">
-          <div class="post-card__date">Coming Soon</div>
-          <div class="post-card__title">The only diet that actually works long term</div>
-          <div class="post-card__desc">No tricks, no special foods. Just the one principle that every successful diet is built on.</div>
-        </div>
-        <a href="#" class="post-card__btn">Read More</a>
+      <div class="diet-card">
+        <div class="diet-card__name">Ketogenic Diet</div>
+        <div class="diet-card__what">Very low carb, high fat. Your body switches from burning sugar to burning fat for fuel.</div>
+        <div class="diet-card__who">Good for people who can cut carbs completely and want fast early results.</div>
+        <a href="diets/keto.html" class="diet-card__btn">Read Guide</a>
       </div>
 
-      <div class="post-card">
-        <div class="post-card__left">
-          <div class="post-card__date">Coming Soon</div>
-          <div class="post-card__title">My go-to 1kg meal that keeps me full for hours</div>
-          <div class="post-card__desc">Chicken breast, rice, and vegetables. Here are the exact amounts and why it works.</div>
-        </div>
-        <a href="#" class="post-card__btn">Read More</a>
+      <div class="diet-card">
+        <div class="diet-card__name">Intermittent Fasting</div>
+        <div class="diet-card__what">You eat normally, just within a shorter time window each day. No food is restricted.</div>
+        <div class="diet-card__who">Good for people who skip breakfast naturally and prefer simple rules.</div>
+        <a href="diets/if.html" class="diet-card__btn">Read Guide</a>
       </div>
 
-      <div class="post-card">
-        <div class="post-card__left">
-          <div class="post-card__date">Coming Soon</div>
-          <div class="post-card__title">Why keto is extra hard in Asia</div>
-          <div class="post-card__desc">The logic of keto is fine. The problem is where we live and what we eat every day.</div>
-        </div>
-        <a href="#" class="post-card__btn">Read More</a>
+      <div class="diet-card">
+        <div class="diet-card__name">Paleo Diet</div>
+        <div class="diet-card__what">Eat only whole natural foods. Meat, fish, eggs, vegetables, fruit. Nothing processed.</div>
+        <div class="diet-card__who">Good for people who want strict simple rules and already eat mostly whole foods.</div>
+        <a href="diets/paleo.html" class="diet-card__btn">Read Guide</a>
+      </div>
+
+      <div class="diet-card">
+        <div class="diet-card__name">Calorie Counting</div>
+        <div class="diet-card__what">Calories In, Calories Out. Eat less than you burn and you lose weight. No food is banned.</div>
+        <div class="diet-card__who">Good for people who like data and want to eat any food they choose.</div>
+        <a href="diets/cico.html" class="diet-card__btn">Read Guide</a>
+      </div>
+
+      <div class="diet-card">
+        <div class="diet-card__name">Volume Eating</div>
+        <div class="diet-card__what">Eat large amounts of low calorie food so you never feel hungry while losing weight.</div>
+        <div class="diet-card__who">Good for people who hate feeling hungry and want large, satisfying portions.</div>
+        <a href="diets/volume-eating.html" class="diet-card__btn">Read Guide</a>
+      </div>
+
+      <div class="diet-card">
+        <div class="diet-card__name">OMAD</div>
+        <div class="diet-card__what">One meal a day. You eat everything in a single sitting and fast for the remaining 23 hours.</div>
+        <div class="diet-card__who">Good for experienced fasters who want maximum simplicity.</div>
+        <a href="diets/omad.html" class="diet-card__btn">Read Guide</a>
       </div>
 
     </div>

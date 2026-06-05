@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OMAD (One Meal A Day) | Rice and Protein</title>
+  <meta name="description" content="OMAD explained simply. You eat everything in one single meal per day. Nothing else. Is it right for you?">
+  <link rel="canonical" href="https://riceandprotein.com/diets/omad.html">
+  <meta property="og:title" content="OMAD (One Meal A Day) | Rice and Protein">
+  <meta property="og:description" content="OMAD explained simply. One meal, 23 hours fasting. Is it right for you?">
+  <meta property="og:url" content="https://riceandprotein.com/diets/omad.html">
+  <meta property="og:type" content="article">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg:#FAF8F4; --bg2:#F2F0EB; --accent:#C8622A; --accent2:#A84E22; --text:#1C1C1A; --muted:#6B6B67; --border:#E8E2D9; --white:#ffffff; --max:800px; --header-h:56px; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); font-size: 16px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { text-decoration: none; color: inherit; }
+    button { font-family: 'DM Sans', sans-serif; cursor: pointer; }
+    .site-header { position: fixed; top: 0; left: 0; right: 0; z-index: 100; height: var(--header-h); background: var(--text); display: flex; align-items: center; }
+    .header-inner { width: 100%; max-width: 1000px; margin: 0 auto; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; }
+    .site-logo { font-family: 'DM Serif Display', serif; font-size: 18px; font-weight: 400; color: var(--white); }
+    .site-logo span { color: var(--accent); }
+    .site-nav { display: flex; align-items: center; }
+    .nav-list { display: flex; align-items: center; gap: 28px; list-style: none; }
+    .nav-list > li > a { font-size: 11px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: rgba(255,255,255,0.7); transition: color 0.2s; }
+    .nav-list > li > a:hover { color: var(--white); }
+    .has-dropdown { position: relative; }
+    .has-dropdown::after { content: ''; position: absolute; top: 100%; left: 0; right: 0; height: 10px; }
+    .nav-dropdown { position: absolute; top: calc(100% + 10px); right: 0; background: var(--text); border: 1px solid rgba(255,255,255,0.12); min-width: 210px; padding: 8px 0; list-style: none; opacity: 0; pointer-events: none; transition: opacity 0.18s ease; z-index: 200; }
+    .has-dropdown:hover .nav-dropdown, .has-dropdown:focus-within .nav-dropdown { opacity: 1; pointer-events: all; }
+    .nav-dropdown li a { display: block; padding: 10px 20px; font-size: 13px; color: rgba(255,255,255,0.65); font-weight: 400; transition: color 0.15s, background 0.15s; }
+    .nav-dropdown li a:hover { color: var(--white); background: rgba(255,255,255,0.07); }
+    .nav-toggle { display: none; flex-direction: column; gap: 5px; background: none; border: none; padding: 4px; cursor: pointer; }
+    .nav-toggle span { display: block; width: 22px; height: 2px; background: var(--white); }
+    .page { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
+    .diet-hero { padding: calc(var(--header-h) + 64px) 0 48px; border-bottom: 1.5px solid var(--border); }
+    .diet-hero__eyebrow { font-size: 10px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--accent); margin-bottom: 14px; }
+    .diet-hero__title { font-family: 'DM Serif Display', serif; font-size: clamp(32px, 5vw, 52px); font-weight: 400; line-height: 1.05; color: var(--text); margin-bottom: 14px; letter-spacing: -0.5px; }
+    .diet-hero__summary { font-size: 17px; color: var(--muted); line-height: 1.65; max-width: 520px; }
+    .diet-section { padding: 48px 0; border-bottom: 1.5px solid var(--border); }
+    .section-title { font-family: 'DM Serif Display', serif; font-size: clamp(20px, 2.5vw, 26px); font-weight: 400; color: var(--text); margin-bottom: 20px; letter-spacing: -0.3px; }
+    .body-text { font-size: 16px; color: var(--text); line-height: 1.8; }
+    .body-text p { margin-bottom: 14px; }
+    .body-text p:last-child { margin-bottom: 0; }
+    .meal-list { display: flex; flex-direction: column; gap: 12px; }
+    .meal-item { background: var(--white); border: 1.5px solid var(--border); border-left: 4px solid var(--accent); padding: 16px 20px; }
+    .meal-item__label { font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
+    .meal-item__text { font-size: 15px; color: var(--text); line-height: 1.65; }
+    .fit-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .fit-col { background: var(--white); border: 1.5px solid var(--border); padding: 22px; }
+    .fit-col__hd { font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 14px; }
+    .fit-col--good .fit-col__hd { color: #388E3C; }
+    .fit-col--skip .fit-col__hd { color: #C62828; }
+    .fit-col ul { list-style: none; }
+    .fit-col ul li { font-size: 15px; color: var(--text); line-height: 1.6; padding: 9px 0; border-bottom: 1px solid var(--border); display: flex; gap: 10px; align-items: flex-start; }
+    .fit-col ul li:last-child { border-bottom: none; padding-bottom: 0; }
+    .fit-col--good ul li::before { content: '+'; color: #388E3C; font-weight: 700; flex-shrink: 0; }
+    .fit-col--skip ul li::before { content: 'x'; color: #C62828; font-weight: 700; flex-shrink: 0; }
+    .pc-wrap { overflow-x: auto; }
+    .pc-table { width: 100%; border-collapse: collapse; border: 1.5px solid var(--border); }
+    .pc-table th { padding: 12px 16px; text-align: left; font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); background: var(--bg2); border-bottom: 1.5px solid var(--border); width: 50%; }
+    .pc-table td { padding: 13px 16px; font-size: 15px; color: var(--text); line-height: 1.6; border-bottom: 1px solid var(--border); vertical-align: top; }
+    .pc-table tr:last-child td { border-bottom: none; }
+    .pc-table .pro::before { content: '+ '; color: #388E3C; font-weight: 700; }
+    .pc-table .con::before { content: '- '; color: #C62828; font-weight: 700; }
+    .science-block { background: var(--bg2); border: 1.5px solid var(--border); padding: 24px; }
+    .science-block p { font-size: 15px; color: var(--text); line-height: 1.8; margin-bottom: 14px; }
+    .science-block p:last-child { margin-bottom: 0; }
+    .pub-link { font-size: 13px; font-weight: 600; color: var(--accent); border-bottom: 1.5px solid var(--accent); padding-bottom: 1px; }
+    .pub-link:hover { color: var(--accent2); border-color: var(--accent2); }
+    .community-text { font-size: 15px; color: var(--muted); line-height: 1.7; }
+    .community-text a { color: var(--accent); font-weight: 600; border-bottom: 1.5px solid var(--accent); padding-bottom: 1px; }
+    .community-text a:hover { color: var(--accent2); }
+    .cta-bar { background: var(--text); padding: 56px 24px; text-align: center; margin-top: 64px; }
+    .cta-bar__title { font-family: 'DM Serif Display', serif; font-size: clamp(20px, 3vw, 30px); color: var(--white); margin-bottom: 22px; font-weight: 400; }
+    .cta-bar__btn { display: inline-block; background: var(--accent); color: var(--white); font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 14px 36px; transition: background 0.2s; }
+    .cta-bar__btn:hover { background: var(--accent2); }
+    .site-footer { background: var(--text); color: rgba(255,255,255,0.45); padding: 48px 24px; text-align: center; }
+    .footer-logo { font-family: 'DM Serif Display', serif; font-size: 20px; color: var(--white); margin-bottom: 10px; }
+    .footer-logo span { color: var(--accent); }
+    .footer-tag { font-size: 13px; margin-bottom: 20px; }
+    .footer-links { display: flex; gap: 28px; justify-content: center; list-style: none; }
+    .footer-links a { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: rgba(255,255,255,0.4); transition: color 0.2s; }
+    .footer-links a:hover { color: var(--white); }
+    @media (max-width: 640px) {
+      .site-nav { display: none; } .nav-toggle { display: flex; }
+      .site-nav.is-open { display: block; position: fixed; top: var(--header-h); left: 0; right: 0; background: var(--text); padding: 20px 24px; z-index: 99; border-top: 1px solid rgba(255,255,255,0.1); }
+      .site-nav.is-open .nav-list { flex-direction: column; align-items: flex-start; gap: 14px; }
+      .site-nav.is-open .nav-dropdown { position: static; opacity: 1; pointer-events: all; background: transparent; border: none; padding: 6px 0 0 16px; }
+      .site-nav.is-open .has-dropdown::after { display: none; }
+      .fit-grid { grid-template-columns: 1fr; }
+      .diet-hero { padding: calc(var(--header-h) + 40px) 0 36px; }
+      .diet-section { padding: 36px 0; }
+      .page { padding: 0 16px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="../index.html" class="site-logo">Rice and <span>Protein</span></a>
+      <nav class="site-nav" id="site-nav">
+        <ul class="nav-list">
+          <li><a href="../about.html">About</a></li>
+          <li class="has-dropdown">
+            <a href="../diets.html">Diets</a>
+            <ul class="nav-dropdown">
+              <li><a href="keto.html">Keto Diet</a></li>
+              <li><a href="if.html">Intermittent Fasting</a></li>
+              <li><a href="paleo.html">Paleo Diet</a></li>
+              <li><a href="cico.html">Calorie Counting</a></li>
+              <li><a href="volume-eating.html">Volume Eating</a></li>
+              <li><a href="omad.html">OMAD</a></li>
+            </ul>
+          </li>
+          <li><a href="../blog.html">Blog</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Menu" type="button"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="page">
+    <div class="diet-hero">
+      <p class="diet-hero__eyebrow">Diet Guide</p>
+      <h1 class="diet-hero__title">OMAD (One Meal A Day)</h1>
+      <p class="diet-hero__summary">You eat everything in one single meal per day. Nothing else.</p>
+    </div>
+
+    <div class="diet-section">
+      <h2 class="section-title">What is it?</h2>
+      <div class="body-text">
+        <p>OMAD is the most extreme form of intermittent fasting. You eat one large meal a day and fast for the remaining 23 hours. Water, black coffee, and plain tea are allowed during the fasting period.</p>
+        <p>The one meal should contain your full daily calorie target. This is usually between 1500 and 2500 calories in a single sitting, depending on your size and goal.</p>
+        <p>There are no rules about which foods to eat. You just eat them all at once.</p>
+      </div>
+    </div>
+
+    <div class="diet-section">
+      <h2 class="section-title">How does it actually work?</h2>
+      <div class="body-text">
+        <p>Think of it like charging your phone once a day. You plug in, charge fully, and then unplug. The phone runs on that single charge for the next 23 hours. Your body works the same way on OMAD. You fuel up completely in one meal, then your body runs on that fuel and stored body fat for the rest of the day. The long fasting window keeps insulin low and encourages fat burning.</p>
+      </div>
+    </div>
+
+    <div class="diet-section">
+      <h2 class="section-title">What does a typical day look like?</h2>
+      <div class="meal-list">
+        <div class="meal-item">
+          <div class="meal-item__label">Morning to late afternoon (fasting)</div>
+          <div class="meal-item__text">Water, black coffee, or plain tea only. No food until the meal window.</div>
+        </div>
+        <div class="meal-item">
+          <div class="meal-item__label">One meal at 6pm (1800 to 2200 kcal)</div>
+          <div class="meal-item__text">300g rice. 400g chicken breast or beef. 300g vegetables. 2 eggs. Fruit for dessert. Everything in one sitting.</div>
+        </div>
+        <div class="meal-item">
+          <div class="meal-item__label">After 7pm (fasting again)</div>
+          <div class="meal-item__text">Nothing until 6pm the next day.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="diet-section">
+      <h2 class="section-title">Is this diet for you?</h2>
+      <div class="fit-grid">
+        <div class="fit-col fit-col--good">
+          <div class="fit-col__hd">Good if you...</div>
+          <ul>
+            <li>Already do 16:8 fasting and want to go further</li>
+            <li>Have a very busy schedule with no time for meals</li>
+            <li>Are experienced with fasting and hunger</li>
+          </ul>
+        </div>
+        <div class="fit-col fit-col--skip">
+          <div class="fit-col__hd">Skip it if you...</div>
+          <ul>
+            <li>Are new to dieting or fasting</li>
+            <li>Have blood sugar issues or diabetes</li>
+            <li>Train hard at the gym and need regular fuel</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="diet-section">
+      <h2 class="section-title">Pros and Cons</h2>
+      <div class="pc-wrap">
+        <table class="pc-table">
+          <thead><tr><th>Pros</th><th>Cons</th></tr></thead>
+          <tbody>
+            <tr><td class="pro">Maximum simplicity, one decision per day</td><td class="con">Very high hunger for most of the day</td></tr>
+            <tr><td class="pro">Long fasting window maximises fat burning time</td><td class="con">One large meal can cause energy crashes</td></tr>
+            <tr><td class="pro">No decisions about food until the meal</td><td class="con">Not suitable for people with blood sugar issues</td></tr>
+            <tr><td class="pro">Can eat a full satisfying meal each day</td><td class="con">Hard to hit protein targets in one sitting</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="diet-section">
+      <h2 class="section-title">The Science</h2>
+      <div class="science-block">
+        <p>OMAD creates a very long fasting window, which reduces total calorie intake in many people by limiting the time available to eat. A 2019 study found that OMAD produced similar weight loss to a standard diet but was associated with higher hunger levels throughout the day. Some unfavorable changes to blood lipid levels were also noted. It works well for people who tolerate extended fasting, but it is not suitable for everyone and should be approached carefully by beginners.</p>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/31489110/" target="_blank" rel="noopener noreferrer" class="pub-link">Read the research</a>
+      </div>
+    </div>
+
+    <div class="diet-section">
+      <h2 class="section-title">Community</h2>
+      <p class="community-text">Thousands of people doing this diet share their experience on Reddit. <a href="https://www.reddit.com/r/omad/" target="_blank" rel="noopener noreferrer">Visit r/omad</a></p>
+    </div>
+  </div>
+
+  <div class="cta-bar">
+    <div class="cta-bar__title">Ready to calculate your calories for this diet?</div>
+    <a href="../index.html" class="cta-bar__btn">Use The Calculator</a>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-logo">Rice and <span>Protein</span></div>
+    <p class="footer-tag">Simple tools for people who want real results.</p>
+    <ul class="footer-links">
+      <li><a href="../blog.html">Blog</a></li>
+      <li><a href="../about.html">About</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+    </ul>
+  </footer>
+
+  <script>
+  (function () {
+    var t = document.getElementById('nav-toggle');
+    var n = document.getElementById('site-nav');
+    if (t && n) t.addEventListener('click', function () { n.classList.toggle('is-open'); });
+  })();
+  </script>
+</body>
+</html>

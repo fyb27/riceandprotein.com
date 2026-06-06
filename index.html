@@ -644,14 +644,6 @@
       color: var(--muted);
     }
 
-    .timeline-motive {
-      padding: 24px 28px;
-      background: var(--bg2);
-      border: 1.5px solid var(--border);
-      font-size: 15px;
-      line-height: 1.85;
-      color: var(--text);
-    }
 
     /* TRANSFORMATION TOGGLE */
     .transf-toggle {
@@ -1344,9 +1336,6 @@
               <div class="timeline-stat__weekly" id="tl-weekly">Fill in your numbers above first.</div>
               <div class="timeline-stat__weeks" id="tl-weeks"></div>
             </div>
-            <div class="timeline-motive">
-              <p>Time passes no matter what. A year from now you will be <strong id="age-plus-one">__</strong> either way. The only thing that changes is what <strong id="age-plus-one-2">__</strong> looks like. The people around you want you healthy. Your parents, your partner, your kids. They need you around for a long time. One year is enough to change everything.</p>
-            </div>
           </div>
         </div>
       </div>
@@ -1624,14 +1613,6 @@
       }
     });
 
-    /* Live age+1 update */
-    $('inp-age').addEventListener('input', function () {
-      var a = parseInt(this.value, 10);
-      if (!isNaN(a) && a > 0) {
-        $('age-plus-one').textContent   = a + 1;
-        $('age-plus-one-2').textContent = a + 1;
-      }
-    });
 
     /* Live protein update as weight is typed */
     $('inp-weight').addEventListener('input', function () {
@@ -2029,12 +2010,6 @@
 
     /* TIMELINE */
     function updateTimeline() {
-      var age = S.age || parseInt($('inp-age').value, 10);
-      if (!isNaN(age) && age > 0) {
-        $('age-plus-one').textContent   = age + 1;
-        $('age-plus-one-2').textContent = age + 1;
-      }
-
       if (!S.tdee || S.mode !== 'cut') {
         $('tl-weekly').textContent = 'Enter your details in the calculator above.';
         $('tl-weeks').textContent  = '';

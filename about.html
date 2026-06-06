@@ -17,7 +17,7 @@
   <style>
     :root { --bg:#F7F7F7; --bg2:#EFEFEF; --accent:#C8622A; --accent2:#A84E22; --text:#1C1C1A; --muted:#767676; --border:#E0E0E0; --white:#ffffff; --max:680px; --header-h:56px; }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); font-size: 16px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); font-size: 16px; line-height: 1.65; -webkit-font-smoothing: antialiased; display: flex; flex-direction: column; min-height: 100vh; }
     a { text-decoration: none; color: inherit; }
     button { font-family: 'DM Sans', sans-serif; cursor: pointer; }
 
@@ -38,7 +38,7 @@
     .nav-toggle { display: none; flex-direction: column; gap: 5px; background: none; border: none; padding: 4px; cursor: pointer; }
     .nav-toggle span { display: block; width: 22px; height: 2px; background: var(--white); }
 
-    .page { max-width: var(--max); margin: 0 auto; padding: calc(var(--header-h) + 80px) 24px 80px; width: 100%; }
+    .page { max-width: var(--max); margin: 0 auto; padding: calc(var(--header-h) + 80px) 24px 80px; flex: 1; width: 100%; }
     .page-title { font-family: 'DM Serif Display', serif; font-size: clamp(34px, 5vw, 52px); font-weight: 400; line-height: 1.05; color: var(--text); margin-bottom: 40px; letter-spacing: -0.5px; }
     .page-title span { color: var(--accent); }
     .about-body { font-size: 16px; color: var(--text); line-height: 1.85; }

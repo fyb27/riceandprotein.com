@@ -1151,13 +1151,22 @@
         </div>
 
         <div class="calc-field">
-          <label class="calc-label" for="inp-activity">Activity Level</label>
-          <select class="calc-select" id="inp-activity">
-            <option value="1.2">Sedentary (desk job, little exercise)</option>
-            <option value="1.375">Lightly Active (1-3 days/week)</option>
-            <option value="1.55" selected>Moderately Active (3-5 days/week)</option>
-            <option value="1.725">Very Active (6-7 days/week)</option>
-            <option value="1.9">Extra Active (physical job + daily training)</option>
+          <label class="calc-label" for="inp-steps">Daily steps (check your phone)</label>
+          <select class="calc-select" id="inp-steps">
+            <option value="1.20">Under 4,000 — mostly sitting</option>
+            <option value="1.30" selected>4,000–7,000 — some walking</option>
+            <option value="1.45">7,000–10,000 — on your feet a lot</option>
+            <option value="1.60">Over 10,000 — very active day</option>
+          </select>
+        </div>
+
+        <div class="calc-field">
+          <label class="calc-label" for="inp-exercise">Planned exercise per week</label>
+          <select class="calc-select" id="inp-exercise">
+            <option value="0.00">None</option>
+            <option value="0.05" selected>1–2 sessions (gym, sports, runs)</option>
+            <option value="0.10">3–4 sessions</option>
+            <option value="0.175">5 or more sessions</option>
           </select>
         </div>
 
@@ -1485,7 +1494,7 @@
       var age    = parseInt(ageEl.value, 10);
       var weight = parseFloat(weightEl.value);
       var height = parseFloat(heightEl.value);
-      var act    = parseFloat($('inp-activity').value);
+      var act    = parseFloat($('inp-steps').value) + parseFloat($('inp-exercise').value);
 
       [ageEl, weightEl, heightEl].forEach(function (el) { el.classList.remove('error'); });
 
@@ -1499,7 +1508,7 @@
       var tdee = Math.round(bmr * act);
 
       $('res-tdee').textContent     = fmt(tdee);
-      $('results-note').textContent = 'Mifflin-St Jeor × your activity level. If your weight stops changing after 2 weeks, adjust your activity setting.';
+      $('results-note').textContent = 'Mifflin-St Jeor × your daily movement + exercise. If weight stalls after 2 weeks, you are likely overestimating one of those two.';
 
       $('results').classList.add('visible');
 

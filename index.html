@@ -439,6 +439,25 @@
 
     .warn { color: var(--accent); font-weight: 600; }
 
+    .deficit-warn {
+      margin-top: 10px;
+      padding: 11px 16px;
+      border: 1.5px solid #D97706;
+      background: #FFFBEB;
+      font-size: 13px;
+      color: #92400E;
+      line-height: 1.6;
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+    }
+
+    .deficit-warn__icon {
+      font-size: 16px;
+      line-height: 1.4;
+      flex-shrink: 0;
+    }
+
     .goal-result {
       display: flex;
       align-items: stretch;
@@ -1198,10 +1217,14 @@
           <span class="slider-header__label" id="slider-label">Deficit</span>
           <span class="slider-header__val"><span id="slider-pct">20</span>%</span>
         </div>
-        <input type="range" id="goal-slider" min="10" max="25" value="20" step="1" aria-label="Deficit or surplus percentage">
+        <input type="range" id="goal-slider" min="10" max="35" value="20" step="1" aria-label="Deficit or surplus percentage">
         <div class="slider-ticks">
           <span id="tick-min">Mild (10%)</span>
-          <span id="tick-max" class="warn">Aggressive (25%)</span>
+          <span id="tick-max" class="warn">Aggressive (35%)</span>
+        </div>
+        <div class="deficit-warn" id="deficit-warn" hidden>
+          <span class="deficit-warn__icon">⚠</span>
+          <span>Above 25% is very aggressive. Muscle loss and fatigue are almost certain. Only go here if you know what you are doing, have a lot of fat to lose, and are keeping protein very high.</span>
         </div>
       </div>
 
@@ -1346,6 +1369,7 @@
               <p>The one rule that matters: add a little more weight every week. Even 2.5kg. This is called progressive overload. Your body only changes when you give it a reason to. When you can hit 12 reps comfortably, add weight and work back up.</p>
               <p>If you can train 5 to 6 days, switch to Push Pull Legs. Push covers chest, shoulders and triceps. Pull covers back and biceps. Legs covers quads, hamstrings and calves. You hit each muscle twice a week which builds faster.</p>
               <p>Women — three sessions a week changes your shape, it does not make you bulky. That takes years of very specific effort to achieve.</p>
+              <p><a href="posts/gym-guide-beginners.html" style="color:var(--accent); font-weight:600;">Read the full beginner's gym guide &rarr;</a>&nbsp; Every exercise, every muscle group, sets and reps, plus a programme to start this week.</p>
             </div>
 
             <div class="transf-toggle" role="group" aria-label="View transformation example">
@@ -1863,10 +1887,10 @@
       $('btn-cut').classList.add('active');
       $('btn-bulk').classList.remove('active');
       var sl = $('goal-slider');
-      sl.min = 10; sl.max = 25; sl.value = 20; S.pct = 20;
+      sl.min = 10; sl.max = 35; sl.value = 20; S.pct = 20;
       $('slider-label').textContent = 'Deficit';
       $('tick-min').textContent     = 'Mild (10%)';
-      $('tick-max').textContent     = 'Aggressive (25%)';
+      $('tick-max').textContent     = 'Aggressive (35%)';
       $('slider-pct').textContent   = 20;
       renderGoal(); updateTimeline();
     });
@@ -1923,6 +1947,15 @@
       $('goal-note').textContent = note;
       S.targetCals               = target;
       updateSummary();
+
+      var warnEl = $('deficit-warn');
+      if (warnEl) {
+        if (S.mode === 'cut' && S.pct > 25) {
+          warnEl.removeAttribute('hidden');
+        } else {
+          warnEl.setAttribute('hidden', '');
+        }
+      }
     }
 
     /* TIMELINE */

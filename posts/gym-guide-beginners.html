@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Complete Beginner's Guide to the Gym | Rice and Protein</title>
+  <meta name="description" content="Every exercise you actually need. Chest, back, legs, arms — broken down with sets, reps, and step-by-step instructions. Start here.">
+  <link rel="canonical" href="https://riceandprotein.com/posts/gym-guide-beginners.html">
+  <meta property="og:title" content="The Complete Beginner's Guide to the Gym | Rice and Protein">
+  <meta property="og:description" content="Every exercise you actually need. Chest, back, legs, arms — broken down with sets, reps, and step-by-step instructions.">
+  <meta property="og:image" content="https://riceandprotein.com/images/og-image.jpg">
+  <meta property="og:url" content="https://riceandprotein.com/posts/gym-guide-beginners.html">
+  <meta property="og:type" content="article">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/post.css">
+
+  <style>
+    :root {
+      --bg: #F7F7F7; --bg2: #EFEFEF; --accent: #C8622A; --accent2: #A84E22;
+      --text: #1C1C1A; --muted: #767676; --border: #E0E0E0; --white: #ffffff;
+      --max: 1160px; --header-h: 64px;
+    }
+
+    /* ---- Collapsible muscle sections ---- */
+    .muscle-section { border-top: 1.5px solid var(--border); }
+    .muscle-section:last-of-type { border-bottom: 1.5px solid var(--border); margin-bottom: 52px; }
+
+    .muscle-section > summary {
+      display: flex; align-items: center; gap: 18px;
+      padding: 22px 0; cursor: pointer;
+      list-style: none; user-select: none;
+    }
+    .muscle-section > summary::-webkit-details-marker { display: none; }
+    .muscle-section > summary::marker { display: none; }
+    .muscle-section > summary:hover .ms-title { color: var(--accent); }
+    .muscle-section[open] .ms-title { color: var(--accent); }
+    .muscle-section[open] .ms-chevron { transform: rotate(180deg); }
+
+    .ms-num {
+      font-size: 10px; font-weight: 700; letter-spacing: 3px;
+      text-transform: uppercase; color: var(--accent); flex-shrink: 0; width: 26px;
+    }
+    .ms-title {
+      font-family: 'Playfair Display', serif; font-size: 22px;
+      font-weight: 700; color: var(--text); flex: 1; transition: color 0.2s;
+    }
+    .ms-chevron {
+      width: 20px; height: 20px; color: var(--muted);
+      transition: transform 0.25s; flex-shrink: 0;
+    }
+
+    .ms-body { padding-bottom: 48px; }
+
+    /* ---- Muscle intro row ---- */
+    .ms-intro {
+      display: grid; grid-template-columns: 120px 1fr;
+      gap: 28px; align-items: flex-start; margin-bottom: 36px;
+    }
+    .ms-diagram svg { display: block; }
+    .ms-why { font-size: 15px; line-height: 1.8; color: var(--text); }
+    .ms-why-label {
+      font-size: 10px; font-weight: 700; letter-spacing: 2px;
+      text-transform: uppercase; color: var(--muted); display: block; margin-bottom: 8px;
+    }
+
+    /* ---- Exercise list ---- */
+    .ex-list { display: flex; flex-direction: column; gap: 28px; }
+
+    .ex-card {
+      display: grid; grid-template-columns: 200px 1fr;
+      gap: 24px; align-items: flex-start;
+      background: var(--white); border: 1.5px solid var(--border); padding: 24px;
+    }
+
+    .ex-gif {
+      background: var(--bg2); border: 1px dashed var(--border);
+      aspect-ratio: 4/3; display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      gap: 8px; color: var(--muted); font-size: 11px;
+      text-align: center; padding: 10px; overflow: hidden;
+    }
+    .ex-gif img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+    .ex-name {
+      font-family: 'Playfair Display', serif; font-size: 18px;
+      font-weight: 700; color: var(--text); margin-bottom: 6px;
+    }
+    .ex-type {
+      display: inline-block; font-size: 9px; font-weight: 700;
+      letter-spacing: 1.5px; text-transform: uppercase;
+      padding: 3px 10px; border: 1.5px solid var(--accent);
+      color: var(--accent); margin-bottom: 14px;
+    }
+    .ex-type--iso { border-color: var(--muted); color: var(--muted); }
+
+    .ex-desc { font-size: 14px; line-height: 1.75; color: var(--text); margin-bottom: 12px; }
+
+    .ex-steps {
+      font-size: 13px; line-height: 1.8; color: var(--text);
+      padding-left: 18px; margin-bottom: 14px;
+    }
+    .ex-steps li { margin-bottom: 4px; }
+
+    .ex-meta { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+    .ex-meta__item {
+      background: var(--bg); border: 1px solid var(--border);
+      padding: 5px 12px; font-size: 12px; font-weight: 600; color: var(--text);
+    }
+    .ex-meta__item em { color: var(--muted); font-style: normal; font-weight: 400; }
+
+    .ex-tip {
+      font-size: 13px; color: var(--muted); font-style: italic;
+      border-left: 3px solid var(--accent); padding-left: 12px; line-height: 1.6;
+    }
+
+    /* ---- Programme tables ---- */
+    .prog-wrap { margin: 28px 0; overflow-x: auto; }
+    .prog-table { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 480px; }
+    .prog-table th {
+      font-size: 10px; font-weight: 700; letter-spacing: 2px;
+      text-transform: uppercase; color: var(--muted);
+      padding: 10px 14px; background: var(--bg2);
+      border: 1px solid var(--border); text-align: left;
+    }
+    .prog-table td {
+      padding: 11px 14px; border: 1px solid var(--border);
+      color: var(--text); vertical-align: top; line-height: 1.65;
+    }
+    .prog-table tr:nth-child(even) td { background: var(--bg); }
+    .prog-day { font-weight: 600; color: var(--accent); white-space: nowrap; }
+    .prog-note { font-size: 12px; color: var(--muted); font-style: italic; margin-top: 6px; }
+
+    /* ---- Info box ---- */
+    .info-box {
+      padding: 18px 22px; background: var(--bg);
+      border: 1.5px solid var(--border); border-left: 4px solid var(--accent);
+      margin: 24px 0; font-size: 15px; line-height: 1.8; color: var(--text);
+    }
+    .info-box strong { color: var(--accent); }
+
+    /* ---- Section intro text ---- */
+    .section-lede {
+      font-size: 16px; line-height: 1.85; color: var(--text); margin-bottom: 32px;
+    }
+    .section-lede p { margin-bottom: 18px; }
+
+    /* ---- Responsive ---- */
+    @media (max-width: 720px) {
+      .ms-intro { grid-template-columns: 1fr; }
+      .ms-diagram { display: flex; justify-content: center; }
+      .ex-card { grid-template-columns: 1fr; }
+      .ms-title { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="reading-progress" id="reading-progress"></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="../index.html" class="site-logo">Rice and <span>Protein</span></a>
+      <nav class="site-nav" id="site-nav">
+        <ul class="nav-list">
+          <li><a href="../about.html">About</a></li>
+          <li class="has-dropdown">
+            <a href="../diets.html">Diets</a>
+            <ul class="nav-dropdown">
+              <li><a href="../diets/keto.html">Keto Diet</a></li>
+              <li><a href="../diets/if.html">Intermittent Fasting</a></li>
+              <li><a href="../diets/paleo.html">Paleo Diet</a></li>
+              <li><a href="../diets/cico.html">Calorie Counting</a></li>
+              <li><a href="../diets/volume-eating.html">Volume Eating</a></li>
+              <li><a href="../diets/omad.html">OMAD</a></li>
+            </ul>
+          </li>
+          <li><a href="../blog.html">Blog</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Menu" type="button">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="post">
+
+    <!-- Share column -->
+    <aside class="post-share">
+      <span class="post-share__label">Share</span>
+      <a class="post-share__btn post-share__btn--x" href="https://twitter.com/intent/tweet?url=https://riceandprotein.com/posts/gym-guide-beginners.html" target="_blank" rel="noopener" aria-label="Share on X">𝕏</a>
+      <a class="post-share__btn post-share__btn--fb" href="https://www.facebook.com/sharer/sharer.php?u=https://riceandprotein.com/posts/gym-guide-beginners.html" target="_blank" rel="noopener" aria-label="Share on Facebook">f</a>
+      <div class="post-share__divider"></div>
+      <button class="post-share__btn post-share__btn--copy" id="copy-link" aria-label="Copy link">&#128279;</button>
+    </aside>
+
+    <!-- Article -->
+    <main class="post-main">
+
+      <div class="post-header">
+        <span class="post-date">June 2026 &nbsp;·&nbsp; Gym &amp; Fitness</span>
+        <h1 class="post-title">The Complete Beginner's Guide to the Gym</h1>
+        <div class="post-badges">
+          <span class="badge">Gym &amp; Fitness</span>
+          <span class="badge">Beginner</span>
+          <span class="badge">Full Guide</span>
+        </div>
+        <p class="post-intro">Every exercise you need. Every muscle group covered. Sets, reps, and what to actually do on day one — no fluff, no upselling protein shakes.</p>
+      </div>
+
+      <div class="post-img post-img--hero">
+        <img src="../images/gym-guide-hero.jpg" alt="Beginner at the gym — barbell and dumbbells in a clean gym setting" onerror="this.style.display='none'">
+      </div>
+
+      <div class="post-body">
+
+        <p>Most people walk into the gym, do a few random machines, feel confused, and leave. Then they don't come back. That's not a motivation problem. That's a knowledge problem.</p>
+        <p>This guide gives you everything. Each muscle group, what exercises to do, how to do them, and how many sets and reps. At the end there's a full 3-day programme you can start this week.</p>
+        <p>One thing first though — the only principle that matters in the gym.</p>
+
+        <div class="info-box">
+          <strong>Progressive overload.</strong> Every week, you should be lifting a tiny bit more than the week before. An extra 2.5kg. One more rep. Slightly less rest time. Your body adapts to whatever stress you put on it. If the weight never goes up, your body has no reason to change. This is the entire game. Everything else is details.
+        </div>
+
+        <h2 id="basics">Before you touch any weight</h2>
+
+        <p><strong>Sets and reps.</strong> A "set" is one round of an exercise. A "rep" is one repetition within that set. When you see 3×8, that means 3 sets of 8 reps. Rest 60-90 seconds between sets for isolation exercises (curls, laterals), and 90-120 seconds for compound exercises (squat, deadlift, bench).</p>
+
+        <p><strong>Compound vs isolation.</strong> Compound exercises use multiple muscle groups — squat, deadlift, bench press, rows, overhead press. These give you the most return on time. Isolation exercises target one muscle — curls, tricep pushdowns, lateral raises. Do compounds first, isolations last.</p>
+
+        <p><strong>How much weight to start with.</strong> Light enough that your form is perfect on every rep. Heavy enough that the last 2 reps of each set feel genuinely hard. If you can do 12 reps and rep 12 felt easy, add weight next session. If you fail at rep 5, drop the weight. Simple.</p>
+
+        <p><strong>Form first, weight second.</strong> Ego lifting — using too much weight and letting form fall apart — is how people get hurt and plateau. Film yourself. Check your form. Fix it before adding weight. Nobody cares how much you lift. They care how you look.</p>
+
+        <!-- ===== CHEST ===== -->
+        <h2 id="chest">Chest, Back, Shoulders, Arms, Core, Legs</h2>
+        <p>Each muscle group below is collapsible. Open the ones you want to learn about. Each section has the target muscle diagram, why you should train it, and the exercises with full instructions.</p>
+
+        <details class="muscle-section">
+          <summary>
+            <span class="ms-num">01</span>
+            <span class="ms-title">Chest</span>
+            <svg class="ms-chevron" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 7l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </summary>
+          <div class="ms-body">
+            <div class="ms-intro">
+              <div class="ms-diagram">
+                <!-- Front view, chest highlighted -->
+                <svg width="100" height="220" viewBox="0 0 100 220" xmlns="http://www.w3.org/2000/svg">
+                  <g fill="#D8D8D8">
+                    <ellipse cx="50" cy="14" rx="12" ry="13"/>
+                    <rect x="44" y="26" width="12" height="8" rx="3"/>
+                    <rect x="28" y="32" width="44" height="40" rx="4"/>
+                    <rect x="30" y="72" width="40" height="34" rx="4"/>
+                    <rect x="10" y="30" width="17" height="46" rx="6"/>
+                    <rect x="73" y="30" width="17" height="46" rx="6"/>
+                    <rect x="11" y="78" width="15" height="34" rx="5"/>
+                    <rect x="74" y="78" width="15" height="34" rx="5"/>
+                    <rect x="26" y="106" width="48" height="18" rx="4"/>
+                    <rect x="26" y="124" width="21" height="46" rx="5"/>
+                    <rect x="53" y="124" width="21" height="46" rx="5"/>
+                    <rect x="27" y="170" width="19" height="30" rx="5"/>
+                    <rect x="54" y="170" width="19" height="30" rx="5"/>
+                    <ellipse cx="36" cy="204" rx="12" ry="6"/>
+                    <ellipse cx="64" cy="204" rx="12" ry="6"/>
+                  </g>
+                  <rect x="28" y="32" width="44" height="40" rx="4" fill="#C8622A" opacity="0.85"/>
+                  <text x="50" y="216" text-anchor="middle" font-size="7" fill="#767676" font-family="sans-serif">Front</text>
+                </svg>
+              </div>
+              <div class="ms-why">
+                <span class="ms-why-label">Why train chest</span>
+                The chest (pectoralis major) is the large pushing muscle across your upper torso. A strong chest helps with every pressing movement in daily life. Combined with a strong back, it keeps your posture upright and your shoulders healthy. Most beginners overtrain chest and undertrain back — so train both equally.
+              </div>
+            </div>
+
+            <div class="ex-list">
+
+              <div class="ex-card">
+                <div class="ex-gif">
+                  <!-- Replace src with actual GIF: bench-press.gif -->
+                  <svg width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="17" fill="none" stroke="#D0D0D0" stroke-width="1.5"/><polygon points="14,11 14,25 27,18" fill="#D0D0D0"/></svg>
+                  <span>Bench Press<br><em>Add GIF: bench-press.gif</em></span>
+                </div>
+                <div class="ex-info">
+                  <p class="ex-name">Bench Press</p>
+                  <span class="ex-type">Compound</span>
+                  <p class="ex-desc">The main chest exercise. Barbell or dumbbell, flat bench. Hits the full pec with heavy load — this is your primary chest builder.</p>
+                  <ol class="ex-steps">
+                    <li>Lie flat on the bench. Feet flat on the floor, back slightly arched.</li>
+                    <li>Grip the bar slightly wider than shoulder-width. Unrack the bar and hold it directly above your chest.</li>
+                    <li>Lower the bar slowly to your mid-chest, elbows at roughly 45 degrees from your body (not flared straight out).</li>
+                    <li>Press back up to the start position. Do not lock out elbows at the top.</li>
+                  </ol>
+                  <div class="ex-meta">
+                    <span class="ex-meta__item">3 <em>sets</em></span>
+                    <span class="ex-meta__item">6–8 <em>reps</em></span>
+                    <span class="ex-meta__item">90s <em>rest</em></span>
+                  </div>
+                  <p class="ex-tip">Keep your shoulder blades squeezed together and down throughout. If the bar drifts toward your neck or you lose the arch, the weight is too heavy.</p>
+                </div>
+              </div>
+
+              <div class="ex-card">
+                <div class="ex-gif">
+                  <svg width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="17" fill="none" stroke="#D0D0D0" stroke-width="1.5"/><polygon points="14,11 14,25 27,18" fill="#D0D0D0"/></svg>
+                  <span>Incline Dumbbell Press<br><em>Add GIF: incline-db-press.gif</em></span>
+                </div>
+                <div class="ex-info">
+                  <p class="ex-name">Incline Dumbbell Press</p>
+                  <span class="ex-type">Compound</span>
+                  <p class="ex-desc">Set the bench to 30-45 degrees. Hits the upper chest which the flat bench underworks. A fuller chest comes from training both upper and lower fibres.</p>
+                  <ol class="ex-steps">
+                    <li>Set bench to 30-45 degrees. Sit with dumbbells resting on your thighs.</li>
+                    <li>Kick the dumbbells up as you lie back. Hold them at shoulder level, palms facing forward.</li>
+                    <li>Press up and slightly inward until dumbbells nearly touch above your upper chest.</li>
+                    <li>Lower slowly back to shoulder level. Feel the stretch at the bottom.</li>
+                  </ol>
+                  <div class="ex-meta">
+                    <span class="ex-meta__item">3 <em>sets</em></span>
+                    <span class="ex-meta__item">10–12 <em>reps</em></span>
+                    <span class="ex-meta__item">75s <em>rest</em></span>
+                  </div>
+                  <p class="ex-tip">Use lighter weight than flat bench. The incline position is mechanically harder. Your ego will want to go heavy. Do not listen to your ego.</p>
+                </div>
+              </div>
+
+              <div class="ex-card">
+                <div class="ex-gif">
+                  <svg width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="17" fill="none" stroke="#D0D0D0" stroke-width="1.5"/><polygon points="14,11 14,25 27,18" fill="#D0D0D0"/></svg>
+                  <span>Push-up<br><em>Add GIF: push-up.gif</em></span>
+                </div>
+                <div class="ex-info">
+                  <p class="ex-name">Push-up</p>
+                  <span class="ex-type ex-type--iso">Bodyweight</span>
+                  <p class="ex-desc">Underrated. A proper push-up hits chest, triceps, and shoulders simultaneously. Great as a warm-up or a finisher when you have no equipment.</p>
+                  <ol class="ex-steps">
+                    <li>Hands slightly wider than shoulder-width, fingers pointing forward.</li>
+                    <li>Body forms a straight line from head to heels. No sagging hips.</li>
+                    <li>Lower your chest to just above the floor, elbows at roughly 45 degrees.</li>
+                    <li>Push back up to full arm extension. Squeeze chest at the top.</li>
+                  </ol>
+                  <div class="ex-meta">
+                    <span class="ex-meta__item">3 <em>sets</em></span>
+                    <span class="ex-meta__item">Max reps <em>(stop 2 short of failure)</em></span>
+                    <span class="ex-meta__item">60s <em>rest</em></span>
+                  </div>
+                  <p class="ex-tip">If regular push-ups are too easy, elevate your feet on a bench. Too hard? Start with hands elevated on a bench instead.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </details>
+
+        <!-- ===== BACK ===== -->
+        <details class="muscle-section">
+          <summary>
+            <span class="ms-num">02</span>
+            <span class="ms-title">Back</span>
+            <svg class="ms-chevron" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 7l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </summary>
+          <div class="ms-body">
+            <div class="ms-intro">
+              <div class="ms-diagram">
+                <!-- Rear view, back/lats highlighted -->
+                <svg width="100" height="220" viewBox="0 0 100 220" xmlns="http://www.w3.org/2000/svg">
+                  <g fill="#D8D8D8">
+                    <ellipse cx="50" cy="14" rx="12" ry="13"/>
+                    <rect x="44" y="26" width="12" height="8" rx="3"/>
+                    <rect x="28" y="32" width="44" height="40" rx="4"/>
+                    <rect x="30" y="72" width="40" height="34" rx="4"/>
+                    <rect x="10" y="30" width="17" height="46" rx="6"/>
+                    <rect x="73" y="30" width="17" height="46" rx="6"/>
+                    <rect x="11" y="78" width="15" height="34" rx="5"/>
+                    <rect x="74" y="78" width="15" height="34" rx="5"/>
+                    <rect x="26" y="106" width="48" height="18" rx="4"/>
+                    <rect x="26" y="124" width="21" height="46" rx="5"/>
+                    <rect x="53" y="124" width="21" height="46" rx="5"/>
+                    <rect x="27" y="170" width="19" height="30" rx="5"/>
+                    <rect x="54" y="170" width="19" height="30" rx="5"/>
+                    <ellipse cx="36" cy="204" rx="12" ry="6"/>
+                    <ellipse cx="64" cy="204" rx="12" ry="6"/>
+                  </g>
+                  <!-- Highlight upper torso + arms (back muscles) -->
+                  <rect x="28" y="32" width="44" height="74" rx="4" fill="#C8622A" opacity="0.85"/>
+                  <rect x="10" y="30" width="17" height="46" rx="6" fill="#C8622A" opacity="0.6"/>
+                  <rect x="73" y="30" width="17" height="46" rx="6" fill="#C8622A" opacity="0.6"/>
+                  <text x="50" y="216" text-anchor="middle" font-size="7" fill="#767676" font-family="sans-serif">Rear</text>
+                </svg>
+              </div>
+              <div class="ms-why">
+                <span class="ms-why-label">Why train back</span>
+                The back is the largest muscle group in your upper body. Most beginners ignore it because they cannot see it in the mirror. This is a mistake. A strong back creates the V-taper everyone wants, fixes posture, protects your spine, and balances out all the pressing you do. Train back at least as hard as chest.
+              </div>
+            </div>
+
+            <div class="ex-list">
+
+              <div class="ex-card">
+                <div class="ex-gif">
+                  <svg width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="17" fill="none" stroke="#D0D0D0" stroke-width="1.5"/><polygon points="14,11 14,25 27,18" fill="#D0D0D0"/></svg>
+                  <span>Lat Pulldown<br><em>Add GIF: lat-pulldown.gif</em></span>
+                </div>
+                <div class="ex-info">
+                  <p class="ex-name">Lat Pulldown</p>
+                  <span class="ex-type">Compound</span>
+                  <p class="ex-desc">Best vertical pull for beginners. Targets the latissimus dorsi — the wide back muscle responsible for that V-shape. Safer to learn than pull-ups and allows you to precisely control the weight.</p>
+                  <ol class="ex-steps">
+                    <li>Sit at the cable machine with your thighs secured under the pad. Grip the bar wider than shoulder-width, overhand grip.</li>
+                    <li>Lean back slightly (about 15-20 degrees). This is your starting position throughout.</li>
+                    <li>Pull the bar down to your upper chest by driving your elbows toward the floor and squeezing your shoulder blades together.</li>
+                    <li>Return slowly to the start, feeling the lats stretch at the top. Do not let your torso sway.</li>
+                  </ol>
+                  <div class="ex-meta">
+                    <span class="ex-meta__item">3 <em>sets</em></span>
+                    <span class="ex-meta__item">10–12 <em>reps</em></span>
+                    <span class="ex-meta__item">90s <em>rest</em></span>
+                  </div>
+                  <p class="ex-tip">Think "elbows to back pockets." Lead the movement with your elbows, not your hands. If your biceps are burning more than your back, you are pulling with your arms instead of your lats.</p>
+                </div>
+              </div>
+
+              <div class="ex-card">
+                <div class="ex-gif">
+                  <svg width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="17" fill="none" stroke="#D0D0D0" stroke-width="1.5"/><polygon points="14,11 14,25 27,18" fill="#D0D0D0"/></svg>
+                  <span>Bent-Over Row<br><em>Add GIF: bent-over-row.gif</em></span>
+                </div>
+                <div class="ex-info">
+                  <p class="ex-name">Bent-Over Row</p>
+                  <span class="ex-type">Compound</span>
+                  <p class="ex-desc">The horizontal pulling counterpart to the bench press. Hits lats, rhomboids, traps, and rear delts all at once. One of the best overall back exercises you can do.</p>
+                  <ol class="ex-steps">
+                    <li>Stand with feet hip-width, barbell over mid-foot. Hinge at the hips until your torso is at roughly 45-60 degrees. Slight bend in knees.</li>
+                    <li>Grip the bar at shoulder-width, overhand grip. Back flat, core braced.</li>
+                    <li>Row the bar to your lower chest/upper stomach, driving elbows past your torso and squeezing shoulder blades together at the top.</li>
+                    <li>Lower the bar back to the start under control. Do not let your lower back round.</li>
+                  </ol>
+                  <div class="ex-meta">
+                    <span class="ex-meta__item">3 <em>sets</em></span>
+                    <span class="ex-meta__item">8–10 <em>reps</em></span>
+                    <span class="ex-meta__item">90s <em>rest</em></span>
+                  </div>
+                  <p class="ex-tip">If your lower back is rounding, you are going too heavy. The back must stay flat. Dumbbell rows are a good alternative if the barbell version is hard to control early on.</p>
+                </div>
+              </div>
+
+              <div class="ex-card">
+                <div class="ex-gif">
+                  <svg width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="17" fill="none" stroke="#D0D0D0" stroke-width="1.5"/><polygon points="14,11 14,25 27,18" fill="#D0D0D0"/></svg>
+                  <span>Seated Cable Row<br><em>Add GIF: seated-cable-row.gif</em></span>
+                </div>
+                <div class="ex-info">
+                  <p class="ex-name">Seated Cable Row</p>
+                  <span class="ex-type">Compound</span>
+                  <p class="ex-desc">Great for midback thickness — the rhomboids and lower traps. The cable provides constant tension throughout the range of motion, which free weights cannot.</p>
+                  <ol class="ex-steps">
+                    <li>Sit at the cable row machine, feet on the platform, knees slightly bent. Grip the handle with both hands.</li>
+                    <li>Sit upright, chest up, slight arch in lower back. This is your starting position.</li>
+                    <li>Row the handle to your stomach, driving elbows back and squeezing shoulder blades together hard at the peak.</li>
+                    <li>Return slowly to the start, allowing your shoulder blades to spread and feeling the stretch in your back.</li>
+                  </ol>
+                  <div class="ex-meta">
+                    <span class="ex-meta__item">3 <em>sets</em></span>
+                    <span class="ex-meta__item">10–12 <em>reps</em></span>
+                    <span class="ex-meta__item">75s <em>rest</em></span>
+                  </div>
+                  <p class="ex-tip">Do not swing your torso back on every rep. A slight lean back at the peak is fine. Full body swinging means the weight is too heavy and your back is doing nothing.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </details>
+
+        <!-- ===== SHOULDERS ===== -->
+        <details class="muscle-section">
+          <summary>
+            <span class="ms-num">03</span>
+            <span class="ms-title">Shoulders</span>
+            <svg class="ms-chevron" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 7l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </summary>
+          <div class="ms-body">
+            <div class="ms-intro">
+              <div class="ms-diagram">
+                <svg width="100" height="220" viewBox="0 0 100 220" xmlns="http://www.w3.org/2000/svg">
+                  <g fill="#D8D8D8">
+                    <ellipse cx="50" cy="14" rx="12" ry="13"/>
+                    <rect x="44" y="26" width="12" height="8" rx="3"/>
+                    <rect x="28" y="32" width="44" height="40" rx="4"/>
+                    <rect x="30" y="72" width="40" height="34" rx="4"/>
+                    <rect x="10" y="30" width="17" height="46" rx="6"/>
+                    <rect x="73" y="30" width="17" height="46" rx="6"/>
+                    <rect x="11" y="78" width="15" height="34" rx="5"/>
+                    <rect x="74" y="78" width="15" height="34" rx="5"/>
+                    <rect x="26" y="106" width="48" height="18" rx="4"/>
+                    <rect x="26" y="124" width="21" height="46" rx="5"/>
+                    <rect x="53" y="124" width="21" height="46" rx="5"/>
+                    <rect x="27" y="170" width="19" height="30" rx="5"/>
+                    <rect x="54" y="170" width="19" height="30" rx="5"/>
+                    <ellipse cx="36" cy="204" rx="12" ry="6"/>
+                    <ellipse cx="64" cy="204" rx="12" ry="6"/>
+                  </g>
+                  <!-- Highlight shoulder caps + top of arms -->
+                  <rect x="10" y="30" width="17" height="22" rx="6" fill="#C8622A" opacity="0.85"/>
+                  <rect x="73" y="30" width="17" height="22" rx="6" fill="#C8622A" opacity="0.85"/>
+                  <rect x="28" y="32" width="44" height="14" rx="4" fill="#C8622A" opacity="0.5"/>
+                  <text x="50" y="216" text-anchor="middle" font-size="7" fill="#767676" font-family="sans-serif">Front</text>
+                </svg>
+              </div>
+              <div class="ms-why">
+                <span class="ms-why-label">Why train shoulders</span>
+                The deltoid has three heads — front, side, and rear. The front gets hit heavily in bench press and push movements. The side deltoid creates visible shoulder width. The rear deltoid is almost always undertrained and is critical for shoulder health and posture. Train all three, but prioritise side and rear.
+              </div>
+            </div>
+
+            <div class="ex-list">
+
+              <div class="ex-card">
+                <div class="ex-gif">
+                  <svg width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="17" fill="none" stroke="#D0D0D0" stroke-width="1.5"/><polygon points="14,11 14,25 27,18" fill="#D0D0D0"/></svg>
+                  <span>Overhead Press<br><em>Add GIF: overhead-press.gif</em></span>
+                </div>
+                <div class="ex-info">
+                  <p class="ex-name">Overhead Press (OHP)</p>
+                  <span class="ex-type">Compound</span>
+                  <p class="ex-desc">The main shoulder exercise. Barbell or dumbbell, standing or seated. Hits all three heads with the front and side getting the most work. A strong OHP is a good measure of overall upper body strength.</p>
+                  <ol class="ex-steps">
+                    <li>Stand with feet shoulder-width, bar resting on upper chest/front of shoulders, grip just outside shoulder-width.</li>
+                    <li>Brace your core hard. Press the bar straight up, tucking your chin back slightly as the bar passes your face.</li>
+                    <li>At the top, bar should be directly over your mid-foot. Lock out arms, squeeze shoulders.</li>
+                    <li>Lower back to shoulder level under control. Do not use your legs to help — that is a push press, a different exercise.</li>
+                  </ol>
+                  <div class="ex-meta">
+                    <span class="ex-meta__item">3 <em>sets</em></span>
+                    <span class="ex-meta__item">6–8 <em>reps</em></span>
+                    <span class="ex-meta__item">90s <em>rest</em></span>
+                  </div>
+                  <p class="ex-tip">OHP is hard. Most beginners press far less than they expect. Start light, get the movement pattern right first. Dumbbells are more beginner-friendly if the barbell version feels unstable.</p>
+                </div>
+              </div>
+
+              <div class="ex-card">
+                <div class="ex-gif">
+                  <svg width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="17" fill="none" stroke="#D0D0D0" stroke-width="1.5"/><polygon points="14,11 14,25 27,18" fill="#D0D0D0"/></svg>
+                  <span>Lateral Raise<br><em>Add GIF: lateral-raise.gif</em></span>
+                </div>
+                <div class="ex-info">
+                  <p class="ex-name">Lateral Raise</p>
+                  <span class="ex-type ex-type--iso">Isolation</span>
+                  <p class="ex-desc">The one exercise that directly targets the side deltoid. This is what creates shoulder width and the round "capped" look. Cannot be replaced by compound movements.</p>
+                  <ol class="ex-steps">
+                    <li>Stand holding dumbbells at your sides, palms facing inward. Slight bend in elbows throughout.</li>
+                    <li>Raise both arms out to the sides until they are parallel with the floor (no higher). Lead with your elbows, not your hands.</li>
+                    <li>At the top, tilt your pinky finger slightly upward — like pouring out a glass of water.</li>
+                    <li>Lower slowly back to the start. Do not let momentum swing the weights up.</li>
+                  </ol>
+                  <div class="ex-meta">
+                    <span class="ex-meta__item">3–4 <em>sets</em></span>
+                    <span class="ex-meta__item">12–15 <em>reps</em></span>
+                    <span class="ex-meta__item">60s <em>rest</em></span>
+                  </div>
+                  <p class="ex-tip">Use lighter weight than you think. Most people go too heavy, shrug their traps, and use momentum. 5-8kg done correctly does far more than 15kg done sloppily.</p>
+                </div>
+              </div>
+
+              <div class="ex-card">
+                <div class="ex-gif">
+                  <svg width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="17" fill="none" stroke="#D0D0D0" stroke-width="1.5"/><polygon points="14,11 14,25 27,18" fill="#D0D0D0"/></svg>
+                  <span>Face Pull<br><em>Add GIF: face-pull.gif</em></span>
+                </div>
+                <div class="ex-info">
+                  <p class="ex-name">Face Pull</p>
+                  <span class="ex-type ex-type--iso">Isolation</span>
+                  <p class="ex-desc">The most overlooked exercise in the gym. Targets the rear deltoid and rotator cuff — critical for shoulder health. If you bench press and do not face pull, you are building an imbalance that will eventually hurt you.</p>
+                  <ol class="ex-steps">
+                    <li>Set a cable machine at face height with a rope attachment. Stand back so the cable is taut.</li>
+                    <li>Grip the rope with both hands, palms facing each other. Step back slightly.</li>
+                    <li>Pull the rope toward your face, flaring your elbows out and slightly upward. At the peak, your hands should be beside your ears, elbows at shoulder height or above.</li>
+                    <li>Return slowly to the start. Full stretch at the front.</li>
+                  </ol>
+                  <div class="ex-meta">
+                    <span class="ex-meta__item">3 <em>sets</em></span>
+                    <span class="ex-meta__item">15–20 <em>reps</em></span>
+                    <span class="ex-meta__item">60s <em>rest</em></span>
+                  </div>
+                  <p class="ex-tip">This is a shoulder health exercise, not an ego exercise. Light weight, high reps, full range of motion. Do it every session. Your future self will thank you.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </details>
+
+        <!-- ===== ARMS ===== -->
+        <details class="muscle-section">
+          <summary>
+            <span class="ms-num">04</span>
+            <span class="ms-title">Arms — Biceps and Triceps</span>
+            <svg class="ms-chevron" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 7l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </summary>
+          <div class="ms-body">
+            <div class="ms-intro">
+              <div class="ms-diagram">
+                <svg width="100" height="220" viewBox="0 0 100 220" xmlns="http://www.w3.org/2000/svg">
+                  <g fill="#D8D8D8">
+                    <ellipse cx="50" cy="14" rx="12" ry="13"/>
+                    <rect x="44" y="26" width="12" height="8" rx="3"/>
+                    <rect x="28" y="32" width="44" height="40" rx="4"/>
+                    <rect x="30" y="72" width="40" height="34" rx="4"/>
+                    <rect x="10" y="30" width="17" height="46" rx="6"/>
+                    <rect x="73" y="30" width="17" height="46" rx="6"/>
+                    <rect x="11" y="78" width="15" height="34" rx="5"/>
+                    <rect x="74" y="78" width="15" height="34" rx="5"/>
+                    <rect x="26" y="106" width="48" height="18" rx="4"/>
+                    <rect x="26" y="124" width="21" height="46" rx="5"/>
+                    <rect x="53" y="124" width="21" height="46" rx="5"/>
+                    <rect x="27" y="170" width="19" height="30" rx="5"/>
+                    <rect x="54" y="170" width="19" height="30" rx="5"/>
+                    <ellipse cx="36" cy="204" rx="12" ry="6"/>
+                    <ellipse cx="64" cy="204" rx="12" ry="6"/>
+                  </g>
+                  <!-- Highlight upper arms (biceps front, triceps back) -->
+                  <rect x="10" y="30" width="17" height="46" rx="6" fill="#C8622A" opacity="0.85"/>
+                  <rect x="73" y="30" width="17" height="46" rx="6" fill="#C8622A" opacity="0.85"/>
+                  <rect x="11" y="78" width="15" height="34" rx="5" fill="#C8622A" opacity="0.5"/>
+                  <rect x="74" y="78" width="15" height="34" rx="5" fill="#C8622A" opacity="0.5"/>
+                  <text x="50" y="216" text-anchor="middle" font-size="7" fill="#767676" font-family="sans-serif">Front</text>
+                </svg>
+              </div>
+              <div class="ms-why">
+                <span class="ms-why-label">Why train arms</span>
+                Biceps and triceps. The bicep is the front of the upper arm — the classic flexing muscle. The tricep is the back of the upper arm and is actually larger — it makes up about two-thirds of upper arm size. Most beginners curl constantly and ignore triceps. If you want bigger arms, train triceps. Also: your biceps get heavy work in every pulling exercise, and triceps in every pressing exercise — so direct arm work is a supplement, not the foundation.
+              </div>
+            </div>
+
+            <div class="ex-list">
+
+              <div class="ex-card">
+                <div class="ex-gif">
+                  <svg width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="17" fill="none" stroke="#D0D0D0" stroke-width="1.5"/><polygon points="14,11 14,25 27,18" fill="#D0D0D0"/></svg>
+                  <span>Barbell Curl<br><em>Add GIF: barbell-curl.gif</em></span>
+                </div>
+                <div class="ex-info">
+                  <p class="ex-name">Barbell Curl</p>
+                  <span class="ex-type ex-type--iso">Isolation</span>
+                  <p class="ex-desc">The classic bicep exercise. Allows you to load the most weight of any curl variation. Trains both heads of the bicep plus the brachialis underneath.</p>
+                  <ol class="ex-steps">
+                    <li>Stand holding the barbell with an underhand grip, hands shoulder-width apart. Arms fully extended, bar at thigh level.</li>
+                    <li>Keeping your upper arms pinned to your sides (elbows do not move), curl the bar up toward your shoulders.</li>
+                    <li>Squeeze the bicep hard at the top. Pause briefly.</li>
+                    <li>Lower the bar slowly back to full extension. The lowering (eccentric) phase is where most growth happens — do not drop it.</li>
+                  </ol>
+                  <div class="ex-meta">
+                    <span class="ex-meta__item">3 <em>sets</em></span>
+                    <span class="ex-meta__item">10–12 <em>reps</em></span>
+                    <span class="ex-meta__item">60s <em>rest</em></span>
+                  </div>
+                  <p class="ex-tip">Do not swing your body. If you are leaning back and using momentum, the weight is too heavy. Drop it. Strict reps beat cheated reps every time.</p>
+                </div>
+              </div>
+
+              <div class="ex-card">
+                <div class="ex-gif">
+                  <svg width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="17" fill="none" stroke="#D0D0D0" stroke-width="1.5"/><polygon points="14,11 14,25 27,18" fill="#D0D0D0"/></svg>
+                  <span>Hammer Curl<br><em>Add GIF: hammer-curl.gif</em></span>
+                </div>
+                <div class="ex-info">
+                  <p class="ex-name">Hammer Curl</p>
+                  <span class="ex-type ex-type--iso">Isolation</span>
+                  <p class="ex-desc">Neutral grip (palms facing each other). Hits the brachialis — the muscle under the bicep that pushes it up and creates arm thickness from the side. Also builds the brachioradialis in the forearm.</p>
+                  <ol class="ex-steps">
+                    <li>Hold dumbbells at your sides, palms facing your body (neutral grip). Upper arms pinned to sides.</li>
+                    <li>Curl both dumbbells up simultaneously, keeping the palms-facing-inward position throughout. Do not rotate the wrists.</li>
+                    <li>Squeeze at the top, then lower slowly back to start.</li>
+                  </ol>
+                  <div class="ex-meta">
+                    <span class="ex-meta__item">3 <em>sets</em></span>
+                    <span class="ex-meta__item">10–12 <em>reps</em></span>
+                    <span class="ex-meta__item">60s <em>rest</em></span>
+                  </div>
+                  <p class="ex-tip">Can also be done alternating arms. Slightly heavier than regular curls for most people since the brachialis is a strong muscle.</p>
+                </div>
+              </div>
+
+              <div class="ex-card">
+                <div class="ex-gif">
+                  <svg width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="17" fill="none" stroke="#D0D0D0" stroke-width="1.5"/><polygon points="14,11 14,25 27,18" fill="#D0D0D0"/></svg>
+                  <span>Tricep Pushdown<br><em>Add GIF: tricep-pushdown.gif</em></span>
+                </div>
+                <div class="ex-info">
+                  <p class="ex-name">Tricep Pushdown</p>
+                  <span class="ex-type ex-type--iso">Isolation</span>
+                  <p class="ex-desc">Cable machine, rope or straight bar attachment. The best starting point for tricep training — easy to learn, constant tension from the cable, and easy to load progressively.</p>
+                  <ol class="ex-steps">
+                    <li>Set the cable to the highest position. Grip the rope (or bar) with both hands, elbows close to your sides.</li>
+                    <li>Keep your upper arms completely still — only your forearms move.</li>
+                    <li>Push the attachment down until your arms are fully extended. If using a rope, spread the handles apart slightly at the bottom to fully contract the tricep.</li>
+                    <li>Return slowly — feel the tricep stretch at the top. Do not let your elbows flare outward.</li>
+                  </ol>
+                  <div class="ex-meta">
+                    <span class="ex-meta__item">3 <em>sets</em></span>
+                    <span class="ex-meta__item">12–15 <em>reps</em></span>
+                    <span class="ex-meta__item">60s <em>rest</em></span>
+                  </div>
+                  <p class="ex-tip">Elbows stay pinned to your ribs throughout. If they are swinging forward as you push down, reduce the weight.</p>
+                </div>
+              </div>
+
+              <div class="ex-card">
+                <div class="ex-gif">
+                  <svg width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="17" fill="none" stroke="#D0D0D0" stroke-width="1.5"/><polygon points="14,11 14,25 27,18" fill="#D0D0D0"/></svg>
+                  <span>Overhead Tricep Extension<br><em>Add GIF: overhead-tricep-ext.gif</em></span>
+                </div>
+                <div class="ex-info">
+                  <p class="ex-name">Overhead Tricep Extension</p>
+                  <span class="ex-type ex-type--iso">Isolation</span>
+                  <p class="ex-desc">Targets the long head of the tricep — the biggest portion and the one that hangs down when you raise your arm. The overhead position is the only way to fully stretch the long head, so this exercise is not optional if you want complete arm development.</p>
+                  <ol class="ex-steps">
+                    <li>Hold one dumbbell with both hands, grip the top plate, arms extended overhead.</li>
+                    <li>Keeping your upper arms close to your head (elbows pointing forward), lower the dumbbell behind your head by bending at the elbows.</li>
+                    <li>Lower until you feel a deep stretch in the tricep — typically your forearms are past parallel.</li>
+                    <li>Press back up to full extension. Squeeze triceps hard at the top.</li>
+                  </ol>
+                  <div class="ex-meta">
+                    <span class="ex-meta__item">3 <em>sets</em></span>
+                    <span class="ex-meta__item">12–15 <em>reps</em></span>
+                    <span class="ex-meta__item">60s <em>rest</em></span>
+                  </div>
+                  <p class="ex-tip">Elbows will flare out as you fatigue. Fight it. Keep them pointing forward and close to your head throughout. Can also use a cable with a rope behind the head.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </details>
+
+        <!-- ===== CORE ===== -->
+        <details class="muscle-section">
+          <summary>
+            <span class="ms-num">05</span>
+            <span class="ms-title">Core</span>
+            <svg class="ms-chevron" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 7l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </summary>
+          <div class="ms-body">
+            <div class="ms-intro">
+              <div class="ms-diagram">
+                <svg width="100" height="220" viewBox="0 0 100 220" xmlns="http://www.w3.org/2000/svg">
+                  <g fill="#D8D8D8">
+                    <ellipse cx="50" cy="14" rx="12" ry="13"/>
+                    <rect x="44" y="26" width="12" height="8" rx="3"/>
+                    <rect x="28" y="32" width="44" height="40" rx="4"/>
+                    <rect x="30" y="72" width="40" height="34" rx="4"/>
+                    <rect x="10" y="30" width="17" height="46" rx="6"/>
+                    <rect x="73" y="30" width="17" height="46" rx="6"/>
+                    <rect x="11" y="78" width="15" height="34" rx="5"/>
+                    <rect x="74" y="78" width="15" height="34" rx="5"/>
+                    <rect x="26" y="106" width="48" height="18" rx="4"/>
+                    <rect x="26" y="124" width="21" height="46" rx="5"/>
+                    <rect x="53" y="124" width="21" height="46" rx="5"/>
+                    <rect x="27" y="170" width="19" height="30" rx="5"/>
+                    <rect x="54" y="170" width="19" height="30" rx="5"/>
+                    <ellipse cx="36" cy="204" rx="12" ry="6"/>
+                    <ellipse cx="64" cy="204" rx="12" ry="6"/>
+                  </g>
+                  <!-- Highlight abs -->
+                  <rect x="30" y="72" width="40" height="34" rx="4" fill="#C8622A" opacity="0.85"/>
+                  <text x="50" y="216" text-anchor="middle" font-size="7" fill="#767676" font-family="sans-serif">Front</text>
+                </svg>
+              </div>
+              <div class="ms-why">
+                <span class="ms-why-label">Why train core</span>
+                The core is not just the six-pack. It includes your deep abdominals, obliques, and lower back muscles. A strong core stabilises your spine in every compound lift — squats, deadlifts, rows, overhead press all require core bracing. Weak core means weak lifts and a higher injury risk. Train it directly but do not waste hours doing crunches. Heavy compound lifts already train the core hard. Direct work is supplementary.
+              </div>
+            </div>
+
+            <div class="ex-list">
+
+              <div class="ex-card">
+                <div class="ex-gif">
+                  <svg width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="17" fill="none" stroke="#D0D0D0" stroke-width="1.5"/><polygon points="14,11 14,25 27,18" fill="#D0D0D0"/></svg>
+                  <span>Plank<br><em>Add GIF: plank.gif</em></span>
+                </div>
+                <div class="ex-info">
+                  <p class="ex-name">Plank</p>
+                  <span class="ex-type ex-type--iso">Bodyweight</span>
+                  <p class="ex-desc">The foundation of core training. Builds isometric strength in the deep abdominals, obliques, and lower back simultaneously. Learn this before anything else.</p>
+                  <ol class="ex-steps">
+                    <li>Get into a push-up position, then drop to your forearms. Elbows directly under your shoulders.</li>
+                    <li>Body forms a straight line from head to heels. Do not let your hips sag or pike up.</li>
+                    <li>Squeeze everything: glutes tight, core braced hard, shoulders away from your ears.</li>
+                    <li>Hold. Breathe steadily. Do not hold your breath.</li>
+                  </ol>
+                  <div class="ex-meta">
+                    <span class="ex-meta__item">3 <em>sets</em></span>
+                    <span class="ex-meta__item">30–60 <em>seconds</em></span>
+                    <span class="ex-meta__item">45s <em>rest</em></span>
+                  </div>
+                  <p class="ex-tip">Quality over duration. A 30-second plank with perfect form beats a 90-second plank with your hips sagging. When 60 seconds is easy, try adding weight on your back or move to a harder variation.</p>
+                </div>
+              </div>
+
+              <div class="ex-card">
+                <div class="ex-gif">
+                  <svg width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="17" fill="none" stroke="#D0D0D0" stroke-width="1.5"/><polygon points="14,11 14,25 27,18" fill="#D0D0D0"/></svg>
+                  <span>Dead Bug<br><em>Add GIF: dead-bug.gif</em></span>
+                </div>
+                <div class="ex-info">
+                  <p class="ex-name">Dead Bug</p>
+                  <span class="ex-type ex-type--iso">Bodyweight</span>
+                  <p class="ex-desc">Underrated beginner exercise. Trains the deep core stabilisers and teaches you to brace your spine while your limbs move — exactly what happens during heavy lifting. A lot of back pain problems improve significantly with this exercise.</p>
+                  <ol class="ex-steps">
+                    <li>Lie on your back. Raise your arms straight above your chest. Raise your knees to 90 degrees (like you are sitting in a chair). Lower back pressed firmly into the floor.</li>
+                    <li>Slowly extend your right arm overhead while simultaneously extending your left leg until it is near the floor (do not let it touch).</li>
+                    <li>Return to the start. Repeat on the opposite side (left arm + right leg).</li>
+                    <li>Throughout, your lower back must stay flat on the floor. If it arches, you have gone too far.</li>
+                  </ol>
+                  <div class="ex-meta">
+                    <span class="ex-meta__item">3 <em>sets</em></span>
+                    <span class="ex-meta__item">8–10 <em>reps/side</em></span>
+                    <span class="ex-meta__item">45s <em>rest</em></span>
+                  </div>
+                  <p class="ex-tip">Slow and controlled. This is a technique exercise, not a cardio exercise. If you are moving fast, you are doing it wrong. Take 2-3 seconds per movement.</p>
+                </div>
+              </div>
+
+              <div class="ex-card">
+                <div class="ex-gif">
+                  <svg width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="17" fill="none" stroke="#D0D0D0" stroke-width="1.5"/><polygon points="14,11 14,25 27,18" fill="#D0D0D0"/></svg>
+                  <span>Hanging Leg Raise<br><em>Add GIF: hanging-leg-raise.gif</em></span>
+                </div>
+                <div class="ex-info">
+                  <p class="ex-name">Hanging Leg Raise</p>
+                  <span class="ex-type ex-type--iso">Bodyweight</span>
+                  <p class="ex-desc">Once the plank is easy, add loaded core flexion. Hanging leg raises target the lower abs and hip flexors under heavy load. Hard when done properly. Most people use too much swing.</p>
+                  <ol class="ex-steps">
+                    <li>Hang from a pull-up bar with an overhand grip, arms fully extended.</li>
+                    <li>Brace your core. Raise both legs by curling your hips — do not just lift from the hip flexors, think about pulling your pelvis up toward your ribs.</li>
+                    <li>Raise until your legs are parallel to the floor (beginner) or higher (advanced).</li>
+                    <li>Lower slowly — do not drop. Control the descent to maximise time under tension.</li>
+                  </ol>
+                  <div class="ex-meta">
+                    <span class="ex-meta__item">3 <em>sets</em></span>
+                    <span class="ex-meta__item">10–15 <em>reps</em></span>
+                    <span class="ex-meta__item">60s <em>rest</em></span>
+                  </div>
+                  <p class="ex-tip">Too hard? Do lying leg raises on the floor first. Too easy? Raise your legs straight up past 90 degrees, bringing your feet toward the ceiling.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </details>
+
+        <!-- ===== LEGS ===== -->
+        <details class="muscle-section">
+          <summary>
+            <span class="ms-num">06</span>
+            <span class="ms-title">Legs — Quads, Hamstrings, Glutes, Calves</span>
+            <svg class="ms-chevron" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 7l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </summary>
+          <div class="ms-body">
+            <div class="ms-intro">
+              <div class="ms-diagram">
+                <svg width="100" height="220" viewBox="0 0 100 220" xmlns="http://www.w3.org/2000/svg">
+                  <g fill="#D8D8D8">
+                    <ellipse cx="50" cy="14" rx="12" ry="13"/>
+                    <rect x="44" y="26" width="12" height="8" rx="3"/>
+                    <rect x="28" y="32" width="44" height="40" rx="4"/>
+                    <rect x="30" y="72" width="40" height="34" rx="4"/>
+                    <rect x="10" y="30" width="17" height="46" rx="6"/>
+                    <rect x="73" y="30" width="17" height="46" rx="6"/>
+                    <rect x="11" y="78" width="15" height="34" rx="5"/>
+                    <rect x="74" y="78" width="15" height="34" rx="5"/>
+                    <rect x="26" y="106" width="48" height="18" rx="4"/>
+                    <rect x="26" y="124" width="21" height="46" rx="5"/>
+                    <rect x="53" y="124" width="21" height="46" rx="5"/>
+                    <rect x="27" y="170" width="19" height="30" rx="5"/>
+                    <rect x="54" y="170" width="19" height="30" rx="5"/>
+                    <ellipse cx="36" cy="204" rx="12" ry="6"/>
+                    <ellipse cx="64" cy="204" rx="12" ry="6"/>
+                  </g>
+                  <!-- Highlight all leg muscles -->
+                  <rect x="26" y="106" width="48" height="18" rx="4" fill="#C8622A" opacity="0.5"/>
+                  <rect x="26" y="124" width="21" height="46" rx="5" fill="#C8622A" opacity="0.85"/>
+                  <rect x="53" y="124" width="21" height="46" rx="5" fill="#C8622A" opacity="0.85"/>
+                  <rect x="27" y="170" width="19" height="30" rx="5" fill="#C8622A" opacity="0.6"/>
+                  <rect x="54" y="170" width="19" height="30" rx="5" fill="#C8622A" opacity="0.6"/>
+                  <text x="50" y="216" text-anchor="middle" font-size="7" fill="#767676" font-family="sans-serif">Front</text>
+                </svg>
+              </div>
+              <div class="ms-why">
+                <span class="ms-why-label">Why train legs</span>
+                Leg day is the one beginners skip most. Do not skip leg day. Your legs are the largest muscle group in your body. Training them releases more growth hormone and testosterone than any upper body exercise. A strong set of legs also improves your total body strength, protects your knees and hips, and honestly — nothing looks more out of proportion than a big upper body on chicken legs.
+              </div>
+            </div>
+
+            <div class="ex-list">
+
+              <div class="ex-card">
+                <div class="ex-gif">
+                  <svg width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="17" fill="none" stroke="#D0D0D0" stroke-width="1.5"/><polygon points="14,11 14,25 27,18" fill="#D0D0D0"/></svg>
+                  <span>Back Squat<br><em>Add GIF: back-squat.gif</em></span>
+                </div>
+                <div class="ex-info">
+                  <p class="ex-name">Back Squat</p>
+                  <span class="ex-type">Compound</span>
+                  <p class="ex-desc">The king of all exercises. Trains quads, hamstrings, glutes, and core simultaneously under the heaviest load of any leg exercise. Learn this movement pattern properly and it will serve you for life.</p>
+                  <ol class="ex-steps">
+                    <li>Set the bar on the rack at shoulder height. Step under it, rest it across your upper traps (not on your neck), and grip the bar slightly wider than your shoulders.</li>
+                    <li>Unrack, step back, and stand with feet shoulder-width or slightly wider, toes pointed slightly outward.</li>
+                    <li>Brace your core like you are about to take a punch. Push your knees out in line with your toes as you squat down.</li>
+                    <li>Squat until your thighs are at least parallel to the floor (crease of the hip below the knee). Drive back up through your heels, keeping chest up throughout.</li>
+                  </ol>
+                  <div class="ex-meta">
+                    <span class="ex-meta__item">3–4 <em>sets</em></span>
+                    <span class="ex-meta__item">5–8 <em>reps</em></span>
+                    <span class="ex-meta__item">2–3 min <em>rest</em></span>
+                  </div>
+                  <p class="ex-tip">Film your squats from the side. Most beginners do not go deep enough, lean too far forward, or let their knees cave inward. Fix your form before loading heavy. Goblet squat with a dumbbell is a great learning tool before moving to the barbell.</p>
+                </div>
+              </div>
+
+              <div class="ex-card">
+                <div class="ex-gif">
+                  <svg width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="17" fill="none" stroke="#D0D0D0" stroke-width="1.5"/><polygon points="14,11 14,25 27,18" fill="#D0D0D0"/></svg>
+                  <span>Romanian Deadlift<br><em>Add GIF: romanian-deadlift.gif</em></span>
+                </div>
+                <div class="ex-info">
+                  <p class="ex-name">Romanian Deadlift (RDL)</p>
+                  <span class="ex-type">Compound</span>
+                  <p class="ex-desc">The best hamstring and glute exercise available. Unlike the back squat which is quad-dominant, the RDL specifically targets the posterior chain — hamstrings, glutes, and lower back.</p>
+                  <ol class="ex-steps">
+                    <li>Stand holding the barbell at hip level, overhand grip. Feet hip-width apart.</li>
+                    <li>With a slight bend in the knees (keep this bend constant throughout), hinge at the hips — push them back behind you. Back stays completely flat.</li>
+                    <li>Lower the bar down the front of your legs until you feel a strong stretch in your hamstrings — typically when the bar is just below the knee.</li>
+                    <li>Drive your hips forward to return to the start. Squeeze your glutes at the top.</li>
+                  </ol>
+                  <div class="ex-meta">
+                    <span class="ex-meta__item">3 <em>sets</em></span>
+                    <span class="ex-meta__item">8–10 <em>reps</em></span>
+                    <span class="ex-meta__item">90s <em>rest</em></span>
+                  </div>
+                  <p class="ex-tip">The RDL is not a deadlift from the floor — the bar stays above the knees. The movement is all hips. If your back is rounding, you are either going too low or the weight is too heavy. Start with dumbbells if the barbell is awkward.</p>
+                </div>
+              </div>
+
+              <div class="ex-card">
+                <div class="ex-gif">
+                  <svg width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="17" fill="none" stroke="#D0D0D0" stroke-width="1.5"/><polygon points="14,11 14,25 27,18" fill="#D0D0D0"/></svg>
+                  <span>Leg Press<br><em>Add GIF: leg-press.gif</em></span>
+                </div>
+                <div class="ex-info">
+                  <p class="ex-name">Leg Press</p>
+                  <span class="ex-type">Compound</span>
+                  <p class="ex-desc">Machine-based squat alternative. Quad-focused, easier to learn than the barbell squat, and allows you to push heavy loads safely. Good as a secondary leg exercise or during periods when your squat form needs work.</p>
+                  <ol class="ex-steps">
+                    <li>Sit in the leg press machine. Place feet shoulder-width on the platform, roughly in the middle.</li>
+                    <li>Release the safety handles. Lower the platform toward your chest by bending your knees — go until your knees are at roughly 90 degrees. Lower back stays flat against the seat.</li>
+                    <li>Press the platform back up by driving through your heels. Do not lock out your knees at the top.</li>
+                  </ol>
+                  <div class="ex-meta">
+                    <span class="ex-meta__item">3 <em>sets</em></span>
+                    <span class="ex-meta__item">10–12 <em>reps</em></span>
+                    <span class="ex-meta__item">90s <em>rest</em></span>
+                  </div>
+                  <p class="ex-tip">Do not set your feet too low — it puts excessive stress on the knees. Do not set them too high — it shifts load entirely to glutes and reduces quad work. Experiment with placement.</p>
+                </div>
+              </div>
+
+              <div class="ex-card">
+                <div class="ex-gif">
+                  <svg width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="17" fill="none" stroke="#D0D0D0" stroke-width="1.5"/><polygon points="14,11 14,25 27,18" fill="#D0D0D0"/></svg>
+                  <span>Calf Raise<br><em>Add GIF: calf-raise.gif</em></span>
+                </div>
+                <div class="ex-info">
+                  <p class="ex-name">Calf Raise</p>
+                  <span class="ex-type ex-type--iso">Isolation</span>
+                  <p class="ex-desc">Most people skip calves. Most people have underdeveloped calves. The gastrocnemius and soleus together make up the lower leg. They respond best to high reps and are notoriously stubborn — which is why most people quit on them.</p>
+                  <ol class="ex-steps">
+                    <li>Stand on the edge of a step or calf raise machine, heels hanging off the edge.</li>
+                    <li>Lower your heels as far as possible — feel the full stretch in the calf at the bottom.</li>
+                    <li>Rise up onto the balls of your feet as high as possible. Pause at the top for 1-2 seconds.</li>
+                    <li>Lower slowly back to the stretched position. Do not bounce at the bottom.</li>
+                  </ol>
+                  <div class="ex-meta">
+                    <span class="ex-meta__item">4 <em>sets</em></span>
+                    <span class="ex-meta__item">15–20 <em>reps</em></span>
+                    <span class="ex-meta__item">60s <em>rest</em></span>
+                  </div>
+                  <p class="ex-tip">Calves are stubborn because they carry your body weight all day. They are used to volume. High reps, full range of motion, and the pause at the top is what actually makes them grow.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </details>
+
+        <!-- ===== PROGRAMME ===== -->
+        <h2 id="programme">Your First Programme</h2>
+
+        <p>Two options. Start with the 3-day full body if you are new. Move to Push Pull Legs when 3 days feels easy or you want to train more.</p>
+
+        <h3 style="font-family:'Playfair Display',serif; font-size:18px; font-weight:700; margin:28px 0 14px; color:var(--text);">Option 1 — 3x Per Week Full Body (Beginner, months 1-3)</h3>
+        <p style="font-size:15px; color:var(--muted); margin-bottom:16px;">Alternate Day A and Day B. Rest at least one day between sessions. Example: Monday A, Wednesday B, Friday A. Next week: Monday B, Wednesday A, Friday B.</p>
+
+        <div class="prog-wrap">
+          <table class="prog-table">
+            <thead>
+              <tr>
+                <th>Day</th>
+                <th>Exercise</th>
+                <th>Sets × Reps</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="4"><span class="prog-day">Day A</span></td>
+                <td>Back Squat</td><td>3 × 5</td><td>Add 2.5kg every session when you hit all reps</td>
+              </tr>
+              <tr><td>Bench Press</td><td>3 × 5</td><td>Same progressive overload rule</td></tr>
+              <tr><td>Bent-Over Row</td><td>3 × 5</td><td>Match bench press weight roughly</td></tr>
+              <tr><td>Plank</td><td>3 × 30–45s</td><td>Add 5 seconds each week</td></tr>
+              <tr>
+                <td rowspan="5"><span class="prog-day">Day B</span></td>
+                <td>Romanian Deadlift</td><td>3 × 8</td><td>Controlled, feel the hamstring stretch</td>
+              </tr>
+              <tr><td>Overhead Press</td><td>3 × 5</td><td>Hardest lift to progress — be patient</td></tr>
+              <tr><td>Lat Pulldown</td><td>3 × 10</td><td>Full stretch at top, squeeze at bottom</td></tr>
+              <tr><td>Lateral Raise</td><td>3 × 12</td><td>Light weight, strict form</td></tr>
+              <tr><td>Dead Bug</td><td>3 × 8/side</td><td>Slow and controlled</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="prog-note">This is based on linear progression — the same method that has produced more beginner strength and muscle gains than any other programme. Do not overcomplicate it.</p>
+
+        <h3 style="font-family:'Playfair Display',serif; font-size:18px; font-weight:700; margin:36px 0 14px; color:var(--text);">Option 2 — Push Pull Legs, 6x Per Week (When You Are Ready)</h3>
+        <p style="font-size:15px; color:var(--muted); margin-bottom:16px;">Run PPL twice per week: Push-Pull-Legs-Rest-Push-Pull-Legs. Each muscle group gets trained twice weekly, which research consistently shows produces faster hypertrophy than once per week.</p>
+
+        <div class="prog-wrap">
+          <table class="prog-table">
+            <thead>
+              <tr>
+                <th>Session</th>
+                <th>Exercises</th>
+                <th>Sets × Reps</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="prog-day">Push</span><br><small style="color:var(--muted)">Chest, Shoulders, Triceps</small></td>
+                <td>Bench Press<br>Overhead Press<br>Incline DB Press<br>Lateral Raise<br>Tricep Pushdown<br>Overhead Tricep Ext.</td>
+                <td>4 × 6<br>3 × 8<br>3 × 10<br>3–4 × 15<br>3 × 12<br>3 × 12</td>
+              </tr>
+              <tr>
+                <td><span class="prog-day">Pull</span><br><small style="color:var(--muted)">Back, Biceps, Rear Delts</small></td>
+                <td>Lat Pulldown<br>Bent-Over Row<br>Seated Cable Row<br>Face Pull<br>Barbell Curl<br>Hammer Curl</td>
+                <td>4 × 10<br>3 × 8<br>3 × 12<br>3 × 15<br>3 × 12<br>3 × 12</td>
+              </tr>
+              <tr>
+                <td><span class="prog-day">Legs</span><br><small style="color:var(--muted)">Quads, Hams, Glutes, Calves</small></td>
+                <td>Back Squat<br>Romanian Deadlift<br>Leg Press<br>Calf Raise<br>Hanging Leg Raise<br>Plank</td>
+                <td>4 × 6<br>3 × 8<br>3 × 12<br>4 × 15<br>3 × 12<br>3 × 45s</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- ===== MISTAKES ===== -->
+        <h2 id="mistakes">Common mistakes that kill progress</h2>
+
+        <p><strong>Skipping progressive overload.</strong> This is the number one mistake. If you lift the same weight every single week, nothing will change. Your body adapts and stops responding. You must keep pushing the weight up, even in tiny increments.</p>
+
+        <p><strong>Skipping legs.</strong> Already covered. Just do not do it. The embarrassment of skipping leg day should motivate you more than the soreness.</p>
+
+        <p><strong>Ego lifting.</strong> Using too much weight, losing form, and half-repping through exercises. You look worse doing this than the person next to you lifting half the weight properly. Drop the weight. Full range of motion. Every rep.</p>
+
+        <p><strong>Doing too many exercises.</strong> More is not better. 20 different exercises per session means low intensity on all of them. 5-6 exercises with maximum effort on each is far more effective. Follow the programme above and resist the urge to add more.</p>
+
+        <p><strong>Not eating enough protein.</strong> The gym provides the stimulus. Protein provides the building blocks. Without enough protein, your body cannot build new muscle tissue regardless of how hard you train. Hit your protein target every day. Use the <a href="../index.html" style="color:var(--accent)">calculator on the homepage</a> if you do not know your target.</p>
+
+        <p><strong>Expecting fast results.</strong> Muscle building is slow. A beginner who trains consistently can expect to gain 1-2kg of actual muscle per month in the first year — and that is with good training, good eating, and good sleep. The people who look incredible in the gym have been training for years. Be consistent and patient. The results will come.</p>
+
+      </div>
+    </main>
+
+    <!-- TOC sidebar -->
+    <aside class="post-sidebar">
+      <nav class="post-toc">
+        <span class="post-toc__label">Contents</span>
+        <ul class="post-toc__list">
+          <li><a href="#basics">Before you start</a></li>
+          <li><a href="#chest">Chest</a></li>
+          <li><a href="#chest">Back</a></li>
+          <li><a href="#chest">Shoulders</a></li>
+          <li><a href="#chest">Arms</a></li>
+          <li><a href="#chest">Core</a></li>
+          <li><a href="#chest">Legs</a></li>
+          <li><a href="#programme">Your programme</a></li>
+          <li><a href="#mistakes">Common mistakes</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+  </div>
+
+  <section class="post-related">
+    <div class="post-related-inner">
+      <h2 class="post-related-title">Keep reading</h2>
+      <div class="cards-grid cards-grid--2" style="max-width:680px;">
+        <div class="card">
+          <div class="card__body">
+            <span class="card__cat">Diet Talk</span>
+            <h3 class="card__title" style="font-size:18px;">How to hit your daily protein target</h3>
+            <p class="card__excerpt">Use the food builder on the homepage to build a plate that hits your protein every day without thinking about it.</p>
+            <div class="card__footer"><a href="../index.html#acc-2" style="color:var(--accent); font-weight:600; font-size:13px;">Go to food builder &rarr;</a></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__body">
+            <span class="card__cat">Diet Talk</span>
+            <h3 class="card__title" style="font-size:18px;">Volume eating — how to stay full on a deficit</h3>
+            <p class="card__excerpt">The diet strategy that makes eating in a calorie deficit feel less like punishment.</p>
+            <div class="card__footer"><a href="../diets/volume-eating.html" style="color:var(--accent); font-weight:600; font-size:13px;">Read more &rarr;</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-logo">Rice and <span>Protein</span></div>
+    <p class="footer-tag">Simple tools for people who want real results.</p>
+    <ul class="footer-links">
+      <li><a href="../blog.html">Blog</a></li>
+      <li><a href="../about.html">About</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+    </ul>
+    <p class="footer-backlink">Web design by <a href="https://sabahwebs.com">Sabah Webs</a></p>
+  </footer>
+
+  <button id="back-to-top" aria-label="Back to top">&#8679;</button>
+
+  <script src="../js/post.js"></script>
+  <script>
+  (function () {
+    var t = document.getElementById('nav-toggle');
+    var n = document.getElementById('site-nav');
+    if (t && n) t.addEventListener('click', function () { n.classList.toggle('is-open'); });
+
+    var copyBtn = document.getElementById('copy-link');
+    if (copyBtn) {
+      copyBtn.addEventListener('click', function () {
+        var url = window.location.href;
+        if (navigator.clipboard) {
+          navigator.clipboard.writeText(url).then(function () {
+            copyBtn.textContent = '✓';
+            setTimeout(function () { copyBtn.innerHTML = '&#128279;'; }, 2000);
+          });
+        }
+      });
+    }
+  })();
+  </script>
+
+</body>
+</html>

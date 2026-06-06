@@ -5,14 +5,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap');
 
 :root {
-  --bg:       #F1F3EF;
-  --bg2:      #E7E9E4;
+  --bg:       #F7F7F7;
+  --bg2:      #EFEFEF;
   --accent:   #C4622D;
   --accent2:  #A84E22;
   --dark:     #1C1C1A;
   --text:     #1C1C1A;
-  --muted:    #6B6860;
-  --border:   #D9DDD5;
+  --muted:    #767676;
+  --border:   #E0E0E0;
   --white:    #ffffff;
   --max:      1160px;
   --header-h: 64px;

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -1172,10 +1172,10 @@
         <div class="calc-field">
           <label class="calc-label" for="inp-steps">Daily steps (check your phone)</label>
           <select class="calc-select" id="inp-steps">
-            <option value="1.20">Under 4,000 — mostly sitting</option>
-            <option value="1.30" selected>4,000–7,000 — some walking</option>
-            <option value="1.45">7,000–10,000 — on your feet a lot</option>
-            <option value="1.60">Over 10,000 — very active day</option>
+            <option value="1.20">Under 4,000 (mostly sitting)</option>
+            <option value="1.30" selected>4,000-7,000 (some walking)</option>
+            <option value="1.45">7,000-10,000 (on your feet a lot)</option>
+            <option value="1.60">Over 10,000 (very active day)</option>
           </select>
         </div>
 
@@ -1368,7 +1368,7 @@
               <p>Pick one exercise per muscle group, 3 sets of 8 to 12 reps. These five cover everything: <strong>Squat</strong> (legs), <strong>Romanian deadlift</strong> (hamstrings and lower back), <strong>Bench press</strong> (chest), <strong>Bent-over row</strong> (back), <strong>Shoulder press</strong> (shoulders).</p>
               <p>The one rule that matters: add a little more weight every week. Even 2.5kg. This is called progressive overload. Your body only changes when you give it a reason to. When you can hit 12 reps comfortably, add weight and work back up.</p>
               <p>If you can train 5 to 6 days, switch to Push Pull Legs. Push covers chest, shoulders and triceps. Pull covers back and biceps. Legs covers quads, hamstrings and calves. You hit each muscle twice a week which builds faster.</p>
-              <p>Women — three sessions a week changes your shape, it does not make you bulky. That takes years of very specific effort to achieve.</p>
+              <p>Women, three sessions a week changes your shape, it does not make you bulky. That takes years of very specific effort to achieve.</p>
               <p><a href="posts/gym-guide-beginners.html" style="color:var(--accent); font-weight:600;">Read the full beginner's gym guide &rarr;</a>&nbsp; Every exercise, every muscle group, sets and reps, plus a programme to start this week.</p>
             </div>
 
@@ -1376,7 +1376,7 @@
               <button class="transf-btn active" id="transf-male" type="button">Male</button>
               <button class="transf-btn" id="transf-female" type="button">Female</button>
             </div>
-            <img class="transf-img" id="transf-img" src="images/transformation-male.jpg" alt="Male body transformation — fat loss with resistance training">
+            <img class="transf-img" id="transf-img" src="images/transformation-male.jpg" alt="Male body transformation, fat loss with resistance training">
 
           </div>
         </div>
@@ -1503,7 +1503,7 @@
       });
     });
 
-    /* BMR — Mifflin-St Jeor */
+    /* BMR: Mifflin-St Jeor */
     function bmrMifflin(w, h, a, sex) {
       var b = 10 * w + 6.25 * h - 5 * a;
       return sex === 'male' ? b + 5 : b - 161;
@@ -1998,14 +1998,14 @@
 
       btnM.addEventListener('click', function () {
         img.src = 'images/transformation-male.jpg';
-        img.alt = 'Male body transformation — fat loss with resistance training';
+        img.alt = 'Male body transformation, fat loss with resistance training';
         btnM.classList.add('active');
         btnF.classList.remove('active');
       });
 
       btnF.addEventListener('click', function () {
         img.src = 'images/transformation-female.jpg';
-        img.alt = 'Female body transformation — fat loss with resistance training';
+        img.alt = 'Female body transformation, fat loss with resistance training';
         btnF.classList.add('active');
         btnM.classList.remove('active');
       });

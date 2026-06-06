@@ -328,50 +328,26 @@
       margin-bottom: 14px;
     }
 
-    .results-cards {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 10px;
+    .tdee-result {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+      margin: 14px 0 8px;
     }
 
-    .result-card {
-      background: var(--bg);
-      border: 1.5px solid var(--border);
-      padding: 18px 14px 16px;
-      text-align: center;
-    }
-
-    .result-card--avg {
-      border-color: var(--accent);
-      background: var(--white);
-    }
-
-    .result-card__name {
-      font-size: 9px;
-      font-weight: 700;
-      letter-spacing: 1.5px;
-      text-transform: uppercase;
-      color: var(--muted);
-      margin-bottom: 8px;
-    }
-
-    .result-card__num {
+    .tdee-result__num {
       font-family: 'DM Serif Display', serif;
-      font-size: 28px;
+      font-size: 56px;
       line-height: 1;
-      color: var(--text);
-      margin-bottom: 4px;
+      color: var(--accent);
     }
 
-    .result-card--avg .result-card__num { color: var(--accent); }
-
-    .result-card__unit {
-      font-size: 10px;
+    .tdee-result__unit {
+      font-size: 15px;
       color: var(--muted);
     }
 
     .results-note {
-      margin-top: 12px;
       font-size: 13px;
       color: var(--muted);
       font-style: italic;
@@ -1084,8 +1060,7 @@
       .s1-title { font-size: 42px; }
       .form-card { padding: 20px 16px; }
       .calc-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
-      .results-cards { grid-template-columns: repeat(2, 1fr); }
-      .goal-toggle { display: flex; width: 100%; }
+.goal-toggle { display: flex; width: 100%; }
       .goal-btn { flex: 1; padding: 11px 10px; font-size: 13px; }
       .goal-result__kcal { font-size: 38px; }
       .protein-card { padding: 20px 16px; flex-direction: column; align-items: flex-start; gap: 10px; }
@@ -1191,28 +1166,10 @@
       <button class="calc-btn" id="calc-btn" type="button">Calculate my TDEE</button>
 
       <div class="results" id="results">
-        <p class="results-label">Your estimated TDEE (maintenance calories per day)</p>
-        <div class="results-cards">
-          <div class="result-card">
-            <div class="result-card__name">Mifflin-St Jeor</div>
-            <div class="result-card__num" id="res-mifflin">0</div>
-            <div class="result-card__unit">kcal / day</div>
-          </div>
-          <div class="result-card">
-            <div class="result-card__name">Harris-Benedict</div>
-            <div class="result-card__num" id="res-harris">0</div>
-            <div class="result-card__unit">kcal / day</div>
-          </div>
-          <div class="result-card">
-            <div class="result-card__name">Schofield</div>
-            <div class="result-card__num" id="res-schofield">0</div>
-            <div class="result-card__unit">kcal / day</div>
-          </div>
-          <div class="result-card result-card--avg">
-            <div class="result-card__name">Average</div>
-            <div class="result-card__num" id="res-avg">0</div>
-            <div class="result-card__unit">kcal / day</div>
-          </div>
+        <p class="results-label">Your maintenance calories (TDEE)</p>
+        <div class="tdee-result">
+          <span class="tdee-result__num" id="res-tdee">0</span>
+          <span class="tdee-result__unit">kcal / day</span>
         </div>
         <p class="results-note" id="results-note"></p>
       </div>
@@ -1536,29 +1493,10 @@
       });
     });
 
-    /* BMR FORMULAS */
+    /* BMR — Mifflin-St Jeor */
     function bmrMifflin(w, h, a, sex) {
       var b = 10 * w + 6.25 * h - 5 * a;
       return sex === 'male' ? b + 5 : b - 161;
-    }
-
-    function bmrHarris(w, h, a, sex) {
-      return sex === 'male'
-        ? 13.397 * w + 4.799 * h - 5.677 * a + 88.362
-        : 9.247  * w + 3.098 * h - 4.330 * a + 447.593;
-    }
-
-    function bmrSchofield(w, a, sex) {
-      if (sex === 'male') {
-        if (a < 18) return 17.686 * w + 658.2;
-        if (a < 30) return 15.057 * w + 692.2;
-        if (a < 60) return 11.472 * w + 873.1;
-        return 11.711 * w + 587.7;
-      }
-      if (a < 18) return 13.384 * w + 692.6;
-      if (a < 30) return 14.818 * w + 486.6;
-      if (a < 60) return  8.126 * w + 845.6;
-      return 9.082 * w + 658.5;
     }
 
     /* CALCULATE */
@@ -1580,26 +1518,19 @@
       if (!height || height <= 0)       { heightEl.classList.add('error'); ok = false; }
       if (!ok) return;
 
-      var mif = Math.round(bmrMifflin(weight, height, age, S.sex)   * act);
-      var har = Math.round(bmrHarris(weight, height, age, S.sex)    * act);
-      var sch = Math.round(bmrSchofield(weight, age, S.sex)         * act);
-      var avg = Math.round((mif + har + sch) / 3);
+      var bmr  = bmrMifflin(weight, height, age, S.sex);
+      var tdee = Math.round(bmr * act);
 
-      $('res-mifflin').textContent   = fmt(mif);
-      $('res-harris').textContent    = fmt(har);
-      $('res-schofield').textContent = fmt(sch);
-      $('res-avg').textContent       = fmt(avg);
-
-      var spread = Math.max(mif, har, sch) - Math.min(mif, har, sch);
-      $('results-note').textContent = 'Three formulas, three slightly different results. The gap between them is ' + spread + ' kcal. The average is used as your TDEE going forward.';
+      $('res-tdee').textContent     = fmt(tdee);
+      $('results-note').textContent = 'Mifflin-St Jeor × your activity level. If your weight stops changing after 2 weeks, adjust your activity setting.';
 
       $('results').classList.add('visible');
 
       S.age       = age;
       S.weight_kg = weight;
       S.height_cm = height;
-      S.tdee      = avg;
-      S.bmr       = Math.round((bmrMifflin(weight, height, age, S.sex) + bmrHarris(weight, height, age, S.sex) + bmrSchofield(weight, age, S.sex)) / 3);
+      S.tdee      = tdee;
+      S.bmr       = Math.round(bmr);
 
       var gw = parseFloat($('inp-goal-weight').value);
       S.goal_weight = (!isNaN(gw) && gw > 0) ? gw : 0;

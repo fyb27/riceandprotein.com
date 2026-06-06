@@ -1,0 +1,174 @@
+Good idea. If you're building a recurring blog mascot, you want a **character sheet** rather than relying on AI to remember a generated image.
+
+### Character Profile
+
+**Name:** (leave blank for now)
+**Age Appearance:** 33–38 years old
+**Ethnicity:** Asian (Southeast Asian appearance)
+**Body Type:** Lean, athletic, healthy-looking — not bodybuilder muscular. Looks like someone who lifts weights 3–4 times a week and stays active.
+
+---
+
+## Art Style
+
+* Flat design cartoon illustration
+* Clean vector-like appearance
+* Smooth outlines
+* Minimal shading
+* Soft gradients only where necessary
+* Friendly blog illustration style
+* Similar to modern explainer graphics and health blogs
+* No anime features
+* No exaggerated comic proportions
+* White background
+* Simple and uncluttered
+
+---
+
+## Face
+
+### Shape
+
+* Rounded square face
+* Slightly defined jawline
+* Not sharp or model-like
+* Friendly and approachable
+
+### Eyes
+
+* Medium-sized
+* Dark brown
+* Slightly curved upward when smiling
+* Simple cartoon styling
+* Thick black eyebrows
+
+### Nose
+
+* Small to medium size
+* Simple cartoon nose
+* Minimal detail
+
+### Mouth
+
+* Wide confident smile
+* White teeth visible
+* Relaxed and friendly expression
+
+### Skin Tone
+
+* Warm medium tan
+* Southeast Asian complexion
+* Healthy appearance
+* Slight warm peach undertones
+
+---
+
+## Hair
+
+### Style
+
+* Short black hair
+* Neat but slightly textured
+* Modern casual haircut
+* Small amount of volume on top
+* Slight side sweep
+
+### Colour
+
+* Dark charcoal black
+* Not pure black
+* Soft highlights
+
+### Hair Prompt
+
+"Short textured black hair with slight volume on top, clean sides, casual modern Asian hairstyle."
+
+---
+
+## Body
+
+### Height Appearance
+
+* Around 180–183cm
+
+### Weight Appearance
+
+* Around 78–85kg
+
+### Build
+
+* Athletic
+* Broad shoulders
+* Moderately developed chest
+* Defined arms
+* Slim waist
+* No visible six-pack
+* Realistic fitness model physique
+
+Think:
+
+* "Former overweight guy who lost weight naturally"
+* Not:
+
+  * Bodybuilder
+  * Fitness influencer
+  * Marvel superhero
+
+---
+
+## Clothing
+
+### Shirt
+
+* Plain fitted crew-neck t-shirt
+* Dark charcoal colour
+* No logos
+* No graphics
+* Slight stretch around shoulders and arms
+
+### Joggers
+
+* Slim-fit jogger pants
+* Matching charcoal or black
+* Clean minimalist design
+
+### Shoes
+
+* White athletic sneakers
+* Simple design
+* No visible branding
+
+---
+
+## Colour Palette
+
+### Hair
+
+* #1F1F1F
+
+### Skin
+
+* #D9A06A
+* #E0AA78
+
+### Shirt
+
+* #2B2B2B
+
+### Pants
+
+* #222222
+
+### Shoes
+
+* #F4F4F4
+
+---
+
+## Master Prompt
+
+Use this whenever generating him:
+
+> Recurring blog mascot character. Slim fit Asian man, age 35, warm tan skin, short textured black hair with slight volume on top, friendly confident smile, thick eyebrows, lean athletic build, broad shoulders, slim waist, realistic weight-loss success physique, wearing a fitted charcoal crew-neck t-shirt, black jogger pants, white sneakers. Flat design vector cartoon illustration, clean outlines, minimal shading, warm colours, full body standing pose, white background, consistent character design.
+
+That should give you a much more consistent character across dozens of blog illustrations.

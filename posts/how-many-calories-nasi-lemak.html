@@ -56,6 +56,17 @@
     .scenario h4 { font-size: 13px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
     .scenario .cal-big { font-family: 'Playfair Display', serif; font-size: 42px; color: var(--accent); line-height: 1; margin-bottom: 6px; }
     .scenario p { font-size: 14px; color: var(--muted); margin: 0; }
+
+    .product-fact { display: flex; gap: 20px; background: var(--white); border: 1.5px solid var(--border); padding: 20px 22px; margin: 28px 0; border-radius: 4px; align-items: flex-start; }
+    .product-fact__img { width: 90px; height: 130px; object-fit: contain; flex-shrink: 0; border: 1px solid var(--border); background: var(--bg); padding: 8px; border-radius: 2px; }
+    .product-fact__data { flex: 1; min-width: 0; }
+    .product-fact__name { font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; }
+    .product-fact__row { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--border); font-size: 14px; }
+    .product-fact__row span { color: var(--muted); }
+    .product-fact__row strong { color: var(--accent); font-weight: 600; }
+    .product-fact__insight { margin-top: 12px; font-size: 13px; color: var(--text); line-height: 1.55; padding: 10px 12px; background: var(--bg2); border-radius: 3px; }
+    .product-fact__source { font-size: 11px; color: var(--muted); margin-top: 8px; }
+    @media (max-width: 500px) { .product-fact { flex-direction: column; } .product-fact__img { width: 70px; height: 90px; } }
   </style>
 </head>
 <body>
@@ -223,6 +234,19 @@
         <p>Plain cooked white rice is about 130 kcal per 100g. Nasi lemak rice, cooked in coconut milk, is around 167 kcal per 100g. That is 28% more calorie dense, gram for gram.</p>
 
         <p>Here is why. During cooking, the rice absorbs the cooking liquid. With plain rice, that liquid is water (zero calories). With nasi lemak rice, the liquid is a mix of water and coconut milk. Full-fat coconut milk contains about 230 kcal per 100ml and 24g of fat per 100ml. Some of that fat and those calories get absorbed directly into each grain of rice as it cooks.</p>
+
+        <div class="product-fact">
+          <img class="product-fact__img" src="https://www.kara.com.my/images/uploads/product/6/KM_kara-coconut-cream-200ml-1.png" alt="Kara UHT coconut cream 200ml pack" loading="lazy">
+          <div class="product-fact__data">
+            <div class="product-fact__name">Kara UHT Coconut Cream &mdash; 200ml pack</div>
+            <div class="product-fact__row"><span>Whole 200ml pack</span><strong>466 kcal</strong></div>
+            <div class="product-fact__row"><span>Per 100ml</span><strong>233 kcal</strong></div>
+            <div class="product-fact__row"><span>Per tablespoon (15ml)</span><strong>35 kcal</strong></div>
+            <div class="product-fact__row"><span>Per serving absorbed into rice (~50ml per portion)</span><strong>~117 kcal</strong></div>
+            <div class="product-fact__insight">One 200ml pack goes into cooking 4 portions of nasi lemak rice. Each portion absorbs roughly 50ml worth of coconut cream during cooking. That 50ml adds 117 kcal of fat directly into the rice, on top of the rice's own carbohydrate calories. Result: nasi lemak rice is 167 kcal per 100g vs 130 kcal for plain rice in water.</div>
+            <div class="product-fact__source">Source: Kara Malaysia / nutritionvalue.org &middot; <a href="https://www.kara.com.my/product/kara-coconut-cream-200ml/" target="_blank" rel="noopener" style="color:var(--accent);">view product</a></div>
+          </div>
+        </div>
 
         <p>A typical home recipe uses about 200ml of coconut milk to cook 400g of raw rice, which makes about 1kg of cooked nasi lemak rice. That 200ml of coconut milk adds about 460 calories across the entire batch. Per 100g serving of finished rice, that works out to roughly 46 extra calories compared to plain rice cooked the same way.</p>
 

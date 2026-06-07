@@ -54,6 +54,17 @@
     .callout { background: var(--bg2); border-left: 3px solid var(--accent); padding: 18px 20px; margin: 28px 0; border-radius: 0 4px 4px 0; }
     .callout p { margin: 0; font-size: 15px; }
     .drink-section-label { font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); margin: 40px 0 4px; }
+
+    .product-fact { display: flex; gap: 20px; background: var(--white); border: 1.5px solid var(--border); padding: 20px 22px; margin: 28px 0; border-radius: 4px; align-items: flex-start; }
+    .product-fact__img { width: 90px; height: 130px; object-fit: contain; flex-shrink: 0; border: 1px solid var(--border); background: var(--bg); padding: 8px; border-radius: 2px; }
+    .product-fact__data { flex: 1; min-width: 0; }
+    .product-fact__name { font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; }
+    .product-fact__row { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--border); font-size: 14px; }
+    .product-fact__row span { color: var(--muted); }
+    .product-fact__row strong { color: var(--accent); font-weight: 600; }
+    .product-fact__insight { margin-top: 12px; font-size: 13px; color: var(--text); line-height: 1.55; padding: 10px 12px; background: var(--bg2); border-radius: 3px; }
+    .product-fact__source { font-size: 11px; color: var(--muted); margin-top: 8px; }
+    @media (max-width: 500px) { .product-fact { flex-direction: column; } .product-fact__img { width: 70px; height: 90px; } }
   </style>
 </head>
 <body>
@@ -129,6 +140,32 @@
         <p>Condensed milk: <strong>321 kcal per 100ml.</strong> Fat 8.7g per 100ml. Sugar 54.4g per 100ml. It is essentially sugar-concentrated milk. The water has been removed and sugar has been added. One tablespoon (15ml) is 48 kcal. A typical pour for a teh tarik is 35 to 45ml, which is 112 to 144 kcal from the condensed milk alone before you even account for the rest of the drink.</p>
 
         <p>Evaporated milk is different and much better. It is also concentrated milk but without the added sugar. Evaporated milk is 134 kcal per 100ml, compared to 321 kcal for condensed milk. Drinks made with evaporated milk instead of condensed milk (like Kopi C or Teh C) have dramatically fewer calories.</p>
+
+        <div class="product-fact">
+          <img class="product-fact__img" src="https://images.openfoodfacts.org/images/products/888/802/630/1200/front_en.4.400.jpg" alt="Marigold Full Cream Sweetened Condensed Milk 385g tin" loading="lazy">
+          <div class="product-fact__data">
+            <div class="product-fact__name">Marigold Full Cream Sweetened Condensed Milk &mdash; 385g tin</div>
+            <div class="product-fact__row"><span>Whole tin (385g)</span><strong>1,263 kcal</strong></div>
+            <div class="product-fact__row"><span>Per 100g</span><strong>328 kcal</strong></div>
+            <div class="product-fact__row"><span>Per tablespoon (15ml / ~20g)</span><strong>66 kcal</strong></div>
+            <div class="product-fact__row"><span>Standard teh tarik pour (2 tbsp / 30ml)</span><strong>128 kcal</strong></div>
+            <div class="product-fact__insight">The tea or coffee in your cup is essentially zero calories. Every calorie in a teh tarik, kopi, bandung, or Milo comes from this tin. One 385g tin makes roughly 10 cups of teh tarik. That is 1,263 kcal of condensed milk consumed per tin, 128 kcal per cup.</div>
+            <div class="product-fact__source">Source: Open Food Facts, barcode 8888026301200 &middot; <a href="https://world.openfoodfacts.org/product/8888026301200" target="_blank" rel="noopener" style="color:var(--accent);">view product page</a></div>
+          </div>
+        </div>
+
+        <div class="product-fact">
+          <img class="product-fact__img" src="https://images.openfoodfacts.org/images/products/885/012/401/8205/front_en.4.400.jpg" alt="Carnation Evaporated Milk 385g can" loading="lazy">
+          <div class="product-fact__data">
+            <div class="product-fact__name">Carnation Evaporated Milk &mdash; 385g can</div>
+            <div class="product-fact__row"><span>Whole can (385g)</span><strong>512 kcal</strong></div>
+            <div class="product-fact__row"><span>Per 100g</span><strong>133 kcal</strong></div>
+            <div class="product-fact__row"><span>Per tablespoon (15ml / ~16g)</span><strong>21 kcal</strong></div>
+            <div class="product-fact__row"><span>Standard Kopi C / Teh C pour (30ml)</span><strong>42 kcal</strong></div>
+            <div class="product-fact__insight">Same milky drink, 86 kcal less. Evaporated milk has water removed but no sugar added, so it is 133 kcal per 100g versus 328 kcal for condensed milk. Ordering Kopi C instead of Kopi drops your drink from 110 kcal to about 47 kcal. Same ritual, 63 fewer calories.</div>
+            <div class="product-fact__source">Source: Open Food Facts, barcode 8850124018205 &middot; <a href="https://world.openfoodfacts.org/product/8850124018205" target="_blank" rel="noopener" style="color:var(--accent);">view product page</a></div>
+          </div>
+        </div>
 
         <h2 id="kopitiam-hot">Kopitiam and mamak hot drinks</h2>
 
@@ -251,6 +288,19 @@
             </tr>
           </tbody>
         </table>
+
+        <div class="product-fact">
+          <img class="product-fact__img" src="https://images.openfoodfacts.org/images/products/930/060/500/0926/front_en.35.400.jpg" alt="Nestle Milo powder 1kg bag" loading="lazy">
+          <div class="product-fact__data">
+            <div class="product-fact__name">Nestl&eacute; MILO Powder &mdash; 1kg bag</div>
+            <div class="product-fact__row"><span>Whole 1kg bag (powder only)</span><strong>4,000 kcal</strong></div>
+            <div class="product-fact__row"><span>Per 100g powder</span><strong>400 kcal</strong></div>
+            <div class="product-fact__row"><span>Official serving on label (20g / 1 heaped tbsp)</span><strong>80 kcal</strong></div>
+            <div class="product-fact__row"><span>Typical kopitiam prep (3 tbsp / ~30g) + condensed milk</span><strong>~210 kcal total</strong></div>
+            <div class="product-fact__insight">The official serving size Nestl&eacute; prints on the label is 20g (80 kcal, powder only). A kopitiam typically scoops 3 tablespoons (~30g = 120 kcal of powder), then adds condensed milk on top (~90 kcal). Total: around 210 kcal before the ice. The Milo dinosaur adds a further 20 to 25g pile of powder directly on top, pushing the final drink to 290 to 310 kcal.</div>
+            <div class="product-fact__source">Source: Open Food Facts / Nestl&eacute; Malaysia, barcode 9300605000926 &middot; <a href="https://world.openfoodfacts.org/product/9300605000926" target="_blank" rel="noopener" style="color:var(--accent);">view product page</a></div>
+          </div>
+        </div>
 
         <p>Milo is not a low-calorie drink. It is a malted chocolate drink with condensed milk added. A Milo dinosaur at 250 kcal is basically a small meal. If you have been ordering Milo ais every day thinking it is the healthy choice compared to teh tarik, you are taking in roughly the same number of calories. Milo ais is 175 kcal. Teh tarik is 128 kcal. The teh tarik is actually the lower calorie option of the two.</p>
 

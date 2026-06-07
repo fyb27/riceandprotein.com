@@ -52,6 +52,17 @@
     .macro-muted { color: var(--muted); font-size: 13px; }
     .callout { background: var(--bg2); border-left: 3px solid var(--accent); padding: 18px 20px; margin: 28px 0; border-radius: 0 4px 4px 0; }
     .callout p { margin: 0; font-size: 15px; }
+
+    .product-fact { display: flex; gap: 20px; background: var(--white); border: 1.5px solid var(--border); padding: 20px 22px; margin: 28px 0; border-radius: 4px; align-items: flex-start; }
+    .product-fact__img { width: 90px; height: 130px; object-fit: contain; flex-shrink: 0; border: 1px solid var(--border); background: var(--bg); padding: 8px; border-radius: 2px; }
+    .product-fact__data { flex: 1; min-width: 0; }
+    .product-fact__name { font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; }
+    .product-fact__row { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--border); font-size: 14px; }
+    .product-fact__row span { color: var(--muted); }
+    .product-fact__row strong { color: var(--accent); font-weight: 600; }
+    .product-fact__insight { margin-top: 12px; font-size: 13px; color: var(--text); line-height: 1.55; padding: 10px 12px; background: var(--bg2); border-radius: 3px; }
+    .product-fact__source { font-size: 11px; color: var(--muted); margin-top: 8px; }
+    @media (max-width: 500px) { .product-fact { flex-direction: column; } .product-fact__img { width: 70px; height: 90px; } }
   </style>
 </head>
 <body>
@@ -263,6 +274,20 @@
           <li><strong>30g oil:</strong> 265 kcal (adds 44 kcal)</li>
           <li><strong>35g oil:</strong> 309 kcal (adds 88 kcal vs my table above)</li>
         </ul>
+
+        <div class="product-fact">
+          <img class="product-fact__img" src="https://images.openfoodfacts.org/images/products/888/862/604/4200/front_en.4.400.jpg" alt="Malaysian palm olein cooking oil 500ml bottle" loading="lazy">
+          <div class="product-fact__data">
+            <div class="product-fact__name">Palm olein cooking oil &mdash; the invisible ingredient in every CKT</div>
+            <div class="product-fact__row"><span>Palm olein / vegetable oil, per 100ml</span><strong>900 kcal</strong></div>
+            <div class="product-fact__row"><span>Lard (babi fat), per 100g</span><strong>898 kcal</strong></div>
+            <div class="product-fact__row"><span>Per tablespoon (14ml)</span><strong>126 kcal</strong></div>
+            <div class="product-fact__row"><span>Standard CKT pour (25ml / ~1.8 tbsp)</span><strong>225 kcal</strong></div>
+            <div class="product-fact__row"><span>Heavy-handed hawker pour (35ml / ~2.5 tbsp)</span><strong>315 kcal</strong></div>
+            <div class="product-fact__insight">Oil is 100% fat, giving it the highest calorie density of any ingredient in the dish. The hawker uses it in two stages: first to fry the egg and aromatics, then to toss and coat the noodles. Once absorbed into the noodles it is completely invisible. The difference between a 25ml and 35ml pour is 90 kcal, which you cannot see, taste, or detect on the plate. Nutrition data: Open Food Facts Malaysian palm olein (barcode 8888626044200), 900 kcal per 100ml.</div>
+            <div class="product-fact__source">Source: Open Food Facts, Malaysian palm olein (barcode 8888626044200) &middot; <a href="https://world.openfoodfacts.org/product/8888626044200" target="_blank" rel="noopener" style="color:var(--accent);">view product page</a></div>
+          </div>
+        </div>
 
         <p>If the hawker uses 35g of oil, your plate just went from 686 kcal to <strong>774 kcal</strong>. And you would have no idea because it all looks the same on the plate.</p>
 

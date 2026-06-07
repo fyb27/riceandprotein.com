@@ -121,8 +121,7 @@
     <h1 class="page-title">Get In Touch</h1>
     <p class="page-sub">Questions, feedback, or just want to say hi.</p>
 
-    <!-- CONTACT: hook up form submission later -->
-    <form class="contact-form" action="#" method="post">
+    <form class="contact-form" action="https://formspree.io/f/mvznkqja" method="post">
       <div class="form-field">
         <label class="form-label" for="f-name">Name</label>
         <input class="form-input" type="text" id="f-name" name="name" placeholder="Your name" autocomplete="name">
@@ -135,8 +134,12 @@
         <label class="form-label" for="f-msg">Message</label>
         <textarea class="form-textarea" id="f-msg" name="message" placeholder="What's on your mind?"></textarea>
       </div>
+      <input type="hidden" name="_next" value="https://riceandprotein.com/contact.html?sent=1">
       <button class="form-submit" type="submit">Send Message</button>
     </form>
+    <div id="form-success" style="display:none; margin-top:24px; padding:16px 20px; background:#e8f5e9; color:#2e7d32; font-size:15px;">
+      Got your message. I'll get back to you soon.
+    </div>
   </div>
 
   <footer class="site-footer">
@@ -155,6 +158,12 @@
     var t = document.getElementById('nav-toggle');
     var n = document.getElementById('site-nav');
     if (t && n) t.addEventListener('click', function () { n.classList.toggle('is-open'); });
+    if (window.location.search.indexOf('sent=1') !== -1) {
+      var s = document.getElementById('form-success');
+      var f = document.querySelector('.contact-form');
+      if (s) s.style.display = 'block';
+      if (f) f.style.display = 'none';
+    }
   })();
   </script>
 </body>

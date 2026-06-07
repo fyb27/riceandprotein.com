@@ -15,8 +15,6 @@
   }
 
   window.addEventListener('scroll', updateBar, { passive: true });
-  document.addEventListener('scroll', updateBar, { passive: true });
-  document.documentElement.addEventListener('scroll', updateBar, { passive: true });
 })();
 
 // ============================================
@@ -71,8 +69,6 @@
   }
 
   window.addEventListener('scroll', updateTOC, { passive: true });
-  document.addEventListener('scroll', updateTOC, { passive: true });
-  document.documentElement.addEventListener('scroll', updateTOC, { passive: true });
   updateTOC();
 })();
 
@@ -90,8 +86,6 @@
   }
 
   window.addEventListener('scroll', checkScroll, { passive: true });
-  document.addEventListener('scroll', checkScroll, { passive: true });
-  document.documentElement.addEventListener('scroll', checkScroll, { passive: true });
 
   btn.addEventListener('click', function() {
     window.scrollTo({ top: 0, behavior: 'smooth' });

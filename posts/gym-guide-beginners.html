@@ -20,13 +20,29 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "The Complete Beginner's Guide to the Gym",
-    "description": "Every exercise you actually need. Chest, back, legs, arms, broken down with sets, reps, and step-by-step instructions.",
-    "url": "https://riceandprotein.com/posts/gym-guide-beginners.html",
-    "datePublished": "2026-06-06",
-    "publisher": { "@type": "Organization", "name": "Rice and Protein", "url": "https://riceandprotein.com/" },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://riceandprotein.com/posts/gym-guide-beginners.html" }
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://riceandprotein.com/posts/gym-guide-beginners.html#article",
+        "headline": "The Complete Beginner's Guide to the Gym",
+        "description": "Every exercise you actually need. Chest, back, legs, arms, broken down with sets, reps, and step-by-step instructions. Start here.",
+        "url": "https://riceandprotein.com/posts/gym-guide-beginners.html",
+        "datePublished": "2026-06-06",
+        "dateModified": "2026-06-06",
+        "author": { "@id": "https://riceandprotein.com/#author" },
+        "publisher": { "@id": "https://riceandprotein.com/#organization" },
+        "image": { "@type": "ImageObject", "url": "https://riceandprotein.com/images/og-image.jpg", "width": 1200, "height": 630 },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://riceandprotein.com/posts/gym-guide-beginners.html" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://riceandprotein.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://riceandprotein.com/blog.html" },
+          { "@type": "ListItem", "position": 3, "name": "Beginner's Guide to the Gym", "item": "https://riceandprotein.com/posts/gym-guide-beginners.html" }
+        ]
+      }
+    ]
   }
   </script>
 

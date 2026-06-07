@@ -24,13 +24,57 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "My Go-To 1kg Meal That Keeps Me Full for Hours",
-    "description": "400g chicken breast, 250g cooked rice, 400g vegetables. Around 1,100 calories, over 130g protein. The exact meal eaten almost every day to lose 40kg.",
-    "url": "https://riceandprotein.com/posts/1kg-meal-recipe.html",
-    "datePublished": "2026-06-07",
-    "publisher": { "@type": "Organization", "name": "Rice and Protein", "url": "https://riceandprotein.com/" },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://riceandprotein.com/posts/1kg-meal-recipe.html" }
+    "@graph": [
+      {
+        "@type": "Recipe",
+        "@id": "https://riceandprotein.com/posts/1kg-meal-recipe.html#recipe",
+        "name": "The 1kg Volume Eating Meal",
+        "description": "400g chicken breast, 250g cooked rice, 400g mixed vegetables. Around 1,100 calories, over 130g protein. The exact meal eaten almost every day to lose 40kg.",
+        "url": "https://riceandprotein.com/posts/1kg-meal-recipe.html",
+        "author": { "@id": "https://riceandprotein.com/#author" },
+        "publisher": { "@id": "https://riceandprotein.com/#organization" },
+        "datePublished": "2026-06-07",
+        "dateModified": "2026-06-07",
+        "image": { "@type": "ImageObject", "url": "https://riceandprotein.com/images/og-image.jpg", "width": 1200, "height": 630 },
+        "prepTime": "PT10M",
+        "cookTime": "PT20M",
+        "totalTime": "PT30M",
+        "recipeYield": "1 serving",
+        "recipeCategory": "Main Course",
+        "recipeCuisine": "Malaysian",
+        "keywords": "volume eating, weight loss meal, high protein, chicken breast, calorie deficit",
+        "recipeIngredient": [
+          "400g chicken breast (raw weight)",
+          "250g cooked white rice",
+          "400g mixed vegetables (broccoli, carrots, cabbage or any combination)",
+          "Salt and pepper to taste",
+          "Light soy sauce or oyster sauce to taste"
+        ],
+        "recipeInstructions": [
+          { "@type": "HowToStep", "text": "Season chicken breast with salt, pepper, and a splash of soy sauce." },
+          { "@type": "HowToStep", "text": "Pan-fry or grill the chicken breast until cooked through, about 15 to 20 minutes depending on thickness." },
+          { "@type": "HowToStep", "text": "Steam or stir-fry the vegetables until tender but not mushy, about 5 minutes." },
+          { "@type": "HowToStep", "text": "Plate the rice, chicken, and vegetables. Weigh your portions before cooking to hit your targets." }
+        ],
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "1100 kcal",
+          "proteinContent": "130 g",
+          "carbohydrateContent": "110 g",
+          "fatContent": "12 g",
+          "servingSize": "1 plate (approximately 1050g)"
+        },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://riceandprotein.com/posts/1kg-meal-recipe.html" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://riceandprotein.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://riceandprotein.com/blog.html" },
+          { "@type": "ListItem", "position": 3, "name": "My Go-To 1kg Meal", "item": "https://riceandprotein.com/posts/1kg-meal-recipe.html" }
+        ]
+      }
+    ]
   }
   </script>
   <link rel="stylesheet" href="../css/style.css">

@@ -23,13 +23,29 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "Malaysian Drinks Calorie Guide: Teh Tarik, Kopi, Milo, Bandung and Everything Else",
-    "description": "Teh tarik is 128 kcal. Milo dinosaur is 250 kcal. Air bandung is 185 kcal. Every drink at the mamak and kopitiam, with exact calories and explanations.",
-    "url": "https://riceandprotein.com/posts/malaysian-drinks-calorie-guide.html",
-    "datePublished": "2026-06-07",
-    "publisher": { "@type": "Organization", "name": "Rice and Protein", "url": "https://riceandprotein.com/" },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://riceandprotein.com/posts/malaysian-drinks-calorie-guide.html" }
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://riceandprotein.com/posts/malaysian-drinks-calorie-guide.html#article",
+        "headline": "Malaysian Drinks Calorie Guide: Teh Tarik, Kopi, Milo, Bandung and Everything Else",
+        "description": "Teh tarik is 128 kcal. Milo dinosaur is 250 kcal. Air bandung is 185 kcal. Every drink at the mamak and kopitiam, with exact calories and explanations.",
+        "url": "https://riceandprotein.com/posts/malaysian-drinks-calorie-guide.html",
+        "datePublished": "2026-06-07",
+        "dateModified": "2026-06-07",
+        "author": { "@id": "https://riceandprotein.com/#author" },
+        "publisher": { "@id": "https://riceandprotein.com/#organization" },
+        "image": { "@type": "ImageObject", "url": "https://riceandprotein.com/images/og-image.jpg", "width": 1200, "height": 630 },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://riceandprotein.com/posts/malaysian-drinks-calorie-guide.html" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://riceandprotein.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://riceandprotein.com/blog.html" },
+          { "@type": "ListItem", "position": 3, "name": "Malaysian Drinks Calorie Guide", "item": "https://riceandprotein.com/posts/malaysian-drinks-calorie-guide.html" }
+        ]
+      }
+    ]
   }
   </script>
   <link rel="stylesheet" href="../css/style.css">

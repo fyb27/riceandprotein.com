@@ -23,13 +23,29 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "How Many Calories is Nasi Lemak? (Bungkus vs Kopitiam, Every Lauk Counted)",
-    "description": "A standard nasi lemak bungkus is around 556 kcal. Add ayam goreng at a kopitiam and you are at over 1,000 kcal. Full ingredient-by-ingredient breakdown.",
-    "url": "https://riceandprotein.com/posts/how-many-calories-nasi-lemak.html",
-    "datePublished": "2026-06-07",
-    "publisher": { "@type": "Organization", "name": "Rice and Protein", "url": "https://riceandprotein.com/" },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://riceandprotein.com/posts/how-many-calories-nasi-lemak.html" }
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://riceandprotein.com/posts/how-many-calories-nasi-lemak.html#article",
+        "headline": "How Many Calories is Nasi Lemak? (Bungkus vs Kopitiam, Every Lauk Counted)",
+        "description": "A standard nasi lemak bungkus is around 556 kcal. Add ayam goreng at a kopitiam and you are at over 1,000 kcal. Full ingredient-by-ingredient breakdown.",
+        "url": "https://riceandprotein.com/posts/how-many-calories-nasi-lemak.html",
+        "datePublished": "2026-06-07",
+        "dateModified": "2026-06-07",
+        "author": { "@id": "https://riceandprotein.com/#author" },
+        "publisher": { "@id": "https://riceandprotein.com/#organization" },
+        "image": { "@type": "ImageObject", "url": "https://riceandprotein.com/images/og-image.jpg", "width": 1200, "height": 630 },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://riceandprotein.com/posts/how-many-calories-nasi-lemak.html" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://riceandprotein.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://riceandprotein.com/blog.html" },
+          { "@type": "ListItem", "position": 3, "name": "How Many Calories is Nasi Lemak?", "item": "https://riceandprotein.com/posts/how-many-calories-nasi-lemak.html" }
+        ]
+      }
+    ]
   }
   </script>
   <link rel="stylesheet" href="../css/style.css">

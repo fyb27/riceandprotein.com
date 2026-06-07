@@ -27,22 +27,45 @@
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Person",
+        "@id": "https://riceandprotein.com/#author",
+        "name": "Rice and Protein",
+        "url": "https://riceandprotein.com/about.html",
+        "description": "Lost 40kg going from 120kg to 80kg using calories in vs calories out. No keto, no supplements. Writing about what actually worked.",
+        "knowsAbout": ["weight loss", "calorie deficit", "volume eating", "Malaysian food", "nutrition"]
+      },
+      {
         "@type": "Organization",
         "@id": "https://riceandprotein.com/#organization",
         "name": "Rice and Protein",
         "url": "https://riceandprotein.com/",
-        "logo": "https://riceandprotein.com/favicon.svg",
-        "description": "Free TDEE calculator and practical weight loss guide. No keto, no supplements. Just calories in vs calories out."
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://riceandprotein.com/favicon.svg",
+          "width": 512,
+          "height": 512
+        },
+        "description": "Free TDEE calculator and practical weight loss guide. No keto, no supplements. Just calories in vs calories out.",
+        "founder": { "@id": "https://riceandprotein.com/#author" }
       },
       {
         "@type": "WebSite",
         "@id": "https://riceandprotein.com/#website",
         "url": "https://riceandprotein.com/",
         "name": "Rice and Protein",
-        "publisher": { "@id": "https://riceandprotein.com/#organization" }
+        "publisher": { "@id": "https://riceandprotein.com/#organization" },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://riceandprotein.com/blog.html?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
       },
       {
         "@type": "WebApplication",
+        "@id": "https://riceandprotein.com/#calculator",
         "name": "Free TDEE Calculator",
         "url": "https://riceandprotein.com/",
         "description": "Calculate your Total Daily Energy Expenditure, set a calorie deficit or surplus, get your protein target, and build a daily meal plan. Free, no sign-up.",

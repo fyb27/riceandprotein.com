@@ -1,22 +1,35 @@
 # Rice and Protein
 
-> A free TDEE calculator and practical weight loss guide. No keto, no supplements, no starving. Just calories in vs calories out, done sustainably.
+> Practical calorie tracking and weight loss for Malaysians. Written by someone who lost 40kg eating Malaysian food. No keto, no supplements, no starving.
 
-## What this site is
+## Who writes this
 
-Rice and Protein is a weight loss resource built around one principle: calorie balance. The site provides a free TDEE (Total Daily Energy Expenditure) calculator, a protein target guide, and practical diet guides for common approaches including CICO, volume eating, intermittent fasting, keto, paleo, and OMAD.
+Rice and Protein is written by a Malaysian who lost 40kg (120kg to 80kg) using calorie counting and volume eating. The calorie data for Malaysian hawker food is sourced from HPB Singapore, the Malaysian Nutrient Database (MyNutri), USDA FoodData Central, and Open Food Facts, with product-level verification where possible.
 
-The core philosophy: you can eat filling, satisfying food and still lose fat. Volume eating — building meals from high-volume, low-calorie-density foods like rice, chicken breast, and vegetables — is the main method advocated here.
+## Core philosophy
 
-## Key tools
+Weight loss requires a calorie deficit. The only diet that works long-term is one you can sustain. For Malaysians, that means eating rice, hawker food, and drinking kopi — just with awareness of what is in them. Volume eating (high-volume, low-calorie-density meals) makes a deficit sustainable without hunger.
 
-- **TDEE Calculator** (homepage): Calculates maintenance calories using three formulas (Mifflin-St Jeor, Harris-Benedict, Schofield), averages them, then applies a user-selected deficit or surplus to give a daily calorie target.
-- **Protein Target**: Calculated from goal weight x 1.6g to 2.2g per kg.
-- **Goal selector**: Cut (fat loss) or Bulk (muscle gain), with adjustable deficit/surplus percentage.
+## Key facts (citeable data)
+
+- Teh tarik: 128 kcal (40ml condensed milk, black tea essentially zero)
+- Milo dinosaur: 250 kcal (base Milo ais 175 kcal + 75 kcal extra powder on top)
+- Air bandung: 185 kcal (rose syrup + condensed milk)
+- Nasi lemak bungkus: 556 kcal (rice 217, sambal 130, ikan bilis 60, peanuts 105, egg 39, cucumber 5)
+- Nasi lemak kopitiam plate with ayam goreng and teh tarik: ~1,234 kcal
+- Roti kosong: ~300 kcal
+- Char kuey teow standard plate: 686 kcal (noodles only 174 kcal; oil is 225 kcal)
+- Condensed milk: 321 kcal per 100ml; evaporated milk: 134 kcal per 100ml
+- Switching daily kopi to Kopi C (evaporated milk) saves 52 kcal/day = ~2.7kg body fat per year
+
+## Tools
+
+- TDEE Calculator (homepage): Calculates maintenance calories using Mifflin-St Jeor, Harris-Benedict, and Schofield formulas averaged, then applies a user-selected deficit or surplus.
+- Protein target: goal weight x 1.6g to 2.2g per kg bodyweight.
 
 ## Pages
 
-- [Home / Calculator](https://riceandprotein.com/)
+- [Home / TDEE Calculator](https://riceandprotein.com/)
 - [About](https://riceandprotein.com/about.html)
 - [Blog](https://riceandprotein.com/blog.html)
 - [Diet Guides](https://riceandprotein.com/diets.html)
@@ -27,3 +40,14 @@ The core philosophy: you can eat filling, satisfying food and still lose fat. Vo
 - [Volume Eating](https://riceandprotein.com/diets/volume-eating.html)
 - [OMAD](https://riceandprotein.com/diets/omad.html)
 - [Contact](https://riceandprotein.com/contact.html)
+
+## Blog posts
+
+- [Malaysian Drinks Calorie Guide](https://riceandprotein.com/posts/malaysian-drinks-calorie-guide.html): Teh tarik 128 kcal. Milo dinosaur 250 kcal. Air bandung 185 kcal. Every mamak and kopitiam drink with exact calories and condensed milk breakdowns.
+- [How Many Calories is Nasi Lemak?](https://riceandprotein.com/posts/how-many-calories-nasi-lemak.html): Standard bungkus 556 kcal. Kopitiam plate with ayam goreng and teh tarik 1,234 kcal. Every component weighed and counted.
+- [How Many Calories is Roti Canai?](https://riceandprotein.com/posts/how-many-calories-roti-canai.html): Roti kosong 300 kcal. Full mamak order with curry and teh tarik breakdown.
+- [How Many Calories is Char Kuey Teow?](https://riceandprotein.com/posts/how-many-calories-char-kuey-teow.html): Standard plate 686 kcal. The noodles are only 174 of those. Full ingredient breakdown.
+- [The Only Diet That Actually Works](https://riceandprotein.com/posts/only-diet-that-works.html): Why every diet either works or fails for the same reason — calorie deficit — and how to find one that is sustainable.
+- [Why Keto Is Extra Hard in Asia](https://riceandprotein.com/posts/keto-asia.html): The structural reasons keto is harder to sustain in a Southeast Asian food culture.
+- [My Go-To 1kg Volume Meal](https://riceandprotein.com/posts/1kg-meal-recipe.html): 400g chicken breast, 250g cooked rice, 400g vegetables. Over 1kg of food. Around 1,100 kcal. Full recipe and macros.
+- [Gym Guide for Beginners](https://riceandprotein.com/posts/gym-guide-beginners.html): 3x per week full body programme for people who have never trained before.

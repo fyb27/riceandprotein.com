@@ -107,4 +107,18 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://riceandprotein.com/posts/how-many-calories-char-kuey-teow.html</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://riceandprotein.com/posts/how-many-calories-nasi-lemak.html</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>

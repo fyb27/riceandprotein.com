@@ -156,11 +156,11 @@ function leafStyles() {
     .food-hero__title { font-family: 'DM Serif Display', serif; font-size: clamp(30px, 5vw, 48px); font-weight: 400; line-height: 1.06; color: var(--text); margin-bottom: 14px; letter-spacing: -0.5px; }
     .food-hero__summary { font-size: 17px; color: var(--muted); line-height: 1.65; max-width: 540px; }
 
-    .answer-box { display: flex; align-items: center; gap: 24px; background: var(--text); color: var(--white); padding: 28px 30px; margin: 36px 0; flex-wrap: wrap; }
+    .answer-box { display: flex; align-items: center; gap: 24px; background: var(--bg2); border: 1.5px solid var(--border); border-left: 4px solid var(--accent); color: var(--text); padding: 28px 30px; margin: 36px 0; flex-wrap: wrap; }
     .answer-box__num { font-family: 'DM Serif Display', serif; font-size: 56px; line-height: 1; color: var(--accent); flex-shrink: 0; }
-    .answer-box__num small { display: block; font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,0.5); margin-top: 8px; }
-    .answer-box__text { font-size: 16px; line-height: 1.7; color: rgba(255,255,255,0.88); flex: 1; min-width: 220px; }
-    .answer-box__text strong { color: var(--white); }
+    .answer-box__num small { display: block; font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); margin-top: 8px; }
+    .answer-box__text { font-size: 16px; line-height: 1.7; color: var(--text); flex: 1; min-width: 220px; }
+    .answer-box__text strong { color: var(--accent); }
 
     .food-section { padding: 40px 0; border-bottom: 1.5px solid var(--border); }
     .section-title { font-family: 'DM Serif Display', serif; font-size: clamp(20px, 2.5vw, 26px); font-weight: 400; color: var(--text); margin-bottom: 20px; letter-spacing: -0.3px; }

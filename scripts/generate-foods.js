@@ -448,6 +448,7 @@ ${related}
 ${footer('../')}
 
 ${NAV_SCRIPT}
+<script data-goatcounter="https://riceandprotein.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
 `;
@@ -604,6 +605,7 @@ ${sections}
 ${footer('')}
 
 ${NAV_SCRIPT}
+<script data-goatcounter="https://riceandprotein.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
 `;

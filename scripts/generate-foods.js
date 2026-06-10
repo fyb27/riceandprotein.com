@@ -480,6 +480,15 @@ ${cards}
     url: BASE + '/foods.html',
     name: 'Malaysian Food Calories | Rice and Protein',
     description: 'Calorie counts for popular Malaysian hawker and kopitiam food. Nasi lemak, char kuey teow, roti canai, teh tarik and more.',
+    inLanguage: 'en',
+    isPartOf: { '@id': BASE + '/#website' },
+    breadcrumb: {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: BASE + '/' },
+        { '@type': 'ListItem', position: 2, name: 'Food Calories', item: BASE + '/foods.html' }
+      ]
+    },
     mainEntity: {
       '@type': 'ItemList',
       itemListElement: FOODS.map((f, i) => ({

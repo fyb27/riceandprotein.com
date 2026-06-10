@@ -1,0 +1,1121 @@
+[
+  {
+    "slug": "sang-nyuk-mian",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "beaufort-mee",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "tamparuli-mee",
+    "caloriesPlausible": true,
+    "calorieConcern": "The 630 kcal headline is plausible for this dish, but the component breakdown on the page sums to 690 kcal (315 + 145 + 100 + 90 + 40), not 630. The 60-calorie gap is an internal arithmetic inconsistency that should be reconciled. Either adjust the components to sum to 630, or raise the headline to ~690.",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The calorie breakdown components sum to 690 kcal (315 noodles + 145 siew yoke + 100 char siew/chun kien + 90 egg/oil + 40 veg/sauce = 690) but the stated total is 630 kcal. This is a 60-calorie internal inconsistency within the same page."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "Either reduce the component subtotals to sum to 630 (e.g. reduce the noodles line from 315 to 255, which would be more accurate for 180g of egg noodles without heavy oil), or raise the headline figure to 690 kcal. The noodle line at 315 kcal for 180g fried egg noodles is the most likely over-estimate: plain egg noodles are roughly 140-150 kcal per 100g cooked, so 180g would be around 255-270 kcal before stir-fry oil. Dropping that line to 260 kcal brings the total to 635, close enough to call 630."
+  },
+  {
+    "slug": "tenom-mee",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "hinava",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "bosou",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "Meta description and Twitter description both state \"around 60 calories per 2-tbsp serving\" but every other element on the page (answer box, nutrition table, body text, FAQs, schema JSON-LD) consistently states 35 calories for the same 2-tbsp (30g) serving. The 60 kcal figure in the meta is a leftover error that contradicts the page content."
+    ],
+    "faqOk": true,
+    "severity": "major",
+    "fixSuggestion": "In the meta description and Twitter description tags, change \"around 60 calories per 2-tbsp serving\" to \"around 35 calories per 2-tbsp serving\" to match the figure used everywhere else on the page."
+  },
+  {
+    "slug": "pinasakan",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The variants section describes tenggiri (Spanish mackerel) as 'slightly fattier fish' compared to basung, but Spanish mackerel is generally leaner per 100g than mackerel scad. The higher calorie count for the tenggiri variant is better explained by larger portion size, not higher fat content."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In the variants table Notes column for tenggiri, change \"Larger, slightly fattier fish\" to \"Larger fish; bigger portion drives the higher calorie count rather than fat content\""
+  },
+  {
+    "slug": "sinalau-bakas",
+    "caloriesPlausible": true,
+    "calorieConcern": "560 kcal for 200g of fatty shoulder/rib cuts (280 kcal/100g) is at the top end of plausible for smoked wild boar. USDA wild boar roasted data sits around 153-160 kcal/100g for lean cuts; the page's lean-leg estimate of 320 kcal/200g (160 kcal/100g) correctly matches this. Reaching 280 kcal/100g for fatty cuts requires a very high fat cap, which is possible but aggressive. The macros cross-check passes (44g protein x4 + 40g fat x9 = 536, close to 560). Treat as borderline high rather than a clear error, and the page already caveats the uncertainty honestly.",
+    "voiceVerdict": "borderline",
+    "voiceIssues": [
+      "No hard-fail violations (no em dashes, no banned phrases, no forced slang). However the prose reads more like a calm informational article than a mamak-friend voice. There is no 'bro', 'lah', 'kan' or any personality marker anywhere in the visible prose. The CLAUDE.md voice profile calls for occasional mild personality cues. The writing is competent but flat, sitting closer to a measured food blog than the casual direct warmth the site aims for."
+    ],
+    "factualConcerns": [
+      "The page contradicts itself on the sinalau-in-a-bun: the 'Real Talk' section calls it a dish found at 'KL-style Sabahan restaurants', but the variants table says it is 'popular in Kota Kinabalu restaurants'. The bun version is a Kota Kinabalu / Sabah phenomenon, not a KL one. The phrase 'KL-style Sabahan restaurants' is misleading and should be corrected to 'Kota Kinabalu restaurants' or just 'Sabahan restaurants'."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In the 'Real Talk' section, change \"KL-style Sabahan restaurants\" to \"Kota Kinabalu restaurants\" so it matches the variants table and is factually accurate. Optionally add one light personality beat to the prose (e.g. a \"bro\" or \"lah\" somewhere) to lift it closer to the intended mamak-friend voice."
+  },
+  {
+    "slug": "tuhau",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "bambangan",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "sayur-manis",
+    "caloriesPlausible": true,
+    "calorieConcern": "The headline 185 kcal for goreng telur (150g) is plausible, but the page contradicts itself on oil calories. The breakdown table shows oil at 75 kcal (1 tbsp / 9g), which is consistent with the 185 kcal total. However, the answer-box prose says oil does \"most of the remaining heavy lifting at around 160 kcal,\" and \"The real talk\" prose says \"1.5 tablespoons contributes roughly 160 kcal on its own.\" If oil were 160 kcal, the total would be ~275 kcal, not 185. The prose figure of 160 kcal for oil is wrong relative to both the stated volume (1.5 tbsp ~ 120 kcal) and the breakdown table (75 kcal). The breakdown table is internally correct; the prose oil figure is the error.",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The answer-box prose states cooking oil contributes 'around 160 kcal' and 'The real talk' repeats this figure for a 1.5-tablespoon hawker portion, but the calorie breakdown table correctly shows oil at 75 kcal (1 tbsp / 9g). These are irreconcilable: 1.5 tbsp of oil is roughly 120 kcal, not 160, and either figure makes the headline 185 kcal total impossible if oil alone is 160. The breakdown table is correct; the prose oil figure needs to be removed or corrected to match (roughly 75-120 kcal depending on the tablespoon count used)."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In the answer-box text, change \"cooking oil does most of the remaining heavy lifting at around 160 kcal\" to \"cooking oil contributes around 75 kcal for a standard tablespoon.\" In \"The real talk\" paragraph, change \"at a typical hawker portion of about 1.5 tablespoons contributes roughly 160 kcal on its own\" to \"at about 1 to 1.5 tablespoons contributes roughly 75 to 120 kcal.\" This aligns the prose with the breakdown table and keeps the 185 kcal total defensible."
+  },
+  {
+    "slug": "latok",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "Minor internal inconsistency: the answer-box prose states raw latok is 'around 13 calories per 100g', but the nutrition table shows 25 kcal per 100g for the full plate (seaweed + dressing at 120g total). A reader comparing both figures back-to-back may find it confusing, though neither number is technically wrong."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In the answer-box text, change \"the sea grapes themselves are practically nothing, around 13 calories per 100g\" to \"around 13 calories per 100g of plain sea grapes\" and add a brief note that the nutrition table's 25 kcal/100g figure blends in the dressing weight, so readers don't think the numbers contradict each other."
+  },
+  {
+    "slug": "linopot",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "ambuyat",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The eyebrow category label reads 'Rice Meals' but ambuyat is a sago starch dish, not a rice dish. It belongs under a Borneo staples or sago/starch category, not Rice Meals."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "Change the food-hero__eyebrow text from \"Rice Meals\" to \"Borneo Staples\" or \"Sago Dishes\" to correctly categorise ambuyat."
+  },
+  {
+    "slug": "kuih-penjaram",
+    "caloriesPlausible": true,
+    "calorieConcern": "The stated 210 kcal for a 50g piece implies 420 kcal/100g, which is high for a rice-flour fritter. Comparable fried kuih typically sit at 280-360 kcal/100g, suggesting 140-180 kcal per medium piece is a more likely range. 210 is not wildly wrong given oil absorption variance, but it is on the optimistic-high end. Also, the ingredient breakdown sums to 220 kcal (83+84+53), not 210 as stated.",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The calorie breakdown rows sum to 220 kcal (83+84+53) but the headline and table show 210 kcal. Minor arithmetic inconsistency that a careful reader will notice."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "Fix the breakdown math: either adjust the ingredient rows to sum to 210 (e.g. change oil absorbed to 43 kcal, or the flour row to 73 kcal), or update the headline to 220 kcal. The simplest fix is to drop the oil row to 43 kcal so the total reads 83+84+43=210."
+  },
+  {
+    "slug": "kuih-cincin",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The page attributes Kuih Cincin jointly to 'Bajau and Brunei Malay communities' in the main body text, but then separately names the hard double-fried variant as the 'Iranun style' in the variants table. The Iranun are a distinct group from the Bajau; labelling the common Sabah hawker version specifically as Iranun without any earlier mention of Iranun in the origin section creates a minor inconsistency that could mislead readers about who makes what."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In the variants table, change the row label from \"Hard/crunchy style (Iranun)\" to \"Hard/crunchy style (Sabah hawker)\" or add a brief mention of Iranun origin earlier in the main body text so the reference does not appear from nowhere."
+  },
+  {
+    "slug": "kelupis",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "asam-rebus",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "ayam-goreng",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The calorie breakdown table sums to 440 kcal (220 + 70 + 135 + 15) but the headline and nutrition facts state 390 kcal. The components do not add up to the stated total. Either the oil-absorbed figure (135 kcal, implying 15g of oil) is too high and should be closer to 85 kcal to make the numbers reconcile, or the component weights need adjusting."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In the \"Where the calories come from\" breakdown, change \"Oil absorbed during deep frying (15g)\" from 135 kcal to 85 kcal (roughly 9-10g of absorbed oil), which makes the components sum to 390 kcal and aligns better with typical oil absorption for a battered bone-in piece. Alternatively keep 135 kcal for oil and raise the headline to 440 kcal, but 390 is the more defensible number so adjusting the breakdown is the cleaner fix."
+  },
+  {
+    "slug": "paru-goreng",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "kerang-masak",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The answer box states the oil accounts for 'the other 160-odd calories' implying total non-cockle calories are ~160, but the breakdown table shows 160 (oil) + 25 (aromatics) + 25 (sugar) = 210 non-cockle calories, which would put the total at ~315 not 300. Minor internal inconsistency but within the stated estimate range and the disclaimer covers it."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In the answer box text, change \"The other 160-odd calories come almost entirely from the oil in the sambal base\" to \"The other 200-odd calories come from the oil in the sambal base, the chili paste and aromatics, and the palm sugar\" to match the breakdown table."
+  },
+  {
+    "slug": "lala-masak",
+    "caloriesPlausible": true,
+    "calorieConcern": "The headline says 250 kcal but the ingredient breakdown sums to 276 (59 clam meat + 177 oil + 40 sauce). The 250 figure is plausible for a hawker plate of lala, but the internal math contradicts it by 26 kcal. Either the headline or the breakdown needs correcting.",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The calorie breakdown totals 276 kcal (59 + 177 + 40) but the headline and answer-box state 250 kcal. The numbers are internally inconsistent.",
+      "The answer-box describes the edible portion as 'roughly 150g of clam meat and sauce' but the breakdown lists 80g clam meat + 50g sauce = 130g, not 150g. The serving weight is inconsistent across the page."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "Either adjust the headline to 280 kcal (rounding the 276 breakdown sum) and update the answer-box, meta description, and FAQ accordingly, or reduce the oil estimate from 1.5 tbsp (177 kcal) to about 1 tbsp (118 kcal) which would bring the total to roughly 220 kcal and align with the lighter-version claim. Also reconcile the edible portion weight: the answer-box says 150g but the breakdown adds up to 130g -- pick one and use it consistently."
+  },
+  {
+    "slug": "ikan-goreng",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The cencaru sumbat sambal description calls the filling 'chili-coconut sambal'. Traditional cencaru sumbat uses a fresh herb-chili paste (typically belacan, lemongrass, turmeric leaf, torch ginger bud) — coconut is not a standard ingredient and its inclusion could mislead readers about the calorie source and the dish itself. Describing it simply as 'sambal' or 'spiced chili paste' would be more accurate."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In both the variant table and the \"real talk\" paragraph, change \"chili-coconut sambal\" to \"spiced chili paste\" or just \"sambal\". Example: \"Cencaru sumbat sambal (stuffed with sambal, whole)\" note could read \"Cencaru stuffed with a spiced chili-herb paste adds 50-70 kcal from the filling.\""
+  },
+  {
+    "slug": "ikan-stim",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "Minor internal inconsistency: the answer box and FAQ describe the standard preparation using soy, sesame oil, garlic, and ginger (Chinese kopitiam style), but the variants table positions 'Stim limau ala Thai' (fish sauce, lime, lemongrass, palm sugar) as the 310 kcal standard. The two descriptions do not match the same dish. Neither is wrong about Malaysian food, but the page conflates them as the same baseline."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In the answer box and FAQ, either align the sauce description to match the Thai-style limau version that the variants table calls the 310 kcal standard (\"fish sauce, lime, lemongrass, palm sugar, chili\"), or rename the 310 kcal variant in the table to reflect a general mixed Chinese/Thai preparation. The simplest fix is to update the answer box text to say \"dressed with a light sauce of fish sauce, lime, chili, and aromatics\" so it matches the stim limau ala Thai row that anchors the 310 kcal figure."
+  },
+  {
+    "slug": "sup-daging",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "FAQ 3 says \"there is no rice baked in\" as a positive, which is odd phrasing since rice is not a component of Sup Daging to begin with. It likely means no rice is served alongside by default, which is accurate, but the phrasing is slightly confusing."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In FAQ 3, change \\\"there is no rice baked in\\\" to \\\"it does not come with rice by default\\\" so the phrasing is unambiguous."
+  },
+  {
+    "slug": "sup-ikan",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The prose says asam pedas-style sour fish soup pushes calories up \"from the extra oil alone\" but tamarind paste, chilli rempah, and sometimes coconut milk also contribute — oil is not the sole driver. Minor imprecision, not a hard error."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In the \"real talk\" section, change \"from the extra oil alone\" to \"from the tamarind, chilli paste, and extra oil used in the base\" to be more accurate about what drives the calorie increase in asam pedas."
+  },
+  {
+    "slug": "sup-sayur",
+    "caloriesPlausible": true,
+    "calorieConcern": "The headline says 60 kcal but the ingredient breakdown (15+16+16+5+18) sums to 70 kcal. Minor internal inconsistency. The 60 kcal figure itself is plausible for a plain bowl of clear vegetable soup.",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The tips section states '30g of cooked vermicelli adds 90 calories', which is significantly overstated. 30g of cooked rice vermicelli is roughly 30 to 35 kcal (cooked weight is mostly water). The 90 kcal figure would be closer to 30g dry weight. This inflates the noodle variant to 150 kcal when 90 to 95 kcal would be more accurate.",
+      "The ingredient breakdown sums to 70 kcal (15+16+16+5+18) but the headline, answer box, and nutrition table all state 60 kcal. The numbers are internally inconsistent."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "Fix the vermicelli calorie figure: change \"adds 90 calories\" to \"adds about 35 calories\" and update the noodle variant row from 150 kcal to roughly 95 kcal. Also reconcile the ingredient breakdown to sum to 60 kcal (e.g. reduce the oil from 18 kcal to 8 kcal by dropping the oil amount from 2g to 1g, which is defensible for a light hawker broth)."
+  },
+  {
+    "slug": "bubur-jagung",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "pulut",
+    "caloriesPlausible": true,
+    "calorieConcern": "The component breakdown sums to roughly 190 kcal (116 + 69 + 5), not the stated 250 kcal headline figure. The gap of ~60 kcal is unexplained. The 250 kcal total is still plausible for santan-cooked glutinous rice at 160g, but the itemised breakdown does not add up to it. Minor internal inconsistency, not a wrong total.",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The itemised calorie breakdown (116 + 69 + 5 = 190 kcal) does not reconcile with the 250 kcal headline. The page does not explain where the remaining ~60 kcal come from. This is a presentation inconsistency rather than a wrong total, but a reader doing the math will notice."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In the \"Where the calories come from\" breakdown, either adjust the component weights/amounts so they sum to 250 kcal, or add a row such as \"Additional coconut milk in rice (absorbed during resting/pressing)\" with the remaining ~60 kcal to close the gap."
+  },
+  {
+    "slug": "ketupat",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "ketupat-sotong",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The eyebrow category label reads \"Meat, Grills & Lauk\" for a braised seafood dish. This is a taxonomy mismatch rather than a prose error, but it may confuse readers who expect ketupat sotong under a seafood or east coast category."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "Change the eyebrow category from \"Meat, Grills & Lauk\" to \"Seafood\" or \"East Coast Dishes\" to better reflect what ketupat sotong is. Everything else is solid."
+  },
+  {
+    "slug": "lemang",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "masak-kicap",
+    "caloriesPlausible": false,
+    "calorieConcern": "The headline says 300 kcal but the \"where the calories come from\" breakdown sums to 370 kcal (185 chicken + 65 gravy + 105 oil + 15 aromatics = 370). Either the headline number or one of the component figures is wrong. For a bone-in chicken piece with this much frying oil, 330-370 kcal is the more plausible range; 300 kcal likely undercounts the oil contribution.",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The calorie breakdown components (185 + 65 + 105 + 15) sum to 370 kcal, not the stated 300 kcal headline. This internal arithmetic contradiction means either the total or one component figure is incorrect and must be reconciled before publishing."
+    ],
+    "faqOk": true,
+    "severity": "major",
+    "fixSuggestion": "Reconcile the breakdown with the headline. Either raise the headline to ~370 kcal and update the macro table (300 kcal per 200g = 150 kcal/100g looks low given the oil), or reduce the cooking oil figure from 105 kcal (12g oil) to around 35 kcal (4g oil) if the stall version is less heavily fried. The oil line at 12g/105 kcal is the most likely inflated figure for a braised dish where most oil stays in the pan; revising it to 4-5g absorbed oil (~35-45 kcal) would bring the total closer to 300 kcal and make the headline defensible."
+  },
+  {
+    "slug": "masak-merah",
+    "caloriesPlausible": true,
+    "calorieConcern": "Minor internal inconsistency only: the \"where the calories come from\" breakdown rows sum to 373 kcal (200+45+88+40) but the headline and table both say 340 kcal. The headline figure itself is plausible for a bone-in fried chicken piece with masak merah sauce at 220g total.",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "Fix the breakdown rows to sum to 340 kcal. The simplest fix: reduce the oil line from 88 kcal to 55 kcal (reflecting ~6g oil rather than 10g, still plausible for a per-serving share), which gives 200+45+55+40 = 340 kcal exactly."
+  },
+  {
+    "slug": "sayur-campur",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "sambal-petai",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "banana-leaf-rice",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "Rasam is described as 'a thin tamarind soup' in the FAQ schema and 'a thin tangy soup' in the visible FAQ. Rasam is more accurately a thin peppery soup made with tamarind, tomato, black pepper, and spices — tamarind alone does not define it. Minor inaccuracy, not misleading about calories."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In both the visible FAQ and the JSON-LD schema, change \"a thin tamarind soup\" / \"a thin tangy soup\" to \"a thin, peppery soup made with tamarind, tomato and spices\" to more accurately describe rasam."
+  },
+  {
+    "slug": "varuval",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "kari-ayam",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The variants table labels the chicken breast option as 'Kari ayam daging (chicken breast piece, less fat)' but 'daging' in Malay means meat or beef, not chicken breast. The correct term is 'dada ayam' or 'ayam dada'. The tips section gets it right ('daging dada') but the table heading uses 'daging' alone, which is misleading and would confuse readers ordering at a stall."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In the variants table, change the row label from \"Kari ayam daging (chicken breast piece, less fat)\" to \"Kari ayam dada (chicken breast piece, less fat)\" to use the correct Malay term for chicken breast."
+  },
+  {
+    "slug": "kari-kambing",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [
+      "One tip reads \"so your carb side stays clean and low calorie\" — \"clean\" edges toward the banned clean-eating idiom, though it is borderline rather than a clear fail."
+    ],
+    "factualConcerns": [
+      "The FAQ and body text say kari kambing is richer and fattier than chicken curry because goat and mutton have more natural fat in the meat itself. This is overstated — goat is actually one of the leaner red meats (leaner than lamb or beef). The page correctly identifies the real culprits as coconut milk and cooking oil in the breakdown section, so there is an internal inconsistency. The overall calorie conclusion is still sound, but the explanation of why mutton curry is fattier than kari ayam slightly misattributes the cause to the meat rather than the heavier gravy."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In the FAQ answer for question 2, change \"because goat and mutton have more natural fat in the meat itself\" to \"because mamak-style kari kambing is cooked in a heavier coconut milk gravy with more oil than a typical kari ayam, and mutton does carry more fat than chicken breast even if it is leaner than beef.\" Also change \"clean and low calorie\" in the tips list to \"lower calorie\" to avoid the clean-eating echo."
+  },
+  {
+    "slug": "tandoori-chicken",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "Minor internal inconsistency: prose says naan is '280 to 300 calories' but the related card on the same page lists naan at 270 kcal. Not a meaningful factual error given the estimate caveat, but the numbers should agree."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In the 'real talk' section, change '280 to 300 calories' to 'around 270 calories' to match the figure on the related naan card."
+  },
+  {
+    "slug": "naan",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The 'where the calories come from' breakdown does not add up internally: 65g flour at 235 kcal + 15g yogurt/milk at 12 kcal + 8g oil/ghee at 70 kcal totals 317 kcal, not the headline 270 kcal. The component weights also sum to only 88g, not 90g. The individual line items appear inflated relative to the stated total."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "Reconcile the calorie breakdown rows to sum to 270 kcal. Adjust the flour row down (65g refined flour is roughly 220-225 kcal, not 235) and/or reduce the oil/ghee figure (8g ghee is about 72 kcal, but if the total is 270 then oil in the dough is likely closer to 5-6g at 45-55 kcal). One clean fix: flour 65g = 220 kcal, yogurt/milk 15g = 12 kcal, oil in dough 6g = 53 kcal, rounding = 285 kcal -- or adjust gram weights so it lands at 270."
+  },
+  {
+    "slug": "chapati",
+    "caloriesPlausible": true,
+    "calorieConcern": "The \"where calories come from\" breakdown sums to 215 kcal (170 + 45) while the headline is 200 kcal. Minor internal inconsistency, likely a rounding/composition issue. Not a wrong number, just slightly off internally.",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "Adjust the calorie breakdown so the two rows sum to 200 kcal. Easiest fix: set the atta dough row to 155 kcal (65g cooked dough at ~2.4 kcal/g) and the oil/ghee row to 45 kcal, giving 200 total. Alternatively reduce the oil portion to 4g / 36 kcal to get 170 + 36 = 206, then round dough down to 164 kcal for a clean 200."
+  },
+  {
+    "slug": "roti-tisu",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "poori",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "FAQ 3 says choosing dhal over aloo 'saves about 60 calories', but the breakdown table shows dhal-only is 325 kcal vs 460 kcal for the full set, a difference of 135 calories. The 'How to eat it lighter' tip on the same page correctly states ~135 calories saved, making the FAQ figure inconsistent and roughly half the real number."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In FAQ 3, change \"save about 60 calories\" to \"save about 135 calories\" to match the breakdown table and the tips section on the same page."
+  },
+  {
+    "slug": "samosa",
+    "caloriesPlausible": true,
+    "calorieConcern": "The headline says 210 kcal but the three breakdown rows sum to 225 kcal (90 shell + 55 filling + 80 oil). The overall 210 figure is plausible for a 70g mamak samosa, but the internal components don't add up to match it. Minor rounding inconsistency.",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "Adjust the calorie breakdown rows so they sum to 210: e.g. change the absorbed frying oil line from 80 kcal to 65 kcal (keeping shell at 90 and filling at 55), or round the headline up to 225 kcal. Either fix removes the internal inconsistency."
+  },
+  {
+    "slug": "pakora",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The calorie breakdown components listed in the 'Where the calories come from' section (180 kcal batter + 55 kcal vegetables + 135 kcal absorbed oil) sum to 370 kcal, but the headline and answer box state 330 kcal. The 40 kcal discrepancy is visible in both the prose and the breakdown table and could confuse a careful reader."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "Adjust the component breakdown so the three rows sum to 330. Simplest fix: reduce the batter line to 140 kcal (or absorbed oil to 95 kcal) and update the matching prose in the answer box to reflect the corrected split."
+  },
+  {
+    "slug": "lassi",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "In the ingredient breakdown, sugar is listed as '18g, ~1.5 tsp' but 18g of sugar is approximately 4 to 4.5 teaspoons, not 1.5. One teaspoon of granulated sugar is roughly 4g. The calorie figure for sugar (70 kcal) is correct for 18g; only the teaspoon conversion is wrong."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "Change \"Sugar (18g, ~1.5 tsp)\" to \"Sugar (18g, ~4.5 tsp)\" in the ingredient breakdown list (line 292)."
+  },
+  {
+    "slug": "teh-halia",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "chicken-65",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "lempeng",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The ingredient breakdown in the 'Where the calories come from' section sums to 175 kcal (flour 80 + coconut 60 + oil 35) but the headline and nutrition table show 155 kcal. The per-100g maths supports 155, so the breakdown figures are slightly overstated and internally inconsistent. Consider adjusting individual line items to sum to 155 (e.g. oil absorbed at 15 kcal instead of 35 kcal, or flour at 65 kcal)."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In the 'Where the calories come from' section, adjust the line-item calories so they sum to 155 rather than 175. The simplest fix: drop oil absorbed from 35 kcal to 15 kcal (4g of absorbed oil at ~9 kcal/g is about 36 kcal, but absorption in a griddle-cooked pancake is realistically 1-2g, so 15 kcal is more defensible). Or reduce flour to 65 kcal and coconut to 50 kcal to better reflect the stated weights. Either way, the three rows must add up to the headline number of 155."
+  },
+  {
+    "slug": "kuih-putu",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The ingredient breakdown row labelled 'Salt and trace moisture loss (2g) — 15 kcal' is factually incorrect. Salt contributes zero calories, and moisture loss is not a calorie source. This appears to be a rounding catch-all row, but labelling it this way is misleading. It should either be removed (and the other rows adjusted to sum to 230) or relabelled honestly as a rounding remainder."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "Remove the 'Salt and trace moisture loss — 15 kcal' row from the breakdown list. Adjust the rice flour row from 92 kcal to 107 kcal (or redistribute the 15 kcal across the other components) so the rows still sum to 230 kcal. Alternatively, relabel the row as 'Rounding / minor ingredients' with a note that it is not a real calorie-contributing ingredient."
+  },
+  {
+    "slug": "kuih-bom",
+    "caloriesPlausible": true,
+    "calorieConcern": "The headline says 210 kcal but the component breakdown in the answer box sums to 240 kcal (110 + 65 + 23 + 42). One of these numbers is wrong. Either the components need to add to 210, or the headline should read 240. Fix the breakdown so the parts sum to the stated total.",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "Component calorie breakdown sums to 240 kcal (110 dough + 65 filling + 23 sesame + 42 oil) but the stated total is 210 kcal. The arithmetic is off by 30 calories, creating an internal contradiction."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "Adjust the component figures so they sum to 210. For example: glutinous rice dough 100 kcal, sweet coconut filling 60 kcal, sesame coating 20 kcal, frying oil 30 kcal = 210. Or, if 240 is the more accurate total, update the headline, answer box, table, FAQ, and all prose references from 210 to 240."
+  },
+  {
+    "slug": "kuih-siput",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The calorie breakdown lists 'Wheat and tapioca flour' as the dough base. Tapioca flour is not a standard or universal ingredient in kuih siput. Most traditional recipes use wheat flour only, sometimes with a small amount of rice flour. Listing tapioca flour as a base ingredient may mislead readers about what they are eating."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "Change \"Wheat and tapioca flour (dough base)\" to \"Wheat flour (dough base)\" in the calorie breakdown list. If a small amount of rice flour is used in the specific recipe being referenced, \"Wheat and rice flour\" would also be acceptable."
+  },
+  {
+    "slug": "kuih-ros",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The tip about skipping the condensed milk dip is a minor stretch — condensed milk is not a typical or widely observed accompaniment for Kuih Ros. Most people eat it plain. The claim is not wrong enough to block, but it reads like padding."
+    ],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "tepung-pelita",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "amplang",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The page repeatedly describes amplang as being from both 'Sabah and Sarawak'. Amplang is primarily a Sabah specialty (Kota Belud origin, strongly associated with Sabah souvenirs and KK airport). It is not a recognised Sarawak product in the same way. The Sarawak attribution is an overclaim and could mislead readers."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "Remove 'and Sarawak' from the hero summary, FAQ schema answer for 'What exactly is amplang?', and the FAQ visible body text. Change to 'Amplang is a deep-fried fish cracker from Sabah, East Malaysia' throughout."
+  },
+  {
+    "slug": "kuih-kapit",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The ingredient breakdown lists 'Rice flour and wheat flour' as the batter base, implying both are standard components. Traditional kuih kapit uses rice flour (and sometimes tapioca starch); wheat flour is not a typical ingredient and is absent from most household and commercial recipes. Listing wheat flour alongside rice flour as the default base is mildly misleading."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In the ingredient breakdown row, change \"Rice flour and wheat flour (batter base)\" to \"Rice flour (batter base)\" to reflect the standard recipe. The calorie figure for that row (38 kcal for 10g of flour) does not need to change."
+  },
+  {
+    "slug": "keropok-keping",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "umai",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The variants table labels umai terubok as \"toli shad/Chinese herring\". Terubok (Tenualosa toli) is correctly called toli shad, but \"Chinese herring\" is not its standard English name and may confuse readers. Minor point."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In the variants table Notes column for umai terubok, change \"toli shad/Chinese herring\" to just \"toli shad\" to avoid the inaccurate common-name label."
+  },
+  {
+    "slug": "manok-pansoh",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The breakdown lists 'no skin' as the baseline assumption, but the tips section notes 'some versions include a bit of skin for flavour during cooking' and advises removing it. This is a minor internal tension rather than a factual error, but worth flagging for consistency."
+    ],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "midin",
+    "caloriesPlausible": true,
+    "calorieConcern": "The headline 140 kcal for 160g is plausible. However, the page's own breakdown lists 44 kcal (fern) + 133 kcal (oil) + 25 kcal (aromatics) = 202 kcal, yet the prose says \"The cooking oil alone accounts for 133 of those 140 calories; the fern is basically free.\" That is internally contradictory. Either the oil figure is overstated (1.5 tbsp at a hawker is unlikely; 1 tbsp / 10g is more realistic at ~90 kcal, which would make the total add up closer to 140-160 kcal), or the headline should be higher. The headline number itself (140 kcal) is believable for a stir-fried veg dish; the breakdown table is what breaks the math.",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The calorie breakdown is internally inconsistent: the component list totals ~202 kcal (44 fern + 133 oil + 25 aromatics) but the headline and prose state 140 kcal. The prose then compounds this by saying the oil alone accounts for 133 of the 140 calories, which contradicts showing 44 kcal for the fern and 25 kcal for aromatics in the same breakdown. The oil figure of 133 kcal for 1.5 tbsp is also high for a typical hawker portion; ~1 tbsp (90 kcal) would make the totals consistent with the 140 kcal headline."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In the breakdown table, reduce the oil line to \"1 tbsp (10g) / ~90 kcal\" and update the total to ~160 kcal (or adjust the headline to match the 202 kcal that the current components actually add up to). Then fix the prose line to say \"the oil contributes the bulk of these calories\" rather than claiming oil alone accounts for 133 of 140 kcal. Whichever direction is chosen, the breakdown, the headline, and the prose paragraph should all agree on one number."
+  },
+  {
+    "slug": "paku-pakis",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "9g protein per plate is on the high side for cooked fiddlehead ferns (typically 3-4g per 100g cooked), though belacan and possible ikan bilis additions make it less alarming than a hard error. Worth a second look but not clearly wrong given hawker variation."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "Consider lowering the protein figure from 9g to 5-6g per plate, or adding a note that protein varies depending on whether ikan bilis or other protein is added to the stir-fry."
+  },
+  {
+    "slug": "butod",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The 'where the calories come from' breakdown (4 kcal protein + 9 kcal fat + 7 kcal residual moisture/trace carbs = 20 kcal) contradicts the nutrition table which shows 0g carbs. The 7 kcal mystery row is unexplained and makes the macro math inconsistent: 1g protein + 1g fat = ~13 kcal, not 20. Either the macro table should show more fat/protein, or the breakdown row should be removed."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "Remove the \"Residual moisture / trace carbs\" row from the breakdown list (moisture has no calories), and adjust the fat entry to 1.7g fat = 15 kcal and protein to 1g = 4 kcal to reach ~19-20 kcal total. Alternatively, update the nutrition table to show 1g protein and 1.5g fat to better reflect the 20 kcal headline, and drop the 0-calorie moisture row entirely from the breakdown."
+  },
+  {
+    "slug": "ikan-empurau",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "kek-lapis-sarawak",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "khau-yuk",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "abacus-seeds",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The eyebrow category label reads \"Noodles\" but Abacus Seeds is not a noodle dish. It is a Hakka stir-fried yam-tapioca dough bead dish. Should be labelled something like \"Hakka\" or \"Rice & Noodles\" or a dedicated stir-fry category, not Noodles."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "Change `<p class=\"food-hero__eyebrow\">Noodles</p>` to `<p class=\"food-hero__eyebrow\">Hakka</p>` (or whatever the correct category slug is for this dish in the database). Everything else is accurate."
+  },
+  {
+    "slug": "ayam-masak-arak",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The soup-style variant is listed at 380 kcal and described as including mee sua noodles, but the tips section tells readers to skip the mee sua noodles because 'they add calories fast'. These two claims contradict each other and will confuse readers trying to make the lighter choice."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In the variants table, clarify that the 380 kcal soup-style figure is for the chicken and broth only, without mee sua. Or adjust the tips section to say mee sua is included in the 380 kcal estimate so readers understand the count already accounts for it. Simplest fix: remove the mee sua reference from the variant table description so the 380 kcal figure is unambiguously chicken-and-broth only, and the tip to skip mee sua makes clean sense."
+  },
+  {
+    "slug": "butter-prawns",
+    "caloriesPlausible": true,
+    "calorieConcern": "The 580 kcal headline is plausible for a deep-fried shell-on butter prawn restaurant portion, but the \"Where the calories come from\" breakdown items sum to 715 kcal (200+215+135+110+55), not 580. That 135 kcal gap is visible to any reader who adds the rows. Either the headline or the breakdown needs adjusting to match.",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The calorie breakdown rows sum to 715 kcal (Prawns 200 + Butter 215 + Oil 135 + Egg floss 110 + Coating 55 = 715) but the headline and nutrition table both state 580 kcal. This internal inconsistency is a factual/arithmetic error in the page."
+    ],
+    "faqOk": true,
+    "severity": "major",
+    "fixSuggestion": "Either reduce the breakdown items to sum to 580 kcal (e.g. cut the butter line to ~80 kcal for ~11g butter, or reduce oil absorption to ~60 kcal, and adjust egg floss to ~60 kcal for ~1.5 yolks, bringing the total in line) or raise the headline to 715 kcal and update the nutrition table and all references accordingly. The simpler fix is to adjust the breakdown rows: Prawns 200, Butter 130, Oil 80, Egg floss 85, Coating 55 = 550, then round the headline to 550 kcal. Or trim butter to ~11g (80 kcal), oil to 80 kcal absorbed, keep prawns at 200, floss at 110, coating at 55 = 525, headline ~525. The exact numbers are estimates anyway; the key is that the rows must add up to whatever the headline says."
+  },
+  {
+    "slug": "chili-crab",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "Minor internal inconsistency: the FAQ answer for 'Is chili crab actually healthy?' states sauce and wok oil together add 'close to 285 kcal per serving', but the calorie breakdown table adds up to 340 kcal from non-crab components (180 oil + 105 sauce base + 55 aromatics/egg). The 285 figure appears to silently drop the aromatics row. Not a factual error about the dish, but the numbers do not reconcile within the page."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In the third FAQ answer, change \"which together add close to 285 kcal per serving\" to \"which together add close to 340 kcal per serving\" to match the component breakdown shown on the page."
+  },
+  {
+    "slug": "ikan-pari-bakar",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "Sambal belacan is described as 'a paste of dried shrimp, chilli, and lime' in both the FAQ and the body. Belacan is fermented shrimp paste, not simply dried shrimp, and a standard sambal belacan recipe also includes shallots and often garlic. The description is a simplification but unlikely to mislead the target audience; flag as minor only."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In the FAQ and body text, change \"a paste of dried shrimp, chilli, and lime\" to \"a paste of fermented shrimp paste (belacan), chilli, shallots, and lime\" for accuracy."
+  },
+  {
+    "slug": "nasi-kukus",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The real talk section says the chicken is 'battered to some degree', which is imprecise. Ayam goreng berempah is marinated and coated in rempah paste then deep-fried, not battered. Minor but worth tightening.",
+      "The lighter-eating tip claims a drumstick has slightly less fat in the skin than a thigh. Drumsticks and thighs have broadly similar fat content and this claim is not clearly supported. It is borderline misleading as dietary advice."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In the real talk paragraph, change \"battered to some degree, and dropped in a wok of oil\" to \"coated in rempah paste and deep-fried\". In the tips list, remove or rewrite the drumstick-vs-thigh tip, or soften it to \"the difference is small either way\" rather than implying a clear fat advantage."
+  },
+  {
+    "slug": "daun-ubi-tumbuk",
+    "caloriesPlausible": true,
+    "calorieConcern": "The 270 kcal total is believable, but the stated 12g protein is on the high side for 15g ikan bilis and 80g cooked cassava leaves. A realistic figure is closer to 7-9g. Not a blocking error given the explicit estimate caveat, but worth noting.",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The variant table labels the heaviest version 'masak lemak penuh (full gulai style)'. Masak lemak is a West Malaysian (Minang) cooking style term. For a Sabah/Sarawak dish this would more naturally be called masak santan or simply gulai. Minor framing issue, does not affect the calorie numbers."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "Change the protein figure from 12g to 9g in both the answer-box body text and the FAQ schema/HTML. Optionally relabel the heavy-santan variant from \"masak lemak penuh (full gulai style)\" to \"masak santan pekat / gulai style\" for regional accuracy."
+  },
+  {
+    "slug": "wild-boar",
+    "caloriesPlausible": true,
+    "calorieConcern": "The headline 460 kcal is plausible for 290g wild boar curry. However the related-foods card lists sinalau bakas (smoked wild boar, ~200g) at 560 kcal, while the main body of this same page states sinalau bakas is ~310 kcal for a similar portion. That is a ~250 kcal internal contradiction for the same dish. The 310 kcal figure is consistent with lean smoked game meat (~155 kcal/100g); 560 kcal would imply ~280 kcal/100g which is closer to fatty pork. The related-card figure looks like a cross-page data error and should match the 310 kcal stated in the body.",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The page describes babi hutan as game meat from the jungles of Sabah, Sarawak, and Brunei. Including Brunei is inaccurate: wild boar hunting and eating as a culinary tradition belongs to the indigenous communities of Malaysian Borneo (Sabah and Sarawak). Brunei is a Muslim-majority sultanate where wild boar consumption is not a mainstream food tradition in the same way."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "1. In the related-foods card for sinalau bakas, change 560 kcal to 310 kcal (or align it with whatever the sinalau-bakas.html page uses as its headline number, and reconcile both pages so they agree). 2. Remove \"and Brunei\" from the babi hutan description in the FAQ and hero summary, leaving just \"Sabah and Sarawak.\""
+  },
+  {
+    "slug": "sago-gula-melaka",
+    "caloriesPlausible": true,
+    "calorieConcern": "The headline 370 kcal is plausible for a 250g hawker bowl, but the three listed components (155 + 115 + 125) sum to 395 kcal, not 370. The internal breakdown does not add up to the stated total.",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The calorie component breakdown (155 kcal sago + 115 kcal gula melaka syrup + 125 kcal santan) sums to 395 kcal, but the stated total throughout the page is 370 kcal. Either the total or one of the component figures needs correcting to be internally consistent."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "Either adjust the total to 395 kcal (and update the answer box, nutrition table per-100g figure from 148 to 158 kcal, and the meta description), or reduce one component figure so the parts add to 370 kcal (e.g. reduce santan to 100 kcal, giving 155 + 115 + 100 = 370). The simplest fix that keeps the headline round number intact is to change the santan line from 125 to 100 kcal."
+  },
+  {
+    "slug": "tenom-coffee",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "air-barli",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "In the 'Where the calories come from' breakdown, water (273g) is assigned 10 kcal. Water has zero calories. This appears to be a fudge to make the three rows add to 100, but labelling plain water as contributing 10 kcal is technically wrong. The 10 kcal should be folded into the barley starch row or the table total should be presented as approximately 90 kcal with an 'other trace' note.",
+      "The related-foods card for Milo Ais shows 250 kcal, but the FAQ prose on the same page states Milo ais is around 180 to 200 calories. Minor internal inconsistency that could confuse readers."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In the bd-row for water, either remove the 10 kcal entry entirely (combine with the barley starch row as a trace amount) or label it as \"Other trace starch / minerals\" at 10 kcal rather than \"Water\". Also reconcile the Milo Ais related card (250 kcal) with the FAQ prose (180-200 kcal) by picking one figure and using it consistently."
+  },
+  {
+    "slug": "coffee-bun",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "teh-o-limau",
+    "caloriesPlausible": true,
+    "calorieConcern": "The headline is 70 kcal but the ingredient breakdown rows sum to only 50 kcal (Sugar 40 + Tea 2 + Lime 8 + Ice 0). The prose then claims \"Two and a half teaspoons of sugar gets you to 70 calories\" which is wrong: 2.5 tsp sugar is roughly 10g = 40 kcal, not 70. Either the headline should be ~50 kcal, or the sugar weight in the breakdown should be raised to ~17g to match 70 kcal. 70 kcal is not implausible for this drink but the internal numbers do not agree with each other.",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The ingredient breakdown rows sum to 50 kcal (40+2+8+0) but the headline and answer box state 70 kcal. The prose compounds this by saying '2.5 tsp of sugar gets you to 70 calories' when 2.5 tsp is ~10g = 40 kcal, not 70 kcal.",
+      "The 'How to eat it lighter' tips section says 'milo ais at 150 plus' but the related-foods card on the same page shows Milo Ais at 250 kcal. The two numbers on the same page contradict each other."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "Two options: (A) Change the headline to 50 kcal and update the answer box, meta description, and sugar-statement in the prose to match the breakdown. (B) Keep 70 kcal but change the breakdown sugar row to ~17g / 68 kcal and update the prose to say roughly 4 tsp. Also change \"milo ais at 150 plus\" in the tips list to \"milo ais at 250 plus\" to match the related card."
+  },
+  {
+    "slug": "air-mata-kucing",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The tips section says Air Mata Kucing at 180 cal is 'better than a can of Coke (139 calories for 330ml) by not much.' The Coke figure of 139 kcal for 330ml is correct, but that makes AMK worse than Coke calorically, not better. The framing is misleading and should be corrected."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In the tips list, change \"At 180 calories it is better than a can of Coke (139 calories for 330ml) by not much\" to something like \"At 180 calories it is actually worse than a can of Coke (139 calories for 330ml), which is a bit of a reality check for something that feels so light and herbal.\""
+  },
+  {
+    "slug": "rojak-buah",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "pasembur",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "ais-krim",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "FAQ says cendol is 'around 250 cal' and ais kacang is '200 plus cal', but the related-foods cards on the same page show cendol at 330 kcal and ais kacang at 350 kcal. The internal numbers contradict each other. The comparison dessert figures in the FAQ should match the related cards."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In the third FAQ answer, change \"around 250 cal\" to \"around 330 cal\" and \"200 plus cal\" to \"around 350 cal\" to match the related-cards data on the same page."
+  },
+  {
+    "slug": "durian",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "Minor internal inconsistency: body text says '147 kcal per 100g for standard D24' but the nutrition table shows 146 kcal per 100g. Trivially within estimate tolerance but slightly inconsistent."
+    ],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "cempedak-goreng",
+    "caloriesPlausible": true,
+    "calorieConcern": "The headline 185 kcal per 75g piece is plausible, but the component breakdown is internally inconsistent: 52 (fruit) + 55 (batter) + 135 (oil) = 242, not 185. The oil figure of 135 kcal (implying ~15g absorbed oil) is also implausibly high for a snack this size; typical absorbed oil for a deep-fried piece this weight is 35-70 kcal (4-8g oil). Either the total should be ~242 or the oil figure should be reduced to ~78 kcal to make the math reach 185.",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The calorie component breakdown does not add up: 52 kcal (fruit) + 55 kcal (batter) + 135 kcal (oil) = 242 kcal, but the stated total is 185 kcal. This inconsistency appears in the answer box prose and is repeated verbatim in FAQ 1. The oil absorption figure of 135 kcal (equivalent to roughly 15g absorbed oil per piece) is also unrealistically high for a 75g deep-fried snack."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "Fix the breakdown so the components sum to 185: keep fruit at 52 kcal, keep batter at 55 kcal, and reduce the absorbed oil figure from 135 kcal to approximately 78 kcal (about 8-9g oil). Update the prose in the answer box and both FAQ instances to reflect the corrected oil figure. Alternatively, if 242 is the intended total, update the headline and table to 240 kcal and adjust the per-100g figure accordingly."
+  },
+  {
+    "slug": "ubi-kayu",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The body text claims fresh grated coconut is 'about 60% fat by weight'. Fresh grated coconut (with its natural moisture content) is around 30-35% fat by weight. The 60% figure applies to dried or desiccated coconut. This is factually wrong, though it does not affect the calorie numbers which are calculated correctly."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In the \"The real talk\" section, change \"it is about 60% fat by weight\" to \"it is around 33% fat by weight once you account for the moisture in fresh coconut\" (or simply \"fresh grated coconut is surprisingly high in fat\")."
+  },
+  {
+    "slug": "jagung",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [],
+    "faqOk": true,
+    "severity": "ok",
+    "fixSuggestion": ""
+  },
+  {
+    "slug": "coconut-shake",
+    "caloriesPlausible": true,
+    "calorieConcern": "The headline 270 kcal for a standard cup is plausible. However the variants table claims an extra scoop of ice cream adds only ~100 kcal (270 to 370 kcal), and the prose repeats \"roughly 100 kcal per extra scoop\". If one 80g scoop of vanilla ice cream accounts for 165 kcal, a second scoop of similar size should add closer to 150-165 kcal, putting a double-scoop cup at around 420-435 kcal, not 370. The 100 kcal figure for an extra scoop is roughly half what it should be.",
+    "voiceVerdict": "borderline",
+    "voiceIssues": [
+      "No lah, bro, or other Malaysian flavour anywhere in the prose. The CLAUDE.md voice expects 2-3 per post. The writing is good and non-preachy, but it reads slightly more like a careful food writer than a guy at the mamak. Not a hard fail, just noticeably restrained.",
+      "The tips section item 'Have it after a long walk around Jonker Street so at least you have burned some of those calories first before you drink it' is the closest to mamak voice but the rest of the tips are generic."
+    ],
+    "factualConcerns": [
+      "Extra scoop of ice cream is stated to add roughly 100 kcal (bringing total from 270 to 370 kcal), but one 80g scoop is already costed at 165 kcal in the breakdown table. A second scoop of similar size would add ~150-165 kcal, making the double-scoop total closer to 420-435 kcal. The 100 kcal and 370 kcal figures are both too low.",
+      "The ice row in the breakdown shows 7 kcal for 80g of ice. Plain ice has essentially zero calories. The 7 kcal is unexplained and likely an artefact of the generation process. Trivially small but inaccurate."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "In the variants table, change the extra-scoop row from 370 kcal to approximately 435 kcal and update the notes from \"adds roughly 100 kcal per extra scoop\" to \"adds roughly 165 kcal per extra scoop\". In the prose (second paragraph of \"The real talk\"), change \"you are looking at roughly 370 kcal\" to \"roughly 435 kcal\". Fix the ice row to 0 kcal. Optionally drop in one bro or lah in the real-talk section to hit the voice target."
+  },
+  {
+    "slug": "kaya-toast",
+    "caloriesPlausible": true,
+    "calorieConcern": "",
+    "voiceVerdict": "on-voice",
+    "voiceIssues": [],
+    "factualConcerns": [
+      "The eyebrow category label reads 'Mamak & Bread' but kaya toast is a kopitiam dish, not a mamak dish. Mamak stalls serve roti canai, mee goreng, teh tarik etc. Kaya toast belongs to the kopitiam/coffee-shop category. Small but a real misclassification that a Malaysian reader would notice."
+    ],
+    "faqOk": true,
+    "severity": "minor",
+    "fixSuggestion": "Change the eyebrow label from \"Mamak & Bread\" to \"Kopitiam & Bread\" (or just \"Kopitiam Breakfast\") to accurately reflect that kaya toast is a kopitiam staple, not a mamak item."
+  }
+]

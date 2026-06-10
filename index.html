@@ -1175,6 +1175,7 @@
       <nav class="site-nav" id="site-nav">
         <ul class="nav-list">
           <li><a href="about.html">About</a></li>
+          <li><a href="foods.html">Food Calories</a></li>
           <li class="has-dropdown">
             <a href="diets.html">Diets</a>
             <ul class="nav-dropdown">
@@ -1248,8 +1249,8 @@
           <label class="calc-label" for="inp-exercise">Planned exercise per week</label>
           <select class="calc-select" id="inp-exercise">
             <option value="0.00">None</option>
-            <option value="0.05" selected>1–2 sessions (gym, sports, runs)</option>
-            <option value="0.10">3–4 sessions</option>
+            <option value="0.05" selected>1-2 sessions (gym, sports, runs)</option>
+            <option value="0.10">3-4 sessions</option>
             <option value="0.175">5 or more sessions</option>
           </select>
         </div>
@@ -1525,12 +1526,33 @@
     </div>
   </div>
 
+  <!-- FOODS HUB TEASER -->
+  <style>
+    .foods-teaser { background: var(--bg2); border-top: 1px solid var(--border); padding: 64px 24px; }
+    .foods-teaser__inner { max-width: 720px; margin: 0 auto; text-align: center; }
+    .foods-teaser__eyebrow { display: inline-block; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; font-weight: 600; color: var(--accent); margin-bottom: 14px; }
+    .foods-teaser__title { font-family: 'DM Serif Display', serif; font-size: 30px; line-height: 1.2; color: var(--text); margin: 0 0 14px; }
+    .foods-teaser__copy { font-size: 16px; line-height: 1.65; color: var(--muted); margin: 0 auto 26px; max-width: 600px; }
+    .foods-teaser__btn { display: inline-block; background: var(--accent); color: var(--white); font-weight: 600; font-size: 15px; padding: 13px 26px; border-radius: 8px; transition: background 0.2s; }
+    .foods-teaser__btn:hover { background: var(--accent2); }
+    @media (max-width: 600px) { .foods-teaser { padding: 48px 20px; } .foods-teaser__title { font-size: 25px; } }
+  </style>
+  <section class="foods-teaser">
+    <div class="foods-teaser__inner">
+      <span class="foods-teaser__eyebrow">New</span>
+      <h2 class="foods-teaser__title">How many calories is that, actually?</h2>
+      <p class="foods-teaser__copy">Nasi lemak, char kuey teow, roti canai, durian, the lot. 227 Malaysian dishes with real calorie numbers, where the calories actually come from, and how to eat it lighter without starving. No guessing lah.</p>
+      <a class="foods-teaser__btn" href="foods.html">Browse food calories &rarr;</a>
+    </div>
+  </section>
+
   <footer class="site-footer">
     <div class="footer-logo">Rice and <span>Protein</span></div>
     <p class="footer-tag">Simple tools for people who want real results.</p>
     <ul class="footer-links">
       <li><a href="blog.html">Blog</a></li>
       <li><a href="about.html">About</a></li>
+      <li><a href="foods.html">Food Calories</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
     <p class="footer-backlink">Web design by <a href="https://sabahwebs.com">Sabah Webs</a></p>

@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "ais-krim",
+    "name": "Ais Krim (Local Ice Cream)",
+    "category": "dessert",
+    "serving": "1 stick or scoop",
+    "hint": "traditional Malaysian ice cream, ais krim potong (frozen on a stick) or scooped; variants durian, kelapa (coconut), jagung (corn); coconut milk and sugar base, durian version highest"
+  },
+  {
+    "slug": "durian",
+    "name": "Durian",
+    "category": "dessert",
+    "serving": "4 seeds (~120g flesh)",
+    "hint": "the king of fruits, very calorie and fat dense for a fruit; variants kampung, D24, Musang King, Black Thorn; people massively underestimate how many calories a sitting of durian is, this is a key honest-numbers page"
+  },
+  {
+    "slug": "cempedak-goreng",
+    "name": "Cempedak Goreng",
+    "category": "snacks",
+    "serving": "1 piece",
+    "hint": "battered deep-fried cempedak (a sweeter, stronger jackfruit relative), like pisang goreng but richer; the natural fruit sugar plus batter and frying oil drive calories"
+  },
+  {
+    "slug": "ubi-kayu",
+    "name": "Ubi Kayu",
+    "category": "snacks",
+    "serving": "1 serving",
+    "hint": "tapioca/cassava; variants rebus (boiled, eaten with grated coconut or palm sugar syrup) and goreng (cut into fingers and deep fried crispy); starchy carb, fried version adds oil"
+  },
+  {
+    "slug": "jagung",
+    "name": "Jagung (Sweet Corn Cup)",
+    "category": "snacks",
+    "serving": "1 cup",
+    "hint": "sweet corn kernels in a cup with butter, sometimes cheese powder, sugar and condensed milk, or grilled corn (jagung bakar) brushed with sweet-spicy butter; corn is fine, the butter and condensed milk are the calorie hit"
+  },
+  {
+    "slug": "coconut-shake",
+    "name": "Coconut Shake",
+    "category": "drinks",
+    "serving": "1 cup",
+    "hint": "Melaka-style blended drink of coconut water, scraped coconut flesh and a scoop of vanilla ice cream over ice; refreshing but the ice cream and coconut flesh make it heavier than plain coconut water"
+  },
+  {
+    "slug": "kaya-toast",
+    "name": "Kaya Toast",
+    "category": "mamak",
+    "serving": "1 set (2 slices)",
+    "hint": "kopitiam kaya and butter toast, charcoal-toasted bread with a thick slab of cold butter and kaya, usually a breakfast set with soft-boiled eggs and kopi; the butter slab and kaya sugar drive calories"
+  }
+]

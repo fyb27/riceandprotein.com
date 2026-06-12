@@ -1368,7 +1368,7 @@
                 </div>
                 <p class="pb-status" id="pb-status"></p>
               </div>
-              <p class="pb-note">All meat amounts are raw weight. Cooking reduces weight by about 25%.</p>
+              <p class="pb-note">Meat amounts are raw weight (cooking shrinks it by about 25%). Rice, potato and everything else is as you eat it.</p>
 
             </div>
 
@@ -1666,18 +1666,28 @@
 
     /* PROTEIN PLAN (section 02) */
     var FOODS = [
-      { key: 'chicken-breast',  label: 'Chicken breast (raw)',   pro100: 31,  kcal100: 165, unit: 'g' },
-      { key: 'chicken-thigh',   label: 'Chicken thigh (raw)',    pro100: 17,  kcal100: 209, unit: 'g' },
-      { key: 'eggs',            label: 'Eggs',                   pro100: 6.3, kcal100: 78,  unit: 'pieces' },
-      { key: 'tuna',            label: 'Canned tuna (drained)',  pro100: 25,  kcal100: 116, unit: 'g' },
-      { key: 'beef',            label: 'Beef lean (raw)',         pro100: 26,  kcal100: 218, unit: 'g' },
-      { key: 'salmon',          label: 'Salmon (raw)',            pro100: 20,  kcal100: 208, unit: 'g' },
-      { key: 'tofu',            label: 'Tofu (firm)',             pro100: 8,   kcal100: 76,  unit: 'g' },
-      { key: 'greek-yogurt',    label: 'Greek yogurt',            pro100: 10,  kcal100: 97,  unit: 'g' },
-      { key: 'cottage-cheese',  label: 'Cottage cheese',          pro100: 11,  kcal100: 98,  unit: 'g' },
-      { key: 'protein-powder',  label: 'Protein powder',          pro100: 25,  kcal100: 120, unit: 'scoops' },
-      { key: 'milk',            label: 'Milk full cream',         pro100: 3.4, kcal100: 61,  unit: 'g' }
+      { key: 'chicken-breast',  label: 'Chicken breast (raw)',   pro100: 31,  kcal100: 165, unit: 'g',      group: 'Protein' },
+      { key: 'chicken-thigh',   label: 'Chicken thigh (raw)',    pro100: 17,  kcal100: 209, unit: 'g',      group: 'Protein' },
+      { key: 'eggs',            label: 'Eggs',                   pro100: 6.3, kcal100: 78,  unit: 'pieces', group: 'Protein' },
+      { key: 'tuna',            label: 'Canned tuna (drained)',  pro100: 25,  kcal100: 116, unit: 'g',      group: 'Protein' },
+      { key: 'beef',            label: 'Beef lean (raw)',         pro100: 26,  kcal100: 218, unit: 'g',      group: 'Protein' },
+      { key: 'salmon',          label: 'Salmon (raw)',            pro100: 20,  kcal100: 208, unit: 'g',      group: 'Protein' },
+      { key: 'tofu',            label: 'Tofu (firm)',             pro100: 8,   kcal100: 76,  unit: 'g',      group: 'Protein' },
+      { key: 'greek-yogurt',    label: 'Greek yogurt',            pro100: 10,  kcal100: 97,  unit: 'g',      group: 'Protein' },
+      { key: 'cottage-cheese',  label: 'Cottage cheese',          pro100: 11,  kcal100: 98,  unit: 'g',      group: 'Protein' },
+      { key: 'protein-powder',  label: 'Protein powder',          pro100: 25,  kcal100: 120, unit: 'scoops', group: 'Protein' },
+      { key: 'milk',            label: 'Milk full cream',         pro100: 3.4, kcal100: 61,  unit: 'g',      group: 'Protein' },
+      { key: 'white-rice',      label: 'White rice (cooked)',     pro100: 2.7, kcal100: 130, unit: 'g',      group: 'Carbs' },
+      { key: 'potato',          label: 'Potato (boiled)',         pro100: 2,   kcal100: 87,  unit: 'g',      group: 'Carbs' },
+      { key: 'bread',           label: 'White bread',             pro100: 2.5, kcal100: 75,  unit: 'slices', group: 'Carbs' },
+      { key: 'greens',          label: 'Vegetables (broccoli, greens)', pro100: 2.8, kcal100: 35, unit: 'g', group: 'Vegetables' },
+      { key: 'pizza',           label: 'Pizza',                   pro100: 12,  kcal100: 285, unit: 'slices', group: 'Treats' },
+      { key: 'fries',           label: 'French fries',            pro100: 3.4, kcal100: 312, unit: 'g',      group: 'Treats' },
+      { key: 'ice-cream',       label: 'Ice cream',               pro100: 3.5, kcal100: 207, unit: 'g',      group: 'Treats' },
+      { key: 'chocolate',       label: 'Chocolate bar',           pro100: 3.5, kcal100: 250, unit: 'bars',   group: 'Treats' }
     ];
+
+    var FOOD_GROUPS = ['Protein', 'Carbs', 'Vegetables', 'Treats'];
 
     var PB_REASONS = {
       starter: '1.6g per kg of goal weight. Enough to protect muscle while your body adjusts to eating less.',
@@ -1750,20 +1760,39 @@
         : '';
 
       var statusEl = $('pb-status');
-      if (totalPro < proTarget) {
+      var calsLeft = S.targetCals ? S.targetCals - totalKcal : 0;
+      var hasRoom  = S.targetCals && calsLeft > 50;
+      var over     = S.targetCals && calsLeft < -50;
+      var proHit   = totalPro >= proTarget - 5;
+      if (over) {
         statusEl.className   = 'pb-status pb-status--under';
-        statusEl.textContent = 'Too low. You risk losing muscle on a deficit.';
-      } else {
+        statusEl.textContent = (proHit ? 'Protein\'s good, but you\'re ' : 'You\'re ')
+          + fmt(-calsLeft) + ' calories over target. Trim something or save it for tomorrow.';
+      } else if (proHit) {
         statusEl.className   = 'pb-status pb-status--hit';
-        statusEl.textContent = 'You are hitting your target.';
+        statusEl.textContent = hasRoom
+          ? 'Protein target hit. You\'ve still got ' + fmt(calsLeft) + ' calories left to eat.'
+          : 'You are hitting your target.';
+      } else if (hasRoom) {
+        statusEl.className   = 'pb-status pb-status--hit';
+        statusEl.textContent = 'You\'ve still got ' + fmt(calsLeft) + ' calories left to eat. Keep going.';
+      } else {
+        statusEl.className   = 'pb-status pb-status--under';
+        statusEl.textContent = 'Short on protein and out of calories. Swap something in for leaner protein.';
       }
       recalcAcc2();
     }
 
     function buildFoodOptions(selectedKey) {
       var html = '';
-      FOODS.forEach(function (f) {
-        html += '<option value="' + f.key + '"' + (f.key === selectedKey ? ' selected' : '') + '>' + f.label + '</option>';
+      FOOD_GROUPS.forEach(function (g) {
+        html += '<optgroup label="' + g + '">';
+        FOODS.forEach(function (f) {
+          if (f.group === g) {
+            html += '<option value="' + f.key + '"' + (f.key === selectedKey ? ' selected' : '') + '>' + f.label + '</option>';
+          }
+        });
+        html += '</optgroup>';
       });
       return html;
     }

@@ -6,7 +6,7 @@
 
 ## What this site is
 
-riceandprotein.com is a weight loss and recipe blog by a 36-year-old Malaysian guy who went from 120kg to 80kg. No gimmicks, no supplements, no keto. Just calories in vs calories out — made sustainable through volume eating.
+riceandprotein.com is a weight loss and recipe blog by a 36-year-old Malaysian guy who went from 128kg to 86kg (and now maintains around 92kg). No gimmicks, no supplements, no keto. Just calories in vs calories out — made sustainable through volume eating.
 
 The whole point: you don't have to starve. You just have to be smart about what you eat.
 
@@ -114,7 +114,7 @@ Write like the owner talks to his friend at the mamak. Casual, direct, slightly 
 * Swears occasionally — "damn", "wtf", "shiok" — keep it mild, not every sentence
 * Uses lah, bah, kan, bro, liao, oso naturally — not forced, max 2-3 per post
 * Educational but never preachy
-* Self-deprecating about his own fat journey ("yes i was 120kg, don't judge")
+* Self-deprecating about his own fat journey ("yes i was 128kg, don't judge")
 * Real numbers always: actual calories, actual weights, actual prices
 
 **Tone test — ask yourself:** does this sound like a guy explaining something to his friend at mamak, or does it sound like a health blog? If it sounds like a health blog, rewrite it.
@@ -184,7 +184,7 @@ Never write like the bad example. Ever.
 5. I ate KFC regularly and still lost the weight
 6. Motivation vs discipline — motivation is a lie
 7. Why keto sucks in Asia
-8. 120kg to 80kg — my full journey
+8. 128kg to 86kg — my full journey
 
 \---
 

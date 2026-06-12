@@ -4,7 +4,7 @@
 
 ## Who writes this
 
-Rice and Protein is written by a Malaysian who lost 40kg (120kg to 80kg) using calorie counting and volume eating. The calorie data for Malaysian hawker food is sourced from HPB Singapore, the Malaysian Nutrient Database (MyNutri), USDA FoodData Central, and Open Food Facts, with product-level verification where possible.
+Rice and Protein is written by a Malaysian who lost over 40kg (128kg to 86kg, now maintaining around 92kg) using calorie counting and volume eating. The calorie data for Malaysian hawker food is sourced from HPB Singapore, the Malaysian Nutrient Database (MyNutri), USDA FoodData Central, and Open Food Facts, with product-level verification where possible.
 
 ## Core philosophy
 

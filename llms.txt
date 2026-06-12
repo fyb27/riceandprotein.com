@@ -59,6 +59,7 @@ Browse the full list at the hub. Categories: rice, noodles, mamak, soup, lauk, v
 
 ## Blog posts
 
+- [128kg to 86kg: How I Actually Lost the Weight](https://riceandprotein.com/posts/128kg-to-86kg-my-journey.html): The author's full weight-loss story. Heaviest 128kg, dropped to 86kg, now maintains ~92kg. No keto, no supplements. Ate 2,200 kcal/day, weighed food, tracked in MyFitnessPal, lifted heavy 3 to 4x per week, volume eating. The E-E-A-T anchor post for the whole site.
 - [Malaysian Drinks Calorie Guide](https://riceandprotein.com/posts/malaysian-drinks-calorie-guide.html): Teh tarik 128 kcal. Milo dinosaur 250 kcal. Air bandung 185 kcal. Every mamak and kopitiam drink with exact calories and condensed milk breakdowns.
 - [How Many Calories is Nasi Lemak?](https://riceandprotein.com/posts/how-many-calories-nasi-lemak.html): Standard bungkus 556 kcal. Kopitiam plate with ayam goreng and teh tarik 1,234 kcal. Every component weighed and counted.
 - [How Many Calories is Roti Canai?](https://riceandprotein.com/posts/how-many-calories-roti-canai.html): Roti kosong 300 kcal. Full mamak order with curry and teh tarik breakdown.

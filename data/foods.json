@@ -18685,7 +18685,8 @@
         "xiao-long-bao",
         "steamed-pork-ribs"
       ],
-      "deepPost": "posts/dim-sum-calories.html"
+      "deepPost": "posts/dim-sum-calories.html",
+      "deepPostLabel": "Read the full dim sum calorie guide: what to order and skip"
     },
     {
       "slug": "siew-mai",
@@ -18759,7 +18760,8 @@
         "xiao-long-bao",
         "char-siew-bao"
       ],
-      "deepPost": "posts/dim-sum-calories.html"
+      "deepPost": "posts/dim-sum-calories.html",
+      "deepPostLabel": "Read the full dim sum calorie guide: what to order and skip"
     },
     {
       "slug": "lo-mai-kai",
@@ -18838,7 +18840,8 @@
         "char-siew-rice",
         "siew-mai"
       ],
-      "deepPost": "posts/dim-sum-calories.html"
+      "deepPost": "posts/dim-sum-calories.html",
+      "deepPostLabel": "Read the full dim sum calorie guide: what to order and skip"
     },
     {
       "slug": "char-siew-bao",
@@ -18912,7 +18915,8 @@
         "char-siew-rice",
         "liu-sha-bao"
       ],
-      "deepPost": "posts/dim-sum-calories.html"
+      "deepPost": "posts/dim-sum-calories.html",
+      "deepPostLabel": "Read the full dim sum calorie guide: what to order and skip"
     },
     {
       "slug": "fried-wonton",
@@ -18981,7 +18985,8 @@
         "wu-kok",
         "siew-mai"
       ],
-      "deepPost": "posts/dim-sum-calories.html"
+      "deepPost": "posts/dim-sum-calories.html",
+      "deepPostLabel": "Read the full dim sum calorie guide: what to order and skip"
     },
     {
       "slug": "lo-bak-go",
@@ -19055,7 +19060,8 @@
         "har-gao",
         "spring-rolls"
       ],
-      "deepPost": "posts/dim-sum-calories.html"
+      "deepPost": "posts/dim-sum-calories.html",
+      "deepPostLabel": "Read the full dim sum calorie guide: what to order and skip"
     },
     {
       "slug": "wu-kok",
@@ -19124,7 +19130,8 @@
         "spring-rolls",
         "fried-wonton"
       ],
-      "deepPost": "posts/dim-sum-calories.html"
+      "deepPost": "posts/dim-sum-calories.html",
+      "deepPostLabel": "Read the full dim sum calorie guide: what to order and skip"
     },
     {
       "slug": "liu-sha-bao",
@@ -19193,7 +19200,8 @@
         "lo-mai-kai",
         "siew-mai"
       ],
-      "deepPost": "posts/dim-sum-calories.html"
+      "deepPost": "posts/dim-sum-calories.html",
+      "deepPostLabel": "Read the full dim sum calorie guide: what to order and skip"
     },
     {
       "slug": "xiao-long-bao",
@@ -19267,7 +19275,8 @@
         "siew-mai",
         "steamed-pork-ribs"
       ],
-      "deepPost": "posts/dim-sum-calories.html"
+      "deepPost": "posts/dim-sum-calories.html",
+      "deepPostLabel": "Read the full dim sum calorie guide: what to order and skip"
     },
     {
       "slug": "chicken-feet",
@@ -19336,7 +19345,8 @@
         "siew-mai",
         "har-gao"
       ],
-      "deepPost": "posts/dim-sum-calories.html"
+      "deepPost": "posts/dim-sum-calories.html",
+      "deepPostLabel": "Read the full dim sum calorie guide: what to order and skip"
     },
     {
       "slug": "spring-rolls",
@@ -19405,7 +19415,8 @@
         "popiah",
         "lo-bak-go"
       ],
-      "deepPost": "posts/dim-sum-calories.html"
+      "deepPost": "posts/dim-sum-calories.html",
+      "deepPostLabel": "Read the full dim sum calorie guide: what to order and skip"
     },
     {
       "slug": "steamed-pork-ribs",
@@ -19474,7 +19485,8 @@
         "chicken-feet",
         "xiao-long-bao"
       ],
-      "deepPost": "posts/dim-sum-calories.html"
+      "deepPost": "posts/dim-sum-calories.html",
+      "deepPostLabel": "Read the full dim sum calorie guide: what to order and skip"
     },
     {
       "slug": "bubble-tea",
@@ -23489,7 +23501,8 @@
         "nasi-paprik",
         "chicken-rice"
       ],
-      "deepPost": "posts/economy-rice-calories.html"
+      "deepPost": "posts/economy-rice-calories.html",
+      "deepPostLabel": "Read the full guide: build a 500 or 900 calorie nasi campur plate"
     },
     {
       "slug": "yong-chow-fried-rice",

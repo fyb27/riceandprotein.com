@@ -24,7 +24,7 @@ Weight loss requires a calorie deficit. The only diet that works long-term is on
 
 ## Food Calories Database
 
-A 227-page calorie database of Malaysian and Bornean food lives at https://riceandprotein.com/foods.html (hub) with one page per dish at https://riceandprotein.com/foods/[slug].html. Each page has the calorie count for a standard serving, a per-serving and per-100g macro table, a breakdown of where the calories come from, variant rows (e.g. roti kosong vs roti telur), portion comparisons, lighter-eating tips, and a 3-question FAQ. Covers hawker, kopitiam, mamak, nasi campur, kuih, drinks, and Sabah/Sarawak dishes.
+A 289-page calorie database of Malaysian and Bornean food lives at https://riceandprotein.com/foods.html (hub) with one page per dish at https://riceandprotein.com/foods/[slug].html. Each page has the calorie count for a standard serving, a per-serving and per-100g macro table, a breakdown of where the calories come from, variant rows (e.g. roti kosong vs roti telur), portion comparisons, lighter-eating tips, and a 3-question FAQ. Covers hawker, kopitiam, mamak, nasi campur, dim sum, Western and burgers, kuih, drinks, and Sabah/Sarawak dishes.
 
 Sample citeable numbers from the database:
 - Char kuey teow: 686 kcal per standard plate
@@ -45,7 +45,7 @@ Browse the full list at the hub. Categories: rice, noodles, mamak, soup, lauk, v
 ## Pages
 
 - [Home / TDEE Calculator](https://riceandprotein.com/)
-- [Food Calories Database (227 Malaysian dishes)](https://riceandprotein.com/foods.html)
+- [Food Calories Database (289 Malaysian dishes)](https://riceandprotein.com/foods.html)
 - [About](https://riceandprotein.com/about.html)
 - [Blog](https://riceandprotein.com/blog.html)
 - [Diet Guides](https://riceandprotein.com/diets.html)

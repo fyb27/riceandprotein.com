@@ -278,6 +278,19 @@ function leafSchema(food, url) {
         name: f.q,
         acceptedAnswer: { '@type': 'Answer', text: f.a }
       }))
+    },
+    {
+      '@type': 'MenuItem',
+      '@id': url + '#item',
+      name: food.name,
+      nutrition: {
+        '@type': 'NutritionInformation',
+        servingSize: food.serving + ' (' + food.servingGrams + 'g)',
+        calories: food.calories + ' calories',
+        proteinContent: food.protein + ' g',
+        carbohydrateContent: food.carbs + ' g',
+        fatContent: food.fat + ' g'
+      }
     }
   ];
   return JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }, null, 2);
@@ -313,7 +326,7 @@ function buildLeaf(food) {
     ? `    <div class="food-section">
       <a class="deep-link" href="../${food.deepPost}">
         <div class="deep-link__label">Go Deeper</div>
-        <div class="deep-link__text">Read the full breakdown: How Many Calories is ${esc(food.name)}? &rarr;</div>
+        <div class="deep-link__text">${esc(food.deepPostLabel || ('Read the full breakdown: How Many Calories is ' + food.name + '?'))} &rarr;</div>
       </a>
     </div>\n`
     : '';
@@ -603,6 +616,32 @@ ${header('')}
     </div>
 
 ${sections}
+
+      <section style="margin-top:24px; padding-top:36px; border-top:1.5px solid var(--border);">
+        <h2 class="cat-title">Keep reading</h2>
+        <div class="food-grid">
+          <a class="food-card" href="posts/dim-sum-calories.html">
+            <div class="food-card__cal" style="font-size:13px; letter-spacing:1px; text-transform:uppercase; color:var(--accent);">Guide</div>
+            <div class="food-card__name">How many calories in dim sum?</div>
+            <div class="food-card__serving">What to order and what to skip at yum cha</div>
+          </a>
+          <a class="food-card" href="posts/economy-rice-calories.html">
+            <div class="food-card__cal" style="font-size:13px; letter-spacing:1px; text-transform:uppercase; color:var(--accent);">Guide</div>
+            <div class="food-card__name">Nasi campur: 500 vs 900 kcal plate</div>
+            <div class="food-card__serving">Build a lean economy rice plate from the same stall</div>
+          </a>
+          <a class="food-card" href="posts/128kg-to-86kg-my-journey.html">
+            <div class="food-card__cal" style="font-size:13px; letter-spacing:1px; text-transform:uppercase; color:var(--accent);">Story</div>
+            <div class="food-card__name">128kg to 86kg: my journey</div>
+            <div class="food-card__serving">How I lost the weight without cutting the food I love</div>
+          </a>
+          <a class="food-card" href="diets.html">
+            <div class="food-card__cal" style="font-size:13px; letter-spacing:1px; text-transform:uppercase; color:var(--accent);">Diets</div>
+            <div class="food-card__name">Which diet actually works?</div>
+            <div class="food-card__serving">Keto, IF, CICO, volume eating, compared honestly</div>
+          </a>
+        </div>
+      </section>
   </div>
 
 ${footer('')}

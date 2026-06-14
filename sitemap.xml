@@ -142,6 +142,21 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://riceandprotein.com/posts/dim-sum-calories.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://riceandprotein.com/posts/economy-rice-calories.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+
   <!-- foods:start -->
   <url>
     <loc>https://riceandprotein.com/foods.html</loc>

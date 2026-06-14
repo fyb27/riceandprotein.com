@@ -9,6 +9,7 @@
     "lauk": "Meat, Grills & Lauk",
     "veg": "Vegetables & Sides",
     "snacks": "Snacks & Kuih",
+    "western": "Western & Burgers",
     "drinks": "Drinks",
     "dessert": "Desserts"
   },
@@ -19461,6 +19462,4485 @@
         "siew-mai",
         "chicken-feet",
         "xiao-long-bao"
+      ]
+    },
+    {
+      "slug": "bubble-tea",
+      "name": "Bubble Tea (Pearl Milk Tea)",
+      "category": "drinks",
+      "serving": "1 medium (500ml)",
+      "servingGrams": 500,
+      "calories": 380,
+      "protein": 5,
+      "carbs": 70,
+      "fat": 9,
+      "metaDescription": "A medium bubble tea is around 380 calories, mostly from the pearls and sugar. Here is the breakdown and how to order it lighter.",
+      "summary": "Milk tea plus chewy tapioca pearls and a lot of sugar, easily 380 calories a cup.",
+      "answer": "A medium 500ml bubble tea with full sugar and pearls lands around 380 calories. The pearls alone are about 150 of that, and the sugar syrup adds another 150 or so before the milk and creamer even come in. Push it to a large with extra toppings and you are at 500 plus.",
+      "realTalk": [
+        "Bro, bubble tea is not a drink, it is a dessert you sip through a fat straw. The tea part is almost nothing. It is the pearls and the sugar that do all the damage. Those chewy pearls are pure starch soaked in syrup, so a normal scoop is 150 calories just sitting at the bottom of your cup.",
+        "Then they ask you sugar level and most people just say normal, which is full sugar lah. Full sugar plus pearls plus non dairy creamer and you drank a small meal. One a day, every day, that is 2660 calories a week you did not chew. No wonder the weight does not move."
+      ],
+      "lighter": [
+        "Order 30 percent sugar or less, the tea still tastes sweet trust me",
+        "Skip the pearls or swap to grass jelly, saves you 100 plus calories",
+        "Go small instead of large, that alone cuts off 100 to 150 calories"
+      ],
+      "components": [
+        {
+          "name": "Tea base + milk/creamer",
+          "grams": 350,
+          "calories": 90
+        },
+        {
+          "name": "Tapioca pearls",
+          "grams": 100,
+          "calories": 150
+        },
+        {
+          "name": "Sugar syrup",
+          "grams": 40,
+          "calories": 140
+        }
+      ],
+      "portions": [
+        {
+          "label": "Small, 30% sugar, no pearls",
+          "calories": 150
+        },
+        {
+          "label": "Medium standard",
+          "calories": 380
+        },
+        {
+          "label": "Large, full sugar, extra pearls",
+          "calories": 520
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in a bubble tea?",
+          "a": "A medium 500ml with pearls and full sugar is around 380 calories. Small with less sugar can drop to 150, large with extra toppings climbs past 500."
+        },
+        {
+          "q": "Are the pearls the worst part?",
+          "a": "Pretty much. The tapioca pearls add about 150 calories on their own, all starch. Cut the pearls and you cut the biggest chunk."
+        },
+        {
+          "q": "Can I drink bubble tea and still lose weight?",
+          "a": "Yes, if you fit it in your budget. Go small, 30 percent sugar, no pearls and it is just a treat, not a meal you drank by accident."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Small, 30% sugar, no pearls",
+          "calories": 150,
+          "note": "The damage-control order"
+        },
+        {
+          "name": "Medium, standard pearls",
+          "calories": 380,
+          "note": "Most common order"
+        },
+        {
+          "name": "Large, full sugar, extra pearls",
+          "calories": 520,
+          "note": "Basically a dessert"
+        },
+        {
+          "name": "With brown sugar boba",
+          "calories": 450,
+          "note": "Brown sugar syrup adds more"
+        }
+      ],
+      "related": [
+        "milo-dinosaur",
+        "soya-cincau",
+        "teh-ais"
+      ]
+    },
+    {
+      "slug": "milo-dinosaur",
+      "name": "Milo Dinosaur",
+      "category": "drinks",
+      "serving": "1 glass",
+      "servingGrams": 350,
+      "calories": 340,
+      "protein": 7,
+      "carbs": 52,
+      "fat": 11,
+      "metaDescription": "A Milo Dinosaur is roughly 340 calories, more sugar than a can of Coke. Here is what is inside and how to make it lighter.",
+      "summary": "Iced Milo with condensed milk and a heap of dry Milo dumped on top, about 340 calories.",
+      "answer": "A Milo Dinosaur runs around 340 calories a glass, sometimes more depending on how heavy the hand was with the condensed milk. The base iced Milo is already sweet, then they pile undissolved Milo powder on top, which is just more sugar and malt. That heap alone can be 50 to 80 calories of pure powder.",
+      "realTalk": [
+        "Milo Dinosaur is iced Milo that got greedy. Normal Milo ais is already milky and sweet, then someone decided to bury it under a small mountain of dry Milo powder. That powder is not free, bro. It is sugar and malt, and the heap on top can add 60 odd calories before it even melts into your drink.",
+        "People think because it is Milo it is healthy, like some sports drink. Nah. With condensed milk it can hit 40 to 50 grams of sugar, more than a can of Coke. It is a tasty treat, no shame, but treat it like dessert, not a daily energy boost."
+      ],
+      "lighter": [
+        "Ask for less condensed milk, that is where most of the calories hide",
+        "Skip the dry Milo topping, saves you 50 to 80 calories instantly",
+        "Use evaporated milk instead of condensed, lighter but still creamy"
+      ],
+      "components": [
+        {
+          "name": "Milo powder (mixed in)",
+          "grams": 30,
+          "calories": 115
+        },
+        {
+          "name": "Condensed milk",
+          "grams": 35,
+          "calories": 105
+        },
+        {
+          "name": "Dry Milo topping",
+          "grams": 20,
+          "calories": 75
+        },
+        {
+          "name": "Ice + water",
+          "grams": 250,
+          "calories": 5
+        }
+      ],
+      "portions": [
+        {
+          "label": "Milo ais, less sweet",
+          "calories": 180
+        },
+        {
+          "label": "Standard Milo Dinosaur",
+          "calories": 340
+        },
+        {
+          "label": "Milo Godzilla (with ice cream)",
+          "calories": 480
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in a Milo Dinosaur?",
+          "a": "Around 340 calories a glass. The dry Milo heap and the condensed milk are the heavy hitters."
+        },
+        {
+          "q": "Is Milo Dinosaur healthy?",
+          "a": "Not really. It is tasty but it can carry more sugar than a can of Coke. Drink it as a treat, not a daily thing."
+        },
+        {
+          "q": "What is the difference between Milo ais and Milo Dinosaur?",
+          "a": "Milo ais is just iced Milo. The Dinosaur adds a big heap of undissolved Milo powder on top, which is extra sugar and calories."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Milo ais (plain iced)",
+          "calories": 200,
+          "note": "No powder topping"
+        },
+        {
+          "name": "Milo Dinosaur (standard)",
+          "calories": 340,
+          "note": "Powder heap on top"
+        },
+        {
+          "name": "Milo Godzilla",
+          "calories": 480,
+          "note": "Adds ice cream"
+        },
+        {
+          "name": "Milo ais, less sweet",
+          "calories": 180,
+          "note": "Cut the condensed milk"
+        }
+      ],
+      "related": [
+        "neslo",
+        "horlicks-ais",
+        "bubble-tea"
+      ]
+    },
+    {
+      "slug": "kopi-o",
+      "name": "Kopi O",
+      "category": "drinks",
+      "serving": "1 glass",
+      "servingGrams": 250,
+      "calories": 60,
+      "protein": 0,
+      "carbs": 15,
+      "fat": 0,
+      "metaDescription": "Kopi O is only about 60 calories, all from the sugar. Here is why it is one of the lightest drinks at the kopitiam.",
+      "summary": "Black coffee with sugar, no milk, so it is only about 60 calories from the sugar.",
+      "answer": "Kopi O is black coffee with sugar and no milk, so it clocks in at roughly 60 calories a glass, all from the sugar they stir in. The coffee itself is basically zero. Order it kosong with no sugar and you are looking at 5 calories, basically free.",
+      "realTalk": [
+        "Kopi O is one of the few kopitiam drinks that will not wreck you. No milk, no condensed milk, just black coffee and some sugar. That sugar is the only thing adding calories, around 55 to 60 of them, and you can kill even that by ordering kosong.",
+        "This is the move if you love your kopitiam habit but want to keep the calories tiny. Compare kopi O at 60 calories to a normal kopi with condensed milk at 140 plus. Same caffeine hit, less than half the damage. Easy swap lah."
+      ],
+      "lighter": [
+        "Order kopi O kosong (no sugar) and it drops to about 5 calories",
+        "Ask for kurang manis (less sweet) to halve the sugar",
+        "Drink it hot instead of iced, you tend to sip slower and order less sugar"
+      ],
+      "components": [
+        {
+          "name": "Black coffee",
+          "grams": 230,
+          "calories": 5
+        },
+        {
+          "name": "Sugar",
+          "grams": 14,
+          "calories": 55
+        }
+      ],
+      "portions": [
+        {
+          "label": "Kopi O kosong (no sugar)",
+          "calories": 5
+        },
+        {
+          "label": "Kopi O standard",
+          "calories": 60
+        },
+        {
+          "label": "Kopi O extra sweet",
+          "calories": 95
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in kopi O?",
+          "a": "About 60 calories a glass, almost all of it from the sugar. Kosong with no sugar is just 5."
+        },
+        {
+          "q": "Is kopi O good for weight loss?",
+          "a": "Yes, it is one of the lightest drinks at the kopitiam. No milk means almost no calories beyond the sugar you add."
+        },
+        {
+          "q": "What is the difference between kopi O and kopi C?",
+          "a": "Kopi O is black with sugar, no milk, around 60 calories. Kopi C adds evaporated milk and lands closer to 110."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Kopi O kosong",
+          "calories": 5,
+          "note": "No sugar at all"
+        },
+        {
+          "name": "Kopi O kurang manis",
+          "calories": 35,
+          "note": "Less sweet"
+        },
+        {
+          "name": "Kopi O standard",
+          "calories": 60,
+          "note": "Normal sugar"
+        },
+        {
+          "name": "Kopi C",
+          "calories": 110,
+          "note": "With evaporated milk"
+        }
+      ],
+      "related": [
+        "teh-ais",
+        "teh-c",
+        "neslo"
+      ]
+    },
+    {
+      "slug": "teh-ais",
+      "name": "Teh Ais",
+      "category": "drinks",
+      "serving": "1 glass",
+      "servingGrams": 300,
+      "calories": 150,
+      "protein": 3,
+      "carbs": 28,
+      "fat": 3,
+      "metaDescription": "A glass of teh ais is about 150 calories. Here is where the sugar hides and how to order it lighter.",
+      "summary": "Iced milk tea with condensed milk and sugar, around 150 calories a glass.",
+      "answer": "A standard glass of teh ais is about 150 calories. The tea is nothing, but the condensed milk and added sugar do all the work, easily 120 of those calories combined. Order it teh o ais (no milk) and it drops to around 60.",
+      "realTalk": [
+        "Bro that teh ais you order without thinking? Condensed milk plus sugar, that is 150 calories of pure sweet before you even touch food. The tea leaves contribute basically nothing, it is the sweetened condensed milk that turns it into a calorie drink.",
+        "Three teh ais a day is a meal you drank by accident, around 450 calories you did not even chew. If you are trying to lose weight and cannot figure out why it is stuck, count your drinks first. Most people are shocked when they add it up."
+      ],
+      "lighter": [
+        "Order teh o ais (no milk) to cut about 90 calories",
+        "Ask for kurang manis to slash the sugar",
+        "Switch to teh o ais limau, lime tea with sugar only, light and refreshing"
+      ],
+      "components": [
+        {
+          "name": "Tea",
+          "grams": 200,
+          "calories": 5
+        },
+        {
+          "name": "Condensed milk",
+          "grams": 40,
+          "calories": 120
+        },
+        {
+          "name": "Sugar",
+          "grams": 8,
+          "calories": 25
+        }
+      ],
+      "portions": [
+        {
+          "label": "Teh o ais (no milk)",
+          "calories": 60
+        },
+        {
+          "label": "Standard glass",
+          "calories": 150
+        },
+        {
+          "label": "Large / extra sweet",
+          "calories": 230
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in teh ais?",
+          "a": "About 150 calories a standard glass, mostly from condensed milk and sugar."
+        },
+        {
+          "q": "Is teh ais bad for weight loss?",
+          "a": "Not on its own, but two or three a day adds up to a hidden meal. Watch the count or switch to teh o ais."
+        },
+        {
+          "q": "Is teh o ais lighter?",
+          "a": "Yes, much. No condensed milk means around 60 calories instead of 150."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Teh O Ais",
+          "calories": 60,
+          "note": "No milk, sugar only"
+        },
+        {
+          "name": "Teh C Ais",
+          "calories": 130,
+          "note": "Evaporated milk"
+        },
+        {
+          "name": "Teh Ais (standard)",
+          "calories": 150,
+          "note": "Condensed milk"
+        },
+        {
+          "name": "Teh O Ais kosong",
+          "calories": 5,
+          "note": "No milk, no sugar"
+        }
+      ],
+      "related": [
+        "teh-c",
+        "kopi-o",
+        "milo-dinosaur"
+      ]
+    },
+    {
+      "slug": "teh-c",
+      "name": "Teh C",
+      "category": "drinks",
+      "serving": "1 glass",
+      "servingGrams": 300,
+      "calories": 130,
+      "protein": 4,
+      "carbs": 22,
+      "fat": 3,
+      "metaDescription": "Teh C is around 130 calories, made with evaporated milk and sugar. Here is how it compares to teh ais and how to lighten it.",
+      "summary": "Tea with evaporated milk and sugar, about 130 calories, slightly lighter than teh ais.",
+      "answer": "Teh C is tea made with evaporated milk instead of condensed, plus sugar, landing around 130 calories a glass. The evaporated milk is unsweetened, so the sweetness comes from the sugar they add separately. That makes it a touch lighter than teh ais if you control the sugar.",
+      "realTalk": [
+        "Teh C is the tea with evaporated milk, the C is for Carnation, the old milk brand. Because the milk is unsweetened, you have more control here. The sugar is added on the side, so kurang manis actually makes a real dent, unlike condensed milk where the sweet is baked in.",
+        "Standard teh C is about 130 calories, so a little lighter than teh ais. Not a huge difference, but if you drink a few a day it adds up in your favour. Order it kosong, just tea and evaporated milk with no sugar, and you are down around 70."
+      ],
+      "lighter": [
+        "Order kurang manis, the sugar is added separately so this really helps",
+        "Go kosong (no sugar) and rely on the milk for body, around 70 calories",
+        "Switch to teh o limau for a sugar-only lime tea that feels lighter"
+      ],
+      "components": [
+        {
+          "name": "Tea",
+          "grams": 200,
+          "calories": 5
+        },
+        {
+          "name": "Evaporated milk",
+          "grams": 40,
+          "calories": 50
+        },
+        {
+          "name": "Sugar",
+          "grams": 18,
+          "calories": 70
+        }
+      ],
+      "portions": [
+        {
+          "label": "Teh C kosong (no sugar)",
+          "calories": 70
+        },
+        {
+          "label": "Teh C standard",
+          "calories": 130
+        },
+        {
+          "label": "Teh C extra sweet",
+          "calories": 190
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in teh C?",
+          "a": "Around 130 calories a glass with sugar. Kosong (no sugar) drops to about 70."
+        },
+        {
+          "q": "Is teh C healthier than teh ais?",
+          "a": "Slightly. Evaporated milk is unsweetened, so you control the sugar yourself. Order kurang manis and it beats teh ais."
+        },
+        {
+          "q": "What does the C in teh C mean?",
+          "a": "It stands for Carnation, the evaporated milk brand. Teh C is tea with evaporated milk."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Teh C kosong",
+          "calories": 70,
+          "note": "No sugar"
+        },
+        {
+          "name": "Teh C kurang manis",
+          "calories": 100,
+          "note": "Less sweet"
+        },
+        {
+          "name": "Teh C standard",
+          "calories": 130,
+          "note": "Normal sugar"
+        },
+        {
+          "name": "Teh C Peng Special",
+          "calories": 200,
+          "note": "Three layer with gula melaka"
+        }
+      ],
+      "related": [
+        "teh-ais",
+        "three-layer-tea",
+        "kopi-o"
+      ]
+    },
+    {
+      "slug": "soya-cincau",
+      "name": "Soya Cincau (Michael Jackson)",
+      "category": "drinks",
+      "serving": "1 glass",
+      "servingGrams": 350,
+      "calories": 200,
+      "protein": 6,
+      "carbs": 34,
+      "fat": 5,
+      "metaDescription": "Soya cincau, the Michael Jackson drink, is around 200 calories. Here is what is inside and how to keep it light.",
+      "summary": "Sweet soya milk with grass jelly, the black-and-white Michael Jackson, about 200 calories.",
+      "answer": "Soya cincau, nicknamed Michael Jackson for the black grass jelly in white soya milk, runs around 200 calories a glass. The soya milk is usually sweetened and the grass jelly comes with sugar syrup, so most of the calories are sugar. The soya itself gives you a little protein, around 6 grams.",
+      "realTalk": [
+        "Michael Jackson, black and white, get it? Grass jelly sitting in soya milk. It sounds healthy because soya, but the soya milk at most stalls is sweetened heavily and the cincau is soaked in sugar syrup. So you are drinking maybe 30 grams of sugar in a glass.",
+        "It is not the worst choice lah, at least you get a bit of protein from the soya, around 6 grams. But do not kid yourself that it is a health drink. Ask for the unsweetened soya version if they have it and you cut a big chunk of the calories straight away."
+      ],
+      "lighter": [
+        "Ask for unsweetened or less-sweet soya milk if available",
+        "Order it without extra sugar syrup on the cincau",
+        "Have it as a snack replacement, not on top of a full meal"
+      ],
+      "components": [
+        {
+          "name": "Soya milk (sweetened)",
+          "grams": 250,
+          "calories": 140
+        },
+        {
+          "name": "Grass jelly (cincau)",
+          "grams": 80,
+          "calories": 40
+        },
+        {
+          "name": "Sugar syrup",
+          "grams": 15,
+          "calories": 20
+        }
+      ],
+      "portions": [
+        {
+          "label": "Unsweetened soya + cincau",
+          "calories": 110
+        },
+        {
+          "label": "Standard glass",
+          "calories": 200
+        },
+        {
+          "label": "Large / extra sweet",
+          "calories": 280
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in soya cincau?",
+          "a": "About 200 calories a glass. Most of it is sugar from the sweetened soya and the cincau syrup."
+        },
+        {
+          "q": "Why is it called Michael Jackson?",
+          "a": "Because of the look, black grass jelly in white soya milk. Black and white, get it."
+        },
+        {
+          "q": "Is soya cincau healthy?",
+          "a": "It has a little protein from the soya, but it is usually loaded with sugar. Order unsweetened soya to make it genuinely lighter."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Soya kosong + cincau",
+          "calories": 110,
+          "note": "Unsweetened soya"
+        },
+        {
+          "name": "Soya cincau standard",
+          "calories": 200,
+          "note": "Sweetened"
+        },
+        {
+          "name": "Soya cincau large",
+          "calories": 280,
+          "note": "Bigger glass, extra sweet"
+        }
+      ],
+      "related": [
+        "bubble-tea",
+        "limau-ais",
+        "teh-ais"
+      ]
+    },
+    {
+      "slug": "limau-ais",
+      "name": "Limau Ais",
+      "category": "drinks",
+      "serving": "1 glass",
+      "servingGrams": 300,
+      "calories": 100,
+      "protein": 0,
+      "carbs": 25,
+      "fat": 0,
+      "metaDescription": "Limau ais is about 100 calories, all from sugar since there is no milk. Here is how to order it even lighter.",
+      "summary": "Iced lime juice with sugar, no milk, around 100 calories from the sugar.",
+      "answer": "Limau ais is iced lime with sugar, around 100 calories a glass, every one of them from the sugar syrup. There is no milk and no fat, so it is genuinely one of the lighter mamak drinks. Ask for less sugar and it drops fast.",
+      "realTalk": [
+        "Limau ais is just lime, water, ice and sugar. No milk, no cream, nothing fatty. The only calories come from the sugar syrup they squeeze in, around 100 worth. Compared to a teh ais or a Milo, this is a featherweight.",
+        "The catch is some stalls go heavy on the sugar to balance the sour, so it can creep higher than you think. Just say kurang manis. The lime keeps it refreshing even with way less sugar, so you barely notice the difference."
+      ],
+      "lighter": [
+        "Order kurang manis, the lime still tastes great with half the sugar",
+        "Ask for plain lime soda water with a tiny bit of sugar instead",
+        "Skip the sugar fully for limau ais kosong, basically 10 calories"
+      ],
+      "components": [
+        {
+          "name": "Lime juice + water",
+          "grams": 270,
+          "calories": 15
+        },
+        {
+          "name": "Sugar syrup",
+          "grams": 22,
+          "calories": 85
+        }
+      ],
+      "portions": [
+        {
+          "label": "Kurang manis",
+          "calories": 55
+        },
+        {
+          "label": "Standard glass",
+          "calories": 100
+        },
+        {
+          "label": "Extra sweet",
+          "calories": 150
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in limau ais?",
+          "a": "About 100 calories a glass, all from the sugar. No milk means no fat calories."
+        },
+        {
+          "q": "Is limau ais good for dieting?",
+          "a": "Yes, it is one of the lighter mamak drinks. Order kurang manis and it is barely 55 calories."
+        },
+        {
+          "q": "Is limau ais just lime juice?",
+          "a": "Lime juice, water, ice and sugar. The sugar is the only real calorie source."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Limau ais kosong",
+          "calories": 10,
+          "note": "No sugar"
+        },
+        {
+          "name": "Limau ais kurang manis",
+          "calories": 55,
+          "note": "Less sweet"
+        },
+        {
+          "name": "Limau ais standard",
+          "calories": 100,
+          "note": "Normal sugar"
+        },
+        {
+          "name": "Limau asam boi",
+          "calories": 110,
+          "note": "With sour plum"
+        }
+      ],
+      "related": [
+        "asam-boi",
+        "jus-tembikai",
+        "teh-krisan"
+      ]
+    },
+    {
+      "slug": "jus-tembikai",
+      "name": "Jus Tembikai (Watermelon Juice)",
+      "category": "drinks",
+      "serving": "1 glass",
+      "servingGrams": 350,
+      "calories": 130,
+      "protein": 2,
+      "carbs": 31,
+      "fat": 0,
+      "metaDescription": "Watermelon juice is around 130 calories, more than you think once the stall adds sugar. Here is the breakdown.",
+      "summary": "Blended watermelon juice, around 130 calories, higher when the stall adds sugar syrup.",
+      "answer": "A glass of jus tembikai is roughly 130 calories. Watermelon is mostly water so plain it would be light, but most stalls add sugar syrup even though the fruit is already sweet. That added sugar is what pushes it up. Pure watermelon blended with nothing added would be closer to 90.",
+      "realTalk": [
+        "Watermelon is like 90 percent water, so you would think jus tembikai is basically free. Problem is the stall almost always adds sugar syrup, even when the fruit is already sweet enough. That habit turns a light fruit juice into a 130 calorie glass.",
+        "It is still better than a Milo Dinosaur lah, you do get actual fruit. But juicing strips the fibre, so you lose the part that keeps you full. Honestly eating a wedge of real watermelon beats drinking it, fewer calories and you actually chew something."
+      ],
+      "lighter": [
+        "Ask for no added sugar, the watermelon is sweet enough already",
+        "Request it blended with just ice, no syrup",
+        "Eat a wedge of real watermelon instead, more filling and fewer calories"
+      ],
+      "components": [
+        {
+          "name": "Watermelon (blended)",
+          "grams": 300,
+          "calories": 90
+        },
+        {
+          "name": "Sugar syrup",
+          "grams": 10,
+          "calories": 40
+        }
+      ],
+      "portions": [
+        {
+          "label": "No added sugar",
+          "calories": 90
+        },
+        {
+          "label": "Standard glass",
+          "calories": 130
+        },
+        {
+          "label": "Extra sweet",
+          "calories": 180
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in watermelon juice?",
+          "a": "About 130 calories a glass at most stalls. No added sugar version is closer to 90."
+        },
+        {
+          "q": "Is watermelon juice healthy?",
+          "a": "It has real fruit, but juicing removes the fibre and stalls add sugar. Eating the fruit is better."
+        },
+        {
+          "q": "Why does jus tembikai have so many calories?",
+          "a": "The watermelon itself is light. The added sugar syrup is what pushes it up."
+        }
+      ],
+      "variants": [
+        {
+          "name": "No added sugar",
+          "calories": 90,
+          "note": "Just blended fruit"
+        },
+        {
+          "name": "Standard glass",
+          "calories": 130,
+          "note": "With sugar syrup"
+        },
+        {
+          "name": "Extra sweet",
+          "calories": 180,
+          "note": "Heavy syrup"
+        }
+      ],
+      "related": [
+        "limau-ais",
+        "asam-boi",
+        "teh-krisan"
+      ]
+    },
+    {
+      "slug": "asam-boi",
+      "name": "Asam Boi Drink",
+      "category": "drinks",
+      "serving": "1 glass",
+      "servingGrams": 300,
+      "calories": 110,
+      "protein": 0,
+      "carbs": 28,
+      "fat": 0,
+      "metaDescription": "Asam boi drink is around 110 calories, mostly sugar despite the sour kick. Here is what is really in that glass.",
+      "summary": "Sour plum drink, usually lime plus asam boi and sugar, around 110 calories.",
+      "answer": "An asam boi drink is roughly 110 calories a glass. The sour plum and lime trick your tongue into thinking it is not sweet, but stalls add plenty of sugar to balance the sour, plus the preserved plums themselves carry sugar and salt. So the tangy taste hides a fair bit of sugar.",
+      "realTalk": [
+        "Asam boi is the sour plum drink, usually lime and water with those preserved plums dropped in. The sour really fools you, it does not taste sweet so people assume it is light. But the stall adds sugar to balance the sour bite, and the plums are preserved in sugar and salt to begin with.",
+        "So you sip something tangy and refreshing and feel virtuous, meanwhile it is around 110 calories of mostly sugar. Not a disaster, but not the diet hero you think it is. Ask for kurang manis and the asam boi flavour still comes through strong."
+      ],
+      "lighter": [
+        "Order kurang manis, the sour plum still gives plenty of flavour",
+        "Ask for fewer plums and less syrup",
+        "Add more plain water or ice to dilute the sugar hit"
+      ],
+      "components": [
+        {
+          "name": "Lime + water",
+          "grams": 250,
+          "calories": 15
+        },
+        {
+          "name": "Sugar syrup",
+          "grams": 18,
+          "calories": 70
+        },
+        {
+          "name": "Asam boi (sour plum)",
+          "grams": 15,
+          "calories": 25
+        }
+      ],
+      "portions": [
+        {
+          "label": "Kurang manis",
+          "calories": 65
+        },
+        {
+          "label": "Standard glass",
+          "calories": 110
+        },
+        {
+          "label": "Extra sweet",
+          "calories": 160
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in an asam boi drink?",
+          "a": "Around 110 calories a glass. The sour taste hides a decent amount of sugar."
+        },
+        {
+          "q": "Is asam boi drink healthy?",
+          "a": "It is light-ish but not sugar-free. The plums and added syrup carry sugar despite the sour flavour."
+        },
+        {
+          "q": "Why does asam boi taste sour but still have sugar?",
+          "a": "Stalls add sugar to balance the sour plum, so the tangy taste masks the sweetness."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Asam boi kurang manis",
+          "calories": 65,
+          "note": "Less sweet"
+        },
+        {
+          "name": "Asam boi standard",
+          "calories": 110,
+          "note": "Normal sugar"
+        },
+        {
+          "name": "Limau asam boi",
+          "calories": 115,
+          "note": "With extra lime"
+        }
+      ],
+      "related": [
+        "limau-ais",
+        "jus-tembikai",
+        "teh-krisan"
+      ]
+    },
+    {
+      "slug": "teh-krisan",
+      "name": "Chrysanthemum Tea (Teh Krisan)",
+      "category": "drinks",
+      "serving": "1 glass",
+      "servingGrams": 300,
+      "calories": 90,
+      "protein": 0,
+      "carbs": 22,
+      "fat": 0,
+      "metaDescription": "Chrysanthemum tea is about 90 calories, light unless the stall loads the sugar. Here is how to keep it clean.",
+      "summary": "Brewed chrysanthemum flower tea with sugar, around 90 calories, light if you skip the syrup.",
+      "answer": "Teh krisan, chrysanthemum tea, is around 90 calories a glass. The flower brew itself has almost no calories, so everything you are drinking is the sugar they add. Order it without sugar and it is basically a free drink, close to zero.",
+      "realTalk": [
+        "Chrysanthemum tea is one of those drinks people order thinking it is healthy, and you know what, the base actually is. It is just brewed flowers, no calories at all. The only reason it shows up at 90 calories is the sugar or rock sugar they stir in.",
+        "So this one is fully in your control. Kosong, no sugar, and you are drinking something that is genuinely close to zero calories with a nice floral taste. If you want a sweet mamak drink that will not hurt you, this is one of the smartest picks on the menu."
+      ],
+      "lighter": [
+        "Order it kosong (no sugar), drops to nearly zero calories",
+        "Ask for kurang manis if you still want a bit of sweetness",
+        "Drink it hot, you tend to need less sugar to enjoy it"
+      ],
+      "components": [
+        {
+          "name": "Chrysanthemum brew",
+          "grams": 280,
+          "calories": 5
+        },
+        {
+          "name": "Sugar / rock sugar",
+          "grams": 22,
+          "calories": 85
+        }
+      ],
+      "portions": [
+        {
+          "label": "Kosong (no sugar)",
+          "calories": 5
+        },
+        {
+          "label": "Standard glass",
+          "calories": 90
+        },
+        {
+          "label": "Extra sweet",
+          "calories": 140
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in chrysanthemum tea?",
+          "a": "About 90 calories a glass with sugar. Without sugar it is nearly zero."
+        },
+        {
+          "q": "Is chrysanthemum tea good for weight loss?",
+          "a": "Yes, the brew itself has no calories. Order it kosong and it is one of the lightest drinks around."
+        },
+        {
+          "q": "Does teh krisan have caffeine?",
+          "a": "No, it is a flower tea, not a real tea leaf, so it is naturally caffeine-free."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Teh krisan kosong",
+          "calories": 5,
+          "note": "No sugar"
+        },
+        {
+          "name": "Teh krisan kurang manis",
+          "calories": 50,
+          "note": "Less sweet"
+        },
+        {
+          "name": "Teh krisan standard",
+          "calories": 90,
+          "note": "Normal sugar"
+        }
+      ],
+      "related": [
+        "limau-ais",
+        "asam-boi",
+        "kopi-o"
+      ]
+    },
+    {
+      "slug": "neslo",
+      "name": "Neslo Ais (Nescafe + Milo)",
+      "category": "drinks",
+      "serving": "1 glass",
+      "servingGrams": 350,
+      "calories": 250,
+      "protein": 6,
+      "carbs": 38,
+      "fat": 8,
+      "metaDescription": "Neslo ais is around 250 calories, Nescafe plus Milo plus condensed milk. Here is what is in the glass.",
+      "summary": "Nescafe and Milo mixed together with condensed milk, around 250 calories.",
+      "answer": "Neslo ais is Nescafe plus Milo in one glass, usually with condensed milk, landing around 250 calories. You are basically stacking a coffee drink and a chocolate malt drink together, so the calories add up faster than either one alone. The condensed milk is the heaviest part.",
+      "realTalk": [
+        "Neslo is what happens when you cannot decide between coffee and Milo, so you order both in one glass. Nes for Nescafe, lo for Milo. Sounds genius until you realise you just combined two sweet drinks into one, plus condensed milk on top.",
+        "That stacking is why it hits around 250 calories, heavier than a plain Milo ais or a kopi. It is a tasty kaw kaw drink, no doubt, but treat it like the indulgence it is. Ask for less condensed milk and you can knock 50 odd calories off without losing the flavour."
+      ],
+      "lighter": [
+        "Ask for less condensed milk, the biggest calorie cut",
+        "Order it kurang manis to control the sugar",
+        "Use evaporated milk instead of condensed for a lighter version"
+      ],
+      "components": [
+        {
+          "name": "Milo powder",
+          "grams": 20,
+          "calories": 75
+        },
+        {
+          "name": "Nescafe",
+          "grams": 5,
+          "calories": 10
+        },
+        {
+          "name": "Condensed milk",
+          "grams": 40,
+          "calories": 120
+        },
+        {
+          "name": "Sugar",
+          "grams": 10,
+          "calories": 40
+        }
+      ],
+      "portions": [
+        {
+          "label": "Less condensed milk",
+          "calories": 190
+        },
+        {
+          "label": "Standard glass",
+          "calories": 250
+        },
+        {
+          "label": "Extra sweet / kaw",
+          "calories": 320
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in neslo ais?",
+          "a": "Around 250 calories a glass. Combining Nescafe and Milo with condensed milk stacks it up."
+        },
+        {
+          "q": "What is neslo?",
+          "a": "Nescafe plus Milo mixed in one glass. Nes from Nescafe, lo from Milo."
+        },
+        {
+          "q": "Is neslo worse than Milo ais?",
+          "a": "A bit heavier, since you add coffee and often more condensed milk. Around 250 versus 200 for plain Milo ais."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Neslo, less condensed milk",
+          "calories": 190,
+          "note": "Lighter version"
+        },
+        {
+          "name": "Neslo ais standard",
+          "calories": 250,
+          "note": "With condensed milk"
+        },
+        {
+          "name": "Neslo kaw (extra strong)",
+          "calories": 320,
+          "note": "More powder and milk"
+        }
+      ],
+      "related": [
+        "milo-dinosaur",
+        "kopi-o",
+        "horlicks-ais"
+      ]
+    },
+    {
+      "slug": "three-layer-tea",
+      "name": "Three Layer Tea (Teh C Peng Special)",
+      "category": "drinks",
+      "serving": "1 glass",
+      "servingGrams": 350,
+      "calories": 210,
+      "protein": 4,
+      "carbs": 38,
+      "fat": 4,
+      "metaDescription": "Three layer tea is around 210 calories, that gula melaka bottom layer is pure sugar. Here is the breakdown.",
+      "summary": "Teh C with a gula melaka palm sugar bottom layer, around 210 calories.",
+      "answer": "Three layer tea, or teh C peng special, is around 210 calories a glass. It is teh C with a thick layer of gula melaka palm sugar syrup sitting at the bottom, which is where the three layers come from. That gula melaka layer is basically concentrated sugar, so it pushes the calories well above a normal teh C.",
+      "realTalk": [
+        "Three layer tea looks fancy, the gula melaka sinks to the bottom, evaporated milk in the middle, tea on top. Looks like art. But that beautiful bottom layer is a thick pour of palm sugar syrup, and that is the whole reason it costs more calories than a plain teh C.",
+        "You are looking at around 210 calories, mostly because of that gula melaka. It does taste amazing, the palm sugar gives it that deep caramel thing. Just know it is a sweeter, heavier cousin of teh C, so order it as a treat and not your everyday drink lah."
+      ],
+      "lighter": [
+        "Ask for less gula melaka, the bottom layer is the calorie bomb",
+        "Order a plain teh C kurang manis instead for everyday drinking",
+        "Share a glass if you just want a taste of the palm sugar"
+      ],
+      "components": [
+        {
+          "name": "Tea",
+          "grams": 200,
+          "calories": 5
+        },
+        {
+          "name": "Evaporated milk",
+          "grams": 40,
+          "calories": 50
+        },
+        {
+          "name": "Gula melaka syrup",
+          "grams": 40,
+          "calories": 155
+        }
+      ],
+      "portions": [
+        {
+          "label": "Less gula melaka",
+          "calories": 150
+        },
+        {
+          "label": "Standard glass",
+          "calories": 210
+        },
+        {
+          "label": "Extra sweet",
+          "calories": 270
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in three layer tea?",
+          "a": "Around 210 calories a glass. The gula melaka bottom layer is the main reason it is high."
+        },
+        {
+          "q": "What are the three layers?",
+          "a": "Gula melaka syrup at the bottom, evaporated milk in the middle, tea on top. It is a fancy teh C."
+        },
+        {
+          "q": "Is three layer tea worse than teh C?",
+          "a": "Yes, the extra gula melaka adds about 80 calories over a normal teh C."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Less gula melaka",
+          "calories": 150,
+          "note": "Lighter pour"
+        },
+        {
+          "name": "Three layer tea standard",
+          "calories": 210,
+          "note": "Full gula melaka"
+        },
+        {
+          "name": "Extra sweet",
+          "calories": 270,
+          "note": "Heavy palm sugar"
+        }
+      ],
+      "related": [
+        "teh-c",
+        "teh-ais",
+        "horlicks-ais"
+      ]
+    },
+    {
+      "slug": "horlicks-ais",
+      "name": "Horlicks Ais",
+      "category": "drinks",
+      "serving": "1 glass",
+      "servingGrams": 350,
+      "calories": 230,
+      "protein": 6,
+      "carbs": 36,
+      "fat": 7,
+      "metaDescription": "Horlicks ais is around 230 calories, malty and sweet with condensed milk. Here is what is really in the glass.",
+      "summary": "Iced malted Horlicks drink with condensed milk, around 230 calories.",
+      "answer": "A glass of Horlicks ais is roughly 230 calories. The Horlicks malt powder is already sweet and carries calories on its own, then the kopitiam adds condensed milk on top. So like Milo, the powder plus condensed milk combo is what makes it a heavier drink than people expect.",
+      "realTalk": [
+        "Horlicks ais tastes like malted childhood, that creamy biscuit kind of flavour. People order it thinking it is a wholesome malt drink, like something good for you. The powder is malt and sugar, and at the kopitiam they sweeten it further with condensed milk.",
+        "That combo lands it around 230 calories, right up there with Milo ais. It is not evil, you do get a bit of protein from the malt and milk, around 6 grams. But it is a sweet treat drink, not a health tonic. Ask for less condensed milk if you want to enjoy it more often."
+      ],
+      "lighter": [
+        "Ask for less condensed milk to cut the heaviest part",
+        "Order it kurang manis so they ease off the sugar",
+        "Use fresh or evaporated milk instead of condensed"
+      ],
+      "components": [
+        {
+          "name": "Horlicks powder",
+          "grams": 25,
+          "calories": 95
+        },
+        {
+          "name": "Condensed milk",
+          "grams": 35,
+          "calories": 105
+        },
+        {
+          "name": "Sugar",
+          "grams": 8,
+          "calories": 25
+        },
+        {
+          "name": "Ice + water",
+          "grams": 250,
+          "calories": 5
+        }
+      ],
+      "portions": [
+        {
+          "label": "Less condensed milk",
+          "calories": 170
+        },
+        {
+          "label": "Standard glass",
+          "calories": 230
+        },
+        {
+          "label": "Extra sweet",
+          "calories": 300
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in Horlicks ais?",
+          "a": "Around 230 calories a glass. The malt powder and condensed milk together do most of it."
+        },
+        {
+          "q": "Is Horlicks ais healthy?",
+          "a": "It has a little protein, but it is mostly malt and sugar. Treat it as a sweet drink, not a health tonic."
+        },
+        {
+          "q": "Is Horlicks ais like Milo ais?",
+          "a": "Very similar in calories, around 230. Both are malt powders sweetened with condensed milk."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Horlicks, less condensed milk",
+          "calories": 170,
+          "note": "Lighter version"
+        },
+        {
+          "name": "Horlicks ais standard",
+          "calories": 230,
+          "note": "With condensed milk"
+        },
+        {
+          "name": "Horlicks dinosaur",
+          "calories": 300,
+          "note": "Extra powder heaped on top"
+        }
+      ],
+      "related": [
+        "milo-dinosaur",
+        "neslo",
+        "three-layer-tea"
+      ]
+    },
+    {
+      "slug": "ais-krim-potong",
+      "name": "Ais Krim Potong",
+      "category": "dessert",
+      "serving": "1 stick",
+      "servingGrams": 80,
+      "calories": 110,
+      "protein": 1,
+      "carbs": 18,
+      "fat": 4,
+      "metaDescription": "How many calories in ais krim potong? About 110 per stick. The coconut and red bean ones are the heavier ones. Real numbers inside.",
+      "summary": "Ais krim potong is around 110 calories a stick. Cheap, cold, and not a diet disaster if you stop at one.",
+      "answer": "One stick of ais krim potong is around 110 calories. The coconut milk and sugar base does most of the damage, plus whatever they pack in like red bean, corn, or yam. It is way lighter than a scoop of premium ice cream, so as a hot-day treat it is honestly fine.",
+      "realTalk": [
+        "Bro this is the budget dessert champion. RM1 to RM2 a stick, ice cold, and only about 110 calories. Compared to a tub of Haagen-Dazs hitting 250 calories per half cup, the humble potong is basically a health food in disguise.",
+        "The trap is not one stick, it is finishing five because they are cheap and the uncle is right there. Five sticks is 550 calories, which is a whole proper meal gone on flavoured ice. Eat one, enjoy it slow, walk away."
+      ],
+      "lighter": [
+        "Stick to one stick and actually taste it instead of inhaling it",
+        "Pick fruit-based flavours over the heavy coconut or red bean ones to shave a few calories",
+        "Have it after a high-protein meal so you are already full and not tempted to grab three"
+      ],
+      "components": [
+        {
+          "name": "Coconut milk and sugar base",
+          "grams": 55,
+          "calories": 80
+        },
+        {
+          "name": "Filling (red bean, corn or yam)",
+          "grams": 25,
+          "calories": 30
+        }
+      ],
+      "portions": [
+        {
+          "label": "1 stick",
+          "calories": 110
+        },
+        {
+          "label": "2 sticks",
+          "calories": 220
+        },
+        {
+          "label": "3 sticks",
+          "calories": 330
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is ais krim potong healthier than normal ice cream?",
+          "a": "Calorie-wise yes. A stick is about 110 calories versus 200 to 250 for a scoop of rich ice cream. It is mostly water and ice so the volume tricks your brain into feeling satisfied."
+        },
+        {
+          "q": "Which flavour has the most calories?",
+          "a": "The coconut and red bean ones tend to be heaviest because of the extra santan and starchy beans. Plain fruit flavours sit a bit lower."
+        },
+        {
+          "q": "Can I eat ais krim potong while losing weight?",
+          "a": "Yes, easily. One stick at 110 calories fits into almost any day. Just do not turn it into a five-stick session."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Coconut potong",
+          "calories": 120,
+          "note": "extra santan pushes it slightly higher"
+        },
+        {
+          "name": "Red bean potong",
+          "calories": 125,
+          "note": "the beans add starch and sugar"
+        },
+        {
+          "name": "Corn potong",
+          "calories": 110,
+          "note": "about average for the lineup"
+        }
+      ],
+      "related": [
+        "ais-krim-goreng",
+        "ais-kacang",
+        "cendol"
+      ]
+    },
+    {
+      "slug": "tau-fu-fah",
+      "name": "Tau Fu Fah (Soy Bean Pudding)",
+      "category": "dessert",
+      "serving": "1 bowl",
+      "servingGrams": 250,
+      "calories": 150,
+      "protein": 5,
+      "carbs": 28,
+      "fat": 3,
+      "metaDescription": "How many calories in tau fu fah? A bowl with syrup is about 150. Plain it drops near 60. The sugar syrup is the real story.",
+      "summary": "Tau fu fah is around 150 calories a bowl with syrup. The tofu is cheap, the syrup is the calories.",
+      "answer": "A bowl of tau fu fah with sugar syrup is about 150 calories. The silky soy pudding itself is barely 60 calories and gives you around 5g of protein, which is great. Almost everything else is that sweet gula syrup they drown it in.",
+      "realTalk": [
+        "Here is the funny part. The actual tau fu fah, the silky soy custard, is one of the lightest desserts you can order at maybe 60 calories. It is soy, so you even get a bit of protein out of it. Then the uncle pours half a cup of sugar syrup over it and suddenly it is 150.",
+        "So this one is fully in your control. Ask for less syrup, or syrup on the side, and you are eating a 70 to 90 calorie dessert with real protein. Bro that is basically a snack that loves you back. Most people just never think to ask."
+      ],
+      "lighter": [
+        "Ask for syrup on the side and pour your own, you will use way less",
+        "Choose plain ginger syrup over thick gula melaka syrup to cut sugar",
+        "Skip extra toppings like grass jelly or pearls that quietly add 50 to 80 calories"
+      ],
+      "components": [
+        {
+          "name": "Soy bean pudding",
+          "grams": 200,
+          "calories": 65
+        },
+        {
+          "name": "Sugar syrup",
+          "grams": 50,
+          "calories": 85
+        }
+      ],
+      "portions": [
+        {
+          "label": "Plain, no syrup",
+          "calories": 65
+        },
+        {
+          "label": "1 bowl with syrup",
+          "calories": 150
+        },
+        {
+          "label": "With syrup and pearls",
+          "calories": 220
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is tau fu fah good for weight loss?",
+          "a": "The pudding part is excellent. It is low calorie, high in water, and gives you about 5g of protein. The only catch is the sugar syrup, so control that and it is one of the best dessert choices going."
+        },
+        {
+          "q": "How many calories without syrup?",
+          "a": "Plain tau fu fah is only around 60 to 65 calories a bowl. The syrup is what roughly doubles it."
+        },
+        {
+          "q": "Does tau fu fah have protein?",
+          "a": "Yes, around 5g per bowl since it is made from soy milk. That is unusually high for a dessert."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Plain tau fu fah",
+          "calories": 65,
+          "note": "no syrup, the lightest option"
+        },
+        {
+          "name": "With gula melaka syrup",
+          "calories": 160,
+          "note": "thicker syrup, a touch more sugar"
+        },
+        {
+          "name": "With pearls or jelly",
+          "calories": 220,
+          "note": "toppings stack up fast"
+        }
+      ],
+      "related": [
+        "cheng-tng",
+        "ais-krim-potong",
+        "pulut-hitam"
+      ]
+    },
+    {
+      "slug": "pulut-hitam",
+      "name": "Bubur Pulut Hitam",
+      "category": "dessert",
+      "serving": "1 bowl",
+      "servingGrams": 250,
+      "calories": 290,
+      "protein": 5,
+      "carbs": 48,
+      "fat": 9,
+      "metaDescription": "How many calories in bubur pulut hitam? About 290 a bowl. The black rice looks healthy but the santan hides 100+ calories.",
+      "summary": "Bubur pulut hitam is around 290 calories a bowl. Black rice sounds healthy, the coconut milk says otherwise.",
+      "answer": "A bowl of bubur pulut hitam is about 290 calories. The black glutinous rice and sugar make up most of it, and then the coconut milk drizzle on top adds roughly 100 calories on its own. It tastes like a healthy dessert but that santan is doing real work.",
+      "realTalk": [
+        "Pulut hitam tastes like a healthy dessert because it is black rice, full of fibre and antioxidants, but bro that santan they drown it in is where 100 plus calories are hiding. The rice and sugar already put you around 190, then the coconut milk topping shoves you to 290.",
+        "It is not a bad dessert at all. You actually get some fibre and a bit of protein out of it. Just respect that it is a 290 calorie bowl and not the free health food it pretends to be. If you want it lighter, the move is simply less santan on top."
+      ],
+      "lighter": [
+        "Ask for less coconut milk on top, that alone saves around 80 to 100 calories",
+        "Have a smaller bowl, half a portion is a satisfying 145 calories",
+        "Skip the extra scoop of sugar, the rice is already sweetened in the pot"
+      ],
+      "components": [
+        {
+          "name": "Black glutinous rice",
+          "grams": 160,
+          "calories": 150
+        },
+        {
+          "name": "Coconut milk topping",
+          "grams": 45,
+          "calories": 100
+        },
+        {
+          "name": "Palm sugar",
+          "grams": 25,
+          "calories": 40
+        }
+      ],
+      "portions": [
+        {
+          "label": "Half bowl",
+          "calories": 145
+        },
+        {
+          "label": "1 bowl",
+          "calories": 290
+        },
+        {
+          "label": "Large bowl, extra santan",
+          "calories": 380
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is bubur pulut hitam healthy?",
+          "a": "It has good things going for it, black rice gives you fibre and antioxidants. But at 290 calories a bowl, mostly from coconut milk and sugar, treat it as a dessert and not a free pass."
+        },
+        {
+          "q": "Why is pulut hitam so high in calories?",
+          "a": "The coconut milk is the main reason. That topping alone is around 100 calories. Glutinous rice and palm sugar do the rest."
+        },
+        {
+          "q": "Can I eat pulut hitam on a diet?",
+          "a": "Yes, just account for it. Ask for less santan and keep the portion reasonable and a bowl fits fine into a normal day."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Standard santan topping",
+          "calories": 290,
+          "note": "the usual hawker serving"
+        },
+        {
+          "name": "Light santan",
+          "calories": 210,
+          "note": "ask them to go easy on the coconut milk"
+        },
+        {
+          "name": "Extra santan and sugar",
+          "calories": 380,
+          "note": "the indulgent version"
+        }
+      ],
+      "related": [
+        "pengat-pisang",
+        "bubur-cha-cha",
+        "mango-sticky-rice"
+      ]
+    },
+    {
+      "slug": "cheng-tng",
+      "name": "Cheng Tng",
+      "category": "dessert",
+      "serving": "1 bowl",
+      "servingGrams": 300,
+      "calories": 160,
+      "protein": 2,
+      "carbs": 38,
+      "fat": 1,
+      "metaDescription": "How many calories in cheng tng? About 160 a bowl. A clear sweet soup with almost no fat, one of the lighter desserts going.",
+      "summary": "Cheng tng is around 160 calories a bowl. Clear, light, almost no fat, just watch the sugar syrup.",
+      "answer": "A bowl of cheng tng is about 160 calories. It is a clear sweet soup loaded with longan, barley, white fungus and dried fruits, so there is basically no fat. Almost all the calories come from the sugar syrup it sits in.",
+      "realTalk": [
+        "Cheng tng is one of the genuinely smart dessert orders. No coconut milk, no fried anything, no glutinous rice. Just a clear broth with barley, longan, gingko and a few dried bits floating around. At 160 calories with almost zero fat, this is about as light as a sweet bowl gets.",
+        "The only thing to watch is the sugar level in the syrup. Some stalls go heavy and you can drink it without realising. Ask for less sweet, get the same shiok experience for maybe 110 calories, and walk away feeling like you cheated the system."
+      ],
+      "lighter": [
+        "Order it less sweet, the syrup is the only real calorie source",
+        "Have it cold without extra sugar syrup added at the end",
+        "Eat the solid bits and leave half the syrup in the bowl"
+      ],
+      "components": [
+        {
+          "name": "Sugar syrup base",
+          "grams": 230,
+          "calories": 120
+        },
+        {
+          "name": "Longan, barley and dried fruits",
+          "grams": 70,
+          "calories": 40
+        }
+      ],
+      "portions": [
+        {
+          "label": "Less sweet bowl",
+          "calories": 110
+        },
+        {
+          "label": "1 bowl",
+          "calories": 160
+        },
+        {
+          "label": "Extra sweet bowl",
+          "calories": 210
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is cheng tng a good dessert for dieting?",
+          "a": "One of the best. At 160 calories with basically no fat, it beats almost every coconut milk or fried dessert. Just ask for less sugar and it gets even better."
+        },
+        {
+          "q": "Does cheng tng have fat?",
+          "a": "Almost none. It is a clear soup with dried fruits and barley, so the fat is close to zero. The calories are mostly sugar."
+        },
+        {
+          "q": "How do I make cheng tng lighter?",
+          "a": "Order it less sweet or leave some of the syrup behind. The solids barely add up, so cutting syrup is where you save."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Standard sweet",
+          "calories": 160,
+          "note": "the usual stall serving"
+        },
+        {
+          "name": "Less sweet",
+          "calories": 110,
+          "note": "the smart order"
+        },
+        {
+          "name": "With extra ginkgo and longan",
+          "calories": 190,
+          "note": "more solids, slightly higher"
+        }
+      ],
+      "related": [
+        "tau-fu-fah",
+        "ais-kacang",
+        "bubur-jagung"
+      ]
+    },
+    {
+      "slug": "mango-sticky-rice",
+      "name": "Mango Sticky Rice (Pulut Mangga)",
+      "category": "dessert",
+      "serving": "1 plate",
+      "servingGrams": 230,
+      "calories": 380,
+      "protein": 6,
+      "carbs": 68,
+      "fat": 11,
+      "metaDescription": "How many calories in mango sticky rice? About 380 a plate. The glutinous rice and coconut sauce make this a heavy one.",
+      "summary": "Mango sticky rice is around 380 calories a plate. Tastes like fruit, eats like a carb bomb.",
+      "answer": "A plate of mango sticky rice is about 380 calories. The glutinous rice cooked in coconut milk is the bulk of it, the mango adds natural sugar, and then they pour more salted coconut sauce on top. It is delicious but it is closer to a meal than a light snack.",
+      "realTalk": [
+        "Bro do not let the mango fool you into thinking this is a fruit dessert. The fruit is maybe 60 calories of the whole thing. The real heavyweight is the glutinous rice, which they cook in coconut milk and sugar, then top with even more santan sauce. That is how you get to 380.",
+        "This is one of the heavier desserts on the menu, easily matching a small meal. It is worth it once in a while because it is genuinely shiok, just do not pretend it is light because there is fruit on the plate. Share it with someone and you both walk away happy at 190 each."
+      ],
+      "lighter": [
+        "Split one plate between two people, instant halving to 190 calories",
+        "Eat more of the mango and less of the rice, the fruit is the light part",
+        "Ask for the coconut sauce on the side and use just a little"
+      ],
+      "components": [
+        {
+          "name": "Coconut glutinous rice",
+          "grams": 150,
+          "calories": 260
+        },
+        {
+          "name": "Fresh mango",
+          "grams": 60,
+          "calories": 40
+        },
+        {
+          "name": "Salted coconut sauce",
+          "grams": 20,
+          "calories": 80
+        }
+      ],
+      "portions": [
+        {
+          "label": "Half plate",
+          "calories": 190
+        },
+        {
+          "label": "1 plate",
+          "calories": 380
+        },
+        {
+          "label": "Large plate, extra sauce",
+          "calories": 470
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is mango sticky rice fattening?",
+          "a": "It is calorie dense at around 380 a plate, mostly from coconut glutinous rice. The mango is the small part. Enjoy it occasionally and account for it like a small meal."
+        },
+        {
+          "q": "Why is mango sticky rice so high in calories?",
+          "a": "Glutinous rice cooked in coconut milk plus a santan sauce on top. That combination is rich and sugary. The mango itself only adds about 40 calories."
+        },
+        {
+          "q": "Can I eat mango sticky rice on a diet?",
+          "a": "Yes, but treat it like a meal-sized treat. Split a plate or eat half and you keep it around 190 calories."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Standard plate",
+          "calories": 380,
+          "note": "rice, mango and coconut sauce"
+        },
+        {
+          "name": "Extra mango less rice",
+          "calories": 300,
+          "note": "swap some heavy rice for fruit"
+        },
+        {
+          "name": "Double coconut sauce",
+          "calories": 470,
+          "note": "the rich version"
+        }
+      ],
+      "related": [
+        "pulut-hitam",
+        "pengat-pisang",
+        "durian"
+      ]
+    },
+    {
+      "slug": "pengat-pisang",
+      "name": "Pengat Pisang",
+      "category": "dessert",
+      "serving": "1 bowl",
+      "servingGrams": 220,
+      "calories": 280,
+      "protein": 2,
+      "carbs": 44,
+      "fat": 10,
+      "metaDescription": "How many calories in pengat pisang? About 280 a bowl. Banana sounds healthy but coconut milk and gula melaka run the show.",
+      "summary": "Pengat pisang is around 280 calories a bowl. Banana, coconut milk and palm sugar, a rich combo.",
+      "answer": "A bowl of pengat pisang is about 280 calories. It is bananas stewed in coconut milk and gula melaka, so the fruit is healthy but the santan and palm sugar are where the calories live. Warm, sweet, and heavier than it looks.",
+      "realTalk": [
+        "Pengat pisang sounds innocent, it is just banana right. But the banana gets simmered in a pool of coconut milk and gula melaka until it is basically a sweet santan stew. The fruit contributes maybe 90 calories, the coconut milk and palm sugar bring the rest up to 280.",
+        "It is a proper comfort dessert, warm and rich, the kind of thing you want during puasa or a rainy evening. Nothing wrong with it, just know it is a 280 calorie bowl and not a guilt-free banana snack. Lighter santan is the easiest way to trim it down."
+      ],
+      "lighter": [
+        "Ask for less coconut milk to cut around 70 calories",
+        "Use ripe banana sweetness and request less added gula melaka",
+        "Have a smaller bowl, half a portion is a cosy 140 calories"
+      ],
+      "components": [
+        {
+          "name": "Banana",
+          "grams": 110,
+          "calories": 90
+        },
+        {
+          "name": "Coconut milk",
+          "grams": 70,
+          "calories": 140
+        },
+        {
+          "name": "Gula melaka",
+          "grams": 25,
+          "calories": 50
+        }
+      ],
+      "portions": [
+        {
+          "label": "Half bowl",
+          "calories": 140
+        },
+        {
+          "label": "1 bowl",
+          "calories": 280
+        },
+        {
+          "label": "Large bowl, extra santan",
+          "calories": 360
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is pengat pisang healthy?",
+          "a": "The banana gives you potassium and fibre, but the dish overall is around 280 calories because of coconut milk and palm sugar. Treat it as a dessert, not a fruit serving."
+        },
+        {
+          "q": "What makes pengat pisang high in calories?",
+          "a": "Coconut milk and gula melaka. The banana is the light part at around 90 calories. The santan and sugar push it up to 280."
+        },
+        {
+          "q": "Can I eat pengat pisang and still lose weight?",
+          "a": "Yes, just budget for it. Ask for less santan and keep the bowl small and it fits into a normal day fine."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Standard bowl",
+          "calories": 280,
+          "note": "the usual rich serving"
+        },
+        {
+          "name": "Light santan",
+          "calories": 210,
+          "note": "go easy on the coconut milk"
+        },
+        {
+          "name": "With sago added",
+          "calories": 330,
+          "note": "sago adds extra starch"
+        }
+      ],
+      "related": [
+        "pulut-hitam",
+        "bubur-cha-cha",
+        "pisang-goreng"
+      ]
+    },
+    {
+      "slug": "bingka-ubi",
+      "name": "Kuih Bingka Ubi (Baked Tapioca Cake)",
+      "category": "dessert",
+      "serving": "1 slice",
+      "servingGrams": 90,
+      "calories": 230,
+      "protein": 3,
+      "carbs": 36,
+      "fat": 8,
+      "metaDescription": "How many calories in kuih bingka ubi? About 230 a slice. Dense baked tapioca with coconut milk, heavier than it looks.",
+      "summary": "Kuih bingka ubi is around 230 calories a slice. Small piece, dense and rich, do not be fooled by the size.",
+      "answer": "One slice of kuih bingka ubi is about 230 calories. It is grated tapioca baked with coconut milk, sugar and egg into a dense chewy cake. Because it is so compact, even a small slice carries more calories than you would guess.",
+      "realTalk": [
+        "This one is sneaky because the slice is small but it is dense as a brick. Grated cassava, coconut milk, sugar and egg all baked down into a chewy block. There is no air in there, no fluff, just packed starch and santan. So a modest looking piece is already around 230 calories.",
+        "It is one of those kuih where two slices feel like nothing on the plate but you just ate 460 calories standing at the pasar. Bro that is a meal. Enjoy one slice with your kopi and call it done, the second slice is the one that gets people."
+      ],
+      "lighter": [
+        "Stick to one slice, the density means a small piece is already plenty",
+        "Pair it with kopi kosong instead of a sweet drink to keep total sugar down",
+        "Share a slab so you taste it without committing to a full slice"
+      ],
+      "components": [
+        {
+          "name": "Grated tapioca and sugar",
+          "grams": 55,
+          "calories": 130
+        },
+        {
+          "name": "Coconut milk",
+          "grams": 25,
+          "calories": 80
+        },
+        {
+          "name": "Egg and butter",
+          "grams": 10,
+          "calories": 20
+        }
+      ],
+      "portions": [
+        {
+          "label": "Thin slice",
+          "calories": 150
+        },
+        {
+          "label": "1 slice",
+          "calories": 230
+        },
+        {
+          "label": "2 slices",
+          "calories": 460
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why is kuih bingka ubi so calorie dense?",
+          "a": "It is baked tapioca with coconut milk and sugar, with almost no air in it. That makes even a small slice around 230 calories. The density is the catch."
+        },
+        {
+          "q": "Is bingka ubi worse than other kuih?",
+          "a": "It is on the heavier side because of the coconut milk and packed starch. A single slice is fine, the problem is how easy it is to grab two or three."
+        },
+        {
+          "q": "Can I eat bingka ubi on a diet?",
+          "a": "Yes, one slice fits into a normal day. Just count it properly at around 230 calories and resist the second piece."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Standard slice",
+          "calories": 230,
+          "note": "the usual pasar serving"
+        },
+        {
+          "name": "Eggless version",
+          "calories": 210,
+          "note": "slightly lighter without the egg"
+        },
+        {
+          "name": "Extra rich version",
+          "calories": 270,
+          "note": "more coconut milk and butter"
+        }
+      ],
+      "related": [
+        "onde-onde",
+        "pengat-pisang",
+        "pulut-hitam"
+      ]
+    },
+    {
+      "slug": "ais-krim-goreng",
+      "name": "Ais Krim Goreng (Fried Ice Cream)",
+      "category": "dessert",
+      "serving": "1 piece",
+      "servingGrams": 150,
+      "calories": 360,
+      "protein": 5,
+      "carbs": 45,
+      "fat": 18,
+      "metaDescription": "How many calories in fried ice cream? About 360 a piece. Ice cream wrapped in batter and deep fried, exactly as heavy as it sounds.",
+      "summary": "Ais krim goreng is around 360 calories a piece. Deep fried ice cream is double trouble, fat plus sugar.",
+      "answer": "One piece of ais krim goreng is about 360 calories. You take a scoop of ice cream, wrap it in batter or breadcrumbs, and deep fry it. So you get the sugar and fat of ice cream plus the oil and carbs of frying. It is rich on rich.",
+      "realTalk": [
+        "This is dessert showing off. Take ice cream, which is already sugar and cream, then coat it and dunk it in hot oil so it picks up another layer of fat and crunch. The frying alone adds serious calories on top of the ice cream inside. That is how a single ball lands at around 360.",
+        "Honestly it is delicious and a fun thing to order once in a blue moon. Just do not kid yourself, this is the heaviest dessert in the lineup at 18g of fat a piece. Bro one of these is basically half a burger in dessert form. Share it, or have one and skip the second drink."
+      ],
+      "lighter": [
+        "Share one piece, half is a more reasonable 180 calories",
+        "Skip the chocolate or caramel drizzle they love to add on top",
+        "Have it as the whole dessert, do not pair it with another sweet drink"
+      ],
+      "components": [
+        {
+          "name": "Ice cream scoop",
+          "grams": 90,
+          "calories": 180
+        },
+        {
+          "name": "Batter and breadcrumb coating",
+          "grams": 40,
+          "calories": 100
+        },
+        {
+          "name": "Frying oil absorbed",
+          "grams": 20,
+          "calories": 80
+        }
+      ],
+      "portions": [
+        {
+          "label": "Half piece",
+          "calories": 180
+        },
+        {
+          "label": "1 piece",
+          "calories": 360
+        },
+        {
+          "label": "2 pieces",
+          "calories": 720
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is fried ice cream the worst dessert calorie-wise?",
+          "a": "It is up there. At around 360 calories with 18g of fat per piece, it combines the sugar of ice cream with the oil of deep frying. One of the heaviest on the dessert menu."
+        },
+        {
+          "q": "Why is ais krim goreng so high in fat?",
+          "a": "Because you are deep frying cream. The ice cream already has fat, then the batter soaks up oil during frying, stacking it to around 18g per piece."
+        },
+        {
+          "q": "Can I fit fried ice cream into a diet?",
+          "a": "Occasionally, yes, if you budget for it like a small meal. Sharing one piece is the easiest way to enjoy it without the full 360 calorie hit."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Plain fried ice cream",
+          "calories": 360,
+          "note": "the standard single piece"
+        },
+        {
+          "name": "With chocolate drizzle",
+          "calories": 430,
+          "note": "the topping adds sugar and fat"
+        },
+        {
+          "name": "Larger restaurant portion",
+          "calories": 480,
+          "note": "bigger scoop, more coating"
+        }
+      ],
+      "related": [
+        "ais-krim-potong",
+        "ais-krim",
+        "pisang-goreng"
+      ]
+    },
+    {
+      "slug": "ramly-burger",
+      "name": "Ramly Burger",
+      "category": "western",
+      "serving": "1 burger special",
+      "servingGrams": 250,
+      "calories": 600,
+      "protein": 25,
+      "carbs": 45,
+      "fat": 35,
+      "metaDescription": "A Ramly burger special is around 600 calories. The egg wrap, margarine and sauces turn one small patty into a heavy supper. Full breakdown.",
+      "summary": "One special is about 600 calories. The egg blanket and margarine do the damage, not the patty.",
+      "answer": "A Ramly burger special is around 600 calories for the whole thing (about 250g). The seasoned patty itself is maybe 200 of that. The rest is the folded egg wrap, the heavy slap of margarine on the griddle, the bun, and the squeeze of mayo, chilli and Maggi sauce. That is 25g protein, 45g carbs and 35g fat.",
+      "realTalk": [
+        "The Ramly special is a magic trick bro. That folded egg blanket plus a heavy squeeze of margarine, mayo, chilli and Maggi sauce turns one small patty into a 600 calorie supper-by-the-roadside. The patty alone is innocent. It is everything the abang piles on top that gets you.",
+        "Watch the guy cook it next time. He drowns the griddle in margarine, fries the egg in it, then hits the bun with more. None of that is free. If you order daging double special with cheese you are easily past 800, and that is supper on top of whatever you already ate for dinner lah."
+      ],
+      "lighter": [
+        "Order the biasa (plain) instead of the special. Skipping the egg wrap and extra sauces cuts a big chunk straight away.",
+        "Ask for less margarine and go easy on the mayo. Just that alone saves you 100 plus calories.",
+        "Make it the meal, not the supper after the meal. A 600 calorie burger is fine if it replaces dinner, not if it follows it."
+      ],
+      "components": [
+        {
+          "name": "Beef patty (seasoned)",
+          "grams": 70,
+          "calories": 200
+        },
+        {
+          "name": "Egg wrap",
+          "grams": 50,
+          "calories": 90
+        },
+        {
+          "name": "Bun",
+          "grams": 60,
+          "calories": 160
+        },
+        {
+          "name": "Margarine, mayo, chilli + Maggi sauce",
+          "grams": 70,
+          "calories": 150
+        }
+      ],
+      "portions": [
+        {
+          "label": "Biasa (no egg)",
+          "calories": 420
+        },
+        {
+          "label": "Special (egg wrap)",
+          "calories": 600
+        },
+        {
+          "label": "Double special + cheese",
+          "calories": 820
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in a Ramly burger special?",
+          "a": "Around 600 calories for the full special. The patty is only about 200 of that. The egg wrap, margarine and sauces are where the rest comes from."
+        },
+        {
+          "q": "Is the chicken (ayam) one lower than the beef?",
+          "a": "Slightly, maybe 30 to 50 calories less, but not enough to matter. The egg, margarine and sauces are the same either way, so do not pick ayam thinking it is the light option."
+        },
+        {
+          "q": "How do I make a Ramly burger less fattening?",
+          "a": "Order biasa instead of special to skip the egg wrap, tell the abang less margarine, and go easy on the mayo. That can knock off 150 to 200 calories."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Ramly daging biasa",
+          "calories": 420,
+          "note": "Plain beef, no egg wrap"
+        },
+        {
+          "name": "Ramly ayam special",
+          "calories": 560,
+          "note": "Chicken patty version of the special"
+        },
+        {
+          "name": "Double special + cheese",
+          "calories": 820,
+          "note": "Two patties, egg and cheese"
+        }
+      ],
+      "related": [
+        "burger-bakar",
+        "roti-john",
+        "maggi-goreng"
+      ]
+    },
+    {
+      "slug": "roti-john",
+      "name": "Roti John",
+      "category": "western",
+      "serving": "1 whole",
+      "servingGrams": 280,
+      "calories": 650,
+      "protein": 28,
+      "carbs": 60,
+      "fat": 33,
+      "metaDescription": "A whole roti john is around 650 calories. Egg and minced meat fried onto a long bun, then drizzled with sauce. Full breakdown.",
+      "summary": "One whole roti john is about 650 calories. The bread soaks up the egg and oil like a sponge.",
+      "answer": "A whole roti john runs about 650 calories. It is a long bun split open, smeared with an egg and minced meat mix, then pressed face down onto an oily griddle so the bread fries and soaks everything up. Add the chilli and mayo drizzle on top and you get roughly 28g protein, 60g carbs and 33g fat. A loaded mutton version can push past 850.",
+      "realTalk": [
+        "Roti john looks healthy because there is egg and meat in it, but bro the bread is the problem. That long bun gets pressed onto a griddle slicked with oil, face down, so it drinks up the fat like a sponge. By the time it is golden and crispy it has soaked in way more oil than you think.",
+        "Then they finish it with a zigzag of mayo and chilli sauce on top, which is another 100 plus calories of pure topping. One whole roti john is a proper meal, around 650, and the loaded mutton ones the hawkers do can hit 850. That is not a snack lah, that is dinner."
+      ],
+      "lighter": [
+        "Share a whole one or order a half. Half a roti john is a much more sensible 325 or so.",
+        "Skip the mayo drizzle on top and just have the chilli sauce. The mayo is pure add-on fat.",
+        "Ask them to go easy on the oil when they griddle it. Less oil in the bread is the single biggest saving."
+      ],
+      "components": [
+        {
+          "name": "Long bun",
+          "grams": 120,
+          "calories": 250
+        },
+        {
+          "name": "Egg + minced meat mix",
+          "grams": 110,
+          "calories": 200
+        },
+        {
+          "name": "Griddle oil soaked in",
+          "grams": 12,
+          "calories": 100
+        },
+        {
+          "name": "Mayo + chilli drizzle",
+          "grams": 30,
+          "calories": 100
+        }
+      ],
+      "portions": [
+        {
+          "label": "Half roti john",
+          "calories": 325
+        },
+        {
+          "label": "Whole (standard)",
+          "calories": 650
+        },
+        {
+          "label": "Loaded mutton",
+          "calories": 850
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in a roti john?",
+          "a": "A whole standard roti john is around 650 calories. The bread soaks up the griddle oil, and the mayo drizzle on top adds even more. Mutton versions can hit 850."
+        },
+        {
+          "q": "Is roti john a healthy breakfast?",
+          "a": "Not really. The egg and meat give you protein, but the long bun fried in oil and topped with mayo makes it a heavy, fatty meal. Treat it as one full meal, not a light start."
+        },
+        {
+          "q": "How do I make roti john lower calorie?",
+          "a": "Order a half instead of a whole, skip the mayo drizzle, and ask for less oil on the griddle. That can easily cut it down by 200 or more."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Roti john ayam",
+          "calories": 620,
+          "note": "Chicken mince version"
+        },
+        {
+          "name": "Roti john daging",
+          "calories": 680,
+          "note": "Beef mince version"
+        },
+        {
+          "name": "Roti john kambing (mutton)",
+          "calories": 850,
+          "note": "Loaded mutton, the heaviest one"
+        }
+      ],
+      "related": [
+        "ramly-burger",
+        "french-toast",
+        "murtabak"
+      ]
+    },
+    {
+      "slug": "chicken-chop",
+      "name": "Chicken Chop",
+      "category": "western",
+      "serving": "1 plate",
+      "servingGrams": 400,
+      "calories": 700,
+      "protein": 38,
+      "carbs": 55,
+      "fat": 36,
+      "metaDescription": "A mamak chicken chop plate is around 700 calories with fries and sauce. The chicken is lean, the fries and gravy do the damage. Breakdown inside.",
+      "summary": "A full plate is about 700 calories. The chicken is fine, it is the fries and gravy that climb.",
+      "answer": "A mamak Western chicken chop plate is around 700 calories. You get a big deboned chicken thigh or breast (deep-fried or grilled), a pile of fries, a splash of coleslaw, and a ladle of black pepper or brown gravy. That works out to roughly 38g protein, 55g carbs and 36g fat. Grilled instead of fried knocks it down noticeably.",
+      "realTalk": [
+        "The chicken in a chicken chop is actually a solid protein hit, 38g, which is great. The problem is everything sharing the plate with it. The fries are 300 plus calories on their own, the gravy is thickened with butter and flour, and the coleslaw is basically cabbage swimming in mayo.",
+        "If they deep-fry the chicken with a flour batter, you are adding another layer of oil on top. Ask for grilled and you save a good 150. A grilled chicken chop plate is honestly not a bad meal at all, it is the deep-fried version drowning in gravy and fries that tips it over."
+      ],
+      "lighter": [
+        "Order it grilled (panggang) instead of deep-fried. That alone saves around 150 calories.",
+        "Swap the fries for extra salad or coleslaw if they let you. The fries are the biggest single number on the plate.",
+        "Ask for the gravy on the side and dip instead of drowning. The brown sauce is butter and flour heavy."
+      ],
+      "components": [
+        {
+          "name": "Chicken thigh (deep-fried)",
+          "grams": 200,
+          "calories": 340
+        },
+        {
+          "name": "Fries",
+          "grams": 120,
+          "calories": 280
+        },
+        {
+          "name": "Coleslaw",
+          "grams": 50,
+          "calories": 80
+        },
+        {
+          "name": "Black pepper / brown gravy",
+          "grams": 30,
+          "calories": 60
+        }
+      ],
+      "portions": [
+        {
+          "label": "Grilled, salad side",
+          "calories": 520
+        },
+        {
+          "label": "Standard fried + fries",
+          "calories": 700
+        },
+        {
+          "label": "Big portion, loaded gravy",
+          "calories": 880
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in a chicken chop?",
+          "a": "A full mamak chicken chop plate is around 700 calories with fries, coleslaw and gravy. The chicken is lean protein, but the fries and butter-based gravy push it up."
+        },
+        {
+          "q": "Is grilled chicken chop healthier than fried?",
+          "a": "Yes, clearly. Grilling skips the flour batter and the deep-fry oil, which saves you around 150 calories. Order it panggang if you want the lighter version."
+        },
+        {
+          "q": "Is chicken chop good for losing weight?",
+          "a": "The chicken itself is great, 38g of protein. Order it grilled, go easy on the fries and keep the gravy on the side, and it becomes a genuinely solid high-protein meal."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Grilled chicken chop",
+          "calories": 520,
+          "note": "Panggang, no batter, lighter"
+        },
+        {
+          "name": "Deep-fried chicken chop",
+          "calories": 700,
+          "note": "Battered and fried, standard plate"
+        },
+        {
+          "name": "Chicken chop with extra fries",
+          "calories": 880,
+          "note": "Big portion, loaded gravy"
+        }
+      ],
+      "related": [
+        "lamb-chop",
+        "fish-and-chips",
+        "ayam-goreng"
+      ]
+    },
+    {
+      "slug": "lamb-chop",
+      "name": "Lamb Chop",
+      "category": "western",
+      "serving": "1 plate",
+      "servingGrams": 380,
+      "calories": 680,
+      "protein": 40,
+      "carbs": 45,
+      "fat": 38,
+      "metaDescription": "A mamak lamb chop plate is around 680 calories with fries and black pepper sauce. Lamb is fattier than chicken. Full breakdown inside.",
+      "summary": "A full plate is about 680 calories. Lamb is fattier than chicken, so the meat itself counts more.",
+      "answer": "A mamak Western lamb chop plate is around 680 calories. You get two to three lamb chops (grilled, usually two ribs of meat), a pile of fries, a bit of coleslaw, and black pepper or mushroom sauce. That comes to roughly 40g protein, 45g carbs and 38g fat. Lamb is naturally fattier than chicken, so the meat carries more of the calories here.",
+      "realTalk": [
+        "Unlike the chicken chop where the meat is lean, lamb brings its own fat to the party. There is marbling running through the chops and a strip of fat along the bone, so even grilled, the meat itself is a chunky 350 plus calories before you touch the sides.",
+        "Then you add fries and a ladle of black pepper sauce, which is usually butter and flour based, and you are at 680. It is a good protein meal at 40g, but it is not a light one. If you want it leaner, trim the fat strip off the chops and put the sauce on the side."
+      ],
+      "lighter": [
+        "Trim the visible fat strip off each chop before eating. Lamb fat is dense, this saves real calories.",
+        "Swap fries for a side salad or extra veg. The fries are the easiest 200 plus to drop.",
+        "Get the black pepper or mushroom sauce on the side and dip. Those sauces are butter heavy."
+      ],
+      "components": [
+        {
+          "name": "Lamb chops (grilled)",
+          "grams": 180,
+          "calories": 360
+        },
+        {
+          "name": "Fries",
+          "grams": 120,
+          "calories": 230
+        },
+        {
+          "name": "Coleslaw",
+          "grams": 50,
+          "calories": 50
+        },
+        {
+          "name": "Black pepper / mushroom sauce",
+          "grams": 30,
+          "calories": 40
+        }
+      ],
+      "portions": [
+        {
+          "label": "Trimmed, salad side",
+          "calories": 500
+        },
+        {
+          "label": "Standard plate + fries",
+          "calories": 680
+        },
+        {
+          "label": "Big portion, loaded sauce",
+          "calories": 860
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in a lamb chop plate?",
+          "a": "A full mamak lamb chop plate is around 680 calories with fries and sauce. Lamb is fattier than chicken, so the meat itself carries more of the calories, about 380."
+        },
+        {
+          "q": "Is lamb chop higher in calories than chicken chop?",
+          "a": "The meat is, yes. Lamb has natural marbling and a fat strip on the bone, so it is denser than lean chicken thigh. The full plates end up close once you add the same fries and sauce."
+        },
+        {
+          "q": "How do I eat lamb chop with fewer calories?",
+          "a": "Trim the fat strip off each chop, swap the fries for salad, and keep the sauce on the side. That can bring it down towards 500."
+        }
+      ],
+      "variants": [
+        {
+          "name": "2-chop plate",
+          "calories": 580,
+          "note": "Smaller portion, two ribs"
+        },
+        {
+          "name": "Standard plate (3 chops)",
+          "calories": 680,
+          "note": "Typical mamak serving with fries"
+        },
+        {
+          "name": "Big portion + loaded sauce",
+          "calories": 860,
+          "note": "Larger chops, extra gravy"
+        }
+      ],
+      "related": [
+        "chicken-chop",
+        "fish-and-chips",
+        "satay"
+      ]
+    },
+    {
+      "slug": "fish-and-chips",
+      "name": "Fish and Chips",
+      "category": "western",
+      "serving": "1 plate",
+      "servingGrams": 350,
+      "calories": 800,
+      "protein": 35,
+      "carbs": 70,
+      "fat": 42,
+      "metaDescription": "A plate of fish and chips is around 800 calories. The fish is lean, but the batter and fries are deep-fried twice over. Full breakdown.",
+      "summary": "A full plate is about 800 calories. The fish is innocent, the batter and fries are the problem.",
+      "answer": "A plate of fish and chips runs around 800 calories. The fish fillet underneath is lean white fish, maybe 150 calories of actual fish. The rest is the thick deep-fried batter coating it, the big pile of fries, and the tartar sauce on the side. That adds up to roughly 35g protein, 70g carbs and 42g fat.",
+      "realTalk": [
+        "Here is the cruel joke with fish and chips. The fish itself is one of the leanest, highest-protein things you can eat. Then they wrap it in a thick beer batter and drop the whole thing in the deep fryer, so that innocent fillet comes out wearing a heavy oil-soaked jacket.",
+        "Then it sits next to a mountain of fries (also deep-fried) and a dollop of tartar, which is basically mayo. So the one healthy ingredient on the plate ends up buried in two layers of deep-fry. A takeaway portion can hit 850 plus easy. Tasty as hell, but no, it is not the light seafood option lah."
+      ],
+      "lighter": [
+        "Peel some of the thick batter off the fish before eating. The batter holds most of the soaked-in oil.",
+        "Swap the fries for mushy peas or a side salad. The fries are 300 plus on their own.",
+        "Use the tartar sauce sparingly or ask for lemon instead. Tartar is mostly mayo."
+      ],
+      "components": [
+        {
+          "name": "Fish fillet",
+          "grams": 150,
+          "calories": 160
+        },
+        {
+          "name": "Batter coating (deep-fried)",
+          "grams": 60,
+          "calories": 240
+        },
+        {
+          "name": "Fries",
+          "grams": 120,
+          "calories": 300
+        },
+        {
+          "name": "Tartar sauce",
+          "grams": 30,
+          "calories": 100
+        }
+      ],
+      "portions": [
+        {
+          "label": "Fish only, peas side",
+          "calories": 450
+        },
+        {
+          "label": "Standard plate + fries",
+          "calories": 800
+        },
+        {
+          "label": "Large takeaway portion",
+          "calories": 1000
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in fish and chips?",
+          "a": "A standard plate is around 800 calories. The fish itself is only about 160, the rest is the deep-fried batter, the fries and the tartar sauce. Large takeaway portions can hit 1000."
+        },
+        {
+          "q": "Is fish and chips healthy?",
+          "a": "The fish is lean and high in protein, but the batter and fries are both deep-fried, so the plate as a whole is heavy in fat and carbs. It is a treat meal, not a light seafood option."
+        },
+        {
+          "q": "How do I make fish and chips lighter?",
+          "a": "Peel off some of the batter, swap fries for mushy peas or salad, and go easy on the tartar. That can bring it down towards 450 to 500."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Grilled fish + salad",
+          "calories": 380,
+          "note": "No batter, no fries"
+        },
+        {
+          "name": "Standard battered plate",
+          "calories": 800,
+          "note": "Battered fish with fries"
+        },
+        {
+          "name": "Large takeaway portion",
+          "calories": 1000,
+          "note": "Big fish, big chips"
+        }
+      ],
+      "related": [
+        "chicken-chop",
+        "lamb-chop",
+        "ramly-burger"
+      ]
+    },
+    {
+      "slug": "burger-bakar",
+      "name": "Burger Bakar",
+      "category": "western",
+      "serving": "1 burger",
+      "servingGrams": 320,
+      "calories": 720,
+      "protein": 35,
+      "carbs": 48,
+      "fat": 42,
+      "metaDescription": "A loaded burger bakar is around 720 calories. Grilled patty, cheese, egg, special sauce, all stacked tall. Full breakdown inside.",
+      "summary": "One loaded burger bakar is about 720 calories. Grilled patty, but the cheese, egg and sauce stack up.",
+      "answer": "A loaded burger bakar (the tall grilled-burger-stall style) is around 720 calories. You get a fat flame-grilled beef patty, a slice or two of cheese, often an egg, plenty of special sauce and a soft toasted bun. That works out to roughly 35g protein, 48g carbs and 42g fat. The grilling helps a bit, but the loaded toppings pile it back on.",
+      "realTalk": [
+        "Burger bakar sounds healthier than Ramly because bakar means grilled, and the patty is genuinely flame-grilled instead of swimming in margarine. But these stalls stack them tall on purpose. You get a thick patty, double cheese, an egg, sometimes beef bacon, all glued together with a heavy special sauce.",
+        "So you start with a decent grilled patty and then bury it. A basic single is around 500, but the loaded special with cheese and egg easily hits 720, and the monster double-patty ones the popular stalls sell can clear 900. The grill saves you some oil, the toppings give it all back lah."
+      ],
+      "lighter": [
+        "Order the basic single patty, no egg, single cheese. The grilled patty on its own is the reasonable part.",
+        "Skip or halve the special sauce. It is mayo-based and they are not shy with it.",
+        "Drop the egg add-on. It is an easy 90 calories you will not miss on an already loaded burger."
+      ],
+      "components": [
+        {
+          "name": "Grilled beef patty",
+          "grams": 110,
+          "calories": 290
+        },
+        {
+          "name": "Bun (toasted)",
+          "grams": 80,
+          "calories": 200
+        },
+        {
+          "name": "Cheese + egg",
+          "grams": 70,
+          "calories": 160
+        },
+        {
+          "name": "Special sauce + veg",
+          "grams": 60,
+          "calories": 70
+        }
+      ],
+      "portions": [
+        {
+          "label": "Basic single",
+          "calories": 500
+        },
+        {
+          "label": "Loaded special",
+          "calories": 720
+        },
+        {
+          "label": "Double patty monster",
+          "calories": 920
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in a burger bakar?",
+          "a": "A loaded burger bakar is around 720 calories. The grilled patty is reasonable, but the cheese, egg and special sauce stack it up. A basic single is closer to 500."
+        },
+        {
+          "q": "Is burger bakar healthier than a Ramly burger?",
+          "a": "The patty is, since it is flame-grilled instead of fried in margarine. But burger bakar stalls load on more cheese, egg and sauce, so the loaded ones end up just as heavy or heavier."
+        },
+        {
+          "q": "How do I order a lighter burger bakar?",
+          "a": "Get the basic single patty, single cheese, no egg, and go easy on the special sauce. That keeps it around 500 instead of 720 or more."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Basic single",
+          "calories": 500,
+          "note": "One patty, one cheese, no egg"
+        },
+        {
+          "name": "Loaded special",
+          "calories": 720,
+          "note": "Cheese, egg and special sauce"
+        },
+        {
+          "name": "Double patty monster",
+          "calories": 920,
+          "note": "Two patties, double cheese, egg"
+        }
+      ],
+      "related": [
+        "ramly-burger",
+        "roti-john",
+        "chicken-chop"
+      ]
+    },
+    {
+      "slug": "begedil",
+      "name": "Begedil (Bergedil)",
+      "category": "snacks",
+      "serving": "2 pieces",
+      "servingGrams": 90,
+      "calories": 190,
+      "protein": 6,
+      "carbs": 20,
+      "fat": 10,
+      "metaDescription": "How many calories in begedil? About 190 kcal for 2 pieces. Mashed potato, fried, sneaky oil. Real numbers and lighter ways to eat it.",
+      "summary": "2 fried potato patties run about 190 kcal. Tasty but oily, easy to eat five.",
+      "answer": "Two pieces of begedil come in around 190 calories, so roughly 95 each. It is mashed potato with a bit of minced meat, shaped into a patty and deep fried, so most of the damage is potato plus the oil it soaks up. One or two next to your nasi is fine, just do not treat them like free side dishes.",
+      "realTalk": [
+        "Begedil feels harmless because it is small and it is just potato, right? But it is fried, and fried potato drinks oil like nobody business. Each little patty is around 95 calories before you even dip it in chilli.",
+        "The problem at a kenduri is you take five without thinking, that is nearly 500 calories of side dish on top of your rice and curry. If you love begedil, take two, enjoy them properly, and move on lah."
+      ],
+      "lighter": [
+        "Air fry or oven bake instead of deep fry, you save a big chunk of the oil calories",
+        "Stick to 2 pieces and let your rice portion be the filler, not the begedil",
+        "Pat them on tissue first so the surface oil drains off before you eat"
+      ],
+      "components": [
+        {
+          "name": "Mashed potato base",
+          "grams": 65,
+          "calories": 110
+        },
+        {
+          "name": "Minced meat and aromatics",
+          "grams": 20,
+          "calories": 40
+        },
+        {
+          "name": "Frying oil absorbed",
+          "grams": 5,
+          "calories": 40
+        }
+      ],
+      "portions": [
+        {
+          "label": "1 piece",
+          "calories": 95
+        },
+        {
+          "label": "2 pieces (1 serving)",
+          "calories": 190
+        },
+        {
+          "label": "5 pieces (kenduri mode)",
+          "calories": 475
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in one begedil?",
+          "a": "About 95 calories per piece, depending on size and how much meat is inside."
+        },
+        {
+          "q": "Is begedil bad for weight loss?",
+          "a": "Not bad in small amounts. It is fried potato so it is calorie dense, but 1 to 2 pieces fits fine in a deficit. The trap is eating five without noticing."
+        },
+        {
+          "q": "Is air fried begedil healthier?",
+          "a": "Yes, you cut a good amount of the absorbed oil, so an air fried piece can be closer to 70 calories instead of 95."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Air fried begedil",
+          "calories": 140,
+          "note": "2 pieces, less oil soaked up"
+        },
+        {
+          "name": "Begedil with extra meat",
+          "calories": 230,
+          "note": "2 pieces, meatier filling"
+        }
+      ],
+      "related": [
+        "karipap",
+        "cucur-udang",
+        "pisang-goreng"
+      ]
+    },
+    {
+      "slug": "cekodok-pisang",
+      "name": "Cekodok Pisang (Jemput-Jemput)",
+      "category": "snacks",
+      "serving": "3 pieces",
+      "servingGrams": 105,
+      "calories": 225,
+      "protein": 3,
+      "carbs": 35,
+      "fat": 9,
+      "metaDescription": "Calories in cekodok pisang? Around 225 kcal for 3 pieces. Fried banana balls with flour and sugar. Real numbers and lighter swaps inside.",
+      "summary": "3 banana fritter balls land near 225 kcal. Sweet, fried, and you never stop at three.",
+      "answer": "Three pieces of cekodok pisang sit around 225 calories, so roughly 75 each. It is overripe banana mashed with flour and sugar, then deep fried into balls. The banana is fine, it is the flour, sugar, and frying oil stacking up that makes it add fast. Great with teh, just count how many you actually eat.",
+      "realTalk": [
+        "Cekodok pisang is dangerous because it is tea time food, you eat it standing up not even sitting down. Each ball is small, maybe 75 calories, so your brain says no harm. Then you look down and the plate is empty and you ate six.",
+        "Six pieces is 450 calories of basically fried sweet dough, and you did not even feel full. If you want the banana fix, eat three with your teh and stop, or just eat an actual banana for 100 calories."
+      ],
+      "lighter": [
+        "Make them smaller so 3 pieces is genuinely 3 small balls, not 3 fistfuls",
+        "Use less sugar in the batter since ripe banana is already sweet",
+        "Swap to plain steamed or grilled banana when you just want the banana taste"
+      ],
+      "components": [
+        {
+          "name": "Mashed ripe banana",
+          "grams": 55,
+          "calories": 70
+        },
+        {
+          "name": "Flour and sugar batter",
+          "grams": 40,
+          "calories": 110
+        },
+        {
+          "name": "Frying oil absorbed",
+          "grams": 10,
+          "calories": 45
+        }
+      ],
+      "portions": [
+        {
+          "label": "1 piece",
+          "calories": 75
+        },
+        {
+          "label": "3 pieces (1 serving)",
+          "calories": 225
+        },
+        {
+          "label": "6 pieces (tea time spiral)",
+          "calories": 450
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in one cekodok pisang?",
+          "a": "Around 75 calories per ball for a typical small size. Bigger ones from the stall can hit 90 plus."
+        },
+        {
+          "q": "Is cekodok pisang healthy?",
+          "a": "It has real banana so some potassium and fibre, but it is fried and sugared, so treat it as a snack not a health food. Three is a reasonable portion."
+        },
+        {
+          "q": "What is the difference between cekodok and cucur pisang?",
+          "a": "Cekodok is rolled into balls, cucur pisang is usually flatter with sliced banana. Calories are similar per gram since both are fried."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Cekodok pisang with grated coconut",
+          "calories": 260,
+          "note": "3 pieces, coconut adds fat"
+        },
+        {
+          "name": "Big stall-size pieces",
+          "calories": 270,
+          "note": "3 larger balls"
+        }
+      ],
+      "related": [
+        "pisang-goreng",
+        "kuih-keria",
+        "begedil"
+      ]
+    },
+    {
+      "slug": "muruku",
+      "name": "Muruku",
+      "category": "snacks",
+      "serving": "1 handful (30g)",
+      "servingGrams": 30,
+      "calories": 155,
+      "protein": 3,
+      "carbs": 17,
+      "fat": 8,
+      "metaDescription": "Calories in muruku? About 155 kcal per 30g handful. Crispy fried rice flour snack that disappears fast. Real numbers and lighter tips.",
+      "summary": "One 30g handful of muruku is about 155 kcal. Crunchy, salty, impossible to stop at one.",
+      "answer": "A 30 gram handful of muruku is around 155 calories. It is rice flour and dhal flour mixed with spices, piped into spirals and deep fried, so it is basically crunchy fried carbs with a good amount of oil. The serving size is the killer here, nobody eats just 30 grams from a Deepavali tin.",
+      "realTalk": [
+        "Muruku is the festive trap. The tin sits on the table, you walk past, you grab a piece, crunch crunch, you walk past again. Each 30g handful is 155 calories and you will do that handful five times in one afternoon without blinking.",
+        "Five casual handfuls is close to 800 calories of fried snack, more than a full meal, and you got zero satisfaction from it because you were watching TV. If you want muruku, put one handful on a small plate and close the tin lah."
+      ],
+      "lighter": [
+        "Portion one handful onto a plate and put the tin away, out of sight",
+        "Pick baked or less oily brands if you can find them",
+        "Pair it with unsweetened tea so you are not adding sugar drink calories on top"
+      ],
+      "components": [
+        {
+          "name": "Rice and dhal flour",
+          "grams": 23,
+          "calories": 90
+        },
+        {
+          "name": "Frying oil absorbed",
+          "grams": 7,
+          "calories": 60
+        }
+      ],
+      "portions": [
+        {
+          "label": "Small handful (15g)",
+          "calories": 78
+        },
+        {
+          "label": "1 handful (30g)",
+          "calories": 155
+        },
+        {
+          "label": "5 handfuls (festive grazing)",
+          "calories": 775
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in muruku per 100g?",
+          "a": "Muruku runs roughly 500 calories per 100g because it is deep fried flour. A 30g handful is about 155."
+        },
+        {
+          "q": "Is muruku good for a diet?",
+          "a": "Only in small, measured amounts. It is calorie dense and easy to overeat, so portion it on a plate instead of grazing from the tin."
+        },
+        {
+          "q": "Is muruku high in protein?",
+          "a": "Not really. The dhal gives it a little, about 3g per handful, but it is mostly carbs and oil."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Spicy masala muruku",
+          "calories": 160,
+          "note": "30g, similar oil content"
+        },
+        {
+          "name": "Thin omapodi style",
+          "calories": 150,
+          "note": "30g, slightly less dense"
+        }
+      ],
+      "related": [
+        "kacang-putih",
+        "keropok-lekor",
+        "vadai"
+      ]
+    },
+    {
+      "slug": "kacang-putih",
+      "name": "Kacang Putih",
+      "category": "snacks",
+      "serving": "1 small packet (40g)",
+      "servingGrams": 40,
+      "calories": 215,
+      "protein": 8,
+      "carbs": 22,
+      "fat": 10,
+      "metaDescription": "Calories in kacang putih? About 215 kcal per 40g packet. Fried chickpeas that feel like nothing but add up fast. Real numbers inside.",
+      "summary": "One 40g packet of kacang putih is about 215 kcal. Feels like air, actually fried and oily.",
+      "answer": "A small 40 gram packet of kacang putih is around 215 calories. It is chickpeas and lentils fried with salt and spices, so you do get a decent 8g of protein, but the frying oil pushes it up. The texture is so light you forget you are eating fried food, that is exactly the problem.",
+      "realTalk": [
+        "Kacang putih feels like nothing bro, you just keep dipping your hand in. But that little packet is fried and oily, easily 215 calories before the movie even starts. The crunch tricks your brain into thinking it is healthy chickpeas.",
+        "It does have real protein, 8g a packet, which is more than most snacks here. But one packet at the cinema turns into two with your drink and now you are at 430 calories sitting in the dark. Stick to one packet and you are fine."
+      ],
+      "lighter": [
+        "Choose roasted kacang putih over fried, you cut a chunk of the oil",
+        "Eat one packet and actually use the 8g protein as the win, do not double up",
+        "Skip the sugary cinema drink that usually comes with it, that is where it really stacks"
+      ],
+      "components": [
+        {
+          "name": "Chickpeas and lentils",
+          "grams": 33,
+          "calories": 150
+        },
+        {
+          "name": "Frying oil and salt",
+          "grams": 7,
+          "calories": 65
+        }
+      ],
+      "portions": [
+        {
+          "label": "Half packet (20g)",
+          "calories": 108
+        },
+        {
+          "label": "1 small packet (40g)",
+          "calories": 215
+        },
+        {
+          "label": "2 packets (cinema combo)",
+          "calories": 430
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in a packet of kacang putih?",
+          "a": "A small 40g packet is roughly 215 calories. Bigger paper-cone servings can easily double that."
+        },
+        {
+          "q": "Is kacang putih healthy?",
+          "a": "It has good protein and fibre from chickpeas, but it is fried so it is calorie dense. Roasted versions are the better pick if you can find them."
+        },
+        {
+          "q": "Does kacang putih have protein?",
+          "a": "Yes, around 8g per 40g packet, which is solid for a snack. That is the one genuine plus point here."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Roasted kacang putih",
+          "calories": 165,
+          "note": "40g, much less oil"
+        },
+        {
+          "name": "Mixed kacang putih variety",
+          "calories": 225,
+          "note": "40g, with fried noodles and dhal"
+        }
+      ],
+      "related": [
+        "muruku",
+        "vadai",
+        "keropok-lekor"
+      ]
+    },
+    {
+      "slug": "pau-kaya",
+      "name": "Kaya Pau (Steamed Kaya Bun)",
+      "category": "snacks",
+      "serving": "1 bun",
+      "servingGrams": 80,
+      "calories": 215,
+      "protein": 5,
+      "carbs": 38,
+      "fat": 5,
+      "metaDescription": "Calories in kaya pau? About 215 kcal for one steamed kaya bun. Soft, sweet, deceptively heavy. Real numbers and lighter tips inside.",
+      "summary": "One steamed kaya pau is about 215 kcal. Soft and sweet, but it is flour plus sugar coconut jam.",
+      "answer": "One kaya pau comes in around 215 calories. It is a steamed white flour bun filled with kaya, which is coconut jam made from sugar, egg, and coconut milk. Steamed means no frying oil, that is the good news, but the soft dough plus sweet filling is still a solid chunk of carbs and sugar.",
+      "realTalk": [
+        "People think kaya pau is light because it is steamed and fluffy, not fried. Fair, no frying oil. But that fluffy bun is basically sweet white bread, and the kaya inside is pure sugar and coconut. One bun is 215 calories of mostly carbs.",
+        "It is not a disaster, it is actually one of the gentler snacks on this list since there is almost no frying involved. Just do not eat it thinking it is a free pass. One pau with your kopi is fine, two is creeping toward a meal worth of sugar."
+      ],
+      "lighter": [
+        "Have one pau, not two, and skip the condensed milk in your kopi to balance it",
+        "Pick a smaller pau if the stall has different sizes, they vary a lot",
+        "Pair with a black coffee or plain tea so you are not stacking more sugar on top"
+      ],
+      "components": [
+        {
+          "name": "Steamed flour bun",
+          "grams": 55,
+          "calories": 130
+        },
+        {
+          "name": "Kaya filling",
+          "grams": 25,
+          "calories": 85
+        }
+      ],
+      "portions": [
+        {
+          "label": "Half bun",
+          "calories": 108
+        },
+        {
+          "label": "1 bun (1 serving)",
+          "calories": 215
+        },
+        {
+          "label": "2 buns",
+          "calories": 430
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in a kaya pau?",
+          "a": "Roughly 215 calories for a standard bun. Larger ones or extra kaya can push it to 250 plus."
+        },
+        {
+          "q": "Is kaya pau better than fried snacks?",
+          "a": "Calorie for calorie it is gentler because it is steamed, not fried, so the fat is lower. The catch is the sugar in the kaya filling."
+        },
+        {
+          "q": "Can I eat kaya pau on a diet?",
+          "a": "Yes, one bun fits fine in a deficit, especially since it is steamed. Just count it as a real 215 calories, not a freebie."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Butter kaya pau",
+          "calories": 250,
+          "note": "1 bun, slab of butter inside"
+        },
+        {
+          "name": "Mini kaya pau",
+          "calories": 130,
+          "note": "smaller dim sum size"
+        }
+      ],
+      "related": [
+        "onde-onde",
+        "pulut-panggang",
+        "kuih-keria"
+      ]
+    },
+    {
+      "slug": "sata",
+      "name": "Sata (Terengganu)",
+      "category": "snacks",
+      "serving": "2 sticks",
+      "servingGrams": 90,
+      "calories": 230,
+      "protein": 14,
+      "carbs": 8,
+      "fat": 16,
+      "metaDescription": "Calories in sata Terengganu? About 230 kcal for 2 sticks. Grilled spiced fish in banana leaf, decent protein. Real numbers inside.",
+      "summary": "2 sticks of sata are about 230 kcal with 14g protein. Grilled fish, not fried, surprisingly solid.",
+      "answer": "Two sticks of sata land around 230 calories with a respectable 14g of protein. It is spiced fish meat mixed with grated coconut, wrapped in banana leaf and grilled over charcoal. Because it is grilled not fried, the calories come mostly from the fish and coconut rather than soaked oil, which makes it one of the better snack choices here.",
+      "realTalk": [
+        "Sata is actually one of the smarter picks on this list, bro. It is fish, it is grilled over charcoal, and 2 sticks give you 14g of real protein. The coconut adds fat so it is not zero calorie, but you are getting actual nutrition, not just fried air.",
+        "The thing to watch is the grated coconut, that is where the fat comes from, about 16g across two sticks. Still, compared to muruku or kacang putih, sata fills you up and feeds your muscles. If you are choosing a snack on the east coast, this one is a green light."
+      ],
+      "lighter": [
+        "It is grilled already, so just go easy on any sweet dipping sauce on the side",
+        "Pair 2 sticks with cut cucumber or ulam instead of rice if you want it lighter",
+        "Choose sticks with more fish and less coconut paste if the stall lets you see"
+      ],
+      "components": [
+        {
+          "name": "Spiced fish paste",
+          "grams": 60,
+          "calories": 130
+        },
+        {
+          "name": "Grated coconut and aromatics",
+          "grams": 25,
+          "calories": 90
+        },
+        {
+          "name": "Coconut milk binder",
+          "grams": 5,
+          "calories": 10
+        }
+      ],
+      "portions": [
+        {
+          "label": "1 stick",
+          "calories": 115
+        },
+        {
+          "label": "2 sticks (1 serving)",
+          "calories": 230
+        },
+        {
+          "label": "4 sticks",
+          "calories": 460
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in sata?",
+          "a": "About 115 calories per stick, so 230 for two. It varies with how much coconut is packed in."
+        },
+        {
+          "q": "Is sata good for weight loss?",
+          "a": "Pretty good actually. It is grilled fish with 14g protein per 2 sticks, so it is filling and not fried. The coconut adds fat but it is still a smart snack."
+        },
+        {
+          "q": "Is sata high in protein?",
+          "a": "Yes, around 14g for 2 sticks since it is mostly fish. That is one of the highest protein snacks in this category."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Sata ikan tongkol",
+          "calories": 235,
+          "note": "2 sticks, mackerel tuna base"
+        },
+        {
+          "name": "Sata with heavy coconut",
+          "calories": 270,
+          "note": "2 sticks, more coconut paste"
+        }
+      ],
+      "related": [
+        "keropok-lekor",
+        "pulut-panggang",
+        "akok"
+      ]
+    },
+    {
+      "slug": "akok",
+      "name": "Akok (Kelantan Kuih)",
+      "category": "snacks",
+      "serving": "2 pieces",
+      "servingGrams": 60,
+      "calories": 180,
+      "protein": 4,
+      "carbs": 24,
+      "fat": 8,
+      "metaDescription": "Calories in akok? About 180 kcal for 2 pieces. Baked Kelantan kuih of egg, coconut milk and palm sugar. Real numbers inside.",
+      "summary": "2 pieces of akok are about 180 kcal. Baked egg and coconut kuih, sweet and rich.",
+      "answer": "Two pieces of akok come in around 180 calories, so roughly 90 each. It is a Kelantan kuih baked from eggs, coconut milk, and palm sugar, so it is soft, creamy, and sweet. It is baked not fried, but the coconut milk and sugar still make it richer than it looks for such a small piece.",
+      "realTalk": [
+        "Akok is small and innocent looking, like a little flower shaped cake. But it is egg, coconut milk, and palm sugar baked together, so each piece is about 90 calories of rich sweet custard. Two pieces with your kopi is 180.",
+        "It is not the worst thing, it is baked so there is no frying oil, and the egg gives it a touch of protein. But the palm sugar and coconut milk mean it is denser than the size suggests. Enjoy two, do not sit there finishing the whole tray lah."
+      ],
+      "lighter": [
+        "Stick to 2 pieces, the small size makes it easy to lose count fast",
+        "Pair with black coffee or plain tea, no extra sugar drink on the side",
+        "Treat it as your one sweet thing for the day, not an all-afternoon graze"
+      ],
+      "components": [
+        {
+          "name": "Egg base",
+          "grams": 25,
+          "calories": 50
+        },
+        {
+          "name": "Coconut milk",
+          "grams": 20,
+          "calories": 70
+        },
+        {
+          "name": "Palm sugar and flour",
+          "grams": 15,
+          "calories": 60
+        }
+      ],
+      "portions": [
+        {
+          "label": "1 piece",
+          "calories": 90
+        },
+        {
+          "label": "2 pieces (1 serving)",
+          "calories": 180
+        },
+        {
+          "label": "5 pieces (whole tray creep)",
+          "calories": 450
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in akok?",
+          "a": "About 90 calories per piece, so 180 for two. Bigger or sweeter versions can run higher."
+        },
+        {
+          "q": "Is akok fried?",
+          "a": "No, akok is baked, traditionally in special moulds over a fire. That means no soaked frying oil, the calories come from coconut milk and palm sugar."
+        },
+        {
+          "q": "Is akok ok for a diet?",
+          "a": "In small amounts yes. It is baked and the egg gives a little protein, but the coconut milk and palm sugar make it rich, so keep it to 2 pieces."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Akok kedut",
+          "calories": 190,
+          "note": "2 pieces, denser folded version"
+        },
+        {
+          "name": "Mini akok",
+          "calories": 120,
+          "note": "2 small mould pieces"
+        }
+      ],
+      "related": [
+        "onde-onde",
+        "kuih-keria",
+        "pulut-panggang"
+      ]
+    },
+    {
+      "slug": "pulut-panggang",
+      "name": "Pulut Panggang",
+      "category": "snacks",
+      "serving": "2 rolls",
+      "servingGrams": 130,
+      "calories": 290,
+      "protein": 6,
+      "carbs": 44,
+      "fat": 10,
+      "metaDescription": "Calories in pulut panggang? About 290 kcal for 2 rolls. Grilled glutinous rice with spiced coconut filling. Real numbers inside.",
+      "summary": "2 rolls of pulut panggang are about 290 kcal. Grilled sticky rice with spicy coconut inside.",
+      "answer": "Two rolls of pulut panggang come in around 290 calories, so roughly 145 each. It is glutinous rice cooked in coconut milk, wrapped around a spiced coconut or dried shrimp filling, then grilled in banana leaf. The grilling keeps oil out, but glutinous rice plus coconut milk is dense, so two rolls is a proper snack not a nibble.",
+      "realTalk": [
+        "Pulut panggang smells amazing off the charcoal and the banana leaf char makes you want three immediately. But glutinous rice is heavy, bro, and it is cooked in coconut milk, so each roll is about 145 calories. Two rolls is 290, basically a small meal.",
+        "It is grilled so there is no frying oil, which is a plus, and the rempah filling actually gives it flavour and a little protein. Just know that two rolls fills you up like rice because it is rice. Treat it as a mini meal, not a between-meal snack you stack on top of lunch."
+      ],
+      "lighter": [
+        "Count 2 rolls as part of a meal, not an extra on top of your rice",
+        "Pick rolls with more filling and a thinner rice layer if you can",
+        "It is grilled already, so just skip any sweet sauce and you are good"
+      ],
+      "components": [
+        {
+          "name": "Glutinous rice in coconut milk",
+          "grams": 95,
+          "calories": 200
+        },
+        {
+          "name": "Spiced coconut or shrimp filling",
+          "grams": 30,
+          "calories": 80
+        },
+        {
+          "name": "Banana leaf char and oil brush",
+          "grams": 5,
+          "calories": 10
+        }
+      ],
+      "portions": [
+        {
+          "label": "1 roll",
+          "calories": 145
+        },
+        {
+          "label": "2 rolls (1 serving)",
+          "calories": 290
+        },
+        {
+          "label": "4 rolls",
+          "calories": 580
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in pulut panggang?",
+          "a": "About 145 calories per roll, so 290 for two. Bigger rolls with more coconut filling go higher."
+        },
+        {
+          "q": "Is pulut panggang fattening?",
+          "a": "It is calorie dense because glutinous rice and coconut milk are heavy, but it is grilled not fried. Treat 2 rolls like a small meal and it fits fine."
+        },
+        {
+          "q": "Is pulut panggang a meal or a snack?",
+          "a": "Two rolls is really a light meal worth of carbs. If you eat it as a snack on top of full meals, that is where the calories pile up."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Pulut panggang inti kelapa",
+          "calories": 290,
+          "note": "2 rolls, sweet coconut filling"
+        },
+        {
+          "name": "Pulut panggang udang",
+          "calories": 300,
+          "note": "2 rolls, spicy dried shrimp filling"
+        }
+      ],
+      "related": [
+        "lemang",
+        "pulut",
+        "sata"
+      ]
+    },
+    {
+      "slug": "sweet-sour-chicken",
+      "name": "Sweet and Sour Chicken",
+      "category": "lauk",
+      "serving": "1 plate",
+      "servingGrams": 280,
+      "calories": 540,
+      "protein": 26,
+      "carbs": 52,
+      "fat": 26,
+      "metaDescription": "Sweet and sour chicken runs about 540 calories a plate. The battered chicken and that sugary red sauce are the whole story. Breakdown inside.",
+      "summary": "Battered deep-fried chicken pieces tossed in a sweet, tangy red sauce with pineapple, onion and capsicum.",
+      "answer": "A standard zi-char plate of sweet and sour chicken comes in around 540 calories, with 26g protein, 52g carbs and 26g fat. The chicken itself is fine, but it gets battered and deep fried first, then drowned in a sauce that is basically sugar, ketchup and vinegar. That combo of fried batter plus sweet sauce is what pushes the carbs and fat up together.",
+      "realTalk": [
+        "Sweet and sour chicken is one of those zi char plates everyone orders without thinking. Crispy battered chicken, that bright red glossy sauce, bits of pineapple and capsicum for show. Tastes great with rice, no argument. But here is the thing bro, the chicken is deep fried in batter before it even touches the sauce, so you are paying for the oil and the flour twice. Then the sauce itself is loaded with sugar to get that sweet tang. At around 540 calories for a plate, it is not a disaster, but it is also not the lean protein dish people pretend it is.",
+        "The sauce is the swing factor. Some shops make it light and tangy, some make it candy-sweet and thick enough to coat a spoon. The sweeter and glossier it looks, the more sugar is in there, and that can add 80 to 120 calories on its own. Portion matters too. A small plate shared between people is one thing, but a full plate to yourself with a mountain of rice and you are easily past 900 calories for that one corner of the table. If you want the flavour without the full hit, ask for the sauce on the side and dip instead of drowning."
+      ],
+      "lighter": [
+        "Ask for the sauce on the side and dip the chicken instead of having it all poured over. You control how much sugar goes on.",
+        "Share it as a table dish, not a solo main. One or two pieces for taste, then get your protein from something steamed.",
+        "Pick the version with more visible veg and actually eat those, they bulk the plate for almost no calories.",
+        "Pair it with plain rice and a plate of sayur instead of stacking it next to another fried dish like butter prawns."
+      ],
+      "variants": [
+        {
+          "name": "Sweet and sour pork",
+          "calories": 580,
+          "note": "Pork belly cuts are fattier than chicken, so the base climbs a bit"
+        },
+        {
+          "name": "Sweet and sour fish fillet",
+          "calories": 500,
+          "note": "Leaner fish base, but still battered and sauced the same way"
+        }
+      ],
+      "components": [
+        {
+          "name": "Battered chicken pieces (deep fried)",
+          "grams": 160,
+          "calories": 340
+        },
+        {
+          "name": "Sweet and sour sauce (sugar, ketchup, vinegar)",
+          "grams": 80,
+          "calories": 140
+        },
+        {
+          "name": "Pineapple, onion, capsicum",
+          "grams": 40,
+          "calories": 30
+        },
+        {
+          "name": "Oil from stir-frying the sauce",
+          "grams": 4,
+          "calories": 30
+        }
+      ],
+      "portions": [
+        {
+          "label": "A few pieces shared from the middle",
+          "calories": 180
+        },
+        {
+          "label": "Half a plate with rice",
+          "calories": 270
+        },
+        {
+          "label": "Full plate to yourself",
+          "calories": 540
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in sweet and sour chicken?",
+          "a": "A standard zi char plate is roughly 540 calories, with 26g protein, 52g carbs and 26g fat. Heavier sauce and thicker batter can push it past 600."
+        },
+        {
+          "q": "Why is sweet and sour chicken so high in carbs?",
+          "a": "Two reasons. The chicken is coated in flour batter before deep frying, and the sauce is built on sugar and ketchup. Those two together are where most of the 52g of carbs come from, not the chicken."
+        },
+        {
+          "q": "Is sweet and sour chicken a good protein choice?",
+          "a": "It gives you about 26g of protein per plate, which is decent, but it comes packaged with 26g of fat and a lot of sugar. If protein is the goal, a steamed or plain stir-fried chicken dish gets you more protein for fewer calories."
+        }
+      ],
+      "related": [
+        "kung-pao-chicken",
+        "marmite-chicken",
+        "sotong-goreng-tepung"
+      ]
+    },
+    {
+      "slug": "kung-pao-chicken",
+      "name": "Kung Pao Chicken",
+      "category": "lauk",
+      "serving": "1 plate",
+      "servingGrams": 260,
+      "calories": 480,
+      "protein": 30,
+      "carbs": 24,
+      "fat": 29,
+      "metaDescription": "Kung pao chicken is around 480 calories a plate. Leaner than most fried zi char dishes, but the oil and cashews add up. Full breakdown here.",
+      "summary": "Stir-fried chicken cubes with dried chili, peanuts or cashews, onion and a savoury-sweet kung pao sauce.",
+      "answer": "A plate of kung pao chicken sits around 480 calories, with 30g protein, 24g carbs and 29g fat. Compared to battered dishes it is actually one of the better zi char picks because the chicken is usually just diced and stir-fried, not deep fried in batter. The fat comes mostly from the wok oil and the nuts, and the sauce keeps the carbs moderate rather than crazy.",
+      "realTalk": [
+        "Kung pao chicken is a solid order if you are watching things, and I do not say that about most zi char plates. The chicken is cubed and stir-fried, not battered and deep fried, so you skip that whole layer of flour and absorbed oil that wrecks dishes like sweet and sour. At around 480 calories with a genuine 30g of protein, the macros are actually not bad. The fat number looks high, but a good chunk of it is the wok oil and the handful of peanuts or cashews tossed in, which at least bring something to the table besides empty calories.",
+        "Where it goes wrong is oil-heavy versions and the nut load. Some shops are generous with the wok oil and the dish arrives swimming, which can add 100 calories easily. The cashew version is richer than the peanut one because cashews are denser. And like every dish here, the rice is the real trap, not the chicken. If you treat the kung pao as your protein anchor and keep the rice to one scoop, you are eating well. Pick this over butter prawns or marmite chicken any day if you want flavour without the deep-fry tax."
+      ],
+      "lighter": [
+        "Choose kung pao over the battered dishes. Stir-fried beats deep fried every time on calories.",
+        "Ask them to go light on the oil. A drier wok finish can save you 80 to 100 calories per plate.",
+        "Eat the chicken and veg, go easy on scooping up the loose nuts and oil pooled at the bottom.",
+        "Use it as your protein main and keep rice to one scoop, that is where this meal stays reasonable."
+      ],
+      "variants": [
+        {
+          "name": "Kung pao chicken with cashews",
+          "calories": 520,
+          "note": "Cashews are denser than peanuts, so the fat creeps up"
+        },
+        {
+          "name": "Kung pao chicken (oil-heavy stall version)",
+          "calories": 560,
+          "note": "Generous wok oil and a glossier sauce push it higher"
+        }
+      ],
+      "components": [
+        {
+          "name": "Diced chicken (stir-fried)",
+          "grams": 150,
+          "calories": 250
+        },
+        {
+          "name": "Wok oil",
+          "grams": 12,
+          "calories": 110
+        },
+        {
+          "name": "Peanuts or cashews",
+          "grams": 25,
+          "calories": 80
+        },
+        {
+          "name": "Kung pao sauce, dried chili, onion",
+          "grams": 50,
+          "calories": 40
+        }
+      ],
+      "portions": [
+        {
+          "label": "A few spoonfuls shared",
+          "calories": 160
+        },
+        {
+          "label": "Half a plate with rice",
+          "calories": 240
+        },
+        {
+          "label": "Full plate to yourself",
+          "calories": 480
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in kung pao chicken?",
+          "a": "A standard plate is about 480 calories, with 30g protein, 24g carbs and 29g fat. Oil-heavy or cashew versions can reach 520 to 560."
+        },
+        {
+          "q": "Is kung pao chicken healthier than sweet and sour chicken?",
+          "a": "Generally yes. Kung pao chicken is stir-fried, not battered and deep fried, so you skip the flour coating and a lot of absorbed oil. It also has more protein and fewer carbs per plate."
+        },
+        {
+          "q": "What makes kung pao chicken high in fat?",
+          "a": "Mostly the wok oil and the peanuts or cashews. The chicken itself is lean since it is diced and stir-fried, so if the plate arrives swimming in oil, that is where the extra fat is hiding."
+        }
+      ],
+      "related": [
+        "sweet-sour-chicken",
+        "marmite-chicken",
+        "nestum-chicken"
+      ]
+    },
+    {
+      "slug": "marmite-chicken",
+      "name": "Marmite Chicken",
+      "category": "lauk",
+      "serving": "1 plate",
+      "servingGrams": 260,
+      "calories": 580,
+      "protein": 28,
+      "carbs": 40,
+      "fat": 32,
+      "metaDescription": "Marmite chicken comes in around 580 calories a plate. Deep fried then glazed in sweet marmite sauce, this one hits both fat and sugar. Breakdown inside.",
+      "summary": "Deep-fried chicken pieces coated in a sticky, sweet and savoury glaze made from Marmite, sugar and soy.",
+      "answer": "A zi char plate of marmite chicken lands around 580 calories, with 28g protein, 40g carbs and 32g fat. This one is a double hit. The chicken is deep fried first, then tossed in a glossy glaze built on Marmite, sugar, honey or maltose and soy. So you pay for the frying oil and the sugary glaze at the same time. Tasty as hell, but not light.",
+      "realTalk": [
+        "Marmite chicken is one of those dishes that tastes way too good for what it does to your day. The chicken gets battered and deep fried until crispy, then it is tossed in that dark sticky glaze made from Marmite, sugar, honey or maltose and a bit of soy. That glaze is where the magic and the damage both live, because it is essentially caramelised sugar clinging to fried chicken. At around 580 calories a plate, it is one of the heavier zi char chicken dishes, with the fat coming from the deep fry and the carbs coming straight from the sweet glaze.",
+        "The glaze thickness is everything here. A light Marmite coating is one thing, but some shops drench it so thick and glossy that every piece is candied, and that easily adds 100 to 150 calories of pure sugar. Because it is deep fried, you also cannot pull skin or batter off to save much, the calories are baked into the whole piece. If you love it, the move is to treat it as a shared table dish, take two or three pieces for the taste, and not make it your personal protein main. Pair it with steamed veg and one scoop of rice and you keep the meal from running away from you."
+      ],
+      "lighter": [
+        "Share it. Two or three pieces for the flavour hit, then get your actual protein from a steamed or plain stir-fried dish.",
+        "Go for the version with a thinner glaze. The thicker and glossier the coating, the more sugar you are eating.",
+        "Do not pour the leftover glaze from the plate over your rice, that pooled sauce is concentrated sugar and oil.",
+        "Balance the plate with a green veg like sawi or kangkung instead of ordering a second fried dish."
+      ],
+      "variants": [
+        {
+          "name": "Marmite pork ribs",
+          "calories": 620,
+          "note": "Same glaze on fattier pork ribs, so it climbs higher"
+        },
+        {
+          "name": "Marmite prawns",
+          "calories": 520,
+          "note": "Leaner prawn base, but still deep fried and glazed the same way"
+        }
+      ],
+      "components": [
+        {
+          "name": "Battered chicken pieces (deep fried)",
+          "grams": 170,
+          "calories": 360
+        },
+        {
+          "name": "Marmite glaze (Marmite, sugar, honey/maltose, soy)",
+          "grams": 60,
+          "calories": 160
+        },
+        {
+          "name": "Oil from finishing the glaze in the wok",
+          "grams": 7,
+          "calories": 60
+        }
+      ],
+      "portions": [
+        {
+          "label": "Two or three pieces shared",
+          "calories": 200
+        },
+        {
+          "label": "Half a plate with rice",
+          "calories": 290
+        },
+        {
+          "label": "Full plate to yourself",
+          "calories": 580
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in marmite chicken?",
+          "a": "A standard zi char plate is roughly 580 calories, with 28g protein, 40g carbs and 32g fat. A heavily glazed version can push past 650."
+        },
+        {
+          "q": "Why is marmite chicken so high in calories?",
+          "a": "It is a double hit. The chicken is deep fried first, then coated in a glaze made from Marmite, sugar and honey or maltose. So you get the fat from frying and the sugar from the glaze in the same bite."
+        },
+        {
+          "q": "Is marmite chicken worse than sweet and sour chicken?",
+          "a": "Slightly, yes. Both are battered and deep fried, but the marmite glaze tends to be richer and more sugar-heavy than the sweet and sour sauce, so the plate usually lands a bit higher at around 580 calories."
+        }
+      ],
+      "related": [
+        "sweet-sour-chicken",
+        "kung-pao-chicken",
+        "butter-prawns"
+      ]
+    },
+    {
+      "slug": "char-siew",
+      "name": "Char Siew (BBQ Pork)",
+      "category": "lauk",
+      "serving": "100g",
+      "servingGrams": 100,
+      "calories": 290,
+      "protein": 24,
+      "carbs": 14,
+      "fat": 15,
+      "metaDescription": "Char siew is around 290 calories per 100g. That glossy red BBQ pork glaze is basically sugar. Here is the full breakdown.",
+      "summary": "Cantonese barbecued pork, marinated in a sweet honey-soy glaze and roasted until the edges caramelise.",
+      "answer": "100g of char siew comes in around 290 calories, with 24g protein, 14g carbs and 15g fat. The pork gives you a solid protein hit, but two things bump the number up: char siew is usually made from fattier cuts like pork shoulder or belly, and that signature glossy red glaze is loaded with sugar and honey. The leaner the cut and the lighter the glaze, the better it sits.",
+      "realTalk": [
+        "Char siew is that sweet, glossy red BBQ pork you see hanging in the Chinese roast meat shop window. 100g at around 290 calories is honestly not bad for a roast meat, and the 24g of protein is genuinely good. But two things are working against you bro. First, char siew is usually cut from pork shoulder or belly, which carries a fair bit of fat, so even before any sauce you are starting fattier than chicken. Second, that beautiful red lacquered glaze is basically a sugar bomb of honey, maltose, sugar and soy painted on layer by layer. That is where most of the 14g of carbs come from. The caramelised burnt edges everyone fights over taste incredible and are pure sugar.",
+        "Cut choice is the biggest lever. Lean char siew can drop the fat noticeably, while the fatty belly version with the white streaks can push 100g toward 340 calories. The other trap is portion. A char siew rice plate gives you way more than 100g, often 150 to 200g, so just doubling the meat alone can be 500 plus calories before the rice. If you are at the roast shop, ask for lean over fatty, eat it with rice and veg rather than stacking it with siu yoke, and you have got a reasonable high-protein meal."
+      ],
+      "lighter": [
+        "Ask for the lean cut over the fatty belly version. The lean shoulder pieces save you a good chunk of fat per 100g.",
+        "Watch the portion. A roast shop plate is often 150 to 200g, not 100g, so the meat alone can be 500 plus calories.",
+        "Do not drench it in extra dark sauce. The glaze is already sweet, so adding the syrupy sauce on top is double sugar.",
+        "Pair it with rice and a plate of greens instead of ordering it alongside siu yoke and roast duck on the same plate."
+      ],
+      "variants": [
+        {
+          "name": "Lean char siew (shoulder, less fat)",
+          "calories": 230,
+          "note": "Leaner cut with less marbling, lower fat per 100g"
+        },
+        {
+          "name": "Fatty char siew (belly, more marbling)",
+          "calories": 340,
+          "note": "More fat streaks plus glaze, the richest version"
+        }
+      ],
+      "components": [
+        {
+          "name": "Roast pork (shoulder/belly, cooked)",
+          "grams": 85,
+          "calories": 220
+        },
+        {
+          "name": "Char siew glaze (honey, maltose, sugar, soy)",
+          "grams": 15,
+          "calories": 70
+        }
+      ],
+      "portions": [
+        {
+          "label": "Small slice for taste (50g)",
+          "calories": 145
+        },
+        {
+          "label": "Standard serving (100g)",
+          "calories": 290
+        },
+        {
+          "label": "Roast shop plate portion (180g)",
+          "calories": 520
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in char siew?",
+          "a": "Around 290 calories per 100g, with 24g protein, 14g carbs and 15g fat. Leaner cuts come closer to 230, while the fatty belly version can hit 340."
+        },
+        {
+          "q": "Why does char siew have carbs if it is just pork?",
+          "a": "The carbs come from the glaze. That glossy red coating is made from honey, maltose, sugar and soy, painted on in layers and caramelised, which is where the 14g of carbs per 100g comes from."
+        },
+        {
+          "q": "Is char siew a good protein source?",
+          "a": "Yes, 24g of protein per 100g is solid. Just be aware of two things: it is often a fattier cut of pork, and the sweet glaze adds sugar. Pick the lean cut and watch the portion size."
+        }
+      ],
+      "related": [
+        "siu-yoke",
+        "roast-duck",
+        "char-siew-rice"
+      ]
+    },
+    {
+      "slug": "siu-yoke",
+      "name": "Siu Yoke (Roast Pork)",
+      "category": "lauk",
+      "serving": "100g",
+      "servingGrams": 100,
+      "calories": 400,
+      "protein": 20,
+      "carbs": 1,
+      "fat": 36,
+      "metaDescription": "Siu yoke is around 400 calories per 100g. That crispy crackling skin is literally rendered fat. Worth it sometimes, just know the price.",
+      "summary": "Cantonese roast pork belly with shatteringly crispy crackling skin over layers of fat and meat.",
+      "answer": "100g of siu yoke comes in around 400 calories, with 20g protein, basically no carbs, and a hefty 36g of fat. There is no sugary glaze here, the calories are all about the cut. Siu yoke is pork belly, which is layers of fat with some meat, topped by that crispy crackling skin that is literally rendered fat. Delicious, but it is one of the fattiest things in the roast shop.",
+      "realTalk": [
+        "Siu yoke is the crispy roast pork everyone fights over at the table bro. That shattering crackling skin, the layers underneath, dipped in a bit of mustard or hoisin. Pure joy. But let us be honest about what it is: pork belly. That means alternating layers of fat and meat, topped by skin that has been roasted until the fat under it renders and crisps into that crackling. At around 400 calories per 100g with 36g of fat, it is one of the fattiest things you can order at a roast meat shop. Unlike char siew there is no sweet glaze, so the carbs are near zero, but you are not saving anything because the fat does all the work instead.",
+        "The thing to understand is that the crackling skin, as good as it is, is basically rendered fat with a crunch. There is no lean version of siu yoke, it is belly by definition, so you cannot really pick a lighter cut the way you can with char siew. Your only real levers are portion and frequency. 100g is already 400 calories, and a roast shop usually piles on more, so a generous serving can quietly be 600 plus before rice. The move is not to swear it off, it is to treat it as a sometimes thing. Take a few pieces for the taste, pair it with a leaner protein, and pile on the veg to balance it out. Worth it sometimes, just know the price."
+      ],
+      "lighter": [
+        "Treat it as a taste, not a main. A few pieces alongside a leaner protein beats a full plate of siu yoke on its own.",
+        "Pair it with steamed veg and plain rice to balance the plate, do not stack it with roast duck and char siew at once.",
+        "If you want roast pork as your protein, char siew lean cut gives you more protein for a lot less fat than belly.",
+        "Blot the surface oil off with a tissue. It will not change the cut, but it shaves a little of the dripping fat."
+      ],
+      "variants": [
+        {
+          "name": "Siu yoke lean end cut",
+          "calories": 320,
+          "note": "The meatier end pieces with a thinner fat layer, lower fat"
+        },
+        {
+          "name": "Crispy belly heavy on crackling",
+          "calories": 430,
+          "note": "More skin and fat layer, the richest and crispiest part"
+        }
+      ],
+      "components": [
+        {
+          "name": "Roast pork belly meat and fat layers",
+          "grams": 92,
+          "calories": 360
+        },
+        {
+          "name": "Crackling skin (rendered fat)",
+          "grams": 8,
+          "calories": 40
+        }
+      ],
+      "portions": [
+        {
+          "label": "A few pieces for taste (50g)",
+          "calories": 200
+        },
+        {
+          "label": "Standard serving (100g)",
+          "calories": 400
+        },
+        {
+          "label": "Roast shop plate portion (150g)",
+          "calories": 600
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in siu yoke?",
+          "a": "Around 400 calories per 100g, with 20g protein and a heavy 36g of fat. There are almost no carbs since there is no sweet glaze, but the pork belly cut makes it one of the fattiest roast meats."
+        },
+        {
+          "q": "Why is siu yoke so high in fat?",
+          "a": "Because it is pork belly, which is layers of fat and meat, topped with crackling skin. That crispy skin everyone loves is literally rendered fat, so the whole cut is fat-heavy by nature."
+        },
+        {
+          "q": "Is siu yoke or char siew better for losing weight?",
+          "a": "Char siew, especially the lean cut, is the better pick. It has more protein and far less fat per 100g. Siu yoke is pork belly so it is much fattier, around 400 calories per 100g versus roughly 230 to 290 for char siew."
+        }
+      ],
+      "related": [
+        "char-siew",
+        "roast-duck",
+        "khau-yuk"
+      ]
+    },
+    {
+      "slug": "roast-duck",
+      "name": "Roast Duck (Siu Ngap)",
+      "category": "lauk",
+      "serving": "quarter duck",
+      "servingGrams": 200,
+      "calories": 480,
+      "protein": 40,
+      "carbs": 4,
+      "fat": 34,
+      "metaDescription": "A quarter roast duck is around 480 calories. Great protein, but the skin and fat under it do the heavy lifting. Full breakdown here.",
+      "summary": "Cantonese roast duck, marinated with five-spice and roasted until the skin is crisp and the meat juicy.",
+      "answer": "A quarter roast duck (around 200g with the bone) comes in roughly 480 calories, with a big 40g of protein, almost no carbs, and 34g of fat. Duck meat is leaner than people think, but the skin and the layer of fat right under it are rich, and that is where most of the fat and calories come from. Eat it with the skin off and the numbers drop fast.",
+      "realTalk": [
+        "Roast duck, siu ngap, is one of those roast shop orders that is actually a decent protein play if you are smart about it. A quarter duck gives you a massive 40g of protein, which is more than most lauk on this site. The duck meat itself is leaner than people assume, darker and more flavourful than chicken but not crazy fatty. The catch is the skin. That crispy five-spice skin and the fat layer right under it are where a big chunk of the 34g of fat hides. At around 480 calories for a quarter, it is a fair trade for the protein, but the skin is doing a lot of the calorie work.",
+        "Here is the useful part: roast duck is one of the few roast meats where you have a real lever, and that is the skin. Pull the skin off and you can cut the fat noticeably, dropping a quarter duck toward 350 calories while keeping almost all of that 40g protein. That is a genuinely good macro profile. Compared to siu yoke, duck is the smarter order because the protein is much higher and the fat is more removable. Bone weight also means the calories per actual bite of meat are lower than the gram count suggests. Eat the meat, go easy on the skin, pair with rice and greens, and a quarter duck is a solid meal."
+      ],
+      "lighter": [
+        "Pull the skin off, or at least most of it. The crispy skin and the fat under it are where the bulk of the fat lives.",
+        "Pick duck over siu yoke if you want a roast meat. Way more protein, and the fat is more removable.",
+        "Remember the quarter includes bone, so eat the meat and do not feel you have to finish every fatty scrap.",
+        "Pair it with plain rice and greens instead of ordering it next to char siew and siu yoke all at once."
+      ],
+      "variants": [
+        {
+          "name": "Roast duck, skin removed",
+          "calories": 350,
+          "note": "Pulling the skin and fat layer off cuts a big chunk of fat"
+        },
+        {
+          "name": "Roast duck leg portion",
+          "calories": 420,
+          "note": "Leg is slightly leaner per gram than the breast and skin section"
+        }
+      ],
+      "components": [
+        {
+          "name": "Duck meat (cooked, off the bone)",
+          "grams": 120,
+          "calories": 280
+        },
+        {
+          "name": "Crispy skin and fat layer",
+          "grams": 35,
+          "calories": 190
+        },
+        {
+          "name": "Bone (no calories, part of the quarter weight)",
+          "grams": 45,
+          "calories": 0
+        }
+      ],
+      "portions": [
+        {
+          "label": "A few slices for taste (80g)",
+          "calories": 190
+        },
+        {
+          "label": "Eighth of a duck",
+          "calories": 240
+        },
+        {
+          "label": "Quarter duck",
+          "calories": 480
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in a quarter roast duck?",
+          "a": "Around 480 calories for a quarter (about 200g with bone), with a strong 40g of protein and 34g of fat. Remove the skin and it drops toward 350 while keeping most of the protein."
+        },
+        {
+          "q": "Is roast duck healthier than roast pork?",
+          "a": "For protein, yes. A quarter duck gives you about 40g of protein, far more than siu yoke, and the fat sits mostly in the skin so you can remove it. Duck meat itself is leaner than most people expect."
+        },
+        {
+          "q": "Where does the fat in roast duck come from?",
+          "a": "Mostly the skin and the layer of fat directly under it. The duck meat itself is reasonably lean, so if you pull the crispy skin off you cut a big share of the 34g of fat right away."
+        }
+      ],
+      "related": [
+        "char-siew",
+        "siu-yoke",
+        "char-siew-rice"
+      ]
+    },
+    {
+      "slug": "sotong-goreng-tepung",
+      "name": "Sotong Goreng Tepung (Fried Calamari)",
+      "category": "lauk",
+      "serving": "1 plate",
+      "servingGrams": 200,
+      "calories": 460,
+      "protein": 24,
+      "carbs": 34,
+      "fat": 24,
+      "metaDescription": "Fried calamari is around 460 calories a plate. Squid is super lean, but the flour batter and deep frying flip the script. Breakdown inside.",
+      "summary": "Squid rings coated in seasoned flour batter and deep fried until golden and crispy.",
+      "answer": "A plate of sotong goreng tepung comes in around 460 calories, with 24g protein, 34g carbs and 24g fat. Here is the irony: squid by itself is one of the leanest, lowest-calorie proteins you can eat. But the moment you coat it in flour batter and deep fry it, you stack on carbs from the coating and fat from the absorbed oil. The squid is innocent, the batter and fryer are not.",
+      "realTalk": [
+        "Sotong goreng tepung is a real what-could-have-been dish bro. Plain squid is incredibly lean, like 90 calories per 100g lean, high protein, almost no fat. It should be a diet dream. But then you coat each ring in seasoned flour batter and drop it in the deep fryer, and suddenly that innocent squid is wearing a calorie jacket. The batter brings the carbs and the absorbed frying oil brings the fat. At around 460 calories a plate, it is not the worst thing on the table, but it is a long way from the lean protein the squid started as. The crispy coating is the entire story here.",
+        "The variables are batter thickness and how well it was drained. A light, thin tepung coating absorbs less oil and keeps the plate closer to 400, while a thick beer-batter style or a heavily clumped coating can push it past 550. Squid also goes rubbery fast if overcooked, so some places batter it thick to hide that, which works against you. Dipping it in mayo or thousand island sauce, which a lot of places serve it with, can quietly add another 100 calories. If you want the squid without the deep-fry tax, sotong masak gives you the same lean protein for far fewer calories. But if you are ordering the fried version, blot the oil, skip the mayo, and share it as a starter rather than a main."
+      ],
+      "lighter": [
+        "If you can choose, get sotong stir-fried or in sambal instead of battered. Same lean squid, way fewer calories without the batter and oil.",
+        "Skip the mayo or thousand island dip. That sauce can add 100 calories fast and you do not need it.",
+        "Blot the rings with a tissue before eating. Surface oil removal genuinely shaves a bit off a deep-fried plate.",
+        "Share it as a starter for the table, not as your protein main, since the protein-to-calorie ratio gets wrecked by the batter."
+      ],
+      "variants": [
+        {
+          "name": "Sotong goreng (lightly floured, no thick batter)",
+          "calories": 380,
+          "note": "Thin coating absorbs less oil than a thick beer batter"
+        },
+        {
+          "name": "Salted egg sotong",
+          "calories": 520,
+          "note": "Fried squid tossed in a rich salted egg butter sauce, higher fat"
+        }
+      ],
+      "components": [
+        {
+          "name": "Squid rings (cooked)",
+          "grams": 120,
+          "calories": 110
+        },
+        {
+          "name": "Flour batter coating",
+          "grams": 50,
+          "calories": 170
+        },
+        {
+          "name": "Oil absorbed during deep frying",
+          "grams": 18,
+          "calories": 160
+        },
+        {
+          "name": "Seasoning and light dusting",
+          "grams": 12,
+          "calories": 20
+        }
+      ],
+      "portions": [
+        {
+          "label": "A few rings shared",
+          "calories": 150
+        },
+        {
+          "label": "Half a plate",
+          "calories": 230
+        },
+        {
+          "label": "Full plate to yourself",
+          "calories": 460
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in fried calamari (sotong goreng tepung)?",
+          "a": "A standard plate is around 460 calories, with 24g protein, 34g carbs and 24g fat. A thin-coated version is closer to 380, while a thick batter can push past 550."
+        },
+        {
+          "q": "Isn't squid supposed to be low calorie?",
+          "a": "It is. Plain squid is one of the leanest proteins around, roughly 90 calories per 100g. The calories in fried calamari come almost entirely from the flour batter and the oil absorbed during deep frying, not the squid itself."
+        },
+        {
+          "q": "What is a lighter way to eat squid?",
+          "a": "Get it stir-fried or cooked in sambal instead of battered and fried. You keep the lean high-protein squid but skip the flour coating and the frying oil, which is where most of the calories come from."
+        }
+      ],
+      "related": [
+        "butter-prawns",
+        "kung-pao-chicken",
+        "sweet-sour-chicken"
+      ]
+    },
+    {
+      "slug": "telur-dadar",
+      "name": "Telur Dadar (Malaysian Omelette)",
+      "category": "lauk",
+      "serving": "1 omelette",
+      "servingGrams": 140,
+      "calories": 290,
+      "protein": 17,
+      "carbs": 4,
+      "fat": 23,
+      "metaDescription": "Telur dadar is around 290 calories. Solid cheap protein, but the cooking oil it fries in does more than you think. Breakdown here.",
+      "summary": "Malaysian-style fried omelette, eggs beaten with onion and chili and fried until puffy and crisp at the edges.",
+      "answer": "A telur dadar made with 2 to 3 eggs comes in around 290 calories, with 17g protein, 4g carbs and 23g fat. The eggs themselves are a cheap, solid protein, but telur dadar is fried in a decent slick of oil to get those crispy puffy edges, and that oil is where a lot of the fat comes from. The eggs alone would be a lot lighter.",
+      "realTalk": [
+        "Telur dadar is the cheap, reliable lauk everyone has had a hundred times. Eggs beaten with sliced onion and a bit of chili, poured into hot oil and fried until the edges go crispy and the middle puffs up. At around 290 calories for a 2 to 3 egg version, it is honestly a decent protein-per-ringgit deal, 17g of protein for cheap. The thing people forget is the oil. To get that proper crispy fried-omelette texture, the kampung way uses a generous amount of oil, and the egg soaks a fair bit of it up. So a chunk of that 23g of fat is not the eggs, it is the frying oil.",
+        "The swing factor is purely how much oil it is fried in. A non-stick pan with a light film of oil keeps it close to 220, while the traditional deep-ish fry in a wok with plenty of oil for that lacy crispy edge can push it to 330 or more. Adding extras like minced meat, prawns or anchovies bumps it up too. The good news is this is one lauk where you genuinely control the outcome if you cook it at home: less oil, same protein. At a stall you have less say, but it is still a more honest protein choice than most fried dishes here. Pair it with rice and sambal and it is a simple, filling plate."
+      ],
+      "lighter": [
+        "At home, fry it in a non-stick pan with just a thin film of oil. The eggs are the same, you just skip the soaked-up frying oil.",
+        "Use 2 eggs instead of 3, or 1 whole egg plus 2 whites, to keep the protein up while trimming fat.",
+        "Go easy on rich add-ins like minced pork or extra anchovies if you are watching it, the plain version is leaner.",
+        "Pair it with rice and a sambal or veg rather than stacking it next to another fried lauk on the same plate."
+      ],
+      "variants": [
+        {
+          "name": "Telur dadar, pan-fried with little oil",
+          "calories": 220,
+          "note": "Light film of oil in a non-stick pan, mostly just the eggs"
+        },
+        {
+          "name": "Telur dadar with minced meat or prawns",
+          "calories": 340,
+          "note": "Added protein and a bit more oil push it higher"
+        }
+      ],
+      "components": [
+        {
+          "name": "Eggs (2 to 3, beaten)",
+          "grams": 130,
+          "calories": 190
+        },
+        {
+          "name": "Frying oil absorbed",
+          "grams": 11,
+          "calories": 95
+        },
+        {
+          "name": "Onion, chili, seasoning",
+          "grams": 15,
+          "calories": 10
+        }
+      ],
+      "portions": [
+        {
+          "label": "Half an omelette",
+          "calories": 145
+        },
+        {
+          "label": "Two-egg omelette",
+          "calories": 220
+        },
+        {
+          "label": "Three-egg omelette",
+          "calories": 290
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in telur dadar?",
+          "a": "A 2 to 3 egg telur dadar is around 290 calories, with 17g protein, 4g carbs and 23g fat. Pan-fried with little oil it drops toward 220, while a heavily oil-fried crispy version can hit 330."
+        },
+        {
+          "q": "Why is telur dadar higher in calories than boiled eggs?",
+          "a": "The frying oil. To get those crispy puffy edges, telur dadar is fried in a generous amount of oil that the egg soaks up. That absorbed oil adds fat that you would not get from a boiled or poached egg."
+        },
+        {
+          "q": "Is telur dadar a good cheap protein?",
+          "a": "Yes. For the price it gives you about 17g of protein per omelette. If you want to keep it lean, fry it in a non-stick pan with minimal oil, since the oil is what drives most of the fat."
+        }
+      ],
+      "related": [
+        "ayam-goreng",
+        "kangkung-belacan",
+        "sambal-tumis"
+      ]
+    },
+    {
+      "slug": "ayam-kapitan",
+      "name": "Ayam Kapitan (Kari Kapitan)",
+      "category": "lauk",
+      "serving": "1 serving",
+      "servingGrams": 250,
+      "calories": 410,
+      "protein": 28,
+      "carbs": 12,
+      "fat": 28,
+      "metaDescription": "Ayam kapitan is around 410 calories a serving. A rich, dry Nyonya chicken curry where the santan and oil do the work. Breakdown inside.",
+      "summary": "A rich, dry Nyonya chicken curry with a thick spice paste, coconut milk, lemongrass and lime.",
+      "answer": "A serving of ayam kapitan (kari kapitan) comes in around 410 calories, with 28g protein, 12g carbs and 28g fat. This is a rich, dry Nyonya curry, thicker and more intense than a normal kuah kari. The chicken brings the protein, but the thick spice paste is fried in oil and finished with coconut milk, so the santan and oil are what push the fat and calories up.",
+      "realTalk": [
+        "Ayam kapitan is the fancy cousin of regular chicken curry. It is a Nyonya dish, a dry-style curry where the rempah, that thick paste of chili, lemongrass, galangal, candlenut and belacan, is fried down hard in oil before the chicken and coconut milk go in. The result is thick, clingy and intensely flavoured, finished with a squeeze of lime that cuts through the richness. At around 410 calories per serving, it sits in the same ballpark as a good ayam masak, with a solid 28g of protein from the chicken. The carbs stay low at 12g since there is no sugar glaze, but the fat is up at 28g, and that comes from two places: the oil the rempah is fried in, and the coconut milk that thickens it.",
+        "The richness is the whole point of this dish, which is also the calorie problem. Because it is a dry curry, the sauce clings to every piece rather than sitting watery at the bottom, so you eat more of the santan and oil per bite than you would with a thin curry. The amount of coconut milk is the big lever, a kapitan made with more santan and a heavier oil fry can climb toward 480, while a lighter hand keeps it nearer 360. Using chicken thigh with skin versus breast also moves it. If you are watching it, the move is the same as any curry: eat the chicken, do not spoon all the thick gravy and oil over your rice, and pair it with veg. The flavour is in the rempah clinging to the meat, you do not need to drink the oil."
+      ],
+      "lighter": [
+        "Eat the chicken and go easy on spooning the thick gravy over your rice. That clingy sauce is where the santan and oil concentrate.",
+        "Pull the chicken skin off. The skin plus the oily rempah is a fat double-up you can trim.",
+        "Ask for or cook a version with less coconut milk. The santan is the main lever on the fat number.",
+        "Pair it with plain rice and a plate of ulam or sayur instead of a second rich lauk."
+      ],
+      "variants": [
+        {
+          "name": "Ayam kapitan, lighter santan",
+          "calories": 360,
+          "note": "Less coconut milk and a lighter oil fry on the rempah"
+        },
+        {
+          "name": "Ayam kapitan, rich restaurant style",
+          "calories": 480,
+          "note": "Heavy santan and a generous oil fry, the richest version"
+        }
+      ],
+      "components": [
+        {
+          "name": "Chicken (thigh, cooked, skin on)",
+          "grams": 140,
+          "calories": 230
+        },
+        {
+          "name": "Coconut milk (santan)",
+          "grams": 50,
+          "calories": 110
+        },
+        {
+          "name": "Rempah spice paste fried in oil",
+          "grams": 50,
+          "calories": 65
+        },
+        {
+          "name": "Lemongrass, lime, aromatics",
+          "grams": 10,
+          "calories": 5
+        }
+      ],
+      "portions": [
+        {
+          "label": "A couple of pieces with gravy",
+          "calories": 205
+        },
+        {
+          "label": "Half a serving",
+          "calories": 280
+        },
+        {
+          "label": "Full serving",
+          "calories": 410
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in ayam kapitan?",
+          "a": "A serving of ayam kapitan is around 410 calories, with 28g protein, 12g carbs and 28g fat. A lighter-santan version is closer to 360, while a rich restaurant style can reach 480."
+        },
+        {
+          "q": "What is the difference between ayam kapitan and normal chicken curry?",
+          "a": "Ayam kapitan is a dry Nyonya curry with a thicker, more intense rempah fried hard in oil and finished with coconut milk and lime. Normal kari ayam is usually thinner and more soupy. The dry, clingy sauce means you eat more of the santan and oil per bite."
+        },
+        {
+          "q": "Why is ayam kapitan high in fat?",
+          "a": "Two reasons. The rempah spice paste is fried in a fair amount of oil, and the curry is finished with coconut milk. Both the oil and the santan drive the 28g of fat, while the chicken itself supplies the protein."
+        }
+      ],
+      "related": [
+        "kari-ayam",
+        "ayam-masak",
+        "rendang"
+      ]
+    },
+    {
+      "slug": "nasi-campur",
+      "name": "Nasi Campur (Economy Rice)",
+      "category": "rice",
+      "serving": "1 plate (rice + 3 dishes)",
+      "servingGrams": 450,
+      "calories": 720,
+      "protein": 30,
+      "carbs": 85,
+      "fat": 28,
+      "metaDescription": "A typical nasi campur plate with rice plus 3 dishes runs about 720 calories. Point at fried lauk and it climbs fast. Full breakdown here.",
+      "summary": "Rice plus 3 dishes lands around 720 kcal. Fried picks are the trap.",
+      "answer": "A standard nasi campur plate with rice and three dishes is around 720 calories. The rice alone is about 280, then your three lauk pile on the rest depending on what you point at. Pick fried chicken plus a fried egg plus a fried veg and you are quietly at 850. Go steamed fish, sayur, and tofu and you can drop it under 550.",
+      "realTalk": [
+        "Economy rice is a trap dressed as a budget meal bro. The rice is cheap, sure, but you point at three lauk and half of them are deep fried, so your RM9 plate is quietly 800 calories before you even add the curry gravy on top.",
+        "The killer is the auntie ladle of kuah. That free splash of curry or masak lemak over your rice is pure coconut oil and easily adds 100 to 150 calories you never counted. You think it is free flavour but your waistline is paying for it."
+      ],
+      "lighter": [
+        "Pick two veg dishes and one protein instead of three fried meats, easily saves 200 calories",
+        "Go steamed or grilled fish over fried chicken, that one swap alone is about 150 calories down",
+        "Skip the curry gravy ladle or ask for just a little, that drizzle is sneaky coconut oil"
+      ],
+      "components": [
+        {
+          "name": "White rice (1 scoop)",
+          "grams": 180,
+          "calories": 280
+        },
+        {
+          "name": "Fried chicken piece",
+          "grams": 90,
+          "calories": 230
+        },
+        {
+          "name": "Fried egg",
+          "grams": 50,
+          "calories": 110
+        },
+        {
+          "name": "Stir-fried vegetables with gravy",
+          "grams": 130,
+          "calories": 100
+        }
+      ],
+      "portions": [
+        {
+          "label": "Light (1 small rice, fish, 2 veg)",
+          "calories": 520
+        },
+        {
+          "label": "Standard (rice + 3 mixed dishes)",
+          "calories": 720
+        },
+        {
+          "label": "Heavy (big rice, 2 fried meats, egg)",
+          "calories": 870
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is nasi campur healthy?",
+          "a": "It can be if you choose well. Go for a steamed protein and two vegetable dishes and you land around 520 calories with decent protein. The problem is most people stack fried lauk and drown it in curry gravy, which pushes it past 800."
+        },
+        {
+          "q": "Why does my economy rice cost so much?",
+          "a": "Because you pointed at the expensive fried stuff and the auntie eyeballed your portions. Funny enough the pricier plates are usually the more fattening ones since fried meat costs more and carries more oil. Cheaper veg picks are also lighter."
+        },
+        {
+          "q": "How much protein is in nasi campur?",
+          "a": "Roughly 30g for a standard plate with one meat dish and an egg. If you want more, ask for a double portion of chicken or fish instead of a second veg, gets you to 40g plus without much extra fat."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Veg-heavy plate",
+          "calories": 520,
+          "note": "rice, steamed fish, two vegetable sides"
+        },
+        {
+          "name": "Mixed standard",
+          "calories": 720,
+          "note": "rice plus three typical dishes"
+        },
+        {
+          "name": "Fried-loaded plate",
+          "calories": 870,
+          "note": "big rice, two fried meats, fried egg, curry gravy"
+        }
+      ],
+      "related": [
+        "nasi-kandar",
+        "nasi-paprik",
+        "chicken-rice"
+      ]
+    },
+    {
+      "slug": "yong-chow-fried-rice",
+      "name": "Yong Chow Fried Rice",
+      "category": "rice",
+      "serving": "1 plate",
+      "servingGrams": 320,
+      "calories": 620,
+      "protein": 24,
+      "carbs": 78,
+      "fat": 24,
+      "metaDescription": "A restaurant plate of yong chow fried rice is about 620 calories. Char siew, prawn, and egg through wok-tossed rice. Full breakdown inside.",
+      "summary": "Wok-fried rice with char siew, prawn and egg, about 620 kcal a plate.",
+      "answer": "A full restaurant plate of yong chow fried rice is around 620 calories. It is white rice tossed in a hot wok with char siew, prawns, egg, and peas, so you get decent protein around 24g but also a fair bit of oil. Smaller cup-sized servings sit closer to 330, but nobody orders the cup at a zi char stall lah.",
+      "realTalk": [
+        "Yong chow fried rice is actually not the worst fried rice on the menu bro, because the char siew and prawn and egg push the protein up to around 24g. Problem is the wok hei comes from a serious glug of oil, so a big plate still lands near 620.",
+        "The portion at a zi char place is the real issue. They plate it like it is feeding two people, so what looks like one serving is often 1.5 servings of rice and oil. Split it with someone and suddenly it is a sensible 310 calorie meal."
+      ],
+      "lighter": [
+        "Share the plate, a zi char portion is basically 1.5 servings so halving it is the easy win",
+        "Ask for less oil when you order, most stalls will do it and it shaves 80 to 100 calories",
+        "Add a plate of steamed veg or stir-fried sayur so you fill up without ordering a second rice"
+      ],
+      "components": [
+        {
+          "name": "Fried white rice",
+          "grams": 200,
+          "calories": 360
+        },
+        {
+          "name": "Char siew and prawns",
+          "grams": 70,
+          "calories": 130
+        },
+        {
+          "name": "Egg",
+          "grams": 50,
+          "calories": 90
+        },
+        {
+          "name": "Cooking oil (wok)",
+          "grams": 10,
+          "calories": 90
+        }
+      ],
+      "portions": [
+        {
+          "label": "Half plate / shared",
+          "calories": 310
+        },
+        {
+          "label": "Standard plate",
+          "calories": 620
+        },
+        {
+          "label": "Large zi char portion",
+          "calories": 740
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is yong chow fried rice healthier than normal fried rice?",
+          "a": "Slightly, yes. The char siew, prawn and egg give it more protein than a plain nasi goreng, around 24g versus 15g. The calories are similar though because the wok oil is the same either way. It is the protein that makes it a better pick, not fewer calories."
+        },
+        {
+          "q": "How many calories in a small bowl of yong chow fried rice?",
+          "a": "A small cup-sized serving of about 200g is roughly 330 calories. The catch is restaurants almost never serve it that small, the standard plate is 300g plus and lands around 620."
+        },
+        {
+          "q": "Can I eat yong chow fried rice while losing weight?",
+          "a": "Yes, just respect the portion. Split a plate with someone or eat half and pack half, then add vegetables. Half a plate at 310 calories with 12g protein fits a deficit easily."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Shared half plate",
+          "calories": 310,
+          "note": "split with a friend, the smart move"
+        },
+        {
+          "name": "Standard plate",
+          "calories": 620,
+          "note": "typical single restaurant serving"
+        },
+        {
+          "name": "Less-oil request",
+          "calories": 530,
+          "note": "ask the wok to go easy on oil"
+        }
+      ],
+      "related": [
+        "nasi-goreng-cina",
+        "nasi-goreng-mamak",
+        "char-siew-rice"
+      ]
+    },
+    {
+      "slug": "nasi-paprik",
+      "name": "Nasi Paprik",
+      "category": "rice",
+      "serving": "1 plate",
+      "servingGrams": 400,
+      "calories": 680,
+      "protein": 32,
+      "carbs": 80,
+      "fat": 26,
+      "metaDescription": "A plate of nasi paprik runs about 680 calories. Spicy stir-fried chicken and veg over rice, decent protein but oily sauce. Breakdown inside.",
+      "summary": "Spicy paprik chicken and veg over rice, around 680 kcal a plate.",
+      "answer": "A plate of nasi paprik is around 680 calories. You get rice topped with paprik, which is chicken stir-fried with vegetables in a spicy thick sauce, so the protein is solid at about 32g. The catch is the sauce carries oil and a bit of sugar, and the wok-fry adds more, so it climbs higher than you would guess for a stir-fry.",
+      "realTalk": [
+        "Nasi paprik is one of the better mamak rice plates honestly bro, because it is loaded with actual chicken and a pile of vegetables, so you walk away with 32g protein. That is more than most nasi goreng will ever give you.",
+        "The sauce is where it sneaks up on you though. That glossy spicy paprik gravy is wok oil plus a spoon of sugar to balance the chilli, and they pour it generously over the rice. The protein and veg are great, the sauce is the part quietly adding 150 calories."
+      ],
+      "lighter": [
+        "Ask for less rice, the paprik chicken and veg already fill you up so half the rice still satisfies",
+        "Request less sauce or get it on the side, that thick gravy is the oil-and-sugar part",
+        "It is already protein and veg heavy, so just controlling the rice and sauce makes it a genuinely lean plate"
+      ],
+      "components": [
+        {
+          "name": "White rice (1 scoop)",
+          "grams": 180,
+          "calories": 280
+        },
+        {
+          "name": "Stir-fried chicken",
+          "grams": 110,
+          "calories": 200
+        },
+        {
+          "name": "Mixed vegetables",
+          "grams": 80,
+          "calories": 60
+        },
+        {
+          "name": "Paprik sauce and wok oil",
+          "grams": 30,
+          "calories": 140
+        }
+      ],
+      "portions": [
+        {
+          "label": "Light (less rice, less sauce)",
+          "calories": 520
+        },
+        {
+          "label": "Standard plate",
+          "calories": 680
+        },
+        {
+          "label": "Heavy (big rice, extra sauce)",
+          "calories": 800
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is nasi paprik a good choice for dieting?",
+          "a": "Actually yes, it is one of the smarter mamak rice picks. It packs around 32g protein from the chicken and a real serving of vegetables. Just go easy on the rice and ask for less of the oily sauce and you have got a lean 520 calorie plate."
+        },
+        {
+          "q": "Why is nasi paprik more calories than plain stir-fried chicken?",
+          "a": "The rice and the sauce. The paprik itself is reasonable, but a full scoop of rice is 280 calories and the glossy sauce is wok oil plus sugar, around 140 more. Together they push a healthy-looking stir-fry up to 680."
+        },
+        {
+          "q": "How much protein is in nasi paprik?",
+          "a": "About 32g for a standard plate, which is genuinely good for a single rice meal. If you want more, ask for extra chicken, most stalls will load you up for a small top-up."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Less rice, less sauce",
+          "calories": 520,
+          "note": "the lean way to order it"
+        },
+        {
+          "name": "Standard plate",
+          "calories": 680,
+          "note": "typical mamak serving"
+        },
+        {
+          "name": "Paprik daging (beef)",
+          "calories": 730,
+          "note": "beef version, a touch fattier"
+        }
+      ],
+      "related": [
+        "nasi-campur",
+        "nasi-goreng-pattaya",
+        "nasi-goreng-mamak"
+      ]
+    },
+    {
+      "slug": "nasi-goreng-pattaya",
+      "name": "Nasi Goreng Pattaya",
+      "category": "rice",
+      "serving": "1 plate",
+      "servingGrams": 350,
+      "calories": 700,
+      "protein": 24,
+      "carbs": 80,
+      "fat": 30,
+      "metaDescription": "Nasi goreng pattaya is about 700 calories. Fried rice wrapped in an omelette with chilli sauce. The egg blanket adds fat. Breakdown inside.",
+      "summary": "Fried rice wrapped in an omelette, about 700 kcal a plate.",
+      "answer": "A plate of nasi goreng pattaya is around 700 calories. It is basically mamak fried rice wrapped in a thin omelette blanket with a squiggle of chilli sauce on top. The fried rice underneath is already 500 plus, then the egg omelette and the oil it is fried in add another 150 to 200 on top.",
+      "realTalk": [
+        "Nasi goreng pattaya is just nasi goreng wearing a jacket bro. The fried rice inside is the same 500 calorie business as usual, and then they wrap it in a fried egg omelette which adds fat and another splash of oil from the pan.",
+        "The chilli sauce squiggle on top looks innocent but it is mostly sugar. Combine the oily fried rice, the omelette, and the sweet sauce and you are at 700, which is more than the plain nasi goreng you thought you were upgrading from."
+      ],
+      "lighter": [
+        "Eat half the rice inside, the omelette and a smaller scoop of fried rice still feels like a full meal",
+        "Skip or scrape off the sweet chilli sauce drizzle, it is basically sugar syrup",
+        "Ask them to go light on oil for both the rice and the omelette, easily 100 calories saved"
+      ],
+      "components": [
+        {
+          "name": "Fried rice",
+          "grams": 220,
+          "calories": 430
+        },
+        {
+          "name": "Egg omelette wrap",
+          "grams": 80,
+          "calories": 160
+        },
+        {
+          "name": "Cooking oil",
+          "grams": 12,
+          "calories": 80
+        },
+        {
+          "name": "Chilli sauce drizzle",
+          "grams": 30,
+          "calories": 30
+        }
+      ],
+      "portions": [
+        {
+          "label": "Light (less rice, light oil)",
+          "calories": 540
+        },
+        {
+          "label": "Standard plate",
+          "calories": 700
+        },
+        {
+          "label": "Heavy (big portion, extra sauce)",
+          "calories": 820
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is nasi goreng pattaya more fattening than normal nasi goreng?",
+          "a": "A bit, yes. The omelette blanket and the extra oil to fry it add roughly 150 to 200 calories over a plain plate. You do get a little more protein from the egg, around 24g, but the calorie cost outweighs it if you are counting."
+        },
+        {
+          "q": "How many calories is the omelette part alone?",
+          "a": "The egg wrap is about 160 calories, mostly from the two eggs and the oil used to fry the thin omelette. It is the main thing separating pattaya from regular fried rice on the calorie sheet."
+        },
+        {
+          "q": "Can I make nasi goreng pattaya lighter at home?",
+          "a": "Yes. Use a non-stick pan with minimal oil for the omelette, load the fried rice with more vegetables and less rice, and skip the sweet sauce. You can bring it down near 450 to 500 with the same look and feel."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Light home version",
+          "calories": 500,
+          "note": "less oil, more veg, no sweet sauce"
+        },
+        {
+          "name": "Standard plate",
+          "calories": 700,
+          "note": "typical mamak serving"
+        },
+        {
+          "name": "With fried chicken side",
+          "calories": 950,
+          "note": "add an ayam goreng and it jumps fast"
+        }
+      ],
+      "related": [
+        "nasi-goreng-mamak",
+        "nasi-goreng-kampung",
+        "nasi-paprik"
+      ]
+    },
+    {
+      "slug": "lor-mee",
+      "name": "Lor Mee",
+      "category": "noodles",
+      "serving": "1 bowl",
+      "servingGrams": 450,
+      "calories": 520,
+      "protein": 20,
+      "carbs": 72,
+      "fat": 16,
+      "metaDescription": "A bowl of lor mee is about 520 calories. Thick yellow noodles in a starchy dark gravy. The gravy is the real story. Breakdown inside.",
+      "summary": "Thick noodles in dark starchy gravy, around 520 kcal a bowl.",
+      "answer": "A bowl of lor mee is around 520 calories. It is thick yellow noodles sitting in a dark, cornstarch-thickened gravy with bits of pork, fish cake, and egg. The noodles and the starchy gravy are the bulk of it, and toppings like fried items or extra egg can push it past 600.",
+      "realTalk": [
+        "The real culprit in lor mee is that seductive thick gravy bro. It looks harmless, like a thin soup, but it is thickened with starch and carries oil and a beaten egg through it, so that brown sauce is quietly a chunk of the 520 calories.",
+        "It is not the worst hawker bowl out there honestly, because there is no coconut milk and the protein from pork, egg, and fish cake lands around 20g. The trap is the fried toppings, throw in some fried fish or extra deep-fried bits and you jump to 650 fast."
+      ],
+      "lighter": [
+        "Skip the deep-fried toppings, the fried fish and crispy bits are where the extra fat hides",
+        "Ask for more of the lean toppings like lean pork and egg, less of the fatty stuff",
+        "Add a side of vegetables or beansprouts to bulk the bowl without adding much to the count"
+      ],
+      "components": [
+        {
+          "name": "Thick yellow noodles",
+          "grams": 220,
+          "calories": 270
+        },
+        {
+          "name": "Starchy gravy with egg",
+          "grams": 150,
+          "calories": 130
+        },
+        {
+          "name": "Pork, fish cake, egg toppings",
+          "grams": 80,
+          "calories": 120
+        }
+      ],
+      "portions": [
+        {
+          "label": "Small bowl",
+          "calories": 400
+        },
+        {
+          "label": "Standard bowl",
+          "calories": 520
+        },
+        {
+          "label": "Large with fried toppings",
+          "calories": 650
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is lor mee a healthy hawker choice?",
+          "a": "It is mid, leaning okay. There is no coconut milk and it gives you around 20g protein, which is decent. The downside is the starchy gravy and any deep-fried toppings. Order it with lean toppings and skip the fried fish and it is a reasonable 450 to 500 calorie bowl."
+        },
+        {
+          "q": "Why is lor mee gravy so high in calories?",
+          "a": "It is thickened with cornstarch and usually has a beaten egg and some oil stirred through. That makes the dark gravy more than just flavoured water, it is carrying real calories, roughly 130 in a standard bowl."
+        },
+        {
+          "q": "How much protein is in a bowl of lor mee?",
+          "a": "About 20g from the pork, fish cake, and egg toppings. You can push it higher by asking for extra egg or more lean meat, which also makes the bowl more filling without much added fat."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Lean-topping bowl",
+          "calories": 450,
+          "note": "skip fried items, more egg and lean pork"
+        },
+        {
+          "name": "Standard bowl",
+          "calories": 520,
+          "note": "typical hawker serving"
+        },
+        {
+          "name": "Fish lor mee",
+          "calories": 600,
+          "note": "with fried fish topping, fattier"
+        }
+      ],
+      "related": [
+        "wantan-mee",
+        "wat-tan-hor",
+        "curry-laksa"
+      ]
+    },
+    {
+      "slug": "sup-herba",
+      "name": "Sup Herba (Herbal Chicken Soup)",
+      "category": "soup",
+      "serving": "1 bowl",
+      "servingGrams": 400,
+      "calories": 300,
+      "protein": 28,
+      "carbs": 10,
+      "fat": 16,
+      "metaDescription": "A bowl of sup herba (herbal chicken soup) is about 300 calories. High protein, low carb, one of the cleaner Malaysian dishes. Breakdown inside.",
+      "summary": "Herbal chicken soup, about 300 kcal a bowl and high protein.",
+      "answer": "A bowl of sup herba is around 300 calories. It is chicken simmered in a herbal broth with ingredients like wolfberry, red dates, and dang gui, so you are basically eating lean protein in flavoured water. The protein lands around 28g and the carbs are tiny, which makes this one of the cleaner things you can order.",
+      "realTalk": [
+        "Sup herba is genuinely one of the best things on this whole site bro. It is chicken in a herbal broth, so you get around 28g of protein for only 300 calories, with almost no carbs and no oily gravy to sabotage you. Order this and you are winning.",
+        "The only thing to watch is the skin and the fattier chicken parts. If your bowl is loaded with chicken skin and fatty drumstick the fat creeps up, but pick a leaner cut or skim the oil layer on top and this stays a lean, filling, high-protein bowl."
+      ],
+      "lighter": [
+        "Go for chicken breast or thigh without skin to keep the fat down, drops it toward 240 calories",
+        "Skim the layer of chicken oil floating on top of the broth before you drink it",
+        "Pair it with vegetables instead of rice if you want a full meal that stays light"
+      ],
+      "components": [
+        {
+          "name": "Chicken (with bone)",
+          "grams": 180,
+          "calories": 230
+        },
+        {
+          "name": "Herbal broth",
+          "grams": 200,
+          "calories": 50
+        },
+        {
+          "name": "Herbs (dates, wolfberry, dang gui)",
+          "grams": 20,
+          "calories": 20
+        }
+      ],
+      "portions": [
+        {
+          "label": "Lean (skinless chicken)",
+          "calories": 240
+        },
+        {
+          "label": "Standard bowl",
+          "calories": 300
+        },
+        {
+          "label": "Large with fatty cuts",
+          "calories": 380
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is sup herba good for weight loss?",
+          "a": "Honestly one of the best picks you can make. Around 28g protein for only 300 calories, low carb, and very filling thanks to the warm broth. Order this over a fried rice any day and your deficit thanks you."
+        },
+        {
+          "q": "Why is herbal chicken soup low in calories?",
+          "a": "Because it is just chicken and herbs simmered in water. There is no coconut milk, no thickened gravy, no frying. Most of the calories come from the chicken itself, and the broth is basically flavoured water."
+        },
+        {
+          "q": "Does sup herba have enough protein for after the gym?",
+          "a": "Yes, around 28g in a standard bowl, which is a solid post-workout amount. Add an extra piece of chicken or pair it with rice if you trained hard and need more total food."
+        }
+      ],
+      "variants": [
+        {
+          "name": "Skinless lean bowl",
+          "calories": 240,
+          "note": "breast or thigh, no skin"
+        },
+        {
+          "name": "Standard bowl",
+          "calories": 300,
+          "note": "typical mixed chicken cuts"
+        },
+        {
+          "name": "Kampung chicken version",
+          "calories": 280,
+          "note": "leaner free-range bird, similar protein"
+        }
+      ],
+      "related": [
+        "sup-ayam",
+        "bak-kut-teh",
+        "chicken-rice"
       ]
     }
   ]

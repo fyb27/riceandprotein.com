@@ -298,7 +298,7 @@ function leafSchema(food, url) {
 
 function buildLeaf(food) {
   const url = BASE + '/foods/' + food.slug + '.html';
-  const title = 'How Many Calories in ' + food.name + '? | Rice and Protein';
+  const title = food.name.replace(/\s*\([^)]*\)/g, '') + ' Calories | Rice and Protein';
 
   const breakdown = (food.components || []).map(c =>
     `        <div class="bd-row"><div class="bd-row__name">${esc(c.name)}<small>${esc(String(c.grams))}g</small></div><div class="bd-row__cal">${c.calories} kcal</div></div>`
@@ -318,7 +318,21 @@ function buildLeaf(food) {
     `      <div class="faq-item"><div class="faq-item__q">${esc(f.q)}</div><div class="faq-item__a">${esc(f.a)}</div></div>`
   ).join('\n');
 
-  const related = (food.related || []).map(s => bySlug[s]).filter(Boolean).map(r =>
+  // Related foods: curated list first, then auto-fill from same-category
+  // siblings (the next few, wrapping around) so every food links to and is
+  // linked from its neighbours. Guarantees no food is left with only the hub
+  // link as an internal inbound link.
+  const catFoods = (byCategory()[food.category] || []);
+  const selfIdx = catFoods.findIndex(f => f.slug === food.slug);
+  const ringSlugs = [];
+  for (let i = 1; i <= 4 && catFoods.length > 1; i++) {
+    ringSlugs.push(catFoods[(selfIdx + i) % catFoods.length].slug);
+  }
+  const relSlugs = [];
+  for (const s of [...(food.related || []), ...ringSlugs]) {
+    if (s !== food.slug && bySlug[s] && !relSlugs.includes(s)) relSlugs.push(s);
+  }
+  const related = relSlugs.slice(0, 6).map(s => bySlug[s]).map(r =>
     `        <a class="related-card" href="${r.slug}.html"><div class="related-card__name">${esc(r.name)}</div><div class="related-card__cal"><b>${r.calories}</b> kcal per ${esc(r.serving)}</div></a>`
   ).join('\n');
 

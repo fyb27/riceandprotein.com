@@ -727,37 +727,30 @@
 
 
     /* TRANSFORMATION TOGGLE */
-    .transf-toggle {
-      display: inline-flex;
-      border: 1.5px solid var(--border);
-      overflow: hidden;
-      margin-top: 32px;
-      margin-bottom: 20px;
-    }
-
-    .transf-btn {
-      padding: 10px 28px;
-      font-size: 13px;
-      font-weight: 600;
-      background: var(--white);
-      border: none;
-      color: var(--muted);
-      cursor: pointer;
-      transition: background 0.15s, color 0.15s;
-    }
-
-    .transf-btn + .transf-btn { border-left: 1.5px solid var(--border); }
-
-    .transf-btn.active {
-      background: var(--accent);
-      color: var(--white);
-    }
-
     .transf-img {
       display: block;
       width: 100%;
       border-radius: 8px;
+      margin-top: 24px;
     }
+
+    .vid-share {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      margin-top: 14px;
+      background: transparent;
+      border: 1.5px solid var(--border);
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 600;
+      padding: 8px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: border-color 0.15s, color 0.15s;
+    }
+    .vid-share:hover { border-color: var(--accent); color: var(--accent); }
+    .vid-share svg { width: 15px; height: 15px; }
 
     /* FOOTER */
     .site-footer {
@@ -1440,16 +1433,48 @@
         </div>
       </div>
 
-      <!-- SECTION 5: WHAT TO DO AT THE GYM -->
+      <!-- SECTION 5: CARDIO OR WEIGHTS -->
       <div class="accordion" id="acc-5">
         <div class="acc-header" role="button" tabindex="0" aria-expanded="false" aria-controls="acc-5-body">
           <span class="acc-num">05</span>
-          <span class="acc-title">What to do at the gym</span>
+          <span class="acc-title">Should I do cardio or lift weights?</span>
           <svg class="acc-chevron" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <path d="M4 7l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </div>
         <div class="acc-body" id="acc-5-body">
+          <div class="acc-content">
+            <div class="copy">
+              <p><strong>Short answer: lift weights.</strong> If you only have time for one, pick lifting every single time.</p>
+              <p>Here is why. In a calorie deficit you lose weight either way. But your body burns muscle along with the fat unless you give it a reason not to. Lifting is that reason. Cardio is not. So two people can lose the exact same weight and end up looking completely different. One soft, one lean.</p>
+              <p>That is the whole thing in one video:</p>
+            </div>
+
+            <video class="transf-img" id="transf-video" src="videos/calorie-deficit-vs-lifting.mp4" poster="images/calorie-deficit-vs-lifting-poster.jpg" autoplay muted loop playsinline preload="metadata" width="1280" height="720" aria-label="Two men who lost the same weight. The one who only dieted stays soft. The one who lifted heavy is lean and muscular. Same weight lost, different body."></video>
+
+            <button class="vid-share" id="vid-share" type="button">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="13.5" x2="15.4" y2="17.5"/><line x1="15.4" y1="6.5" x2="8.6" y2="10.5"/></svg>
+              Share this video
+            </button>
+
+            <div class="copy" style="margin-top:18px;">
+              <p>Cardio still has its place. It is good for your heart and it burns a few extra calories if you want a bigger deficit. But it is not what changes your shape. Do it as a bonus, not as the main event.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- SECTION 6: WHAT TO DO AT THE GYM -->
+      <div class="accordion" id="acc-6">
+        <div class="acc-header" role="button" tabindex="0" aria-expanded="false" aria-controls="acc-6-body">
+          <span class="acc-num">06</span>
+          <span class="acc-title">What to do at the gym</span>
+          <svg class="acc-chevron" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M4 7l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="acc-body" id="acc-6-body">
           <div class="acc-content">
             <div class="copy">
               <p>When you are in a deficit, your body burns both fat and muscle. Lifting tells it to keep the muscle. The deficit handles the fat. Same weight on the scale, completely different shape.</p>
@@ -1459,30 +1484,24 @@
               <p>If you can train 5 to 6 days, switch to Push Pull Legs. Push covers chest, shoulders and triceps. Pull covers back and biceps. Legs covers quads, hamstrings and calves. You hit each muscle twice a week which builds faster.</p>
               <p>Women, three sessions a week changes your shape, it does not make you bulky. That takes years of very specific effort to achieve.</p>
               <p><a href="posts/gym-guide-beginners.html" style="color:var(--accent); font-weight:600;">Read the full beginner's gym guide &rarr;</a>&nbsp; Every exercise, every muscle group, sets and reps, plus a programme to start this week.</p>
+              <p style="margin-top:14px;"><a href="posts/128kg-to-86kg-my-journey.html" style="color:var(--accent); font-weight:600;">Read how I went from 128kg to 86kg &rarr;</a>&nbsp; The full story: what failed, what finally worked, and what I eat now to keep it off.</p>
             </div>
-
-            <div class="transf-toggle" role="group" aria-label="View transformation example">
-              <button class="transf-btn active" id="transf-male" type="button">Male</button>
-              <button class="transf-btn" id="transf-female" type="button">Female</button>
-            </div>
-            <img class="transf-img" id="transf-img" src="images/transformation-male.jpg" alt="Male body transformation, fat loss with resistance training">
-            <p style="margin-top:14px;"><a href="posts/128kg-to-86kg-my-journey.html" style="color:var(--accent); font-weight:600;">Read how I went from 128kg to 86kg &rarr;</a>&nbsp; The full story: what failed, what finally worked, and what I eat now to keep it off.</p>
 
           </div>
         </div>
       </div>
 
 
-      <!-- SECTION 6: YOUR SUMMARY -->
-      <div class="accordion" id="acc-6">
-        <div class="acc-header" role="button" tabindex="0" aria-expanded="false" aria-controls="acc-6-body">
-          <span class="acc-num">06</span>
+      <!-- SECTION 7: YOUR SUMMARY -->
+      <div class="accordion" id="acc-7">
+        <div class="acc-header" role="button" tabindex="0" aria-expanded="false" aria-controls="acc-7-body">
+          <span class="acc-num">07</span>
           <span class="acc-title">Your summary</span>
           <svg class="acc-chevron" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <path d="M4 7l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </div>
-        <div class="acc-body" id="acc-6-body">
+        <div class="acc-body" id="acc-7-body">
           <div class="acc-content">
 
             <div id="summary-locked">
@@ -1557,16 +1576,22 @@
     .foods-teaser__eyebrow { display: inline-block; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; font-weight: 600; color: var(--accent); margin-bottom: 14px; }
     .foods-teaser__title { font-family: 'DM Serif Display', serif; font-size: 30px; line-height: 1.2; color: var(--text); margin: 0 0 14px; }
     .foods-teaser__copy { font-size: 16px; line-height: 1.65; color: var(--muted); margin: 0 auto 26px; max-width: 600px; }
-    .foods-teaser__btn { display: inline-block; background: var(--accent); color: var(--white); font-weight: 600; font-size: 15px; padding: 13px 26px; border-radius: 8px; transition: background 0.2s; }
+    .foods-teaser__btns { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+    .foods-teaser__btn { display: inline-block; background: var(--accent); color: var(--white); font-weight: 600; font-size: 15px; padding: 13px 26px; border-radius: 8px; transition: background 0.2s, color 0.2s; }
     .foods-teaser__btn:hover { background: var(--accent2); }
+    .foods-teaser__btn--alt { background: transparent; color: var(--accent); border: 1.5px solid var(--accent); }
+    .foods-teaser__btn--alt:hover { background: var(--accent); color: var(--white); }
     @media (max-width: 600px) { .foods-teaser { padding: 48px 20px; } .foods-teaser__title { font-size: 25px; } }
   </style>
   <section class="foods-teaser">
     <div class="foods-teaser__inner">
-      <span class="foods-teaser__eyebrow">New</span>
-      <h2 class="foods-teaser__title">How many calories is that, actually?</h2>
-      <p class="foods-teaser__copy">Nasi lemak, char kuey teow, roti canai, dim sum, durian, the lot. Nearly 290 Malaysian dishes with real calorie numbers, where the calories actually come from, and how to eat it lighter without starving. No guessing lah.</p>
-      <a class="foods-teaser__btn" href="foods.html">Browse food calories &rarr;</a>
+      <span class="foods-teaser__eyebrow">Keep going</span>
+      <h2 class="foods-teaser__title">Right, where to next?</h2>
+      <p class="foods-teaser__copy">Two things make the whole difference: knowing what you actually eat, and lifting to hold on to your muscle. Browse nearly 290 dishes with real calorie counts, or read the gym guide and learn how to lose fat without losing your shape.</p>
+      <div class="foods-teaser__btns">
+        <a class="foods-teaser__btn" href="foods.html">Browse food calories &rarr;</a>
+        <a class="foods-teaser__btn foods-teaser__btn--alt" href="posts/gym-guide-beginners.html">Build a body you're proud of &rarr;</a>
+      </div>
     </div>
   </section>
 
@@ -2120,37 +2145,6 @@
       }
     }
 
-    /* TRANSFORMATION TOGGLE */
-    (function () {
-      var img  = $('transf-img');
-      var btnM = $('transf-male');
-      var btnF = $('transf-female');
-      if (!img || !btnM || !btnF) return;
-
-      function recalcAcc5() {
-        var body = $('acc-5-body');
-        if (body && $('acc-5').classList.contains('open')) {
-          body.style.maxHeight = body.scrollHeight + 'px';
-        }
-      }
-
-      img.addEventListener('load', recalcAcc5);
-
-      btnM.addEventListener('click', function () {
-        img.src = 'images/transformation-male.jpg';
-        img.alt = 'Male body transformation, fat loss with resistance training';
-        btnM.classList.add('active');
-        btnF.classList.remove('active');
-      });
-
-      btnF.addEventListener('click', function () {
-        img.src = 'images/transformation-female.jpg';
-        img.alt = 'Female body transformation, fat loss with resistance training';
-        btnF.classList.add('active');
-        btnM.classList.remove('active');
-      });
-    })();
-
     /* PROTEIN WHY TOGGLE */
     $('protein-why-btn').addEventListener('click', function () {
       var exp = $('protein-explain');
@@ -2180,6 +2174,50 @@
         body.style.maxHeight = opening ? body.scrollHeight + 'px' : '0';
       }
     });
+
+    /* SHARE VIDEO (section 5) */
+    (function () {
+      var btn = $('vid-share');
+      if (!btn) return;
+      var url   = 'https://riceandprotein.com/';
+      var title = 'Same weight lost, different body';
+      var text  = 'Two people lose the same weight. One only dieted, one lifted. Look at the difference. ' + url;
+
+      function flash(msg) {
+        var keep = btn.innerHTML;
+        btn.textContent = msg;
+        setTimeout(function () { btn.innerHTML = keep; }, 1800);
+      }
+
+      function shareLink() {
+        if (navigator.share) {
+          navigator.share({ title: title, text: text, url: url }).catch(function () {});
+        } else if (navigator.clipboard) {
+          navigator.clipboard.writeText(url).then(function () { flash('Link copied'); }).catch(function () { flash(url); });
+        } else {
+          flash(url);
+        }
+      }
+
+      btn.addEventListener('click', function () {
+        if (navigator.canShare) {
+          fetch('videos/calorie-deficit-vs-lifting.mp4').then(function (r) {
+            return r.blob();
+          }).then(function (blob) {
+            var file = new File([blob], 'calorie-deficit-vs-lifting.mp4', { type: 'video/mp4' });
+            if (navigator.canShare({ files: [file] })) {
+              return navigator.share({ files: [file], title: title, text: text });
+            }
+            shareLink();
+          }).catch(function (e) {
+            if (e && e.name === 'AbortError') return;
+            shareLink();
+          });
+        } else {
+          shareLink();
+        }
+      });
+    })();
 
     /* NAV TOGGLE */
     var navToggle = $('nav-toggle');

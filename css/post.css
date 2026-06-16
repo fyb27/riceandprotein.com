@@ -321,6 +321,29 @@
 }
 
 /* ============================================
+   INLINE VIDEO
+   ============================================ */
+
+.post-video {
+  margin: 0 0 36px;
+}
+
+.post-video video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  background: var(--dark);
+}
+
+.post-video figcaption {
+  margin-top: 12px;
+  font-size: 14px;
+  color: var(--muted);
+  text-align: center;
+}
+
+/* ============================================
    RESPONSIVE
    ============================================ */
 

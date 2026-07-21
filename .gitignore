@@ -1,3 +1,9 @@
 watermark.py
 input/
 output/
+
+# Private / never publish (repo deploys publicly via GitHub Pages)
+handoff.md
+*.xlsx
+~$*.xlsx
+Man's_fitness_transformation_*.mp4

@@ -29,12 +29,17 @@
       "answer": "A standard nasi lemak bungkus (the small banana-leaf or paper-wrapped one with rice, sambal, peanuts, anchovies, half a boiled egg and cucumber) is about 556 calories. Add fried chicken and you are looking at 850 plus.",
       "realTalk": [
         "Here is the thing nobody tells you bro. The plain bungkus is not the problem. 556 calories for a full breakfast is honestly fine if the rest of your day is in check. The problem is what you add. Ayam goreng, rendang, sotong, an extra egg, and suddenly your RM4 breakfast is a 900 calorie monster before 9am.",
-        "The sneaky calories are in the rice and the sambal, not the parts you think. The rice is cooked in coconut milk so each grain soaks up fat. The sambal is fried in oil and balanced with sugar. The peanuts look like a garnish but fried peanuts are 600 kcal per 100g. None of it looks heavy. All of it adds up."
+        "The sneaky calories are in the rice and the sambal, not the parts you think. The rice is cooked in coconut milk so each grain soaks up fat. The sambal is fried in oil and balanced with sugar. The peanuts look like a garnish but fried peanuts are 600 kcal per 100g. None of it looks heavy. All of it adds up.",
+        "Zoom out and look at the weekly math. A bungkus every morning is 556 x 7, nearly 3,900 calories a week from breakfast alone. Half a kilo of body fat is roughly 3,850 calories. So the daily nasi lemak habit, on its own, is a potential half kilo a week if the rest of your eating does not make room for it. It is not one bungkus that gets people. It is the habit.",
+        "Also be honest about what you are buying with those calories. 22g of protein for 556 calories is a mediocre trade. For comparison, 300g of chicken breast is around 330 calories and gives you 69g of protein. Nasi lemak is a flavour purchase, not a protein purchase, and that is fine, as long as you know which one you are paying for.",
+        "One more thing: the bungkus at the roadside stall and the nasi lemak at a cafe are not the same food. The classic small bungkus is around 550. A restaurant plate with a mountain of rice, extra sambal and a big piece of fried chicken can pass 900 without trying. If you only remember one rule, remember that the wrapped banana leaf version is the safest version."
       ],
       "lighter": [
         "Stick to the plain bungkus. No fried chicken. The egg and anchovies already give you protein.",
         "Eat it with kosong (plain water or teh o kosong) instead of a sweet drink. That alone saves 100 to 250 calories.",
-        "If you want a lauk, pick ikan goreng or sambal sotong over ayam goreng or rendang. Same satisfaction, 90 to 150 fewer calories."
+        "If you want a lauk, pick ikan goreng or sambal sotong over ayam goreng or rendang. Same satisfaction, 90 to 150 fewer calories.",
+        "Make it at home sometimes. Light santan, measured rice and a boiled egg gets you the same taste profile for 100 plus fewer calories.",
+        "If the stall piles the rice high, leave a third of it behind. Nobody is giving you a medal for finishing."
       ],
       "components": [
         {
@@ -94,6 +99,18 @@
         {
           "q": "Why is nasi lemak so high in calories?",
           "a": "The rice is cooked in coconut milk which adds fat to every grain, the sambal is fried in oil and sweetened with sugar, and the peanuts are fried. None of it looks heavy but the fat and sugar stack up fast."
+        },
+        {
+          "q": "How many calories in nasi lemak with fried chicken?",
+          "a": "Around 850 calories. The fried chicken thigh alone adds roughly 300 calories to the plain bungkus, mostly from the skin and the frying oil."
+        },
+        {
+          "q": "Can I eat nasi lemak every day and still lose weight?",
+          "a": "Technically yes if you stay in a calorie deficit, but it is hard. A 556 calorie breakfast leaves most people only 1,100 to 1,400 calories for lunch, dinner and drinks. Twice a week is a much easier way to keep it in your life."
+        },
+        {
+          "q": "How many calories in homemade nasi lemak?",
+          "a": "You can get a home version down to around 420 calories by using light santan or half the usual amount, measuring the rice, baking or air frying instead of deep frying the extras, and going easy on the oil in the sambal."
         }
       ],
       "variants": [
@@ -223,12 +240,17 @@
       "answer": "A standard plate of char kuey teow is around 742 calories with 38g of fat. The noodles and prawns are not the issue. The oil and lard it is fried in are where almost half the calories come from.",
       "realTalk": [
         "CKT is one of those dishes where the calorie count genuinely surprises people. It looks like just noodles and a few prawns. But that wok is loaded with oil, and traditionally lard, to get the smoky char that makes it taste so good. A single plate can carry 38g of fat. That is more fat than a McDonald's quarter pounder.",
-        "I am not telling you to never eat it bro. CKT is one of the best things on this earth. I am telling you to know what it is. This is a treat plate, not an everyday plate. If you eat it, make it the indulgent meal of your day and keep the rest light."
+        "I am not telling you to never eat it bro. CKT is one of the best things on this earth. I am telling you to know what it is. This is a treat plate, not an everyday plate. If you eat it, make it the indulgent meal of your day and keep the rest light.",
+        "Some context on what 742 calories means. For most men cutting on around 1,800 to 2,000 calories a day, one plate of CKT is 40 percent of the entire day. To burn it off you are looking at roughly 90 minutes of brisk walking. That is the honest exchange rate on that smoky wok flavour.",
+        "The noodle itself is part of the problem. Flat rice noodles are basically sponges. They drink up whatever oil or lard is in the wok, which is exactly why they taste so good and exactly why 76g of carbs arrive coated in 38g of fat. The prawns and cockles you can see are honestly the healthiest thing on the plate.",
+        "Penang style with duck egg, extra lard bits and bigger portions runs even higher, push it to 800 plus. And if the uncle asks whether you want it \"special\", understand that special means more of everything, including the number on this page."
       ],
       "lighter": [
         "Ask for less oil (kurang minyak). Most uncles will do it if you ask before they cook.",
         "Add extra egg or extra prawns for protein instead of asking for extra noodles.",
-        "Treat it as your one indulgent meal of the day, not a default lunch."
+        "Treat it as your one indulgent meal of the day, not a default lunch.",
+        "Share the plate. Half a CKT plus a bowl of clear soup is a genuinely decent lunch.",
+        "If it is CKT for lunch, make dinner protein and vegetables only. Plan the day around the plate."
       ],
       "components": [
         {
@@ -283,6 +305,18 @@
         {
           "q": "How much protein is in char kuey teow?",
           "a": "About 22g, mostly from the egg, prawns and cockles. The protein to calorie ratio is poor though because of all the oil."
+        },
+        {
+          "q": "How many calories in char kuey teow without prawns or cockles?",
+          "a": "Barely any different, maybe 30 to 50 calories less. The seafood was never the problem. The oil, lard and noodles carry almost all of the 742 calories."
+        },
+        {
+          "q": "Is char kuey teow worse than nasi lemak?",
+          "a": "Per serving, yes. A standard CKT at 742 calories beats a plain nasi lemak bungkus at 556 by almost 200 calories, and with more than double the fat."
+        },
+        {
+          "q": "How often can I eat CKT while losing weight?",
+          "a": "Once a week works fine if you plan for it. Keep the other two meals that day light and high protein, think soup and grilled lauk, and the week still balances out."
         }
       ],
       "variants": [
@@ -334,12 +368,17 @@
       "answer": "One plain roti canai with dhal is about 301 calories. The flour is only part of it. The real calories come from the margarine or ghee it is cooked and folded with.",
       "realTalk": [
         "One plain roti canai is genuinely not a disaster. 301 calories with some dhal is a reasonable light meal. The problem is nobody stops at one, and nobody orders it plain. Roti telur, roti planta, roti tisu, roti bom, each upgrade is just more fat and sugar folded into the same dough.",
-        "The margarine is the part people miss. That flaky, layered texture comes from fat worked into the dough and more fat on the hot plate. The flour gives you carbs. The margarine gives you the calories. Two plain rotis plus a teh tarik is already a 750 calorie supper, and most people treat that as a light snack."
+        "The margarine is the part people miss. That flaky, layered texture comes from fat worked into the dough and more fat on the hot plate. The flour gives you carbs. The margarine gives you the calories. Two plain rotis plus a teh tarik is already a 750 calorie supper, and most people treat that as a light snack.",
+        "To put one roti canai in perspective: 301 calories is about four and a half slices of white bread. Nobody sits down and eats four slices of bread with margarine as a light snack, but that is effectively what one roti is, thanks to all the fat laminated into the dough.",
+        "The 2am factor matters too. Calories at night are not magically worse, but a supper roti comes on top of everything you already ate that day. If dinner was done and you were fine, the mamak trip is pure bonus calories. Two rotis and a teh tarik as a \"snack\" is 750 calories your day did not need.",
+        "If you want the mamak experience with better numbers, look one line down the menu. Tosai kosong is around 200 calories, chapati around 240, both with far less fat than roti. Same table, same dhal, same late night talk with your friends, 100 plus calories saved per piece."
       ],
       "lighter": [
         "One piece, not two. Pair it with dhal or sambal for some protein and fibre.",
         "Skip roti telur, planta and tisu. Those are fat and sugar upgrades on the same dough.",
-        "Have it with teh o kosong instead of a condensed milk drink to save 100 plus calories."
+        "Have it with teh o kosong instead of a condensed milk drink to save 100 plus calories.",
+        "Order tosai or chapati instead when the craving is really just \"hot bread plus dhal\".",
+        "Eat dinner before the mamak session so the roti is a treat, not a second dinner."
       ],
       "components": [
         {
@@ -379,6 +418,18 @@
         {
           "q": "Which roti is the lowest calorie?",
           "a": "Plain roti canai or roti kosong. Every upgrade (egg, margarine, sugar, condensed milk) adds fat or sugar on top of the same base dough."
+        },
+        {
+          "q": "Roti canai or tosai, which is better for weight loss?",
+          "a": "Tosai, easily. A plain tosai is around 200 calories versus 301 for roti canai with dhal, and it carries much less fat because the batter is not laminated with margarine."
+        },
+        {
+          "q": "How many calories does the curry or dhal add?",
+          "a": "A normal ladle of dhal or curry adds around 30 to 50 calories. Roti banjir, flooded with curry, sits around 340. The gravy is not the problem, the second and third roti is."
+        },
+        {
+          "q": "Is roti canai worse than white rice?",
+          "a": "Calorie for calorie, yes. A plate of plain white rice is around 200 to 260 calories with almost no fat. One roti is 300 with 14g of fat. The rice fills you up more for less."
         }
       ],
       "variants": [
@@ -455,12 +506,16 @@
       "answer": "A standard plate of mamak mee goreng is around 660 calories. The noodles, oil and sweet kicap sauce make up most of it, with the egg and tofu adding a bit of protein.",
       "realTalk": [
         "Mamak mee goreng tastes sweet for a reason. There is real sugar in that sauce, plus the oil it is all fried in. The yellow noodles themselves are already calorie dense, and then potato and fried tofu pile on more carbs and fat. It adds up to a heavy plate that does not actually keep you full very long because the protein is low relative to the calories.",
-        "It is not the worst mamak option but it is not a smart one either. If you are choosing at the mamak and trying to be good, a plate of chicken with rice or even a tosai beats mee goreng on protein per calorie almost every time."
+        "It is not the worst mamak option but it is not a smart one either. If you are choosing at the mamak and trying to be good, a plate of chicken with rice or even a tosai beats mee goreng on protein per calorie almost every time.",
+        "The yellow mee arrives at the stall already oiled. Fresh yellow noodles are parboiled and coated in oil so they do not stick, before the wok even starts. Then comes the frying oil, then the sweet sauce, which is genuinely two to three teaspoons of sugar hiding in your dinner. Sweet plus oily is the whole flavour, and the whole 660.",
+        "If you like mamak fried noodles but want a lighter plate, bihun goreng is the quiet winner at around 540. Rice vermicelli is lighter than yellow mee and absorbs less oil. Kuey teow goreng sits in between. Same wok, same taste direction, real difference in calories.",
+        "And check the protein column: 20g for 660 calories is a bad deal. That is why you are hungry again two hours after mee goreng. The plate is nearly all carbs and fat. One extra egg or a side of ayam goreng fixes the hunger problem better than a second plate of noodles ever will."
       ],
       "lighter": [
         "Ask for extra egg for protein instead of extra noodles.",
         "Request less oil and less sweet sauce if the stall will do it.",
-        "If protein matters, order ayam or a side of egg rather than relying on the noodles."
+        "If protein matters, order ayam or a side of egg rather than relying on the noodles.",
+        "Bihun goreng instead of mee goreng saves you around 120 calories with the same satisfaction."
       ],
       "components": [
         {
@@ -510,6 +565,18 @@
         {
           "q": "Why does mee goreng taste sweet?",
           "a": "There is real sugar in the kicap manis based sauce. That sweetness is part of the calorie load, on top of the frying oil."
+        },
+        {
+          "q": "Mee goreng or bihun goreng, which is lower calorie?",
+          "a": "Bihun goreng, at around 540 calories versus 660 for mee goreng. Vermicelli holds less oil than yellow noodles and the plate usually carries less sweet sauce."
+        },
+        {
+          "q": "How many calories in mee goreng special?",
+          "a": "Around 780 calories. The special usually adds egg, chicken or extra everything on top of the standard plate."
+        },
+        {
+          "q": "Why does mee goreng make me hungry again so fast?",
+          "a": "Low protein. Only about 20g in a 660 calorie plate, so your body burns through the carbs, the sugar dip hits, and you are eyeing the menu again. Adding an egg or chicken makes it last much longer."
         }
       ],
       "related": [
@@ -533,12 +600,16 @@
       "answer": "A standard plate of nasi goreng kampung is around 630 calories. It is mostly rice and oil, so the calories are high but the protein is low unless you add chicken, egg or seafood.",
       "realTalk": [
         "Nasi goreng is basically a big portion of rice fried in oil. That is why it is calorie dense and also why it varies so much. Plain nasi goreng kampung is mostly carbs and fat. Add an egg and some chicken and it becomes a much more balanced meal, the same total calories suddenly buy you real protein.",
-        "The portion size is the quiet killer. Hawker fried rice plates are big, often 300g plus of rice alone. That is a lot of carbs for one sitting. If you want to eat this and stay on track, controlling the rice amount matters more than anything else on the plate."
+        "The portion size is the quiet killer. Hawker fried rice plates are big, often 300g plus of rice alone. That is a lot of carbs for one sitting. If you want to eat this and stay on track, controlling the rice amount matters more than anything else on the plate.",
+        "The home wok is where this dish becomes diet food. Day-old rice, one measured tablespoon of oil, two eggs, ikan bilis and as much chilli as you dare: around 450 to 500 calories with real protein. The hawker plate hits 630 because the stall uses three to four tablespoons of oil and a bigger mountain of rice. Same dish, 150 calorie gap, purely technique.",
+        "Across the nasi goreng menu the spread is wider than people think. Kampung and cina both sit around 630, mamak style around 660, and pattaya jumps to 700 because it wraps the whole thing in an egg omelette with extra sauce. If the menu has ten fried rice options, they are not all the same number.",
+        "Also compare it against the obvious alternative: nasi putih with grilled lauk. Plain rice, ikan bakar and some vegetables lands around 500 to 550 with far more protein than any fried rice. Nasi goreng is the convenience choice, not the smart choice, and knowing that is half the battle."
       ],
       "lighter": [
         "Add a fried or boiled egg and some chicken for protein. Same calories, far more filling.",
         "Ask for less rice if you can. The rice is the bulk of the calories.",
-        "Skip the keropok and extra fried sides that come with it."
+        "Skip the keropok and extra fried sides that come with it.",
+        "Cook it at home with one measured tablespoon of oil and double eggs. Restaurant taste, 150 fewer calories."
       ],
       "components": [
         {
@@ -583,6 +654,18 @@
         {
           "q": "How can I make nasi goreng healthier?",
           "a": "Less rice, less oil, and add protein like egg, chicken or prawns. The protein turns it from empty carbs into an actual balanced meal."
+        },
+        {
+          "q": "Which nasi goreng has the lowest calories?",
+          "a": "Kampung and cina styles are the lightest at around 630 a plate. Pattaya is the heaviest common option at around 700, because of the egg wrap and sauce. USA and special versions with extra meat go higher still."
+        },
+        {
+          "q": "How many calories in homemade nasi goreng?",
+          "a": "Around 450 to 500 if you use one tablespoon of oil and a normal bowl of day-old rice. The hawker version is 630 mostly because of extra oil and extra rice, not secret ingredients."
+        },
+        {
+          "q": "Nasi goreng or white rice with lauk, which is better?",
+          "a": "White rice with grilled lauk and vegetables, around 500 to 550 calories with much more protein. Fried rice bundles the oil into every grain, so you cannot opt out of it."
         }
       ],
       "variants": [
@@ -638,12 +721,16 @@
       "answer": "A bowl of bak kut teh (pork and soup, no rice) is around 405 calories with a strong 35g of protein. The number swings a lot depending on whether you get lean ribs or fatty pork, and the rice on the side adds 200 plus.",
       "realTalk": [
         "Bak kut teh is one of the better high protein hawker meals if you play it right. The broth itself is light. The protein is genuinely high because you are eating a pile of pork. The catch is the fat. If you order fatty cuts, three layer pork or intestines, the fat and calories climb fast while the protein stays the same.",
-        "Then there is the rice. A bowl of BKT almost always comes with a bowl of rice, sometimes with a spoon of the oily broth poured over it. That side bowl can quietly add 200 to 300 calories. The soup is not the problem. The fatty pork and the rice are."
+        "Then there is the rice. A bowl of BKT almost always comes with a bowl of rice, sometimes with a spoon of the oily broth poured over it. That side bowl can quietly add 200 to 300 calories. The soup is not the problem. The fatty pork and the rice are.",
+        "A warning about the dry version. Dry bak kut teh, the claypot one with dark sauce, dried chilli and you tiao mixed in, plays by different rules. The sauce reduction is oil and sugar heavy and the whole thing runs closer to 580 per portion. Soup version for the diet, dry version for the cheat day.",
+        "The soup itself is nearly free. Clear herbal broth is maybe 50 calories a bowl, and most shops refill it without charging. That is a dream for volume eaters: keep refilling soup, keep feeling full, spend almost nothing. Just skip the oily layer floating on top of the communal pot.",
+        "Among all the famous hawker meals, BKT with lean cuts is honestly one of the best cutting choices. 35g of protein in a 405 calorie bowl beats chicken rice, beats nasi lemak, beats basically every noodle dish. Order pai kut, ask for less fatty pieces, watch the rice, and you can eat this weekly while losing weight."
       ],
       "lighter": [
         "Order leaner cuts. Lean ribs over three layer pork or intestines.",
         "Go easy on the rice, or skip the oily broth poured over it.",
-        "Skip the you tiao (fried dough fritters). They soak up oil and broth like a sponge."
+        "Skip the you tiao (fried dough fritters). They soak up oil and broth like a sponge.",
+        "Ask for pai kut (lean ribs) specifically when ordering. The uncle will not choose lean for you."
       ],
       "components": [
         {
@@ -688,6 +775,18 @@
         {
           "q": "Is the soup high in calories?",
           "a": "The broth itself is fairly light, around 60 calories. The calories live in the pork (especially fatty cuts) and the rice on the side, not the soup."
+        },
+        {
+          "q": "How many calories in dry bak kut teh?",
+          "a": "Around 580 per portion. The dark sauce reduction is heavy on oil and sugar, and the you tiao mixed in soaks it all up. The soup version is the lighter choice by a wide margin."
+        },
+        {
+          "q": "Can I drink the bak kut teh soup freely?",
+          "a": "Mostly yes. The clear herbal broth is around 50 calories a bowl and refills are usually free. Just avoid ladling from the oily layer on top, that is where the pork fat collects."
+        },
+        {
+          "q": "Bak kut teh or chicken rice, which is better for a diet?",
+          "a": "Bak kut teh with lean cuts and no rice, at around 405 calories with 35g protein, beats a standard chicken rice plate at around 600. The catch is discipline: no fatty cuts, easy on the rice."
         }
       ],
       "related": [
@@ -711,12 +810,16 @@
       "answer": "A bowl of curry laksa (curry mee) is around 600 calories with 32g of fat. The coconut milk gravy is where most of those calories and almost all of the fat come from.",
       "realTalk": [
         "Curry laksa tastes rich because it is rich. That orange gravy is built on coconut milk, which is about 230 calories and 24g of fat per 100ml. A bowl uses a good amount of it, and you drink most of it. The noodles and toppings (tofu puffs, cockles, prawns, chicken) are reasonable. The gravy is the calorie engine.",
-        "Note this is curry laksa, the coconut one. Asam laksa, the tamarind based Penang version, is a totally different and much lighter dish at roughly half the calories because it has no coconut milk. If you love laksa but want lighter, asam laksa is the move."
+        "Note this is curry laksa, the coconut one. Asam laksa, the tamarind based Penang version, is a totally different and much lighter dish at roughly half the calories because it has no coconut milk. If you love laksa but want lighter, asam laksa is the move.",
+        "Respect the taufu pok. Those tofu puffs are sponges by design, each one soaks up curry gravy and comes out at 50 to 70 calories a piece. Four puffs is quietly another 250 calories of absorbed santan sitting on top of the bowl you already ordered.",
+        "The santan math explains the whole dish. A bowl of curry laksa carries roughly 100 to 150ml of coconut milk at around 230 calories per 100ml. That is 230 to 345 calories in the gravy before a single noodle enters the picture. Whether you drink the gravy or leave it is genuinely a 150 to 200 calorie decision.",
+        "The laksa family tree, ranked for your convenience: asam laksa around 330, laksa kedah 400, sarawak laksa 550, laksa johor 570, curry laksa 600. The pattern is simple. The more coconut milk in the recipe, the higher it climbs. Penang people have been winning this particular game the whole time."
       ],
       "lighter": [
         "Do not drink all the gravy. Most of the fat is in there.",
         "Pick asam laksa instead when you can. No coconut milk, roughly half the calories.",
-        "Load up on the protein toppings (prawn, chicken, tofu) and go lighter on the noodles."
+        "Load up on the protein toppings (prawn, chicken, tofu) and go lighter on the noodles.",
+        "Limit the taufu pok to one or two. They are gravy sponges, not health food."
       ],
       "components": [
         {
@@ -761,6 +864,18 @@
         {
           "q": "How do I make curry laksa less fattening?",
           "a": "Do not finish all the gravy, since the coconut fat lives there. Load up on the protein toppings and go easier on the noodles."
+        },
+        {
+          "q": "Which laksa has the lowest calories?",
+          "a": "Asam laksa, at around 330 a bowl. The tamarind fish broth has no coconut milk, which is what pushes curry laksa to 600 and the santan-based versions in between."
+        },
+        {
+          "q": "How many calories do I save by not drinking the gravy?",
+          "a": "Roughly 150 to 200 calories. Most of the coconut milk fat stays in the liquid, so eating the noodles and toppings and leaving the gravy behind meaningfully changes the number."
+        },
+        {
+          "q": "How many calories in a tofu puff (taufu pok) in laksa?",
+          "a": "About 50 to 70 calories each once it has soaked up the curry gravy. They act like sponges, so a bowl with four puffs carries an extra 200 plus calories in the puffs alone."
         }
       ],
       "related": [
@@ -857,12 +972,16 @@
       "answer": "A standard glass of teh tarik is about 130 calories. The tea itself has almost none. Every calorie comes from the condensed milk and added sugar, which is why teh o kosong is basically free.",
       "realTalk": [
         "Here is the eye opener bro. The tea in teh tarik is zero calories. The 130 calories are entirely condensed milk and sugar. People sip three or four of these a day without thinking and that is 400 to 500 calories of pure liquid sugar that does not fill you up at all.",
-        "Drink calories are the most wasted calories in the Malaysian diet. They taste good for ten seconds and keep you full for zero minutes. If you do one thing for your waistline, swap your sweet drinks for kosong versions. Teh o kosong (tea, no milk, no sugar) is about 5 calories. Same caffeine, same ritual, none of the cost."
+        "Drink calories are the most wasted calories in the Malaysian diet. They taste good for ten seconds and keep you full for zero minutes. If you do one thing for your waistline, swap your sweet drinks for kosong versions. Teh o kosong (tea, no milk, no sugar) is about 5 calories. Same caffeine, same ritual, none of the cost.",
+        "Here is the yearly math that changed my behaviour. Two teh tarik a day is 260 calories, times 365 days is about 95,000 calories a year. That is roughly 12kg of body fat, from tea. Nobody gets fat from one glass. People get fat from the automatic twice a day habit that runs for years.",
+        "Know your kopitiam menu codes and you can save calories without giving anything up. Teh c uses evaporated milk instead of condensed, around 100 calories. Teh c kosong is evaporated milk with no sugar, around 40. Teh o is tea with sugar only, around 60. Teh o kosong is the champion at basically 5. Same tea, five different prices for your waistline.",
+        "The reason drink calories are so dangerous is that they do not register. Liquid sugar does not trip your fullness switch the way food does. Your body simply does not count the teh tarik, so you eat the same amount of food anyway, plus the 130."
       ],
       "lighter": [
         "Order teh o kosong (no milk, no sugar). Drops from 130 to about 5 calories.",
         "Or teh tarik kurang manis (less sweet) for a middle ground.",
-        "Count your drinks. Three sweet teh tarik a day is nearly 400 calories you did not notice."
+        "Count your drinks. Three sweet teh tarik a day is nearly 400 calories you did not notice.",
+        "Give yourself one sweet drink slot a day, with your favourite meal. Every other drink is kosong."
       ],
       "components": [
         {
@@ -907,6 +1026,18 @@
         {
           "q": "What is the lowest calorie kopitiam drink?",
           "a": "Teh o kosong or plain water, both essentially zero calories. Teh o kosong gives you the same tea ritual without the condensed milk and sugar."
+        },
+        {
+          "q": "How many calories in teh tarik kurang manis?",
+          "a": "Around 95 calories. Kurang manis usually means the same condensed milk but less added sugar, so it helps, but teh c kosong at around 40 calories is the bigger saving."
+        },
+        {
+          "q": "What is the difference between teh tarik and teh c?",
+          "a": "Teh tarik uses condensed milk, which is milk plus a lot of sugar, around 130 calories a glass. Teh c uses evaporated milk, which is unsweetened, so around 100 calories with the standard sugar, or 40 if you order it kosong."
+        },
+        {
+          "q": "How much weight can I lose by switching to teh o kosong?",
+          "a": "If you currently drink two teh tarik a day, switching saves about 250 calories daily. That is roughly 1kg of fat every five to six weeks, from changing nothing except your drink order."
         }
       ],
       "related": [
@@ -1005,12 +1136,16 @@
       "answer": "A bowl of cendol is around 330 calories. It feels light because it is cold and icy, but the coconut milk and gula melaka (palm sugar) make it a genuine dessert, not a free snack.",
       "realTalk": [
         "Cendol is one of those desserts that feels innocent because most of the bowl is shaved ice. But under the ice is coconut milk and a generous pour of gula melaka syrup. That combination of coconut fat and palm sugar is where the 330 calories come from. The green jelly and the ice are basically free. The sauce is the whole story.",
-        "Add ons make it worse fast. Pulut (glutinous rice), red beans, sweet corn, durian, each one stacks more sugar and carbs on top. A loaded cendol can hit 450 calories easy. As a once in a while treat it is fine. Just do not think of it as a light afternoon snack, because it is not."
+        "Add ons make it worse fast. Pulut (glutinous rice), red beans, sweet corn, durian, each one stacks more sugar and carbs on top. A loaded cendol can hit 450 calories easy. As a once in a while treat it is fine. Just do not think of it as a light afternoon snack, because it is not.",
+        "Break the bowl down and the villain is obvious. The shaved ice is zero. The green pandan jelly is nearly nothing. The gula melaka syrup is around 55 calories per tablespoon and a standard bowl gets two to three tablespoons, plus the santan pour on top. You are basically drinking sweetened coconut cream through ice.",
+        "Cendol versus ais kacang is a common question and the answer is: same neighbourhood. A standard ABC runs around 280 to 300 with its syrups and evaporated milk, cendol around 330 with santan and gula melaka. Neither is a light option. Pick whichever one you actually love and count it properly.",
+        "My personal rule from the losing weight days: dessert replaces a drink, it does not join one. If cendol is happening, the drink is plain water. Cendol plus teh tarik in one sitting is 460 calories of pure sugar, which is more than a full bowl of bak kut teh, for zero fullness."
       ],
       "lighter": [
         "Ask for less gula melaka syrup. That is the biggest sugar source.",
         "Skip the heavy add ons like pulut and durian if you are watching it.",
-        "Share a bowl. Cendol is rich enough that half a portion still satisfies."
+        "Share a bowl. Cendol is rich enough that half a portion still satisfies.",
+        "Dessert replaces the sweet drink, never joins it. Cendol day means water with the meal."
       ],
       "components": [
         {
@@ -1055,6 +1190,18 @@
         {
           "q": "What makes cendol high in calories?",
           "a": "The coconut milk and the gula melaka syrup. The ice and green jelly are almost free. Loading it with pulut, durian or red beans pushes it higher."
+        },
+        {
+          "q": "Cendol or ais kacang, which is lighter?",
+          "a": "They are close. Ais kacang is usually around 280 to 300 calories, cendol around 330 because of the santan and gula melaka. Toppings decide the winner: add pulut or durian to either and it jumps past 400."
+        },
+        {
+          "q": "How many calories in the gula melaka syrup alone?",
+          "a": "Around 55 calories per tablespoon, and a standard bowl carries two to three tablespoons. Asking for less syrup is the single biggest cut you can make to a cendol."
+        },
+        {
+          "q": "Is cendol okay as a post-workout treat?",
+          "a": "Occasionally, sure, the sugar will not hurt you more just because it is in dessert form. But there is no post-workout magic either. It is 330 calories of enjoyment. Budget it like one."
         }
       ],
       "related": [
@@ -1840,12 +1987,16 @@
       "answer": "One chicken satay stick is about 50 calories. Sounds tiny, but the peanut sauce adds around 50 calories per tablespoon, and a typical order of 10 sticks with ketupat and sauce lands around 760 calories.",
       "realTalk": [
         "Satay is one of those foods where the stick is innocent and everything around it is the problem. The meat itself is lean grilled protein, maybe 50 calories a chicken stick. Great. Then comes the peanut sauce, which is ground peanuts, oil and sugar, around 50 calories a tablespoon, and you dip generously. Add the ketupat or nasi impit (compressed rice) and a plate of 10 sticks quietly becomes a 760 calorie meal.",
-        "Eaten smart, satay is actually a solid protein choice bro. Eaten like most people eat it, dunking every stick and finishing the whole sauce bowl with a pile of ketupat, it stops being a light snack real fast."
+        "Eaten smart, satay is actually a solid protein choice bro. Eaten like most people eat it, dunking every stick and finishing the whole sauce bowl with a pile of ketupat, it stops being a light snack real fast.",
+        "The Kajang problem: satay is eaten by the tray, not by the stick. A normal session is 15, 20, even 30 sticks between stories. Twenty chicken sticks is about 1,000 calories on its own. Add the sauce bowl and a plate of nasi impit and a fun evening quietly becomes a 1,400 calorie sitting.",
+        "Do the sauce math once and you will never dunk the same way. Peanut sauce is roughly 50 calories a tablespoon, and a generous dipper goes through four to six tablespoons in a session. That is 200 to 300 calories of sauce, sometimes more than half the calories of the meat itself. Dip the tip, do not bathe the stick.",
+        "Now the good news. Skewered grilled meat is one of the most gym-friendly foods at any Malaysian gathering. Ten chicken sticks with light sauce is about 500 to 550 calories and 50g of protein. That is a legitimate high protein dinner that happens to taste like a celebration. Satay is only a trap if the ketupat and the sauce bowl come along for the ride."
       ],
       "lighter": [
         "Go easy on the peanut sauce. That is where the hidden calories are, not the meat.",
         "Pick chicken over kambing if you are watching it. Leaner per stick.",
-        "Watch the ketupat. The compressed rice adds up quick alongside the sticks."
+        "Watch the ketupat. The compressed rice adds up quick alongside the sticks.",
+        "Decide your stick count before the tray lands. Ten is a meal. Thirty is an accident."
       ],
       "variants": [
         {
@@ -1895,6 +2046,18 @@
         {
           "q": "Is satay healthy?",
           "a": "The grilled meat is lean protein, which is great. The peanut sauce and ketupat are what add the calories, so go easy on those and satay is a solid choice."
+        },
+        {
+          "q": "How many satay sticks can I eat on a diet?",
+          "a": "Ten chicken sticks with light sauce is around 500 to 550 calories with about 50g of protein, which works as a full meal on most cutting days. The count to avoid is 20 plus sticks with heavy sauce and ketupat."
+        },
+        {
+          "q": "How many calories in ketupat or nasi impit?",
+          "a": "The serving that comes with a satay order adds roughly 110 calories. It is plain compressed rice, so it is not evil, it is just extra carbs next to a meal that did not need them."
+        },
+        {
+          "q": "Is satay a good protein source for gym?",
+          "a": "Genuinely yes. Chicken satay is grilled lean meat at about 5g protein per 50 calorie stick. Ten sticks rivals a chicken breast. Go easy on the sauce and it is one of the best \"party foods\" for anyone training."
         }
       ],
       "related": [
@@ -3699,12 +3862,16 @@
       "answer": "A plate of mamak Maggi goreng is around 470 calories. The instant noodle block is already pre-fried in palm oil before the mamak fries it again with more oil and an egg, which is why even a plain plate clears 450.",
       "realTalk": [
         "Maggi goreng is a double oil dish and most people never think about it. The instant noodle block itself is pre-fried in palm oil at the factory, around 350 calories a pack before you touch it. Then the mamak throws it in a wok with more oil or ghee, an egg and some veg. That is how a plate of what feels like a light snack lands around 470 calories.",
-        "Add chicken and extra egg for the special and it is 550 plus. It is tasty late night food, no shame, just know it is not the light supper it feels like. If you want lighter, Maggi sup (soup) skips the frying and drops to around 330."
+        "Add chicken and extra egg for the special and it is 550 plus. It is tasty late night food, no shame, just know it is not the light supper it feels like. If you want lighter, Maggi sup (soup) skips the frying and drops to around 330.",
+        "There is also the morning-after effect nobody connects to the maggi. One plate carries a huge sodium load, the noodle seasoning alone covers most of a full day of salt. That is why the scale jumps half a kilo the next morning. It is water retention, not fat, but it is also why you were so thirsty at 3am.",
+        "The home version is a completely different food if you build it right. One packet cooked as soup, seasoning halved, an egg cracked in, a handful of frozen vegetables: around 420 calories with decent protein, and you control every gram of it. The extra 50 to 150 calories in the mamak version is all wok oil and ghee.",
+        "Watch the \"it is just maggi\" mindset. Because instant noodles feel like a snack food, a plate of maggi goreng gets mentally filed as nothing. It is not nothing. At 470 to 550 calories it is a full meal, eaten on top of whatever you already called dinner."
       ],
       "lighter": [
         "Order Maggi sup (soup) instead of goreng to skip the extra frying oil.",
         "Add an egg for protein rather than a second pack of noodles.",
-        "Go easy on extra ghee or oil if the stall is generous with it."
+        "Go easy on extra ghee or oil if the stall is generous with it.",
+        "Drink plain water with it. The salt makes you thirsty and the default answer at the mamak is another sweet drink."
       ],
       "variants": [
         {
@@ -3762,6 +3929,18 @@
         {
           "q": "Maggi goreng or Maggi sup, which is lower calorie?",
           "a": "Maggi sup at around 330 versus 470 for goreng. The soup skips the extra wok oil, though the noodle block itself is still pre-fried."
+        },
+        {
+          "q": "Why do I weigh more the day after mamak maggi?",
+          "a": "Sodium. The seasoning packet plus mamak cooking carries far more salt than a normal meal, so your body holds extra water for a day or two. It is not fat gain, but it is a sign of how heavily seasoned the plate is."
+        },
+        {
+          "q": "Is homemade maggi lighter than mamak maggi goreng?",
+          "a": "Yes, by 50 to 150 calories, because you skip the wok oil and ghee. A soup version at home with an egg and vegetables lands around 420 calories and keeps you full longer."
+        },
+        {
+          "q": "Is maggi goreng a snack or a meal?",
+          "a": "A meal. At 470 calories standard and 550 plus for the special, it is dinner sized. The mistake is eating it as a \"supper snack\" on top of a full day of food."
         }
       ],
       "related": [

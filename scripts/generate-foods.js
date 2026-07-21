@@ -26,7 +26,7 @@ const FOODS_DIR = path.join(ROOT, 'foods');
 const HUB = path.join(ROOT, 'foods.html');
 const SITEMAP = path.join(ROOT, 'sitemap.xml');
 const BASE = 'https://riceandprotein.com';
-const TODAY = '2026-06-10';
+const TODAY = '2026-07-21';
 
 const db = JSON.parse(fs.readFileSync(DATA, 'utf8'));
 const CATEGORIES = db.categories;
@@ -62,6 +62,103 @@ function byCategory() {
 }
 
 const bySlug = Object.fromEntries(FOODS.map(f => [f.slug, f]));
+
+// Category hub pages. One per category, lives at foods/<slug>.html.
+// Each intro is unique copy so the pages are not thin duplicates of the hub.
+const CAT_PAGES = {
+  rice: {
+    slug: 'rice-meals',
+    title: 'Malaysian Rice Dishes: Calories Ranked | Rice and Protein',
+    intro: [
+      'Rice is not the enemy. I lost 42kg eating rice almost every day, so this page is never going to tell you to quit nasi. What matters is which rice dish and what goes on top of it. A plate of steamed chicken rice and a nasi kandar with three lauk can be 700 calories apart, and both look like "just rice with stuff".',
+      'Every rice meal below is ranked from lightest to heaviest. Click any dish for the full macro breakdown, where the calories actually hide, and how to order it lighter without eating sad food.'
+    ]
+  },
+  noodles: {
+    slug: 'noodles',
+    title: 'Malaysian Noodles: Calories Ranked | Rice and Protein',
+    intro: [
+      'Malaysian noodles run from surprisingly safe to full calorie bombs, and you cannot tell by looking. Most soup noodles sit around 300 to 450 calories a bowl. The moment a wok and a ladle of oil get involved, char kuey teow and mee goreng territory, you are flirting with 700 plus.',
+      'Simple rule: soup beats dry, dry beats fried. The full ranking is below, lightest first, with macros and lighter swaps one click away for every bowl.'
+    ]
+  },
+  dimsum: {
+    slug: 'dim-sum',
+    title: 'Dim Sum Calories, Ranked Per Piece | Rice and Protein',
+    intro: [
+      'Dim sum is dangerous precisely because everything is small. One siew mai is nothing. But one basket here, one plate there, some fried wu kok because it looked nice, and suddenly you have eaten 1,200 calories before 11am.',
+      'The steamed baskets are mostly fine. The fried items and anything drowning in sweet sauce are where it stacks up. Everything below is ranked so you know what each basket costs before the trolley auntie reaches your table.'
+    ]
+  },
+  mamak: {
+    slug: 'mamak-and-bread',
+    title: 'Mamak Food Calories, Ranked | Rice and Protein',
+    intro: [
+      'The mamak at 1am is where diets go to die. Here is the honest math: one roti kosong is about 300 calories, which is fine. The problem is nobody stops at one, nobody eats it without dhal and sambal, and the teh tarik next to it is another 160.',
+      'This page ranks every roti, murtabak and mamak staple from lightest to heaviest so you can still hang out with your friends at 1am and know exactly what the damage is.'
+    ]
+  },
+  soup: {
+    slug: 'soups',
+    title: 'Malaysian Soup Calories, Ranked | Rice and Protein',
+    intro: [
+      'Soup is your best friend when you are cutting. Water has zero calories, it takes up space in your stomach, and a big bowl of sup ayam keeps you full for hours at a very low cost. I ate soup constantly on my way from 128kg to 86kg.',
+      'The catch: some Malaysian soups are soups in name only. Anything built on coconut milk plays by different rules. The ranking below sorts the genuinely light bowls from the ones wearing a disguise.'
+    ]
+  },
+  lauk: {
+    slug: 'meat-grills-and-lauk',
+    title: 'Lauk & Grilled Meat Calories, Ranked | Rice and Protein',
+    intro: [
+      'This is the biggest category on the site because Malaysian meals are built around lauk. It is also where your diet is quietly decided. Grilled, steamed and sambal lauk is how I stayed full while losing 42kg. Fried and rendang style is where the calories hide, sometimes double for the same piece of chicken.',
+      'Every lauk below is ranked lightest to heaviest. Learn the difference between ikan bakar and ikan goreng once and it pays you back at every economy rice stall forever.'
+    ]
+  },
+  veg: {
+    slug: 'vegetables-and-sides',
+    title: 'Vegetable Dish Calories, Ranked | Rice and Protein',
+    intro: [
+      'Vegetables should be the safest thing on your plate, and steamed or lightly stir fried, they are. This is the category you pile on when you want a mountain of food for almost nothing. Volume eating starts here.',
+      'But be honest with yourself about the oil. Kangkung belacan glistening under the lamp at the tai chow is not a health food anymore. The ranking below shows which veg dishes are basically free and which ones are secretly a lauk.'
+    ]
+  },
+  snacks: {
+    slug: 'snacks-and-kuih',
+    title: 'Kuih & Snack Calories, Ranked | Rice and Protein',
+    intro: [
+      'Kuih is sneaky. Each piece looks tiny and innocent, but most sit between 150 and 300 calories, and nobody in history has eaten one piece of kuih. Three pieces from the pasar and you have eaten a full meal without noticing.',
+      'This page exists so you know exactly what that box from the pasar malam costs. Everything ranked lightest to heaviest, per piece, so you can pick your favourites on purpose instead of by accident.'
+    ]
+  },
+  western: {
+    slug: 'western-and-burgers',
+    title: 'Western Stall Food Calories, Ranked | Rice and Protein',
+    intro: [
+      'Ramly burger, chicken chop, the whole western stall menu. Big portions, lots of oil, white sauce on everything, usually 600 plus calories a plate before you touch the fries.',
+      'You do not have to give it up. You just need to know which plates are 500 calories and which are 900, because they look identical under the fluorescent light. Full ranking below.'
+    ]
+  },
+  drinks: {
+    slug: 'drinks',
+    title: 'Malaysian Drink Calories, Ranked | Rice and Protein',
+    intro: [
+      'Drinks are the easiest 300 calories you will never notice. Teh tarik, Milo ais, sirap bandung: all of them are sugar delivery systems that do nothing for your hunger. You drink them, you are still hungry, you just spent a roti canai worth of calories.',
+      'Switching to kosong drinks was genuinely the single easiest change I made in my whole 42kg loss. Every drink below is ranked so you can see exactly what your daily order costs you per month.'
+    ]
+  },
+  dessert: {
+    slug: 'desserts',
+    title: 'Malaysian Dessert Calories, Ranked | Rice and Protein',
+    intro: [
+      'Cendol, ABC, tong sui, pisang goreng after lunch. Desserts are pure enjoyment calories, zero nutrition, and that is completely fine as long as you spend them on purpose.',
+      'My rule while losing weight: dessert is a decision, not a habit. The ranking below tells you what each bowl costs so you can budget for the ones you actually love and skip the ones you eat out of politeness.'
+    ]
+  }
+};
+
+function catUrl(cat) {
+  return CAT_PAGES[cat] ? CAT_PAGES[cat].slug + '.html' : '../foods.html';
+}
 
 // Shared header markup. `prefix` is '' for the hub (root level) or '../' for leaf pages in /foods/.
 function header(prefix) {
@@ -267,7 +364,8 @@ function leafSchema(food, url) {
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: BASE + '/' },
         { '@type': 'ListItem', position: 2, name: 'Food Calories', item: BASE + '/foods.html' },
-        { '@type': 'ListItem', position: 3, name: food.name, item: url }
+        { '@type': 'ListItem', position: 3, name: CATEGORIES[food.category] || 'Food Calories', item: BASE + '/foods/' + catUrl(food.category) },
+        { '@type': 'ListItem', position: 4, name: food.name, item: url }
       ]
     },
     {
@@ -380,10 +478,10 @@ ${header('../')}
 
   <div class="page">
 
-    <nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="../foods.html">Food Calories</a><span>/</span>${esc(food.name)}</nav>
+    <nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="../foods.html">Food Calories</a><span>/</span><a href="${catUrl(food.category)}">${esc(CATEGORIES[food.category] || 'Food Calories')}</a><span>/</span>${esc(food.name)}</nav>
 
     <div class="food-hero">
-      <p class="food-hero__eyebrow">${esc(CATEGORIES[food.category] || 'Food Calories')}</p>
+      <p class="food-hero__eyebrow"><a href="${catUrl(food.category)}">${esc(CATEGORIES[food.category] || 'Food Calories')}</a></p>
       <h1 class="food-hero__title">How Many Calories in ${esc(food.name)}?</h1>
       <p class="food-hero__summary">${esc(food.summary)}</p>
     </div>
@@ -461,6 +559,7 @@ ${deep}${related ? `
       <div class="related-grid">
 ${related}
       </div>
+      <p style="margin-top:18px; font-size:14px;"><a href="${catUrl(food.category)}" style="color:var(--accent); font-weight:600;">See all ${esc(CATEGORIES[food.category] || 'food')} calories, ranked &rarr;</a></p>
     </div>
 ` : ''}
     <p class="disclaimer">Calorie and macro figures are estimates for a typical hawker or kopitiam serving. Actual numbers vary by stall, recipe and portion size. Use them as a guide, not gospel.</p>
@@ -484,6 +583,148 @@ ${NAV_SCRIPT}
 `;
 }
 
+// ---------- category pages ----------
+
+function buildCategory(cat) {
+  const meta = CAT_PAGES[cat];
+  const label = CATEGORIES[cat];
+  const items = (byCategory()[cat] || []).slice().sort((a, b) => a.calories - b.calories);
+  const url = BASE + '/foods/' + meta.slug + '.html';
+  const metaDesc = label + ': calorie counts for all ' + items.length + ' items, ranked lightest to heaviest, with macros and how to eat each one lighter.';
+
+  const cards = items.map(f =>
+    `        <a class="food-card" href="${f.slug}.html">
+          <div class="food-card__cal">${f.calories}<small> kcal</small></div>
+          <div class="food-card__name">${esc(f.name)}</div>
+          <div class="food-card__serving">per ${esc(f.serving)}</div>
+        </a>`
+  ).join('\n');
+
+  const chips = Object.keys(CATEGORIES)
+    .filter(c => c !== cat && (byCategory()[c] || []).length)
+    .map(c => `        <a class="cat-chip" href="${CAT_PAGES[c].slug}.html">${esc(CATEGORIES[c])}</a>`)
+    .join('\n');
+
+  const intro = meta.intro.map(p => `      <p>${esc(p)}</p>`).join('\n');
+
+  const schema = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    '@id': url + '#webpage',
+    url: url,
+    name: meta.title,
+    description: metaDesc,
+    inLanguage: 'en',
+    isPartOf: { '@id': BASE + '/#website' },
+    breadcrumb: {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: BASE + '/' },
+        { '@type': 'ListItem', position: 2, name: 'Food Calories', item: BASE + '/foods.html' },
+        { '@type': 'ListItem', position: 3, name: label, item: url }
+      ]
+    },
+    mainEntity: {
+      '@type': 'ItemList',
+      itemListElement: items.map((f, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: f.name,
+        url: BASE + '/foods/' + f.slug + '.html'
+      }))
+    }
+  }, null, 2);
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>${esc(meta.title)}</title>
+  <meta name="description" content="${esc(metaDesc)}">
+  <link rel="canonical" href="${url}">
+  <meta property="og:title" content="${esc(meta.title)}">
+  <meta property="og:description" content="${esc(metaDesc)}">
+  <meta property="og:image" content="${BASE}/images/og-image.jpg">
+  <meta property="og:url" content="${url}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Rice and Protein">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="${esc(meta.title)}">
+  <meta name="twitter:description" content="${esc(metaDesc)}">
+  <meta name="twitter:image" content="${BASE}/images/og-image.jpg">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <script type="application/ld+json">
+${schema}
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+${leafStyles()}
+  <style>
+    .food-hero__title span { color: var(--accent); }
+    .food-hero__intro { font-size: 16px; color: var(--text); line-height: 1.8; max-width: 640px; margin-top: 18px; }
+    .food-hero__intro p { margin-bottom: 12px; }
+    .food-hero__intro p:last-child { margin-bottom: 0; }
+    .food-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; padding: 36px 0; }
+    .food-card { background: var(--white); border: 1.5px solid var(--border); padding: 22px 20px; display: flex; flex-direction: column; gap: 6px; transition: box-shadow 0.2s, transform 0.2s; }
+    .food-card:hover { box-shadow: 0 8px 24px rgba(0,0,0,0.07); transform: translateY(-2px); }
+    .food-card__cal { font-family: 'DM Serif Display', serif; font-size: 32px; color: var(--accent); line-height: 1; }
+    .food-card__cal small { font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: var(--muted); }
+    .food-card__name { font-size: 16px; font-weight: 600; color: var(--text); margin-top: 4px; }
+    .food-card__serving { font-size: 12px; color: var(--muted); }
+    .cat-chips { display: flex; flex-wrap: wrap; gap: 10px; }
+    .cat-chip { font-size: 13px; font-weight: 600; color: var(--text); background: var(--white); border: 1.5px solid var(--border); padding: 9px 16px; transition: border-color 0.2s, color 0.2s; }
+    .cat-chip:hover { border-color: var(--accent); color: var(--accent); }
+    @media (max-width: 640px) { .food-grid { grid-template-columns: repeat(2, 1fr); } }
+  </style>
+</head>
+<body>
+
+${header('../')}
+
+  <div class="page">
+
+    <nav class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="../foods.html">Food Calories</a><span>/</span>${esc(label)}</nav>
+
+    <div class="food-hero">
+      <p class="food-hero__eyebrow">Food Calories</p>
+      <h1 class="food-hero__title">${esc(label)} <span>Calories</span></h1>
+      <div class="food-hero__intro">
+${intro}
+      </div>
+    </div>
+
+    <div class="food-grid">
+${cards}
+    </div>
+
+    <div class="food-section">
+      <h2 class="section-title">Browse other categories</h2>
+      <div class="cat-chips">
+${chips}
+        <a class="cat-chip" href="../foods.html">All foods &rarr;</a>
+      </div>
+    </div>
+
+    <p class="disclaimer">Calorie and macro figures are estimates for a typical hawker or kopitiam serving. Actual numbers vary by stall, recipe and portion size. Use them as a guide, not gospel.</p>
+
+  </div>
+
+  <div class="cta-bar">
+    <div class="cta-bar__title">Want to know how many calories you actually need?</div>
+    <a href="../index.html" class="cta-bar__btn">Use The Calculator</a>
+  </div>
+
+${footer('../')}
+
+${NAV_SCRIPT}
+<script data-goatcounter="https://riceandprotein.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
+`;
+}
+
 // ---------- hub page ----------
 
 function buildHub() {
@@ -498,7 +739,7 @@ function buildHub() {
           <div class="food-card__serving">per ${esc(f.serving)}</div>
         </a>`
     ).join('\n');
-    return `      <h2 class="cat-title">${esc(CATEGORIES[cat])}</h2>
+    return `      <h2 class="cat-title"><a href="foods/${CAT_PAGES[cat].slug}.html">${esc(CATEGORIES[cat])} &rarr;</a></h2>
       <div class="food-grid">
 ${cards}
       </div>`;
@@ -588,6 +829,8 @@ ${itemListSchema}
     .page-sub { font-size: 17px; color: var(--muted); line-height: 1.65; max-width: 560px; }
 
     .cat-title { font-family: 'DM Serif Display', serif; font-size: 24px; font-weight: 400; color: var(--text); margin: 0 0 18px; padding-bottom: 10px; border-bottom: 1.5px solid var(--border); }
+    .cat-title a { transition: color 0.2s; }
+    .cat-title a:hover { color: var(--accent); }
     .food-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 44px; }
     .food-card { background: var(--white); border: 1.5px solid var(--border); padding: 22px 20px; display: flex; flex-direction: column; gap: 6px; transition: box-shadow 0.2s, transform 0.2s; }
     .food-card:hover { box-shadow: 0 8px 24px rgba(0,0,0,0.07); transform: translateY(-2px); }
@@ -677,6 +920,10 @@ function updateSitemap() {
 
   const urls = [];
   urls.push(`  <url>\n    <loc>${BASE}/foods.html</loc>\n    <lastmod>${TODAY}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>`);
+  for (const cat of Object.keys(CATEGORIES)) {
+    if (!CAT_PAGES[cat] || !(byCategory()[cat] || []).length) continue;
+    urls.push(`  <url>\n    <loc>${BASE}/foods/${CAT_PAGES[cat].slug}.html</loc>\n    <lastmod>${TODAY}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.75</priority>\n  </url>`);
+  }
   for (const f of FOODS) {
     urls.push(`  <url>\n    <loc>${BASE}/foods/${f.slug}.html</loc>\n    <lastmod>${TODAY}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.7</priority>\n  </url>`);
   }
@@ -698,8 +945,16 @@ function main() {
     console.log('  wrote foods/' + food.slug + '.html');
   }
 
+  let catCount = 0;
+  for (const cat of Object.keys(CATEGORIES)) {
+    if (!CAT_PAGES[cat] || !(byCategory()[cat] || []).length) continue;
+    fs.writeFileSync(path.join(FOODS_DIR, CAT_PAGES[cat].slug + '.html'), buildCategory(cat));
+    catCount++;
+    console.log('  wrote foods/' + CAT_PAGES[cat].slug + '.html (category)');
+  }
+
   fs.writeFileSync(HUB, buildHub());
-  console.log('  wrote foods.html (hub, ' + count + ' foods)');
+  console.log('  wrote foods.html (hub, ' + count + ' foods, ' + catCount + ' categories)');
 
   updateSitemap();
   console.log('  updated sitemap.xml');

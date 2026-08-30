@@ -481,7 +481,7 @@ function buildLeaf(food) {
   const title = leafTitle(food);
   const aka = akaList(food);
   const akaLine = aka.length
-    ? `\n      <p class="food-hero__aka">Also spelled ${esc(aka.join(', '))}.</p>`
+    ? `\n      <p class="food-hero__aka">Also known as ${esc(aka.join(', '))}.</p>`
     : '';
 
   const breakdown = (food.components || []).map(c =>
@@ -921,8 +921,94 @@ ${cards}
       </div>`;
   }).filter(Boolean).join('\n\n');
 
+  // foods.html carries more search impressions than the rest of the site put
+  // together but was a bare grid of links. Everything below is computed from
+  // the same 289 records the cards use.
+  const NL = String.fromCharCode(10);
+  const ranked = FOODS.slice().sort((a, b) => a.calories - b.calories);
+  const top10 = ranked.slice(-10).reverse();
+  const bottom10 = ranked.filter(f => f.category !== 'drinks').slice(0, 10);
+  const avgAll = Math.round(FOODS.reduce((s, f) => s + f.calories, 0) / FOODS.length);
+  // Lowest-calorie by raw number lands on condiments and Borneo oddities, which
+  // is true but useless in a search snippet. Lead with food people order.
+  const everyday = ranked.filter(f => (f.category === 'soup' || f.category === 'veg') && f.servingGrams >= 100);
+  const row = f => `        <a class="food-card" href="foods/${f.slug}.html">
+          <div class="food-card__cal">${f.calories}<small> kcal</small></div>
+          <div class="food-card__name">${esc(f.name)}</div>
+          <div class="food-card__serving">per ${esc(f.serving)}</div>
+        </a>`;
+
+  const hubFaq = [
+    {
+      q: 'What is the highest calorie Malaysian food?',
+      a: 'Of the ' + FOODS.length + ' dishes on this site, ' + top10[0].name + ' tops the list at ' +
+         top10[0].calories + ' calories per ' + top10[0].serving + '. ' + top10[1].name + ' (' +
+         top10[1].calories + ') and ' + top10[2].name + ' (' + top10[2].calories +
+         ') are close behind. Anything deep fried, built on coconut milk, or served as a full communal plate tends to land up here.'
+    },
+    {
+      q: 'What is the lowest calorie Malaysian food?',
+      a: 'Clear soups and plain vegetable sides are where the genuinely cheap calories are. ' +
+         everyday.slice(0, 3).map(f => f.name + ' at ' + f.calories + ' calories per ' + f.serving).join(', ') +
+         ' are the kind of thing you can pile on a plate without thinking about it. Go looking for the outright lowest number and you end up at ' +
+         bottom10[0].name + ' (' + bottom10[0].calories + ' calories per ' + bottom10[0].serving +
+         '), which is a real answer but not a lunch.'
+    },
+    {
+      q: 'How many calories is a typical Malaysian meal?',
+      a: 'Across everything on this site the average is about ' + avgAll +
+         ' calories a serving, but that mixes kuih with full rice plates. A realistic hawker lunch, one rice or noodle dish plus a drink, usually lands between 600 and 900 calories. Nasi kandar with a couple of lauk and a teh ais can pass 1,200 on its own.'
+    },
+    {
+      q: 'Where do these calorie numbers come from?',
+      a: 'They are built from standard nutrition data for the ingredients, weighed against typical hawker and kopitiam portion sizes. Malaysian street food has no official nutrition labelling, so every figure here is a considered estimate, not a lab result. Stalls vary, and the same dish can swing 20 percent either way depending on how heavy the oil hand is.'
+    },
+    {
+      q: 'Berapa kalori dalam makanan Malaysia?',
+      a: 'Purata untuk ' + FOODS.length + ' hidangan di laman ini ialah kira-kira ' + avgAll +
+         ' kalori satu hidangan. Yang paling tinggi ialah ' + top10[0].name + ' (' + top10[0].calories +
+         ' kalori) dan antara yang paling rendah ialah ' + everyday[0].name + ' (' + everyday[0].calories +
+         ' kalori). Semua angka ini anggaran untuk hidangan gerai biasa dan berbeza ikut kedai.'
+    }
+  ];
+
+  const hubExtra = `      <section style="margin-bottom:40px;">
+        <div style="font-size:16px; color:var(--text); line-height:1.8; max-width:680px;">
+          <p style="margin-bottom:14px;">This is every dish I could get honest numbers for, ${FOODS.length} of them, sorted into ${Object.keys(CATEGORIES).length} categories. Nasi lemak, char kuey teow, roti canai, teh tarik, the kuih your colleague brings on Monday. Click any one for the macro breakdown, where the calories actually hide, and how to order it lighter.</p>
+          <p style="margin-bottom:14px;">Nothing here is banned. I ate at mamak and kopitiam the whole way from 128kg to 86kg. The only thing that changed was that I knew what each plate cost me before I ordered it, which is the entire point of this page.</p>
+          <p style="margin-bottom:0;">Malaysian street food has no nutrition labelling, so these are careful estimates against typical hawker portions, not lab results. Treat them as a guide that is right often enough to be useful.</p>
+        </div>
+      </section>
+
+      <section style="margin-bottom:40px;">
+        <h2 class="cat-title">Highest calorie Malaysian foods</h2>
+        <div class="food-grid">
+${top10.map(row).join(NL)}
+        </div>
+      </section>
+
+      <section style="margin-bottom:40px;">
+        <h2 class="cat-title">Lowest calorie Malaysian foods</h2>
+        <div class="food-grid">
+${bottom10.map(row).join(NL)}
+        </div>
+      </section>
+`;
+
+  const hubFaqHtml = `      <section style="margin-top:24px; padding-top:36px; border-top:1.5px solid var(--border);">
+        <h2 class="cat-title">Common questions</h2>
+        <div style="max-width:680px;">
+${hubFaq.map(f => `          <div style="padding:16px 0; border-bottom:1px solid var(--border);">
+            <div style="font-size:15px; font-weight:600; color:var(--text); margin-bottom:8px;">${esc(f.q)}</div>
+            <div style="font-size:15px; color:var(--muted); line-height:1.7;">${esc(f.a)}</div>
+          </div>`).join(NL)}
+        </div>
+      </section>
+`;
+
   const itemListSchema = JSON.stringify({
     '@context': 'https://schema.org',
+    '@graph': [{
     '@type': 'CollectionPage',
     '@id': BASE + '/foods.html#webpage',
     url: BASE + '/foods.html',
@@ -946,7 +1032,15 @@ ${cards}
         url: BASE + '/foods/' + f.slug + '.html'
       }))
     }
-  }, null, 2);
+  }, {
+    '@type': 'FAQPage',
+    '@id': BASE + '/foods.html#faq',
+    mainEntity: hubFaq.map(f => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a }
+    }))
+  }] }, null, 2);
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -1048,14 +1142,16 @@ ${header('')}
       <p class="page-sub">How many calories are really in your favourite hawker and kopitiam food. Honest numbers, the macros, and how to eat it lighter without giving it up.</p>
     </div>
 
+${hubExtra}
 ${sections}
 
+${hubFaqHtml}
       <section style="margin-top:24px; padding-top:36px; border-top:1.5px solid var(--border);">
         <h2 class="cat-title">Keep reading</h2>
         <div class="food-grid">
           <a class="food-card" href="posts/dim-sum-calories.html">
             <div class="food-card__cal" style="font-size:13px; letter-spacing:1px; text-transform:uppercase; color:var(--accent);">Guide</div>
-            <div class="food-card__name">How many calories in dim sum?</div>
+            <div class="food-card__name">What to order at yum cha</div>
             <div class="food-card__serving">What to order and what to skip at yum cha</div>
           </a>
           <a class="food-card" href="posts/economy-rice-calories.html">

@@ -24203,6 +24203,187 @@
         "bak-kut-teh",
         "chicken-rice"
       ]
+    },
+    {
+      "slug": "teh-o-ais",
+      "name": "Teh O Ais",
+      "category": "drinks",
+      "serving": "1 glass (hawker, normal sweet)",
+      "servingGrams": 250,
+      "calories": 60,
+      "protein": 0,
+      "carbs": 15,
+      "fat": 0,
+      "aka": [
+        "Teh O Peng",
+        "Iced Black Tea"
+      ],
+      "metaDescription": "Teh O Ais is about 60 calories a glass and every one of them is sugar. Order it kurang manis and it drops to 30. Full breakdown inside.",
+      "summary": "Iced black tea with sugar and nothing else. No milk, no condensed milk, which makes it the cheapest thing on most kopitiam drink lists.",
+      "answer": "A normal glass of teh o ais is around 60 calories, and effectively all of it is the sugar. The tea itself is about 2 calories, the ice is free, and roughly three teaspoons of sugar does the rest. That makes it one of the lightest drinks you can order anywhere in Malaysia. For comparison, teh ais with condensed milk is 150 and teh tarik is 130, so switching to teh o ais saves you 70 to 90 calories per glass without giving up your drink. Ask for kurang manis and you are at about 30. Ask for kosong and you are at 2.",
+      "realTalk": [
+        "Teh o ais is the drink I switched to and never switched back. Teh means tea, O means no milk, ais means iced. That is the whole thing. No condensed milk, no evaporated milk, which is where basically every other kopitiam drink hides its calories. At 60 calories a glass it costs you almost nothing, and you still get something cold and sweet with your food instead of sitting there with plain water feeling sorry for yourself.",
+        "The number moves entirely with the sugar, so it depends completely on who is making it. Some stalls pour three teaspoons, some pour five. Five teaspoons puts you at 85 and you would not taste the difference at that point. These are estimates based on typical hawker sweetness, not lab numbers, so treat 60 as a fair middle.",
+        "Here is the maths that actually mattered for me. One teh ais a day for a year is about 55,000 calories. Switch to teh o ais and it is 22,000. That gap is roughly 4kg of body fat a year from changing one word in your order. I am not saying it did all the work, but it was the single easiest change I made in the whole 42kg."
+      ],
+      "lighter": [
+        "Say kurang manis. Half the sugar takes you from 60 to about 30 calories and after a week you stop noticing.",
+        "Say kosong if you are serious. Teh o kosong is 2 calories a glass and it is genuinely fine once your palate adjusts.",
+        "Teh o ais over teh ais saves you 90 calories per glass. Same drink family, no milk.",
+        "Watch the free refills at banana leaf and nasi kandar places. Three glasses of normal sweet is 180 calories you did not count.",
+        "If you want it cold and sweet for almost nothing, add a squeeze of calamansi and go kosong. Flavour for about 10 calories."
+      ],
+      "variants": [
+        {
+          "name": "Teh O Ais kosong",
+          "calories": 2,
+          "note": "No sugar at all. Just tea and ice."
+        },
+        {
+          "name": "Teh O Ais kurang manis",
+          "calories": 30,
+          "note": "Roughly half the usual sugar"
+        },
+        {
+          "name": "Teh O Ais (normal)",
+          "calories": 60,
+          "note": "About three teaspoons of sugar, standard hawker pour"
+        },
+        {
+          "name": "Teh O Ais manis",
+          "calories": 85,
+          "note": "Heavy hand on the sugar, five teaspoons or so"
+        },
+        {
+          "name": "Teh O Ais Limau",
+          "calories": 70,
+          "note": "Same drink with calamansi lime added"
+        }
+      ],
+      "components": [
+        {
+          "name": "Brewed black tea",
+          "grams": 200,
+          "calories": 2
+        },
+        {
+          "name": "Sugar (about 3 tsp)",
+          "grams": 15,
+          "calories": 58
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in Teh O Ais?",
+          "a": "About 60 calories for a standard hawker glass, almost all of it from roughly three teaspoons of sugar. Kurang manis is around 30 and kosong is about 2."
+        },
+        {
+          "q": "Is Teh O Ais good for weight loss?",
+          "a": "It is one of the best drink swaps available. Teh ais is 150 calories and teh tarik is 130, so ordering teh o ais instead saves you 70 to 90 calories every glass for no real sacrifice. Go kurang manis and you save more."
+        },
+        {
+          "q": "What is the difference between Teh O Ais and Teh Ais?",
+          "a": "Teh O has no milk. Teh ais has condensed milk, which is where the calories are. Teh o ais is about 60 calories, teh ais is about 150."
+        }
+      ],
+      "related": [
+        "teh-o-limau",
+        "teh-ais",
+        "kopi-o",
+        "teh-tarik",
+        "limau-ais"
+      ]
+    },
+    {
+      "slug": "cucur-jagung",
+      "name": "Cucur Jagung",
+      "category": "snacks",
+      "serving": "1 piece (hawker stall)",
+      "servingGrams": 40,
+      "calories": 120,
+      "protein": 2,
+      "carbs": 14,
+      "fat": 7,
+      "aka": [
+        "Corn Fritter",
+        "Jemput Jagung",
+        "Cekodok Jagung"
+      ],
+      "metaDescription": "Cucur jagung is about 120 calories a piece, and half of that is oil the batter soaked up. Nobody eats one. Full breakdown inside.",
+      "summary": "Sweetcorn folded into a flour batter and deep fried into a fritter. Cheap, hot, sold by the bag at every pasar and warung in the country.",
+      "answer": "One piece of cucur jagung is around 120 calories for a typical 40g hawker fritter. The batter and corn together are only about 60 of that. The other 60 is cooking oil the fritter absorbed on its way out of the wok, which is the part nobody thinks about. It sounds harmless because it is vegetable and it is small, but these are sold in bags of six or eight, and nobody in recorded history has eaten one cucur jagung. Six pieces is 720 calories, which is a full meal in fritter form.",
+      "realTalk": [
+        "Cucur jagung feels like a safe snack because there is corn in it. The corn is fine. The problem is that a fritter is a sponge, and deep frying is how you get oil into a sponge. Roughly 7g of oil ends up in each piece, which is 60 calories on its own, so the fritter is about half oil by calories before you count the batter.",
+        "The real damage is the format. These are sold hot in a bag by the half dozen for a couple of ringgit. You buy a bag on the way home, you eat them in the car, and 720 calories are gone before you have parked. That is not a snack, that is dinner. If you ate a proper meal and then had the bag, you are 700 calories over for the day and you will not have registered eating anything.",
+        "Numbers here are estimates against a normal 40g hawker piece. Some stalls make them small and thin, some make them the size of your palm and soak them properly. A big greasy one is closer to 180 than 120, so use your eyes."
+      ],
+      "lighter": [
+        "Buy by the piece, not by the bag. Two is 240 calories and it is a genuine snack. Six is a meal.",
+        "Take them off the pile that has been sitting and draining rather than straight out of the wok. Less oil clinging to the outside.",
+        "Ask for them on paper and blot them. It sounds fussy but it genuinely takes 10 to 20 calories off each piece.",
+        "If you want the corn without the oil, jagung rebus or a corn cup is about 330 calories for a big portion and it keeps you full much longer.",
+        "Eat them right after a high protein meal, not on an empty stomach at 4pm. You will stop at two instead of eight."
+      ],
+      "variants": [
+        {
+          "name": "Cucur jagung (small)",
+          "calories": 90,
+          "note": "Thin pasar-style piece, about 30g"
+        },
+        {
+          "name": "Cucur jagung (standard)",
+          "calories": 120,
+          "note": "Typical 40g hawker fritter"
+        },
+        {
+          "name": "Cucur jagung (large)",
+          "calories": 180,
+          "note": "Palm sized, thicker batter, holds more oil"
+        },
+        {
+          "name": "Cucur sayur",
+          "calories": 130,
+          "note": "Vegetable fritter version, usually with sayur and a little more batter"
+        },
+        {
+          "name": "Cucur udang",
+          "calories": 145,
+          "note": "Prawn fritter, bigger and denser than the corn version"
+        }
+      ],
+      "components": [
+        {
+          "name": "Flour batter with sweetcorn",
+          "grams": 33,
+          "calories": 60
+        },
+        {
+          "name": "Absorbed frying oil",
+          "grams": 7,
+          "calories": 60
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calories in Cucur Jagung?",
+          "a": "About 120 calories for one standard 40g piece. A small pasar piece is nearer 90 and a large palm sized one can hit 180."
+        },
+        {
+          "q": "How many calories in a bag of cucur jagung?",
+          "a": "A typical bag is six pieces, so around 720 calories. That is a full meal, not a snack, which is the thing worth knowing before you buy one on the way home."
+        },
+        {
+          "q": "Is cucur jagung healthy?",
+          "a": "There is corn in it, but roughly half the calories are frying oil the batter soaked up. It is a fried snack with vegetables in it, not a vegetable dish. Two pieces fits in most days. Six does not."
+        }
+      ],
+      "related": [
+        "cucur-udang",
+        "cucur-badak",
+        "pisang-goreng",
+        "jagung",
+        "karipap"
+      ]
     }
   ]
 }

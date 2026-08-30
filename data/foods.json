@@ -351,7 +351,12 @@
         "wantan-mee",
         "curry-laksa"
       ],
-      "deepPost": "posts/how-many-calories-char-kuey-teow.html"
+      "deepPost": "posts/how-many-calories-char-kuey-teow.html",
+      "aka": [
+        "CKT",
+        "Char Koay Teow",
+        "Kuey Teow Goreng"
+      ]
     },
     {
       "slug": "roti-canai",
@@ -1824,6 +1829,10 @@
         "pisang-goreng",
         "popiah",
         "egg-tart"
+      ],
+      "aka": [
+        "Curry Puff",
+        "Epok-Epok"
       ]
     },
     {
@@ -2366,6 +2375,9 @@
         "nasi-briyani",
         "roti-canai",
         "chicken-rice"
+      ],
+      "aka": [
+        "Nasi Kandaq"
       ]
     },
     {
@@ -4190,6 +4202,10 @@
         "tuaran-mee",
         "ipoh-hor-fun",
         "bak-kut-teh"
+      ],
+      "aka": [
+        "Ngiu Chap",
+        "Ngiu Chap Sabah"
       ]
     },
     {
@@ -5967,6 +5983,10 @@
         "curry-laksa",
         "mee-goreng-mamak",
         "penang-hokkien-mee"
+      ],
+      "aka": [
+        "Curry Mee",
+        "Mee Curry"
       ]
     },
     {
@@ -6055,6 +6075,9 @@
         "mee-rebus",
         "curry-laksa",
         "mee-jawa"
+      ],
+      "aka": [
+        "Mee Bandung"
       ]
     },
     {
@@ -7096,6 +7119,11 @@
         "roti-canai",
         "murtabak",
         "idli"
+      ],
+      "aka": [
+        "Tosei",
+        "Dosai",
+        "Dosa"
       ]
     },
     {
@@ -7174,6 +7202,10 @@
         "roti-canai",
         "thosai",
         "murtabak"
+      ],
+      "aka": [
+        "Vada",
+        "Medu Vadai"
       ]
     },
     {
@@ -7257,6 +7289,10 @@
         "thosai",
         "roti-canai",
         "vadai"
+      ],
+      "aka": [
+        "Iddli",
+        "Idly"
       ]
     },
     {
@@ -10258,6 +10294,10 @@
         "pisang-goreng",
         "karipap",
         "popiah"
+      ],
+      "aka": [
+        "Cucur Udang Sayur",
+        "Jemput Udang"
       ]
     },
     {
@@ -15128,6 +15168,10 @@
         "roti-canai",
         "thosai",
         "nasi-kandar"
+      ],
+      "aka": [
+        "Puri",
+        "Poori bread"
       ]
     },
     {
@@ -15201,6 +15245,10 @@
         "karipap",
         "pisang-goreng",
         "vadai"
+      ],
+      "aka": [
+        "Samosas",
+        "Aloo Samosa"
       ]
     },
     {
@@ -17961,6 +18009,10 @@
         "teh-tarik",
         "milo-ais",
         "cincau"
+      ],
+      "aka": [
+        "Teh O Ais Limau",
+        "Teh O Limau Ais"
       ]
     },
     {
@@ -22220,6 +22272,10 @@
         "karipap",
         "cucur-udang",
         "pisang-goreng"
+      ],
+      "aka": [
+        "Bergedil",
+        "Perkedel"
       ]
     },
     {

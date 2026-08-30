@@ -26,7 +26,7 @@ const FOODS_DIR = path.join(ROOT, 'foods');
 const HUB = path.join(ROOT, 'foods.html');
 const SITEMAP = path.join(ROOT, 'sitemap.xml');
 const BASE = 'https://riceandprotein.com';
-const TODAY = '2026-07-21';
+const TODAY = '2026-08-30';
 
 const db = JSON.parse(fs.readFileSync(DATA, 'utf8'));
 const CATEGORIES = db.categories;
@@ -251,6 +251,7 @@ function leafStyles() {
     .food-hero { padding: 20px 0 36px; border-bottom: 1.5px solid var(--border); }
     .food-hero__eyebrow { font-size: 10px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--accent); margin-bottom: 14px; }
     .food-hero__title { font-family: 'DM Serif Display', serif; font-size: clamp(30px, 5vw, 48px); font-weight: 400; line-height: 1.06; color: var(--text); margin-bottom: 14px; letter-spacing: -0.5px; }
+    .food-hero__aka { font-size: 14px; color: var(--muted); margin-bottom: 12px; }
     .food-hero__summary { font-size: 17px; color: var(--muted); line-height: 1.65; max-width: 540px; }
 
     .answer-box { display: flex; align-items: center; gap: 28px; margin: 32px 0 40px; flex-wrap: wrap; }
@@ -348,6 +349,7 @@ function leafStyles() {
 // ---------- leaf page ----------
 
 function leafSchema(food, url) {
+  const aka = (food.aka || []).filter(Boolean);
   const graph = [
     {
       '@type': 'WebPage',
@@ -371,7 +373,7 @@ function leafSchema(food, url) {
     {
       '@type': 'FAQPage',
       '@id': url + '#faq',
-      mainEntity: food.faq.map(f => ({
+      mainEntity: faqList(food).map(f => ({
         '@type': 'Question',
         name: f.q,
         acceptedAnswer: { '@type': 'Answer', text: f.a }
@@ -381,6 +383,7 @@ function leafSchema(food, url) {
       '@type': 'MenuItem',
       '@id': url + '#item',
       name: food.name,
+      ...(aka.length ? { alternateName: aka } : {}),
       nutrition: {
         '@type': 'NutritionInformation',
         servingSize: food.serving + ' (' + food.servingGrams + 'g)',
@@ -394,9 +397,92 @@ function leafSchema(food, url) {
   return JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }, null, 2);
 }
 
+// Keep the parenthetical alias in the title when it fits inside the 60 char
+// limit. People search "tosai calories" and "ngiu chap calories" far more than
+// the spelling we picked as the primary name.
+function leafTitle(food) {
+  const full = food.name + ' Calories | Rice and Protein';
+  if (full.length <= 60) return full;
+  return food.name.replace(/\s*\([^)]*\)/g, '') + ' Calories | Rice and Protein';
+}
+
+// Alternate spellings that carry their own search demand but are too clumsy to
+// sit in the name. Rendered under the H1 and exposed as schema alternateName.
+function akaList(food) {
+  return (food.aka || []).filter(Boolean);
+}
+
+// People search "2 poori calories" and "4 samosa calories" constantly. Only
+// worth a table when the serving is actually countable, so "1 plate" and
+// "1 bowl" are left alone.
+const COUNTABLE = /^(\d+)\s*(piece|pieces|roll|rolls|bun|buns|tart|tarts|slice|slices|stick|sticks|wedge|wedges|ball|balls|skewer|skewers)\b/i;
+
+function countUnit(food) {
+  const m = COUNTABLE.exec(food.serving || '');
+  if (!m) return null;
+  const per = Number(m[1]);
+  if (!per || per > 3) return null;
+  const unit = m[2].toLowerCase().replace(/s$/, '');
+  return { per: per, unit: unit, each: Math.round(food.calories / per) };
+}
+
+function quantityRows(food) {
+  const c = countUnit(food);
+  if (!c) return '';
+  return [1, 2, 3, 4, 5, 6].map(n => {
+    const label = n + ' ' + c.unit + (n > 1 ? 's' : '');
+    return `            <tr><td>${esc(label)}</td><td class="num">${c.each * n} kcal</td><td class="num">${Math.round(food.protein / c.per * n * 10) / 10} g</td></tr>`;
+  }).join('\n');
+}
+
+// Single source of truth for a page's FAQ, so the visible list and the
+// FAQPage schema never drift apart.
+function faqList(food) {
+  return food.faq.concat([malayFaq(food)]);
+}
+
+// Malaysians search "kalori nasi kandar" as often as the English phrasing.
+// One honest Malay answer per page, built from the same numbers as the rest.
+const MALAY_UNITS = {
+  piece: 'keping', pieces: 'keping', slice: 'keping', slices: 'keping',
+  plate: 'pinggan', bowl: 'mangkuk', glass: 'gelas', cup: 'cawan',
+  roll: 'gulung', rolls: 'gulung', bun: 'biji', buns: 'biji',
+  tart: 'biji', tarts: 'biji', stick: 'cucuk', sticks: 'cucuk',
+  ball: 'biji', balls: 'biji', bowls: 'mangkuk', plates: 'pinggan',
+  glasses: 'gelas', skewer: 'cucuk', skewers: 'cucuk', wedge: 'potong',
+  serving: 'hidangan', servings: 'hidangan', portion: 'bahagian',
+  portions: 'bahagian', basket: 'bakul', baskets: 'bakul', burger: 'biji burger'
+};
+
+// Serving strings are written in English. Translate the simple leading
+// "<n> <unit>" shape and fall back to grams alone when the serving is a long
+// descriptive phrase that would not survive a word-by-word translation.
+function malayServing(food) {
+  const bare = String(food.serving || '').replace(/\s*\([^)]*\)/g, '').trim();
+  const m = /^(\d+)\s+([a-z]+)\s*$/i.exec(bare);
+  if (m && MALAY_UNITS[m[2].toLowerCase()]) {
+    return m[1] + ' ' + MALAY_UNITS[m[2].toLowerCase()] + ' (' + food.servingGrams + 'g)';
+  }
+  return 'satu hidangan biasa (' + food.servingGrams + 'g)';
+}
+
+function malayFaq(food) {
+  const plain = food.name.replace(/\s*\([^)]*\)/g, '');
+  return {
+    q: 'Berapa kalori dalam ' + plain + '?',
+    a: plain + ' ada kira-kira ' + food.calories + ' kalori untuk ' + malayServing(food) +
+       ', dengan ' + food.protein + 'g protein, ' + food.carbs + 'g karbohidrat dan ' +
+       food.fat + 'g lemak. Angka ini anggaran untuk hidangan gerai biasa, jadi ia berbeza ikut kedai dan saiz hidangan.'
+  };
+}
+
 function buildLeaf(food) {
   const url = BASE + '/foods/' + food.slug + '.html';
-  const title = food.name.replace(/\s*\([^)]*\)/g, '') + ' Calories | Rice and Protein';
+  const title = leafTitle(food);
+  const aka = akaList(food);
+  const akaLine = aka.length
+    ? `\n      <p class="food-hero__aka">Also spelled ${esc(aka.join(', '))}.</p>`
+    : '';
 
   const breakdown = (food.components || []).map(c =>
     `        <div class="bd-row"><div class="bd-row__name">${esc(c.name)}<small>${esc(String(c.grams))}g</small></div><div class="bd-row__cal">${c.calories} kcal</div></div>`
@@ -412,9 +498,12 @@ function buildLeaf(food) {
 
   const realTalk = food.realTalk.map(p => `        <p>${esc(p)}</p>`).join('\n');
   const lighter = food.lighter.map(t => `        <li>${esc(t)}</li>`).join('\n');
-  const faqs = food.faq.map(f =>
+  const faqs = faqList(food).map(f =>
     `      <div class="faq-item"><div class="faq-item__q">${esc(f.q)}</div><div class="faq-item__a">${esc(f.a)}</div></div>`
   ).join('\n');
+
+  const qtyRows = quantityRows(food);
+  const qtyUnit = countUnit(food);
 
   // Related foods: curated list first, then auto-fill from same-category
   // siblings (the next few, wrapping around) so every food links to and is
@@ -482,7 +571,7 @@ ${header('../')}
 
     <div class="food-hero">
       <p class="food-hero__eyebrow"><a href="${catUrl(food.category)}">${esc(CATEGORIES[food.category] || 'Food Calories')}</a></p>
-      <h1 class="food-hero__title">How Many Calories in ${esc(food.name)}?</h1>
+      <h1 class="food-hero__title">How Many Calories in ${esc(food.name)}?</h1>${akaLine}
       <p class="food-hero__summary">${esc(food.summary)}</p>
     </div>
 
@@ -521,7 +610,19 @@ ${breakdown}
 ${realTalk}
       </div>
     </div>
-${portions ? `
+${qtyRows ? `
+    <div class="food-section">
+      <h2 class="section-title">How many calories in 2, 3 or 4 ${esc(qtyUnit.unit)}s?</h2>
+      <div class="macro-wrap">
+        <table class="macro-table">
+          <thead><tr><th>How many</th><th class="num">Calories</th><th class="num">Protein</th></tr></thead>
+          <tbody>
+${qtyRows}
+          </tbody>
+        </table>
+      </div>
+    </div>
+` : ''}${portions ? `
     <div class="food-section">
       <h2 class="section-title">How the portions compare</h2>
       <div class="portion-grid">
@@ -607,8 +708,74 @@ function buildCategory(cat) {
 
   const intro = meta.intro.map(p => `      <p>${esc(p)}</p>`).join('\n');
 
+  // The hub pages were the thinnest thing on the site: an intro and a list of
+  // links. Everything below is computed from the same data the cards use, so
+  // each category gets a real answer to "which is lightest" without inventing
+  // anything.
+  const lightest = items[0];
+  const heaviest = items[items.length - 1];
+  const median = items[Math.floor(items.length / 2)];
+  const avg = Math.round(items.reduce((s, f) => s + f.calories, 0) / items.length);
+  const under300 = items.filter(f => f.calories < 300);
+  const over600 = items.filter(f => f.calories >= 600);
+  const lowLabel = f => esc(f.name) + ' at ' + f.calories + ' kcal per ' + esc(f.serving);
+
+  const catFaq = [
+    {
+      q: 'What is the lowest calorie ' + label.toLowerCase().replace(/s$/, '') + ' option?',
+      a: lightest.name + ' is the lightest on this page at ' + lightest.calories +
+         ' calories per ' + lightest.serving + '. ' +
+         (under300.length > 1
+           ? 'There are ' + under300.length + ' options here under 300 calories, so you have room to pick something you actually like.'
+           : 'Most of this category sits well above that, so it is the standout.')
+    },
+    {
+      q: 'What is the highest calorie option here?',
+      a: heaviest.name + ' tops the list at ' + heaviest.calories + ' calories per ' +
+         heaviest.serving + '. ' + (!over600.length
+           ? 'Nothing else here comes close.'
+           : over600.length === items.length
+             ? 'Every dish on this page is 600 calories or more, so this is a category to order carefully in.'
+             : over600.length + ' of the ' + items.length + ' dishes here are 600 calories or more, so it is worth checking before you order.')
+    },
+    {
+      q: 'How many calories are in a typical ' + label.toLowerCase() + ' serving?',
+      a: 'Across the ' + items.length + ' dishes on this page the average is about ' + avg +
+         ' calories per serving, with the middle of the pack around ' + median.calories +
+         ' (' + median.name + '). Figures are estimates for a normal hawker or kopitiam portion.'
+    },
+    {
+      q: 'Berapa kalori dalam ' + label.toLowerCase() + '?',
+      a: 'Purata untuk ' + items.length + ' hidangan di halaman ini ialah kira-kira ' + avg +
+         ' kalori satu hidangan. Yang paling rendah ialah ' + lightest.name + ' (' +
+         lightest.calories + ' kalori) dan yang paling tinggi ialah ' + heaviest.name + ' (' +
+         heaviest.calories + ' kalori). Semua angka ini anggaran untuk hidangan gerai biasa.'
+    }
+  ];
+
+  const catFaqHtml = catFaq.map(f =>
+    `      <div class="faq-item"><div class="faq-item__q">${esc(f.q)}</div><div class="faq-item__a">${esc(f.a)}</div></div>`
+  ).join('\n');
+
+  const statsHtml = `    <div class="food-section">
+      <h2 class="section-title">${esc(label)} at a glance</h2>
+      <div class="body-text">
+        <p>There are ${items.length} dishes ranked on this page. The lightest is ${lowLabel(lightest)}, the heaviest is ${lowLabel(heaviest)}, and the average lands around ${avg} calories a serving. ${!under300.length ? 'Nothing here comes in under 300 calories' : under300.length === items.length ? 'Every one of them comes in under 300 calories' : under300.length + ' of them come in under 300 calories'}${!over600.length ? '' : over600.length === 1 ? ', and one is 600 or more' : ', and ' + over600.length + ' are 600 or more'}.</p>
+        <p>${heaviest.calories - lightest.calories >= 400
+          ? 'That spread is the whole point. Two dishes off the same menu can be ' + (heaviest.calories - lightest.calories) + ' calories apart, which is more than most people\'s entire daily deficit. Knowing which is which costs you nothing and changes the outcome.'
+          : 'The spread here is narrower than most categories, about ' + (heaviest.calories - lightest.calories) + ' calories between the lightest and the heaviest. That means portion size and what you order alongside it matter more than which dish you pick.'}</p>
+      </div>
+    </div>
+
+    <div class="food-section">
+      <h2 class="section-title">Common questions</h2>
+${catFaqHtml}
+    </div>
+`;
+
   const schema = JSON.stringify({
     '@context': 'https://schema.org',
+    '@graph': [{
     '@type': 'CollectionPage',
     '@id': url + '#webpage',
     url: url,
@@ -633,7 +800,15 @@ function buildCategory(cat) {
         url: BASE + '/foods/' + f.slug + '.html'
       }))
     }
-  }, null, 2);
+  }, {
+    '@type': 'FAQPage',
+    '@id': url + '#faq',
+    mainEntity: catFaq.map(f => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a }
+    }))
+  }] }, null, 2);
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -699,6 +874,7 @@ ${intro}
 ${cards}
     </div>
 
+${statsHtml}
     <div class="food-section">
       <h2 class="section-title">Browse other categories</h2>
       <div class="cat-chips">

@@ -12,7 +12,7 @@ Weight loss requires a calorie deficit. The only diet that works long term is on
 
 ## Food calories database
 
-559 dishes across 9 countries, one page per dish at https://riceandprotein.com/foods/[slug].html. Master hub: https://riceandprotein.com/foods.html (country cards, category cards, full A to Z directory). Each dish page has the calorie count for a standard serving, a per serving and per 100g macro table, a breakdown of where the calories come from, portion comparisons, variants ranked by calories, lighter eating tips, and a FAQ (with a Malay question on Malaysian and Singapore dishes and an Indonesian question on Indonesian dishes).
+575 dishes across 9 countries, one page per dish at https://riceandprotein.com/foods/[slug].html. Master hub: https://riceandprotein.com/foods.html (country cards, category cards, full A to Z directory). Each dish page has the calorie count for a standard serving, a per serving and per 100g macro table, a breakdown of where the calories come from, portion comparisons, variants ranked by calories, lighter eating tips, and a FAQ (with a Malay question on Malaysian and Singapore dishes and an Indonesian question on Indonesian dishes).
 
 Category hubs (all countries, ranked lightest to heaviest):
 - Rice Meals: https://riceandprotein.com/foods/rice-meals.html
@@ -53,7 +53,7 @@ Sources: the Indonesian Food Composition Table (TKPI, Kemenkes), nilaigizi.com a
 - Telur Balado: 130 kcal per 1 egg with sambal
 - Sayur Asem: 80 kcal per 1 bowl
 
-### Thai Food (30 dishes)
+### Thai Food (40 dishes)
 Hub: https://riceandprotein.com/foods/thailand.html
 Sources: the Thai Bureau of Nutrition and INMU Mahidol food composition data, plus Thai hospital dietitian figures for standard street portions.
 - Khao Soi: 700 kcal per 1 bowl
@@ -85,11 +85,11 @@ Sources: the Hong Kong Centre for Food Safety nutrient database and the Departme
 - Curry Fish Balls: 120 kcal per 1 skewer (6 balls with curry sauce)
 - Hong Kong Borscht (Lo Sung Tong): 90 kcal per 1 bowl (250ml)
 
-### Japanese Food (26 dishes)
+### Japanese Food (32 dishes)
 Hub: https://riceandprotein.com/foods/japan.html
 Sources: the MEXT Standard Tables of Food Composition in Japan and published chain restaurant nutrition data.
 - Katsu Curry: 1116 kcal per 1 plate (rice 300g)
-- Katsudon: 866 kcal per 1 bowl
+- Yakiniku: 1000 kcal per 1 person (200g meat with rice)
 - Salmon Nigiri: 93 kcal per 1 plate (2 pieces)
 - Miso Soup: 40 kcal per 1 bowl (tofu and wakame)
 
@@ -117,7 +117,7 @@ Sources: the Korea MFDS food nutrition database and the Rural Development Admini
 ## Pages
 
 - [Home / TDEE Calculator](https://riceandprotein.com/)
-- [Food Calories (559 dishes, 9 countries)](https://riceandprotein.com/foods.html)
+- [Food Calories (575 dishes, 9 countries)](https://riceandprotein.com/foods.html)
 - [Malaysian Food Calories](https://riceandprotein.com/foods/malaysia.html)
 - [Singapore Hawker Food Calories](https://riceandprotein.com/foods/singapore.html)
 - [Indonesian Food Calories](https://riceandprotein.com/foods/indonesia.html)

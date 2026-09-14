@@ -1,0 +1,536 @@
+[
+  {
+    "slug": "cha-yen",
+    "name": "Cha Yen",
+    "aka": ["ชาเย็น", "Thai Iced Tea", "Cha Thai", "Thai Milk Tea", "ชาไทย"],
+    "category": "drinks",
+    "region": ["th"],
+    "serving": "1 glass (16 oz)",
+    "servingGrams": 450,
+    "calories": 300,
+    "protein": 3,
+    "carbs": 52,
+    "fat": 9,
+    "metaDescription": "A 16 oz glass of cha yen is about 300 calories, nearly all of it condensed milk and sugar. Here is what each pour adds and how to order it lighter.",
+    "summary": "Strong black tea brewed with star anise and food colouring, poured over ice with condensed milk, evaporated milk and sugar. The orange drink in the plastic bag at every cart in Thailand, 25 to 40 baht.",
+    "answer": "A standard 16 oz (450ml) glass of cha yen is about 300 calories, with 30 to 40g of sugar. The tea itself is zero. Almost everything comes from the 40g of condensed milk, the 40g of evaporated milk and the 2 tablespoons of sugar the vendor adds before the ice goes in.",
+    "realTalk": [
+      "Cha yen is a dessert that people drink like water. The black tea is free, the ice is free, and then the vendor pours 3 things into it that are anything but. Condensed milk is 130 calories per 40g pour, evaporated milk is another 55, and the sugar syrup is 100. That is 285 calories for a drink that takes 4 minutes to finish and does nothing for hunger. Two a day, which is normal in the hot season, is 600 calories, the same as a plate of khao kha moo.",
+      "The Department of Health measured street versions with 13 teaspoons of sugar in one cup, which is why their per cup figure runs higher than most tables. Dietitian figures for a 16 oz glass land between 250 and 350 depending on the shop. The 22 oz size that chains like ChaTraMue sell is closer to 420, and adding pearls pushes it past 450. The colour tells you nothing. A pale glass just means more evaporated milk, not less sugar.",
+      "The fix is not to give it up. Cha dam yen, the same tea with sugar but no milk, is about 120 calories. Ordering wan noi (less sweet) drops a standard glass to about 200. The difference between a daily 300 and a daily 200 is 36,500 calories a year, which is roughly 4 to 5kg of body fat for changing 2 words at the counter."
+    ],
+    "lighter": [
+      "Say wan noi (less sweet). Most carts halve the sugar syrup and it saves around 100 calories a glass.",
+      "Cha dam yen, black tea with ice and no milk, is about 120 calories and still tastes like the real thing.",
+      "Skip the pearls and jelly. Toppings add 100 to 150 calories to a drink that already has 300.",
+      "Get the 16 oz, not the 22 oz. The big cup is 420 calories and you will not feel the difference in thirst.",
+      "Ask for less condensed milk (nom khon noi). That single pour is 130 calories on its own."
+    ],
+    "components": [
+      {"name": "Brewed Thai tea", "grams": 300, "calories": 0},
+      {"name": "Condensed milk", "grams": 40, "calories": 130},
+      {"name": "Evaporated milk", "grams": 40, "calories": 55},
+      {"name": "Sugar syrup", "grams": 25, "calories": 100},
+      {"name": "Ice", "grams": 45, "calories": 0}
+    ],
+    "portions": [
+      {"label": "Small glass, 12 oz", "calories": 220},
+      {"label": "Standard glass, 16 oz", "calories": 300},
+      {"label": "Large cup, 22 oz", "calories": 420}
+    ],
+    "variants": [
+      {"name": "Cha dam yen (black, no milk)", "calories": 120, "note": "Sugar only"},
+      {"name": "Cha yen wan noi (less sweet)", "calories": 200, "note": "Half the syrup"},
+      {"name": "Standard cha yen", "calories": 300, "note": "Condensed plus evaporated milk"},
+      {"name": "Cha yen with pearls", "calories": 450, "note": "Tapioca adds 150"}
+    ],
+    "faq": [
+      {"q": "How much sugar is in Thai iced tea?", "a": "About 30 to 40g in a 16 oz glass, which is 8 to 10 teaspoons. Street versions measured by the Department of Health went as high as 13 teaspoons."},
+      {"q": "Is cha yen worse than a soft drink?", "a": "A 325ml can of cola is 140 calories. A 16 oz cha yen is about 300, so yes, roughly double, because it has fat from the milk on top of the sugar."},
+      {"q": "Can I drink cha yen on a diet?", "a": "One less sweet glass at 200 calories fits inside most days. Two full sugar glasses at 600 is a meal you did not chew."},
+      {"q": "How many calories in ChaTraMue Thai milk tea?", "a": "The standard 22 oz cup is roughly 400 to 420 calories. Their smaller 16 oz is about 300, in line with any cart."}
+    ],
+    "related": ["teh-tarik", "es-teh-manis", "khao-niao", "moo-ping"],
+    "source": "eatwellconcept.com Thai dietitian page: 250 to 350 kcal per 16 oz glass; MGR Online Thai calorie table 100 kcal per small glass; Thai Department of Health 13 tsp sugar per cup. Picked 300 for a 16 oz street glass"
+  },
+  {
+    "slug": "tom-yum-goong",
+    "name": "Tom Yum Goong",
+    "aka": ["ต้มยำกุ้ง", "Tom Yum Kung", "Thai Hot and Sour Prawn Soup", "Tom Yam Goong"],
+    "category": "soup",
+    "region": ["th"],
+    "serving": "1 bowl (clear)",
+    "servingGrams": 400,
+    "calories": 180,
+    "protein": 18,
+    "carbs": 10,
+    "fat": 8,
+    "metaDescription": "A bowl of clear tom yum goong is about 180 calories. The creamy nam khon version is 280. Which one you order matters more than how much you eat.",
+    "summary": "Hot and sour prawn soup with lemongrass, galangal, kaffir lime leaf, chilli, mushrooms and lime juice. Comes clear (nam sai) or creamy (nam khon) with evaporated milk and roasted chilli paste stirred in.",
+    "answer": "A 400g restaurant bowl of clear tom yum goong (nam sai) is about 180 calories, mostly from 100g of prawns. The creamy nam khon version is about 280 because of the evaporated milk and the extra spoon of nam prik pao. A small cup at a rice stall is around 65.",
+    "realTalk": [
+      "Tom yum is the closest thing to a free meal on a Thai menu, as long as you order it clear. The broth is water, herbs and lime, maybe 20 calories in the whole bowl. The prawns are 100 calories per 100g and nearly all protein. Mushrooms are 15. The only thing with real calories is the nam prik pao, the roasted chilli paste, which is fried in oil and runs 45 calories per tablespoon. One bowl at 180 fills you the way a 600 calorie plate of fried rice does.",
+      "Nam khon changes the maths. A ladle of evaporated milk adds 60 to 80 calories and most cooks double the chilli paste when they make it creamy, so a bowl lands at 280 to 300. Still a good deal for the size, but not the near zero people assume. The instant noodle version, Mama tom yum goong with a real prawn dropped in, is a different animal at about 500 because the fried noodle block alone is 350.",
+      "The trap is what tom yum comes with. It is a shared dish at a Thai table, so the bowl sits next to a plate of rice at 250, a fried omelette at 350 and a plate of pad kra pao. The soup is not the problem. The 3 plates around it are. If you make tom yum the main and eat it with one plate of rice, dinner is about 430 and you will be full."
+    ],
+    "lighter": [
+      "Order nam sai (clear). It saves about 100 calories a bowl over nam khon and tastes sharper.",
+      "Ask for extra prawns or add tofu. More protein in a 180 calorie bowl means you skip the second plate of rice.",
+      "Go easy on the nam prik pao on the table. Each extra spoon is 45 calories of oil.",
+      "Eat it as the main with one plate of rice, about 430 total, instead of as a side to 3 other dishes.",
+      "Tom yum with rice noodles (kuay tiao tom yum) is a full 400 calorie meal on its own if you want more bulk."
+    ],
+    "components": [
+      {"name": "Prawns", "grams": 100, "calories": 100},
+      {"name": "Straw mushrooms", "grams": 60, "calories": 15},
+      {"name": "Broth, lemongrass, galangal, lime", "grams": 210, "calories": 20},
+      {"name": "Nam prik pao (roasted chilli paste)", "grams": 15, "calories": 45}
+    ],
+    "portions": [
+      {"label": "Small cup at a rice stall", "calories": 65},
+      {"label": "Standard bowl, clear", "calories": 180},
+      {"label": "Standard bowl, nam khon (creamy)", "calories": 280}
+    ],
+    "variants": [
+      {"name": "Tom yum gai nam sai (chicken, clear)", "calories": 160, "note": "Chicken breast pieces"},
+      {"name": "Tom yum goong nam sai (prawn, clear)", "calories": 180, "note": "The standard"},
+      {"name": "Tom yum goong nam khon (creamy)", "calories": 280, "note": "Evaporated milk and double chilli paste"},
+      {"name": "Mama tom yum goong with fresh prawn", "calories": 500, "note": "The fried noodle block is 350"}
+    ],
+    "faq": [
+      {"q": "Is tom yum goong good for weight loss?", "a": "The clear version at 180 calories per bowl is one of the best deals in Thai food. High protein, big volume, almost no fat. Order it clear and it is hard to overeat."},
+      {"q": "What is the difference between nam sai and nam khon?", "a": "Nam sai is clear broth, about 180 calories a bowl. Nam khon has evaporated milk and extra roasted chilli paste, about 280. Same prawns, 100 more calories."},
+      {"q": "How many calories in tom yum with rice?", "a": "A clear bowl plus a 250 calorie plate of jasmine rice is about 430. That is a full dinner."},
+      {"q": "Is tom yum keto?", "a": "The clear soup is about 10g carbs a bowl, so it fits. Skip the rice and watch the chilli paste, which has some sugar."}
+    ],
+    "related": ["tom-kha-gai", "tom-saap", "pad-kra-pao", "khao-pad"],
+    "source": "MGR Online Thai calorie table (ต้มยำกุ้ง 1 cup = 65 kcal) scaled to a 400g restaurant bowl from components; nam khon figure adds 60g evaporated milk and 15g extra nam prik pao"
+  },
+  {
+    "slug": "gai-yang",
+    "name": "Gai Yang",
+    "aka": ["ไก่ย่าง", "Thai Grilled Chicken", "Isan Grilled Chicken", "Kai Yang"],
+    "category": "lauk",
+    "region": ["th"],
+    "serving": "half chicken",
+    "servingGrams": 300,
+    "calories": 560,
+    "protein": 58,
+    "carbs": 8,
+    "fat": 33,
+    "metaDescription": "Half a gai yang is about 560 calories with the skin. A single leg is 165. The chicken is fine, it is the sticky rice and the skin that decide the meal.",
+    "summary": "Whole chicken marinated in garlic, coriander root, fish sauce and palm sugar, flattened in a bamboo clamp and grilled slowly over charcoal. Sold by the half or whole at Isan stalls, always with sticky rice and som tam.",
+    "answer": "Half a grilled gai yang, about 300g on the bone, is roughly 560 calories with the skin on. One drumstick is about 165. The meat itself is lean at around 165 calories per 100g; the skin is where the other 200 calories sit, and it is also the best part.",
+    "realTalk": [
+      "Charcoal grilled chicken is about as honest as meat gets. No batter, no deep fryer, and the fat drips into the coals instead of staying on the plate. Half a bird is 560 calories and 58g of protein, which is more protein than most people eat in a whole meal. The marinade adds 30 calories of palm sugar and fish sauce. If you were going to eat 300g of anything at a Thai stall, this is the thing to eat.",
+      "The skin is the argument. Grilled chicken skin is about 400 calories per 100g, and half a bird carries around 50g of it, so 200 of the 560 is skin. Take it off and half a chicken is about 360 calories. Nobody does this, and I am not telling you to. Just know that the skin is a third of the number, so on a day you are short, it is the easy cut.",
+      "What the chicken comes with is the real meal. A 150g bag of sticky rice is about 240 calories, som tam is 100 to 130 depending on how much palm sugar and peanut went in, and the sweet chilli dip (nam jim gai) is 60 for 2 tablespoons. A normal gai yang set is 900 to 1,000 calories and it is still one of the better lunches in the country for that number, because 60g of it is protein."
+    ],
+    "lighter": [
+      "Eat the half chicken with one bag of sticky rice, not two. The second bag is 240 calories you eat out of habit.",
+      "Peel the skin off the breast half and keep it on the leg. Saves about 100 calories and you still get the good bit.",
+      "Som tam Thai with less palm sugar (wan noi) drops the salad to about 90 and keeps the crunch.",
+      "Go easy on the nam jim gai. It is sugar syrup with chilli, about 30 calories per tablespoon.",
+      "Order gai yang instead of gai tod (fried chicken). The same half bird deep fried is about 800."
+    ],
+    "components": [
+      {"name": "Chicken meat, on the bone", "grams": 200, "calories": 330},
+      {"name": "Chicken skin, grilled", "grams": 50, "calories": 200},
+      {"name": "Marinade (palm sugar, fish sauce, garlic)", "grams": 20, "calories": 30},
+      {"name": "Bone weight", "grams": 30, "calories": 0}
+    ],
+    "portions": [
+      {"label": "1 drumstick", "calories": 165},
+      {"label": "Half chicken", "calories": 560},
+      {"label": "Half chicken with sticky rice and som tam", "calories": 920}
+    ],
+    "variants": [
+      {"name": "1 drumstick", "calories": 165, "note": "MGR table figure"},
+      {"name": "Breast quarter, skin off", "calories": 200, "note": "The leanest cut"},
+      {"name": "Half chicken with skin", "calories": 560, "note": "The standard order"},
+      {"name": "Whole chicken", "calories": 1120, "note": "For 2 to 3 people"}
+    ],
+    "faq": [
+      {"q": "Is gai yang healthy?", "a": "It is grilled, not fried, and 58g of protein in half a bird is excellent. At 560 calories with skin it is one of the better Thai mains for the size."},
+      {"q": "How many calories in gai yang with sticky rice and som tam?", "a": "About 920 for half a chicken, a 150g bag of sticky rice and a plate of som tam. Drop to one small rice bag and it is about 800."},
+      {"q": "Gai yang or gai tod, which is lower?", "a": "Gai yang by a long way. Half a grilled chicken is 560, half a deep fried one is about 800 because of the batter and oil."},
+      {"q": "How much protein is in gai yang?", "a": "Around 58g in half a chicken and about 20g in one drumstick."}
+    ],
+    "related": ["gai-tod", "moo-ping", "som-tam", "khao-niao"],
+    "source": "MGR Online Thai calorie table (ไก่ย่าง 1 leg = 165 kcal); half chicken built from components at 165 kcal per 100g meat and 400 kcal per 100g grilled skin"
+  },
+  {
+    "slug": "tod-mun-pla",
+    "name": "Tod Mun Pla",
+    "aka": ["ทอดมันปลา", "Thai Fish Cakes", "Tod Man Pla", "Thai Fried Fish Cake"],
+    "category": "snacks",
+    "region": ["th"],
+    "serving": "5 pieces",
+    "servingGrams": 125,
+    "calories": 300,
+    "protein": 20,
+    "carbs": 18,
+    "fat": 16,
+    "metaDescription": "Five street size tod mun pla are about 300 calories, roughly 60 each. The fish is lean, the deep fryer is not. Here is the breakdown and the lighter order.",
+    "summary": "Fish paste pounded with red curry paste, long beans and kaffir lime leaf, shaped into flat discs and deep fried until they puff. Sold by the piece at markets with a cucumber, peanut and sweet chilli dip (ajad).",
+    "answer": "A 5 piece order of street tod mun pla, about 25g each, is roughly 300 calories including the ajad dip. That is about 60 calories per fish cake. The restaurant size pieces are bigger and heavier, around 230 calories for a single 80g cake, so count what you are actually holding.",
+    "realTalk": [
+      "Fish paste on its own is about 130 calories per 100g and mostly protein. Tod mun pla ends up at 240 per 100g because the cakes go into a wok of oil and soak up about 12g of it per 5 pieces. That is 105 calories of frying oil in a 300 calorie snack, a third of the total. The curry paste and the egg that bind it add another 35. The dip is 30 for a small bowl, and most of that is the sugar in the vinegar and the crushed peanut on top.",
+      "Size is the whole story. The market pieces are 25g, thin and crisp, 60 calories each. The restaurant version served on a plate with a proper ajad is 60 to 80g per cake and the MGR calorie table puts one at 230. Five of those is over 1,000. Same name, four times the number. If you are ordering at a sit down place, 2 pieces is a portion, not 5.",
+      "As a snack tod mun pla is a decent trade. Twenty grams of protein in 300 calories beats almost anything else at the same cart, where a bag of fried bananas is 400 with 3g of protein. The mistake is eating it as a side to a full meal, a plate of fried fish cakes next to khao pad and tom yum. Then it is a 300 calorie garnish."
+    ],
+    "lighter": [
+      "Buy 3 pieces, not 5. Three market size cakes is 180 calories and enough to kill the craving.",
+      "Ask for pieces from the front of the tray. They have drained longer and carry less oil.",
+      "Skip the peanut on the ajad or ask for the plain cucumber. Saves about 20 calories and the crunch comes from the cucumber anyway.",
+      "At a restaurant, share the plate. One large cake is about 230 on its own.",
+      "Grilled fish cakes on a stick (pla sadet yang) at the same market are about 40 calories each with no frying oil."
+    ],
+    "components": [
+      {"name": "Fish paste with long beans", "grams": 100, "calories": 130},
+      {"name": "Frying oil absorbed", "grams": 12, "calories": 105},
+      {"name": "Egg, curry paste, lime leaf", "grams": 13, "calories": 35},
+      {"name": "Ajad dip (cucumber, vinegar, sugar, peanut)", "grams": 30, "calories": 30}
+    ],
+    "portions": [
+      {"label": "3 pieces", "calories": 180},
+      {"label": "5 pieces, market size", "calories": 300},
+      {"label": "10 piece bag", "calories": 600}
+    ],
+    "variants": [
+      {"name": "Grilled fish cake on a stick", "calories": 40, "note": "Per piece, no oil"},
+      {"name": "Market tod mun pla", "calories": 60, "note": "Per 25g piece"},
+      {"name": "Restaurant tod mun pla", "calories": 230, "note": "Per 80g piece, MGR table"},
+      {"name": "Tod mun goong (prawn cakes)", "calories": 90, "note": "Per piece, breaded and larger"}
+    ],
+    "faq": [
+      {"q": "How many calories in one Thai fish cake?", "a": "About 60 for a 25g market piece and around 230 for a large 80g restaurant cake. The size difference is bigger than most people expect."},
+      {"q": "Is tod mun pla high in protein?", "a": "Yes for a fried snack. Five small pieces carry about 20g of protein in 300 calories."},
+      {"q": "Is tod mun pla healthy?", "a": "It is deep fried, so a third of the calories are oil. As a 3 to 5 piece snack it is a reasonable choice. As a side to a full meal it is 300 extra calories."},
+      {"q": "What is the dip served with tod mun pla?", "a": "Ajad, a sweet vinegar dip with cucumber, shallot, chilli and crushed peanut. About 30 calories for a small bowl, mostly sugar."}
+    ],
+    "related": ["sai-krok-isan", "moo-ping", "gai-tod", "khanom-krok"],
+    "source": "MGR Online Thai calorie table (ทอดมันปลากราย 1 large piece = 230 kcal); older Thai table 185 kcal per 5 small pieces; picked 60 kcal per 25g street piece from components"
+  },
+  {
+    "slug": "pad-pak-boong",
+    "name": "Pad Pak Boong",
+    "aka": ["ผัดผักบุ้งไฟแดง", "Pad Pak Boong Fai Daeng", "Stir Fried Morning Glory", "Thai Water Spinach Stir Fry"],
+    "category": "veg",
+    "region": ["th"],
+    "serving": "1 plate",
+    "servingGrams": 200,
+    "calories": 210,
+    "protein": 5,
+    "carbs": 12,
+    "fat": 16,
+    "metaDescription": "A plate of pad pak boong fai daeng is about 210 calories, and 135 of that is the oil. The vegetable is nearly free. Here is how to order it with half the oil.",
+    "summary": "Morning glory (water spinach) flash fried over a roaring flame with garlic, chilli, oyster sauce and fermented soybean paste. The flame is the point, which is why it is called fai daeng, red fire. Under a minute in the wok.",
+    "answer": "A standard 200g plate of pad pak boong fai daeng is about 210 calories. The 150g of morning glory is only 30 of that. The rest is the tablespoon of oil the cook throws in for the flame, about 135 calories, plus 45 from the oyster sauce and soybean paste.",
+    "realTalk": [
+      "This is the dish that proves vegetables are not automatically low calorie. Morning glory is 20 calories per 100g raw. A plate of it should be nothing. But the fai daeng method needs a big splash of oil to catch fire, and the cook is not measuring. Fifteen grams is a conservative estimate; a generous stall can hit 25g, which puts the plate at 300. You are eating a salad that has been dipped in a deep fryer for 40 seconds.",
+      "The sauce is the other half. Oyster sauce is about 40 calories per tablespoon and mostly sugar, and tao jiew (fermented soybean paste) is salty enough that it makes you eat more rice. That is the real cost of this plate. It is 210 on its own, but it is a side dish, and it drags a 250 calorie plate of jasmine rice with it every time. Two spoons of the oily sauce over the rice adds another 60.",
+      "For the number, it is still the best vegetable order on most menus. Compare it to a fried omelette at 350 or a plate of fried tofu at 400 and the morning glory wins. Order it with the oil pulled back (mai sai nam man yer) and most stalls will do it. The plate drops to about 130 and nobody at the table notices."
+    ],
+    "lighter": [
+      "Ask for less oil (nam man noi). The plate goes from about 210 to 130 and it still tastes of garlic and chilli.",
+      "Do not spoon the pooled sauce over your rice. That oily puddle at the bottom is 50 to 60 calories.",
+      "Share one plate between 2 people as the vegetable, alongside a grilled protein like gai yang.",
+      "Pak boong tom (boiled morning glory with a dip) at an Isan stall is about 40 calories for the same volume.",
+      "Skip the extra oyster sauce on the table. Each spoon is 40 calories and the dish is already seasoned."
+    ],
+    "components": [
+      {"name": "Morning glory", "grams": 150, "calories": 30},
+      {"name": "Cooking oil", "grams": 15, "calories": 135},
+      {"name": "Oyster sauce, soybean paste, garlic, chilli", "grams": 35, "calories": 45}
+    ],
+    "portions": [
+      {"label": "Shared side, half plate", "calories": 105},
+      {"label": "1 plate", "calories": 210},
+      {"label": "1 plate with jasmine rice", "calories": 460}
+    ],
+    "variants": [
+      {"name": "Pak boong tom (boiled, with nam prik)", "calories": 40, "note": "No oil"},
+      {"name": "Pad pak boong, less oil", "calories": 130, "note": "Ask for nam man noi"},
+      {"name": "Pad pak boong fai daeng, standard", "calories": 210, "note": "MGR table figure"},
+      {"name": "Generous stall, 25g oil", "calories": 300, "note": "Common at tourist spots"}
+    ],
+    "faq": [
+      {"q": "Is pad pak boong healthy?", "a": "The vegetable is, at 30 calories per plate. The cooking method adds 135 calories of oil. It is still the lowest calorie hot dish on most Thai menus at 210."},
+      {"q": "Why is stir fried morning glory so high in calories?", "a": "The flame. Fai daeng cooking needs a big splash of oil to catch, about 15g or 135 calories, and the vegetable soaks it up."},
+      {"q": "How many calories in pad pak boong with rice?", "a": "About 460 for one plate and a standard 250 calorie plate of jasmine rice."},
+      {"q": "Is morning glory the same as kangkung?", "a": "Yes. Kangkung in Malaysia and Indonesia, pak boong in Thailand, rau muong in Vietnam. Same plant, similar stir fries."}
+    ],
+    "related": ["kangkung-belacan", "som-tam", "pad-kra-pao", "khao-pad"],
+    "source": "MGR Online Thai calorie table (ผัดผักบุ้งไฟแดง 1 plate = 210 kcal); components cross checked at 15g oil"
+  },
+  {
+    "slug": "khanom-krok",
+    "name": "Khanom Krok",
+    "aka": ["ขนมครก", "Thai Coconut Pancakes", "Kanom Krok", "Coconut Rice Cakes"],
+    "category": "snacks",
+    "region": ["th"],
+    "serving": "1 box (8 pieces)",
+    "servingGrams": 130,
+    "calories": 360,
+    "protein": 4,
+    "carbs": 48,
+    "fat": 17,
+    "metaDescription": "A box of 8 khanom krok is about 360 calories, roughly 45 per half shell. Rice flour, coconut cream and sugar in a greased pan. Here is the honest count.",
+    "summary": "Little coconut and rice flour pancakes cooked in a dimpled cast iron pan, crisp on the outside and custardy in the middle, sold in pairs with corn, spring onion or taro on top. A morning market staple at 20 to 30 baht a box.",
+    "answer": "A standard box of 8 khanom krok (4 pairs), about 130g, is roughly 360 calories. Each half shell is about 45 calories. Two things drive the number: the coconut cream in the top layer, about 120 calories per box, and the sugar in the batter, about 80. The pan is oiled between every batch too.",
+    "realTalk": [
+      "Khanom krok looks light because each piece is the size of a thumb. The maths does not care about the size. Rice flour batter is 130 calories per box, the coconut cream topping is 120, the sugar is 80 and the oil brushed into the pan is another 35. That is 360 for something you finish walking from the stall to the motorbike. A box every morning with your coffee is 2,500 calories a week, about a third of a kilo of fat a month.",
+      "The MGR calorie table lists 2 pairs at 210, which puts a pair at 105. That is a big pair. Most market boxes have 8 smaller shells and the batter is thinner, so 90 per pair is closer to what you are eating. Either way, one box is a dessert, not a snack, and 48g of carbs with almost no protein means it does nothing for hunger. You will want lunch at the normal time.",
+      "There is no low calorie khanom krok. The whole thing is coconut fat and rice starch, and the version with taro or corn on top is the same number with 5 extra calories of vegetable. What works is buying half a box. Four shells at 180 calories with a black coffee is a reasonable morning. The full box plus a cha yen is 660 before 9am."
+    ],
+    "lighter": [
+      "Buy half a box. Four shells is about 180 calories and the craving is gone after 2.",
+      "Pair it with black coffee or plain water, not cha yen. That combination is 660 calories before breakfast.",
+      "Pick the stall that cooks thin, crisp shells. Thicker custardy ones carry more coconut cream, about 10 calories more per piece.",
+      "Skip the extra coconut cream some vendors drizzle on top. That spoon is 30 calories.",
+      "Eat it as dessert after a protein meal rather than as breakfast on its own. The 48g of sugar and starch hits softer."
+    ],
+    "components": [
+      {"name": "Rice flour batter", "grams": 60, "calories": 130},
+      {"name": "Coconut cream topping", "grams": 45, "calories": 120},
+      {"name": "Sugar", "grams": 20, "calories": 80},
+      {"name": "Pan oil", "grams": 4, "calories": 35}
+    ],
+    "portions": [
+      {"label": "4 pieces (2 pairs)", "calories": 180},
+      {"label": "1 box, 8 pieces", "calories": 360},
+      {"label": "Large box, 12 pieces", "calories": 540}
+    ],
+    "variants": [
+      {"name": "Plain khanom krok, 1 pair", "calories": 90, "note": "Thin market style"},
+      {"name": "With corn or spring onion, 1 pair", "calories": 95, "note": "Topping adds 5"},
+      {"name": "Thick custard style, 1 pair", "calories": 105, "note": "MGR table figure"},
+      {"name": "Extra coconut cream drizzle, 1 box", "calories": 390, "note": "Some vendors add a spoon on top"}
+    ],
+    "faq": [
+      {"q": "How many calories in one khanom krok?", "a": "About 45 per half shell, or 90 per pair, for thin market style pieces. Thick custardy ones are closer to 105 a pair."},
+      {"q": "Is khanom krok healthy?", "a": "It is rice flour, coconut cream and sugar, about 360 calories a box with 4g of protein. Treat it as dessert."},
+      {"q": "Is khanom krok gluten free?", "a": "Yes, the batter is rice flour and coconut. Check the stall does not add wheat flour, some do for crispness."},
+      {"q": "What is the difference between khanom krok and apam balik?", "a": "Khanom krok is a small coconut pancake at about 45 calories a piece. Malaysian apam balik is a large folded pancake with sugar and peanuts at 300 to 400 for one."}
+    ],
+    "related": ["apam-balik", "tub-tim-grob", "roti-gluay", "cha-yen"],
+    "source": "MGR Online Thai calorie table (ขนมครก 2 pairs = 210 kcal); scaled to 90 kcal per thin market pair, 8 pieces per box"
+  },
+  {
+    "slug": "sai-krok-isan",
+    "name": "Sai Krok Isan",
+    "aka": ["ไส้กรอกอีสาน", "Isan Sausage", "Thai Fermented Sausage", "Sai Krok Isaan", "Sai Krok"],
+    "category": "snacks",
+    "region": ["th"],
+    "serving": "5 balls (1 skewer)",
+    "servingGrams": 100,
+    "calories": 300,
+    "protein": 14,
+    "carbs": 20,
+    "fat": 18,
+    "metaDescription": "A skewer of 5 sai krok isan balls is about 300 calories, 60 each. Pork, pork fat and rice, fermented for a day. The fat is the number here.",
+    "summary": "Sour fermented pork sausage from Isan, minced pork mixed with cooked rice, garlic and pork fat, stuffed into casings as small balls and left to sour for a day before it hits the charcoal. Eaten with raw cabbage, ginger, bird's eye chilli and peanuts.",
+    "answer": "A skewer of 5 grilled sai krok isan balls, about 100g, is roughly 300 calories, or 60 per ball. About half of that is pork fat. The rice inside adds 35 and the lean pork about 130. The cabbage and chilli it comes with are free, the peanuts are not.",
+    "realTalk": [
+      "Sai krok is a fat delivery system with a sour flavour. The recipe is roughly 3 parts pork to 1 part pork fat to 1 part rice, and the fat is what makes it juicy after the sourness. Per ball that is about 8g of lean pork at 20 calories, 3g of fat at 26 calories, and a spoon of rice at 7. Sixty a ball. Five on a skewer is 300, the same as a bowl of rice, and it is gone in 2 minutes at the bus stop.",
+      "The MGR table lists one sai krok at 90 calories, which is the longer single sausage some stalls sell, about 30g. The 5 ball skewer at 20g each lands at the same number per gram. What changes the count is the grill. Balls that sit long enough for the fat to render and drip lose 10 to 15 calories each. The ones served pale and quick keep it all. Pick the charred skewer.",
+      "The sides are the smart part of this snack. Raw cabbage, sliced ginger and bird's eye chilli cost nothing and slow you down. The roasted peanuts are about 6 calories each and a normal handful is 20 of them, so 120 more. Two skewers with peanuts is 720 calories standing on a pavement. One skewer with the cabbage and no peanuts is 300 and you feel like you ate something."
+    ],
+    "lighter": [
+      "One skewer, not two. The second is 300 calories and you only bought it because it was 10 baht.",
+      "Ask for the well charred balls. Rendered fat that dripped into the coals is fat you did not eat, about 50 calories a skewer.",
+      "Eat the cabbage and ginger it comes with. Free volume, and it slows you down.",
+      "Leave the peanuts or take 5. A handful of 20 is 120 calories on top of the sausage.",
+      "Sai krok with sticky rice is 540 calories. Sai krok with cabbage is 300. Choose based on whether it is a meal or a snack."
+    ],
+    "components": [
+      {"name": "Minced pork", "grams": 50, "calories": 130},
+      {"name": "Pork fat", "grams": 15, "calories": 130},
+      {"name": "Cooked rice", "grams": 25, "calories": 35},
+      {"name": "Garlic, salt, casing", "grams": 10, "calories": 5}
+    ],
+    "portions": [
+      {"label": "3 balls", "calories": 180},
+      {"label": "5 balls, 1 skewer", "calories": 300},
+      {"label": "10 balls, 2 skewers", "calories": 600}
+    ],
+    "variants": [
+      {"name": "Single sai krok, 30g", "calories": 90, "note": "MGR table figure"},
+      {"name": "Skewer of 5 balls, well grilled", "calories": 250, "note": "Fat rendered off"},
+      {"name": "Skewer of 5 balls, standard", "calories": 300, "note": "The usual"},
+      {"name": "Skewer with peanuts and sticky rice", "calories": 660, "note": "A full meal"}
+    ],
+    "faq": [
+      {"q": "How many calories in one sai krok isan ball?", "a": "About 60 for a 20g grilled ball. Half of it is pork fat."},
+      {"q": "Is sai krok isan safe to eat?", "a": "The fermentation is short, about a day, and it is grilled through. Buy from a busy stall with high turnover and eat it hot."},
+      {"q": "Is sai krok isan high in protein?", "a": "Moderate. About 14g of protein per 5 ball skewer, against 18g of fat. It is more of a fat snack than a protein one."},
+      {"q": "What do you eat sai krok isan with?", "a": "Raw cabbage, fresh ginger, bird's eye chilli and roasted peanuts. The vegetables are free, the peanuts add about 120 for a handful."}
+    ],
+    "related": ["moo-ping", "tod-mun-pla", "khao-niao", "larb-moo"],
+    "source": "MGR Online Thai calorie table (ไส้กรอกอีสาน 1 piece 30g = 90 kcal); 5 ball skewer at 20g per ball built from components"
+  },
+  {
+    "slug": "roti-gluay",
+    "name": "Roti Gluay",
+    "aka": ["โรตีกล้วย", "Thai Banana Roti", "Banana Pancake", "Roti Kluay", "Thai Roti"],
+    "category": "snacks",
+    "region": ["th"],
+    "serving": "1 roti",
+    "servingGrams": 180,
+    "calories": 500,
+    "protein": 8,
+    "carbs": 64,
+    "fat": 24,
+    "metaDescription": "A banana roti from a Thai street cart is about 500 calories. Add egg and chocolate sauce and it passes 650. The margarine is the part you do not see.",
+    "summary": "Stretched dough fried on a flat griddle in a big knob of margarine, folded around sliced banana, then cut into squares and drowned in condensed milk and sugar. The night market dessert at every tourist strip and most local ones, 30 to 60 baht.",
+    "answer": "A standard roti gluay, about 180g cut into squares, is roughly 500 calories. The MGR calorie table puts the egg, sugar and condensed milk version at 590. The banana is only 70 of it. The dough is 240, the margarine it fries in is 110 and the condensed milk and sugar on top add 85.",
+    "realTalk": [
+      "Watch the cart for 30 seconds and you see where the calories are. The cook drops a lump of margarine the size of a golf ball on the griddle, and it all goes into the dough. That is 15g of pure fat, 110 calories, before the banana touches it. The dough itself is 80g of white flour made with oil and egg, another 240. Then the condensed milk goes on with a heavy hand, 20g for 65 calories, and a spoon of white sugar for 20 more. The banana is the healthiest thing on the plate and it is 14% of the total.",
+      "The number climbs fast with the extras. An egg cracked into the dough adds 75. Chocolate sauce or Nutella is 100 for the drizzle. Roti gluay kai with chocolate is 650 to 700 calories, more than a plate of pad kra pao with rice. It is a 10 minute walk to buy and 3 minutes to eat, and it comes after dinner, not instead of it.",
+      "A plain roti with nothing on it is about 350 and it is genuinely good, crisp and salty. If you want the banana, ask for no sugar on top (mai sai nam tan) and the vendor skips the white sugar and often goes lighter on the condensed milk too. That puts banana roti at about 430. Still a dessert, but 100 calories less than the default, and you did not have to give anything up that you would actually miss."
+    ],
+    "lighter": [
+      "Say mai sai nam tan (no sugar). The white sugar is pure calories and the condensed milk already makes it sweet.",
+      "Skip the egg. It sounds like protein but it adds 75 calories to something that is 90% dough and fat.",
+      "No chocolate sauce. That drizzle is 100 calories and covers the banana flavour anyway.",
+      "Share one. Half a banana roti is 250 and you get the full experience.",
+      "Plain roti at 350 is the lowest option on the cart and it is the version Thais eat most."
+    ],
+    "components": [
+      {"name": "Roti dough", "grams": 80, "calories": 240},
+      {"name": "Margarine for frying", "grams": 15, "calories": 110},
+      {"name": "Banana", "grams": 80, "calories": 70},
+      {"name": "Condensed milk", "grams": 20, "calories": 65},
+      {"name": "Sugar on top", "grams": 5, "calories": 20}
+    ],
+    "portions": [
+      {"label": "Plain roti, no filling", "calories": 350},
+      {"label": "Banana roti", "calories": 500},
+      {"label": "Banana egg roti with chocolate", "calories": 670}
+    ],
+    "variants": [
+      {"name": "Plain roti with condensed milk", "calories": 350, "note": "No filling"},
+      {"name": "Banana roti, no sugar on top", "calories": 430, "note": "Ask mai sai nam tan"},
+      {"name": "Banana roti, standard", "calories": 500, "note": "The default"},
+      {"name": "Banana egg roti", "calories": 590, "note": "MGR table figure"},
+      {"name": "Banana egg roti with Nutella", "calories": 690, "note": "Tourist strip special"}
+    ],
+    "faq": [
+      {"q": "How many calories in Thai banana roti?", "a": "About 500 for a standard one with condensed milk and sugar. With egg it is 590 and with chocolate sauce on top around 670."},
+      {"q": "Is roti gluay the same as roti canai?", "a": "Same dough family. Thai roti is fried in margarine and served sweet at 350 to 500 calories. Malaysian roti canai is about 300 plain and comes with curry."},
+      {"q": "Is banana roti healthy?", "a": "No. It is white flour, margarine, condensed milk and sugar, with a banana in the middle. A dessert at 500 calories."},
+      {"q": "What is the lowest calorie roti at a Thai cart?", "a": "Plain roti with a little condensed milk, about 350. Every filling and sauce adds 70 to 100 on top."}
+    ],
+    "related": ["roti-canai", "khanom-krok", "cha-yen", "apam-balik"],
+    "source": "MGR Online Thai calorie table (โรตี with egg, sugar and condensed milk = 590 kcal); banana roti without egg built from components at 500"
+  },
+  {
+    "slug": "thai-suki",
+    "name": "Thai Suki",
+    "aka": ["สุกี้", "Suki Nam", "Thai Sukiyaki", "Suki Haeng", "MK Suki"],
+    "category": "soup",
+    "region": ["th"],
+    "serving": "1 bowl (suki nam)",
+    "servingGrams": 450,
+    "calories": 350,
+    "protein": 25,
+    "carbs": 35,
+    "fat": 12,
+    "metaDescription": "A bowl of suki nam is about 350 calories, and the dry stir fried suki haeng is 450. The glass noodles are not the problem. The suki sauce is.",
+    "summary": "Thai style sukiyaki: glass noodles, egg, cabbage, morning glory and your choice of chicken, pork or seafood, cooked in a light broth (nam) or stir fried without it (haeng), then eaten with a red suki sauce made from chilli, garlic, sesame and fermented bean curd.",
+    "answer": "A one person bowl of suki nam (soup version) is about 350 calories, with 25g of protein from the chicken and egg. The dry stir fried suki haeng is about 450 because it picks up oil in the wok. At an MK style hotpot restaurant, one person's share of a table order usually lands at 600 to 800, mostly because of the sauce and the second round of meat.",
+    "realTalk": [
+      "Suki is one of the better meals in Thailand for the number, because it is a vegetable and protein dish that happens to have some noodles in it. A bowl of suki nam has 120g of cabbage and morning glory at 30 calories, 80g of chicken at 100, an egg at 75 and 80g of cooked glass noodles at 100. The broth is 10. That is 315 before the sauce, and it fills a bowl the size of your head.",
+      "The suki sauce is where it goes wrong. It is sugar, chilli, garlic and sesame oil, about 40 calories per tablespoon, and nobody uses one tablespoon. At a hotpot restaurant the sauce bowl gets refilled 3 or 4 times, which is 150 to 200 calories of sauce alone. The MGR table lists suki gai nam at 345 for the bowl, which matches the street version with a normal spoon of sauce stirred in. The dry version adds 15g of oil in the wok, another 100.",
+      "MK and the hotpot chains are a different game. The food is the same, but the format is a table full of plates and a 2 hour sitting. A normal share per person is 200g of meat and seafood, 2 balls of fish paste, a plate of noodles and a lot of sauce. That lands at 700 to 800, with the fried tofu and crispy pork skin plates pushing it higher. The vegetables are still free. The problem is that nobody goes to MK for the vegetables."
+    ],
+    "lighter": [
+      "Order suki nam, not haeng. The soup version saves about 100 calories of wok oil.",
+      "One spoon of suki sauce stirred in, not a bowl on the side for dipping. Each refill is 100 to 150 calories.",
+      "Double the vegetables and drop the noodles to half. The cabbage and morning glory are 30 calories for the whole bowl.",
+      "At a hotpot place, load the pot with the greens, tofu and lean meat first and skip the fried tofu and fish balls.",
+      "Seafood suki (talay) is about 20 calories lower than chicken and 60 lower than pork belly."
+    ],
+    "components": [
+      {"name": "Glass noodles, cooked", "grams": 80, "calories": 100},
+      {"name": "Chicken", "grams": 80, "calories": 100},
+      {"name": "Egg", "grams": 50, "calories": 75},
+      {"name": "Cabbage, morning glory, celery", "grams": 120, "calories": 30},
+      {"name": "Broth", "grams": 90, "calories": 10},
+      {"name": "Suki sauce", "grams": 30, "calories": 40}
+    ],
+    "portions": [
+      {"label": "Suki nam, 1 bowl", "calories": 350},
+      {"label": "Suki haeng, 1 plate", "calories": 450},
+      {"label": "Hotpot restaurant, 1 person share", "calories": 750}
+    ],
+    "variants": [
+      {"name": "Suki talay nam (seafood soup)", "calories": 330, "note": "Prawn and squid instead of chicken"},
+      {"name": "Suki gai nam (chicken soup)", "calories": 350, "note": "MGR table 345"},
+      {"name": "Suki moo haeng (pork, dry)", "calories": 480, "note": "Wok oil plus fattier meat"},
+      {"name": "MK table share, with sauce refills", "calories": 750, "note": "Per person over a full sitting"}
+    ],
+    "faq": [
+      {"q": "Is Thai suki healthy?", "a": "Suki nam is one of the better Thai meals at 350 calories with 25g of protein and a big pile of vegetables. The sauce is the thing to watch."},
+      {"q": "How many calories in MK suki?", "a": "A normal one person share of a table order is 600 to 800 depending on the meat, the fried extras and how many bowls of sauce you go through."},
+      {"q": "Suki nam or suki haeng, which is lower?", "a": "Suki nam at about 350. Haeng is stir fried and picks up about 100 calories of oil."},
+      {"q": "How many calories in suki sauce?", "a": "About 40 per tablespoon. It is sugar, chilli, garlic and sesame oil. A dipping bowl refilled 3 times is 150 or more."}
+    ],
+    "related": ["tom-yum-goong", "pad-woon-sen", "yen-ta-fo", "kuay-jab"],
+    "source": "MGR Online Thai calorie table (สุกี้ยากี้ไก่ น้ำ 1 bowl = 345 kcal); suki haeng adds 15g wok oil; hotpot share estimated from components"
+  },
+  {
+    "slug": "tub-tim-grob",
+    "name": "Tub Tim Grob",
+    "aka": ["ทับทิมกรอบ", "Red Rubies", "Thai Red Ruby Dessert", "Tab Tim Krob", "Water Chestnuts in Coconut Milk"],
+    "category": "dessert",
+    "region": ["th"],
+    "serving": "1 bowl",
+    "servingGrams": 200,
+    "calories": 250,
+    "protein": 2,
+    "carbs": 40,
+    "fat": 10,
+    "metaDescription": "A bowl of tub tim grob is about 250 calories. The red rubies are water chestnut in tapioca, nearly free. The coconut milk and syrup are the other 170.",
+    "summary": "Diced water chestnut dyed red, coated in tapioca flour and boiled until the shell turns chewy and clear, then served in sweetened coconut milk over crushed ice, sometimes with jackfruit. The dessert that looks like pomegranate seeds.",
+    "answer": "A standard 200g bowl of tub tim grob with crushed ice is about 250 calories. The rubies themselves, about 60g of water chestnut and tapioca, are only 80 of that. The 60g of coconut milk is 110 and the sugar syrup is 60. Half the bowl is ice, which is why it feels lighter than it is.",
+    "realTalk": [
+      "Tub tim grob is one of the better Thai desserts to order, and the reason is the ice. A 200g bowl is about 40% crushed ice, so the actual food is 120g. Water chestnut is 100 calories per 100g and mostly water and crunch; the tapioca coat adds starch, so the rubies come to about 80 for a normal scoop. The rest is coconut milk at 110 and the syrup it is sweetened with at 60. Two hundred and fifty for a dessert you eat with a spoon for 10 minutes is a fair trade.",
+      "The MGR calorie table lists it at 250 per cup, which matches a dessert stall bowl. Restaurants pour more coconut milk and add jackfruit or young coconut strips, and that version is closer to 350. The coconut milk is the lever. It is 220 calories per 100ml, and a heavy pour is the difference between a 250 bowl and a 350 one. The rubies are never the problem.",
+      "Compare it to the other things on the same dessert cart. Khao niao mamuang (mango sticky rice) is 380 and up. A bowl of bua loy in warm coconut milk is 300. Lod chong is about 280. Tub tim grob is the lightest of the coconut milk desserts because half of it is crunch and ice rather than rice or dough."
+    ],
+    "lighter": [
+      "Ask for less coconut milk (ka ti noi). It drops the bowl to about 190 and the rubies still taste of coconut.",
+      "Skip the jackfruit and young coconut. Each adds 40 to 50 calories to the bowl.",
+      "Get it with plenty of ice. More ice, same rubies, less coconut milk per spoon.",
+      "Share a restaurant bowl. Those are closer to 350 because of the heavy pour.",
+      "Pick this over mango sticky rice when you want something sweet. It is about 130 calories lighter."
+    ],
+    "components": [
+      {"name": "Water chestnut rubies in tapioca", "grams": 60, "calories": 80},
+      {"name": "Coconut milk", "grams": 60, "calories": 110},
+      {"name": "Sugar syrup", "grams": 40, "calories": 60},
+      {"name": "Crushed ice", "grams": 40, "calories": 0}
+    ],
+    "portions": [
+      {"label": "Small cup, less coconut milk", "calories": 190},
+      {"label": "Standard bowl", "calories": 250},
+      {"label": "Restaurant bowl with jackfruit", "calories": 350}
+    ],
+    "variants": [
+      {"name": "Tub tim grob, less coconut milk", "calories": 190, "note": "Ask ka ti noi"},
+      {"name": "Tub tim grob, standard", "calories": 250, "note": "MGR table figure"},
+      {"name": "With jackfruit and young coconut", "calories": 350, "note": "Restaurant version"},
+      {"name": "Tub tim grob with mango sticky rice on the side", "calories": 630, "note": "The combo plate"}
+    ],
+    "faq": [
+      {"q": "What are the red rubies in tub tim grob?", "a": "Diced water chestnut dyed red and coated in tapioca flour, then boiled. About 80 calories for a normal 60g scoop."},
+      {"q": "Is tub tim grob healthy?", "a": "For a coconut milk dessert it is one of the lightest at 250 calories a bowl, because half the bowl is ice and the rubies are mostly water chestnut."},
+      {"q": "Is tub tim grob vegan?", "a": "Yes, water chestnut, tapioca, coconut milk and sugar. Some stalls use a rose syrup that is still plant based."},
+      {"q": "Tub tim grob or mango sticky rice, which is lower?", "a": "Tub tim grob at 250 against mango sticky rice at 380 or more. The rubies win by about 130."}
+    ],
+    "related": ["mango-sticky-rice", "cendol", "khanom-krok", "cha-yen"],
+    "source": "MGR Online Thai calorie table (ทับทิมกรอบ 1 cup = 250 kcal); components cross checked at 60g coconut milk"
+  }
+]

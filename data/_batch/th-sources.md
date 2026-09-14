@@ -37,3 +37,16 @@ Written 2026-09-15 from the per record source field. One line per record: slug |
 - khao-kai-jeow | 500 kcal per 1 plate (380g) | Thai Department of Health (กรมอนามัย) via health.kapook.com khao kai jeow moo sap 380g = 500 kcal; hdmall.co.th khao kai jeow 1 plate = 445 kcal
 - khao-tom | 300 kcal per 1 bowl (400g) | hdmall.co.th khao tom pla 1 cup = 325 kcal, plain khao tom 1 cup = 120 kcal; picked 300 for a 400g stall bowl of khao tom moo built from components
 - jok | 250 kcal per 1 bowl with egg (400g) | hdmall.co.th and health.kapook.com Thai calorie tables: jok moo 1 cup = 160 kcal, jok sai kai (with egg) 1 cup = 250 kcal
+
+## th-3.json
+
+- cha-yen | 300 kcal per 1 glass (16 oz) (450g) | eatwellconcept.com Thai dietitian page: 250 to 350 kcal per 16 oz glass; MGR Online Thai calorie table 100 kcal per small glass; Thai Department of Health 13 tsp sugar per cup. Picked 300 for a 16 oz street glass
+- tom-yum-goong | 180 kcal per 1 bowl (clear) (400g) | MGR Online Thai calorie table (ต้มยำกุ้ง 1 cup = 65 kcal) scaled to a 400g restaurant bowl from components; nam khon figure adds 60g evaporated milk and 15g extra nam prik pao
+- gai-yang | 560 kcal per half chicken (300g) | MGR Online Thai calorie table (ไก่ย่าง 1 leg = 165 kcal); half chicken built from components at 165 kcal per 100g meat and 400 kcal per 100g grilled skin
+- tod-mun-pla | 300 kcal per 5 pieces (125g) | MGR Online Thai calorie table (ทอดมันปลากราย 1 large piece = 230 kcal); older Thai table 185 kcal per 5 small pieces; picked 60 kcal per 25g street piece from components
+- pad-pak-boong | 210 kcal per 1 plate (200g) | MGR Online Thai calorie table (ผัดผักบุ้งไฟแดง 1 plate = 210 kcal); components cross checked at 15g oil
+- khanom-krok | 360 kcal per 1 box (8 pieces) (130g) | MGR Online Thai calorie table (ขนมครก 2 pairs = 210 kcal); scaled to 90 kcal per thin market pair, 8 pieces per box
+- sai-krok-isan | 300 kcal per 5 balls (1 skewer) (100g) | MGR Online Thai calorie table (ไส้กรอกอีสาน 1 piece 30g = 90 kcal); 5 ball skewer at 20g per ball built from components
+- roti-gluay | 500 kcal per 1 roti (180g) | MGR Online Thai calorie table (โรตี with egg, sugar and condensed milk = 590 kcal); banana roti without egg built from components at 500
+- thai-suki | 350 kcal per 1 bowl (suki nam) (450g) | MGR Online Thai calorie table (สุกี้ยากี้ไก่ น้ำ 1 bowl = 345 kcal); suki haeng adds 15g wok oil; hotpot share estimated from components
+- tub-tim-grob | 250 kcal per 1 bowl (200g) | MGR Online Thai calorie table (ทับทิมกรอบ 1 cup = 250 kcal); components cross checked at 60g coconut milk

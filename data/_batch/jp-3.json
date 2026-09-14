@@ -1,0 +1,323 @@
+[
+  {
+    "slug": "matcha-latte",
+    "name": "Matcha Latte",
+    "aka": ["抹茶ラテ", "Matcha Tea Latte", "Green Tea Latte", "抹茶 ティー ラテ"],
+    "category": "drinks",
+    "region": ["jp"],
+    "serving": "1 tall (350ml)",
+    "servingGrams": 350,
+    "calories": 240,
+    "protein": 8,
+    "carbs": 36,
+    "fat": 7,
+    "metaDescription": "A tall matcha latte is about 240 calories at Starbucks Japan, and 200 of that is the milk. The matcha itself is 10. Here is how each size and milk changes it.",
+    "summary": "Sweetened matcha powder whisked into steamed milk, sold hot or iced at every Starbucks, Doutor and konbini chiller in Japan. The green colour reads as healthy. The sugar in the powder does not.",
+    "answer": "A tall (350ml) hot matcha tea latte with regular milk is 232 calories on Starbucks Japan's published nutrition sheet, with 35.8g of carbs. The iced version is 214. The matcha is about 10 calories; the 300ml of milk is 200 and the sugar pre-mixed into the powder is 30.",
+    "realTalk": [
+      "Matcha on its own is one of the lowest calorie drinks in Japan. A bowl of usucha, whisked with water, is about 10 calories and 1g of tea. The latte is a different product. It is 300ml of full milk at 200 calories with a sweetened green tea powder stirred in, and the powder at most chains is roughly 40% sugar. You are drinking a small glass of milk with 2 teaspoons of sugar and a pinch of tea, and the colour makes it feel like a vegetable.",
+      "The sizes climb fast. Short is 170, tall 240, grande 320 and venti about 350. Whipped cream adds 80 to 100 on top. A venti matcha latte with whip is 450 calories, more than a bowl of kake udon, and it is a drink you have next to a meal, not instead of one. The konbini carton versions from Lawson and 7-Eleven are lighter at 120 to 150 for 240ml because they are thinner, but they are also sweeter per sip.",
+      "The lever is the milk, not the matcha. The same tall with non-fat milk is about 150 calories, soy milk about 200, oat about 210. Almond drops it to about 140. Sugar cannot be removed because it is inside the powder at most chains, but you can ask for one pump less of the syrup at shops that sweeten separately. Or drink the real thing. Hot matcha with water at a tea counter in Kyoto is 10 calories and tastes more of tea than any latte."
+    ],
+    "lighter": [
+      "Order the short. It is 170 calories against 240 for the tall and it is the size matcha was meant to be.",
+      "Switch to non-fat milk. Same tall cup, about 150 calories instead of 240.",
+      "No whipped cream. It is 80 to 100 calories of nothing.",
+      "Ask whether the shop sweetens with syrup or pre-sweetened powder. If syrup, ask for half.",
+      "Plain matcha whisked with water is 10 calories. Most cafes will make it if you ask for usucha."
+    ],
+    "components": [
+      {"name": "Whole milk, steamed", "grams": 300, "calories": 200},
+      {"name": "Matcha powder", "grams": 3, "calories": 10},
+      {"name": "Sugar in the powder mix", "grams": 8, "calories": 30},
+      {"name": "Foam", "grams": 39, "calories": 0}
+    ],
+    "portions": [
+      {"label": "Short, 240ml", "calories": 170},
+      {"label": "Tall, 350ml", "calories": 240},
+      {"label": "Venti, 590ml", "calories": 350}
+    ],
+    "variants": [
+      {"name": "Usucha (matcha with water)", "calories": 10, "note": "Tea only"},
+      {"name": "Tall, non-fat milk", "calories": 150, "note": "Starbucks Japan figure"},
+      {"name": "Tall iced, regular milk", "calories": 214, "note": "Less milk, more ice"},
+      {"name": "Tall hot, regular milk", "calories": 232, "note": "Starbucks Japan, June 2026"},
+      {"name": "Tall with whipped cream", "calories": 330, "note": "Whip adds about 90"}
+    ],
+    "faq": [
+      {"q": "How many calories in a Starbucks matcha latte in Japan?", "a": "232 for a tall hot with regular milk and 214 iced, per the official sheet. Short is about 170 and venti about 350."},
+      {"q": "Is matcha latte healthy?", "a": "The matcha is. The latte is 300ml of milk with about 8g of added sugar mixed into the powder, so it is a 240 calorie drink. Plain matcha with water is 10."},
+      {"q": "How much sugar is in a matcha latte?", "a": "About 20 to 25g in a tall, roughly half from the milk's own lactose and half from the sweetened powder."},
+      {"q": "Does matcha latte have caffeine?", "a": "Yes, around 60 to 80mg in a tall, less than a coffee latte at about 150mg."}
+    ],
+    "related": ["kopi-c", "hk-milk-tea", "melon-pan", "onigiri-tuna-mayo"],
+    "source": "Starbucks Coffee Japan published nutrition (抹茶 ティー ラテ tall milk: hot 232 kcal P7.6 F6.7 C35.8, iced 214 kcal), June 2026; rounded to 240"
+  },
+  {
+    "slug": "daifuku",
+    "name": "Daifuku",
+    "aka": ["大福", "Daifuku Mochi", "Mochi with Red Bean", "だいふく"],
+    "category": "dessert",
+    "region": ["jp"],
+    "serving": "1 piece",
+    "servingGrams": 96,
+    "calories": 225,
+    "protein": 4,
+    "carbs": 50,
+    "fat": 1,
+    "metaDescription": "One daifuku is about 225 calories, almost all of it carbs from the mochi and the sweet red bean inside. Nearly zero fat, which is why it does not fill you up.",
+    "summary": "Soft pounded rice cake wrapped around sweet azuki bean paste, dusted with starch to stop it sticking. Sold at every wagashi shop and konbini in Japan for 130 to 250 yen, with strawberry (ichigo daifuku) and salted bean (mame daifuku) the common variations.",
+    "answer": "A standard 96g daifuku is 225 calories on the Japanese food composition data, with 50g of carbs and about 1g of fat. The mochi shell is roughly 115 of it and the 45g of koshian (smooth red bean paste) is 110. Nothing is fried, nothing is buttered. It is sugar and rice starch in a soft package.",
+    "realTalk": [
+      "Daifuku is honest about what it is. There is no hidden fat, no cream, no oil. It is glutinous rice pounded into a shell at about 230 calories per 100g and red bean paste that is roughly half sugar by weight. One piece is 225 calories and 50g of carbs, which is the same carb load as a bowl of rice, in 3 bites. It does not feel like a bowl of rice. That is the whole problem.",
+      "The variations move the number less than you would think. Ichigo daifuku swaps some of the anko for a whole strawberry, so it lands around 190 despite being bigger. Mame daifuku with salted black beans is about 250 for a 110g piece. Kusa daifuku (mugwort) is the same as plain at about 220. The konbini versions are smaller, 70 to 80g, and run 170 to 190. The only real jump is the cream daifuku from the chiller, where whipped cream inside a mochi shell takes it to 260 with 10g of fat.",
+      "The place daifuku fits is after a protein meal, as the sweet thing, one piece. As a snack on its own it is a sugar spike with 4g of protein, and you are hungry again in an hour. Two with a canned coffee at the konbini is 550 calories and feels like nothing. The wagashi shop version is worth it. The konbini three pack is where the count goes wrong."
+    ],
+    "lighter": [
+      "One piece. It is 225 calories and 50g of carbs. The second one is a bowl of rice you did not need.",
+      "Ichigo daifuku is about 190, lower than plain, because the strawberry replaces some of the bean paste.",
+      "Have it after a meal with protein in it, not as a standalone snack. Same calories, much less hunger an hour later.",
+      "Skip the cream daifuku from the chiller. Whipped cream inside takes it to 260 and adds 10g of fat.",
+      "Pair with plain green tea (0 calories), not a sweetened matcha latte at 240."
+    ],
+    "components": [
+      {"name": "Mochi shell", "grams": 50, "calories": 115},
+      {"name": "Koshian (red bean paste)", "grams": 45, "calories": 110},
+      {"name": "Starch dusting", "grams": 1, "calories": 0}
+    ],
+    "portions": [
+      {"label": "Mini daifuku, 60g", "calories": 140},
+      {"label": "Standard daifuku, 96g", "calories": 225},
+      {"label": "Mame daifuku, 110g", "calories": 250}
+    ],
+    "variants": [
+      {"name": "Konbini daifuku, 75g", "calories": 180, "note": "Smaller than shop size"},
+      {"name": "Ichigo daifuku", "calories": 190, "note": "Strawberry replaces some anko"},
+      {"name": "Kusa daifuku (mugwort)", "calories": 220, "note": "Same as plain"},
+      {"name": "Plain daifuku", "calories": 225, "note": "Standard tables"},
+      {"name": "Cream daifuku", "calories": 260, "note": "Whipped cream inside, 10g fat"}
+    ],
+    "faq": [
+      {"q": "How many calories in one daifuku?", "a": "About 225 for a standard 96g piece. Konbini ones are smaller at around 180 and ichigo daifuku is about 190."},
+      {"q": "Is daifuku healthy?", "a": "It has almost no fat and 4g of protein, but it is 50g of carbs from rice starch and sugar in 3 bites. Fine as one dessert, not as a snack habit."},
+      {"q": "Is daifuku gluten free?", "a": "Yes. The shell is glutinous rice (mochigome), which has no gluten despite the name, and the filling is azuki beans and sugar."},
+      {"q": "Daifuku or mochi ice cream, which is lower?", "a": "Mochi ice cream is smaller at about 100 calories per ball. One daifuku at 225 is roughly 2 of them."}
+    ],
+    "related": ["taiyaki", "melon-pan", "bingsu", "ang-ku-kueh"],
+    "source": "calorie.slism.jp 大福 1個 96g 225 kcal"
+  },
+  {
+    "slug": "taiyaki",
+    "name": "Taiyaki",
+    "aka": ["たい焼き", "鯛焼き", "Fish Shaped Waffle", "Japanese Red Bean Waffle", "Taiyaki Anko"],
+    "category": "snacks",
+    "region": ["jp"],
+    "serving": "1 piece",
+    "servingGrams": 95,
+    "calories": 215,
+    "protein": 5,
+    "carbs": 42,
+    "fat": 3,
+    "metaDescription": "One taiyaki is about 215 calories, a thin waffle shell around 40g of red bean paste. Custard and chocolate versions run 230 to 260. Warm, cheap, mostly sugar.",
+    "summary": "Pancake batter poured into a sea bream shaped iron, filled with sweet red bean paste and pressed until the fish is crisp at the edges. A festival and station snack at 150 to 250 yen, with custard, chocolate and sweet potato fillings alongside the original.",
+    "answer": "A standard 95g taiyaki with anko filling is about 215 calories on Japanese composition data, with 42g of carbs and only 3g of fat. The batter shell is about 130 of that and the 40g of red bean paste is 85. It is one of the cheaper snacks in the country and one of the most carb dense for its size.",
+    "realTalk": [
+      "Taiyaki is bread and jam in the shape of a fish. The batter is flour, sugar, egg and a little milk, cooked on a greased iron, about 130 calories for the shell. The anko inside is roughly half sugar by weight, 85 calories for a normal 40g fill. There is almost no fat, 3g in the whole thing, which is why it is 215 and not 350 like a butter waffle. It is also why it does not keep you full. Forty two grams of carbs and 5g of protein is a sugar snack, whatever shape the iron is.",
+      "The fillings move it a bit. Custard is about 230, chocolate 250 to 260, and the cheese and sweet potato versions land around 240. The croissant taiyaki from the chains, made with laminated dough, is a different animal at 300 to 350 because the pastry brings 15g of butter with it. The station stands that pour the anko all the way to the tail (shippo made anko) add another 15 to 20 calories and are worth it.",
+      "Where taiyaki goes wrong is the same place daifuku does. It is 215, it costs 180 yen, it is warm, and the second one is right there. Two is 430 calories and 84g of carbs at a train station at 4pm. One, eaten slowly while it is still hot, is a fair snack. The paper bag with 3 in it is a meal without any of the parts that make a meal useful."
+    ],
+    "lighter": [
+      "One taiyaki, eaten hot. The second one is another 215 and never tastes as good.",
+      "Plain anko is the lowest of the common fillings at 215. Chocolate is about 260.",
+      "Skip the croissant taiyaki. The laminated dough version is 300 to 350 because of the butter.",
+      "Have it with hot tea or black coffee, not a can of sweet cafe au lait at 120.",
+      "If it is between taiyaki and a konbini fried snack, taiyaki wins on fat. A korokke is 250 with 15g of fat."
+    ],
+    "components": [
+      {"name": "Batter shell", "grams": 55, "calories": 130},
+      {"name": "Anko (red bean paste)", "grams": 40, "calories": 85}
+    ],
+    "portions": [
+      {"label": "Mini taiyaki, 45g", "calories": 100},
+      {"label": "Standard taiyaki", "calories": 215},
+      {"label": "2 pieces", "calories": 430}
+    ],
+    "variants": [
+      {"name": "Anko (red bean)", "calories": 215, "note": "The original"},
+      {"name": "Custard cream", "calories": 230, "note": "A little more fat"},
+      {"name": "Sweet potato", "calories": 240, "note": "Sugar and butter in the filling"},
+      {"name": "Chocolate", "calories": 260, "note": "Highest of the standard fillings"},
+      {"name": "Croissant taiyaki", "calories": 330, "note": "Laminated dough, about 15g butter"}
+    ],
+    "faq": [
+      {"q": "How many calories in a taiyaki?", "a": "About 215 for a standard 95g one with red bean. Custard is about 230, chocolate about 260 and the croissant style 300 to 350."},
+      {"q": "Is taiyaki healthy?", "a": "It is low in fat at 3g but it is 42g of carbs, mostly sugar and white flour. A fair snack once, not a daily one."},
+      {"q": "What is the difference between taiyaki and bungeoppang?", "a": "Same idea. Bungeoppang is the Korean fish shaped version, usually smaller and thinner at about 120 to 150 calories each."},
+      {"q": "Is taiyaki vegan?", "a": "Usually not. The batter has egg and milk. The anko filling itself is plant based."}
+    ],
+    "related": ["bungeoppang", "daifuku", "melon-pan", "hotteok"],
+    "source": "calorie.slism.jp たい焼き 1個 94.9g 213 kcal P5.4 F3.2 C41.5; rounded to 215"
+  },
+  {
+    "slug": "sukiyaki",
+    "name": "Sukiyaki",
+    "aka": ["すき焼き", "Japanese Beef Hotpot", "Sukiyaki Beef", "Sukiyaki Nabe"],
+    "category": "lauk",
+    "region": ["jp"],
+    "serving": "1 serving (no rice)",
+    "servingGrams": 460,
+    "calories": 455,
+    "protein": 27,
+    "carbs": 31,
+    "fat": 24,
+    "metaDescription": "A serving of sukiyaki is about 455 calories without rice. The beef and the sweet warishita sauce carry most of it. Restaurant wagyu courses pass 1,000.",
+    "summary": "Thin sliced beef cooked at the table in a shallow iron pot with tofu, shirataki, napa cabbage, leek and shungiku, in warishita, a sweet sauce of soy, sugar, mirin and sake. Each bite is dipped in raw beaten egg before it goes in your mouth.",
+    "answer": "One home style serving of sukiyaki, about 460g with 100g of beef, is around 455 calories on Japanese composition data, before rice. The beef is 220 of that, the warishita sauce with its sugar and mirin is 80, and the raw egg for dipping is 75. Add a 200g bowl of rice and dinner is about 770. A restaurant course with 200g of marbled wagyu is 1,000 or more.",
+    "realTalk": [
+      "Sukiyaki is a beef dish where the sauce is a dessert. Warishita is soy sauce, sugar, mirin and sake in roughly equal parts, and a normal pot takes 50g of it per person, about 80 calories, most of it sugar. Then the beef goes in. Home sukiyaki uses 100g of sliced shoulder or belly at around 220 calories. The vegetables, tofu and shirataki underneath are about 90 for a big pile, which is the part that makes the pot look like more food than it is. The raw egg dip is 75 and it is the best part, so keep it.",
+      "The restaurant version is a different budget. A course at a proper sukiyaki house is 150 to 200g of marbled wagyu per person, and A5 ribeye is about 500 calories per 100g against 220 for the supermarket slices. Two hundred grams of that is 1,000 calories of beef alone, plus sauce, plus the rice or udon that goes into the leftover broth at the end. The shime udon, noodles cooked in the sweet remaining sauce, is another 300. A full sukiyaki dinner out is 1,400 to 1,600 and it is worth every one of them, twice a year.",
+      "At home it is a good meal. Twenty seven grams of protein, a pile of cabbage and tofu, and 455 calories before rice. The trick is to load the pot with the cheap things. Double the napa, the shirataki and the tofu, keep the beef at 100 to 120g per person, and go light on the second pour of warishita. The egg dip does not change. Sukiyaki made that way with a small bowl of rice is a 650 calorie dinner that tastes like the 1,500 one."
+    ],
+    "lighter": [
+      "Keep the beef at 100 to 120g per person and fill the pot with napa cabbage, shirataki and tofu. The vegetables are 90 calories for a mountain.",
+      "Use lean sliced shoulder (kata rosu) instead of belly or wagyu. About 220 per 100g versus 400 to 500.",
+      "Dilute the second pour of warishita with dashi. Each 50g of the sweet sauce is 80 calories, most of it sugar.",
+      "Skip the shime udon at the end. Noodles cooked in the leftover sauce are 300 calories of sugar soaked starch.",
+      "One small bowl of rice, 150g, not the 250g restaurant bowl. Saves about 150."
+    ],
+    "components": [
+      {"name": "Sliced beef", "grams": 100, "calories": 220},
+      {"name": "Grilled tofu", "grams": 80, "calories": 60},
+      {"name": "Shirataki noodles", "grams": 60, "calories": 5},
+      {"name": "Napa cabbage, leek, shungiku, mushrooms", "grams": 120, "calories": 25},
+      {"name": "Warishita (soy, sugar, mirin, sake)", "grams": 50, "calories": 80},
+      {"name": "Raw egg for dipping", "grams": 50, "calories": 75}
+    ],
+    "portions": [
+      {"label": "1 serving, no rice", "calories": 455},
+      {"label": "1 serving with 200g rice", "calories": 770},
+      {"label": "Restaurant course, 200g wagyu, rice and shime udon", "calories": 1500}
+    ],
+    "variants": [
+      {"name": "Home sukiyaki, lean shoulder", "calories": 455, "note": "Composition table figure"},
+      {"name": "Home sukiyaki, beef belly", "calories": 560, "note": "Fattier slices"},
+      {"name": "Sukiyaki don (over rice)", "calories": 720, "note": "Gyudon chains sell this in winter"},
+      {"name": "Restaurant sukiyaki, 200g wagyu", "calories": 1200, "note": "Before rice or udon"}
+    ],
+    "faq": [
+      {"q": "How many calories in sukiyaki?", "a": "About 455 for a home serving with 100g of beef, no rice. With a bowl of rice it is 770. Restaurant wagyu courses run 1,200 to 1,600."},
+      {"q": "Is sukiyaki healthy?", "a": "Home sukiyaki with lean beef and lots of vegetables is a solid 455 calorie dinner with 27g of protein. The sugar in the sauce and the wagyu fat at restaurants are what push it up."},
+      {"q": "Sukiyaki or shabu shabu, which is lower?", "a": "Shabu shabu by about 150 calories per serving. The beef is swished in plain broth and dipped in ponzu, with no sugar sauce and no raw egg."},
+      {"q": "How much sugar is in sukiyaki sauce?", "a": "Warishita is about 25% sugar plus mirin. A 50g serving carries roughly 15g of sugar, 80 calories."}
+    ],
+    "related": ["gyudon", "yakiniku", "shoyu-ramen", "bulgogi"],
+    "source": "calorie.slism.jp すき焼き 1人前 458g 454 kcal P26.6 F24.4 C30.9; restaurant figures built from components at 500 kcal per 100g A5 wagyu"
+  },
+  {
+    "slug": "yakiniku",
+    "name": "Yakiniku",
+    "aka": ["焼肉", "Japanese BBQ", "Yakiniku Beef", "Gyukaku", "Kalbi and Harami"],
+    "category": "lauk",
+    "region": ["jp"],
+    "serving": "1 person (200g meat with rice)",
+    "servingGrams": 500,
+    "calories": 1000,
+    "protein": 50,
+    "carbs": 90,
+    "fat": 45,
+    "metaDescription": "A one person yakiniku order, 200g of kalbi and harami with rice, is about 1,000 calories. All you can eat at 400g of meat with beer is closer to 1,800.",
+    "summary": "Bite size cuts of beef, mostly kalbi (short rib) and harami (skirt), grilled over charcoal or gas at the table and dipped in tare, a sweet soy and garlic sauce. Ordered by the plate at Gyukaku, Anan, and every neighbourhood yakiniku-ya, usually with rice, kimchi and beer.",
+    "answer": "A typical one person yakiniku dinner, 100g of kalbi, 100g of harami, a 200g bowl of rice and tare, is about 1,000 calories. Kalbi is the heavy one at 350 to 400 per 100g because of the marbling; harami is around 250. The Japanese composition table's yakiniku teishoku, with only 100g of meat, comes in at 768. The number scales with plates, and plates are small.",
+    "realTalk": [
+      "Yakiniku is priced by the plate and counted by the plate, and each plate is 80 to 100g. That is the trap. One plate of kalbi looks like 6 small pieces. It is 370 calories, more than a bowl of rice, and a normal order is 3 or 4 plates per person. The marbling that makes kalbi good is fat at 9 calories per gram, and a fatty short rib slice is 30 to 40% fat by weight. Harami is the lean choice at about 250 per 100g. Tongue (tan) is around 220. Tripe and offal are 150 to 200 and nobody orders enough of them to matter.",
+      "Then the rice and the tare. A 200g bowl of rice is 310 and at yakiniku it is a sauce sponge, so the tare that drips onto it adds 50 more. Tare itself is soy, sugar, garlic and sesame oil at about 15 calories per tablespoon, and over a meal you go through 3 or 4. The pickles and kimchi are free. The salad with sesame dressing is 120. Beer is 150 a glass, and yakiniku is the one meal in Japan where people order 3.",
+      "Tabehodai (all you can eat) at Gyukaku or Anan is where it becomes a 1,800 calorie sitting. Four hundred grams of meat is the average, 1,300 calories of it if half is kalbi, plus rice, plus the nomihodai beer. It is not a bad meal in terms of protein, 100g of it, but the fat is 90g and that is a full day's worth in 90 minutes. The version that works is 200g of meat with more harami than kalbi, one bowl of rice, one beer, and the free kimchi and lettuce wraps doing the volume."
+    ],
+    "lighter": [
+      "Order harami and tan over kalbi. About 250 and 220 per 100g against 370 for fatty short rib.",
+      "Two plates of meat per person, not four. Each plate is 80 to 100g and 250 to 370 calories.",
+      "Wrap the meat in the lettuce (sanchu) instead of piling it on rice. The lettuce is free, the rice is 310.",
+      "Salt and lemon (shio) on the meat instead of tare. Saves about 60 calories over a meal and the beef tastes of beef.",
+      "One beer. The second and third are 300 calories and they make you order the extra plate of kalbi."
+    ],
+    "components": [
+      {"name": "Kalbi (short rib)", "grams": 100, "calories": 370},
+      {"name": "Harami (skirt)", "grams": 100, "calories": 250},
+      {"name": "Rice", "grams": 200, "calories": 310},
+      {"name": "Tare dipping sauce", "grams": 40, "calories": 50},
+      {"name": "Kimchi and lettuce", "grams": 60, "calories": 20}
+    ],
+    "portions": [
+      {"label": "1 plate of kalbi, 100g", "calories": 370},
+      {"label": "1 person, 200g meat with rice", "calories": 1000},
+      {"label": "Tabehodai, 400g meat, rice and 2 beers", "calories": 1800}
+    ],
+    "variants": [
+      {"name": "Tan shio (tongue with salt), 100g", "calories": 220, "note": "The lean order"},
+      {"name": "Harami, 100g", "calories": 250, "note": "Skirt steak, moderate fat"},
+      {"name": "Kalbi, 100g", "calories": 370, "note": "Marbled short rib"},
+      {"name": "Yakiniku teishoku (100g meat, rice, soup)", "calories": 768, "note": "Composition table figure"},
+      {"name": "Jo kalbi (premium wagyu short rib), 100g", "calories": 480, "note": "More marbling, more fat"}
+    ],
+    "faq": [
+      {"q": "How many calories in yakiniku?", "a": "About 1,000 for a normal one person order of 200g meat with rice. A single 100g plate of kalbi is about 370, harami about 250."},
+      {"q": "How many calories in Gyukaku all you can eat?", "a": "Around 1,800 for a typical sitting of 400g meat, a bowl of rice and 2 beers. Heavy on kalbi and it passes 2,000."},
+      {"q": "What is the lowest calorie cut at yakiniku?", "a": "Tan (tongue) with salt at about 220 per 100g, then harami at 250. Kalbi is 370 and premium wagyu cuts pass 450."},
+      {"q": "Is yakiniku healthy?", "a": "It is 50g of protein per 200g of meat, which is good. It is also 45g of fat and 1,000 calories with rice. Choose lean cuts and wrap in lettuce and it is a fair dinner."}
+    ],
+    "related": ["sukiyaki", "gyudon", "samgyeopsal", "galbi"],
+    "source": "calorie.slism.jp 焼肉定食 1人前 768 kcal (100g beef); asken.jp kalbi 350 to 400 kcal per 100g; one person 200g order built from components"
+  },
+  {
+    "slug": "edamame",
+    "name": "Edamame",
+    "aka": ["枝豆", "えだまめ", "Salted Soybeans", "Boiled Edamame"],
+    "category": "veg",
+    "region": ["jp"],
+    "serving": "1 bowl (250g in pods)",
+    "servingGrams": 250,
+    "calories": 175,
+    "protein": 16,
+    "carbs": 12,
+    "fat": 8,
+    "metaDescription": "A bowl of edamame is about 175 calories for 250g in the pod, with 16g of protein. The best thing on an izakaya menu for the number, if it stays boiled.",
+    "summary": "Young soybeans boiled in the pod and salted, served in a bowl at every izakaya in Japan as the thing you eat while the first beer arrives. About 140g of beans once you throw the pods away.",
+    "answer": "A standard izakaya bowl of edamame, about 250g in the pod, is roughly 175 calories once you account for the pods you do not eat. That is about 140g of beans at 125 calories per 100g, with 16g of protein and 8g of fat. It is one of the few bar snacks in Japan that is worth eating for the number.",
+    "realTalk": [
+      "Edamame is the rare izakaya order that is better than it looks. A whole bowl is 175 calories and 16g of protein, which is the protein of 2 eggs for the calories of one rice ball. The fat is the good kind, 8g from the soybean itself, and the fibre is 7g. It takes 10 minutes to eat because you are popping pods, so it slows down the drinking. Nothing else on the otsumami menu comes close. Karaage is 470 for a plate. Potato salad is 250. A single kushikatsu is 100.",
+      "The salt is the only thing to think about. A bowl carries 1 to 2g of it, which makes you drink more, which is the whole point from the izakaya's side. That is where edamame goes wrong: not the beans, but the third beer they pull along at 150 each. The garlic butter and chilli oil versions that trendy places sell add 60 to 90 calories of fat per bowl and taste like it. The plain boiled ones with sea salt are the deal.",
+      "The frozen bags from the supermarket are the same thing. Three hundred grams of frozen pods is about 210 calories and it is a 3 minute microwave. As a snack at home it beats every chip and every rice cracker on protein by a mile, and a bowl of it before dinner means you eat a smaller dinner. That is the trick with high protein, high fibre food: it does not make you thinner, it makes the next meal smaller."
+    ],
+    "lighter": [
+      "Order it plain with salt. Garlic butter and chilli oil versions add 60 to 90 calories of fat.",
+      "Make it the first order and the last. It slows the beer down, and the beer is where izakaya calories go.",
+      "Ask for less salt (shio hikaeme). Less thirst, one fewer beer.",
+      "At home, a 300g frozen bag is about 210 calories and 20g of protein for a 3 minute snack.",
+      "Pair with a highball at 70 calories instead of a beer at 150 if you are having 2 or 3."
+    ],
+    "components": [
+      {"name": "Edamame beans, edible", "grams": 138, "calories": 173},
+      {"name": "Pods, not eaten", "grams": 111, "calories": 0},
+      {"name": "Salt", "grams": 1, "calories": 0}
+    ],
+    "portions": [
+      {"label": "Small dish, 120g in pod", "calories": 85},
+      {"label": "Izakaya bowl, 250g in pod", "calories": 175},
+      {"label": "Frozen bag, 300g", "calories": 210}
+    ],
+    "variants": [
+      {"name": "Boiled with salt", "calories": 175, "note": "The standard"},
+      {"name": "Charred (yaki edamame)", "calories": 185, "note": "A little oil on the grill"},
+      {"name": "Garlic butter edamame", "calories": 250, "note": "About 10g butter"},
+      {"name": "Spicy chilli oil edamame", "calories": 265, "note": "Rayu is pure oil"}
+    ],
+    "faq": [
+      {"q": "How many calories in a bowl of edamame?", "a": "About 175 for a 250g izakaya bowl in the pod, which is 140g of beans. Per 100g of shelled beans it is about 125."},
+      {"q": "How much protein is in edamame?", "a": "About 16g in an izakaya bowl and 11 to 12g per 100g of shelled beans. Higher than most vegetables and close to eggs for the calories."},
+      {"q": "Is edamame good for weight loss?", "a": "Yes. High protein, high fibre, low calorie, and slow to eat. A bowl before dinner reliably makes dinner smaller."},
+      {"q": "Is edamame keto?", "a": "Borderline. A bowl has about 12g of carbs, 7g of it fibre, so 5g net. Fine in a small dish, less so by the bag."}
+    ],
+    "related": ["gyoza", "yakitori", "miso-soup", "chicken-karaage"],
+    "source": "calorie.slism.jp 枝豆 1袋 250g (edible 138g) 173 kcal; rounded to 175"
+  }
+]

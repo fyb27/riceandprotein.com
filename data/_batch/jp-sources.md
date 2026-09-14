@@ -33,3 +33,12 @@ Written 2026-09-15 from the per record source field. One line per record: slug |
 - onigiri-tuna-mayo | 197 kcal per 1 onigiri (110g) | 7-Eleven Japan product page (直巻しょうゆおむすび ツナマヨネーズ 197 kcal; 炭火焼紅しゃけ 174 kcal), Sep 2026
 - melon-pan | 420 kcal per 1 bun (105g) | estimate from components
 - yakitori | 231 kcal per 2 skewers (thigh, tare sauce) (100g) | Torikizoku published allergen and nutrition PDF (もも貴族焼 たれ 231 kcal per 2 skewers, 塩 208, むね たれ 165, つくね たれ 171), Sep 2026
+
+## jp-3.json
+
+- matcha-latte | 240 kcal per 1 tall (350ml) (350g) | Starbucks Coffee Japan published nutrition (抹茶 ティー ラテ tall milk: hot 232 kcal P7.6 F6.7 C35.8, iced 214 kcal), June 2026; rounded to 240
+- daifuku | 225 kcal per 1 piece (96g) | calorie.slism.jp 大福 1個 96g 225 kcal
+- taiyaki | 215 kcal per 1 piece (95g) | calorie.slism.jp たい焼き 1個 94.9g 213 kcal P5.4 F3.2 C41.5; rounded to 215
+- sukiyaki | 455 kcal per 1 serving (no rice) (460g) | calorie.slism.jp すき焼き 1人前 458g 454 kcal P26.6 F24.4 C30.9; restaurant figures built from components at 500 kcal per 100g A5 wagyu
+- yakiniku | 1000 kcal per 1 person (200g meat with rice) (500g) | calorie.slism.jp 焼肉定食 1人前 768 kcal (100g beef); asken.jp kalbi 350 to 400 kcal per 100g; one person 200g order built from components
+- edamame | 175 kcal per 1 bowl (250g in pods) (250g) | calorie.slism.jp 枝豆 1袋 250g (edible 138g) 173 kcal; rounded to 175

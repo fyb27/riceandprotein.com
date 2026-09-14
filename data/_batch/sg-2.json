@@ -1,0 +1,1772 @@
+[
+  {
+    "slug": "chwee-kueh",
+    "name": "Chwee Kueh",
+    "aka": [
+      "Chwee Kway",
+      "Water Rice Cake",
+      "水粿",
+      "Chye Poh Kueh"
+    ],
+    "category": "snacks",
+    "region": [
+      "sg"
+    ],
+    "serving": "6 pieces with chye poh",
+    "servingGrams": 240,
+    "calories": 342,
+    "protein": 5,
+    "carbs": 52,
+    "fat": 13,
+    "metaDescription": "A plate of 6 chwee kueh with chye poh is about 342 calories. The steamed cakes are light.",
+    "summary": "Chwee kueh is the Singapore breakfast of small steamed rice cakes with a dip in the middle, topped with chye poh, preserved radish fried in oil with garlic, and a spoon of chilli.",
+    "answer": "A plate of 6 chwee kueh with chye poh is about 342 calories for a 240g serving, with around 13g of fat. The 6 steamed rice cakes are about 215 calories together. The oily chye poh topping is around 110, and the chilli about 17.",
+    "realTalk": [
+      "The rice cakes are steamed rice flour and water, nothing else, about 36 calories each. Six of them are 215. The reason the plate is 342 is the topping. Chye poh is preserved radish fried in a lot of oil with garlic and a bit of sugar, and a hawker spoon of it holds about 40g, of which a good part is oil. That is about 110 calories on top of the cakes. The chilli adds 17. So one third of a chwee kueh breakfast is the topping.",
+      "Some stalls are famous precisely because they are heavy handed with the chye poh and the oil pools on the plate. A plate from one of those is closer to 400 for the same 6 pieces. HealthHub puts a 5 piece plate at about 250, which is a stall with a lighter hand. The cakes are the same everywhere. The topping is the variable.",
+      "At S$2 for 6 pieces, this is the cheap breakfast that nobody counts. 342 calories is about the same as a plate of economy bee hoon with egg at 369, with much less protein, only 5g. It is fine as a breakfast. It is a lot as a snack after another meal."
+    ],
+    "lighter": [
+      "Ask for less chye poh or chye poh on the side. Half the topping saves about 55 calories.",
+      "Order 4 pieces instead of 6. The plate drops to about 230.",
+      "Tip the plate and let the oil drain off the topping before eating. It sounds petty, and it works.",
+      "Skip the chilli if it is the oily kind. Some stalls use a dry sambal, which is closer to 10 calories than 20.",
+      "Pair it with a kopi o at 60 rather than a kopi c at 87, and a hard boiled egg from the drinks stall for protein."
+    ],
+    "components": [
+      {
+        "name": "Steamed rice cakes, 6 pieces",
+        "grams": 180,
+        "calories": 215
+      },
+      {
+        "name": "Chye poh in oil",
+        "grams": 40,
+        "calories": 110
+      },
+      {
+        "name": "Chilli",
+        "grams": 10,
+        "calories": 17
+      }
+    ],
+    "portions": [
+      {
+        "label": "4 pieces",
+        "calories": 230
+      },
+      {
+        "label": "6 pieces",
+        "calories": 342
+      },
+      {
+        "label": "8 pieces with extra chye poh",
+        "calories": 480
+      }
+    ],
+    "variants": [
+      {
+        "name": "5 pieces, light topping",
+        "calories": 250,
+        "note": "HealthHub figure"
+      },
+      {
+        "name": "6 pieces, standard",
+        "calories": 342,
+        "note": "HPB figure"
+      },
+      {
+        "name": "6 pieces, oily famous stall",
+        "calories": 400,
+        "note": "Heavy chye poh"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is chwee kueh healthy?",
+        "a": "The rice cakes are, at about 36 calories each and fat free. The chye poh is fried in oil and adds around 110 calories to a plate of 6. It is a fine breakfast at 342, but low in protein at 5g."
+      },
+      {
+        "q": "How many calories in one chwee kueh?",
+        "a": "About 36 calories for the steamed cake alone, and about 57 with its share of chye poh and chilli. A 6 piece plate comes to 342."
+      },
+      {
+        "q": "Is chye poh high in calories?",
+        "a": "Yes, for what it is. Preserved radish itself is low, but it is fried in oil with garlic and sugar. A hawker spoon of about 40g is roughly 110 calories, mostly from the oil."
+      },
+      {
+        "q": "Is chwee kueh the same as soon kueh?",
+        "a": "No. Chwee kueh is plain steamed rice cake with a topping. Soon kueh is a rice flour skin wrapped around a turnip and bamboo shoot filling, about 89 calories each."
+      }
+    ],
+    "related": [
+      "soon-kueh",
+      "chai-tow-kway",
+      "you-tiao",
+      "chee-cheong-fun"
+    ],
+    "source": "HPB iDAT via danielfooddiary.com 2015 (342 per 6), HealthHub.sg (250 per 5)"
+  },
+  {
+    "slug": "chai-tow-kway",
+    "name": "Chai Tow Kway (Carrot Cake)",
+    "aka": [
+      "Fried Carrot Cake",
+      "Singapore Carrot Cake",
+      "菜头粿",
+      "Chye Tow Kway",
+      "Black Carrot Cake",
+      "White Carrot Cake"
+    ],
+    "category": "snacks",
+    "region": [
+      "sg"
+    ],
+    "serving": "1 plate",
+    "servingGrams": 295,
+    "calories": 493,
+    "protein": 10,
+    "carbs": 48,
+    "fat": 28,
+    "metaDescription": "A hawker plate of chai tow kway is about 493 calories with 35g of fat. Black is around 585, white around 403. Neither has any carrot in it.",
+    "summary": "Chai tow kway is the Singapore hawker dish of steamed radish cake cut into cubes and fried on a flat griddle with egg, garlic, chye poh and chilli. White is fried plain, black is fried with sweet dark soy.",
+    "answer": "A standard hawker plate of chai tow kway is about 493 calories for a 295g plate, with around 28 to 35g of fat. The white version is about 403 calories and the black version with sweet dark soy is about 585. The radish cake itself is only 260 of that. The oil and egg are the rest.",
+    "realTalk": [
+      "There is no carrot in it. Chai tow means white radish, and the cake is radish and rice flour steamed into a block, which is about 130 calories per 100g before frying. 200g of that is 260 calories. Then it goes onto a griddle with a big ladle of oil, one and a half eggs, chye poh and garlic. The eggs add 110, the oil about 90, and the seasonings 35. That is the 493 figure from KKH, with 35g of fat, which is more fat than a plate of char kway teow.",
+      "Black versus white is a 180 calorie decision. White is fried in oil and egg, about 403. Black is the same plate with sweet dark soy sauce poured on and caramelised, about 585. The sweet soy is sugar syrup, and the stall pours a lot of it to get the colour. If you like black, ask for less sauce and you land somewhere near 500.",
+      "The crispy style, where the stall presses the cake flat and fries it until the edges are brown, takes on more oil than the soft style. Crispy white can reach the black number. The soft, wetter style with more egg and less time on the griddle is usually the lighter plate, even though it looks messier."
+    ],
+    "lighter": [
+      "Order white, not black. That is about 180 calories of sweet soy avoided.",
+      "Ask for less oil. The stall controls the ladle, and a light fry saves 50 to 80 calories.",
+      "Ask for extra egg. Egg is the protein on this plate, and one more egg is 75 calories that actually fills you.",
+      "Order the S$3 plate, not the S$5. The bigger plate is about 50 percent more cake and oil.",
+      "Skip the chilli if it is oily. Some stalls fry the chilli into the cake and it adds about 30 calories."
+    ],
+    "components": [
+      {
+        "name": "Steamed radish cake",
+        "grams": 200,
+        "calories": 260
+      },
+      {
+        "name": "Eggs, 1.5",
+        "grams": 80,
+        "calories": 110
+      },
+      {
+        "name": "Frying oil",
+        "grams": 10,
+        "calories": 90
+      },
+      {
+        "name": "Chye poh, garlic, chilli, sauce",
+        "grams": 25,
+        "calories": 35
+      }
+    ],
+    "portions": [
+      {
+        "label": "White, small plate",
+        "calories": 403
+      },
+      {
+        "label": "Standard plate",
+        "calories": 493
+      },
+      {
+        "label": "Black, large plate",
+        "calories": 585
+      }
+    ],
+    "variants": [
+      {
+        "name": "White carrot cake",
+        "calories": 403,
+        "note": "HPB figure, no sweet soy"
+      },
+      {
+        "name": "Mixed plate",
+        "calories": 493,
+        "note": "KKH figure, 295g"
+      },
+      {
+        "name": "Black carrot cake",
+        "calories": 585,
+        "note": "HPB figure, with sweet dark soy"
+      },
+      {
+        "name": "Black, large with extra egg",
+        "calories": 700,
+        "note": "S$5 plate"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is chai tow kway healthy?",
+        "a": "Not really. A standard plate is about 493 calories with 35g of fat and only 10g of protein. The radish cake itself is fine, the problem is the oil it is fried in and the sweet soy on the black version."
+      },
+      {
+        "q": "Is white or black carrot cake healthier?",
+        "a": "White. It is about 403 calories against 585 for black. The difference is the sweet dark soy sauce, which is mostly sugar and adds around 180 calories to the plate."
+      },
+      {
+        "q": "Does Singapore carrot cake have carrot in it?",
+        "a": "No. It is white radish, called chai tow in Hokkien, mixed with rice flour and steamed. The name is a translation quirk. A 100g piece of the steamed cake is about 130 calories."
+      },
+      {
+        "q": "How many calories in a small plate of carrot cake?",
+        "a": "About 400 for a S$3 white plate and around 480 for a S$3 black plate. The S$4 to S$5 plates run 500 to 700 depending on colour and how much oil the stall uses."
+      }
+    ],
+    "related": [
+      "char-kuey-teow",
+      "chwee-kueh",
+      "oyster-omelette",
+      "lo-bak-go"
+    ],
+    "source": "KKH dietitians via HealthXchange.sg (493, 295g), HPB iDAT via danielfooddiary.com (black 585, white 403)"
+  },
+  {
+    "slug": "ngoh-hiang",
+    "name": "Ngoh Hiang",
+    "aka": [
+      "Ngo Hiang",
+      "Five Spice Roll",
+      "五香",
+      "Loh Bak",
+      "Ngoh Hiang Platter"
+    ],
+    "category": "snacks",
+    "region": [
+      "sg"
+    ],
+    "serving": "1 mixed platter with sweet sauce",
+    "servingGrams": 300,
+    "calories": 805,
+    "protein": 25,
+    "carbs": 70,
+    "fat": 48,
+    "metaDescription": "A mixed ngoh hiang platter with sweet sauce is about 805 calories. Every item on it is deep fried, and the pink sauce is sugar on top.",
+    "summary": "Ngoh hiang in Singapore is the hawker platter of five spice pork rolls in beancurd skin, plus a spread of other fried items like prawn fritters, fish cake, fried tofu, century egg and sausage, cut up and served with sweet pink sauce and chilli.",
+    "answer": "A standard mixed ngoh hiang platter with sweet sauce is about 805 calories for a 300g serving, with around 48g of fat. Two five spice rolls are about 220 calories. The rest is a plate of fried beancurd, fish cake, prawn fritter and tofu at around 460, plus about 125 from the sweet sauce and chilli.",
+    "realTalk": [
+      "The name says one thing and the plate says another. Ngoh hiang is the pork roll, and two of those are about 220 calories, which is not bad for a snack with 12g of protein. But nobody orders two rolls. The stall hands you a tray and you point, and a normal order is 6 to 8 pieces of different fried things. A fried beancurd skin is 150, a prawn fritter 130, a fried fish cake 80, a fried tofu 100. That is 805 for a platter you eat standing up.",
+      "The sweet sauce is the part people forget. The pink, sticky sauce is sweet potato starch and sugar, and the stall floods the plate with it. Together with the chilli it is about 125 calories. It is a dessert sauce on a plate of fried food. Ask for it on the side and you can dip instead of soak, which saves about 80.",
+      "The old style stalls that make everything themselves tend to fry in fresh oil at high heat, which means the items absorb a little less. The mass produced ones sit in warm oil and soak. A platter from the second kind can be 900 or more. Choose the stall where the tray is refilled from a hot wok, not from a stack in the display."
+    ],
+    "lighter": [
+      "Order 3 items, not 7. Two rolls and a fish cake is about 300 calories.",
+      "Ask for the sauce on the side and dip. It saves around 80 calories of sugar.",
+      "Choose the pork rolls, fish cake and century egg over the beancurd skin, prawn fritter and tofu. The first three are the leanest items.",
+      "Share the platter with one other person and order a bowl of soup each.",
+      "Skip the fried sausage and the fried egg. Both are oil sponges, about 120 and 110."
+    ],
+    "components": [
+      {
+        "name": "Five spice pork rolls, 2 pieces",
+        "grams": 80,
+        "calories": 220
+      },
+      {
+        "name": "Fried beancurd skin",
+        "grams": 40,
+        "calories": 150
+      },
+      {
+        "name": "Fried fish cake",
+        "grams": 40,
+        "calories": 80
+      },
+      {
+        "name": "Prawn fritter",
+        "grams": 45,
+        "calories": 130
+      },
+      {
+        "name": "Fried tofu or fried sotong",
+        "grams": 40,
+        "calories": 100
+      },
+      {
+        "name": "Sweet sauce and chilli",
+        "grams": 60,
+        "calories": 125
+      }
+    ],
+    "portions": [
+      {
+        "label": "3 items with sauce",
+        "calories": 350
+      },
+      {
+        "label": "Standard platter, 6 to 7 items",
+        "calories": 805
+      },
+      {
+        "label": "Large sharing platter eaten alone",
+        "calories": 1200
+      }
+    ],
+    "variants": [
+      {
+        "name": "2 five spice rolls only",
+        "calories": 220,
+        "note": "With a little chilli"
+      },
+      {
+        "name": "Rolls, fish cake, century egg",
+        "calories": 380,
+        "note": "The leaner pick"
+      },
+      {
+        "name": "Standard mixed platter",
+        "calories": 805,
+        "note": "HPB figure with sweet sauce"
+      },
+      {
+        "name": "Platter with fried sausage and egg added",
+        "calories": 1050,
+        "note": ""
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is ngoh hiang healthy?",
+        "a": "The pork roll on its own is fine, about 110 calories with 6g of protein. The full hawker platter is not, at about 805 calories and 48g of fat, because every item is deep fried and the sweet sauce adds sugar."
+      },
+      {
+        "q": "How many calories in one ngoh hiang roll?",
+        "a": "About 110 calories per roll of around 40g. It is minced pork, prawn and water chestnut in beancurd skin, deep fried."
+      },
+      {
+        "q": "How many calories in the ngoh hiang sweet sauce?",
+        "a": "About 100 calories for the usual hawker pour of 50g. It is sweet potato starch, sugar and food colouring. The chilli adds another 25."
+      },
+      {
+        "q": "Is loh bak the same as ngoh hiang?",
+        "a": "Yes, loh bak is the Penang name for the same five spice pork roll. The Singapore platter version with many fried items alongside is the one that reaches 805 calories."
+      }
+    ],
+    "related": [
+      "lok-lok",
+      "yong-tau-foo-fried",
+      "popiah",
+      "spring-rolls"
+    ],
+    "source": "HPB iDAT via danielfooddiary.com 2015"
+  },
+  {
+    "slug": "chinese-rojak",
+    "name": "Chinese Rojak",
+    "aka": [
+      "Rojak Singapore",
+      "罗惹",
+      "Fruit Rojak with You Tiao",
+      "Rojak with Prawn Paste"
+    ],
+    "category": "snacks",
+    "region": [
+      "sg"
+    ],
+    "serving": "1 plate",
+    "servingGrams": 300,
+    "calories": 559,
+    "protein": 14,
+    "carbs": 68,
+    "fat": 26,
+    "metaDescription": "A plate of Chinese rojak is about 559 calories. The fruit is nearly free. The you tiao, tau pok, peanuts and sugary prawn paste dressing are not.",
+    "summary": "Chinese rojak is the Singapore hawker salad of pineapple, cucumber, turnip, bean sprouts and kangkong tossed with cut you tiao and tau pok in a thick, sweet prawn paste dressing, topped with crushed peanuts.",
+    "answer": "A standard plate of Chinese rojak is about 559 calories for a 300g serving, with around 26g of fat. The fruit and vegetables are about 50 calories. The you tiao and tau pok are around 200, the prawn paste and sugar dressing about 190, and the peanuts another 115.",
+    "realTalk": [
+      "It looks like a fruit salad and eats like a dessert. The pineapple, cucumber, turnip and greens on a plate come to about 50 calories. Everything else is added. The dressing is hae ko, black prawn paste, mixed with sugar, tamarind, lime and chilli, and the stall uses about 60g of it, which is around 190 calories, most of it sugar. Then two pieces of you tiao and a tau pok, both fried, about 200. And 20g of crushed peanuts at 115. That is how a vegetable plate reaches 559.",
+      "The famous rojak stalls, the ones with a queue, tend to toast the you tiao and tau pok over charcoal first, which makes them crispier and slightly drier. It does not change the calories much. What changes the calories is the second spoon of dressing and the extra peanuts they put on the S$5 plate, which takes it to around 650.",
+      "The Malay style rojak buah, fruit only with a thinner dressing, is about 300. The mamak pasembur, which is fried fritters under a sweet potato gravy, is 700. Chinese rojak sits between them. The fruit is the cheap part of all three. The fried pieces and the dressing decide the number."
+    ],
+    "lighter": [
+      "Ask for no you tiao. That is about 130 calories of fried dough gone, and the rest of the plate is unchanged.",
+      "Ask for less sauce. Half the dressing saves about 95 calories and the fruit still tastes of prawn paste.",
+      "Ask for extra pineapple and cucumber. They are under 20 calories per handful and they stretch the dressing.",
+      "Skip the peanut topping or ask for a light sprinkle. The full 20g is 115 calories.",
+      "Order the S$3 plate, not S$5. The bigger plate is mostly extra you tiao and sauce."
+    ],
+    "components": [
+      {
+        "name": "You tiao and tau pok",
+        "grams": 60,
+        "calories": 200
+      },
+      {
+        "name": "Pineapple, cucumber, turnip, bean sprouts",
+        "grams": 140,
+        "calories": 50
+      },
+      {
+        "name": "Prawn paste and sugar dressing",
+        "grams": 60,
+        "calories": 190
+      },
+      {
+        "name": "Crushed peanuts",
+        "grams": 20,
+        "calories": 115
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small plate, no you tiao",
+        "calories": 400
+      },
+      {
+        "label": "Standard plate",
+        "calories": 559
+      },
+      {
+        "label": "Large with extra sauce and peanuts",
+        "calories": 700
+      }
+    ],
+    "variants": [
+      {
+        "name": "Fruit only with dressing",
+        "calories": 320,
+        "note": "No fried items, no peanuts"
+      },
+      {
+        "name": "Standard plate, no you tiao",
+        "calories": 430,
+        "note": ""
+      },
+      {
+        "name": "Standard Chinese rojak",
+        "calories": 559,
+        "note": "HPB figure"
+      },
+      {
+        "name": "With cuttlefish and extra you tiao",
+        "calories": 700,
+        "note": "The premium order"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is rojak healthy?",
+        "a": "The fruit is, the rest is not. A hawker plate is about 559 calories, with the you tiao, tau pok, peanuts and sugary prawn paste dressing making up over 500 of it. Order it without the fried items and with less sauce and it is around 320."
+      },
+      {
+        "q": "How many calories in rojak sauce?",
+        "a": "About 190 calories for the 60g a hawker uses. Black prawn paste on its own is low, but the dressing is mostly sugar, with tamarind, chilli and lime."
+      },
+      {
+        "q": "Is Chinese rojak or Malay rojak lower in calories?",
+        "a": "Malay rojak buah at about 300 calories is lower. It is fruit with a thinner, less sugary dressing and no fried dough. Chinese rojak at 559 includes you tiao, tau pok and a thicker prawn paste dressing."
+      },
+      {
+        "q": "How much sugar is in rojak?",
+        "a": "Around 35 to 40g per plate, mostly from the dressing and the pineapple. That is close to the sugar in a can of soft drink."
+      }
+    ],
+    "related": [
+      "rojak-buah",
+      "pasembur",
+      "you-tiao",
+      "satay-bee-hoon"
+    ],
+    "source": "HPB iDAT via danielfooddiary.com 2015"
+  },
+  {
+    "slug": "you-tiao",
+    "name": "You Tiao",
+    "aka": [
+      "Youtiao",
+      "Yu Char Kway",
+      "油条",
+      "Chinese Cruller",
+      "Fried Dough Stick",
+      "Cakoi"
+    ],
+    "category": "snacks",
+    "region": [
+      "sg"
+    ],
+    "serving": "1 pair (2 sticks joined)",
+    "servingGrams": 70,
+    "calories": 192,
+    "protein": 4,
+    "carbs": 22,
+    "fat": 10,
+    "metaDescription": "A pair of you tiao is about 192 calories, so 96 per stick. Almost half of it is the oil the dough soaks up in the fryer.",
+    "summary": "You tiao is the long, airy fried dough stick sold in pairs at Singapore hawker centres and kopitiams, eaten with porridge, dipped in kopi, cut into rojak and tau suan, or on its own with a spread of kaya.",
+    "answer": "A standard pair of you tiao is about 192 calories for a 70g serving, or 96 calories per stick, with around 10g of fat. The dough itself is about 120 of those calories. The rest is oil absorbed during frying, which is why a piece that weighs almost nothing carries a real number.",
+    "realTalk": [
+      "You tiao is hollow, which is why it feels like eating air. The catch is that the dough puffs up in hot oil and every bubble inside is coated. A pair weighs about 70g and roughly 8g of that is oil, about 70 calories. The flour and leavening give the other 120. So 192 for a pair. That is comparable to a slice of kaya toast with butter at about 185, and less filling.",
+      "It is rarely eaten alone, which is where it adds up. Half a pair cut into a bowl of porridge takes a 293 calorie pork porridge to about 390. A pair on the side of tau suan is already in the 293 figure for that bowl. Two pieces in Chinese rojak are about 130 of that plate. The you tiao is never the headline, and it is always there.",
+      "The kopitiam version dipped in kopi is the classic breakfast, and the dipping does not change anything. But the version with a spread of kaya and a slab of butter does. A pair with kaya is about 260, and with kaya and butter about 320. The you tiao and kaya from the same kaya toast stall is the heaviest thing on that menu per bite."
+    ],
+    "lighter": [
+      "Eat one stick, not the pair. The stall will sell you a single for half the price at many places.",
+      "Skip the kaya and butter spread. Plain you tiao is 192, with kaya and butter it is about 320.",
+      "If you are adding it to porridge, break in half a stick, not a whole pair. That is 48 calories against 192.",
+      "Choose the smaller, thinner you tiao if the stall has two sizes. The jumbo pair at some stalls is close to 250.",
+      "Pair it with a kopi o or teh o at around 60 rather than a kopi c at 87 or a Milo at 250."
+    ],
+    "components": [
+      {
+        "name": "Wheat flour dough",
+        "grams": 55,
+        "calories": 120
+      },
+      {
+        "name": "Oil absorbed in frying",
+        "grams": 8,
+        "calories": 70
+      },
+      {
+        "name": "Sugar and salt in dough",
+        "grams": 2,
+        "calories": 5
+      }
+    ],
+    "portions": [
+      {
+        "label": "1 stick",
+        "calories": 96
+      },
+      {
+        "label": "1 pair",
+        "calories": 192
+      },
+      {
+        "label": "1 pair with kaya and butter",
+        "calories": 320
+      }
+    ],
+    "variants": [
+      {
+        "name": "Half a stick in porridge",
+        "calories": 48,
+        "note": ""
+      },
+      {
+        "name": "1 stick",
+        "calories": 96,
+        "note": ""
+      },
+      {
+        "name": "1 pair, plain",
+        "calories": 192,
+        "note": "HPB figure"
+      },
+      {
+        "name": "1 pair with kaya",
+        "calories": 260,
+        "note": ""
+      },
+      {
+        "name": "1 pair with kaya and butter",
+        "calories": 320,
+        "note": ""
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in one you tiao?",
+        "a": "About 96 calories per stick, or 192 for the joined pair that hawkers usually sell. A pair weighs around 70g and about 8g of that is absorbed frying oil."
+      },
+      {
+        "q": "Is you tiao unhealthy?",
+        "a": "It is fried dough, so it is high in fat for its weight, about 10g per pair, with only 4g of protein. One pair is not a problem. The problem is that it turns up inside porridge, rojak and tau suan without being counted."
+      },
+      {
+        "q": "Is you tiao the same as cakoi?",
+        "a": "Yes. Cakoi is the Malay name for the same fried dough stick. In Singapore the Chinese name you tiao or yu char kway is more common at hawker stalls."
+      },
+      {
+        "q": "How many calories in you tiao with kaya?",
+        "a": "About 260 calories for a pair with a spread of kaya, and around 320 with kaya and butter. The kaya adds about 70 and a slab of butter about 60."
+      }
+    ],
+    "related": [
+      "chinese-rojak",
+      "pork-porridge",
+      "tau-suan",
+      "kaya-toast"
+    ],
+    "source": "HPB iDAT via danielfooddiary.com 2015"
+  },
+  {
+    "slug": "soon-kueh",
+    "name": "Soon Kueh",
+    "aka": [
+      "Soon Kway",
+      "Bamboo Shoot Kueh",
+      "笋粿",
+      "Turnip Kueh",
+      "Teochew Soon Kueh"
+    ],
+    "category": "snacks",
+    "region": [
+      "sg"
+    ],
+    "serving": "1 piece",
+    "servingGrams": 60,
+    "calories": 89,
+    "protein": 2,
+    "carbs": 15,
+    "fat": 3,
+    "metaDescription": "One soon kueh is about 89 calories. It is a steamed dumpling with a turnip filling, so it is one of the lighter kueh at the hawker stall.",
+    "summary": "Soon kueh is the Teochew steamed dumpling with a translucent rice and tapioca flour skin, filled with shredded turnip, bamboo shoot, dried shrimp and mushroom, brushed with oil and eaten with sweet dark soy and chilli.",
+    "answer": "One soon kueh is about 89 calories for a 60g piece, with around 3g of fat. The skin is about 45 calories, the vegetable filling about 25, and the oil brushed on top after steaming makes up the rest. Three pieces with sauce is about 280.",
+    "realTalk": [
+      "The filling is turnip and bamboo shoot, which are nearly free. 25g of stir fried filling with a little dried shrimp is about 25 calories. The skin is where the number lives, 30g of rice and tapioca flour at about 45. The stall brushes each kueh with oil so they do not stick, which is about 18 calories per piece. That is 89 for one, and the sweet soy on top adds around 10 more.",
+      "This is the kueh to pick at a stall that also sells png kueh, ku chai kueh and fried yam. Png kueh is glutinous rice inside, about 150 per piece. The fried version of soon kueh, pan fried until the skin is crisp, is about 120 because it takes on more oil. Steamed soon kueh at 89 is the lowest calorie savoury kueh on most trays.",
+      "The problem is that they are small and the sauce is good. Three is a normal order, at about 280 with sauce, and that is a reasonable breakfast. Five with extra sweet soy is close to 500, which is a full meal from something that looks like a snack. Two pieces and a kopi o is about 240 and holds you until lunch."
+    ],
+    "lighter": [
+      "Order the steamed ones, not pan fried. The fried version is about 30 calories more per piece.",
+      "Ask for chilli only and skip the sweet dark soy. The sauce is about 10 calories per piece and it is pure sugar.",
+      "Stop at three. Each one is 89, and the fourth and fifth are the ones nobody remembers eating.",
+      "Pair with a boiled egg from the kopitiam for protein. Soon kueh only has 2g per piece.",
+      "Pick soon kueh over png kueh. Same stall, about 60 calories less per piece because there is no glutinous rice inside."
+    ],
+    "components": [
+      {
+        "name": "Rice and tapioca flour skin",
+        "grams": 30,
+        "calories": 45
+      },
+      {
+        "name": "Turnip, bamboo shoot and dried shrimp filling",
+        "grams": 27,
+        "calories": 26
+      },
+      {
+        "name": "Oil brushed on skin",
+        "grams": 2,
+        "calories": 18
+      }
+    ],
+    "portions": [
+      {
+        "label": "1 piece",
+        "calories": 89
+      },
+      {
+        "label": "2 pieces",
+        "calories": 178
+      },
+      {
+        "label": "3 pieces with sauce",
+        "calories": 280
+      }
+    ],
+    "variants": [
+      {
+        "name": "Steamed soon kueh",
+        "calories": 89,
+        "note": "HPB figure"
+      },
+      {
+        "name": "Ku chai kueh (chive)",
+        "calories": 95,
+        "note": "Same skin, chive filling"
+      },
+      {
+        "name": "Pan fried soon kueh",
+        "calories": 120,
+        "note": "Crisp skin, more oil"
+      },
+      {
+        "name": "Png kueh",
+        "calories": 150,
+        "note": "Glutinous rice filling"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is soon kueh healthy?",
+        "a": "It is one of the lighter hawker kueh at about 89 calories each with 3g of fat. The filling is mostly vegetable. It is low in protein, so it works as a snack or a light breakfast rather than a full meal."
+      },
+      {
+        "q": "How many calories in 3 soon kueh?",
+        "a": "About 267 for the kueh and around 280 with the sweet soy and chilli. That is a reasonable breakfast portion."
+      },
+      {
+        "q": "Is soon kueh fried or steamed?",
+        "a": "Steamed, then brushed with oil. Some stalls also pan fry them on request, which takes each piece from 89 to about 120 calories."
+      },
+      {
+        "q": "What is the difference between soon kueh and png kueh?",
+        "a": "The filling. Soon kueh has turnip and bamboo shoot, png kueh has glutinous rice with dried shrimp and peanuts. Png kueh is about 150 calories each, soon kueh about 89."
+      }
+    ],
+    "related": [
+      "chwee-kueh",
+      "ang-ku-kueh",
+      "chee-cheong-fun",
+      "popiah"
+    ],
+    "source": "HPB iDAT via danielfooddiary.com 2015"
+  },
+  {
+    "slug": "ang-ku-kueh",
+    "name": "Ang Ku Kueh",
+    "aka": [
+      "Ang Koo Kueh",
+      "Red Tortoise Cake",
+      "红龟粿",
+      "Kuih Angku"
+    ],
+    "category": "snacks",
+    "region": [
+      "sg"
+    ],
+    "serving": "1 piece",
+    "servingGrams": 60,
+    "calories": 180,
+    "protein": 3,
+    "carbs": 33,
+    "fat": 4,
+    "metaDescription": "One ang ku kueh is about 180 calories. Green bean filling is around 141, peanut filling around 240. The glutinous rice skin is more than half of it.",
+    "summary": "Ang ku kueh is the red, tortoise shaped glutinous rice kueh with a sweet mung bean or peanut filling, pressed in a wooden mould and steamed on a piece of banana leaf. A Hokkien celebration kueh sold daily at Singapore hawker stalls.",
+    "answer": "One standard ang ku kueh is about 180 calories for a 60g piece, with around 4g of fat. A green bean filling piece is about 141 calories and a peanut filling piece about 240. The glutinous rice skin is roughly 90 calories on its own.",
+    "realTalk": [
+      "It is dense because it is meant to be. The skin is glutinous rice flour with sweet potato and oil, kneaded until it is chewy, about 90 calories for a 35g skin. The filling is the swing. Sweet mung bean paste at 25g is about 80 calories, which gives the 180 figure for a standard piece. The all green bean version with a thinner skin is about 141. The peanut version, with ground peanuts and sugar, is about 240 because peanuts are 60 percent fat.",
+      "One is a snack. Three is a meal. A box of 3 mixed ang ku kueh is about 550 calories, which is more than a plate of chicken rice, and the box gets finished in the car. The stalls sell them by the piece for about S$1.20, so buy the one you want and walk away.",
+      "The mini ones, about half the size, are around 90 calories each. The jumbo ones sold for prayers and birthdays are close to 300. Same kueh, three sizes, a big range. Look at the size before you decide it is a small snack."
+    ],
+    "lighter": [
+      "Choose the green bean filling over peanut. That is about 100 calories less per piece.",
+      "Buy one, not a box. A box of 3 is about 550 calories.",
+      "Look for the mini size. Half the weight, about 90 calories.",
+      "Eat it with a kopi o, not a teh c. The kueh already has enough sugar, about 15g per piece.",
+      "Skip the extra oil. Some stalls brush the kueh with oil after steaming, and you can wipe it off with the banana leaf."
+    ],
+    "components": [
+      {
+        "name": "Glutinous rice and sweet potato skin",
+        "grams": 35,
+        "calories": 90
+      },
+      {
+        "name": "Sweet mung bean filling",
+        "grams": 24,
+        "calories": 80
+      },
+      {
+        "name": "Oil brushed on skin",
+        "grams": 1,
+        "calories": 10
+      }
+    ],
+    "portions": [
+      {
+        "label": "Mini piece",
+        "calories": 90
+      },
+      {
+        "label": "Standard piece",
+        "calories": 180
+      },
+      {
+        "label": "Jumbo piece for prayers",
+        "calories": 300
+      }
+    ],
+    "variants": [
+      {
+        "name": "Green bean filling",
+        "calories": 141,
+        "note": "Thinner skin, mung bean paste"
+      },
+      {
+        "name": "Standard mixed",
+        "calories": 180,
+        "note": "Typical hawker size"
+      },
+      {
+        "name": "Coconut filling",
+        "calories": 200,
+        "note": "Gula melaka and grated coconut"
+      },
+      {
+        "name": "Peanut filling",
+        "calories": 240,
+        "note": "Ground peanut and sugar"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in ang ku kueh?",
+        "a": "About 180 calories for a standard piece. The green bean version is around 141 and the peanut version about 240, because ground peanuts carry more fat than mung bean paste."
+      },
+      {
+        "q": "Is ang ku kueh healthy?",
+        "a": "It is a sweet snack, about 180 calories with 15g of sugar and 3g of protein. One piece is fine. It is easy to eat three, which puts you at 550 calories from a snack."
+      },
+      {
+        "q": "Why is ang ku kueh red?",
+        "a": "The skin is coloured red for luck, traditionally with food colouring, and shaped like a tortoise for long life. The colour does not change the calories, which come from the glutinous rice skin and the sweet filling."
+      },
+      {
+        "q": "Is peanut or green bean ang ku kueh better?",
+        "a": "For calories, green bean at about 141 against 240 for peanut. The peanut version has slightly more protein at about 5g, but the extra 100 calories are mostly fat and sugar."
+      }
+    ],
+    "related": [
+      "soon-kueh",
+      "onde-onde",
+      "kuih-koci",
+      "tutu-kueh"
+    ],
+    "source": "singaporecalorie.com and fatsecret.sg (180 standard, 141 green bean, 240 peanut)"
+  },
+  {
+    "slug": "bak-chang",
+    "name": "Bak Chang",
+    "aka": [
+      "Bak Zhang",
+      "Rice Dumpling",
+      "肉粽",
+      "Zongzi",
+      "Nyonya Chang",
+      "Nonya Dumpling"
+    ],
+    "category": "snacks",
+    "region": [
+      "sg"
+    ],
+    "serving": "1 dumpling",
+    "servingGrams": 150,
+    "calories": 352,
+    "protein": 12,
+    "carbs": 48,
+    "fat": 13,
+    "metaDescription": "One nonya bak chang is about 352 calories. A Hokkien one with pork belly, salted egg yolk and chestnut is closer to 450. It is a meal, not a snack.",
+    "summary": "Bak chang is the glutinous rice dumpling wrapped in bamboo leaves and boiled, filled with pork, mushrooms and sometimes salted egg yolk, chestnut or candied winter melon. Sold year round in Singapore and in bulk around the Dragon Boat Festival.",
+    "answer": "One standard nonya bak chang is about 352 calories for a 150g dumpling, with around 13g of fat and 12g of protein. The 100g of glutinous rice is about 180 calories, the pork filling about 100, and the lard or oil used to fry the rice around 40.",
+    "realTalk": [
+      "The rice does most of the work. 100g of cooked glutinous rice is about 180 calories, and it is fried in lard with shallots before it is wrapped, which adds about 40 more. The nonya filling is lean minced pork with candied winter melon and mushroom, about 130 for the lot. So 352 for a dumpling that fits in one hand. It is the same calories as a plate of white carrot cake, and people eat it as a mid afternoon snack.",
+      "The Hokkien style is heavier. It uses pork belly instead of lean pork, a whole salted egg yolk, a chestnut and sometimes dried scallop, and the rice is darker because it is fried with more soy and oil. That dumpling is about 450, and the big ones sold for the festival can pass 550. The kee chang, the plain alkaline dumpling with no filling that you dip in gula melaka, is about 120 without the syrup.",
+      "It is also dense in a way that does not register. Glutinous rice is packed tight, so a 150g bak chang has more rice than a 150g scoop of ordinary rice. That is why it sits in your stomach for hours. That is also why one is enough. Two nonya chang is 700 calories, which is a full dinner."
+    ],
+    "lighter": [
+      "Eat one, and count it as a meal, not a snack. It is 352 calories.",
+      "Choose nonya over Hokkien. Lean pork and no salted egg yolk saves about 100 calories.",
+      "Skip the sweet sauce or the extra sambal. Nonya chang is already sweetened with candied winter melon.",
+      "If it is a kee chang, use one spoon of gula melaka syrup, not three. Each spoon is about 50 calories.",
+      "Have it with a bowl of clear soup or vegetables. The dumpling has no vegetables in it and only 12g of protein."
+    ],
+    "components": [
+      {
+        "name": "Glutinous rice",
+        "grams": 100,
+        "calories": 180
+      },
+      {
+        "name": "Minced pork filling",
+        "grams": 40,
+        "calories": 100
+      },
+      {
+        "name": "Candied winter melon and mushroom",
+        "grams": 15,
+        "calories": 30
+      },
+      {
+        "name": "Lard or oil for frying rice",
+        "grams": 4,
+        "calories": 40
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small dumpling",
+        "calories": 250
+      },
+      {
+        "label": "Standard nonya dumpling",
+        "calories": 352
+      },
+      {
+        "label": "Large Hokkien dumpling with salted egg",
+        "calories": 500
+      }
+    ],
+    "variants": [
+      {
+        "name": "Kee chang, no filling",
+        "calories": 120,
+        "note": "Alkaline dumpling, without syrup"
+      },
+      {
+        "name": "Nonya chang",
+        "calories": 352,
+        "note": "HPB figure"
+      },
+      {
+        "name": "Hokkien bak chang",
+        "calories": 450,
+        "note": "Pork belly, salted egg yolk, chestnut"
+      },
+      {
+        "name": "Festival size with dried scallop and belly",
+        "calories": 550,
+        "note": ""
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in a bak chang?",
+        "a": "About 352 for a nonya dumpling and about 450 for a Hokkien one with pork belly and salted egg yolk. The big festival dumplings can be 550 or more."
+      },
+      {
+        "q": "Is bak chang healthy?",
+        "a": "It is a complete meal in a leaf, with 48g of carbs, 12g of protein and 13g of fat. That is fine for lunch. The issue is treating a 352 calorie dumpling as a snack between meals."
+      },
+      {
+        "q": "Why is glutinous rice so high in calories?",
+        "a": "It is not higher per gram than white rice, both are about 130 calories per 100g cooked. The difference is density. Glutinous rice packs tightly, so a dumpling holds more rice than the same volume of loose rice."
+      },
+      {
+        "q": "How many calories in a kee chang?",
+        "a": "About 120 calories for the plain alkaline dumpling. Each spoon of gula melaka syrup you dip it in adds about 50, so a kee chang with syrup is around 200."
+      }
+    ],
+    "related": [
+      "lo-mai-kai",
+      "pulut",
+      "ketupat",
+      "ngoh-hiang"
+    ],
+    "source": "HPB iDAT via danielfooddiary.com 2015 (nonya 352)"
+  },
+  {
+    "slug": "kaya-waffle",
+    "name": "Kaya Waffle",
+    "aka": [
+      "Waffle with Kaya",
+      "Kopitiam Waffle",
+      "Kaya Waffle Singapore",
+      "Peanut Kaya Waffle"
+    ],
+    "category": "snacks",
+    "region": [
+      "sg"
+    ],
+    "serving": "1 waffle with kaya",
+    "servingGrams": 130,
+    "calories": 400,
+    "protein": 7,
+    "carbs": 58,
+    "fat": 15,
+    "metaDescription": "A kaya waffle from a Singapore confectionery is about 400 calories. The waffle is 300 of it, the kaya adds 85, and the peanut butter version is around 500.",
+    "summary": "The kaya waffle is the folded, warm waffle from Singapore neighbourhood confectioneries and kopitiam stalls, spread with coconut egg jam and sometimes peanut butter, chocolate or butter, sold for S$1.50 to S$2.50.",
+    "answer": "A standard kaya waffle is about 400 calories for a 130g serving, with around 15g of fat. The plain waffle is about 300 calories on its own. The kaya spread adds around 85 and the margarine brushed on the iron about 20. A peanut butter and kaya version is closer to 500.",
+    "realTalk": [
+      "The waffle batter is flour, sugar, egg and margarine, cooked on an oiled iron, and a folded kopitiam waffle weighs about 100g. That is 300 calories before anything is spread on it. Kaya is coconut milk, egg and sugar, about 280 calories per 100g, and the stall uses about 30g, so 85. The total of 400 is the same as a bowl of pork porridge plus a you tiao, for something you eat in four minutes.",
+      "The spread menu is where it climbs. Peanut butter is about 90 calories per tablespoon and a peanut butter and kaya waffle is about 500. Chocolate spread is similar. Butter and kaya, which is the kaya toast combination in waffle form, is about 460. The plain waffle with nothing is 300, and honestly the waffle is sweet enough on its own that plain is not a punishment.",
+      "The size varies a lot between stalls. The old style confectioneries make a thin, crisp waffle that is closer to 80g and about 330 with kaya. The newer stalls with the thick Belgian style irons make a 150g waffle that is about 450 before spread. If the waffle is thick enough to hold a scoop of ice cream, it is a dessert plate, not a snack."
+    ],
+    "lighter": [
+      "Order it with kaya only, not kaya and peanut butter. The peanut butter is about 100 calories.",
+      "Ask for half the kaya. Most stalls spread generously, and half saves around 40 calories.",
+      "Share one. Half a kaya waffle at 200 with a kopi o is a reasonable tea break.",
+      "Choose the thin kopitiam waffle over the thick Belgian style one. The difference is about 120 calories.",
+      "Skip the butter option. Kaya alone is 85, kaya with butter is about 145."
+    ],
+    "components": [
+      {
+        "name": "Waffle",
+        "grams": 100,
+        "calories": 300
+      },
+      {
+        "name": "Kaya",
+        "grams": 30,
+        "calories": 85
+      },
+      {
+        "name": "Margarine on the iron",
+        "grams": 2,
+        "calories": 20
+      }
+    ],
+    "portions": [
+      {
+        "label": "Plain waffle",
+        "calories": 300
+      },
+      {
+        "label": "Kaya waffle",
+        "calories": 400
+      },
+      {
+        "label": "Kaya and peanut butter waffle",
+        "calories": 500
+      }
+    ],
+    "variants": [
+      {
+        "name": "Plain waffle",
+        "calories": 300,
+        "note": ""
+      },
+      {
+        "name": "Kaya waffle",
+        "calories": 400,
+        "note": "HPB figure"
+      },
+      {
+        "name": "Butter and kaya waffle",
+        "calories": 460,
+        "note": ""
+      },
+      {
+        "name": "Peanut butter and kaya waffle",
+        "calories": 500,
+        "note": ""
+      },
+      {
+        "name": "Thick waffle with ice cream",
+        "calories": 650,
+        "note": "Cafe style"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in a kaya waffle?",
+        "a": "About 400 calories for a standard kopitiam waffle with kaya. The waffle itself is about 300 and the kaya spread around 85. Add peanut butter and it is about 500."
+      },
+      {
+        "q": "Is a kaya waffle worse than kaya toast?",
+        "a": "Yes, by a fair bit. A kaya toast set of 2 slices with butter is about 370 calories, and it comes with two eggs at the kopitiam. A kaya waffle is 400 on its own with 7g of protein."
+      },
+      {
+        "q": "How many calories in kaya?",
+        "a": "About 280 calories per 100g, or around 85 for the 30g spread on a waffle. It is coconut milk, eggs and sugar cooked into a jam, so roughly half the calories come from sugar."
+      },
+      {
+        "q": "Is the waffle or the kaya the problem?",
+        "a": "The waffle. At about 300 calories it is three quarters of the total. The kaya is the part people worry about, and it is the smaller number."
+      }
+    ],
+    "related": [
+      "kaya-toast",
+      "pau-kaya",
+      "apam-balik",
+      "french-toast"
+    ],
+    "source": "HPB iDAT via danielfooddiary.com 2015"
+  },
+  {
+    "slug": "bak-kwa",
+    "name": "Bak Kwa",
+    "aka": [
+      "Bakkwa",
+      "Chinese BBQ Pork Jerky",
+      "肉干",
+      "Rougan",
+      "Bee Cheng Hiang Bak Kwa",
+      "Long Yok"
+    ],
+    "category": "snacks",
+    "region": [
+      "sg"
+    ],
+    "serving": "1 slice (54g)",
+    "servingGrams": 54,
+    "calories": 179,
+    "protein": 13,
+    "carbs": 17,
+    "fat": 7,
+    "metaDescription": "One slice of bak kwa is about 179 calories. It is 13g of protein and 17g of sugar in the same square. A kilo box is around 3,300.",
+    "summary": "Bak kwa is the sweet, smoky grilled pork slice sold by weight from Singapore chains like Bee Cheng Hiang, Lim Chee Guan and Fragrance, eaten by the square during Chinese New Year and in bak kwa buns the rest of the year.",
+    "answer": "One standard square of bak kwa is about 179 calories for a 54g slice, with around 13g of protein, 17g of sugar and 7g of fat. That works out to about 330 calories per 100g. A 500g box is around 1,650 calories, and a 1kg box is about 3,300.",
+    "realTalk": [
+      "Bak kwa is minced pork pressed thin, marinated in sugar, soy, fish sauce and honey, dried and then grilled over charcoal. The drying concentrates everything. A slice of 54g is about 45g of pork and 10g of glaze, and the glaze is mostly sugar. That gives 13g of protein, which is decent, and 17g of sugar, which is a can of soft drink's worth in three slices. At 179 a slice it is fine as a snack and dangerous as a box.",
+      "The Chinese New Year queue is where the real damage happens. A 500g box is about 1,650 calories and it does not survive the first evening in most households. Ten slices over an afternoon is 1,790, which is a full day of food for most people trying to lose weight. The slices are thin and sweet and stop feeling like meat after the second one.",
+      "The lean cuts change the number a little. Chilli bak kwa is about the same. The minced pork slices are the standard at 179. The sliced whole meat version is slightly leaner, about 160. The bacon bak kwa, made from pork belly, is around 230 a slice because of the fat. The gold coin mini slices are about 60 each, which makes them easier to count and easier to lose count of."
+    ],
+    "lighter": [
+      "Buy 100g, not 500g. The shop will sell you two slices and that is 360 calories, a clear stopping point.",
+      "Choose the sliced whole meat version over minced. It is a little leaner, about 160 a slice.",
+      "Skip the bacon bak kwa. Pork belly takes it to about 230 a slice.",
+      "Cut a slice into strips and eat it with rice or in a sandwich. One slice as part of a meal makes sense, five slices as a snack does not.",
+      "Do not keep the box on the coffee table. This is the only tip that matters during Chinese New Year."
+    ],
+    "components": [
+      {
+        "name": "Lean pork",
+        "grams": 40,
+        "calories": 60
+      },
+      {
+        "name": "Pork fat",
+        "grams": 5,
+        "calories": 45
+      },
+      {
+        "name": "Sugar, honey and soy glaze",
+        "grams": 12,
+        "calories": 45
+      },
+      {
+        "name": "Oil brushed while grilling",
+        "grams": 3,
+        "calories": 27
+      }
+    ],
+    "portions": [
+      {
+        "label": "Half a slice",
+        "calories": 90
+      },
+      {
+        "label": "1 slice",
+        "calories": 179
+      },
+      {
+        "label": "3 slices",
+        "calories": 537
+      }
+    ],
+    "variants": [
+      {
+        "name": "Gold coin mini slice",
+        "calories": 60,
+        "note": "About 18g"
+      },
+      {
+        "name": "Sliced whole meat bak kwa",
+        "calories": 160,
+        "note": "Slightly leaner cut"
+      },
+      {
+        "name": "Minced pork bak kwa",
+        "calories": 179,
+        "note": "The standard square"
+      },
+      {
+        "name": "Chilli bak kwa",
+        "calories": 180,
+        "note": "Same as standard"
+      },
+      {
+        "name": "Bacon bak kwa",
+        "calories": 230,
+        "note": "Pork belly, more fat"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in one slice of bak kwa?",
+        "a": "About 179 calories for a standard 54g square, based on the Bee Cheng Hiang label. That is about 330 calories per 100g, with 13g of protein and 17g of sugar per slice."
+      },
+      {
+        "q": "Is bak kwa healthy?",
+        "a": "It is high in protein and high in sugar at the same time. One slice has 13g of protein, which is good, and 17g of sugar, which is not. One or two slices is fine. A box during Chinese New Year is 1,650 to 3,300 calories."
+      },
+      {
+        "q": "How many calories in 1kg of bak kwa?",
+        "a": "About 3,300 calories. A 1kg box is roughly 18 slices at 179 each. Spread over a family it is nothing, eaten by two people over a weekend it is a lot."
+      },
+      {
+        "q": "Is bak kwa keto or high protein?",
+        "a": "It is high protein but not keto. Each slice has about 17g of carbs, nearly all sugar from the glaze. Beef jerky without sugar is the closer fit for that."
+      }
+    ],
+    "related": [
+      "char-siew",
+      "siu-yoke",
+      "satay",
+      "daging-dendeng"
+    ],
+    "source": "FatSecret Singapore, Bee Cheng Hiang product label (179 per 54g slice)"
+  },
+  {
+    "slug": "tutu-kueh",
+    "name": "Tutu Kueh",
+    "aka": [
+      "Kueh Tutu",
+      "Kuih Tutu",
+      "嘟嘟糕",
+      "Tutu Cake",
+      "Steamed Rice Flour Cake"
+    ],
+    "category": "snacks",
+    "region": [
+      "sg"
+    ],
+    "serving": "2 pieces",
+    "servingGrams": 50,
+    "calories": 150,
+    "protein": 3,
+    "carbs": 26,
+    "fat": 4,
+    "metaDescription": "Two tutu kueh are about 150 calories with peanut filling, or 140 with coconut. Small, steamed and one of the lightest sweet snacks at the hawker centre.",
+    "summary": "Tutu kueh is the small, round steamed rice flour cake made in a metal mould with a spoon of ground peanut or grated coconut and sugar in the middle, served on a square of pandan leaf at Singapore hawker stalls and pasar malams.",
+    "answer": "Two tutu kueh with peanut filling are about 150 calories for a 50g serving, with around 4g of fat. Two with coconut filling are about 140. Each piece is roughly 75 calories, with the rice flour shell making up about two thirds of that.",
+    "realTalk": [
+      "This is about as light as a sweet hawker snack gets. The shell is finely ground rice flour with a little sugar, steamed for two minutes, about 100 calories for two shells. The filling is a teaspoon of ground peanut and sugar, about 40 calories for two, or grated coconut and gula melaka, about 30. So 150 for a pair of peanut, 140 for a pair of coconut. A pair is the standard order at S$1.50 to S$2.",
+      "The stalls sell them in fives and tens, and that is where the light snack stops being light. Five peanut tutu kueh is about 375 calories, ten is 750. They come out of the steamer soft and warm and they are gone in two bites each. The pandan leaf under them is not part of the count.",
+      "Compare to the other steamed kueh. Ang ku kueh is about 180 for one piece. Kuih putu, the bamboo tube version with gula melaka, is about 230 for two. Tutu kueh at 75 a piece is the lowest of the three because the shell is loose rice flour rather than dense glutinous dough."
+    ],
+    "lighter": [
+      "Choose coconut over peanut. The saving is small, about 5 calories a piece, but coconut has less fat.",
+      "Buy two, not five. Two is 150, five is 375.",
+      "Eat them warm. It sounds unrelated, but they taste of more when they are fresh, and two is enough.",
+      "Pair with a teh o kosong or kopi o, not a sweet drink. The kueh already carries about 10g of sugar per pair.",
+      "Skip the extra sugar sprinkle some stalls offer on top. It is about 15 calories per spoon."
+    ],
+    "components": [
+      {
+        "name": "Steamed rice flour shell, 2 pieces",
+        "grams": 36,
+        "calories": 100
+      },
+      {
+        "name": "Ground peanut filling",
+        "grams": 10,
+        "calories": 40
+      },
+      {
+        "name": "Sugar in shell",
+        "grams": 3,
+        "calories": 10
+      }
+    ],
+    "portions": [
+      {
+        "label": "1 piece",
+        "calories": 75
+      },
+      {
+        "label": "2 pieces",
+        "calories": 150
+      },
+      {
+        "label": "5 pieces",
+        "calories": 375
+      }
+    ],
+    "variants": [
+      {
+        "name": "2 pieces coconut",
+        "calories": 140,
+        "note": "Grated coconut and gula melaka"
+      },
+      {
+        "name": "2 pieces peanut",
+        "calories": 150,
+        "note": "Ground peanut and sugar"
+      },
+      {
+        "name": "2 pieces red bean",
+        "calories": 160,
+        "note": "Some stalls only"
+      },
+      {
+        "name": "5 pieces mixed",
+        "calories": 365,
+        "note": "The usual takeaway box"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in tutu kueh?",
+        "a": "About 75 calories per piece, so 150 for a pair with peanut filling and 140 for a pair with coconut. Five pieces is about 375."
+      },
+      {
+        "q": "Is tutu kueh healthy?",
+        "a": "It is one of the lighter sweet snacks at the hawker centre, steamed rather than fried, with about 4g of fat per pair. It is low in protein at 3g, so it is a snack, not a meal."
+      },
+      {
+        "q": "What is tutu kueh made of?",
+        "a": "Finely milled rice flour, steamed in a small metal mould around a filling of ground peanut and sugar or grated coconut and gula melaka, then served on pandan leaf."
+      },
+      {
+        "q": "Is tutu kueh the same as kuih putu?",
+        "a": "No. Kuih putu bambu is steamed in a bamboo tube with gula melaka inside and coconut on the side, about 230 calories per 2 pieces. Tutu kueh is smaller and round, about 150 per 2."
+      }
+    ],
+    "related": [
+      "kuih-putu",
+      "ang-ku-kueh",
+      "putu-mayam",
+      "onde-onde"
+    ],
+    "source": "singaporecalorie.com and fatsecret.sg (150 per 2 peanut, 140 coconut)"
+  },
+  {
+    "slug": "putu-mayam",
+    "name": "Putu Mayam",
+    "aka": [
+      "Putu Mayong",
+      "String Hoppers",
+      "Idiyappam",
+      "Puttu Mayam",
+      "Putu Mayam with Orange Sugar"
+    ],
+    "category": "snacks",
+    "region": [
+      "sg"
+    ],
+    "serving": "1 plate (2 nests with coconut and sugar)",
+    "servingGrams": 140,
+    "calories": 210,
+    "protein": 4,
+    "carbs": 40,
+    "fat": 4,
+    "metaDescription": "A plate of putu mayam with grated coconut and orange sugar is about 210 calories. The rice noodle nests are steamed, so most of the number is the sugar.",
+    "summary": "Putu mayam is the Indian Singaporean breakfast of steamed rice flour string noodles pressed into lacy nests, served with freshly grated coconut and orange coloured sugar or gula melaka, sold from hawker stalls and pasar malam carts.",
+    "answer": "A standard plate of putu mayam with 2 nests, grated coconut and orange sugar is about 210 calories for a 140g serving, with around 4g of fat. The two nests are about 130 calories, the grated coconut around 55, and the sugar about 25.",
+    "realTalk": [
+      "The noodle itself is steamed rice flour and water, about 65 calories per 50g nest. Two nests is 130. Nothing is fried and nothing has oil in it. The coconut is 20g of fresh grated white coconut at about 55, and the orange sugar is 12g at 25. That is the 210 plate for about S$1.50. It is a breakfast with fewer calories than a single kaya toast slice with butter.",
+      "The stall decides the sugar. Some pour the sugar on with a small spoon, some with a big one. Two spoons of the orange sugar and a heap of coconut takes the same plate to about 260. Gula melaka, which is sold as the premium option, is the same calories as white sugar per gram but the stalls use more of it because it is softer, so a gula melaka plate is usually 20 to 30 higher.",
+      "Where it goes wrong is quantity. Putu mayam is sold in stacks of 5 or 10 nests for the family, and eating 5 nests with coconut and sugar is about 480. It is light per nest and dangerous per stack. The Malay version with a thicker noodle, called putu mayong, is about the same per nest."
+    ],
+    "lighter": [
+      "Ask for less sugar. Half the orange sugar saves about 12 calories, and the coconut carries the flavour anyway.",
+      "Eat 2 nests, not 4. Each nest is about 65 calories before toppings.",
+      "Skip the gula melaka upgrade. The stall uses more of it than white sugar, and it adds around 25 calories.",
+      "Add a boiled egg from the drinks stall. Putu mayam has only 4g of protein per plate.",
+      "Choose putu mayam over appam with sugar if you want the lighter Indian breakfast. Two appam is about 276."
+    ],
+    "components": [
+      {
+        "name": "Steamed rice flour string hoppers, 2 nests",
+        "grams": 100,
+        "calories": 130
+      },
+      {
+        "name": "Grated coconut",
+        "grams": 20,
+        "calories": 55
+      },
+      {
+        "name": "Orange sugar",
+        "grams": 12,
+        "calories": 25
+      }
+    ],
+    "portions": [
+      {
+        "label": "1 nest with coconut and sugar",
+        "calories": 105
+      },
+      {
+        "label": "2 nests with coconut and sugar",
+        "calories": 210
+      },
+      {
+        "label": "5 nests with coconut and sugar",
+        "calories": 480
+      }
+    ],
+    "variants": [
+      {
+        "name": "2 nests plain",
+        "calories": 130,
+        "note": "No coconut or sugar"
+      },
+      {
+        "name": "2 nests with coconut and orange sugar",
+        "calories": 210,
+        "note": "Hawker standard"
+      },
+      {
+        "name": "2 nests with coconut and gula melaka",
+        "calories": 240,
+        "note": ""
+      },
+      {
+        "name": "Putu mayam with curry or dhal",
+        "calories": 300,
+        "note": "Savoury version at some Indian stalls"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in putu mayam?",
+        "a": "About 210 calories for a plate of 2 nests with grated coconut and orange sugar. Each nest on its own is around 65 calories. A stack of 5 with toppings is about 480."
+      },
+      {
+        "q": "Is putu mayam healthy?",
+        "a": "It is one of the lighter hawker breakfasts. Steamed rice noodles with no oil, about 4g of fat per plate. The downside is low protein at 4g and about 20g of sugar from the topping."
+      },
+      {
+        "q": "What is the orange sugar on putu mayam?",
+        "a": "Plain white sugar coloured orange, about 4 calories per gram like any sugar. A hawker spoon of about 12g adds around 25 calories to the plate."
+      },
+      {
+        "q": "Is putu mayam the same as idiyappam?",
+        "a": "Yes, same string hopper. In South India idiyappam is eaten with curry or coconut milk. In Singapore and Malaysia putu mayam is usually the sweet breakfast version with coconut and sugar."
+      }
+    ],
+    "related": [
+      "tutu-kueh",
+      "appam",
+      "idli",
+      "thosai"
+    ],
+    "source": "singaporecalorie.com and fatsecret.sg (196 to 220 per serving, 210 used)"
+  },
+  {
+    "slug": "appam",
+    "name": "Appam",
+    "aka": [
+      "Apom",
+      "Appam Manis",
+      "Hoppers",
+      "Palappam",
+      "Appam with Gula Melaka"
+    ],
+    "category": "mamak",
+    "region": [
+      "sg"
+    ],
+    "serving": "1 piece",
+    "servingGrams": 50,
+    "calories": 138,
+    "protein": 3,
+    "carbs": 26,
+    "fat": 2,
+    "metaDescription": "One appam is about 138 calories. Two with grated coconut and gula melaka syrup is about 380. The pancake is light, the toppings are not.",
+    "summary": "Appam is the bowl shaped fermented rice and coconut pancake with a soft, spongy centre and crisp lacy edges, cooked in a small curved pan and sold at Indian stalls and pasar malams in Singapore with sugar, grated coconut or gula melaka.",
+    "answer": "One appam is about 138 calories for a 50g piece, with around 2g of fat. The rice flour batter is about 105 calories, the coconut milk in the batter about 15, and the sugar around 18. Two appam with grated coconut and gula melaka syrup is about 380.",
+    "realTalk": [
+      "The pancake on its own is thin and mostly air at the edges. Rice flour, a little coconut milk and a spoon of sugar in a fermented batter, cooked without oil in a pan. That is 138 for one. Compare that to a thosai at 170 or a piece of roti prata at 300 with curry, and appam is the light option at the Indian stall.",
+      "The toppings are a different story. The pasar malam version comes with a spoon of grated coconut at about 55, and a pour of gula melaka syrup at about 60 per spoon. Two appam with coconut and syrup is about 380, and two with sugar and a slab of margarine, which some stalls do, is close to 400. The version with a whole egg cracked in the middle is about 210 per piece but it has 9g of protein, which is a better trade.",
+      "The size varies. A small pasar malam appam is about 40g and 110 calories. A large restaurant appam served with curry or sothi is closer to 80g and 220. Restaurant appam with a bowl of chicken curry is about 450 for two pieces, which is a full meal."
+    ],
+    "lighter": [
+      "Order it plain or with a light sprinkle of sugar. That keeps it at about 140 a piece.",
+      "Skip the gula melaka syrup or ask for one spoon. Each spoon is about 60 calories.",
+      "Get the egg appam. It adds about 70 calories and 6g of protein, which is a fair trade.",
+      "Two is plenty. Three with toppings is nearly 600.",
+      "Have it with kopi o or teh o. The appam already has sugar in the batter."
+    ],
+    "components": [
+      {
+        "name": "Fermented rice flour batter",
+        "grams": 42,
+        "calories": 105
+      },
+      {
+        "name": "Coconut milk in batter",
+        "grams": 5,
+        "calories": 15
+      },
+      {
+        "name": "Sugar",
+        "grams": 4,
+        "calories": 18
+      }
+    ],
+    "portions": [
+      {
+        "label": "1 piece",
+        "calories": 138
+      },
+      {
+        "label": "2 pieces",
+        "calories": 276
+      },
+      {
+        "label": "2 pieces with coconut and gula melaka",
+        "calories": 380
+      }
+    ],
+    "variants": [
+      {
+        "name": "Small pasar malam appam",
+        "calories": 110,
+        "note": "About 40g"
+      },
+      {
+        "name": "Standard appam",
+        "calories": 138,
+        "note": "Plain"
+      },
+      {
+        "name": "Appam with egg",
+        "calories": 210,
+        "note": "Egg cracked into the centre"
+      },
+      {
+        "name": "Large appam with sothi coconut gravy",
+        "calories": 330,
+        "note": "Restaurant style"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in appam?",
+        "a": "About 138 calories for a standard 50g piece. Two plain appam are 276, and two with grated coconut and gula melaka syrup are about 380."
+      },
+      {
+        "q": "Is appam healthy?",
+        "a": "The pancake is light, with about 2g of fat and no frying oil. It is low in protein at 3g. The egg version is the better choice if you want it to hold you until lunch."
+      },
+      {
+        "q": "Is appam lower in calories than thosai?",
+        "a": "Yes. A plain thosai is about 170 calories and a plain appam about 138. Both are fermented rice batters, but appam is smaller and cooked without oil in a curved pan."
+      },
+      {
+        "q": "What is the difference between appam and apam balik?",
+        "a": "Different dishes. Apam balik is the thick Malaysian peanut pancake at about 290 per wedge. Appam is the thin Indian rice flour pancake at 138 per piece."
+      }
+    ],
+    "related": [
+      "thosai",
+      "putu-mayam",
+      "idli",
+      "roti-canai"
+    ],
+    "source": "singaporecalorie.com and fatsecret.sg (138 per 50g)"
+  },
+  {
+    "slug": "kopi-c",
+    "name": "Kopi C",
+    "aka": [
+      "Kopi C Kosong",
+      "Kopi C Peng",
+      "Coffee with Evaporated Milk",
+      "咖啡C",
+      "Kopi Si"
+    ],
+    "category": "drinks",
+    "region": [
+      "sg"
+    ],
+    "serving": "1 cup (hot)",
+    "servingGrams": 200,
+    "calories": 87,
+    "protein": 2,
+    "carbs": 15,
+    "fat": 2,
+    "metaDescription": "A cup of kopi c is about 87 calories. Order it kosong and it drops to 47. The evaporated milk is lighter than condensed, but the sugar is still sugar.",
+    "summary": "Kopi c is the Singapore kopitiam coffee with evaporated milk and sugar, the middle option between kopi with sweet condensed milk and kopi o with no milk at all. Kosong means no sugar, peng means iced.",
+    "answer": "A cup of hot kopi c is about 87 calories for a 200ml cup, with around 15g of carbs, nearly all sugar. Kopi c kosong, with evaporated milk and no sugar, is about 47 calories. The evaporated milk is around 35 calories and the sugar about 50.",
+    "realTalk": [
+      "The C in kopi c stands for Carnation, the evaporated milk brand, which tells you what is in it. About 25ml of evaporated milk at 35 calories, plus a heaped teaspoon or two of sugar at 50, plus the coffee itself at about 2. That is 87. A normal kopi with condensed milk is about 130, because condensed milk is evaporated milk with the sugar already in it and the uncle adds more sugar anyway. Kopi c is the lighter milk coffee by about 45 calories.",
+      "The word that matters is kosong. Kopi c kosong is 47 calories, and the 40 you save is pure sugar. It takes about a week to get used to the taste, and after that the sweet version tastes like syrup. Two kopi c a day, every day, is 174 calories. Two kopi c kosong is 94. Over a year the difference is about 29,000 calories, which is roughly 4kg of fat, from changing one word.",
+      "Iced versions are bigger. Kopi c peng comes in a taller glass and the stall adds more milk and sugar to fight the ice, so it is closer to 130. A large kopi c peng from a stall that uses the big plastic cup is about 160. If you want it cold, kopi c peng kosong is about 60 and does the same job."
+    ],
+    "lighter": [
+      "Order kopi c kosong. It saves 40 calories per cup and you still get the milk.",
+      "Say siew dai, less sugar, if kosong is too far. That is about 65 calories.",
+      "Skip the peng. The iced version has more milk and sugar to compensate for the ice, about 130.",
+      "Choose kopi c over kopi. Evaporated milk is 87 against 130 for condensed.",
+      "Kopi o kosong is 5 calories if you want to go all the way. Kopi c kosong at 47 is the easier place to stop."
+    ],
+    "components": [
+      {
+        "name": "Evaporated milk",
+        "grams": 25,
+        "calories": 35
+      },
+      {
+        "name": "Sugar",
+        "grams": 12,
+        "calories": 50
+      },
+      {
+        "name": "Brewed kopi",
+        "grams": 165,
+        "calories": 2
+      }
+    ],
+    "portions": [
+      {
+        "label": "Kopi c kosong",
+        "calories": 47
+      },
+      {
+        "label": "Kopi c, standard",
+        "calories": 87
+      },
+      {
+        "label": "Kopi c peng, large",
+        "calories": 160
+      }
+    ],
+    "variants": [
+      {
+        "name": "Kopi o kosong",
+        "calories": 5,
+        "note": "Black, no sugar"
+      },
+      {
+        "name": "Kopi c kosong",
+        "calories": 47,
+        "note": "Evaporated milk, no sugar"
+      },
+      {
+        "name": "Kopi c siew dai",
+        "calories": 65,
+        "note": "Less sugar"
+      },
+      {
+        "name": "Kopi c",
+        "calories": 87,
+        "note": "Standard"
+      },
+      {
+        "name": "Kopi c peng",
+        "calories": 130,
+        "note": "Iced, more milk and sugar"
+      },
+      {
+        "name": "Kopi (condensed milk)",
+        "calories": 130,
+        "note": "For comparison"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in kopi c?",
+        "a": "About 87 calories for a standard hot cup. Kopi c kosong without sugar is about 47, and kopi c peng, the iced version, is around 130 because of the extra milk and sugar."
+      },
+      {
+        "q": "Is kopi c healthier than kopi?",
+        "a": "Yes, by about 45 calories. Kopi uses sweetened condensed milk at about 130 per cup. Kopi c uses evaporated milk with sugar added separately, so you can control the sugar by ordering kosong or siew dai."
+      },
+      {
+        "q": "What does the C in kopi c mean?",
+        "a": "Carnation, the evaporated milk brand the kopitiams used. It has come to mean any coffee with evaporated milk rather than condensed milk."
+      },
+      {
+        "q": "How much sugar is in kopi c?",
+        "a": "About 12g, roughly 3 teaspoons, in a standard cup. Kosong removes all of it. Siew dai roughly halves it."
+      }
+    ],
+    "related": [
+      "kopi-o",
+      "kopi-tarik",
+      "teh-c",
+      "kaya-toast"
+    ],
+    "source": "asiaone.com, HPB derived (87 standard, 47 kosong)"
+  },
+  {
+    "slug": "macaroni-chicken-soup",
+    "name": "Macaroni Chicken Soup",
+    "aka": [
+      "Macaroni Soup",
+      "Chicken Macaroni",
+      "通心粉",
+      "Hawker Macaroni",
+      "Macaroni in Soup"
+    ],
+    "category": "western",
+    "region": [
+      "sg"
+    ],
+    "serving": "1 bowl",
+    "servingGrams": 450,
+    "calories": 277,
+    "protein": 18,
+    "carbs": 38,
+    "fat": 6,
+    "metaDescription": "A hawker bowl of macaroni chicken soup is about 277 calories with 18g of protein. It is the lightest thing at most soup stalls, and it fills you.",
+    "summary": "Macaroni chicken soup is the Singapore hawker and kopitiam bowl of elbow macaroni in a clear chicken broth with shredded chicken, a few vegetables, fried shallots and a dash of pepper. The comfort food of the sick day and the school canteen.",
+    "answer": "A standard bowl of macaroni chicken soup is about 277 calories for a 450g bowl, with around 18g of protein and 6g of fat. The 120g of cooked macaroni is about 160 calories, the shredded chicken about 80, and the clear broth around 25.",
+    "realTalk": [
+      "This is the bowl to order when you want a hot meal for under 300. The macaroni is plain boiled pasta, about 160 calories for 120g cooked. The chicken is poached and shredded, 50g at about 80. The broth is clear stock, not thickened and not creamy, about 25 for a full bowl. A few slices of cabbage or carrot and a spoon of fried shallots add 15. That is 277 with 18g of protein, which is more protein per calorie than almost any noodle bowl at the hawker centre.",
+      "The reason it stays light is what is not in it. No oil dressing like bak chor mee. No coconut like laksa. No frying like Hokkien mee. The stalls that sell it usually also sell chicken porridge and fish soup, and it sits in the same range, 215 to 350. It is filling because it is mostly hot water with pasta soaking it up.",
+      "It gets heavier in two ways. Some stalls add a fried egg or a slice of luncheon meat, which is about 90 or 100 each. And some kopitiam versions add a spoon of margarine or a splash of evaporated milk to the broth, which adds about 50 and makes it taste like the school canteen version. Ask for it plain and it stays at 277."
+    ],
+    "lighter": [
+      "Ask for extra chicken. It is about 40 calories for another 25g and takes the protein over 25g.",
+      "Skip the fried egg or luncheon meat add on. Each is about 90 to 100 calories.",
+      "Ask for no margarine and no milk in the soup if the stall does that. That is about 50 calories.",
+      "Add the chilli padi and soy dip instead of pepper sauce. The dip is about 10 calories.",
+      "Get extra vegetables. Most stalls will add cabbage or lettuce for free."
+    ],
+    "components": [
+      {
+        "name": "Cooked macaroni",
+        "grams": 120,
+        "calories": 160
+      },
+      {
+        "name": "Shredded chicken",
+        "grams": 50,
+        "calories": 80
+      },
+      {
+        "name": "Clear chicken broth",
+        "grams": 250,
+        "calories": 25
+      },
+      {
+        "name": "Vegetables and fried shallots",
+        "grams": 30,
+        "calories": 15
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small bowl",
+        "calories": 220
+      },
+      {
+        "label": "Standard bowl",
+        "calories": 277
+      },
+      {
+        "label": "Large with fried egg",
+        "calories": 420
+      }
+    ],
+    "variants": [
+      {
+        "name": "Macaroni soup, no chicken",
+        "calories": 200,
+        "note": "Vegetable only"
+      },
+      {
+        "name": "Macaroni chicken soup",
+        "calories": 277,
+        "note": "HPB figure"
+      },
+      {
+        "name": "With evaporated milk",
+        "calories": 330,
+        "note": "Kopitiam style"
+      },
+      {
+        "name": "With fried egg and luncheon meat",
+        "calories": 470,
+        "note": ""
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is macaroni chicken soup healthy?",
+        "a": "Yes, it is one of the best hawker bowls for the calories. About 277 calories with 18g of protein and 6g of fat. The broth is clear, nothing is fried, and the portion is large enough to fill you."
+      },
+      {
+        "q": "How many calories in hawker macaroni soup?",
+        "a": "About 277 calories for a standard bowl with shredded chicken. Without chicken it is around 200. With a fried egg and luncheon meat it climbs to about 470."
+      },
+      {
+        "q": "Is macaroni soup good for weight loss?",
+        "a": "It is a good regular lunch. 277 calories leaves room for a proper dinner, and the 18g of protein plus a big bowl of hot broth keeps you full for a few hours."
+      },
+      {
+        "q": "Is macaroni soup or chicken porridge lower in calories?",
+        "a": "Chicken porridge at about 215 is slightly lower. Macaroni soup at 277 has more protein and more chew, so it tends to hold you longer for the extra 60 calories."
+      }
+    ],
+    "related": [
+      "mee-soto",
+      "sup-ayam",
+      "pork-porridge",
+      "sliced-fish-bee-hoon"
+    ],
+    "source": "HPB iDAT via danielfooddiary.com 2015"
+  }
+]

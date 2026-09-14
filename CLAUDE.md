@@ -1,4 +1,4 @@
-# CLAUDE.md — riceandprotein.com
+# CLAUDE.md , riceandprotein.com
 
 *Read this at the start of every session. No exceptions.*
 
@@ -6,11 +6,13 @@
 
 ## What this site is
 
-riceandprotein.com is a weight loss and recipe blog by a 36-year-old Malaysian guy who went from 128kg to 86kg (and now maintains around 92kg). No gimmicks, no supplements, no keto. Just calories in vs calories out — made sustainable through volume eating.
+riceandprotein.com is an Asian food calorie database plus a free TDEE calculator, run by a 36-year-old Malaysian guy who went from 128kg to 86kg (and now maintains around 92kg). No gimmicks, no supplements, no keto. Just calories in vs calories out , made sustainable through volume eating.
 
 The whole point: you don't have to starve. You just have to be smart about what you eat.
 
-**Audience:** Clueless about dieting. Probably a 30-something Asian guy (or woman) who has tried keto, gave up, is tired, slightly overweight, searching for recipes and stumbled onto this site. Treat them like your friend at the mamak who just asked you for real advice.
+**Audience:** Someone in Malaysia, Singapore, Indonesia, Thailand, Vietnam, the Philippines, Hong Kong, Japan or Korea who just typed "[dish] calories" into Google. Give them the number first, then the honest context.
+
+**2026-09-14 pivot:** the blog was deleted (17 posts made 7 impressions in 3 months; the food pages carry the whole site). The site is now a food calorie hub for Asia. Do not propose new blog posts. Growth = more countries and dishes in `/foods/`, plus backlinks and indexing.
 
 \---
 
@@ -21,8 +23,9 @@ The whole point: you don't have to starve. You just have to be smart about what 
 * Repo: github.com/fyb27/riceandprotein.com
 * Local folder: Z:/sites/riceandprotein/
 * Domain: riceandprotein.com (registered on Hostinger → GitHub Pages)
-* Fonts: Playfair Display (headings) + DM Sans (body) via Google Fonts
-* Same structure as bestsabah.com — forked and reskinned
+* Fonts: Inter via Google Fonts (single family, weights 400 to 700)
+* Design system: `css/site.css` (Apple style: white ground, #f5f5f7 cards, 18px radius, hairlines, blur header, pill buttons). Every page links it; page specific rules go in a small inline `<style>` after it.
+* Generated pages: `scripts/generate-foods.js` builds `/foods/` from `data/foods.json`. Never hand edit a file in `foods/` or `foods.html`, `sitemap.xml` foods block, or `llms.txt`; edit the data or the generator and rerun.
 
 \---
 
@@ -30,19 +33,20 @@ The whole point: you don't have to starve. You just have to be smart about what 
 
 ```
 riceandprotein.com/
-├── index.html
-├── blog.html
-├── about.html
+├── index.html            <- TDEE calculator (the homepage IS the calculator page)
+├── foods.html            <- GENERATED master hub (countries, categories, A to Z)
+├── about.html            <- author story (128kg to 86kg), E-E-A-T anchor
 ├── contact.html
-├── CLAUDE.md
-├── css/
-│   ├── style.css       ← site-wide styles
-│   └── post.css        ← post page only
-├── js/
-│   ├── main.js         ← mobile nav toggle
-│   └── post.js         ← progress bar, TOC, back to top
-└── posts/
-    └── (empty for now)
+├── diets.html + diets/   <- 6 diet guides
+├── posts/                <- 3 meta-refresh stubs only (old calorie posts -> foods/). Blog is gone.
+├── llms.txt              <- GENERATED
+├── sitemap.xml           <- core block hand kept; foods block GENERATED
+├── css/site.css          <- design system
+├── data/foods.json       <- the database (record shape: data/_batch/SPEC.md)
+├── data/_batch/          <- country batch JSON + SPEC.md + sources.md files
+├── scripts/generate-foods.js     <- builds foods/, foods.html, sitemap foods block, llms.txt
+├── scripts/add-region-batch.js   <- QA gate + merge for data/_batch/<cc>-N.json
+└── foods/                <- GENERATED: <slug>.html leaves, <category>.html hubs, <country>.html hubs
 ```
 
 \---
@@ -50,92 +54,79 @@ riceandprotein.com/
 ## Design system
 
 ```css
---bg:      #FAFAF8
---bg2:     #F2F0EB
---dark:    #1C1C1A
---text:    #1C1C1A
---muted:   #6B6860
---border:  #E2DDD6
---accent:  #C4622D    /\* burnt orange — main brand colour \*/
---accent2: #A84E22    /\* darker orange for hover states \*/
---white:   #ffffff
---max:     1160px
---header-h: 64px
+--bg:      #ffffff
+--bg2:     #f5f5f7   /* cards */
+--text:    #1d1d1f
+--muted:   #6e6e73
+--hair:    #d2d2d7   /* hairlines */
+--accent:  #d0642a   /* burnt orange, links + primary pill button + eyebrows ONLY */
+--accent2: #b8531f
+--good:    #1d9a4f
+--r:       18px      /* card radius */
+--header-h: 48px
 ```
 
-Use `--accent` and `--accent2` everywhere bestsabah.com uses `--green` and `--green2`. Never hardcode colours. Always use CSS variables.
+Never hardcode colours. Always use CSS variables from `css/site.css`. Orange is an accent, not a background. No serif fonts, no dark header.
 
 \---
 
-## Content categories
+## Content model
 
-|Label|slug|
+Everything lives in `data/foods.json`. One record = one page `foods/<slug>.html`.
+Record shape, required arrays and the voice rules for new records: `data/_batch/SPEC.md`.
+
+**Categories** (record `category`, one per food):
+
+|Key|Hub page|
 |-|-|
-|Recipes|recipes|
-|Calorie Counts|calories|
-|Diet Talk|diet|
-|Gym \& Fitness|gym|
-|Mindset|mindset|
-|My Journey|journey|
+|rice|foods/rice-meals.html|
+|noodles|foods/noodles.html|
+|dimsum|foods/dim-sum.html|
+|mamak|foods/mamak-and-bread.html|
+|soup|foods/soups.html|
+|lauk|foods/meat-grills-and-lauk.html|
+|veg|foods/vegetables-and-sides.html|
+|snacks|foods/snacks-and-kuih.html|
+|western|foods/western-and-burgers.html|
+|drinks|foods/drinks.html|
+|dessert|foods/desserts.html|
+
+**Regions** (record `region`, an array; a record with no region is Malaysian):
+my Malaysia, sg Singapore, id Indonesia, th Thailand, vn Vietnam, ph Philippines, hk Hong Kong, jp Japan, kr Korea.
+Each region gets `foods/<country>.html` once at least one food carries the code. Shared dishes carry several codes (`["my","sg"]`).
+The `REGION_PAGES` map in the generator holds each country's intro, sources and disclaimer context.
+
+**Local language FAQ:** the generator adds a Malay question on my/sg dishes and an Indonesian question on id dishes. Do not add other languages unless the copy can be written honestly.
 
 \---
 
-## Post template structure
+## Voice
 
-Same as bestsabah.com:
+Two registers, and the split matters.
 
-```
-1. <div class="reading-progress"></div>
-2. <header class="site-header">
-3. <div class="post"> (flex row)
-   a. <aside class="post-share"> — X, Facebook, copy link
-   b. <main class="post-main"> — date, title, badges, intro, hero image, body
-   c. <aside class="post-sidebar"> — TOC sticky at 35vh
-4. <section class="post-related"> — 3 related cards
-5. <footer class="site-footer">
-6. <button id="back-to-top">
-```
+**Malaysian and Singapore dishes:** the owner talking to his friend at the mamak. Blunt but warm, exaggerates for effect, mild swearing, lah/bah/kan/bro at most 2 or 3 per page, self deprecating about the 128kg days, real numbers always.
 
-CSS: `../css/style.css` + `../css/post.css`
-JS: `../js/post.js`
+**Every other country, plus the calculator, About, Contact and the diet guides:** neutral broad audience English. Same directness, same real numbers, same "here is the thing nobody tells you", but no Malaysian slang. Use that country's own food vocabulary (warung, cha chaan teng, konbini, pojangmacha).
 
-Post file naming: `posts/\[slug].html` — lowercase, hyphens only.
-
-\---
-
-## Voice — this is the most important section
-
-Write like the owner talks to his friend at the mamak. Casual, direct, slightly funny, real. Malaysian flavour.
-
-**Personality:**
-
-* Blunt but warm
-* Likes to exaggerate for effect ("bro that's MORE than 1kg of food per sitting")
-* Swears occasionally — "damn", "wtf", "shiok" — keep it mild, not every sentence
-* Uses lah, bah, kan, bro, liao, oso naturally — not forced, max 2-3 per post
-* Educational but never preachy
-* Self-deprecating about his own fat journey ("yes i was 128kg, don't judge")
-* Real numbers always: actual calories, actual weights, actual prices
-
-**Tone test — ask yourself:** does this sound like a guy explaining something to his friend at mamak, or does it sound like a health blog? If it sounds like a health blog, rewrite it.
+**Tone test:** does this sound like a person explaining something to a friend, or like a health blog? If it sounds like a health blog, rewrite it.
 
 **Good example:**
 
-> "Bro seriously, it's not that hard. You just have to eat a lot of the RIGHT things. Imagine this: 300g chicken breast, 250g rice, a pile of vegetables. That's more than 1kg of food per sitting. You think you can finish all that? Try lah. I guarantee you'll go to sleep full and happy."
+> "A bowl of pho is about 420 calories, and most of that is the rice noodles. The broth itself is nearly free. The problem is the plate of fried dough sticks on the side, which is another 300 before you notice."
 
 **Bad example:**
 
-> "Volume eating is a sustainable dietary approach that prioritizes high-quantity, nutrient-dense foods to promote satiety while maintaining a caloric deficit."
+> "Pho is a nutrient-dense Vietnamese soup that can be part of a balanced diet when consumed mindfully."
 
 Never write like the bad example. Ever.
 
 **Hard rules:**
 
-* NEVER use em dashes — anywhere, ever, in content or code
+* NEVER use em dashes or en dashes, anywhere, in content or code. The batch QA gate rejects them.
 * No fitness influencer language ("fuel your body", "clean eating", "your wellness journey")
-* No generic openers ("Losing weight is hard...")
-* Always specific — actual gram amounts, actual calorie numbers, actual meal times
-* Click-baity headlines are fine and encouraged ("I ate KFC every week and still lost weight")
+* No generic openers ("X is a popular dish in Y")
+* Always specific: actual gram amounts, actual calorie numbers, actual prices
+* Every paragraph carries at least one number
 
 \---
 
@@ -144,66 +135,40 @@ Never write like the bad example. Ever.
 1. Calories in vs calories out. Biology cannot be cheated.
 2. The only diet that works is one you can sustain.
 3. Fat people like to feel full. Use that. Eat huge volume, low calorie density.
-4. Combine with gym — 3x full body per week minimum. PPL if you have time.
+4. Combine with gym, 3x full body per week minimum. PPL if you have time.
 5. It's not miserable if the food is actually tasty and filling.
 
 \---
 
 ## SEO rules
 
-* Unique `<title>` per page — format: `Post Title | Rice and Protein`
-* `<meta name="description">` — max 155 characters, conversational tone, no keyword stuffing
-* Open Graph tags on every post:
-
-```html
-  <meta property="og:title" content="">
-  <meta property="og:description" content="">
-  <meta property="og:image" content="">
-  <meta property="og:url" content="">
-  <meta property="og:type" content="article">
-  ```
-
-* One `<h1>` per page only
-* Alt text on every image
-* Descriptive slugs: `posts/how-many-calories-bah-kut-teh.html`
-* Update `sitemap.xml` when new pages are added
-* `<link rel="canonical">` on every page
+* The generator owns titles, metas, canonicals, OG, JSON-LD (WebPage, BreadcrumbList, FAQPage, MenuItem with NutritionInformation), sitemap foods block and llms.txt. Fix the generator, not the output.
+* Leaf title: `<Name> Calories | Rice and Protein`, under 60 chars (alias dropped automatically if too long).
+* Meta descriptions 70 to 158 chars, state the kcal number, conversational.
+* Hand pages: unique `<title>`, one `<h1>`, canonical, OG tags, JSON-LD kept intact when restyling.
+* Homepage is THE TDEE calculator page. Never build a separate /tdee-calculator.html.
+* `foods.html` earns the most impressions on the site. Keep its full A to Z directory; that anchor text is the point.
+* Numbers are health adjacent. Source kcal from national tables where they exist and record the source on the record (`source` field). Keep the disclaimer on every page.
+* The ceiling is authority, not on-page: 110 of 289 pages were not indexed in July 2026. Backlinks, GSC indexing requests and Bing IndexNow move that. More templated pages alone do not.
 
 \---
 
-## Planned posts
+## Adding foods
 
-**Published:** none yet
+1. Write `data/_batch/<cc>-N.json` (max 15 records per file) following `data/_batch/SPEC.md`, plus `<cc>-sources.md`.
+2. `node scripts/add-region-batch.js <cc>` (QA gate: schema, macro and component sums, meta length, dash scan, related slugs, banned phrases). Fix errors, rerun.
+3. `node scripts/generate-foods.js` (rebuilds foods/, foods.html, sitemap foods block, llms.txt).
+4. Screenshots of a new leaf and the country hub, show the owner, then commit and push after approval.
+5. Owner requests indexing for the new country hub in GSC.
 
-**In pipeline:**
-
-1. The only diet that actually worked for me (intro/philosophy post)
-2. My go-to 1kg meal recipe (chicken breast, rice, vegetables)
-3. How to brine chicken — and does it actually make a difference?
-4. How many calories is bah kut teh actually?
-5. I ate KFC regularly and still lost the weight
-6. Motivation vs discipline — motivation is a lie
-7. Why keto sucks in Asia
-8. 128kg to 86kg — my full journey
+Adding a country: add it to `REGION_PAGES` in the generator (slug, label, title, intro, sources, ctx, lang) and to `VALID` in add-region-batch.js. Hand pages carry a hardcoded country list in their nav; sync it with the generated header after regenerating.
 
 \---
 
 ## Images
 
-* AI-generated cartoon illustrations (ChatGPT/DALL-E)
-* Style: flat, clean cartoon — think simple editorial illustration
-* Owner drops image files into the images folder manually
-* Always reference them in posts with descriptive alt text
-
-\---
-
-## When adding a new post
-
-1. Create `posts/\[slug].html` using post template
-2. Add card to `blog.html` posts grid with correct `data-cat`
-3. Add card to `index.html` Latest Stories section
-4. Update `sitemap.xml`
-5. Commit and push
+* Currently one og-image.jpg for the whole site and no images on food pages. Not a priority; a page that answers "how many calories" does not need a photo to rank.
+* If images are added: AI generated flat editorial illustrations, always with descriptive alt text.
 
 \---
 
@@ -212,9 +177,10 @@ Never write like the bad example. Ever.
 * Never add unrequested features
 * Never use em dashes anywhere
 * Match existing code style exactly
-* Always use CSS variables, never hardcode colours
-* When writing posts, follow the voice profile — mamak friend, not health blogger
-* Commit message format: `add post: kfc-weight-loss` / `seo: meta tags` / `fix: mobile nav`
+* Always use CSS variables from `css/site.css`, never hardcode colours
+* Never hand edit generated files (`foods/`, `foods.html`, `llms.txt`, sitemap foods block)
+* Do not propose blog posts. The blog is gone on purpose.
+* Show a rendered sample (screenshot) before committing or pushing anything
+* Commit message format: `add foods: sg batch` / `seo: meta tags` / `fix: mobile nav` / `design: site.css`
 * Ask before deleting any file
 * When unsure, ask
-

@@ -1,0 +1,754 @@
+[
+  {
+    "slug": "bakwan",
+    "name": "Bakwan",
+    "aka": [
+      "Bakwan Sayur",
+      "Bala-Bala",
+      "Ote-Ote",
+      "Bakwan Jagung",
+      "Indonesian Vegetable Fritter"
+    ],
+    "category": "snacks",
+    "region": [
+      "id"
+    ],
+    "serving": "1 piece",
+    "servingGrams": 55,
+    "calories": 135,
+    "protein": 2,
+    "carbs": 10,
+    "fat": 10,
+    "metaDescription": "One bakwan sayur is about 135 calories, and three quarters of that is frying oil. The cabbage and carrot inside are barely 10.",
+    "summary": "Bakwan is the flour and vegetable fritter on every gorengan cart: shredded cabbage, carrot and bean sprouts in a thin batter, dropped into hot oil until the edges go lacy. Bandung calls it bala-bala, Surabaya calls it ote-ote.",
+    "answer": "One bakwan sayur is about 135 calories. FatSecret Indonesia lists a piece at 137 calories with 11.6g fat, 6.7g carbs and 2g protein, which is 75% fat by energy. Bakwan jagung is a bit heavier at about 150, and the big ote-ote with a prawn on top is around 180.",
+    "realTalk": [
+      "A bakwan is a sponge for oil. The batter is thin wheat flour, so it is mostly surface area, and it fries in oil that has been reused since morning. FatSecret's figure of 137 calories per piece with 11.6g fat means the oil is 100 of the 137. The vegetables inside, 25g of cabbage and carrot, are about 10 calories. The flour is 25. The rest is what the fritter drank.",
+      "That makes bakwan the worst deal on the gorengan cart per bite, worse than tempe goreng at 95 with 6g protein or tahu isi at about 110. At Rp 1,000 to 2,000 a piece nobody buys one. The standard is three gorengan with rawit, and three bakwan is 400 calories with 6g protein. Add a glass of es teh manis and the 4pm snack is 500.",
+      "Size matters more than type. The small bala-bala from a Bandung cart is around 100. The big Surabaya ote-ote, thick, with a whole prawn pressed on top, is 180 to 200. Bakwan jagung (corn fritter) is about 150 because corn is sweeter and denser than cabbage. Bakwan udang with several small prawns is 160 and has a little more protein.",
+      "The one honest way to lower it is the pan. Bakwan made at home in a teflon pan with a spoon of oil is about 80 calories, and that is the difference between a fritter that absorbs oil and one that just cooks in it."
+    ],
+    "lighter": [
+      "One bakwan, two tempe. Same three gorengan for 325 calories instead of 400, with 14g protein instead of 6.",
+      "Pick the thin lacy ones over the thick pale ones. Thin bakwan fried hot absorbs less oil than a thick one fried slow.",
+      "Blot it. Sitting a bakwan on paper for a minute pulls off about 10 to 15 calories of surface oil. Small, but free.",
+      "Bakwan udang if the cart has it. The prawns add a few grams of protein for about the same calories.",
+      "At home, make it in a teflon pan with a teaspoon of oil. About 80 calories a piece."
+    ],
+    "components": [
+      {
+        "name": "Wheat flour batter",
+        "grams": 22,
+        "calories": 75
+      },
+      {
+        "name": "Cabbage, carrot, bean sprouts",
+        "grams": 25,
+        "calories": 10
+      },
+      {
+        "name": "Frying oil absorbed",
+        "grams": 6,
+        "calories": 50
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small bala-bala",
+        "calories": 100
+      },
+      {
+        "label": "1 bakwan sayur",
+        "calories": 135
+      },
+      {
+        "label": "3 bakwan with es teh manis",
+        "calories": 500
+      }
+    ],
+    "variants": [
+      {
+        "name": "Bakwan teflon (home, 1 tsp oil)",
+        "calories": 80,
+        "note": "Pan fried"
+      },
+      {
+        "name": "Bala-bala, small",
+        "calories": 100,
+        "note": "Bandung cart size"
+      },
+      {
+        "name": "Bakwan sayur",
+        "calories": 135,
+        "note": "FatSecret 137 per piece"
+      },
+      {
+        "name": "Bakwan jagung",
+        "calories": 150,
+        "note": "Corn fritter"
+      },
+      {
+        "name": "Ote-ote with prawn",
+        "calories": 190,
+        "note": "Surabaya, thick"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in bakwan?",
+        "a": "About 135 calories per piece of bakwan sayur according to FatSecret Indonesia. Three of them, the usual gorengan order, is about 400."
+      },
+      {
+        "q": "How many calories in bakwan jagung?",
+        "a": "About 150 calories per piece. Corn is denser and sweeter than cabbage, and the fritter is usually thicker."
+      },
+      {
+        "q": "Is bakwan healthy?",
+        "a": "No. It is 75% fat by calories, and the fat is reused frying oil. The vegetables inside are real but they are about 10 calories of the 135."
+      },
+      {
+        "q": "Which gorengan has the fewest calories?",
+        "a": "Tempe goreng, at about 95 with 6g protein. Tahu isi is around 110. Bakwan and pisang goreng are the heaviest per piece at 135 or more."
+      }
+    ],
+    "related": [
+      "tempe-goreng",
+      "pisang-goreng",
+      "cucur-udang",
+      "begedil"
+    ],
+    "source": "FatSecret Indonesia (bakwan 137 kcal per piece, 228 kcal/100g)"
+  },
+  {
+    "slug": "es-teh-manis",
+    "name": "Es Teh Manis",
+    "aka": [
+      "Es Teh",
+      "Teh Manis Dingin",
+      "Es Teh Jumbo",
+      "Indonesian Sweet Iced Tea"
+    ],
+    "category": "drinks",
+    "region": [
+      "id"
+    ],
+    "serving": "1 glass (240ml)",
+    "servingGrams": 240,
+    "calories": 90,
+    "protein": 0,
+    "carbs": 23,
+    "fat": 0,
+    "metaDescription": "A glass of es teh manis is about 90 calories, all of it sugar. The tea is free. The jumbo cup from the roadside stand is 200 or more.",
+    "summary": "Es teh manis is black tea brewed strong, sweetened with sugar or syrup and poured over ice. It is the default drink at every warteg, bakso cart and pecel lele tent in Indonesia, and it comes with the meal whether you asked or not.",
+    "answer": "A standard warung glass of es teh manis is about 90 calories. FatSecret Indonesia lists a 240ml glass of sweet iced tea at 90 calories with 23g of carbs and nothing else. That is roughly 5 teaspoons of sugar. The tea itself is 2 calories; everything is the sugar.",
+    "realTalk": [
+      "Tea has no calories. Es teh manis has 90 because the warung puts about 22g of sugar in the glass, and that is a conservative pour. Some places make it from a jug of pre-sweetened tea, some spoon sugar into the glass, and the ones that use syrup or three heaped spoons are closer to 150. A glass of es teh tawar (unsweetened) is 2 calories. Same tea, same ice, 88 calories apart.",
+      "The problem is frequency, not the glass. Es teh manis is Rp 3,000 to 5,000 and it comes with lunch, then with the afternoon gorengan, then with dinner. Three glasses a day is 270 calories of sugar, and over a month that is 8,000 calories, roughly a kilo of fat, from something that does not register as food. Nobody remembers drinking it.",
+      "The jumbo cups are a different thing. The Rp 5,000 to 8,000 'es teh jumbo' stands with the 500ml cup are 200 calories each, and the flavoured ones with lychee or lemon syrup are 250. Bottled sweet tea is in the same range: a 450ml bottle is around 160 to 180 calories depending on the brand, which is about the same sugar as a can of cola.",
+      "For comparison, teh tarik in Malaysia is about 130 because of the condensed milk, and a teh botol is about 90 per 350ml. Es teh manis is not the worst drink on the menu. It is just the one you have most often."
+    ],
+    "lighter": [
+      "Es teh tawar. Same tea, same ice, 2 calories. The first week is strange and then you stop noticing.",
+      "'Setengah manis' or 'gulanya sedikit'. Half sugar is about 45 calories and most warungs will do it.",
+      "Squeeze a lime into es teh tawar. Free, and it replaces the sweetness with something.",
+      "One sweet tea a day, not three. That single change is 180 calories a day, over 5,000 a month.",
+      "Skip the jumbo cup. It is the same drink at double the sugar, 200 calories for something you finish in ten minutes."
+    ],
+    "components": [
+      {
+        "name": "Brewed black tea",
+        "grams": 200,
+        "calories": 2
+      },
+      {
+        "name": "Sugar",
+        "grams": 22,
+        "calories": 88
+      },
+      {
+        "name": "Ice",
+        "grams": 18,
+        "calories": 0
+      }
+    ],
+    "portions": [
+      {
+        "label": "Half sugar",
+        "calories": 45
+      },
+      {
+        "label": "Standard warung glass",
+        "calories": 90
+      },
+      {
+        "label": "Es teh jumbo, 500ml",
+        "calories": 200
+      }
+    ],
+    "variants": [
+      {
+        "name": "Es teh tawar",
+        "calories": 2,
+        "note": "Unsweetened"
+      },
+      {
+        "name": "Es teh setengah manis",
+        "calories": 45,
+        "note": "Half sugar"
+      },
+      {
+        "name": "Es teh manis, warung glass",
+        "calories": 90,
+        "note": "FatSecret 240ml glass"
+      },
+      {
+        "name": "Bottled sweet tea, 450ml",
+        "calories": 170,
+        "note": "Brand dependent"
+      },
+      {
+        "name": "Es teh jumbo with syrup",
+        "calories": 250,
+        "note": "500ml, flavoured"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in es teh manis?",
+        "a": "About 90 calories for a standard 240ml warung glass according to FatSecret Indonesia, all from roughly 22g of sugar. A 500ml jumbo cup is about 200."
+      },
+      {
+        "q": "How much sugar is in es teh manis?",
+        "a": "About 22 to 25g per glass, or 5 to 6 teaspoons. That is close to the WHO's suggested daily limit of 25g in one drink."
+      },
+      {
+        "q": "Is es teh manis bad for diet?",
+        "a": "One glass is not. Three a day is 270 calories of sugar that does not fill you, which is enough to stall a deficit. Switching to es teh tawar is the easiest 200 calories a day most people can save."
+      },
+      {
+        "q": "How many calories in es teh tawar?",
+        "a": "About 2 calories per glass. Unsweetened tea is essentially free, hot or iced."
+      }
+    ],
+    "related": [
+      "teh-o-ais",
+      "teh-tarik",
+      "es-kopi-susu",
+      "jus-alpukat"
+    ],
+    "source": "FatSecret Indonesia (es teh 1 gelas 240ml, 90 kcal, 23g karbohidrat)"
+  },
+  {
+    "slug": "jus-alpukat",
+    "name": "Jus Alpukat",
+    "aka": [
+      "Jus Alpukat Susu",
+      "Alpukat Kocok",
+      "Jus Alpukat Coklat",
+      "Avocado Juice"
+    ],
+    "category": "drinks",
+    "region": [
+      "id"
+    ],
+    "serving": "1 warung glass (about 350ml, with condensed milk)",
+    "servingGrams": 300,
+    "calories": 320,
+    "protein": 4,
+    "carbs": 38,
+    "fat": 17,
+    "metaDescription": "A warung glass of jus alpukat with condensed milk is about 320 calories. The avocado is healthy fat; the SKM and syrup blended in are not.",
+    "summary": "Jus alpukat is avocado blended with ice, sugar syrup and sweetened condensed milk, often with chocolate condensed milk streaked down the inside of the glass. It is on every jus stall menu in Indonesia and it is the one people think is a health drink.",
+    "answer": "A warung glass of jus alpukat is about 320 calories. FatSecret Indonesia lists avocado juice at 130 calories per 100g, so a 350ml glass that weighs about 300g after ice comes to 320. The avocado is about 190 of that; the condensed milk and syrup are 130.",
+    "realTalk": [
+      "Avocado is the densest fruit on the stall. Half a medium avocado, about 120g, is 190 calories on its own, nearly all from fat. That is fine fat, the kind you want, but it is still 190 calories before anything else goes in the blender. A jus jeruk (orange) from the same stall is about 110. Jus alpukat is three times that and people order it because it is 'the healthy one'.",
+      "Then the stall makes it taste like dessert. Two tablespoons of sweetened condensed milk, 30g, is 95 calories. A squeeze of sugar syrup or gula cair, another 35. The chocolate SKM painted around the glass, which is the whole point visually, is 30 more. FatSecret's 130 per 100g figure already includes some of that sweetener, and a Rp 12,000 to 18,000 warung glass is bigger than the 150g lab serving, so 320 is the honest number.",
+      "Alpukat kocok, the trending version with thicker avocado, more condensed milk and sometimes a scoop of ice cream or a cheese topping, is 400 to 500 a cup. That is a meal's worth of calories in a drink, and it comes after the meal.",
+      "The fix is easy because the avocado itself is the good part. Jus alpukat 'tanpa gula, tanpa susu' is about 200 calories, all avocado, with 4g protein and 7g fibre, and it is filling in a way that no other drink on the menu is. The problem was never the fruit."
+    ],
+    "lighter": [
+      "'Tanpa susu, tanpa gula'. Avocado, ice and water only is about 200 calories and it is still creamy because the avocado is.",
+      "'Susunya sedikit'. One tablespoon of SKM instead of two saves about 50.",
+      "Skip the chocolate SKM streaks. They are about 30 calories of decoration.",
+      "Order it as a snack, not a drink with a meal. 320 calories next to a 600 calorie nasi padang is a 900 calorie lunch.",
+      "Small glass. The Rp 10,000 small at most stalls is about 250ml and closer to 230 calories."
+    ],
+    "components": [
+      {
+        "name": "Avocado",
+        "grams": 120,
+        "calories": 190
+      },
+      {
+        "name": "Sweetened condensed milk",
+        "grams": 30,
+        "calories": 95
+      },
+      {
+        "name": "Sugar syrup",
+        "grams": 10,
+        "calories": 35
+      },
+      {
+        "name": "Ice and water",
+        "grams": 140,
+        "calories": 0
+      }
+    ],
+    "portions": [
+      {
+        "label": "No milk, no sugar",
+        "calories": 200
+      },
+      {
+        "label": "Standard warung glass",
+        "calories": 320
+      },
+      {
+        "label": "Alpukat kocok with ice cream and cheese",
+        "calories": 500
+      }
+    ],
+    "variants": [
+      {
+        "name": "Jus alpukat, FatSecret 150g glass",
+        "calories": 195,
+        "note": "Lab sized serving"
+      },
+      {
+        "name": "Jus alpukat tanpa gula tanpa susu",
+        "calories": 200,
+        "note": "Avocado and ice only"
+      },
+      {
+        "name": "Jus alpukat warung standard",
+        "calories": 320,
+        "note": "With SKM and syrup"
+      },
+      {
+        "name": "Jus alpukat coklat",
+        "calories": 350,
+        "note": "Chocolate SKM streaks"
+      },
+      {
+        "name": "Alpukat kocok",
+        "calories": 450,
+        "note": "Thick, extra SKM, sometimes ice cream"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in jus alpukat?",
+        "a": "About 320 calories for a standard warung glass with condensed milk and syrup. FatSecret Indonesia lists 130 calories per 100g. Without the sweeteners it is about 200."
+      },
+      {
+        "q": "Is jus alpukat good for diet?",
+        "a": "The avocado is: healthy fat, fibre, very filling. The condensed milk and syrup are not. Order it tanpa gula tanpa susu and it is a decent 200 calorie snack. With everything it is a 320 calorie dessert."
+      },
+      {
+        "q": "How many calories in alpukat kocok?",
+        "a": "About 450 calories, and up to 500 with ice cream or cheese on top. It uses more avocado and a lot more condensed milk than a regular jus."
+      },
+      {
+        "q": "Does jus alpukat make you fat?",
+        "a": "Only the way anything does. 320 calories in a glass next to a full meal is the issue, not the avocado. One a day as a snack is fine if it replaces something."
+      }
+    ],
+    "related": [
+      "es-teler",
+      "es-teh-manis",
+      "coconut-shake",
+      "es-kopi-susu"
+    ],
+    "source": "FatSecret Indonesia (jus alpukat 130 kcal/100g, 195 kcal per 150g glass) scaled to a 300g warung glass with SKM"
+  },
+  {
+    "slug": "es-kopi-susu",
+    "name": "Es Kopi Susu",
+    "aka": [
+      "Es Kopi Susu Gula Aren",
+      "Kopi Susu Kekinian",
+      "Kopi Kenangan Mantan",
+      "Es Kopi Susu Tetangga",
+      "Iced Palm Sugar Latte"
+    ],
+    "category": "drinks",
+    "region": [
+      "id"
+    ],
+    "serving": "1 regular cup (about 350ml)",
+    "servingGrams": 350,
+    "calories": 220,
+    "protein": 5,
+    "carbs": 33,
+    "fat": 7,
+    "metaDescription": "A regular es kopi susu gula aren is about 220 calories. The coffee is 5 of it; the palm sugar syrup and the milk are the rest.",
+    "summary": "Es kopi susu is the Indonesian iced coffee that took over every office lobby after 2018: a shot of espresso, fresh milk, a pour of gula aren (palm sugar) syrup and ice, in a plastic cup with a brand name on it. Kopi Kenangan, Janji Jiwa, Fore and a thousand others.",
+    "answer": "A regular 350ml es kopi susu gula aren is about 220 calories. Building it up: the espresso is 5, 150ml of fresh milk is 95, 30ml of gula aren syrup is about 90 and the splash of creamer or condensed milk most chains add is 30. Published figures for a regular Kopi Kenangan Mantan sit between 180 and 220, which matches.",
+    "realTalk": [
+      "Gula aren is sugar. It is palm sugar, it has a nice caramel taste and a slightly lower glycaemic index than white sugar, and it is 4 calories a gram like every other sugar. A regular kopi susu has 25 to 30g of it in syrup form, about 90 to 110 calories. The 'gula aren is healthier' line is marketing, and the doctor who went viral calculating 370 calories for a homemade version with 4 tablespoons was not exaggerating, that is what four tablespoons does.",
+      "The milk is the other half. 150ml of full cream milk is 95 calories with 5g protein, which is the only protein in the cup. Chains that use a mix of fresh milk and creamer or condensed milk push the cup higher, and the ones that use UHT full cream and a heavy hand on the syrup land at 250. The espresso shot itself is 5 calories. You are drinking a milk and sugar drink with coffee flavour.",
+      "At Rp 18,000 to 25,000 for a regular, a daily kopi susu is 220 calories a day, 6,600 a month, roughly 0.8kg of fat a month if nothing else changes. That is not a scare number, that is what a daily habit of a 220 calorie drink is. The large size is 350 to 400.",
+      "The 'less sugar' option at most chains is real and cuts the syrup by half, to about 170. 'No sugar' takes it to 110, which is basically an iced latte, and at that point it is a reasonable drink with 5g protein."
+    ],
+    "lighter": [
+      "'Less sugar' or 'half sugar'. Most chains offer it, and it takes the cup from 220 to about 170.",
+      "'No sugar' is a 110 calorie iced latte. Give it a week; the milk is sweeter than you think once the syrup is gone.",
+      "Regular, not large. The large is the same drink with another 100 to 150 calories of milk and syrup.",
+      "Skip the topping. Cheese foam, caramel drizzle and boba each add 60 to 120.",
+      "Kopi susu at a warkop (Rp 5,000, black coffee with condensed milk) is about 120. Old fashioned and cheaper in every sense."
+    ],
+    "components": [
+      {
+        "name": "Espresso shot",
+        "grams": 30,
+        "calories": 5
+      },
+      {
+        "name": "Fresh milk",
+        "grams": 150,
+        "calories": 95
+      },
+      {
+        "name": "Gula aren syrup",
+        "grams": 30,
+        "calories": 90
+      },
+      {
+        "name": "Creamer or condensed milk",
+        "grams": 15,
+        "calories": 30
+      },
+      {
+        "name": "Ice",
+        "grams": 125,
+        "calories": 0
+      }
+    ],
+    "portions": [
+      {
+        "label": "Regular, no sugar",
+        "calories": 110
+      },
+      {
+        "label": "Regular, standard sugar",
+        "calories": 220
+      },
+      {
+        "label": "Large with cheese foam",
+        "calories": 450
+      }
+    ],
+    "variants": [
+      {
+        "name": "Es kopi susu, no sugar",
+        "calories": 110,
+        "note": "Iced latte, basically"
+      },
+      {
+        "name": "Es kopi susu, less sugar",
+        "calories": 170,
+        "note": "Half syrup"
+      },
+      {
+        "name": "Es kopi susu gula aren, regular",
+        "calories": 220,
+        "note": "Chain standard, 350ml"
+      },
+      {
+        "name": "Es kopi susu, large",
+        "calories": 350,
+        "note": "500ml"
+      },
+      {
+        "name": "Homemade with 4 tbsp gula aren and full cream",
+        "calories": 370,
+        "note": "The viral doctor's calculation"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in es kopi susu gula aren?",
+        "a": "About 220 calories for a regular 350ml cup from the big chains. Published figures for Kopi Kenangan Mantan regular range from 180 to 220."
+      },
+      {
+        "q": "Is gula aren healthier than sugar?",
+        "a": "Slightly lower glycaemic index, same calories. 30g of gula aren syrup is about 90 calories, the same as 30g of white sugar. It is not a free pass."
+      },
+      {
+        "q": "How many calories in es kopi susu without sugar?",
+        "a": "About 110 calories, all from the milk. It is an iced latte with 5g protein and it is the version to switch to if you drink one every day."
+      },
+      {
+        "q": "Does es kopi susu make you gain weight?",
+        "a": "A daily regular is 220 calories, about 6,600 a month, which is roughly 0.8kg of fat if nothing else changes. Switching to less sugar or no sugar removes most of that."
+      }
+    ],
+    "related": [
+      "kopi-tarik",
+      "es-teh-manis",
+      "bubble-tea",
+      "jus-alpukat"
+    ],
+    "source": "estimate from components (espresso, fresh milk, 30ml gula aren syrup, creamer); cross-checked against published 180 to 220 kcal figures for a regular chain cup and the 370 kcal homemade calculation reported by detikFood"
+  },
+  {
+    "slug": "es-teler",
+    "name": "Es Teler",
+    "aka": [
+      "Es Teler 77",
+      "Es Teller",
+      "Es Campur",
+      "Indonesian Avocado Coconut Jackfruit Ice"
+    ],
+    "category": "dessert",
+    "region": [
+      "id"
+    ],
+    "serving": "1 bowl",
+    "servingGrams": 240,
+    "calories": 425,
+    "protein": 5,
+    "carbs": 62,
+    "fat": 20,
+    "metaDescription": "A bowl of es teler is about 425 calories. The avocado, coconut and jackfruit are fine; the condensed milk and santan poured over them are 200 of it.",
+    "summary": "Es teler is the Jakarta dessert of avocado, young coconut flesh, jackfruit and kolang-kaling over shaved ice, drenched in coconut milk, sugar syrup and sweetened condensed milk. Es campur is the same idea with more jelly and less avocado.",
+    "answer": "A bowl of es teler is about 425 calories. FatSecret Indonesia lists a 240g bowl at 425 calories with 62g carbs, 20g fat and 5g protein, which is 177 per 100g. The fruit is about half of that. The other half is the condensed milk, coconut milk and syrup.",
+    "realTalk": [
+      "Es teler is fruit and ice, which sounds light, but look at which fruit. Avocado, 80g of it, is 130 calories on its own. Young coconut flesh is about 35 for 60g, jackfruit is 40 for a few pieces, kolang-kaling is 20. That is 225 calories of fruit before the wet ingredients, and the avocado is more than half of it. Es buah, which uses melon, papaya and jelly, is about 250 a bowl for the same size.",
+      "Then the pour. A bowl gets about 60ml of santan at 70 calories and 40g of condensed milk at 130, sometimes with sugar syrup too. That 200 calories of liquid is what makes es teler es teler, and it is why the bowl is 425 with 20g of fat. The 'teler' means drunk, and the name is about the richness, not the alcohol.",
+      "It is Rp 15,000 to 25,000 at a warung and Rp 30,000 plus at the mall chains, and it comes after a full meal in the same sitting. Nasi padang at 690 plus es teler at 425 is 1,100 for lunch. Es teler is not a drink to have with food. It is dessert with a straw.",
+      "Es campur and es doger are cousins with the same problem: the fruit and jelly are cheap in calories, the condensed milk and syrup are not. Es doger, with tape and its pink syrup, is about 350. Es campur is 300 to 350. Es teler is the heaviest of the family because of the avocado and the santan."
+    ],
+    "lighter": [
+      "'Tanpa susu kental manis'. Skipping the SKM takes about 130 off, and the santan still makes it creamy.",
+      "Ask for less santan or 'santannya sedikit'. That is another 35 to 70.",
+      "Share it. Half a bowl after a meal is 210 and honestly enough.",
+      "Order es kelapa muda instead. Young coconut and its water with a little syrup is about 120.",
+      "Es teler as the meal, not after one. At 425 calories with real fruit it is a fair afternoon snack if lunch was light."
+    ],
+    "components": [
+      {
+        "name": "Avocado",
+        "grams": 80,
+        "calories": 130
+      },
+      {
+        "name": "Young coconut flesh",
+        "grams": 60,
+        "calories": 35
+      },
+      {
+        "name": "Jackfruit and kolang-kaling",
+        "grams": 70,
+        "calories": 60
+      },
+      {
+        "name": "Coconut milk",
+        "grams": 60,
+        "calories": 70
+      },
+      {
+        "name": "Sweetened condensed milk and syrup",
+        "grams": 40,
+        "calories": 130
+      }
+    ],
+    "portions": [
+      {
+        "label": "No condensed milk, less santan",
+        "calories": 260
+      },
+      {
+        "label": "Standard bowl",
+        "calories": 425
+      },
+      {
+        "label": "Large with extra avocado and cheese",
+        "calories": 600
+      }
+    ],
+    "variants": [
+      {
+        "name": "Es kelapa muda",
+        "calories": 120,
+        "note": "Coconut, its water, a little syrup"
+      },
+      {
+        "name": "Es buah",
+        "calories": 250,
+        "note": "Melon, papaya, jelly, syrup"
+      },
+      {
+        "name": "Es campur",
+        "calories": 330,
+        "note": "More jelly, less avocado"
+      },
+      {
+        "name": "Es doger",
+        "calories": 350,
+        "note": "Tape, ketan hitam, pink syrup"
+      },
+      {
+        "name": "Es teler",
+        "calories": 425,
+        "note": "FatSecret bowl 240g"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in es teler?",
+        "a": "About 425 calories per bowl according to FatSecret Indonesia, with 62g carbs and 20g fat. Without the condensed milk it is about 300."
+      },
+      {
+        "q": "Es teler or es campur, which has more calories?",
+        "a": "Es teler, at about 425 versus 330 for es campur. Es teler uses avocado and coconut milk; es campur uses more jelly and syrup with less fat."
+      },
+      {
+        "q": "Is es teler healthy?",
+        "a": "The fruit is, especially the avocado and young coconut. The 200 calories of condensed milk and santan on top are what make it a dessert. Order it without SKM and it is a fair snack."
+      },
+      {
+        "q": "How many calories in es teler 77?",
+        "a": "The mall chain bowl is in the same range, about 400 to 450 depending on size. The jumbo bowls with extra topping go past 550."
+      }
+    ],
+    "related": [
+      "cendol",
+      "ais-kacang",
+      "jus-alpukat",
+      "kolak"
+    ],
+    "source": "FatSecret Indonesia (es teler 1 mangkok 240g, 425 kcal, 177 kcal/100g)"
+  },
+  {
+    "slug": "kolak",
+    "name": "Kolak",
+    "aka": [
+      "Kolak Pisang",
+      "Kolak Pisang Ubi",
+      "Kolak Biji Salak",
+      "Kolak Candil",
+      "Banana in Palm Sugar Coconut Milk"
+    ],
+    "category": "dessert",
+    "region": [
+      "id"
+    ],
+    "serving": "1 bowl (banana, sweet potato, kolang-kaling, coconut milk, palm sugar)",
+    "servingGrams": 325,
+    "calories": 390,
+    "protein": 3,
+    "carbs": 55,
+    "fat": 18,
+    "metaDescription": "A bowl of kolak pisang is about 390 calories. The banana is 90 of it; the palm sugar and coconut milk it swims in are 235.",
+    "summary": "Kolak is banana and sweet potato simmered in coconut milk and palm sugar with pandan. It is the Ramadan takjil: sold from Rp 8,000 in plastic cups outside every mosque at 5pm, eaten first, then followed by dinner.",
+    "answer": "A bowl of kolak pisang is about 390 calories. FatSecret Indonesia lists kolak at 163 calories per 100g and 391 calories per bowl, with 47% of the energy from fat. A 120g takjil cup is about 196. The banana and sweet potato are 135; the coconut milk and palm sugar are the rest.",
+    "realTalk": [
+      "Kolak is sugar water with coconut fat and some fruit in it, and the fruit is the smallest number. 100g of kepok banana is about 90 calories, 40g of sweet potato is 45, and the kolang-kaling is 20. That is 155 of fruit and root, all of it fine. Then 120ml of santan at 110 and 35g of gula merah at 125. The liquid is 235 calories and it is the part people drink from the bowl at the end.",
+      "During Ramadan this is the first thing in after 13 hours of fasting, and the timing is the problem, not the kolak. A 390 calorie bowl, then es buah, then three gorengan, then a full dinner, then more at sahur. Kolak on its own is a reasonable dessert. Kolak as the opener to a 2,000 calorie evening is why people gain weight in the fasting month, which surprises everyone every year.",
+      "The versions matter. Kolak pisang ubi with thick santan from a warung is 390. Kolak biji salak, the orange sweet potato dumplings in palm sugar syrup with santan on top, is about 320 because there is less santan in the base. Kolak candil (glutinous rice balls) is similar. Bubur sumsum with kinca is lighter still at about 250. Kolak labu (pumpkin) is the lightest because pumpkin is mostly water, around 280.",
+      "At Rp 8,000 to 12,000 a cup it is cheap, and a 120g plastic cup is only 196 calories according to FatSecret. The trouble is the bowl at home is 300g and the pot is on the stove all evening."
+    ],
+    "lighter": [
+      "Small cup, not a bowl. The 120g takjil cup is about 196 calories against 390 for a full bowl.",
+      "Eat the banana and sweet potato, leave the kuah. The liquid is 235 calories of santan and sugar.",
+      "At home, use santan encer (thin coconut milk) and half the palm sugar. The bowl drops to about 250.",
+      "Kolak labu or bubur sumsum instead of kolak pisang ubi. About 100 calories less per serving.",
+      "Kolak or gorengan at iftar, not both. Kolak plus three gorengan is 800 calories before dinner."
+    ],
+    "components": [
+      {
+        "name": "Kepok banana",
+        "grams": 100,
+        "calories": 90
+      },
+      {
+        "name": "Sweet potato",
+        "grams": 40,
+        "calories": 45
+      },
+      {
+        "name": "Kolang-kaling",
+        "grams": 30,
+        "calories": 20
+      },
+      {
+        "name": "Coconut milk",
+        "grams": 120,
+        "calories": 110
+      },
+      {
+        "name": "Palm sugar",
+        "grams": 35,
+        "calories": 125
+      }
+    ],
+    "portions": [
+      {
+        "label": "Takjil cup, 120g",
+        "calories": 196
+      },
+      {
+        "label": "Standard bowl",
+        "calories": 390
+      },
+      {
+        "label": "Large bowl, thick santan, extra banana",
+        "calories": 550
+      }
+    ],
+    "variants": [
+      {
+        "name": "Bubur sumsum with kinca",
+        "calories": 250,
+        "note": "Rice flour pudding, palm sugar syrup"
+      },
+      {
+        "name": "Kolak labu (pumpkin)",
+        "calories": 280,
+        "note": "Pumpkin is mostly water"
+      },
+      {
+        "name": "Kolak biji salak",
+        "calories": 320,
+        "note": "Sweet potato dumplings in syrup"
+      },
+      {
+        "name": "Kolak pisang ubi",
+        "calories": 390,
+        "note": "FatSecret bowl 391"
+      },
+      {
+        "name": "Kolak with durian",
+        "calories": 480,
+        "note": "Durian flesh added"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in kolak pisang?",
+        "a": "About 390 calories for a bowl according to FatSecret Indonesia, or about 196 for a 120g takjil cup. The coconut milk and palm sugar are more than half of it."
+      },
+      {
+        "q": "Is kolak healthy for breaking fast?",
+        "a": "It gives fast sugar, which is the point, but a bowl is 390 calories and only 3g protein. A small cup and then water is fine. A bowl followed by gorengan and dinner is where the Ramadan weight comes from."
+      },
+      {
+        "q": "How many calories in kolak biji salak?",
+        "a": "About 320 calories per bowl. The sweet potato dumplings are dense but the base is palm sugar syrup with santan spooned on top instead of cooked through, so it is a bit lighter than kolak pisang."
+      },
+      {
+        "q": "How much sugar is in kolak?",
+        "a": "About 35g of palm sugar per bowl plus the natural sugar in the banana, so 45 to 50g total. That is nearly two cans of soft drink."
+      }
+    ],
+    "related": [
+      "gudeg",
+      "pengat-pisang",
+      "bubur-cha-cha",
+      "es-teler"
+    ],
+    "source": "FatSecret Indonesia (kolak 163 kcal/100g, 391 kcal per bowl, 196 kcal per 120g serving)"
+  }
+]

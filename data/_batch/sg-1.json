@@ -1,0 +1,813 @@
+[
+  {
+    "slug": "bak-chor-mee",
+    "name": "Bak Chor Mee",
+    "aka": ["Minced Meat Noodles", "Mee Pok Dry", "肉脞面", "Bak Chor Mee Pok"],
+    "category": "noodles",
+    "region": ["sg"],
+    "serving": "1 bowl (dry)",
+    "servingGrams": 311,
+    "calories": 511,
+    "protein": 22,
+    "carbs": 55,
+    "fat": 23,
+    "metaDescription": "A standard dry bowl of bak chor mee is about 511 calories. Here is where the lard, vinegar and mee pok add up, and how to order it lighter.",
+    "summary": "Bak chor mee is the Singapore hawker bowl of mee pok or mee kia tossed in vinegar, chilli, soy and pork lard, topped with minced pork, sliced pork, liver, mushrooms and a couple of meatballs, with a small soup on the side.",
+    "answer": "A standard dry bowl of bak chor mee is about 511 calories for a 311g serving, with roughly 23g of fat. The noodles alone are around 230 of those calories, and the lard and chilli dressing is another 90 to 100 before any meat goes in.",
+    "realTalk": [
+      "The number that surprises people is not the pork, it is the dressing. A dry bowl gets a spoon of lard, a spoon of chilli oil, and the crispy lard bits on top. That is about 20g of fat right there, close to 90 calories, and the stall does it before you can say anything. The 150g of mee pok is another 230 calories. Meat, liver, mushrooms and two meatballs together come to only about 170. So a 511 calorie bowl is really 60 percent noodles and oil.",
+      "The soup version drops to around 420 calories because there is no lard dressing and the noodles sit in clear broth instead of oil. Same pork, same liver, same mushrooms. If you order dry, you are paying about 90 calories for the vinegar and lard taste. Some people think that is worth it. Just know the trade.",
+      "Price matters here too. The S$4 bowl at a normal hawker centre is the 511 calorie one. The S$6 or S$8 bowl at the famous stalls comes with extra meat, an extra ladle of lard and sometimes abalone, and it lands closer to 650 to 700 calories. Bigger bowl, more noodles, more oil. The fancier the stall, the heavier the bowl."
+    ],
+    "lighter": [
+      "Order soup instead of dry and you save close to 90 calories from the lard and chilli oil.",
+      "Ask for less lard or no lard bits. Most stalls will do it and the bowl drops by 40 to 60 calories.",
+      "Get mee kia instead of mee pok. It is thinner and the portion by weight is usually a bit smaller, around 30 calories less.",
+      "Eat the pork, liver and meatballs first. About 20g of protein for under 200 calories is the good part of the bowl.",
+      "Skip the extra meatball order. Each pork ball is about 35 calories."
+    ],
+    "components": [
+      {"name": "Mee pok noodles", "grams": 150, "calories": 230},
+      {"name": "Minced pork and sliced pork", "grams": 60, "calories": 110},
+      {"name": "Pork liver and 2 meatballs", "grams": 40, "calories": 60},
+      {"name": "Lard, chilli and vinegar dressing", "grams": 20, "calories": 95},
+      {"name": "Braised mushrooms", "grams": 15, "calories": 10}
+    ],
+    "portions": [
+      {"label": "Small bowl (S$4)", "calories": 400},
+      {"label": "Standard dry bowl", "calories": 511},
+      {"label": "Large with extra lard and meat", "calories": 680}
+    ],
+    "variants": [
+      {"name": "Soup version", "calories": 420, "note": "No lard dressing, noodles in clear broth"},
+      {"name": "Dry mee kia", "calories": 480, "note": "Thinner noodles, slightly smaller portion"},
+      {"name": "Dry mee pok", "calories": 511, "note": "Standard hawker bowl"},
+      {"name": "Signature bowl with abalone and extra pork", "calories": 700, "note": "The S$8 to S$10 famous stall bowl"}
+    ],
+    "faq": [
+      {"q": "Is bak chor mee healthy?", "a": "It is a decent protein bowl if you go soup. Dry bak chor mee at 511 calories with 23g of fat is heavier than it looks because of the lard dressing. Soup at around 420 with 20g of protein is one of the better hawker lunches."},
+      {"q": "How many calories in bak chor mee soup?", "a": "About 420 calories for a standard bowl. The noodles are still 230 of that, but there is no lard or chilli oil dressing, which is where the dry version picks up its extra 90 calories."},
+      {"q": "Is mee pok or mee kia lower in calories?", "a": "Mee kia by a small margin. A mee kia portion is usually 20 to 30g lighter, which is about 30 calories less. The dressing and toppings are identical, so the difference is minor."},
+      {"q": "Can I eat bak chor mee while losing weight?", "a": "Yes. A 511 calorie bowl fits into most 1,800 to 2,000 calorie days. Order it soup or with less lard, do not add extra meatballs, and it is a normal lunch."}
+    ],
+    "related": ["wantan-mee", "kway-chap", "fish-ball-noodles", "hokkien-prawn-mee"],
+    "source": "HPB iDAT via danielfooddiary.com 2015, KKH dietitians via HealthXchange.sg"
+  },
+  {
+    "slug": "kway-chap",
+    "name": "Kway Chap",
+    "aka": ["Kueh Chap", "粿汁", "Kway Chap with Braised Pork"],
+    "category": "noodles",
+    "region": ["sg"],
+    "serving": "1 set for one (kway in soup + braised platter)",
+    "servingGrams": 611,
+    "calories": 650,
+    "protein": 30,
+    "carbs": 68,
+    "fat": 26,
+    "metaDescription": "A one person kway chap set is about 650 calories. The rice sheets are light. The braised pork belly, intestines and egg are where it climbs.",
+    "summary": "Kway chap is the Teochew hawker set of broad rice sheets in a dark herbal soy broth, served with a plate of braised pork belly, intestines, pig skin, tau kwa, tau pok and a braised egg.",
+    "answer": "A standard one person kway chap set is about 650 calories for a 611g serving, with around 26g of fat. The bowl of kway in broth is only about 190 calories. The braised platter with pork belly, intestines, egg and beancurd is the other 460.",
+    "realTalk": [
+      "The bowl of kway is the cheap part of the calorie bill. 300g of flat rice sheets in braised broth is around 190 calories, and the broth itself adds very little. The plate next to it is the problem. Three slices of braised pork belly are about 250 calories on their own. Add 60g of intestines and pig skin at about 90, a braised egg at 75, and some tau kwa and tau pok at 50, and you are at 650 before you have finished counting.",
+      "The pork belly is the swing item. A S$5 set usually comes with 2 to 3 slices. Ask for lean meat or pork shoulder instead and the same set drops to roughly 520 calories. Ask for extra belly and it can pass 850. Nobody weighs it, so what lands on the plate depends on the auntie and how much she likes you.",
+      "One honest thing about kway chap. The offal gets blamed, but 60g of braised intestines is about 90 calories, less than one slice of belly. The intestines are mostly protein and some fat. If you like them, keep them. Drop a slice of belly instead and you will save more."
+    ],
+    "lighter": [
+      "Ask for lean pork or pork shoulder instead of belly. That alone cuts around 130 calories from a standard set.",
+      "Get the kway plain with just tau kwa, egg and one piece of meat. A set like that is about 400 calories.",
+      "Skip the extra soup ladle over the platter. The braised sauce is salty and oily, roughly 30 calories per spoon.",
+      "Share the S$10 platter between two people and each order your own bowl of kway. Same taste, half the meat."
+    ],
+    "components": [
+      {"name": "Flat rice sheets (kway) in broth", "grams": 300, "calories": 190},
+      {"name": "Braised pork belly, 3 slices", "grams": 80, "calories": 250},
+      {"name": "Braised intestines and pig skin", "grams": 60, "calories": 90},
+      {"name": "Braised egg", "grams": 55, "calories": 75},
+      {"name": "Tau kwa and tau pok", "grams": 40, "calories": 50}
+    ],
+    "portions": [
+      {"label": "Set with lean pork, no intestines", "calories": 520},
+      {"label": "Standard set for one", "calories": 650},
+      {"label": "Large set with extra belly", "calories": 850}
+    ],
+    "variants": [
+      {"name": "Kway in broth only", "calories": 190, "note": "No braised platter"},
+      {"name": "Set with lean pork only", "calories": 520, "note": "Shoulder or lean cut, egg and tau kwa"},
+      {"name": "Standard set", "calories": 650, "note": "Belly, intestines, egg, beancurd"},
+      {"name": "Full platter with pig skin, belly and extra intestines", "calories": 900, "note": "The S$10 to S$12 sharing plate eaten alone"}
+    ],
+    "faq": [
+      {"q": "Is kway chap fattening?", "a": "The braised pork belly is. A standard 650 calorie set has 26g of fat and most of it comes from 3 slices of belly. Swap to lean pork and the same set is around 520 calories with half the fat."},
+      {"q": "How many calories in kway chap without meat?", "a": "The bowl of kway in broth is about 190 calories. Add a braised egg and tau kwa and you are at roughly 310, which is a light meal with about 15g of protein."},
+      {"q": "Are the intestines high in calories?", "a": "Not really. 60g of braised intestines is about 90 calories. One slice of pork belly is around 85. The intestines are higher in cholesterol, but for calories they are not the main issue."},
+      {"q": "How much protein is in kway chap?", "a": "A standard set gives about 30g of protein from the pork, egg and beancurd. It is one of the higher protein hawker meals, which is the argument for eating it with the lean cuts."}
+    ],
+    "related": ["bak-kut-teh", "braised-duck-rice", "bak-chor-mee", "siu-yoke"],
+    "source": "HPB iDAT via danielfooddiary.com 2015, KKH dietitians via HealthXchange.sg"
+  },
+  {
+    "slug": "hokkien-prawn-mee",
+    "name": "Hokkien Prawn Mee (Fried)",
+    "aka": ["Singapore Hokkien Mee", "Fried Hokkien Mee", "福建炒虾面", "Hokkien Mee SG"],
+    "category": "noodles",
+    "region": ["sg"],
+    "serving": "1 plate",
+    "servingGrams": 442,
+    "calories": 522,
+    "protein": 24,
+    "carbs": 64,
+    "fat": 19,
+    "metaDescription": "A standard plate of Singapore fried Hokkien prawn mee is about 522 calories. Here is what the noodles, lard, egg and sambal each contribute.",
+    "summary": "Singapore Hokkien mee is yellow noodles and bee hoon fried in a rich prawn and pork stock with egg, prawns, squid and pork belly, finished with lard, lime and a spoon of sambal.",
+    "answer": "A standard plate of fried Hokkien prawn mee is about 522 calories for a 442g serving, with around 19g of fat. The 200g mix of yellow noodles and bee hoon makes up about 260 calories, and the lard, oil and sambal add another 80.",
+    "realTalk": [
+      "This is the wet, braised style, not the dark KL version, so the calorie count is lower than people expect. A 442g plate has about 200g of noodles, which is 260 calories, then one egg at 75, four prawns at 50, and some squid and pork belly at 70. The stall fries it in lard and finishes it with a spoon of sambal, and that is the last 80. Total around 522, which is under a plate of char kway teow at 742.",
+      "The size jump is the real issue. The S$5 plate is the 522 calorie one. The S$8 plate at the popular stalls is not a little bigger, it is about 50 percent bigger, and it comes with more prawns, more lard and an extra egg. That plate is closer to 780 calories. Two people sharing a S$10 plate get about 500 each, which is a sensible way to do it.",
+      "The sambal is small but not free. A full spoon of hawker sambal is around 40 calories because it is fried in oil. The lime is free and does more for the taste than the sambal does. Squeeze the lime, use half the sambal, and you have lost nothing you will notice."
+    ],
+    "lighter": [
+      "Order the S$5 plate, not the S$8 one. The bigger plate is about 260 calories more.",
+      "Ask for no pork lard bits on top. That is around 50 calories of pure fat.",
+      "Use half the sambal and all of the lime. Sambal is about 40 calories a spoon, lime is zero.",
+      "Share a large plate with one other person and each add a side of vegetables or a boiled egg for protein.",
+      "Eat the prawns and squid. They are the lowest calorie part of the plate and give most of the 24g of protein."
+    ],
+    "components": [
+      {"name": "Yellow noodles and bee hoon", "grams": 200, "calories": 260},
+      {"name": "Prawns, 4 pieces", "grams": 50, "calories": 50},
+      {"name": "Egg", "grams": 55, "calories": 75},
+      {"name": "Squid and pork belly", "grams": 40, "calories": 70},
+      {"name": "Lard, oil and sambal", "grams": 15, "calories": 80}
+    ],
+    "portions": [
+      {"label": "Small plate (S$4)", "calories": 430},
+      {"label": "Standard plate (S$5)", "calories": 522},
+      {"label": "Large plate (S$8)", "calories": 780}
+    ],
+    "variants": [
+      {"name": "Standard plate, no lard bits", "calories": 470, "note": "Ask when ordering"},
+      {"name": "Standard plate", "calories": 522, "note": "Hawker standard"},
+      {"name": "Large plate with extra prawns", "calories": 780, "note": "S$8 to S$10 famous stall size"},
+      {"name": "Opeh leaf sharing plate for 2, eaten alone", "calories": 1000, "note": "Do not do this"}
+    ],
+    "faq": [
+      {"q": "Is Singapore Hokkien mee healthier than char kway teow?", "a": "Yes, by a good margin. A standard plate is about 522 calories against 742 for char kway teow. Hokkien mee is braised in stock, so it takes on less oil than a plate fried dry in lard."},
+      {"q": "How many calories in Hokkien mee without the noodles?", "a": "The prawns, squid, pork and egg together are about 195 calories. The noodles are the bulk of the plate at around 260, plus 80 from lard and sambal."},
+      {"q": "How much protein is in Hokkien prawn mee?", "a": "Around 24g per standard plate, from the egg, prawns, squid and pork. That is a reasonable amount for a 522 calorie lunch."},
+      {"q": "Is the KL Hokkien mee higher in calories?", "a": "Yes. KL Hokkien mee is thick noodles braised in dark soy and a lot of lard, at about 720 calories a plate. The Singapore version at 522 is the lighter of the two."}
+    ],
+    "related": ["hokkien-mee-kl", "penang-hokkien-mee", "char-kuey-teow", "prawn-noodle-soup"],
+    "source": "HPB iDAT via danielfooddiary.com 2015, KKH dietitians via HealthXchange.sg"
+  },
+  {
+    "slug": "prawn-noodle-soup",
+    "name": "Prawn Noodle Soup",
+    "aka": ["Prawn Mee Soup", "Hae Mee", "虾面", "Prawn Noodles Singapore"],
+    "category": "noodles",
+    "region": ["sg"],
+    "serving": "1 bowl (soup)",
+    "servingGrams": 500,
+    "calories": 294,
+    "protein": 22,
+    "carbs": 42,
+    "fat": 5,
+    "metaDescription": "A bowl of prawn noodle soup is about 294 calories, one of the lightest hawker noodle bowls. The dry version with chilli and lard jumps to 461.",
+    "summary": "Singapore prawn noodle soup is yellow noodles or bee hoon in a deep prawn head and pork bone broth with prawns, kangkong and bean sprouts, served soup or dry with a side of broth.",
+    "answer": "A standard bowl of prawn noodle soup is about 294 calories for a 500g bowl, with only 5g of fat. The dry version tossed in chilli, lard and soy is about 461 calories. The 167 calorie difference is almost entirely the dressing.",
+    "realTalk": [
+      "This is one of the best value hawker bowls for anyone counting. 150g of noodles is about 180 calories, five prawns about 60, and the broth, even though it tastes rich, is around 40 calories a bowl because the stall skims most of the fat off. Add kangkong and bean sprouts at 10 and some fried shallots at 15. That is 294 for a full bowl that keeps you full until dinner.",
+      "The dry version is a different dish for calorie purposes. Same noodles, same prawns, but tossed in chilli paste, lard, ketchup and soy. That dressing is about 150 to 170 calories, which takes the bowl to 461. The small bowl of broth on the side is still nearly free. So dry prawn mee costs you about 55 percent more than soup for the same amount of food.",
+      "Watch the add ons. Pork ribs are the usual upgrade and two ribs add around 150 calories. The S$8 jumbo prawn version is fine, because prawns are lean, and two big prawns are only about 60 calories more. Pig tail and intestines also stay under 100. The rule is simple. Add seafood, not pork fat."
+    ],
+    "lighter": [
+      "Order soup, not dry. The dry dressing is about 167 calories for the same bowl.",
+      "Choose bee hoon over yellow noodles. It is about 30 calories lighter per bowl and takes less alkaline flavour.",
+      "Upgrade with prawns, not pork ribs. Two extra prawns are 30 calories, two ribs are around 150.",
+      "Ask for extra kangkong and bean sprouts. Most stalls give it free and it fills the bowl for under 20 calories.",
+      "Skip the fried shallots if the stall spoons them on heavily. It is a small saving, about 15 calories, but it is free to skip."
+    ],
+    "components": [
+      {"name": "Yellow noodles or bee hoon", "grams": 150, "calories": 180},
+      {"name": "Prawns, 5 pieces", "grams": 60, "calories": 60},
+      {"name": "Prawn broth, skimmed", "grams": 250, "calories": 40},
+      {"name": "Kangkong and bean sprouts", "grams": 40, "calories": 10},
+      {"name": "Fried shallots", "grams": 5, "calories": 15}
+    ],
+    "portions": [
+      {"label": "Small soup bowl", "calories": 240},
+      {"label": "Standard soup bowl", "calories": 294},
+      {"label": "Dry version with chilli and lard", "calories": 461}
+    ],
+    "variants": [
+      {"name": "Soup, bee hoon", "calories": 265, "note": "Lightest version"},
+      {"name": "Soup, yellow noodles", "calories": 294, "note": "Standard"},
+      {"name": "Soup with pork ribs", "calories": 440, "note": "Two ribs added"},
+      {"name": "Dry with chilli and lard", "calories": 461, "note": "Broth served on the side"},
+      {"name": "Dry with jumbo prawns and pork ribs", "calories": 640, "note": "S$10 to S$12 bowl"}
+    ],
+    "faq": [
+      {"q": "Is prawn noodle soup good for weight loss?", "a": "It is one of the better hawker choices. At 294 calories with 22g of protein and 5g of fat, a soup bowl is filling for the calories. Order dry and it becomes 461, which is still fine but no longer light."},
+      {"q": "How many calories in dry prawn mee?", "a": "About 461 calories for a standard bowl. The chilli, lard and soy dressing is about 167 calories on top of the 294 soup version."},
+      {"q": "Is the prawn broth high in calories?", "a": "No. Most stalls skim the fat, so a bowl of broth is about 40 calories. The richness comes from prawn heads and bones, which flavour the stock without adding much fat."},
+      {"q": "How is Singapore prawn mee different from Penang Hokkien mee?", "a": "Same idea, different details. Penang Hokkien mee at about 420 calories has a spicier broth with more chilli oil and often a hard boiled egg. The Singapore soup version at 294 is lighter and usually comes without egg."}
+    ],
+    "related": ["penang-hokkien-mee", "hokkien-prawn-mee", "fish-ball-noodles", "bak-chor-mee"],
+    "source": "HPB iDAT via danielfooddiary.com 2014"
+  },
+  {
+    "slug": "mee-soto",
+    "name": "Mee Soto",
+    "aka": ["Mee Soto Ayam", "Soto Mee", "Singapore Mee Soto"],
+    "category": "noodles",
+    "region": ["sg"],
+    "serving": "1 bowl with begedil",
+    "servingGrams": 500,
+    "calories": 433,
+    "protein": 20,
+    "carbs": 58,
+    "fat": 13,
+    "metaDescription": "A bowl of mee soto is about 433 calories with a begedil on top, or around 370 without. The yellow noodles are most of it, the soup is light.",
+    "summary": "Mee soto is the Malay hawker bowl of yellow noodles in a spiced chicken broth with shredded chicken, bean sprouts and fried shallots, usually with a begedil potato patty dropped in and sambal kicap on the side.",
+    "answer": "A standard bowl of mee soto is about 433 calories for a 500g serving with a begedil. Without the begedil it is around 370 calories. The 180g of yellow noodles is about 230 calories, the chicken about 80, and the turmeric broth only 60.",
+    "realTalk": [
+      "The broth looks oily because of the turmeric and fried shallot oil floating on top, but it is lighter than it looks. 250ml of soto broth is around 60 calories. The yellow noodles are the real weight at 230 calories for 180g. Shredded chicken adds 80, bean sprouts 8, sambal kicap 25 and shallots 20. Without the begedil you are at about 370, which is a good number for a bowl that big.",
+      "Then the begedil goes in. One fried potato patty is about 60 to 95 calories depending on the size and how much oil it took on, and most stalls give you one by default. That is the difference between 370 and 433. Two begedil and you are close to 500. The same stall usually sells lontong at 798, so mee soto is the light option on that menu by a long way.",
+      "Watch the sambal kicap. It tastes like it should be free because it is mostly chilli and sweet soy, but sweet soy is sugar. Two spoons is about 50 calories. Stir in one spoon, taste, and stop there. The broth already has enough going on."
+    ],
+    "lighter": [
+      "Skip the begedil or ask for it on the side and eat half. That is up to 95 calories saved.",
+      "Ask for bee hoon instead of yellow noodles if the stall offers it. It is about 40 calories less per bowl.",
+      "Use one spoon of sambal kicap, not three. Each spoon of sweet soy chilli is about 25 calories.",
+      "Ask for extra chicken. Most stalls charge S$0.50 to S$1 and it adds protein for about 40 calories.",
+      "Order soto ayam, the version with rice cubes instead of yellow noodles, if you want it lighter. Same broth, about 60 calories less."
+    ],
+    "components": [
+      {"name": "Yellow noodles", "grams": 180, "calories": 230},
+      {"name": "Shredded chicken", "grams": 50, "calories": 80},
+      {"name": "Soto broth", "grams": 250, "calories": 60},
+      {"name": "Begedil, small", "grams": 40, "calories": 60},
+      {"name": "Bean sprouts, sambal kicap, fried shallots", "grams": 40, "calories": 45}
+    ],
+    "portions": [
+      {"label": "Bowl without begedil", "calories": 370},
+      {"label": "Standard bowl with begedil", "calories": 433},
+      {"label": "Large with 2 begedil and extra chicken", "calories": 560}
+    ],
+    "variants": [
+      {"name": "Soto ayam with rice cubes", "calories": 320, "note": "Nasi impit instead of noodles"},
+      {"name": "Mee soto, no begedil", "calories": 370, "note": "HealthHub figure"},
+      {"name": "Mee soto with begedil", "calories": 433, "note": "Hawker standard"},
+      {"name": "Mee soto with 2 begedil and extra sambal", "calories": 530, "note": "The full order"}
+    ],
+    "faq": [
+      {"q": "Is mee soto healthy?", "a": "It is one of the lighter Malay hawker dishes. About 370 calories without the begedil and 433 with it, with around 20g of protein from the chicken. The broth is spiced with turmeric and lemongrass, not coconut milk, so it stays low in fat."},
+      {"q": "How many calories in a begedil?", "a": "One hawker begedil is about 60 to 95 calories depending on size. It is a mashed potato patty fried in oil, so most of the calories come from the potato and the frying oil."},
+      {"q": "Is mee soto lower in calories than mee rebus?", "a": "Yes. Mee rebus is about 500 calories a plate because of the thick sweet potato gravy. Mee soto sits in clear broth and comes in at 370 to 433 depending on the begedil."},
+      {"q": "Does mee soto have coconut milk?", "a": "No. The broth is chicken stock with turmeric, galangal, lemongrass and shallots. That is why a 250ml serving of broth is only about 60 calories, compared with 260 for sayur lodeh gravy."}
+    ],
+    "related": ["begedil", "mee-rebus", "mee-siam", "lontong"],
+    "source": "HPB iDAT via danielfooddiary.com 2015 (433 with begedil), HealthHub.sg (370 without)"
+  },
+  {
+    "slug": "satay-bee-hoon",
+    "name": "Satay Bee Hoon",
+    "aka": ["Satay Beehoon", "沙爹米粉", "Satay Mee Hoon"],
+    "category": "noodles",
+    "region": ["sg"],
+    "serving": "1 plate",
+    "servingGrams": 350,
+    "calories": 462,
+    "protein": 18,
+    "carbs": 55,
+    "fat": 18,
+    "metaDescription": "A plate of satay bee hoon is about 462 calories. Nearly 200 of them are the peanut sauce, which is the whole point of the dish.",
+    "summary": "Satay bee hoon is a Singapore hawker dish of rice vermicelli, cuttlefish, cockles, pork slices, kangkong and bean sprouts, all covered in a thick spicy peanut satay sauce.",
+    "answer": "A standard plate of satay bee hoon is about 462 calories for a 350g serving, with around 18g of fat. The 150g of bee hoon is about 165 calories and the peanut sauce is close to 190. The cuttlefish, cockles and pork add under 110 together.",
+    "realTalk": [
+      "The satay sauce is the dish, and it is also 40 percent of the calories. A hawker ladle is about 80g of ground peanuts, oil, chilli, sugar and tamarind, which is roughly 190 calories. The bee hoon underneath is 165 for 150g. Everything else on the plate is light. Cuttlefish and cockles are around 50 calories for 50g, the pork slices 55, and the kangkong and bean sprouts about 10. A 462 calorie plate that is mostly sauce and noodles.",
+      "Bee hoon is the noodle that helps you here. It is thin rice vermicelli, so a full plate by volume weighs less than the same plate of yellow noodles. If this were satay yellow mee it would be closer to 520. The stall is doing you a favour without meaning to.",
+      "The problem is extra sauce. It is normal to ask for more because the plate dries out fast, and a second ladle is another 190 calories. A S$5 plate with extra sauce and extra cuttlefish lands at about 600. If you want more flavour, ask for more chilli, which is 10 calories, not more sauce."
+    ],
+    "lighter": [
+      "Ask for less sauce or sauce on the side. Half a ladle saves about 95 calories.",
+      "Ask for extra kangkong and bean sprouts. Most stalls will add them for free and it stretches the sauce for under 20 calories.",
+      "Add cuttlefish or cockles rather than pork slices. Seafood is about 1 calorie per gram, pork slices closer to 2.",
+      "Skip the tau pok if the stall adds it. Fried beancurd puffs soak up sauce and are about 30 calories each.",
+      "Eat it with a plain soup on the side rather than a sweet drink. A kopi c is 87 calories, a canned drink is 140."
+    ],
+    "components": [
+      {"name": "Bee hoon", "grams": 150, "calories": 165},
+      {"name": "Satay peanut sauce", "grams": 80, "calories": 190},
+      {"name": "Cuttlefish and cockles", "grams": 50, "calories": 50},
+      {"name": "Kangkong and bean sprouts", "grams": 40, "calories": 10},
+      {"name": "Pork slices", "grams": 30, "calories": 55}
+    ],
+    "portions": [
+      {"label": "Small plate, less sauce", "calories": 380},
+      {"label": "Standard plate", "calories": 462},
+      {"label": "Large with extra sauce and cuttlefish", "calories": 600}
+    ],
+    "variants": [
+      {"name": "Vegetables and bee hoon only", "calories": 350, "note": "No seafood or pork"},
+      {"name": "Standard plate", "calories": 462, "note": "Hawker standard"},
+      {"name": "With tau pok added", "calories": 520, "note": "Two pieces of fried beancurd"},
+      {"name": "Extra sauce and extra cuttlefish", "calories": 600, "note": "The usual S$5 to S$6 upgrade"}
+    ],
+    "faq": [
+      {"q": "How many calories in satay sauce?", "a": "About 190 calories per hawker ladle of roughly 80g. It is ground peanuts, oil, sugar, chilli and tamarind, so most of the calories are peanut fat with some sugar."},
+      {"q": "Is satay bee hoon healthy?", "a": "It is a middle of the road hawker plate at 462 calories with 18g of protein. The peanut sauce carries most of the fat. It is better than fried noodles like char kway teow at 742, but not as light as a soup."},
+      {"q": "Is satay bee hoon the same as the satay skewers?", "a": "Same sauce, different dish. Satay skewers are grilled meat at about 50 calories a stick. Satay bee hoon is noodles and seafood under the same peanut sauce, and a plate is around 462."},
+      {"q": "Can I eat satay bee hoon on a diet?", "a": "Yes, order it with less sauce and extra vegetables and it is about 380 calories. That is a normal lunch with room for dinner."}
+    ],
+    "related": ["satay", "mee-rebus", "chinese-rojak", "mee-siam"],
+    "source": "HPB iDAT via danielfooddiary.com 2015"
+  },
+  {
+    "slug": "beef-hor-fun",
+    "name": "Beef Hor Fun",
+    "aka": ["Beef Kway Teow", "牛肉河粉", "Beef Hor Fun Gravy", "Sliced Beef Hor Fun"],
+    "category": "noodles",
+    "region": ["sg"],
+    "serving": "1 plate",
+    "servingGrams": 450,
+    "calories": 697,
+    "protein": 28,
+    "carbs": 78,
+    "fat": 28,
+    "metaDescription": "A cze char plate of beef hor fun is about 697 calories. The wok fried kway teow soaks up oil before the egg gravy even goes on.",
+    "summary": "Beef hor fun is flat rice noodles fried on high heat until charred, then covered in a starchy egg gravy with tender sliced beef and a few stalks of green vegetable. A cze char and hawker standard in Singapore.",
+    "answer": "A standard plate of beef hor fun is about 697 calories for a 450g serving, with around 28g of fat. The 250g of wok fried kway teow is about 320 calories, the egg gravy 120, the beef 130, and the frying oil the remaining 130.",
+    "realTalk": [
+      "Hor fun is fried twice, in effect. First the noodles are tossed in a hot oiled wok to get the char, which is where 250g of kway teow picks up most of its 320 calories and a good part of the 130 calories of oil. Then the gravy is poured on, which is stock thickened with cornstarch and egg, about 120 calories. The 80g of sliced beef is the smallest number on the plate at 130. So the beef is not the problem. The noodle and the oil are.",
+      "This is the plate that beats char kway teow for stealth. Nobody thinks a gravy noodle is heavy because it looks wet and soft. But 697 calories is nearly the same as a plate of char kway teow at 742, and more than a plate of Singapore Hokkien mee at 522. The gravy hides the oil. It does not remove it.",
+      "Cze char portions are the other issue. A S$6 hawker plate is the 697 calorie one. A S$8 to S$10 cze char plate for one is usually 30 percent bigger and lands around 880. The same amount of beef, more noodles, more gravy. Two people ordering one plate to share with a plate of vegetables is the sane approach."
+    ],
+    "lighter": [
+      "Order the soup version, beef kway teow soup, which is about 400 calories. Same beef, no wok oil, no starchy gravy.",
+      "Ask for less oil when frying. Cze char stalls will usually do it and it saves 50 to 80 calories.",
+      "Ask for more beef and less noodles. Beef is about 1.6 calories per gram, the fried kway teow closer to 1.3 plus oil.",
+      "Share one plate between two and order a plate of stir fried kai lan at about 150 calories on the side.",
+      "Leave the last third of the gravy on the plate. It is starch and oil, not flavour you will miss."
+    ],
+    "components": [
+      {"name": "Wok fried kway teow", "grams": 250, "calories": 320},
+      {"name": "Sliced beef", "grams": 80, "calories": 130},
+      {"name": "Egg gravy", "grams": 150, "calories": 120},
+      {"name": "Frying oil", "grams": 15, "calories": 130}
+    ],
+    "portions": [
+      {"label": "Small hawker plate", "calories": 550},
+      {"label": "Standard plate", "calories": 697},
+      {"label": "Large cze char plate", "calories": 880}
+    ],
+    "variants": [
+      {"name": "Beef kway teow soup", "calories": 400, "note": "No frying, no gravy"},
+      {"name": "Dry beef hor fun, less oil", "calories": 620, "note": "Ask the stall"},
+      {"name": "Standard beef hor fun", "calories": 697, "note": "Hawker standard"},
+      {"name": "Cze char plate with extra beef", "calories": 880, "note": "S$10 plate for one"}
+    ],
+    "faq": [
+      {"q": "Is beef hor fun healthy?", "a": "Not especially. At 697 calories with 28g of fat, it is close to char kway teow territory. The upside is 28g of protein from the beef. Order it as an occasional meal, not a daily lunch."},
+      {"q": "How many calories in the hor fun gravy?", "a": "About 120 calories for a standard ladle of 150g. It is chicken or pork stock thickened with cornstarch and swirled with egg. It looks heavy but the oil in the fried noodles is the bigger number."},
+      {"q": "Is beef hor fun or wat tan hor higher in calories?", "a": "About the same. Wat tan hor with seafood and pork is around 640 calories, beef hor fun about 697. The beef slices are marinated with oil and cornstarch, which adds a little."},
+      {"q": "How much protein is in beef hor fun?", "a": "Around 28g per standard plate, most of it from 80g of sliced beef and the egg in the gravy. It is one of the higher protein noodle plates, just also one of the higher calorie ones."}
+    ],
+    "related": ["wat-tan-hor", "ipoh-hor-fun", "char-kuey-teow", "mui-fan"],
+    "source": "HPB iDAT via danielfooddiary.com 2015"
+  },
+  {
+    "slug": "economy-bee-hoon",
+    "name": "Economy Bee Hoon",
+    "aka": ["Economical Bee Hoon", "Breakfast Bee Hoon", "经济米粉", "Bee Hoon with Egg"],
+    "category": "noodles",
+    "region": ["sg"],
+    "serving": "1 plate with fried egg",
+    "servingGrams": 260,
+    "calories": 369,
+    "protein": 12,
+    "carbs": 50,
+    "fat": 14,
+    "metaDescription": "A plate of economy bee hoon with a fried egg is about 369 calories. Add luncheon meat and a chicken wing and the S$3 breakfast becomes 680.",
+    "summary": "Economy bee hoon is the Singapore kopitiam breakfast of fried rice vermicelli with a spoon of sambal, sold by the scoop with your choice of fried egg, luncheon meat, chicken wing, ngoh hiang or fish cake on top.",
+    "answer": "A plate of economy bee hoon with one fried egg is about 369 calories for a 260g serving. The 200g scoop of fried bee hoon is about 260 calories, the fried egg 90, and the sambal about 20. Every add on after that is extra.",
+    "realTalk": [
+      "The bee hoon itself is the base at 260 calories for a 200g scoop. It is fried with soy and a fair amount of oil, so it is not plain vermicelli, but it is still lighter than a scoop of fried noodles or fried rice, which would be closer to 350. A fried egg is 90 because it goes into the same oil. Sambal is 20. That is your 369 plate for about S$2.50.",
+      "The add ons are where the S$3 breakfast becomes a 700 calorie meal. Luncheon meat is a slice of fried tinned pork, about 100 calories a slice. A fried chicken wing is around 190. A piece of ngoh hiang is 110, a fried fish cake 70. Bee hoon plus egg plus luncheon meat plus chicken wing is 680 calories. That is a bak chor mee and a kopi c stacked into a breakfast.",
+      "The reason to like economy bee hoon is that you choose every piece. Nothing is hidden in a sauce. Bee hoon and egg at 369 is a fine breakfast with 12g of protein. Bee hoon with a hard boiled egg and a piece of steamed fish cake is closer to 330 and higher in protein. It is one of the few hawker meals where you decide the number."
+    ],
+    "lighter": [
+      "Get a hard boiled egg or omelette strip instead of a fried egg if the stall has one. It saves about 20 to 30 calories.",
+      "Pick one add on, not three. The chicken wing is 190, the luncheon meat 100, the ngoh hiang 110. Choose the one you actually want.",
+      "Ask for a half scoop of bee hoon and a full portion of vegetables. Some stalls do a cabbage or long bean side for about 40 calories.",
+      "Go easy on the sambal if you are adding fried items. It is fried in oil too, about 20 calories a spoon.",
+      "Mee siam and mee rebus from the same stall are 470 and 500. The plain bee hoon and egg at 369 is the lightest thing on that counter."
+    ],
+    "components": [
+      {"name": "Fried bee hoon", "grams": 200, "calories": 260},
+      {"name": "Fried egg", "grams": 50, "calories": 90},
+      {"name": "Sambal chilli", "grams": 10, "calories": 20}
+    ],
+    "portions": [
+      {"label": "Bee hoon only", "calories": 260},
+      {"label": "Bee hoon with fried egg", "calories": 369},
+      {"label": "Bee hoon with egg, luncheon meat and chicken wing", "calories": 680}
+    ],
+    "variants": [
+      {"name": "Bee hoon only", "calories": 260, "note": "Plain scoop with sambal"},
+      {"name": "Bee hoon with fried egg", "calories": 369, "note": "Standard kopitiam order"},
+      {"name": "Bee hoon with egg and luncheon meat", "calories": 470, "note": "One slice of luncheon meat"},
+      {"name": "Bee hoon with egg and chicken wing", "calories": 560, "note": "One fried mid joint wing"},
+      {"name": "Bee hoon with egg, luncheon meat, wing and ngoh hiang", "calories": 790, "note": "The full S$5 plate"}
+    ],
+    "faq": [
+      {"q": "Is economy bee hoon healthy for breakfast?", "a": "With just an egg it is a reasonable 369 calorie breakfast. The problem starts with the fried add ons. A chicken wing and luncheon meat take the same plate to 680 calories."},
+      {"q": "How many calories in a scoop of fried bee hoon?", "a": "About 260 calories for a 200g kopitiam scoop. The vermicelli is fried with soy sauce and oil, which is why it is higher than plain boiled bee hoon at around 200."},
+      {"q": "How many calories in luncheon meat?", "a": "About 100 calories per fried slice of around 35g. It is tinned pork with a lot of fat, then fried again in oil, so it is small but dense."},
+      {"q": "Is economy bee hoon or nasi lemak lower in calories?", "a": "Economy bee hoon with egg at 369 is lower than a standard nasi lemak at 556. Once you add a chicken wing to the bee hoon, they are about the same."}
+    ],
+    "related": ["bee-hoon-goreng", "mee-goreng-mamak", "kaya-toast", "nasi-lemak"],
+    "source": "HPB iDAT via danielfooddiary.com 2015"
+  },
+  {
+    "slug": "soy-sauce-chicken-rice",
+    "name": "Soy Sauce Chicken Rice",
+    "aka": ["Soya Sauce Chicken Rice", "油鸡饭", "Hawker Chan Chicken Rice", "Soy Chicken Rice"],
+    "category": "rice",
+    "region": ["sg"],
+    "serving": "1 plate",
+    "servingGrams": 350,
+    "calories": 551,
+    "protein": 30,
+    "carbs": 65,
+    "fat": 18,
+    "metaDescription": "A plate of soy sauce chicken rice is about 551 calories, a bit under the steamed chicken rice at 607. The rice is still more than half of it.",
+    "summary": "Soy sauce chicken rice is the Cantonese hawker plate of chicken braised in a dark soy and rock sugar master stock, sliced over chicken rice with a drizzle of the braising liquid and a side of chilli.",
+    "answer": "A standard plate of soy sauce chicken rice is about 551 calories for a 350g serving, with around 18g of fat and 30g of protein. The 200g of chicken rice is about 290 calories, the soy chicken 190, and the soy gravy and chilli around 50.",
+    "realTalk": [
+      "The chicken here is the same bird as steamed chicken rice, just cooked in a soy stock instead of poached. Braising renders some fat out of the skin, which is why a plate at 551 comes in a bit under steamed chicken rice at 607. 100g of soy chicken with skin is about 190 calories. The soy gravy poured on top has sugar in it, about 35 calories a spoon. The rice is the same 290 calories for 200g because it is still cooked in chicken fat.",
+      "The most famous version, the hawker stall that got a Michelin star, sells the plate at about S$3.80 with a generous mound of rice. That plate is closer to 600 because the rice is bigger. The chicken portion is what you would expect, about 100 to 120g. So the cheap famous plate is heavier than the number above, not lighter.",
+      "Breast or thigh is a real choice with soy chicken. Thigh with skin is about 210 calories per 100g in soy stock. Breast with skin about 170, breast with the skin peeled about 130. Ask for breast, peel the skin, and the whole plate drops to about 490 with more protein than before."
+    ],
+    "lighter": [
+      "Ask for breast meat. It is about 40 calories less per plate than thigh and higher in protein.",
+      "Peel the skin off. On soy chicken the skin is thin but it holds most of the fat, roughly 40 calories per plate.",
+      "Ask for plain white rice. Chicken rice is cooked in chicken fat and stock, about 60 calories more per plate than plain rice.",
+      "Ask for less soy gravy. The braising liquid has rock sugar in it, about 35 calories a spoon.",
+      "Add a plate of blanched vegetables or extra cucumber. The stall usually has kai lan or bean sprouts for about 60 calories."
+    ],
+    "components": [
+      {"name": "Chicken rice", "grams": 200, "calories": 290},
+      {"name": "Soy sauce chicken with skin", "grams": 100, "calories": 190},
+      {"name": "Soy braising gravy", "grams": 20, "calories": 35},
+      {"name": "Cucumber slices", "grams": 20, "calories": 5},
+      {"name": "Chilli and ginger", "grams": 10, "calories": 15}
+    ],
+    "portions": [
+      {"label": "Small plate, less rice", "calories": 450},
+      {"label": "Standard plate", "calories": 551},
+      {"label": "Large with extra chicken and rice", "calories": 720}
+    ],
+    "variants": [
+      {"name": "Breast, skin off, white rice", "calories": 430, "note": "The lean order"},
+      {"name": "Breast with skin, chicken rice", "calories": 510, "note": ""},
+      {"name": "Standard plate, thigh", "calories": 551, "note": "Hawker standard"},
+      {"name": "Soy chicken with char siew, mixed plate", "calories": 680, "note": "Double meat"}
+    ],
+    "faq": [
+      {"q": "Is soy sauce chicken rice healthier than steamed chicken rice?", "a": "Slightly. Soy sauce chicken rice is about 551 calories against 607 for the steamed version. Braising lets some fat drip out of the skin. The rice is the same, so the gap is not big."},
+      {"q": "How many calories in Hawker Chan soy sauce chicken rice?", "a": "Around 600 calories. The chicken portion is normal but the rice mound is larger than average, which adds about 50 calories over a standard plate."},
+      {"q": "How much protein is in soy sauce chicken rice?", "a": "About 30g per plate from 100g of chicken. Choose breast and it goes up to around 34g while the calories go down."},
+      {"q": "Does soy sauce chicken have sugar?", "a": "Yes, the master stock uses rock sugar and dark soy. The chicken itself takes on only a little, but the gravy spooned over the rice is about 35 calories a spoon, mostly from sugar."}
+    ],
+    "related": ["chicken-rice", "char-siew-rice", "roast-duck", "braised-duck-rice"],
+    "source": "HPB iDAT via danielfooddiary.com 2015"
+  },
+  {
+    "slug": "braised-duck-rice",
+    "name": "Braised Duck Rice",
+    "aka": ["Teochew Braised Duck Rice", "Lor Ark Png", "卤鸭饭", "Duck Rice"],
+    "category": "rice",
+    "region": ["sg"],
+    "serving": "1 plate",
+    "servingGrams": 380,
+    "calories": 604,
+    "protein": 30,
+    "carbs": 72,
+    "fat": 21,
+    "metaDescription": "A plate of Teochew braised duck rice is about 604 calories. The yam rice and braised gravy are heavier than the duck itself.",
+    "summary": "Braised duck rice is the Teochew hawker plate of duck simmered in a dark soy, galangal and five spice braise, sliced over yam rice or white rice with braised gravy, a braised egg and tau kwa on the side.",
+    "answer": "A standard plate of braised duck rice is about 604 calories for a 380g serving, with around 21g of fat. The 220g of yam rice is about 300 calories, the 100g of braised duck around 200, and the gravy, egg and tau kwa make up the rest.",
+    "realTalk": [
+      "Duck has a reputation for being fatty and it is, but braising takes a lot of that out. 100g of Teochew braised duck with skin is about 200 calories, which is less than the 220g of yam rice at 300. Yam rice is rice cooked with taro, dried shrimp and shallot oil, so it is about 40 calories heavier than plain rice for the same scoop. Then a spoon of braising gravy at 50, half a braised egg at 40, and a piece of tau kwa at 20. Total 604.",
+      "The gravy is the sneaky part. It is the braising liquid thickened with starch, and it goes over the rice and the duck. One ladle is around 50 calories, and the uncle is not shy with it. Ask for less and you save that. Ask for extra, which people do because it is the flavour, and the plate is closer to 660.",
+      "Roast duck rice from the Cantonese stalls is a different number. Roast duck keeps the skin crisp and the fat under it, so a roast duck plate is around 700. Braised is the lighter duck. If you want duck for lunch and you are counting, this is the one."
+    ],
+    "lighter": [
+      "Ask for white rice instead of yam rice. It saves about 40 calories and you keep all the duck.",
+      "Ask for less gravy over the rice. One ladle is about 50 calories.",
+      "Peel the skin off the duck slices. Braised duck skin is soft, so it comes off easily, and it is about 40 calories per plate.",
+      "Order the duck with a bowl of kway teow soup instead of rice. The soup version is around 420 calories.",
+      "Add a side of braised tau kwa or the preserved vegetable. Both are under 40 calories and stretch the meal."
+    ],
+    "components": [
+      {"name": "Yam rice", "grams": 220, "calories": 300},
+      {"name": "Braised duck with skin", "grams": 100, "calories": 200},
+      {"name": "Braised gravy", "grams": 30, "calories": 50},
+      {"name": "Braised egg, half", "grams": 28, "calories": 40},
+      {"name": "Tau kwa", "grams": 20, "calories": 20}
+    ],
+    "portions": [
+      {"label": "Small plate, white rice", "calories": 500},
+      {"label": "Standard plate", "calories": 604},
+      {"label": "Large with extra duck and gravy", "calories": 780}
+    ],
+    "variants": [
+      {"name": "Braised duck kway teow soup", "calories": 420, "note": "Noodles in braising broth"},
+      {"name": "Braised duck with white rice, less gravy", "calories": 520, "note": ""},
+      {"name": "Standard braised duck rice", "calories": 604, "note": "Yam rice, egg, tau kwa"},
+      {"name": "Roast duck rice", "calories": 700, "note": "Cantonese style, skin on"}
+    ],
+    "faq": [
+      {"q": "Is braised duck rice healthy?", "a": "It is a fair hawker plate. About 604 calories with 30g of protein and 21g of fat. The braising removes some of the duck fat, so it is lighter than roast duck rice at around 700."},
+      {"q": "Is duck higher in calories than chicken?", "a": "Per 100g with skin, yes. Braised duck is about 200 calories per 100g against 170 for soy chicken breast with skin. Skin off, the two are close, around 130 to 140 per 100g."},
+      {"q": "How many calories in yam rice?", "a": "About 300 calories for a 220g hawker scoop. Plain white rice is about 260 for the same weight. The difference is the shallot oil and dried shrimp it is cooked with."},
+      {"q": "How many calories in braised duck without rice?", "a": "About 200 calories for a 100g portion of duck with skin, plus around 50 for the gravy. With the braised egg and tau kwa it is roughly 310, which works as a meal with a plate of vegetables."}
+    ],
+    "related": ["roast-duck", "kway-chap", "chicken-rice", "soy-sauce-chicken-rice"],
+    "source": "HPB iDAT via danielfooddiary.com 2015"
+  },
+  {
+    "slug": "lontong",
+    "name": "Lontong",
+    "aka": ["Lontong Sayur Lodeh", "Lontong Singapore", "Lontong Goreng"],
+    "category": "rice",
+    "region": ["sg"],
+    "serving": "1 bowl with sayur lodeh",
+    "servingGrams": 600,
+    "calories": 798,
+    "protein": 22,
+    "carbs": 80,
+    "fat": 42,
+    "metaDescription": "A hawker bowl of lontong with sayur lodeh is about 798 calories, one of the heaviest breakfasts in Singapore. The coconut gravy is the reason.",
+    "summary": "Lontong is compressed rice cakes cut into cubes and served in sayur lodeh, a thick coconut milk vegetable curry, topped with a hard boiled egg, tempeh or tau kwa, sambal and serunding.",
+    "answer": "A standard hawker bowl of lontong is about 798 calories for a 600g serving, with around 42g of fat. The 200g of rice cakes is about 260 calories, but the 250ml of sayur lodeh coconut gravy is around 260 on its own, before the egg, tempeh, sambal and serunding.",
+    "realTalk": [
+      "798 calories is more than a plate of char kway teow, and it is sold as breakfast. The rice cubes are not the problem. 200g of lontong is about 260 calories, similar to a scoop of rice. The sayur lodeh is. It is vegetables cooked in thick coconut milk, and a 250ml ladle is about 260 calories with almost all of it from coconut fat. The egg is 75, the tempeh or tau kwa about 100 because it is fried, the sambal 40, and the serunding on top another 60.",
+      "The hawker stalls that sell lontong usually sell mee soto next to it. Mee soto is about 433. Same counter, same S$4, and one bowl is nearly double the other. The difference is entirely the coconut gravy versus the clear turmeric broth. If you want the Malay breakfast and you are counting, mee soto is the easier choice by about 365 calories.",
+      "Lontong goreng, the fried version with the rice cubes tossed with sambal and vegetables, is around 550 because there is no coconut gravy, but it does take on frying oil. If you want the rice cakes and the sambal without the lodeh, that is the middle option."
+    ],
+    "lighter": [
+      "Ask for less gravy, more vegetables. Half a ladle of sayur lodeh saves about 130 calories.",
+      "Skip the serunding and the fried tempeh. Together they are about 160 calories and they are toppings, not the meal.",
+      "Ask for tau kwa instead of tempeh if the tau kwa is not fried. Plain tau kwa is about 60 calories for the same portion.",
+      "Order mee soto instead. Same stall, 433 calories, and you still get the spiced broth and the sambal.",
+      "Eat the egg and the vegetables first, then decide how much of the rice and gravy you want. Most people leave a third once they slow down."
+    ],
+    "components": [
+      {"name": "Compressed rice cakes", "grams": 200, "calories": 260},
+      {"name": "Sayur lodeh coconut gravy", "grams": 250, "calories": 260},
+      {"name": "Hard boiled egg", "grams": 55, "calories": 75},
+      {"name": "Fried tempeh or tau kwa", "grams": 50, "calories": 100},
+      {"name": "Sambal", "grams": 20, "calories": 40},
+      {"name": "Serunding", "grams": 15, "calories": 60}
+    ],
+    "portions": [
+      {"label": "Small bowl, less gravy", "calories": 600},
+      {"label": "Standard bowl", "calories": 798},
+      {"label": "Large with extra tempeh and begedil", "calories": 950}
+    ],
+    "variants": [
+      {"name": "Lontong goreng", "calories": 550, "note": "Fried rice cubes, no coconut gravy"},
+      {"name": "Lontong with less gravy and no serunding", "calories": 620, "note": ""},
+      {"name": "Standard lontong sayur lodeh", "calories": 798, "note": "Hawker standard"},
+      {"name": "Lontong with begedil and extra gravy", "calories": 950, "note": "The full order"}
+    ],
+    "faq": [
+      {"q": "Why is lontong so high in calories?", "a": "The sayur lodeh. A 250ml ladle of coconut milk vegetable gravy is about 260 calories, and the fat content is around 25g. The rice cakes are only 260 for 200g. Take away the gravy and lontong is a normal meal."},
+      {"q": "Is lontong healthy?", "a": "Not as a regular breakfast. At 798 calories and 42g of fat it is heavier than most hawker lunches. It does have vegetables and 22g of protein, but the coconut fat outweighs that."},
+      {"q": "How many calories in lontong goreng?", "a": "About 550 calories per plate. It is the same rice cubes stir fried with sambal, egg and vegetables. No coconut gravy, so it is around 250 calories lighter than lontong sayur lodeh."},
+      {"q": "Is lontong the same as ketupat?", "a": "Similar. Ketupat is rice cooked in woven palm leaf pouches, lontong is rice compressed in banana leaf. Both are about 130 calories per 100g. The calorie difference comes from what they are served with."}
+    ],
+    "related": ["mee-soto", "mee-rebus", "ketupat", "sayur-lemak"],
+    "source": "HPB iDAT via danielfooddiary.com 2015"
+  },
+  {
+    "slug": "mui-fan",
+    "name": "Mui Fan",
+    "aka": ["Mui Fun", "Hor Fun Rice", "烩饭", "Cantonese Gravy Rice", "Seafood Mui Fan"],
+    "category": "rice",
+    "region": ["sg"],
+    "serving": "1 plate",
+    "servingGrams": 500,
+    "calories": 719,
+    "protein": 28,
+    "carbs": 90,
+    "fat": 27,
+    "metaDescription": "A plate of mui fan is about 719 calories. It is a large mound of rice under an egg gravy, and the rice is nearly half the number.",
+    "summary": "Mui fan is the cze char and hawker plate of white rice covered in a thick egg and starch gravy with prawns, fish cake, sliced pork and vegetables. The same gravy as hor fun, over rice instead of noodles.",
+    "answer": "A standard plate of mui fan is about 719 calories for a 500g serving, with around 27g of fat. The 250g of white rice is about 325 calories, the egg gravy around 150, the prawns, fish cake and pork about 120, and the wok oil the remaining 110.",
+    "realTalk": [
+      "Mui fan is the plate people order when they want something that feels lighter than fried rice, and it is not lighter. The rice is not fried, but there is 250g of it, which is 325 calories. The gravy is stock thickened with cornstarch and swirled with egg, about 150 calories for a full ladle. The toppings are fried in the wok first with 12g of oil, another 110. Prawns, fish cake and pork slices together are only 120. So a plate of 719 is mostly rice, gravy and oil.",
+      "Compare it to yong chow fried rice at about 620. Mui fan is 100 calories more, because the gravy adds volume that fried rice does not have. It feels like a wet, gentle dish. It is a large dish. That is the whole trick of gravy plates at cze char, the beef hor fun at 697 works the same way.",
+      "Portion is the fix. Most cze char stalls pile mui fan high because the gravy hides how much rice is under it. Ask for less rice and you can take 100 to 150 calories off without changing the dish. Ask for extra vegetables and the stall will usually add a handful of cabbage or choy sum for under 30 calories."
+    ],
+    "lighter": [
+      "Ask for less rice. A 150g scoop instead of 250g saves about 130 calories.",
+      "Ask for less oil and less gravy. Cze char stalls will do both, and it takes off around 100.",
+      "Ask for extra vegetables and extra prawns, which are the two lightest things on the plate.",
+      "Order the fish slice version. Sliced fish is leaner than pork slices and the plate drops about 40 calories.",
+      "Leave the pool of gravy at the bottom. It is starch and oil, and the flavour is already on the rice."
+    ],
+    "components": [
+      {"name": "White rice", "grams": 250, "calories": 325},
+      {"name": "Egg gravy", "grams": 200, "calories": 150},
+      {"name": "Prawns, fish cake and pork slices", "grams": 80, "calories": 120},
+      {"name": "Vegetables", "grams": 50, "calories": 15},
+      {"name": "Wok oil", "grams": 12, "calories": 110}
+    ],
+    "portions": [
+      {"label": "Small plate, less rice", "calories": 580},
+      {"label": "Standard plate", "calories": 719},
+      {"label": "Large cze char plate", "calories": 900}
+    ],
+    "variants": [
+      {"name": "Fish slice mui fan, less rice", "calories": 560, "note": ""},
+      {"name": "Seafood mui fan", "calories": 700, "note": "Prawns, squid, fish cake"},
+      {"name": "Standard mui fan", "calories": 719, "note": "Mixed prawns, pork, fish cake"},
+      {"name": "Beef mui fan, large", "calories": 900, "note": "Cze char portion for one"}
+    ],
+    "faq": [
+      {"q": "Is mui fan healthier than fried rice?", "a": "Not really. Mui fan is about 719 calories against 620 for yong chow fried rice. The rice is not fried, but there is more of it and the gravy adds 150 calories with the wok oil on top."},
+      {"q": "How many calories in the mui fan gravy?", "a": "About 150 calories for a 200g ladle. It is chicken stock thickened with cornstarch and finished with beaten egg. The oil from frying the toppings ends up in it too."},
+      {"q": "Is mui fan good for weight loss?", "a": "It can work if you order it small. Less rice, less oil, more vegetables and prawns brings it to about 550 calories with 28g of protein. The standard plate at 719 is a lot for one meal."},
+      {"q": "What is the difference between mui fan and hor fun?", "a": "Only the base. Mui fan is the gravy over rice, hor fun is the same gravy over fried flat noodles. Beef hor fun is about 697 calories and mui fan about 719, so they land close together."}
+    ],
+    "related": ["beef-hor-fun", "wat-tan-hor", "yong-chow-fried-rice", "hainanese-curry-rice"],
+    "source": "HPB iDAT via danielfooddiary.com 2015"
+  },
+  {
+    "slug": "hainanese-curry-rice",
+    "name": "Hainanese Curry Rice",
+    "aka": ["Curry Rice Singapore", "海南咖喱饭", "Scissors Cut Curry Rice", "Hainanese Curry Rice with Pork Chop"],
+    "category": "rice",
+    "region": ["sg"],
+    "serving": "1 plate (rice, pork chop, chap chye, egg, curry)",
+    "servingGrams": 450,
+    "calories": 760,
+    "protein": 30,
+    "carbs": 85,
+    "fat": 34,
+    "metaDescription": "A plate of Hainanese curry rice with pork chop, chap chye and egg is about 760 calories. The messy mixed gravy hides a fried pork chop and a lot of rice.",
+    "summary": "Hainanese curry rice is the Singapore plate of white rice drowned in a mix of curry gravy and dark braised sauce, with a breaded fried pork chop, braised cabbage chap chye, a braised egg and often a piece of pork belly or fried fish.",
+    "answer": "A standard plate of Hainanese curry rice with a pork chop is about 760 calories for a 450g serving, with around 34g of fat. The 250g of rice is about 325 calories, the breaded pork chop 260, the curry and braised gravies around 100, and the chap chye and egg the rest.",
+    "realTalk": [
+      "The gravy gets the blame because the plate looks like a flood, but the fried pork chop is the biggest single item. A hawker pork chop is thin, breaded with cracker crumbs and deep fried, about 100g and 260 calories. The rice underneath is a big scoop, 250g and 325 calories. The curry gravy is thin and not very coconut heavy, so a ladle plus a ladle of braised lor sauce is only around 100. Chap chye is about 45, the braised egg 35. That is 760 for the classic order.",
+      "The trap is the second and third item. The famous curry rice stalls sell by the piece and the plate fills fast. Pork chop plus braised pork belly plus fried fish plus egg plus chap chye plus rice is over 1,100 calories. A S$6 plate can easily be that. The curry itself is not the issue. The pile of fried and braised protein is.",
+      "The way to eat this well is to pick one protein and load up on chap chye. A plate of rice, curry, chap chye, braised egg and one piece of steamed or braised pork is about 560. You still get the flood of gravy, which is what the dish is actually about."
+    ],
+    "lighter": [
+      "Pick one protein, not three. Each extra piece of pork belly or fried fish is 150 to 250 calories.",
+      "Choose braised pork or fried fish over the pork chop. The breaded chop is about 260, a piece of fried fish around 150.",
+      "Ask for less rice. The curry rice scoop is large and 100g less rice is about 130 calories saved.",
+      "Double the chap chye. It is braised cabbage at about 45 calories a portion and it soaks up the gravy the same way rice does.",
+      "Ask for curry gravy only, skip the lor. The braised sauce has more oil and sugar, and curry only saves around 40."
+    ],
+    "components": [
+      {"name": "White rice", "grams": 250, "calories": 325},
+      {"name": "Breaded fried pork chop", "grams": 100, "calories": 260},
+      {"name": "Curry gravy and braised lor sauce", "grams": 80, "calories": 100},
+      {"name": "Chap chye braised cabbage", "grams": 60, "calories": 45},
+      {"name": "Braised egg", "grams": 50, "calories": 35}
+    ],
+    "portions": [
+      {"label": "Rice, curry, chap chye, egg, braised pork", "calories": 560},
+      {"label": "Standard with pork chop", "calories": 760},
+      {"label": "Pork chop, belly, fried fish, egg, chap chye", "calories": 1100}
+    ],
+    "variants": [
+      {"name": "Rice, curry and chap chye only", "calories": 470, "note": "Vegetarian plate"},
+      {"name": "With braised egg and braised pork", "calories": 560, "note": ""},
+      {"name": "With fried fish instead of pork chop", "calories": 650, "note": ""},
+      {"name": "Standard with pork chop", "calories": 760, "note": "The classic order"},
+      {"name": "Three proteins", "calories": 1100, "note": "Pork chop, belly and fish"}
+    ],
+    "faq": [
+      {"q": "Is Hainanese curry rice unhealthy?", "a": "With a fried pork chop and three items it is around 760 to 1,100 calories, so yes, it is a heavy plate. Ordered with one braised protein and chap chye it is about 560 with 30g of protein, which is a normal lunch."},
+      {"q": "How many calories in the curry rice gravy?", "a": "About 60 calories per ladle of the curry and 40 for the braised lor sauce. It is thinner and less coconut heavy than Malay or Indian curry, which is why the gravy is not the biggest number on the plate."},
+      {"q": "How many calories in a Hainanese pork chop?", "a": "About 260 calories for a hawker piece of around 100g. It is thin pork loin, breaded with cream cracker crumbs and deep fried, so the crust and oil are most of it."},
+      {"q": "Is curry rice or nasi campur higher in calories?", "a": "Similar. Economy rice with three dishes is about 720 and Hainanese curry rice with a pork chop about 760. Both depend on how many fried items land on the plate."}
+    ],
+    "related": ["nasi-campur", "chicken-chop", "mui-fan", "char-siew-rice"],
+    "source": "estimate from components"
+  },
+  {
+    "slug": "sliced-fish-bee-hoon",
+    "name": "Sliced Fish Bee Hoon Soup",
+    "aka": ["Fish Soup Bee Hoon", "鱼片米粉", "Sliced Fish Soup", "Fish Bee Hoon Singapore"],
+    "category": "soup",
+    "region": ["sg"],
+    "serving": "1 bowl",
+    "servingGrams": 500,
+    "calories": 349,
+    "protein": 25,
+    "carbs": 45,
+    "fat": 7,
+    "metaDescription": "A bowl of sliced fish bee hoon soup is about 349 calories with 25g of protein. The fried fish version with evaporated milk is 730. Choose carefully.",
+    "summary": "Sliced fish bee hoon is the Singapore hawker soup of rice vermicelli in a clear fish bone broth with slices of batang or snakehead fish, tomato, lettuce or cabbage, and fried shallots. The fried fish and milk versions are the same bowl with the lights off.",
+    "answer": "A standard bowl of sliced fish bee hoon soup is about 349 calories for a 500g bowl, with 25g of protein and around 7g of fat. The fish soup alone without noodles is about 113 calories per 241g serving. The fried fish version with evaporated milk is about 730.",
+    "realTalk": [
+      "This is the hawker bowl dietitians keep pointing people to, and the number backs it up. 150g of bee hoon is about 165 calories, 80g of sliced batang fish about 90, the clear broth 50, vegetables and tomato 15, and the fried shallots and a drizzle of oil around 25. That is 349 for a full bowl with 25g of protein. Nothing else at the hawker centre gives you that ratio for S$5.",
+      "The same stall sells a bowl that is more than double. Fried fish bee hoon with milk is the sliced fish battered and deep fried, then the broth whitened with evaporated milk. That bowl is about 730 calories. The fried fish coating and oil add about 250, the milk another 100, and the stalls usually put in more fish because the fried version is the premium order. Same counter, same bee hoon, 380 calories apart.",
+      "The plain version is not bland if you use the chilli padi and soy dip properly. That dip is about 15 calories. A spoon of the fried shallot oil from the top of the pot is 40. Ask the stall to go light on the shallot oil and you keep the taste at a lower price."
+    ],
+    "lighter": [
+      "Order sliced fish, not fried fish. That single choice is about 250 calories.",
+      "Say no to the evaporated milk. It is about 100 calories per bowl and it hides the fish flavour anyway.",
+      "Ask for extra fish instead of extra noodles. 40g more fish is about 45 calories and 9g more protein.",
+      "Ask for extra vegetables. Most stalls add cabbage or lettuce free and it is under 15 calories.",
+      "Get the soup without noodles and eat it with a small bowl of rice if you want to control the carbs. Fish soup alone is about 113 calories."
+    ],
+    "components": [
+      {"name": "Bee hoon", "grams": 150, "calories": 165},
+      {"name": "Sliced batang fish", "grams": 80, "calories": 90},
+      {"name": "Clear fish broth", "grams": 250, "calories": 50},
+      {"name": "Vegetables and tomato", "grams": 40, "calories": 15},
+      {"name": "Fried shallots and oil", "grams": 5, "calories": 25}
+    ],
+    "portions": [
+      {"label": "Fish soup only, no noodles", "calories": 113},
+      {"label": "Standard sliced fish bee hoon", "calories": 349},
+      {"label": "Fried fish bee hoon with milk", "calories": 730}
+    ],
+    "variants": [
+      {"name": "Sliced fish soup, no noodles", "calories": 113, "note": "HealthHub figure, 241g"},
+      {"name": "Sliced fish bee hoon", "calories": 349, "note": "Hawker standard"},
+      {"name": "Sliced fish bee hoon with milk", "calories": 450, "note": "Evaporated milk added"},
+      {"name": "Fried fish bee hoon", "calories": 600, "note": "No milk"},
+      {"name": "Fried fish bee hoon with milk", "calories": 730, "note": "The heaviest order"}
+    ],
+    "faq": [
+      {"q": "Is sliced fish soup good for weight loss?", "a": "Yes, it is one of the best hawker options. About 349 calories with 25g of protein and only 7g of fat for a full bowl of bee hoon. Without noodles the soup is about 113 calories."},
+      {"q": "How many calories in fried fish bee hoon soup?", "a": "About 600 calories without milk and 730 with evaporated milk. The battered fried fish adds around 250 calories over the sliced version, and the milk adds about 100 more."},
+      {"q": "Does the milk in fish soup add a lot of calories?", "a": "About 100 calories per bowl. Evaporated milk is roughly 130 calories per 100ml and the stalls add about 80ml. It also adds 6g of fat to a soup that otherwise has very little."},
+      {"q": "Which fish is used in sliced fish soup?", "a": "Usually batang, which is Spanish mackerel, or toman, the snakehead. Both are lean, about 110 calories per 100g raw, which is why the sliced version stays light."}
+    ],
+    "related": ["sup-ikan", "fish-ball-noodles", "pork-porridge", "ipoh-hor-fun"],
+    "source": "HPB iDAT via danielfooddiary.com 2015 (349, 730), HealthHub.sg (113 soup only)"
+  },
+  {
+    "slug": "pork-porridge",
+    "name": "Pork Porridge",
+    "aka": ["Minced Pork Porridge", "Pork Congee", "猪肉粥", "Teochew Porridge"],
+    "category": "soup",
+    "region": ["sg"],
+    "serving": "1 bowl",
+    "servingGrams": 450,
+    "calories": 293,
+    "protein": 16,
+    "carbs": 40,
+    "fat": 8,
+    "metaDescription": "A hawker bowl of pork porridge is about 293 calories. Chicken porridge is around 215. The you tiao on the side is what doubles it.",
+    "summary": "Pork porridge is the Cantonese style hawker congee of rice cooked down until smooth, with minced pork, pork slices, sometimes liver or century egg, finished with sesame oil, spring onion and fried shallots.",
+    "answer": "A standard bowl of hawker pork porridge is about 293 calories for a 450g bowl, with around 16g of protein and 8g of fat. Chicken porridge is about 215 calories for a 500g bowl. The porridge base is roughly 170 of the calories, the pork 75, and the toppings and sesame oil about 50.",
+    "realTalk": [
+      "Porridge is mostly water. A 450g bowl only has about 50g of dry rice in it, which is why the porridge base is around 170 calories. The minced pork and pork slices, about 50g, add 75. Half a century egg is 30, and the fried shallots, sesame oil and a drizzle of soy come to about 25. That is 293 for a bowl that takes fifteen minutes to eat. Chicken porridge with shredded breast is lighter at 215 because chicken breast is leaner than minced pork.",
+      "The you tiao is where it goes wrong. Half a pair, cut up and sprinkled on top, is about 96 calories. A whole pair on the side is 192. Porridge with a pair of you tiao is around 485, which is more than a bowl of soup bak chor mee. The porridge did nothing wrong. The fried dough did.",
+      "Century egg gets a bad reputation but it is just an egg. Half of one is about 30 calories. Pork liver is 40 calories for a few slices and high in iron. Both are better additions than fried shallots, which are cooked in oil, or an extra spoon of sesame oil at 45."
+    ],
+    "lighter": [
+      "Skip the you tiao or share one stick. A pair is 192 calories, the porridge itself is 293.",
+      "Ask for chicken porridge if the stall has both. It is about 80 calories lighter for a similar bowl.",
+      "Ask for less sesame oil. A teaspoon is 45 calories and the stall often adds two.",
+      "Add an egg. A raw egg stirred into hot porridge is 75 calories and 6g of protein.",
+      "Add pork liver or extra lean pork instead of extra shallots. Protein for the calories, and it fills you longer."
+    ],
+    "components": [
+      {"name": "Rice porridge base", "grams": 350, "calories": 170},
+      {"name": "Minced pork and pork slices", "grams": 50, "calories": 75},
+      {"name": "Century egg, half", "grams": 25, "calories": 30},
+      {"name": "Fried shallots, sesame oil, soy", "grams": 8, "calories": 25}
+    ],
+    "portions": [
+      {"label": "Plain porridge with egg", "calories": 245},
+      {"label": "Standard pork porridge", "calories": 293},
+      {"label": "Pork porridge with a pair of you tiao", "calories": 485}
+    ],
+    "variants": [
+      {"name": "Plain porridge", "calories": 170, "note": "No toppings"},
+      {"name": "Chicken porridge", "calories": 215, "note": "HealthHub figure, 500g"},
+      {"name": "Pork porridge", "calories": 293, "note": "Hawker standard"},
+      {"name": "Pork and century egg porridge with extra liver", "calories": 350, "note": ""},
+      {"name": "Pork porridge with you tiao", "calories": 485, "note": "One pair on the side"}
+    ],
+    "faq": [
+      {"q": "Is pork porridge good for weight loss?", "a": "Yes, it is one of the lightest hawker meals at about 293 calories with 16g of protein. It is mostly water, so it fills the stomach for very few calories. Just do not add a pair of you tiao at 192."},
+      {"q": "How many calories in chicken porridge?", "a": "About 215 calories for a 500g bowl, according to HealthHub. Shredded chicken breast has less fat than minced pork, which is why it is around 80 calories lighter than pork porridge."},
+      {"q": "Is porridge healthier than rice?", "a": "For calories per bowl, yes. A 450g bowl of porridge has about 50g of dry rice, around 170 calories. A 250g scoop of cooked rice is about 325. Porridge is the same rice with a lot more water."},
+      {"q": "How many calories in century egg?", "a": "About 60 calories per whole egg, so around 30 for the half that usually goes in porridge. It is a preserved duck egg, with slightly more fat than a chicken egg but not by much."}
+    ],
+    "related": ["bubur-ayam", "you-tiao", "sliced-fish-bee-hoon", "chicken-rice"],
+    "source": "HPB iDAT via danielfooddiary.com 2015 (293), HealthHub.sg (chicken porridge 215)"
+  }
+]

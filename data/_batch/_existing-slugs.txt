@@ -1,0 +1,513 @@
+abacus-seeds | Abacus Seeds | noodles | 520 | my
+air-barli | Air Barli | drinks | 100 | my
+air-kelapa | Air Kelapa | drinks | 100 | my
+air-mata-kucing | Air Mata Kucing | drinks | 180 | my
+air-tebu | Air Tebu | drinks | 220 | my,sg
+ais-kacang | Ais Kacang (ABC) | dessert | 350 | my,sg
+ais-krim | Ais Krim (Local Ice Cream) | dessert | 80 | my
+ais-krim-goreng | Ais Krim Goreng (Fried Ice Cream) | dessert | 360 | my
+ais-krim-potong | Ais Krim Potong | dessert | 110 | my
+akok | Akok (Kelantan Kuih) | snacks | 180 | my
+ambuyat | Ambuyat | rice | 245 | my
+amplang | Amplang | snacks | 135 | my
+ang-ku-kueh | Ang Ku Kueh | snacks | 180 | sg
+apam-balik | Apam Balik | snacks | 290 | my,sg
+appam | Appam | mamak | 138 | sg
+arroz-caldo | Arroz Caldo | soup | 400 | ph
+asam-boi | Asam Boi Drink | drinks | 110 | my
+asam-laksa | Asam Laksa | noodles | 330 | my
+asam-pedas | Asam Pedas | lauk | 250 | my
+asam-rebus | Asam Rebus | lauk | 180 | my
+ayam-bakar | Ayam Bakar | lauk | 290 | my
+ayam-geprek | Ayam Geprek | lauk | 395 | id
+ayam-goreng | Ayam Goreng | lauk | 390 | my
+ayam-goreng-kremes | Ayam Goreng Kremes | lauk | 480 | id
+ayam-kapitan | Ayam Kapitan (Kari Kapitan) | lauk | 410 | my
+ayam-masak | Ayam Masak | lauk | 280 | my
+ayam-masak-arak | Ayam Masak Arak (Rice Wine Chicken) | lauk | 530 | my
+ayam-percik | Ayam Percik | lauk | 360 | my
+bak-chang | Bak Chang | snacks | 352 | sg
+bak-chor-mee | Bak Chor Mee | noodles | 511 | sg
+bak-kut-teh | Bak Kut Teh | soup | 405 | my,sg
+bak-kwa | Bak Kwa | snacks | 179 | sg
+baked-pork-chop-rice | Baked Pork Chop Rice | western | 1300 | hk
+bakso | Bakso | soup | 480 | id
+balut | Balut | snacks | 190 | ph
+bambangan | Bambangan | veg | 35 | my
+banana-leaf-rice | Banana Leaf Rice | rice | 850 | my
+banana-milk | Banana Milk | drinks | 220 | kr
+banh-canh-cua | Banh Canh Cua | noodles | 520 | vn
+banh-cuon | Banh Cuon | snacks | 300 | vn
+banh-mi-thit | Banh Mi Thit | snacks | 500 | vn
+banh-xeo | Banh Xeo | lauk | 350 | vn
+bbq-chicken-wings | BBQ Chicken Wings | lauk | 196 | sg
+beaufort-mee | Beaufort Mee | noodles | 620 | my
+bee-hoon-goreng | Bee Hoon Goreng | noodles | 450 | my
+beef-hor-fun | Beef Hor Fun | noodles | 697 | sg
+begedil | Begedil (Bergedil) | snacks | 190 | my
+bibimbap | Bibimbap | rice | 610 | kr
+bicol-express | Bicol Express | lauk | 520 | ph
+bingka-ubi | Kuih Bingka Ubi (Baked Tapioca Cake) | dessert | 230 | my
+bingsu | Bingsu | dessert | 450 | kr
+black-pepper-crab | Black Pepper Crab | lauk | 344 | sg
+bo-kho | Bo Kho | soup | 550 | vn
+bo-la-lot | Bo La Lot | lauk | 580 | vn
+bo-lo-bao | Pineapple Bun (Bo Lo Bao) | snacks | 310 | hk
+bo-lo-yau | Bo Lo Yau (Pineapple Bun with Butter) | snacks | 390 | hk
+boat-noodles | Boat Noodles (Kuay Teow Reua) | noodles | 300 | th
+bosou | Bosou | lauk | 35 | my
+bossam | Bossam | lauk | 620 | kr
+braised-duck-rice | Braised Duck Rice | rice | 604 | sg
+bubble-tea | Bubble Tea (Pearl Milk Tea) | drinks | 380 | my,sg
+bubur-ayam | Bubur Ayam | soup | 330 | my
+bubur-cha-cha | Bubur Cha Cha | dessert | 360 | my,sg
+bubur-jagung | Bubur Jagung | dessert | 360 | my
+bubur-lambuk | Bubur Lambuk | soup | 350 | my
+budae-jjigae | Budae Jjigae | soup | 630 | kr
+buko-juice | Buko Juice | drinks | 160 | ph
+bulalo | Bulalo | soup | 520 | ph
+bulgogi | Bulgogi | lauk | 330 | kr
+bun-bo-hue | Bun Bo Hue | noodles | 630 | vn
+bun-cha | Bun Cha | noodles | 500 | vn
+bun-dau-mam-tom | Bun Dau Mam Tom | noodles | 700 | vn
+bun-rieu | Bun Rieu | noodles | 480 | vn
+bun-thit-nuong | Bun Thit Nuong | noodles | 480 | vn
+bungeoppang | Bungeoppang | snacks | 110 | kr
+burger-bakar | Burger Bakar | western | 720 | my
+butod | Butod | snacks | 20 | my
+butter-prawns | Butter Prawns | lauk | 580 | my
+ca-kho-to | Ca Kho To | lauk | 300 | vn
+caldereta | Caldereta | lauk | 390 | ph
+canh-chua | Canh Chua | soup | 150 | vn
+cart-noodles | Cart Noodles (Che Zai Min) | noodles | 570 | hk
+cekodok-pisang | Cekodok Pisang (Jemput-Jemput) | snacks | 225 | my
+cempedak-goreng | Cempedak Goreng | snacks | 185 | my
+cendol | Cendol | dessert | 330 | my,sg
+century-egg-pork-congee | Century Egg and Pork Congee | soup | 260 | hk
+cereal-prawns | Cereal Prawns | lauk | 330 | sg
+chai-tow-kway | Chai Tow Kway (Carrot Cake) | snacks | 493 | sg
+chao-ga | Chao Ga | soup | 250 | vn
+chapati | Chapati | mamak | 200 | my
+char-kuey-teow | Char Kuey Teow | noodles | 742 | my,sg
+char-siew | Char Siew (BBQ Pork) | lauk | 290 | my
+char-siew-bao | Char Siew Bao | dimsum | 240 | my
+char-siew-rice | Char Siew Rice | rice | 570 | my,sg
+chee-cheong-fun | Chee Cheong Fun | noodles | 350 | my,sg
+cheng-tng | Cheng Tng | dessert | 160 | my,sg
+chicken-65 | Chicken 65 | lauk | 460 | my
+chicken-adobo | Chicken Adobo | rice | 520 | ph
+chicken-chop | Chicken Chop | western | 700 | my
+chicken-feet | Chicken Feet (Phoenix Claws) | dimsum | 280 | my
+chicken-inasal | Chicken Inasal | lauk | 450 | ph
+chicken-karaage | Chicken Karaage | lauk | 468 | jp
+chicken-rice | Chicken Rice | rice | 607 | my,sg
+chili-crab | Chili Crab | lauk | 450 | my,sg
+chinese-rojak | Chinese Rojak | snacks | 559 | sg
+chwee-kueh | Chwee Kueh | snacks | 342 | sg
+cincau | Cincau | drinks | 80 | my
+claypot-chicken-rice | Claypot Chicken Rice | rice | 700 | my
+claypot-lou-shu-fun | Claypot Lou Shu Fun | noodles | 510 | my
+coconut-shake | Coconut Shake | drinks | 270 | my
+coffee-bun | Coffee Bun (Rotiboy) | snacks | 340 | my
+com-tam-suon | Com Tam Suon | rice | 700 | vn
+crispy-pata | Crispy Pata | lauk | 560 | ph
+cucur-badak | Cucur Badak | snacks | 140 | my
+cucur-jagung | Cucur Jagung | snacks | 120 | my
+cucur-udang | Cucur Udang | snacks | 145 | my
+curry-fish-balls | Curry Fish Balls | snacks | 120 | hk
+curry-laksa | Curry Laksa | noodles | 600 | my,sg
+daging-dendeng | Daging Dendeng | lauk | 330 | my
+daging-harimau-menangis | Daging Harimau Menangis | lauk | 630 | my
+daging-masak | Daging Masak | lauk | 290 | my
+dakgalbi | Dakgalbi | lauk | 580 | kr
+daun-ubi-tumbuk | Daun Ubi Tumbuk | veg | 270 | my
+dinuguan | Dinuguan | lauk | 330 | ph
+dodol | Dodol | snacks | 100 | my
+doenjang-jjigae | Doenjang Jjigae | soup | 145 | kr
+durian | Durian | dessert | 175 | my
+economy-bee-hoon | Economy Bee Hoon | noodles | 369 | sg
+egg-tart | Egg Tart | dessert | 195 | my,sg
+eomuk | Eomuk | snacks | 100 | kr
+fish-and-chips | Fish and Chips | western | 800 | my
+fish-ball-noodles | Fish Ball Noodles | noodles | 390 | my,sg
+french-toast | French Toast (Roti Bakar) | mamak | 360 | my
+fried-wonton | Fried Wonton | dimsum | 360 | my
+gai-daan-zai | Egg Waffle (Gai Daan Zai) | snacks | 390 | hk
+gai-tod | Gai Tod | lauk | 320 | th
+galbi | Galbi | lauk | 460 | kr
+galbitang | Galbitang | soup | 470 | kr
+gamjatang | Gamjatang | soup | 600 | kr
+goi-cuon | Goi Cuon | snacks | 200 | vn
+green-curry | Green Curry (Gaeng Keow Wan) | lauk | 500 | th
+gudeg | Gudeg | rice | 650 | id
+gulai | Gulai | lauk | 320 | my
+gyoza | Gyoza | snacks | 390 | jp
+gyudon | Gyudon | rice | 633 | jp
+haemul-pajeon | Haemul Pajeon | snacks | 600 | kr
+hainanese-curry-rice | Hainanese Curry Rice | rice | 760 | sg
+hakka-lei-cha | Hakka Lei Cha (Thunder Tea Rice) | soup | 430 | my,sg
+hakka-mee | Hakka Mee | noodles | 520 | my
+halo-halo | Halo-Halo | dessert | 450 | ph
+har-gao | Har Gao | dimsum | 220 | my
+hinava | Hinava | lauk | 200 | my
+hk-french-toast | Hong Kong French Toast | western | 580 | hk
+hk-lemon-tea | Hong Kong Iced Lemon Tea | drinks | 140 | hk
+hk-milk-tea | Hong Kong Milk Tea | drinks | 110 | hk
+hokkien-mee-kl | KL Hokkien Mee | noodles | 720 | my
+hokkien-prawn-mee | Hokkien Prawn Mee (Fried) | noodles | 522 | sg
+horlicks-ais | Horlicks Ais | drinks | 230 | my
+hotteok | Hotteok | snacks | 280 | kr
+hu-tieu-nam-vang | Hu Tieu Nam Vang | noodles | 400 | vn
+idli | Idli | mamak | 275 | my
+ikan-bakar | Ikan Bakar | lauk | 300 | my
+ikan-empurau | Ikan Empurau | lauk | 530 | my
+ikan-goreng | Ikan Goreng | lauk | 230 | my
+ikan-masak-lemak | Ikan Masak Lemak | lauk | 370 | my
+ikan-pari-bakar | Ikan Pari Bakar (Grilled Stingray) | lauk | 430 | my,sg
+ikan-patin-tempoyak | Ikan Patin Masak Tempoyak | lauk | 380 | my
+ikan-stim | Ikan Stim | lauk | 310 | my
+indomie-goreng | Indomie Goreng | noodles | 455 | id
+ipoh-hor-fun | Ipoh Hor Fun | noodles | 360 | my
+isaw | Isaw | snacks | 45 | ph
+jagung | Jagung (Sweet Corn Cup) | snacks | 330 | my
+jajangmyeon | Jajangmyeon | noodles | 797 | kr
+japanese-curry-rice | Japanese Curry Rice | rice | 701 | jp
+japchae | Japchae | noodles | 380 | kr
+jjamppong | Jjamppong | noodles | 690 | kr
+jok | Jok | soup | 250 | th
+jokbal | Jokbal | lauk | 470 | kr
+jollibee-chickenjoy | Jollibee Chickenjoy | western | 600 | ph
+jollibee-spaghetti | Jollibee Spaghetti | western | 560 | ph
+jus-tembikai | Jus Tembikai (Watermelon Juice) | drinks | 130 | my
+kacang-putih | Kacang Putih | snacks | 215 | my
+kailan-ikan-masin | Kailan Ikan Masin | veg | 200 | my
+kaisen-don | Kaisen Don | rice | 580 | jp
+kam-heong-crab | Kam Heong Crab | lauk | 450 | my
+kangkung-belacan | Kangkung Belacan | veg | 190 | my
+kanom-jeen-nam-ya | Kanom Jeen Nam Ya | noodles | 330 | th
+kare-kare | Kare-Kare | lauk | 500 | ph
+kari-ayam | Kari Ayam (Chicken Curry) | lauk | 350 | my
+kari-kambing | Kari Kambing (Mutton Curry) | lauk | 400 | my
+kari-kepala-ikan | Kari Kepala Ikan | lauk | 430 | my
+karipap | Karipap (Curry Puff) | snacks | 140 | my,sg
+katsu-curry | Katsu Curry | rice | 1116 | jp
+katsudon | Katsudon | rice | 866 | jp
+kaya-toast | Kaya Toast | mamak | 370 | my,sg
+kaya-waffle | Kaya Waffle | snacks | 400 | sg
+kek-lapis-sarawak | Kek Lapis Sarawak | snacks | 200 | my
+kelupis | Kelupis | snacks | 190 | my
+kerang-masak | Kerang Masak | lauk | 300 | my
+keropok-keping | Keropok Keping | snacks | 260 | my
+keropok-lekor | Keropok Lekor | lauk | 270 | my
+ketam-masak | Ketam Masak | lauk | 300 | my
+ketupat | Ketupat | rice | 145 | my
+ketupat-sotong | Ketupat Sotong | lauk | 590 | my
+khao-kai-jeow | Khao Kai Jeow | rice | 500 | th
+khao-kha-moo | Khao Kha Moo | rice | 690 | th
+khao-man-gai | Khao Man Gai | rice | 596 | th
+khao-mok-gai | Khao Mok Gai | rice | 534 | th
+khao-niao | Khao Niao | rice | 250 | th
+khao-pad | Khao Pad (Thai Fried Rice) | rice | 557 | th
+khao-pad-poo | Khao Pad Poo | rice | 560 | th
+khao-soi | Khao Soi | noodles | 700 | th
+khao-tom | Khao Tom | soup | 300 | th
+khau-yuk | Khau Yuk | lauk | 490 | my
+kimbap | Kimbap | rice | 400 | kr
+kimchi-bokkeumbap | Kimchi Bokkeumbap | rice | 525 | kr
+kimchi-jjigae | Kimchi Jjigae | soup | 555 | kr
+kitsune-udon | Kitsune Udon | noodles | 390 | jp
+kolo-mee | Kolo Mee | noodles | 470 | my
+kopi-c | Kopi C | drinks | 87 | sg
+kopi-o | Kopi O | drinks | 60 | my,sg
+kopi-tarik | Kopi Tarik | drinks | 150 | my,sg
+korean-fried-chicken | Korean Fried Chicken | lauk | 950 | kr
+kuay-jab | Kuay Jab | noodles | 350 | th
+kuey-teow-kung-fu | Kuey Teow Kung Fu | noodles | 700 | my
+kuey-teow-soup | Kuey Teow Soup | noodles | 330 | my
+kuih-badak-berendam | Kuih Badak Berendam | snacks | 100 | my
+kuih-bahulu | Kuih Bahulu | snacks | 275 | my
+kuih-bangkit | Kuih Bangkit | snacks | 40 | my
+kuih-bom | Kuih Bom | snacks | 210 | my
+kuih-cara-berlauk | Kuih Cara Berlauk | snacks | 150 | my
+kuih-cincin | Kuih Cincin | snacks | 120 | my
+kuih-jala | Kuih Jala (Roti Jala) | snacks | 240 | my
+kuih-kapit | Kuih Kapit (Love Letters) | snacks | 120 | my
+kuih-kasturi | Kuih Kasturi | snacks | 110 | my
+kuih-kaswi | Kuih Kaswi | snacks | 115 | my
+kuih-keria | Kuih Keria | snacks | 95 | my
+kuih-ketayap | Kuih Ketayap | snacks | 150 | my
+kuih-koci | Kuih Koci | snacks | 175 | my
+kuih-lapis | Kuih Lapis | snacks | 150 | my,sg
+kuih-penjaram | Kuih Penjaram (Pinjaram) | snacks | 210 | my
+kuih-putu | Kuih Putu | snacks | 230 | my,sg
+kuih-ros | Kuih Ros (Kuih Loyang) | snacks | 75 | my
+kuih-seri-muka | Kuih Seri Muka | snacks | 130 | my,sg
+kuih-siput | Kuih Siput | snacks | 120 | my
+kuih-talam | Kuih Talam | snacks | 130 | my
+kung-pao-chicken | Kung Pao Chicken | lauk | 480 | my
+kway-chap | Kway Chap | noodles | 650 | sg
+kwek-kwek | Kwek-Kwek | snacks | 280 | ph
+laing | Laing | veg | 350 | ph
+laksa-johor | Laksa Johor | noodles | 570 | my
+laksa-kedah | Laksa Kedah | noodles | 400 | my
+lala-masak | Lala Masak | lauk | 250 | my
+lamb-chop | Lamb Chop | western | 680 | my
+larb-moo | Larb Moo | lauk | 200 | th
+lassi | Lassi | drinks | 260 | my
+latok | Latok (Sea Grapes) | veg | 30 | my
+leche-flan | Leche Flan | dessert | 240 | ph
+lechon | Lechon | lauk | 380 | ph
+lechon-kawali | Lechon Kawali | lauk | 520 | ph
+lemang | Lemang | rice | 290 | my
+lempeng | Lempeng | snacks | 155 | my
+liempo | Liempo | lauk | 600 | ph
+limau-ais | Limau Ais | drinks | 100 | my
+linopot | Linopot | rice | 300 | my
+liu-sha-bao | Liu Sha Bao | dimsum | 190 | my
+lo-bak-go | Lo Bak Go | dimsum | 300 | my
+lo-mai-kai | Lo Mai Kai | dimsum | 380 | my,sg
+lok-lok | Lok Lok | snacks | 70 | my
+longsilog | Longsilog | rice | 700 | ph
+lontong | Lontong | rice | 798 | sg
+lontong-sayur | Lontong Sayur | rice | 450 | id
+lor-mee | Lor Mee | noodles | 520 | my,sg
+lumpia-shanghai | Lumpia Shanghai | snacks | 280 | ph
+macaroni-chicken-soup | Macaroni Chicken Soup | western | 277 | sg
+macaroni-ham-soup | Macaroni in Soup with Ham | western | 320 | hk
+maggi-goreng | Maggi Goreng | noodles | 470 | my
+mango-sticky-rice | Mango Sticky Rice (Pulut Mangga) | dessert | 380 | my
+manok-pansoh | Manok Pansoh | lauk | 210 | my
+marmite-chicken | Marmite Chicken | lauk | 580 | my
+masak-kicap | Masak Kicap | lauk | 300 | my
+masak-lemak-cili-api | Masak Lemak Cili Api | lauk | 360 | my
+masak-merah | Masak Merah | lauk | 340 | my
+massaman-curry | Massaman Curry | lauk | 325 | th
+mee-bandung-muar | Mee Bandung Muar | noodles | 580 | my
+mee-goreng-mamak | Mee Goreng Mamak | noodles | 660 | my
+mee-hailam | Mee Hailam | noodles | 550 | my
+mee-jawa | Mee Jawa | noodles | 570 | my
+mee-kari | Mee Kari (Curry Mee) | noodles | 520 | my
+mee-rebus | Mee Rebus | noodles | 500 | my,sg
+mee-siam | Mee Siam | noodles | 470 | my,sg
+mee-soto | Mee Soto | noodles | 433 | sg
+mee-sup | Mee Sup | noodles | 350 | my
+mee-tomyam | Mee Tomyam | noodles | 460 | my
+melon-pan | Melon Pan | snacks | 420 | jp
+mi-quang | Mi Quang | noodles | 415 | vn
+midin | Midin | veg | 140 | my
+mie-aceh | Mie Aceh | noodles | 600 | id
+mie-ayam | Mie Ayam | noodles | 450 | id
+mie-goreng-jawa | Mie Goreng Jawa | noodles | 620 | id
+milo-ais | Milo Ais | drinks | 250 | my,sg
+milo-dinosaur | Milo Dinosaur | drinks | 340 | my,sg
+miso-ramen | Miso Ramen | noodles | 621 | jp
+miso-soup | Miso Soup | soup | 40 | jp
+moo-krob | Moo Krob | lauk | 560 | th
+moo-ping | Moo Ping | snacks | 130 | th
+mui-fan | Mui Fan | rice | 719 | sg
+mul-naengmyeon | Mul Naengmyeon | noodles | 480 | kr
+murtabak | Murtabak | mamak | 520 | my,sg
+muruku | Muruku | snacks | 155 | my
+naan | Naan | mamak | 270 | my
+nasi-ambeng | Nasi Ambeng | rice | 1080 | my
+nasi-ayam-penyet | Nasi Ayam Penyet | rice | 780 | my
+nasi-briyani | Nasi Briyani | rice | 750 | my,sg
+nasi-campur | Nasi Campur (Economy Rice) | rice | 720 | my,sg
+nasi-campur-bali | Nasi Campur Bali | rice | 700 | id
+nasi-dagang | Nasi Dagang | rice | 830 | my
+nasi-goreng-cina | Nasi Goreng Cina | rice | 630 | my
+nasi-goreng-kampung | Nasi Goreng Kampung | rice | 630 | my
+nasi-goreng-mamak | Nasi Goreng Mamak | rice | 660 | my
+nasi-goreng-pattaya | Nasi Goreng Pattaya | rice | 700 | my
+nasi-kandar | Nasi Kandar | rice | 950 | my
+nasi-kerabu | Nasi Kerabu | rice | 480 | my
+nasi-kukus | Nasi Kukus | rice | 700 | my
+nasi-kuning | Nasi Kuning | rice | 640 | id
+nasi-lemak | Nasi Lemak | rice | 556 | my,sg
+nasi-lemuni | Nasi Lemuni | rice | 580 | my
+nasi-liwet | Nasi Liwet | rice | 580 | id
+nasi-minyak | Nasi Minyak | rice | 750 | my
+nasi-padang | Nasi Padang | rice | 690 | id
+nasi-paprik | Nasi Paprik | rice | 680 | my
+nasi-pecel | Nasi Pecel | rice | 550 | id
+nasi-tomato | Nasi Tomato | rice | 680 | my
+nasi-uduk | Nasi Uduk | rice | 600 | id
+nasi-ulam | Nasi Ulam | rice | 360 | my
+nem-nuong | Nem Nuong | lauk | 650 | vn
+neslo | Neslo Ais (Nescafe + Milo) | drinks | 250 | my
+nestum-chicken | Nestum Chicken | lauk | 700 | my
+ngoh-hiang | Ngoh Hiang | snacks | 805 | sg
+okonomiyaki | Okonomiyaki | lauk | 550 | jp
+omurice | Omurice | rice | 750 | jp
+onde-onde | Onde-Onde | snacks | 175 | my,sg
+onigiri-tuna-mayo | Tuna Mayo Onigiri | snacks | 197 | jp
+opor-ayam | Opor Ayam | lauk | 390 | id
+otak-otak | Otak-Otak | lauk | 80 | my
+oyakodon | Oyakodon | rice | 631 | jp
+oyster-omelette | Oyster Omelette | lauk | 487 | sg
+pad-kra-pao | Pad Kra Pao | rice | 630 | th
+pad-see-ew | Pad See Ew | noodles | 679 | th
+pad-thai | Pad Thai | noodles | 577 | th
+pad-woon-sen | Pad Woon Sen | noodles | 335 | th
+pakora | Pakora | snacks | 330 | my
+paku-pakis | Paku Pakis | veg | 180 | my
+pan-mee | Pan Mee | noodles | 450 | my,sg
+panang-curry | Panang Curry | lauk | 320 | th
+pancit-bihon | Pancit Bihon | noodles | 380 | ph
+pancit-canton | Pancit Canton | noodles | 450 | ph
+pancit-palabok | Pancit Palabok | noodles | 440 | ph
+pandesal | Pandesal | snacks | 110 | ph
+paru-goreng | Paru Goreng | lauk | 390 | my
+pasembur | Pasembur (Mamak Rojak) | snacks | 700 | my
+pau-kaya | Kaya Pau (Steamed Kaya Bun) | snacks | 215 | my
+pecel-lele | Pecel Lele | lauk | 330 | id
+penang-hokkien-mee | Penang Hokkien Mee | noodles | 420 | my
+pengat-pisang | Pengat Pisang | dessert | 280 | my
+pho-bo | Pho Bo | noodles | 450 | vn
+pho-ga | Pho Ga | noodles | 400 | vn
+pinakbet | Pinakbet | veg | 230 | ph
+pinasakan | Pinasakan | lauk | 240 | my
+pisang-goreng | Pisang Goreng | snacks | 135 | my,sg
+poori | Poori (Puri) | mamak | 460 | my
+popiah | Popiah | snacks | 185 | my,sg
+pork-bbq | Pork BBQ | lauk | 130 | ph
+pork-porridge | Pork Porridge | soup | 293 | sg
+prawn-noodle-soup | Prawn Noodle Soup | noodles | 294 | sg
+pulut | Pulut | snacks | 250 | my
+pulut-hitam | Bubur Pulut Hitam | dessert | 290 | my,sg
+pulut-panggang | Pulut Panggang | snacks | 290 | my
+puto | Puto | snacks | 120 | ph
+putu-mayam | Putu Mayam | snacks | 210 | sg
+rad-na | Rad Na | noodles | 397 | th
+ramly-burger | Ramly Burger | western | 600 | my
+ramyeon | Ramyeon | noodles | 575 | kr
+rawon | Rawon | soup | 290 | id
+red-bean-ice | Red Bean Ice | drinks | 260 | hk
+red-curry | Red Curry (Gaeng Phed) | lauk | 235 | th
+rendang | Rendang | lauk | 200 | my
+roast-duck | Roast Duck (Siu Ngap) | lauk | 480 | my,sg
+roast-goose-rice | Roast Goose Rice | rice | 970 | hk
+rojak-buah | Rojak Buah | snacks | 300 | my
+roti-canai | Roti Canai | mamak | 301 | my,sg
+roti-john | Roti John | western | 650 | my
+roti-tisu | Roti Tisu | mamak | 750 | my
+sabah-beef-noodles | Sabah Beef Noodles (Ngiu Chap) | noodles | 520 | my
+sago-gula-melaka | Sago Gula Melaka | dessert | 370 | my
+sago-gulaman | Sago't Gulaman | drinks | 200 | ph
+salmon-nigiri | Salmon Nigiri | rice | 93 | jp
+salted-egg-crab | Salted Egg Crab | lauk | 500 | my
+sambal-petai | Sambal Petai | lauk | 400 | my
+sambal-sotong | Sambal Sotong | lauk | 270 | my
+sambal-tumis | Sambal Tumis | lauk | 150 | my
+sambal-udang | Sambal Udang | lauk | 300 | my
+samgyeopsal | Samgyeopsal | lauk | 630 | kr
+samgyetang | Samgyetang | soup | 918 | kr
+samosa | Samosa | snacks | 210 | my
+sang-nyuk-mian | Sang Nyuk Mian | noodles | 460 | my
+sarawak-laksa | Sarawak Laksa | noodles | 550 | my
+sata | Sata (Terengganu) | snacks | 230 | my
+satay | Satay | lauk | 50 | my,sg
+satay-bee-hoon | Satay Bee Hoon | noodles | 462 | sg
+satay-beef-noodles | Satay Beef Noodles | noodles | 670 | hk
+sate-lilit | Sate Lilit | lauk | 255 | id
+sate-padang | Sate Padang | lauk | 500 | id
+sawi-sos-tiram | Sawi / Broccoli Sos Tiram | veg | 100 | my
+sayur-campur | Sayur Campur | veg | 130 | my
+sayur-lemak | Sayur Lemak | veg | 190 | my
+sayur-manis | Sayur Manis (Cangkuk Manis / Sabah Veg) | veg | 185 | my
+seolleongtang | Seolleongtang | soup | 425 | kr
+serunding | Serunding | lauk | 95 | my
+shoyu-ramen | Shoyu Ramen | noodles | 421 | jp
+siew-mai | Siew Mai | dimsum | 260 | my,sg
+sinalau-bakas | Sinalau Bakas | lauk | 560 | my
+sinangag | Sinangag | rice | 300 | ph
+sinigang-na-baboy | Sinigang na Baboy | soup | 320 | ph
+sirap-bandung | Sirap Bandung | drinks | 190 | my,sg
+sisig | Sisig | lauk | 530 | ph
+siu-yoke | Siu Yoke (Roast Pork) | lauk | 400 | my
+sliced-fish-bee-hoon | Sliced Fish Bee Hoon Soup | soup | 349 | sg
+som-tam | Som Tam | veg | 150 | th
+soon-kueh | Soon Kueh | snacks | 89 | sg
+soto-ayam | Soto Ayam | soup | 310 | id
+soto-betawi | Soto Betawi | soup | 365 | id
+sotong-goreng-tepung | Sotong Goreng Tepung (Fried Calamari) | lauk | 460 | my
+soy-sauce-chicken-rice | Soy Sauce Chicken Rice | rice | 551 | sg
+soya | Soya (Soy Milk) | drinks | 130 | my
+soya-cincau | Soya Cincau (Michael Jackson) | drinks | 200 | my,sg
+spring-rolls | Spring Rolls (Chun Guen) | dimsum | 260 | my
+steamboat | Steamboat | soup | 750 | my
+steamed-pork-ribs | Steamed Pork Ribs | dimsum | 200 | my
+sundae | Sundae | snacks | 300 | kr
+sundubu-jjigae | Sundubu Jjigae | soup | 260 | kr
+sup-ayam | Sup Ayam | soup | 250 | my
+sup-daging | Sup Daging | soup | 400 | my
+sup-ekor | Sup Ekor | soup | 500 | my
+sup-gear-box | Sup Gear Box | soup | 420 | my
+sup-herba | Sup Herba (Herbal Chicken Soup) | soup | 300 | my
+sup-ikan | Sup Ikan | soup | 290 | my
+sup-kambing | Sup Kambing | soup | 520 | my,sg
+sup-sayur | Sup Sayur | soup | 60 | my
+sup-tulang | Sup Tulang | soup | 350 | my
+sweet-sour-chicken | Sweet and Sour Chicken | lauk | 540 | my
+taho | Taho | dessert | 220 | ph
+takoyaki | Takoyaki | snacks | 400 | jp
+tamparuli-mee | Tamparuli Mee | noodles | 630 | my
+tandoori-chicken | Tandoori Chicken | lauk | 290 | my
+tangsuyuk | Tangsuyuk | lauk | 590 | kr
+tapsilog | Tapsilog | rice | 650 | ph
+tau-fu-fah | Tau Fu Fah (Soy Bean Pudding) | dessert | 150 | my,sg
+tau-suan | Tau Suan | dessert | 293 | sg
+taugeh-ikan-masin | Taugeh Ikan Masin | veg | 290 | my
+tauhu-sumbat | Tauhu Sumbat | veg | 230 | my
+teh-ais | Teh Ais | drinks | 150 | my,sg
+teh-c | Teh C | drinks | 130 | my
+teh-halia | Teh Halia | drinks | 160 | my
+teh-krisan | Chrysanthemum Tea (Teh Krisan) | drinks | 90 | my
+teh-o-ais | Teh O Ais | drinks | 60 | my
+teh-o-limau | Teh O Limau Ais | drinks | 70 | my
+teh-tarik | Teh Tarik | drinks | 130 | my,sg
+telur-balado | Telur Balado | lauk | 130 | id
+telur-dadar | Telur Dadar (Malaysian Omelette) | lauk | 290 | my
+tempe-goreng | Tempe Goreng | lauk | 190 | id
+tempoyak | Tempoyak | lauk | 40 | my
+tempura | Tempura | lauk | 480 | jp
+tempura-udon | Tempura Udon | noodles | 370 | jp
+tenom-coffee | Tenom Coffee | drinks | 130 | my
+tenom-mee | Tenom Mee | noodles | 670 | my
+tepung-pelita | Tepung Pelita | snacks | 105 | my
+thosai | Thosai (Tosai) | mamak | 170 | my,sg
+three-layer-tea | Three Layer Tea (Teh C Peng Special) | drinks | 210 | my
+tinola | Tinola | soup | 300 | ph
+tom-kha-gai | Tom Kha Gai | soup | 320 | th
+tom-saap | Tom Saap | soup | 270 | th
+tomyam | Tomyam | soup | 250 | my
+tonkatsu | Tonkatsu | lauk | 442 | jp
+tonkotsu-ramen | Tonkotsu Ramen | noodles | 525 | jp
+tteokbokki | Tteokbokki | snacks | 335 | kr
+tuaran-mee | Tuaran Mee | noodles | 650 | my
+tuhau | Tuhau | veg | 35 | my
+turon | Turon | snacks | 220 | ph
+tutu-kueh | Tutu Kueh | snacks | 150 | sg
+ubi-kayu | Ubi Kayu | snacks | 310 | my
+ufo-tart | UFO Tart | dessert | 200 | my
+ulam-ulaman | Ulam-Ulaman | veg | 60 | my
+umai | Umai | lauk | 200 | my
+unagi-don | Unagi Don | rice | 671 | jp
+vadai | Vadai | mamak | 195 | my
+varuval | Varuval | lauk | 460 | my
+wantan-mee | Wantan Mee | noodles | 510 | my,sg
+wat-tan-hor | Wat Tan Hor | noodles | 640 | my
+wild-boar | Wild Boar (Babi Hutan) | lauk | 460 | my
+wu-kok | Wu Kok | dimsum | 300 | my
+xiao-long-bao | Xiao Long Bao | dimsum | 320 | my
+xoi-xeo | Xoi Xeo | rice | 600 | vn
+yakisoba | Yakisoba | noodles | 469 | jp
+yakitori | Yakitori | lauk | 231 | jp
+yee-mee | Yee Mee | noodles | 620 | my
+yen-ta-fo | Yen Ta Fo | noodles | 290 | th
+yong-chow-fried-rice | Yong Chow Fried Rice | rice | 620 | my
+yong-tau-foo-fried | Yong Tau Foo (Fried) | snacks | 90 | my
+yong-tau-foo-soup | Yong Tau Foo (Soup) | soup | 300 | my,sg
+you-tiao | You Tiao | snacks | 192 | sg
+yuenyeung | Yuenyeung (Coffee Milk Tea) | drinks | 130 | hk
+zaru-soba | Zaru Soba | noodles | 362 | jp

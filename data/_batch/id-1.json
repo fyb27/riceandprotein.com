@@ -1,0 +1,1487 @@
+[
+  {
+    "slug": "nasi-padang",
+    "name": "Nasi Padang",
+    "aka": [
+      "Nasi Padang Rendang",
+      "Masakan Padang",
+      "Nasi Rames Padang"
+    ],
+    "category": "rice",
+    "region": [
+      "id"
+    ],
+    "serving": "1 plate (rice, rendang, gulai gravy, cassava leaves, sambal ijo)",
+    "servingGrams": 480,
+    "calories": 690,
+    "protein": 30,
+    "carbs": 78,
+    "fat": 28,
+    "metaDescription": "A plate of nasi padang with rendang is about 690 calories. The rice and the gravy poured over it do most of the damage, not the meat.",
+    "summary": "Nasi padang is the rice plate from a Minang restaurant: a mound of white rice, one main dish like rendang, a ladle of gulai gravy, boiled cassava leaves and green chili sambal.",
+    "answer": "A standard nasi padang plate with one piece of rendang comes to about 690 calories. That is roughly 250g of rice at 325 calories, 100g of rendang at 200, and about 165 calories of gravy, cassava leaves and sambal ijo poured on top.",
+    "realTalk": [
+      "The rice is the biggest number on the plate, and the Padang restaurant knows it. A normal scoop is 250g, about 325 calories, and the free kuah gulai they ladle over it adds another 80 or so because it is coconut milk and oil. Before you even touch the rendang you are at 400 calories. One piece of rendang, usually around 100g with a bit of the dark paste, is about 200 more.",
+      "Where people get into trouble is the pick-and-mix. Order at the counter and you take one lauk, that is 690. Sit down and let them stack 12 plates on your table, and you eat the rendang, half a piece of ayam pop, a spoon of dendeng balado and some perkedel. That plate is now 1,100 to 1,300 calories, and it happens without you deciding anything.",
+      "The cassava leaves are basically free at 60 calories for a decent handful, and sambal ijo is only about 25 calories per spoon. Those two are the parts you can pile on. The kerupuk jangek (fried cow skin cracker) on the table is not free, one big piece is around 90 calories and it goes down in three bites.",
+      "Price check: a nasi padang with rendang is Rp 20,000 to 35,000 in Jakarta, so it is one of the better value meals for the calories if you keep it to one lauk. The protein is decent at 30g. The problem is only when you treat the table like a buffet."
+    ],
+    "lighter": [
+      "Ask for nasi setengah (half rice). That alone takes 160 calories off the plate.",
+      "Say 'tanpa kuah' or 'kuahnya sedikit'. Skipping the gravy pour saves 60 to 80 calories and you lose nothing in flavour because rendang has its own paste.",
+      "Pick one lauk and stick to it. Rendang at 200, ayam bakar at about 290, or ikan bakar at about 300. Two lauk is where it becomes a 1,000 calorie lunch.",
+      "Load up on daun singkong. It is fibre and water, and it fills the same space on the plate as another spoon of rice.",
+      "Leave the kerupuk jangek and the sambal lado merah (the red one is cooked in a lot of oil, the green one much less)."
+    ],
+    "components": [
+      {
+        "name": "White rice",
+        "grams": 250,
+        "calories": 325
+      },
+      {
+        "name": "Beef rendang",
+        "grams": 100,
+        "calories": 200
+      },
+      {
+        "name": "Gulai gravy poured over rice",
+        "grams": 60,
+        "calories": 80
+      },
+      {
+        "name": "Boiled cassava leaves",
+        "grams": 50,
+        "calories": 60
+      },
+      {
+        "name": "Sambal ijo",
+        "grams": 20,
+        "calories": 25
+      }
+    ],
+    "portions": [
+      {
+        "label": "Half rice, rendang, no gravy",
+        "calories": 470
+      },
+      {
+        "label": "Standard plate with rendang",
+        "calories": 690
+      },
+      {
+        "label": "Two lauk plus perkedel and kerupuk jangek",
+        "calories": 1150
+      }
+    ],
+    "variants": [
+      {
+        "name": "With ikan bakar instead of rendang",
+        "calories": 660,
+        "note": "Grilled fish is slightly leaner than rendang"
+      },
+      {
+        "name": "With rendang",
+        "calories": 690,
+        "note": "The classic order"
+      },
+      {
+        "name": "With ayam pop",
+        "calories": 720,
+        "note": "Pale fried chicken, oil soaked skin"
+      },
+      {
+        "name": "With gulai tunjang (beef tendon)",
+        "calories": 760,
+        "note": "Very rich coconut gravy"
+      },
+      {
+        "name": "Bungkus (takeaway)",
+        "calories": 850,
+        "note": "Takeaway gets noticeably more rice and gravy"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in nasi padang with rendang?",
+        "a": "About 690 calories for a normal plate: 250g rice, one piece of rendang, a ladle of gravy, cassava leaves and green sambal."
+      },
+      {
+        "q": "Is nasi padang bungkus more calories than eating in?",
+        "a": "Usually yes. The takeaway wrap is known for extra rice, often 300g or more, plus more gravy. Expect 800 to 850 calories for the same rendang order."
+      },
+      {
+        "q": "Can I eat nasi padang while losing weight?",
+        "a": "Yes, once or twice a week fits fine if you order one lauk, half rice and skip the gravy. That version is around 470 calories with 30g protein."
+      },
+      {
+        "q": "Which Padang dish has the fewest calories?",
+        "a": "Ikan bakar or ayam bakar as the lauk, with daun singkong on the side. Avoid gulai tunjang, gulai otak and anything swimming in santan."
+      }
+    ],
+    "related": [
+      "rendang",
+      "nasi-kandar",
+      "nasi-campur",
+      "sate-padang"
+    ],
+    "source": "estimate from components (rendang figure aligned with existing rendang record, rice and gravy from standard values)"
+  },
+  {
+    "slug": "nasi-uduk",
+    "name": "Nasi Uduk",
+    "aka": [
+      "Nasi Uduk Betawi",
+      "Nasi Uduk Komplit",
+      "Coconut Rice Jakarta"
+    ],
+    "category": "rice",
+    "region": [
+      "id"
+    ],
+    "serving": "1 plate (nasi uduk, telur balado, tempe orek, bihun goreng, kerupuk)",
+    "servingGrams": 340,
+    "calories": 600,
+    "protein": 18,
+    "carbs": 80,
+    "fat": 24,
+    "metaDescription": "A plate of nasi uduk with telur balado, tempe orek and kerupuk is about 600 calories. The coconut rice alone is 325 of that.",
+    "summary": "Nasi uduk is Jakarta's coconut rice, sold from morning stalls with a lineup of side dishes: telur balado, tempe orek, bihun goreng, fried chicken and kerupuk.",
+    "answer": "A typical breakfast plate of nasi uduk is about 600 calories: 200g of coconut rice at 325 calories, a telur balado at about 70, tempe orek at 90, a spoon of bihun goreng at 60 and one kerupuk at 50. Add fried chicken and you pass 900.",
+    "realTalk": [
+      "FatSecret Indonesia lists plain nasi uduk at 260 calories for a 160g bowl, which works out to about 163 per 100g. Plain white rice is 130 per 100g. So the coconut milk costs you roughly 25% more per scoop, and a stall scoop is closer to 200g than 160g. That is why the rice alone on this plate is 325 calories before any side dish.",
+      "The side dishes are where the plate swings. The default Rp 12,000 to 15,000 breakfast set with egg, tempe orek, bihun and kerupuk is around 600 calories. Swap the egg for a piece of ayam goreng and you add about 390 calories. Add semur jengkol and another 150. The nasi uduk with ayam goreng, telur and everything is easily 1,000 calories and it is 7am.",
+      "Tempe orek looks innocent but it is fried tempe tossed in kecap manis and sugar. A small spoon of 40g is about 90 calories, and a lot of that is sugar. Bihun goreng is 60 calories per spoon, again mostly oil. Neither one is the enemy on its own, they just stack.",
+      "For 600 calories you get only 18g of protein, which is the actual weak point. The rice and bihun are 80g of carbs. If you want this to hold you until lunch, the fix is more egg or more tempe, not more rice."
+    ],
+    "lighter": [
+      "Ask for half rice (nasi setengah). Coconut rice is dense, and cutting 100g saves 160 calories.",
+      "Take two telur balado instead of the fried chicken. Two eggs are about 140 calories with 14g protein; a piece of ayam goreng is 390.",
+      "Skip the bihun goreng. It is rice noodles fried in oil sitting next to rice, so you are paying twice for the same carb.",
+      "One kerupuk, not three. Each one is about 50 calories and they are all air and oil.",
+      "Ask for the sambal kacang on the side. The peanut sauce is about 40 calories per spoon and the stall tends to be generous."
+    ],
+    "components": [
+      {
+        "name": "Nasi uduk (coconut rice)",
+        "grams": 200,
+        "calories": 325
+      },
+      {
+        "name": "Telur balado",
+        "grams": 55,
+        "calories": 71
+      },
+      {
+        "name": "Tempe orek",
+        "grams": 40,
+        "calories": 90
+      },
+      {
+        "name": "Bihun goreng",
+        "grams": 40,
+        "calories": 60
+      },
+      {
+        "name": "Kerupuk",
+        "grams": 10,
+        "calories": 50
+      }
+    ],
+    "portions": [
+      {
+        "label": "Half rice with telur balado only",
+        "calories": 300
+      },
+      {
+        "label": "Standard plate (egg, tempe orek, bihun, kerupuk)",
+        "calories": 600
+      },
+      {
+        "label": "With ayam goreng added",
+        "calories": 990
+      }
+    ],
+    "variants": [
+      {
+        "name": "Nasi uduk polos (rice only)",
+        "calories": 325,
+        "note": "200g coconut rice, no sides"
+      },
+      {
+        "name": "With telur balado and tempe orek",
+        "calories": 490,
+        "note": "The lighter breakfast set"
+      },
+      {
+        "name": "Standard komplit",
+        "calories": 600,
+        "note": "Egg, tempe orek, bihun, kerupuk"
+      },
+      {
+        "name": "With ayam goreng and semur",
+        "calories": 1100,
+        "note": "Full Kebon Kacang style order"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in nasi uduk komplit?",
+        "a": "Around 600 calories for the usual set with telur balado, tempe orek, bihun goreng and one kerupuk. With fried chicken it is closer to 1,000."
+      },
+      {
+        "q": "Is nasi uduk more fattening than white rice?",
+        "a": "Per 100g, nasi uduk is about 163 calories versus 130 for plain rice, because it is cooked in coconut milk. It is about 25% more, so half rice is the easy fix."
+      },
+      {
+        "q": "How many calories in nasi uduk with ayam goreng?",
+        "a": "About 990 calories once you add a bone-in piece of fried chicken (around 390 calories) to the standard 600 calorie plate."
+      },
+      {
+        "q": "Is nasi uduk good for breakfast on a diet?",
+        "a": "It can work at half rice with two eggs, around 370 calories and 16g protein. The full plate with chicken is a whole day's worth of fat before 8am."
+      }
+    ],
+    "related": [
+      "nasi-lemak",
+      "nasi-kuning",
+      "telur-balado",
+      "tempe-goreng"
+    ],
+    "source": "FatSecret Indonesia (nasi uduk 163 kcal/100g, telur balado 71 kcal/egg) plus component estimate for sides"
+  },
+  {
+    "slug": "nasi-kuning",
+    "name": "Nasi Kuning",
+    "aka": [
+      "Nasi Kuning Komplit",
+      "Nasi Kuning Manado",
+      "Yellow Turmeric Rice"
+    ],
+    "category": "rice",
+    "region": [
+      "id"
+    ],
+    "serving": "1 plate (yellow rice, shredded fried chicken, sliced omelette, kering tempe, serundeng)",
+    "servingGrams": 335,
+    "calories": 640,
+    "protein": 26,
+    "carbs": 78,
+    "fat": 25,
+    "metaDescription": "A plate of nasi kuning komplit is about 640 calories. The turmeric coconut rice is 320 of it, the toppings do the rest.",
+    "summary": "Nasi kuning is rice cooked with turmeric and coconut milk, served at breakfast stalls and on birthdays with fried chicken, sliced omelette, kering tempe and serundeng on top.",
+    "answer": "A standard plate of nasi kuning komplit is about 640 calories. That is 200g of turmeric coconut rice at 320 calories, a small piece of fried chicken at 150, sliced omelette at 55, sweet kering tempe at 75 and a spoon of serundeng at 40.",
+    "realTalk": [
+      "The rice is not plain rice. It is cooked in coconut milk with turmeric, and it lands at about 160 calories per 100g against 130 for white rice. A stall scoop of 200g is 320 calories. FatSecret lists a smaller 150 calorie bowl, but that is a 100g lab portion, nobody gets served that at a warung.",
+      "The toppings are small but every one of them is fried or sweet. Kering tempe is tempe shreds fried and glazed in palm sugar, 75 calories for a spoon that weighs 30g. Serundeng is grated coconut toasted with sugar, 40 calories for 15g. Sliced telur dadar is 55 calories. None of them look like much on the plate, and together they are 170 calories.",
+      "The Manado version with cakalang (skipjack) and sambal roa is actually leaner than the Javanese one: the fish is grilled or shredded rather than fried, so the plate comes out around 560 calories with more protein. The tumpeng birthday version is the opposite, because the cone means more rice, often 300g, and the plate hits 800 without trying.",
+      "At Rp 12,000 to 20,000 this is a decent breakfast at 26g protein. The issue is it is 78g of carbs and most stalls pile the rice, so ask for less before they scoop."
+    ],
+    "lighter": [
+      "Half rice. The rice is half the calories, and the toppings taste the same on 100g as on 200g.",
+      "Ask for ayam suwir (shredded chicken, usually not fried) instead of ayam goreng. Saves about 60 to 80 calories.",
+      "Double the telur dadar and skip the kering tempe. Egg gives you protein; kering tempe gives you sugar and oil.",
+      "The Manado version with cakalang fufu is the leaner order if you can find it, about 560 calories.",
+      "Skip the kerupuk and emping on the side. Emping is around 50 calories for a small handful."
+    ],
+    "components": [
+      {
+        "name": "Turmeric coconut rice",
+        "grams": 200,
+        "calories": 320
+      },
+      {
+        "name": "Fried chicken, small piece",
+        "grams": 60,
+        "calories": 150
+      },
+      {
+        "name": "Sliced telur dadar",
+        "grams": 30,
+        "calories": 55
+      },
+      {
+        "name": "Kering tempe",
+        "grams": 30,
+        "calories": 75
+      },
+      {
+        "name": "Serundeng",
+        "grams": 15,
+        "calories": 40
+      }
+    ],
+    "portions": [
+      {
+        "label": "Half rice, egg and serundeng only",
+        "calories": 300
+      },
+      {
+        "label": "Standard komplit plate",
+        "calories": 640
+      },
+      {
+        "label": "Tumpeng-style large with extra rice and perkedel",
+        "calories": 850
+      }
+    ],
+    "variants": [
+      {
+        "name": "Nasi kuning polos",
+        "calories": 320,
+        "note": "200g rice only"
+      },
+      {
+        "name": "Nasi kuning Manado with cakalang",
+        "calories": 560,
+        "note": "Shredded skipjack, not fried"
+      },
+      {
+        "name": "Standard Javanese komplit",
+        "calories": 640,
+        "note": "Fried chicken, egg, kering tempe, serundeng"
+      },
+      {
+        "name": "With ayam goreng bone-in and perkedel",
+        "calories": 900,
+        "note": "Full portion chicken and a potato fritter"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in nasi kuning?",
+        "a": "About 320 calories for 200g of the rice itself, and about 640 for a full komplit plate with chicken, egg, kering tempe and serundeng."
+      },
+      {
+        "q": "Is nasi kuning healthier than nasi uduk?",
+        "a": "They are nearly the same. Both are coconut rice at roughly 160 calories per 100g. Nasi kuning just has turmeric for colour. What matters is the toppings you pick."
+      },
+      {
+        "q": "Is nasi kuning high in fat?",
+        "a": "The rice has about 5g of fat per 200g from the coconut milk. Most of the plate's 25g of fat comes from the fried chicken, kering tempe and serundeng."
+      },
+      {
+        "q": "How many calories in nasi kuning Manado?",
+        "a": "Around 560 calories with cakalang and sambal roa, because the fish is not deep fried. Add fried perkedel and it climbs to 700."
+      }
+    ],
+    "related": [
+      "nasi-uduk",
+      "nasi-lemak",
+      "ayam-goreng",
+      "nasi-liwet"
+    ],
+    "source": "FatSecret Indonesia (nasi kuning bowl) plus component estimate for warung portion and toppings"
+  },
+  {
+    "slug": "nasi-pecel",
+    "name": "Nasi Pecel",
+    "aka": [
+      "Pecel Madiun",
+      "Nasi Pecel Peyek",
+      "Sego Pecel"
+    ],
+    "category": "rice",
+    "region": [
+      "id"
+    ],
+    "serving": "1 plate (rice, blanched vegetables, peanut sauce, 2 peyek)",
+    "servingGrams": 375,
+    "calories": 550,
+    "protein": 16,
+    "carbs": 76,
+    "fat": 22,
+    "metaDescription": "Nasi pecel is about 550 calories a plate. The vegetables are nearly free; the peanut sauce and the peyek crackers are where the calories are.",
+    "summary": "Nasi pecel is rice with blanched spinach, bean sprouts, long beans and papaya leaves, drowned in spicy peanut sauce and served with crunchy peyek. Madiun and Blitar claim it.",
+    "answer": "A plate of nasi pecel with two peyek is about 550 calories. FatSecret Indonesia lists a full bowl at 553 calories. The vegetables are only about 40 calories; the rice is 235, the peanut sauce is 170 and the two peyek add about 105.",
+    "realTalk": [
+      "This is the dish that looks like a salad and eats like a dessert. A pile of blanched kangkung, tauge, kacang panjang and daun pepaya, 120g of it, is about 40 calories. Then the stall pours 50g of sambal pecel on top and that is 170 calories, because peanut sauce is peanuts, palm sugar and oil. The sauce is more than four times the vegetables.",
+      "Peyek is the other thing. It is a thin rice-flour cracker fried with peanuts or tiny anchovies, and one piece around 12g is about 50 calories. Two come with the plate, but they are 500 rupiah each and people take five. Five peyek is 250 calories of cracker, more than the rice.",
+      "The rice itself is the normal 180g scoop at a pecel stall, about 235 calories. Some places serve it on a pincuk (folded banana leaf) which naturally holds less, and that is the version you want. Full plate service tends to be 250g of rice.",
+      "Protein is low at 16g for 550 calories, and that is a problem for staying full. The common fix at the warung is adding telur ceplok (fried egg, about 110 calories) or tempe goreng, and that is a better use of the extra calories than more peyek."
+    ],
+    "lighter": [
+      "Ask for extra sayur and less rice. The vegetables are 40 calories for a big handful, so doubling them costs nothing.",
+      "Sambal pecel on the side, and use half. Halving the sauce saves 85 calories and there is still plenty of flavour.",
+      "Two peyek maximum. Each one is 50 calories and they are the easiest thing to overeat on the table.",
+      "Add a boiled or fried egg instead of tempe mendoan. Egg gives 6g protein for 70 to 110 calories.",
+      "Pick the pincuk version. The banana leaf cone holds less rice, closer to 150g."
+    ],
+    "components": [
+      {
+        "name": "White rice",
+        "grams": 180,
+        "calories": 235
+      },
+      {
+        "name": "Blanched vegetables",
+        "grams": 120,
+        "calories": 40
+      },
+      {
+        "name": "Sambal pecel (peanut sauce)",
+        "grams": 50,
+        "calories": 170
+      },
+      {
+        "name": "Peyek, 2 pieces",
+        "grams": 25,
+        "calories": 105
+      }
+    ],
+    "portions": [
+      {
+        "label": "Pincuk with less rice, 1 peyek",
+        "calories": 400
+      },
+      {
+        "label": "Standard plate with 2 peyek",
+        "calories": 550
+      },
+      {
+        "label": "Large with telur ceplok and 4 peyek",
+        "calories": 760
+      }
+    ],
+    "variants": [
+      {
+        "name": "Pecel only, no rice",
+        "calories": 210,
+        "note": "Vegetables and peanut sauce"
+      },
+      {
+        "name": "Nasi pecel with 2 peyek",
+        "calories": 550,
+        "note": "Standard warung plate"
+      },
+      {
+        "name": "With telur ceplok",
+        "calories": 660,
+        "note": "Fried egg on top"
+      },
+      {
+        "name": "With empal (fried beef) and tempe",
+        "calories": 820,
+        "note": "The Madiun full set"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in nasi pecel?",
+        "a": "About 550 calories for a plate with rice, vegetables, peanut sauce and two peyek. Without rice the pecel alone is around 210."
+      },
+      {
+        "q": "Is nasi pecel healthy?",
+        "a": "The vegetable part is very good, but the plate is 76g of carbs and only 16g protein. Adding an egg and cutting the peyek makes it a solid meal."
+      },
+      {
+        "q": "How many calories in sambal pecel?",
+        "a": "About 170 calories per 50g ladle, which is roughly 3.4 calories per gram. It is peanuts, palm sugar and oil, so it adds up quickly."
+      },
+      {
+        "q": "How many calories in one peyek?",
+        "a": "About 50 calories for a standard 12g peyek kacang. The bigger peyek teri from Madiun can be 70 to 80 each."
+      }
+    ],
+    "related": [
+      "gado-gado",
+      "nasi-campur",
+      "tempe-goreng",
+      "nasi-liwet"
+    ],
+    "source": "FatSecret Indonesia (nasi pecel 1 bowl 553 kcal), components estimated"
+  },
+  {
+    "slug": "nasi-campur-bali",
+    "name": "Nasi Campur Bali",
+    "aka": [
+      "Nasi Campur Ayam Bali",
+      "Balinese Mixed Rice",
+      "Nasi Ayam Kedewatan"
+    ],
+    "category": "rice",
+    "region": [
+      "id"
+    ],
+    "serving": "1 plate (rice, shredded chicken, 2 sate lilit, lawar, sambal matah, fried peanuts)",
+    "servingGrams": 400,
+    "calories": 700,
+    "protein": 30,
+    "carbs": 80,
+    "fat": 28,
+    "metaDescription": "A plate of nasi campur Bali runs about 700 calories. Shredded chicken and sate lilit are the good part; the fried peanuts and coconut lawar add up fast.",
+    "summary": "Nasi campur Bali is a plate of white rice ringed with small portions: shredded spiced chicken, sate lilit, lawar, sambal matah, fried peanuts and often a piece of crispy chicken skin or a boiled egg.",
+    "answer": "A typical warung nasi campur Bali is about 700 calories. That is 200g of rice at 260 calories, 60g of shredded chicken at 120, two sate lilit at 100, a spoon of lawar at 80 and about 140 calories of sambal matah and fried peanuts.",
+    "realTalk": [
+      "There is no single nasi campur Bali, so the calorie count depends on how many little piles you get. The Rp 15,000 warung version has rice, ayam sisit, a spoon of lawar and sambal, about 550 calories. The Rp 35,000 tourist plate in Ubud adds sate lilit, crispy chicken skin, a boiled egg, tempe and peanuts and lands closer to 900.",
+      "The parts that look small but hit hard: fried peanuts at 90 calories for a 15g spoon, chicken skin at 80 for one crispy piece, and lawar at 80 per 50g because it is grated coconut mixed with the vegetables. Sambal matah is raw shallots, lemongrass and chili but it is dressed in oil, so a spoon is about 50 calories.",
+      "The good news is the protein. Between shredded chicken, two sate lilit and the egg you are at 30g on a standard plate, which is better than most Indonesian rice plates. Sate lilit is minced fish with coconut, about 51 calories a skewer, so two of them cost less than one spoon of peanuts.",
+      "Ayam betutu versions are richer than ayam sisit versions. Betutu is chicken slow cooked in a heavy spice paste with oil, and a betutu-based plate runs about 100 calories higher than the shredded chicken one."
+    ],
+    "lighter": [
+      "Less rice, more ayam sisit. The chicken is spiced and shredded, not fried, so extra chicken is cheap in calories.",
+      "Skip the fried peanuts. One spoon is 90 calories and it is the least interesting thing on the plate.",
+      "Ask for lawar without extra coconut, or take the sayur urap version which uses less.",
+      "Take sambal matah over sambal goreng. Matah is raw with a little oil; the fried sambals are mostly oil.",
+      "Leave the chicken skin. One crispy piece is around 80 calories and it is gone in one bite."
+    ],
+    "components": [
+      {
+        "name": "White rice",
+        "grams": 200,
+        "calories": 260
+      },
+      {
+        "name": "Ayam sisit (shredded spiced chicken)",
+        "grams": 60,
+        "calories": 120
+      },
+      {
+        "name": "Sate lilit, 2 skewers",
+        "grams": 40,
+        "calories": 100
+      },
+      {
+        "name": "Lawar",
+        "grams": 50,
+        "calories": 80
+      },
+      {
+        "name": "Sambal matah and fried peanuts",
+        "grams": 35,
+        "calories": 140
+      }
+    ],
+    "portions": [
+      {
+        "label": "Simple warung plate (rice, ayam sisit, lawar, sambal)",
+        "calories": 550
+      },
+      {
+        "label": "Standard plate with sate lilit and peanuts",
+        "calories": 700
+      },
+      {
+        "label": "Full plate with betutu, egg and crispy skin",
+        "calories": 950
+      }
+    ],
+    "variants": [
+      {
+        "name": "Nasi campur with ayam sisit only",
+        "calories": 550,
+        "note": "Basic Rp 15,000 version"
+      },
+      {
+        "name": "Standard with sate lilit",
+        "calories": 700,
+        "note": "Most common warung order"
+      },
+      {
+        "name": "With ayam betutu",
+        "calories": 800,
+        "note": "Spice paste cooked in oil"
+      },
+      {
+        "name": "Nasi campur babi guling",
+        "calories": 950,
+        "note": "Roast pork, crackling and blood sausage"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in nasi campur Bali?",
+        "a": "About 700 calories for a standard plate with rice, shredded chicken, two sate lilit, lawar, sambal matah and peanuts. Basic versions start around 550."
+      },
+      {
+        "q": "Is nasi campur Bali healthy?",
+        "a": "It is one of the better rice plates because the chicken is shredded rather than fried and you get about 30g protein. The fried peanuts, chicken skin and coconut lawar are what push it up."
+      },
+      {
+        "q": "How many calories in sambal matah?",
+        "a": "About 50 calories per tablespoon. The shallots and lemongrass are nothing, but it is dressed with coconut or vegetable oil."
+      },
+      {
+        "q": "How many calories in nasi campur babi guling?",
+        "a": "Around 950 calories. Roast pork with crackling is far fattier than shredded chicken, and the crackling alone is about 150 calories per piece."
+      }
+    ],
+    "related": [
+      "sate-lilit",
+      "nasi-campur",
+      "nasi-liwet",
+      "ayam-bakar"
+    ],
+    "source": "estimate from components (sate lilit figure from FatSecret Indonesia, 51 kcal per skewer)"
+  },
+  {
+    "slug": "lontong-sayur",
+    "name": "Lontong Sayur",
+    "aka": [
+      "Lontong Sayur Betawi",
+      "Lontong Sayur Padang",
+      "Lontong Gulai"
+    ],
+    "category": "rice",
+    "region": [
+      "id"
+    ],
+    "serving": "1 bowl (lontong, coconut vegetable gravy, telur balado, kerupuk)",
+    "servingGrams": 420,
+    "calories": 450,
+    "protein": 15,
+    "carbs": 58,
+    "fat": 18,
+    "metaDescription": "A bowl of lontong sayur with egg and kerupuk is about 450 calories. The coconut gravy is the sneaky part, not the compressed rice.",
+    "summary": "Lontong sayur is compressed rice cake sliced into a bowl of coconut milk vegetable gravy, usually chayote or young jackfruit, topped with a boiled egg, kerupuk and fried shallots.",
+    "answer": "A standard bowl of lontong sayur with an egg and kerupuk is about 450 calories. FatSecret Indonesia lists the lontong and gravy alone at 357 calories for a 400g bowl. Add a telur balado at 71 and a kerupuk at 50 and you are at 450.",
+    "realTalk": [
+      "Lontong is lighter than rice, and most people do not know this. Because it is compressed and cooked with a lot of water, lontong is about 105 calories per 100g against 130 for cooked rice. A bowl with 200g of lontong is about 210 calories of rice, where a plate of nasi is 260 to 325.",
+      "The gravy is where the coconut milk lives. Sayur labu siam in santan is around 120 calories for a 150ml ladle, and it looks like soup so nobody counts it. The Padang version with gulai nangka and extra chili oil on top is thicker and closer to 180 per ladle.",
+      "The default breakfast at a Betawi stall is Rp 10,000 to 15,000 and includes one egg and one kerupuk, which is 450 calories with 15g protein. That is honestly one of the cheaper and lighter breakfasts on the street, as long as you do not add the semur tahu, the tempe orek and the second kerupuk.",
+      "The real trap is the lontong cap go meh and the lontong sayur with ayam opor and sambal goreng ati. Those are festival versions at 750 calories or more, and eating them like a daily breakfast is how people gain during Lebaran week."
+    ],
+    "lighter": [
+      "Ask for the gravy 'jangan terlalu banyak kuah'. Less coconut gravy is 40 to 60 calories saved per bowl.",
+      "Keep the egg, lose the kerupuk. The egg is your protein; the kerupuk is 50 calories of fried starch.",
+      "Choose the labu siam gravy over the nangka gulai if there is a choice. It tends to be thinner and less oily.",
+      "Skip the extra sambal goreng on top. That red oil layer is pure fat, about 45 calories per teaspoon.",
+      "Do not add lontong. Half a lontong extra is another 100 calories."
+    ],
+    "components": [
+      {
+        "name": "Lontong (compressed rice)",
+        "grams": 200,
+        "calories": 210
+      },
+      {
+        "name": "Coconut milk vegetable gravy (labu siam)",
+        "grams": 150,
+        "calories": 120
+      },
+      {
+        "name": "Telur balado",
+        "grams": 55,
+        "calories": 71
+      },
+      {
+        "name": "Kerupuk",
+        "grams": 10,
+        "calories": 50
+      }
+    ],
+    "portions": [
+      {
+        "label": "Lontong and gravy only (FatSecret bowl)",
+        "calories": 357
+      },
+      {
+        "label": "Standard bowl with egg and kerupuk",
+        "calories": 450
+      },
+      {
+        "label": "With opor ayam and sambal goreng ati",
+        "calories": 760
+      }
+    ],
+    "variants": [
+      {
+        "name": "Lontong sayur Betawi (labu siam)",
+        "calories": 450,
+        "note": "Standard breakfast bowl"
+      },
+      {
+        "name": "Lontong sayur Padang (gulai nangka)",
+        "calories": 520,
+        "note": "Thicker gulai, chili oil on top"
+      },
+      {
+        "name": "Lontong sayur Medan with tauco",
+        "calories": 540,
+        "note": "Adds fermented bean paste and dried shrimp"
+      },
+      {
+        "name": "Lontong cap go meh",
+        "calories": 800,
+        "note": "Opor, sambal goreng ati, bubuk koya"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in lontong sayur?",
+        "a": "About 450 calories for a bowl with lontong, coconut gravy, one egg and a kerupuk. Without the egg and kerupuk it is about 357."
+      },
+      {
+        "q": "Is lontong lower in calories than rice?",
+        "a": "Yes, per 100g lontong is about 105 calories versus 130 for cooked rice, because it holds more water. A bowl with 200g lontong is about 210 calories."
+      },
+      {
+        "q": "How many calories in lontong sayur Padang?",
+        "a": "Around 520 calories because the gulai nangka is thicker and comes with a spoon of chili oil on top."
+      },
+      {
+        "q": "Is lontong sayur good for weight loss?",
+        "a": "It is a reasonable breakfast at 450 calories with 15g protein. Keep the egg, skip the kerupuk and ask for less gravy and it drops under 400."
+      }
+    ],
+    "related": [
+      "ketupat",
+      "nasi-uduk",
+      "sayur-lodeh",
+      "telur-balado"
+    ],
+    "source": "FatSecret Indonesia (lontong sayur 1 bowl 357 kcal, telur balado 71 kcal), kerupuk estimated"
+  },
+  {
+    "slug": "nasi-liwet",
+    "name": "Nasi Liwet",
+    "aka": [
+      "Nasi Liwet Solo",
+      "Sego Liwet",
+      "Nasi Liwet Sunda"
+    ],
+    "category": "rice",
+    "region": [
+      "id"
+    ],
+    "serving": "1 plate (coconut rice, labu siam, shredded opor chicken, areh, pindang egg)",
+    "servingGrams": 380,
+    "calories": 580,
+    "protein": 22,
+    "carbs": 72,
+    "fat": 22,
+    "metaDescription": "A plate of nasi liwet Solo is about 580 calories. The thick areh coconut cream on top is the part nobody counts.",
+    "summary": "Nasi liwet Solo is rice cooked in coconut milk and stock, served on a banana leaf pincuk with chayote in thin gravy, shredded opor chicken, a pindang egg and a spoon of thick coconut cream called areh.",
+    "answer": "A standard pincuk of nasi liwet Solo is about 580 calories. The coconut rice is 275 calories for 200g, the labu siam gravy 70, shredded opor chicken 100, areh 65 and a pindang egg 70. FatSecret lists the rice alone at 221 per 160g bowl.",
+    "realTalk": [
+      "The rice is cooked in santan and chicken stock, which brings it to about 138 calories per 100g on FatSecret. That is only a little more than plain rice, because Solo-style liwet uses thin coconut milk. A 200g scoop is 275 calories. The Sundanese version cooked in a kastrol pot with more oil, ikan asin and petai is heavier, roughly 320 for the same scoop.",
+      "Areh is the giveaway. That white blob on top is coconut milk reduced until it is almost solid, and a 30g spoon is 65 calories, nearly all fat. Stalls near Keprabon serve it generously. The opor chicken shreds are cooked in the same coconut base so 50g of chicken carries another 100 calories, roughly half of that from the gravy.",
+      "The labu siam in thin santan is the light part, about 70 calories per ladle, and the pindang egg is 70. So a plate with a good amount of egg and labu and less areh is a fairly balanced 500 calorie meal with 22g protein. It is sold at Rp 15,000 to 25,000 in Solo, more at the famous places.",
+      "Where it goes wrong is the add-ons: telur pindang is fine, but sambal goreng ati (liver in coconut chili), tahu bacem and a whole piece of ayam opor each add 100 to 200. The full plate at a wedding is 900 calories."
+    ],
+    "lighter": [
+      "Ask for less areh, or none. That single spoon is 65 calories of pure coconut fat.",
+      "Double the labu siam. The chayote gravy is 70 calories a ladle and fills you up.",
+      "Take the pindang egg and shredded chicken; skip the ayam opor piece which comes with far more gravy.",
+      "The pincuk (banana leaf cone) holds less rice than a plate. Choose it.",
+      "Skip tahu bacem and tempe bacem. They are braised in palm sugar and then fried, about 90 calories a piece."
+    ],
+    "components": [
+      {
+        "name": "Nasi liwet (coconut stock rice)",
+        "grams": 200,
+        "calories": 275
+      },
+      {
+        "name": "Labu siam in thin coconut gravy",
+        "grams": 80,
+        "calories": 70
+      },
+      {
+        "name": "Shredded opor chicken",
+        "grams": 50,
+        "calories": 100
+      },
+      {
+        "name": "Areh (thick coconut cream)",
+        "grams": 30,
+        "calories": 65
+      },
+      {
+        "name": "Telur pindang",
+        "grams": 50,
+        "calories": 70
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small pincuk, no areh",
+        "calories": 420
+      },
+      {
+        "label": "Standard plate",
+        "calories": 580
+      },
+      {
+        "label": "Large with ayam opor piece and sambal goreng ati",
+        "calories": 900
+      }
+    ],
+    "variants": [
+      {
+        "name": "Nasi liwet rice only",
+        "calories": 275,
+        "note": "200g of the coconut stock rice"
+      },
+      {
+        "name": "Nasi liwet Solo standard",
+        "calories": 580,
+        "note": "Labu siam, ayam suwir, areh, egg"
+      },
+      {
+        "name": "Nasi liwet Sunda with ikan asin and tempe",
+        "calories": 700,
+        "note": "Cooked with more oil, served with fried sides"
+      },
+      {
+        "name": "Nasi liwet komplit with sambal goreng ati",
+        "calories": 900,
+        "note": "Wedding or hajatan plate"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in nasi liwet?",
+        "a": "About 580 calories for a standard Solo plate with labu siam, shredded chicken, areh and a pindang egg. The rice alone is about 275 calories per 200g."
+      },
+      {
+        "q": "Is nasi liwet high in fat?",
+        "a": "The rice is moderate at about 5g fat per 200g. The 22g fat on the plate comes mostly from the areh and the opor gravy on the chicken."
+      },
+      {
+        "q": "What is the difference between nasi liwet Solo and Sunda in calories?",
+        "a": "The Sunda version is cooked in a pot with more oil and served with fried ikan asin, tempe and sambal, so it is about 700 calories versus 580 for the Solo plate."
+      },
+      {
+        "q": "How many calories in areh?",
+        "a": "About 65 calories per tablespoon. It is coconut milk boiled down until thick, so it is close to 90% fat by calories."
+      }
+    ],
+    "related": [
+      "nasi-uduk",
+      "nasi-kuning",
+      "opor-ayam",
+      "gudeg"
+    ],
+    "source": "FatSecret Indonesia (nasi liwet 138 kcal/100g), sides estimated from components"
+  },
+  {
+    "slug": "gudeg",
+    "name": "Gudeg",
+    "aka": [
+      "Nasi Gudeg",
+      "Gudeg Jogja",
+      "Gudeg Yogyakarta",
+      "Gudeg Nangka"
+    ],
+    "category": "rice",
+    "region": [
+      "id"
+    ],
+    "serving": "1 plate nasi gudeg (rice, gudeg, krecek, pindang egg, areh)",
+    "servingGrams": 440,
+    "calories": 650,
+    "protein": 20,
+    "carbs": 95,
+    "fat": 22,
+    "metaDescription": "A plate of nasi gudeg with krecek and egg is about 650 calories. The jackfruit stew is basically sugar and coconut milk, so it eats like a dessert.",
+    "summary": "Gudeg is young jackfruit stewed for hours in coconut milk and palm sugar until it turns dark and sweet. In Yogyakarta it is served over rice with spicy krecek (cow skin), a pindang egg and thick areh.",
+    "answer": "A standard plate of nasi gudeg is about 650 calories: 200g rice at 260, 100g gudeg at 130, krecek at 110, a pindang egg at 70 and a spoon of areh at 80. FatSecret Indonesia lists the gudeg stew itself at 127 calories per 100g.",
+    "realTalk": [
+      "Gudeg is sweet for a reason. The jackfruit is stewed in coconut milk and gula jawa for six to eight hours, and by the end a 100g scoop is 127 calories with 22g of carbs, mostly sugar, and 5g of fat. It has almost no protein, under 2g per 100g. So the brown pile that looks like a vegetable dish is closer to a sweet stew.",
+      "Krecek is the red stuff on the side, and it is cow skin crackers rehydrated in coconut chili sauce. 50g is about 110 calories, mostly fat from the santan and the chili oil floating on top. Then areh, the thick white coconut cream, is 80 calories for a 40g spoon. Between gudeg, krecek and areh you have 320 calories before rice.",
+      "The dry Yogya style (gudeg kering) is more concentrated than the wet Solo style (gudeg basah). Kering has been cooked down longer so the same 100g scoop has more sugar and coconut, about 150 calories, while the wet version is closer to 110. If you are choosing, wet is lighter.",
+      "A Rp 15,000 to 25,000 plate at Wijilan or Mbarek gets you 650 calories with 95g of carbs and only 20g protein. Add ayam kampung opor and you are near 900, and that is the usual tourist order."
+    ],
+    "lighter": [
+      "Ask for less rice and no areh. Between them that is 200 calories saved without touching the gudeg.",
+      "Take the telur pindang and skip the ayam opor. The egg is 70 calories with 6g protein; a piece of opor chicken in gravy is 250 or more.",
+      "Ask for gudeg basah (wet) if the stall does both. It has less sugar per scoop.",
+      "Krecek is the fattiest part of the plate. A small spoon, not a ladle.",
+      "Pair it with tahu or tempe bacem only if you skip the egg. Do not stack all three."
+    ],
+    "components": [
+      {
+        "name": "White rice",
+        "grams": 200,
+        "calories": 260
+      },
+      {
+        "name": "Gudeg nangka",
+        "grams": 100,
+        "calories": 130
+      },
+      {
+        "name": "Sambal goreng krecek",
+        "grams": 50,
+        "calories": 110
+      },
+      {
+        "name": "Telur pindang",
+        "grams": 50,
+        "calories": 70
+      },
+      {
+        "name": "Areh",
+        "grams": 40,
+        "calories": 80
+      }
+    ],
+    "portions": [
+      {
+        "label": "Half rice, gudeg and egg, no areh",
+        "calories": 400
+      },
+      {
+        "label": "Standard nasi gudeg plate",
+        "calories": 650
+      },
+      {
+        "label": "Komplit with ayam opor and tahu bacem",
+        "calories": 950
+      }
+    ],
+    "variants": [
+      {
+        "name": "Gudeg stew only",
+        "calories": 130,
+        "note": "100g, no rice"
+      },
+      {
+        "name": "Nasi gudeg basah (Solo style)",
+        "calories": 600,
+        "note": "Wetter, less sugar per scoop"
+      },
+      {
+        "name": "Nasi gudeg kering (Yogya style)",
+        "calories": 650,
+        "note": "Standard plate with krecek and egg"
+      },
+      {
+        "name": "Nasi gudeg with ayam kampung opor",
+        "calories": 900,
+        "note": "Bone-in chicken in coconut gravy added"
+      },
+      {
+        "name": "Gudeg kaleng (canned)",
+        "calories": 280,
+        "note": "Per 210g can, gudeg and krecek only"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in nasi gudeg?",
+        "a": "About 650 calories for a plate with rice, gudeg, krecek, a pindang egg and areh. The gudeg stew itself is about 127 calories per 100g."
+      },
+      {
+        "q": "Is gudeg healthy?",
+        "a": "Not really. It is sweet stewed jackfruit with coconut milk, under 2g protein per 100g and mostly sugar. It is fine as an occasional meal but it is closer to dessert than vegetables."
+      },
+      {
+        "q": "Does gudeg have a lot of sugar?",
+        "a": "Yes. Roughly 22g of carbs per 100g, and most of that is palm sugar absorbed during the long stewing. The dry Yogya style has more than the wet Solo style."
+      },
+      {
+        "q": "How many calories in gudeg with krecek?",
+        "a": "About 240 calories for 100g gudeg plus 50g krecek, no rice. The krecek carries most of the fat."
+      }
+    ],
+    "related": [
+      "nasi-liwet",
+      "opor-ayam",
+      "nasi-campur",
+      "kolak"
+    ],
+    "source": "FatSecret Indonesia (gudeg 127 kcal/100g), krecek, egg and areh estimated"
+  },
+  {
+    "slug": "mie-ayam",
+    "name": "Mie Ayam",
+    "aka": [
+      "Mi Ayam",
+      "Mie Ayam Jakarta",
+      "Mie Ayam Bakso",
+      "Bakmi Ayam"
+    ],
+    "category": "noodles",
+    "region": [
+      "id"
+    ],
+    "serving": "1 bowl (noodles, chicken in kecap, sawi, side broth)",
+    "servingGrams": 270,
+    "calories": 450,
+    "protein": 18,
+    "carbs": 50,
+    "fat": 20,
+    "metaDescription": "A bowl of mie ayam is about 450 calories. The chicken looks small because the oil in the bowl is doing most of the work.",
+    "summary": "Mie ayam is the Indonesian street noodle: yellow noodles tossed in seasoned oil and soy, topped with diced chicken cooked in kecap manis, blanched sawi and a small bowl of broth on the side.",
+    "answer": "A normal cart bowl of mie ayam is about 450 calories. FatSecret Indonesia puts a 240g bowl at 421 calories; the warung version with more oil in the bottom of the bowl lands closer to 450. Add two bakso and it is about 560, add pangsit goreng and 620.",
+    "realTalk": [
+      "Look at the bottom of the bowl before you mix. That pool of oil, chicken fat and kecap is where 100 of the 450 calories live. The seller ladles it in first, then the noodles, then the chicken. It is what makes cheap mie ayam taste good and it is why a bowl with barely 50g of chicken still has 20g of fat.",
+      "The noodles are about 150g cooked, around 210 calories, which is actually less than a plate of rice. The chicken topping is 50g of thigh meat cooked down in kecap manis and more oil, about 110 calories. The sawi is 10. So a plain bowl without extras is really 450, and Rp 12,000 to 18,000 at most carts.",
+      "Then the extras. Two bakso add about 110 calories. Pangsit rebus (boiled wonton) is 30 each. Pangsit goreng is 60 to 70 each and people take three. Ceker (chicken feet) are about 50 for two. A 'mie ayam bakso pangsit komplit' is 650 to 700 calories and still only about 30g protein.",
+      "The broth on the side is nearly free at 20 calories, unless the seller has floated chicken oil on it. Drink it if it is clear, skip it if it has a yellow film."
+    ],
+    "lighter": [
+      "Ask for 'minyaknya sedikit' (less oil). Some sellers will, and it drops the bowl by 60 to 80 calories.",
+      "Add bakso instead of pangsit goreng. Two bakso is 110 calories with real protein; three fried wontons is 200 calories of fried skin.",
+      "Ask for extra sawi. It is free at most carts and it is the only vegetable in the bowl.",
+      "Skip the sambal if it is the oily kind. Rawit in vinegar is fine; sambal in oil is another 40 calories.",
+      "Mie ayam without the kecap manis drizzle on top saves about 30 calories of sugar."
+    ],
+    "components": [
+      {
+        "name": "Yellow noodles",
+        "grams": 150,
+        "calories": 210
+      },
+      {
+        "name": "Chicken in kecap manis",
+        "grams": 50,
+        "calories": 110
+      },
+      {
+        "name": "Seasoned oil, lard and soy in bowl",
+        "grams": 15,
+        "calories": 100
+      },
+      {
+        "name": "Sawi (mustard greens)",
+        "grams": 30,
+        "calories": 10
+      },
+      {
+        "name": "Side broth",
+        "grams": 100,
+        "calories": 20
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small bowl, less oil",
+        "calories": 350
+      },
+      {
+        "label": "Standard bowl",
+        "calories": 450
+      },
+      {
+        "label": "Mie ayam bakso pangsit komplit",
+        "calories": 680
+      }
+    ],
+    "variants": [
+      {
+        "name": "Mie ayam plain (FatSecret bowl)",
+        "calories": 421,
+        "note": "240g, minimal oil"
+      },
+      {
+        "name": "Mie ayam standard cart bowl",
+        "calories": 450,
+        "note": "More oil in the bowl"
+      },
+      {
+        "name": "Mie ayam bakso",
+        "calories": 560,
+        "note": "Two bakso added"
+      },
+      {
+        "name": "Mie ayam jamur",
+        "calories": 470,
+        "note": "Mushroom cooked in the same kecap oil"
+      },
+      {
+        "name": "Mie ayam bakso pangsit goreng",
+        "calories": 680,
+        "note": "Two bakso and three fried wontons"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in mie ayam?",
+        "a": "About 450 calories for a standard cart bowl. FatSecret lists 421 for a 240g bowl. With bakso it is about 560."
+      },
+      {
+        "q": "How many calories in mie ayam bakso?",
+        "a": "About 560 calories. Each bakso adds roughly 55 calories, and most stalls give two."
+      },
+      {
+        "q": "Is mie ayam healthy for a diet?",
+        "a": "It is moderate at 450 calories, but only 18g protein and 20g fat. Ask for less oil, add bakso for protein and skip the fried wontons."
+      },
+      {
+        "q": "How many calories in mie ayam pangsit?",
+        "a": "Around 520 with two boiled wontons, or 620 to 680 with three fried ones. The fried pangsit is the biggest add-on."
+      }
+    ],
+    "related": [
+      "bakso",
+      "wantan-mee",
+      "mie-goreng-jawa",
+      "kolo-mee"
+    ],
+    "source": "FatSecret Indonesia (mie ayam 1 bowl 421 kcal), adjusted to 450 for warung oil"
+  },
+  {
+    "slug": "mie-goreng-jawa",
+    "name": "Mie Goreng Jawa",
+    "aka": [
+      "Mi Goreng Jawa",
+      "Bakmi Jawa Goreng",
+      "Mie Jawa",
+      "Bakmi Jowo"
+    ],
+    "category": "noodles",
+    "region": [
+      "id"
+    ],
+    "serving": "1 plate",
+    "servingGrams": 330,
+    "calories": 620,
+    "protein": 22,
+    "carbs": 78,
+    "fat": 24,
+    "metaDescription": "A plate of mie goreng Jawa from a charcoal cart is about 620 calories. The kecap manis and the egg swirled in with the oil are what push it up.",
+    "summary": "Mie goreng Jawa is thick yellow noodles fried over charcoal in a wok with kecap manis, egg, chicken, cabbage and tomato. Yogyakarta and Solo carts do it one plate at a time.",
+    "answer": "A plate of mie goreng Jawa from a bakmi Jawa cart is about 620 calories. That is 200g of noodles at 280, one egg at 70, about 15g of oil at 130, 20g of kecap manis at 55, 40g of chicken at 70 and cabbage and tomato at 20.",
+    "realTalk": [
+      "The kecap manis is the thing people forget. A proper bakmi Jawa cart pours it in twice, once when the egg goes in and again at the end, and 20g is 55 calories of pure sugar. The dish is sweet for a reason. The oil is the other invisible number: 15g for one plate is normal, and that is 130 calories before anything else.",
+      "The noodles are the bulk at 200g cooked, about 280 calories, more than a mie ayam bowl because Jawa-style uses the thick bakmi. The egg adds 70 and a decent amount of the plate's 22g protein. The chicken is usually kampung chicken shredded thin, maybe 40g, so it is more for taste than protein.",
+      "Bakmi Jawa carts in Yogyakarta charge Rp 18,000 to 30,000 and cook on charcoal, one wok per order, which sounds artisanal but does not change the calories. The godhog (soup) version is the same ingredients in broth and lands around 500 because there is less oil and less kecap. The nyemek version (half wet) sits in between at 560.",
+      "The emping or kerupuk on the side is another 50 calories, and the free acar (pickled cucumber and chili) is the only thing on the table that is close to zero."
+    ],
+    "lighter": [
+      "Order the godhog (soup) version. Same noodles and egg, about 120 calories less because the wok oil and second kecap pour are gone.",
+      "Ask for 'kecapnya sedikit'. Half the kecap is 30 calories of sugar gone and the dish is still sweet.",
+      "Ask for extra kol and sawi. Vegetables are the cheapest way to make the plate bigger.",
+      "Skip the emping. 50 calories of cracker you will not remember eating.",
+      "If there is a choice of egg count, one is enough. The second egg is often fried separately in more oil."
+    ],
+    "components": [
+      {
+        "name": "Thick yellow noodles",
+        "grams": 200,
+        "calories": 280
+      },
+      {
+        "name": "Cooking oil",
+        "grams": 15,
+        "calories": 130
+      },
+      {
+        "name": "Egg",
+        "grams": 50,
+        "calories": 70
+      },
+      {
+        "name": "Kecap manis",
+        "grams": 20,
+        "calories": 55
+      },
+      {
+        "name": "Shredded chicken",
+        "grams": 40,
+        "calories": 70
+      },
+      {
+        "name": "Cabbage and tomato",
+        "grams": 40,
+        "calories": 15
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small plate",
+        "calories": 480
+      },
+      {
+        "label": "Standard cart plate",
+        "calories": 620
+      },
+      {
+        "label": "Large with extra egg and emping",
+        "calories": 780
+      }
+    ],
+    "variants": [
+      {
+        "name": "Bakmi Jawa godhog (soup)",
+        "calories": 500,
+        "note": "Less oil, in broth"
+      },
+      {
+        "name": "Bakmi Jawa nyemek (half wet)",
+        "calories": 560,
+        "note": "Between soup and fried"
+      },
+      {
+        "name": "Mie goreng Jawa (fried)",
+        "calories": 620,
+        "note": "Standard cart plate"
+      },
+      {
+        "name": "Magelangan (noodles mixed with rice)",
+        "calories": 720,
+        "note": "Half rice, half noodles, same oil"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in mie goreng Jawa?",
+        "a": "About 620 calories for a standard cart plate with egg and chicken. The soup version (godhog) is around 500."
+      },
+      {
+        "q": "Is bakmi Jawa healthy?",
+        "a": "It is a full meal at 620 calories with 22g protein, but 24g fat and around 20g of sugar from the kecap manis. Ask for less kecap and pick the soup version to make it lighter."
+      },
+      {
+        "q": "How many calories in bakmi godhog?",
+        "a": "Around 500 calories. Same noodles and egg in a broth, with much less oil than the fried version."
+      },
+      {
+        "q": "How much sugar is in mie goreng Jawa?",
+        "a": "Roughly 15 to 20g, mostly from the two pours of kecap manis. That is about the same as a can of soft drink."
+      }
+    ],
+    "related": [
+      "mie-ayam",
+      "mee-goreng-mamak",
+      "indomie-goreng",
+      "nasi-goreng-kampung"
+    ],
+    "source": "estimate from components"
+  },
+  {
+    "slug": "indomie-goreng",
+    "name": "Indomie Goreng",
+    "aka": [
+      "Indomie Mi Goreng",
+      "Indomie Goreng Telur",
+      "Indomie Goreng Original"
+    ],
+    "category": "noodles",
+    "region": [
+      "id"
+    ],
+    "serving": "1 pack cooked with 1 fried egg",
+    "servingGrams": 250,
+    "calories": 455,
+    "protein": 14,
+    "carbs": 55,
+    "fat": 19,
+    "metaDescription": "One pack of Indomie goreng is 380 calories on the label. Add the fried egg everyone adds and it is about 455.",
+    "summary": "Indomie Mi Goreng is Indonesia's instant fried noodle, 85g of noodles with a seasoning oil, kecap manis, chili sauce and fried shallot sachet. Most people cook it with an egg.",
+    "answer": "One pack of Indomie goreng with a fried egg is about 455 calories. The packaging lists 380 calories per 85g pack (14g fat, 54g carbs, 8g protein), and a fried egg adds about 75. At a warkop with double noodles it is 835.",
+    "realTalk": [
+      "The label is honest, and the number is 380 per pack. Most of that is the noodle block itself, about 300 calories, because instant noodles are flash fried in palm oil before they are dried. The seasoning sachets add about 80 more: the oil sachet is about 45 calories, the kecap manis 25, the chili and shallot the rest.",
+      "The problem is nobody eats one dry pack. The standard warkop order is 'Indomie goreng telur' at Rp 10,000 to 15,000, and the egg is fried in more oil, so that is 75 to 100 calories on top. Add a slice of cheese (about 60) or a kornet spoon (about 70) and you are at 600. Indomie goreng double with telur and kornet is 900 calories, and it is 11pm.",
+      "Protein is the weak point. One pack is 8g, the egg brings it to 14g. For 455 calories that is low, which is why you are hungry again in two hours. Two packs is not the fix, that is 760 calories for 16g protein. Two eggs on one pack is 530 calories for 20g protein and holds much better.",
+      "If you add the full oil sachet plus your own oil for the egg, the pack is about 19g fat, which is around 40% of the calories. Draining the noodles properly and skipping half the oil sachet takes about 25 calories off. Small, but free."
+    ],
+    "lighter": [
+      "One pack, two eggs, not two packs, one egg. Same 500ish calories with 20g protein instead of 16g.",
+      "Use half the oil sachet. The kecap and chili carry the flavour; the oil sachet is 45 calories of palm oil.",
+      "Throw in a handful of sawi or cabbage while the noodles boil. Adds volume for about 10 calories.",
+      "Skip the cheese and kornet at the warkop. Each one is 60 to 70 calories with little to show for it.",
+      "Do not drink the boiling water. Obvious, but the rebus version's soup is where the sodium and half the seasoning oil ends up."
+    ],
+    "components": [
+      {
+        "name": "Indomie goreng pack (noodles and sachets)",
+        "grams": 85,
+        "calories": 380
+      },
+      {
+        "name": "Fried egg",
+        "grams": 55,
+        "calories": 75
+      }
+    ],
+    "portions": [
+      {
+        "label": "1 pack, no egg, half oil sachet",
+        "calories": 355
+      },
+      {
+        "label": "1 pack with fried egg",
+        "calories": 455
+      },
+      {
+        "label": "Double (2 packs) with egg and kornet",
+        "calories": 900
+      }
+    ],
+    "variants": [
+      {
+        "name": "Indomie goreng, pack only",
+        "calories": 380,
+        "note": "Label value, 85g"
+      },
+      {
+        "name": "With fried egg",
+        "calories": 455,
+        "note": "Standard warkop order"
+      },
+      {
+        "name": "With egg and cheese",
+        "calories": 515,
+        "note": "One slice processed cheese"
+      },
+      {
+        "name": "Indomie goreng jumbo pack",
+        "calories": 560,
+        "note": "129g pack, label value approx"
+      },
+      {
+        "name": "Double with egg and kornet",
+        "calories": 900,
+        "note": "Two packs, one egg, one spoon corned beef"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in one pack of Indomie goreng?",
+        "a": "380 calories per 85g pack according to the packaging, with 14g fat, 54g carbs and 8g protein. With a fried egg it is about 455."
+      },
+      {
+        "q": "How many calories in Indomie goreng telur?",
+        "a": "About 455 calories. The pack is 380 and a fried egg is roughly 75, a bit more if the warkop fries it in a lot of oil."
+      },
+      {
+        "q": "Is Indomie goreng bad for weight loss?",
+        "a": "One pack with two eggs is about 530 calories and 20g protein, which fits a normal day. Two packs at once is 760 calories with barely any protein, and that is the version that causes problems."
+      },
+      {
+        "q": "How many calories in Indomie goreng double?",
+        "a": "Two packs is 760 calories before the egg. With egg and kornet, about 900."
+      }
+    ],
+    "related": [
+      "maggi-goreng",
+      "mie-goreng-jawa",
+      "mie-ayam",
+      "mee-goreng-mamak"
+    ],
+    "source": "Indomie Mi Goreng packaging label (380 kcal per 85g pack) plus 1 fried egg"
+  },
+  {
+    "slug": "mie-aceh",
+    "name": "Mie Aceh",
+    "aka": [
+      "Mi Aceh",
+      "Mie Aceh Goreng",
+      "Mie Aceh Daging",
+      "Mie Aceh Kepiting"
+    ],
+    "category": "noodles",
+    "region": [
+      "id"
+    ],
+    "serving": "1 plate (mie Aceh goreng with beef, emping)",
+    "servingGrams": 330,
+    "calories": 600,
+    "protein": 24,
+    "carbs": 70,
+    "fat": 26,
+    "metaDescription": "A plate of mie Aceh goreng with beef is about 600 calories. The thick noodles soak up a heavy curry spice paste cooked in oil.",
+    "summary": "Mie Aceh is thick yellow noodles cooked in a curry-like paste of chili, cardamom, cumin and turmeric with beef, goat, shrimp or crab. It comes goreng (dry), tumis (moist) or kuah (soup), with emping and pickled shallots.",
+    "answer": "A restaurant plate of mie Aceh goreng with beef is about 600 calories. FatSecret Indonesia lists a lighter 205g version at 238 calories, but a real Rp 25,000 plate has around 200g of noodles, 60g of beef, 15g of oil and emping, which lands at 600.",
+    "realTalk": [
+      "Mie Aceh noodles are the thick, chewy kind, and a plate holds about 200g cooked, roughly 260 calories. Then the spice paste. It is fried in oil until the red separates, and a plate carries about 15g of oil, 130 calories, more than any other noodle dish on this site except the mamak ones. The 238 calorie figure on FatSecret is for a very small, wet portion and not what a warung gives you.",
+      "The protein depends on what you order. Daging (beef) is the standard, about 60g for 130 calories and 15g protein. Kambing (goat) is similar. Udang (shrimp) is leaner at about 80 calories for the same weight. Kepiting (crab) is the leanest meat but the plate costs Rp 45,000 to 60,000 and the crab is often fried first.",
+      "The three styles matter. Goreng (dry) is the heaviest at 600 because all the oil stays in the noodles. Tumis (moist) has some broth and is about 540. Kuah (soup) is about 480 because part of the oil floats on the soup and stays in the bowl. Same price, 120 calories difference.",
+      "Emping on the side is 50 calories for a small pile, and the acar bawang (pickled shallots) is free. Mie Aceh comes with a lot of chili already, so the extra sambal is not needed."
+    ],
+    "lighter": [
+      "Order kuah (soup) instead of goreng. About 120 calories less, and the flavour is the same paste.",
+      "Pick udang or kepiting over daging. Shrimp saves about 50 calories against beef for the same portion.",
+      "Ask for 'jangan terlalu berminyak'. Some warungs will drain the paste more before tossing.",
+      "Leave the emping. 50 calories of cracker on a plate that already has 70g of carbs.",
+      "Share a plate with extra beef instead of two plates. Mie Aceh portions are generous."
+    ],
+    "components": [
+      {
+        "name": "Thick yellow noodles",
+        "grams": 200,
+        "calories": 260
+      },
+      {
+        "name": "Beef",
+        "grams": 60,
+        "calories": 130
+      },
+      {
+        "name": "Cooking oil in spice paste",
+        "grams": 15,
+        "calories": 130
+      },
+      {
+        "name": "Spice paste, tomato, bean sprouts, cabbage",
+        "grams": 50,
+        "calories": 40
+      },
+      {
+        "name": "Emping",
+        "grams": 10,
+        "calories": 50
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small portion (FatSecret 205g)",
+        "calories": 240
+      },
+      {
+        "label": "Standard warung plate with beef",
+        "calories": 600
+      },
+      {
+        "label": "Large with extra beef and emping",
+        "calories": 760
+      }
+    ],
+    "variants": [
+      {
+        "name": "Mie Aceh kuah (soup) with beef",
+        "calories": 480,
+        "note": "Oil stays in the broth"
+      },
+      {
+        "name": "Mie Aceh tumis udang",
+        "calories": 500,
+        "note": "Moist style with shrimp"
+      },
+      {
+        "name": "Mie Aceh tumis daging",
+        "calories": 540,
+        "note": "Moist style with beef"
+      },
+      {
+        "name": "Mie Aceh goreng daging",
+        "calories": 600,
+        "note": "Standard dry plate"
+      },
+      {
+        "name": "Mie Aceh goreng kepiting",
+        "calories": 650,
+        "note": "Crab, often fried before tossing"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in mie Aceh?",
+        "a": "About 600 calories for a plate of mie Aceh goreng with beef. The soup (kuah) version is around 480."
+      },
+      {
+        "q": "Is mie Aceh spicy enough to burn calories?",
+        "a": "No. Chili raises metabolism by a trivial amount. The plate is 600 calories whether you sweat or not."
+      },
+      {
+        "q": "Which mie Aceh has the fewest calories?",
+        "a": "Mie Aceh kuah with shrimp, around 440 calories. Goreng with beef or crab is the heaviest at 600 to 650."
+      },
+      {
+        "q": "How much fat is in mie Aceh goreng?",
+        "a": "About 26g per plate. The spice paste is fried in a lot of oil and the thick noodles hold on to all of it."
+      }
+    ],
+    "related": [
+      "mee-goreng-mamak",
+      "mie-goreng-jawa",
+      "mee-kari",
+      "mie-ayam"
+    ],
+    "source": "FatSecret Indonesia (mie Aceh 116 kcal/100g) scaled to a warung portion with beef and oil, components estimated"
+  }
+]

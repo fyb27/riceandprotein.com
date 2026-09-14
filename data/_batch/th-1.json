@@ -1,0 +1,1654 @@
+[
+  {
+    "slug": "pad-thai",
+    "name": "Pad Thai",
+    "aka": [
+      "ผัดไทย",
+      "Phad Thai",
+      "Pad Thai Goong Sod",
+      "Thai Fried Noodles"
+    ],
+    "category": "noodles",
+    "region": [
+      "th"
+    ],
+    "serving": "1 plate",
+    "servingGrams": 250,
+    "calories": 577,
+    "protein": 20,
+    "carbs": 72,
+    "fat": 22,
+    "metaDescription": "A street stall plate of pad thai with shrimp and egg is about 577 calories. Here is where the number comes from and how to order it lighter.",
+    "summary": "Thin rice noodles stir fried with egg, shrimp or chicken, bean sprouts, chives and a tamarind and palm sugar sauce, finished with crushed peanuts. Thailand's most exported plate of food.",
+    "answer": "One plate of pad thai with shrimp and egg is about 577 calories for a 250g street stall serving, based on the Thai Department of Health food table. The noodles and the sweet sauce carry most of it. Shrimp adds almost nothing, the oil and peanuts add a lot.",
+    "realTalk": [
+      "The 577 figure is for a modest stall plate. Sit down in a tourist area restaurant and the plate grows to 350g with a second egg and a heavier pour of oil, and you are at 750 to 800 calories without changing the recipe. The rice noodles alone are about 215 calories per plate, the sauce is another 70, and the cook's ladle of oil is 120 or more depending on how generous they are.",
+      "The sauce is the sneaky part. Pad thai sauce is tamarind, fish sauce and a lot of palm sugar, about 15g of sugar per plate. That is why it tastes sweet even when it looks savoury. Squeezing the lime over it does not cancel anything, it just balances the taste. The crushed peanuts on the side are 60 calories per tablespoon, so if you spoon on three, that is a whole extra egg's worth.",
+      "Compared with the other stall noodle plates, pad thai sits in the middle. Pad see ew is heavier at 679, rad na is lighter at 397. If you are picking one plate a day from the noodle cart, pad thai at 577 is fine. It only becomes a problem when it is the 40 baht second dinner after a full meal, which is how a lot of people actually eat it."
+    ],
+    "lighter": [
+      "Ask for goong sod (fresh shrimp) rather than chicken or pork; shrimp is about 50 calories for 4 pieces versus 100 to 130 for the same weight of pork.",
+      "Say mai sai nam man yer (not much oil). Most cooks will happily use half a ladle instead of a full one, which saves 60 to 80 calories.",
+      "Skip the extra peanuts and extra sugar packet on the table. The plate already has 15g of sugar in the sauce.",
+      "Order pad thai hor kai (wrapped in a thin omelette) only if you count the extra egg; it adds around 100 calories."
+    ],
+    "components": [
+      {
+        "name": "Rice noodles (sen chan)",
+        "grams": 130,
+        "calories": 215
+      },
+      {
+        "name": "Shrimp, 4 pieces",
+        "grams": 50,
+        "calories": 50
+      },
+      {
+        "name": "Egg",
+        "grams": 50,
+        "calories": 60
+      },
+      {
+        "name": "Cooking oil",
+        "grams": 14,
+        "calories": 120
+      },
+      {
+        "name": "Tamarind and palm sugar sauce",
+        "grams": 30,
+        "calories": 70
+      },
+      {
+        "name": "Bean sprouts, chives, peanuts",
+        "grams": 30,
+        "calories": 60
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small stall plate (40 baht)",
+        "calories": 480
+      },
+      {
+        "label": "Standard plate with shrimp and egg",
+        "calories": 577
+      },
+      {
+        "label": "Large restaurant plate with extra egg and peanuts",
+        "calories": 780
+      }
+    ],
+    "variants": [
+      {
+        "name": "Pad thai with tofu (vegetarian)",
+        "calories": 450,
+        "note": "Tofu is lighter than meat but takes more oil"
+      },
+      {
+        "name": "Pad thai with chicken",
+        "calories": 520,
+        "note": "Chicken breast adds protein at low cost"
+      },
+      {
+        "name": "Pad thai goong sod (shrimp)",
+        "calories": 577,
+        "note": "Thai Department of Health figure for 244g"
+      },
+      {
+        "name": "Pad thai hor kai (omelette wrapped)",
+        "calories": 680,
+        "note": "Extra egg plus more oil for the wrap"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is pad thai healthy?",
+        "a": "It is a balanced plate for the calories: 577 calories with about 20g protein and some vegetables. The weak points are 15g of sugar in the sauce and 22g of fat, mostly from oil. One plate is a reasonable meal, two plates is not."
+      },
+      {
+        "q": "How many calories in pad thai without egg?",
+        "a": "Take off about 60 to 70 calories, so around 510 for a standard plate. Keep the egg though, it is the cheapest protein on the plate."
+      },
+      {
+        "q": "Is pad thai or pad see ew higher in calories?",
+        "a": "Pad see ew. The Thai Department of Health lists pad see ew with pork and egg at 679 calories versus 577 for pad thai with shrimp, because wide rice noodles soak up more oil and dark soy."
+      }
+    ],
+    "related": [
+      "pad-see-ew",
+      "rad-na",
+      "char-kuey-teow",
+      "pad-woon-sen"
+    ],
+    "source": "Thai Department of Health (กรมอนามัย) food table via health.kapook.com, pad thai goong sod sai kai 244g = 577 kcal"
+  },
+  {
+    "slug": "pad-kra-pao",
+    "name": "Pad Kra Pao",
+    "aka": [
+      "ผัดกะเพรา",
+      "ข้าวผัดกะเพราไก่ไข่ดาว",
+      "Pad Kaprao",
+      "Pad Krapow",
+      "Thai Basil Chicken Rice",
+      "Khao Pad Kra Pao"
+    ],
+    "category": "rice",
+    "region": [
+      "th"
+    ],
+    "serving": "1 plate with rice and fried egg",
+    "servingGrams": 330,
+    "calories": 630,
+    "protein": 30,
+    "carbs": 68,
+    "fat": 26,
+    "metaDescription": "Pad kra pao gai over rice with a fried egg is about 630 calories. The egg and the oil add 150 of that. Numbers from the Thai Department of Health.",
+    "summary": "Minced chicken or pork stir fried with holy basil, garlic, chili and fish sauce, served over rice with a crispy fried egg on top. The default lunch order in every Thai food court and aharn tam sang shop.",
+    "answer": "A plate of pad kra pao gai with rice and a fried egg is about 630 calories, based on the Thai Department of Health table for khao pad kra pao gai kai dao. Without the fried egg the same plate is 478 calories at 265g. The egg fried in the wok oil adds roughly 150.",
+    "realTalk": [
+      "The chicken and basil part is honest food: 100g of minced chicken is 165 calories and the basil, chili and garlic are nearly zero. The rice is 260 for a normal 200g scoop. What pushes the plate past 600 is the fried egg, which soaks up wok oil until the edges go crispy and lands at 110 to 150 calories on its own, plus the tablespoon of oil the cook used for the stir fry.",
+      "Meat choice changes the number more than most people think. Minced chicken keeps it at 630. Swap to minced pork and it climbs to about 680 because Thai minced pork is usually 20 to 25 percent fat. Order kra pao moo krob (crispy pork belly) and you are at 820 or more, since 70g of moo krob is nearly 300 calories by itself.",
+      "This was my default 45 baht lunch for a long time and it is a perfectly good one. The trick I settled on: keep the egg, ask for less oil, and do not order the extra rice. A 630 calorie plate with 30g of protein is a full meal. A 900 calorie plate with kao piset (extra rice) and moo krob is two meals."
+    ],
+    "lighter": [
+      "Ask for kai dao mai krob (egg not crispy) or a boiled egg instead; a soft fried egg absorbs less oil and saves 40 to 60 calories.",
+      "Choose minced chicken over minced pork, roughly 50 calories less per plate.",
+      "Order with less rice (khao noi) if the shop lets you, which drops the plate by about 80 calories.",
+      "Skip the fish sauce with chili on the table; it is not calories, but it is a lot of sodium on top of an already salty dish."
+    ],
+    "components": [
+      {
+        "name": "Jasmine rice",
+        "grams": 200,
+        "calories": 260
+      },
+      {
+        "name": "Minced chicken",
+        "grams": 100,
+        "calories": 165
+      },
+      {
+        "name": "Fried egg",
+        "grams": 60,
+        "calories": 110
+      },
+      {
+        "name": "Stir fry oil",
+        "grams": 9,
+        "calories": 80
+      },
+      {
+        "name": "Fish sauce, oyster sauce, sugar",
+        "grams": 15,
+        "calories": 20
+      }
+    ],
+    "portions": [
+      {
+        "label": "Chicken, no egg (265g)",
+        "calories": 478
+      },
+      {
+        "label": "Chicken with fried egg",
+        "calories": 630
+      },
+      {
+        "label": "Pork belly (moo krob) with fried egg",
+        "calories": 820
+      }
+    ],
+    "variants": [
+      {
+        "name": "Kra pao gai, no egg",
+        "calories": 478,
+        "note": "Thai Department of Health figure"
+      },
+      {
+        "name": "Kra pao gai kai dao",
+        "calories": 630,
+        "note": "The standard order"
+      },
+      {
+        "name": "Kra pao moo sap kai dao",
+        "calories": 680,
+        "note": "Minced pork is fattier"
+      },
+      {
+        "name": "Kra pao moo krob kai dao",
+        "calories": 820,
+        "note": "Crispy pork belly version"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in pad kra pao without rice?",
+        "a": "The stir fry alone, with chicken, is about 260 calories. Add 110 for the fried egg. Eating it without rice is a legitimate low carb move, though most people then order more meat."
+      },
+      {
+        "q": "Is pad kra pao good for weight loss?",
+        "a": "Yes if it is one plate. 630 calories with 30g of protein is a decent lunch. Order it with chicken, one egg, normal rice, and you fit it into almost any daily target."
+      },
+      {
+        "q": "Why does the same dish vary so much between shops?",
+        "a": "Oil. One shop uses a tablespoon for the stir fry, another uses three, and the fried egg can take 5 to 15g of oil depending on how crispy they make it. That alone is a 150 calorie swing."
+      }
+    ],
+    "related": [
+      "khao-pad",
+      "moo-krob",
+      "khao-man-gai",
+      "nasi-goreng-kampung"
+    ],
+    "source": "Thai Department of Health (กรมอนามัย) via health.kapook.com: khao pad kra pao gai kai dao 630 kcal; without egg 265g = 478 kcal"
+  },
+  {
+    "slug": "som-tam",
+    "name": "Som Tam",
+    "aka": [
+      "ส้มตำ",
+      "ส้มตำไทย",
+      "Som Tum",
+      "Green Papaya Salad",
+      "Tam Thai"
+    ],
+    "category": "veg",
+    "region": [
+      "th"
+    ],
+    "serving": "1 plate",
+    "servingGrams": 150,
+    "calories": 150,
+    "protein": 4,
+    "carbs": 22,
+    "fat": 5,
+    "metaDescription": "Som tam thai is about 150 calories a plate. The papaya is almost free; the palm sugar and peanuts are the whole number. Full breakdown inside.",
+    "summary": "Shredded green papaya pounded in a clay mortar with lime, fish sauce, palm sugar, chili, garlic, tomato, long bean, dried shrimp and peanuts. The most ordered salad in Thailand, usually eaten with sticky rice and grilled meat.",
+    "answer": "A plate of som tam thai is about 150 calories for a 150g serving. The Thai Department of Health lists the classic recipe at 105 calories per 100g. Green papaya itself is under 40 calories per 100g; the peanuts and palm sugar in the dressing are what add up.",
+    "realTalk": [
+      "Som tam on its own is one of the lightest plates in Thai food. 100g of green papaya is about 40 calories, and the lime, chili, garlic and fish sauce add nothing meaningful. The 150 calorie total comes from about a tablespoon of palm sugar (55 calories) and a small handful of roasted peanuts (45 to 60 calories). Ask for no peanuts and less sugar and you are eating an 80 calorie plate.",
+      "The problem was never the som tam. It is the table. A standard isaan order is som tam, a bag of sticky rice and gai yang or moo ping. The sticky rice bag is 260 calories, the grilled chicken thigh is 300, and the whole meal lands around 700. That is still a decent dinner, but people think of it as a salad and go back for a second bag of rice.",
+      "Variants matter. Tam pu pla ra (with fermented fish and salted crab, no peanuts, less sugar) is about 80 calories. Tam khai khem (with salted egg) is around 210. Tam thai at 150 is the middle. If you want the most food for the least calories, pu pla ra wins, as long as you can handle the smell."
+    ],
+    "lighter": [
+      "Ask for mai wan (not sweet) or wan noi (less sweet). The palm sugar is a third of the calories.",
+      "Skip the peanuts, or ask for half. Each tablespoon is 60 calories.",
+      "Order it with grilled chicken and one bag of sticky rice, not two. That keeps the full meal around 700 calories.",
+      "Tam pu pla ra without peanuts is the lightest version at about 80 calories."
+    ],
+    "components": [
+      {
+        "name": "Green papaya, shredded",
+        "grams": 100,
+        "calories": 40
+      },
+      {
+        "name": "Palm sugar and fish sauce dressing",
+        "grams": 20,
+        "calories": 55
+      },
+      {
+        "name": "Roasted peanuts",
+        "grams": 8,
+        "calories": 45
+      },
+      {
+        "name": "Dried shrimp, tomato, long bean",
+        "grams": 25,
+        "calories": 20
+      }
+    ],
+    "portions": [
+      {
+        "label": "Tam pu pla ra, no peanuts",
+        "calories": 80
+      },
+      {
+        "label": "Tam thai, standard plate",
+        "calories": 150
+      },
+      {
+        "label": "Tam thai with 1 bag sticky rice",
+        "calories": 410
+      }
+    ],
+    "variants": [
+      {
+        "name": "Tam pu pla ra (fermented fish, salted crab)",
+        "calories": 80,
+        "note": "No peanuts, less sugar"
+      },
+      {
+        "name": "Tam thai",
+        "calories": 150,
+        "note": "Peanuts and palm sugar"
+      },
+      {
+        "name": "Tam khai khem (salted egg)",
+        "calories": 210,
+        "note": "Half a salted egg adds 60"
+      },
+      {
+        "name": "Tam tad (large tray with sides)",
+        "calories": 650,
+        "note": "Shared platter with noodles, pork rind, eggs"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is som tam good for weight loss?",
+        "a": "Very. At 150 calories for a full plate with lots of fibre and crunch it fills you up for almost nothing. The meal only gets heavy from the sticky rice and grilled meat next to it."
+      },
+      {
+        "q": "How many calories in som tam with sticky rice?",
+        "a": "A plate of tam thai (150) plus a 150g bag of khao niao (260) is about 410 calories. Add a grilled chicken thigh and the set is around 700."
+      },
+      {
+        "q": "Which som tam has the fewest calories?",
+        "a": "Tam pu pla ra without peanuts, around 80 calories a plate. Tam thai is 150 because of sugar and peanuts. Anything with salted egg, pork rind or instant noodles goes above 200."
+      }
+    ],
+    "related": [
+      "khao-niao",
+      "moo-ping",
+      "gai-tod",
+      "larb-moo"
+    ],
+    "source": "Thai Department of Health (กรมอนามัย): som tam thai 105 kcal per 100g, scaled to a 150g stall plate; eatwellconcept.com dietitian estimate 120 to 150 kcal per plate"
+  },
+  {
+    "slug": "tom-kha-gai",
+    "name": "Tom Kha Gai",
+    "aka": [
+      "ต้มข่าไก่",
+      "Tom Ka Gai",
+      "Thai Coconut Chicken Soup",
+      "Galangal Chicken Soup"
+    ],
+    "category": "soup",
+    "region": [
+      "th"
+    ],
+    "serving": "1 bowl",
+    "servingGrams": 300,
+    "calories": 320,
+    "protein": 18,
+    "carbs": 10,
+    "fat": 24,
+    "metaDescription": "A bowl of tom kha gai is about 320 calories, and roughly 180 of that is coconut milk. Chicken and mushrooms are the cheap part. Breakdown inside.",
+    "summary": "Chicken and mushrooms simmered in coconut milk with galangal, lemongrass, kaffir lime leaf and lime juice. The mild, creamy cousin of tom yum, and the one tourists order when they want less chili.",
+    "answer": "A 300g bowl of tom kha gai is about 320 calories. Published Thai figures run from 210 for a small cup to 420 for a rich restaurant bowl, and the whole gap is coconut milk. Around 100ml of coconut milk is 180 calories; the chicken is 130; everything else is under 20.",
+    "realTalk": [
+      "Tom kha is tom yum with coconut milk, and that one change turns a 100 calorie soup into a 320 calorie one. Every 100ml of coconut milk is about 180 calories, and a restaurant bowl can have 150ml. That is why the published numbers scatter so much: a 210 calorie version is made with a thin coconut broth, a 420 calorie one is made with thick coconut cream.",
+      "The good news is the rest of the bowl is cheap. 80g of chicken is 130 calories and 18g of protein. Straw mushrooms, galangal, lemongrass and lime leaf add maybe 20 calories combined. So the bowl is filling, high in protein for a soup, and the fat is the only thing to watch. At 24g of fat per bowl it is the fattiest soup on the Thai menu.",
+      "Treat it as a main, not a side. A bowl of tom kha with a small plate of rice (200 calories) is a 520 calorie meal, which is fine. Tom kha as a starter before green curry and pad thai is where the coconut stacks up and the meal quietly passes 1,200."
+    ],
+    "lighter": [
+      "Order it as tom kha, not tom kha nam khon (thick); a thinner broth uses light coconut milk and saves 80 to 100 calories.",
+      "Eat the chicken and mushrooms and leave half the broth; the broth holds most of the fat.",
+      "Make it the main with a small rice, instead of a starter before curry.",
+      "At home, use 60ml coconut milk topped up with chicken stock; the taste holds and the bowl drops to about 200 calories."
+    ],
+    "components": [
+      {
+        "name": "Coconut milk",
+        "grams": 100,
+        "calories": 180
+      },
+      {
+        "name": "Chicken",
+        "grams": 80,
+        "calories": 130
+      },
+      {
+        "name": "Mushrooms, galangal, lemongrass, lime",
+        "grams": 60,
+        "calories": 20
+      },
+      {
+        "name": "Fish sauce, sugar",
+        "grams": 10,
+        "calories": 10
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small cup (thin broth)",
+        "calories": 210
+      },
+      {
+        "label": "Standard bowl",
+        "calories": 320
+      },
+      {
+        "label": "Restaurant hot pot, per person",
+        "calories": 450
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is tom kha gai healthy?",
+        "a": "It is a high protein soup with 18g of protein a bowl, but 24g of fat from coconut milk. Fine as a main with rice, heavy as a starter. Tom yum at about 100 calories is the lighter choice if you just want soup."
+      },
+      {
+        "q": "Tom kha gai vs tom yum, which is lower in calories?",
+        "a": "Tom yum by a wide margin. A clear tom yum gai is around 100 calories a bowl; tom kha gai is about 320 because of the coconut milk."
+      },
+      {
+        "q": "How many calories in tom kha gai with rice?",
+        "a": "About 520 for a bowl plus a 150g plate of rice. That is a reasonable lunch with good protein."
+      }
+    ],
+    "related": [
+      "tomyam",
+      "tom-saap",
+      "green-curry",
+      "sup-ayam"
+    ],
+    "source": "Estimate from components. Published Thai figures: kawtung.com 210 kcal per cup, foodmany.com and others 400 to 420 kcal per bowl; picked 320 for a standard 300g stall bowl"
+  },
+  {
+    "slug": "green-curry",
+    "name": "Green Curry (Gaeng Keow Wan)",
+    "aka": [
+      "แกงเขียวหวาน",
+      "แกงเขียวหวานไก่",
+      "Gaeng Kiew Wan Gai",
+      "Kaeng Khiao Wan",
+      "Thai Green Chicken Curry"
+    ],
+    "category": "lauk",
+    "region": [
+      "th"
+    ],
+    "serving": "1 bowl curry with 1 plate rice",
+    "servingGrams": 450,
+    "calories": 500,
+    "protein": 22,
+    "carbs": 62,
+    "fat": 20,
+    "metaDescription": "Green curry with chicken is 240 calories a bowl and about 500 with a plate of rice. The coconut milk is most of it. Thai Department of Health figures.",
+    "summary": "Chicken, Thai eggplant and basil in a coconut milk curry made from green chili paste. Sweet, hot and creamy, eaten with rice or poured over khanom jeen rice noodles.",
+    "answer": "A bowl of gaeng keow wan gai is about 240 calories on its own, per the Thai Department of Health, and about 500 calories once you add a 200g plate of rice. The coconut milk is 145 of the 240; the chicken is 80; the eggplant and basil are almost nothing.",
+    "realTalk": [
+      "The official Thai figure of 240 calories per cup surprises people because it sounds low for a coconut curry. It is low because a food court ladle is about 80ml of coconut milk and 50g of chicken. Restaurant green curry is a different animal: a full bowl with 150ml of thick coconut cream and 120g of chicken is closer to 480, which is the figure some Thai calorie tables list. Same dish, double the portion.",
+      "The rice is where the meal gets its size. A normal 200g plate of jasmine rice is 260 calories, so curry plus rice is about 500. Order it over khanom jeen (fermented rice noodles) and the noodles are lighter at about 165 for 150g, but stalls ladle far more curry over noodles than over rice, so that plate usually ends up heavier, around 560 to 620.",
+      "Green curry is one of the sweeter Thai curries. The name literally means sweet green curry, and there is usually 10 to 15g of palm sugar in a pot. That is not a huge number per bowl, but with the coconut fat it is why one bowl tastes like a treat and two bowls feel like dessert."
+    ],
+    "lighter": [
+      "Order the curry in a bowl and spoon it over rice yourself, rather than khao rad gaeng style where the shop floods the plate; you control how much coconut milk lands on the rice.",
+      "Eat the chicken and eggplant, leave the last third of the sauce in the bowl. That is about 60 calories of coconut fat you did not need.",
+      "Pick chicken over pork belly or beef; the Thai table lists chicken at 240 and pork at 235 per cup, but pork belly versions in restaurants run much higher.",
+      "Ask for extra Thai eggplant and basil. They cost nothing in calories and stretch the bowl."
+    ],
+    "components": [
+      {
+        "name": "Jasmine rice",
+        "grams": 200,
+        "calories": 260
+      },
+      {
+        "name": "Coconut milk",
+        "grams": 80,
+        "calories": 145
+      },
+      {
+        "name": "Chicken",
+        "grams": 50,
+        "calories": 80
+      },
+      {
+        "name": "Thai eggplant, basil, curry paste",
+        "grams": 40,
+        "calories": 15
+      }
+    ],
+    "portions": [
+      {
+        "label": "Curry only, food court ladle",
+        "calories": 240
+      },
+      {
+        "label": "Curry with 1 plate rice",
+        "calories": 500
+      },
+      {
+        "label": "Restaurant bowl with rice",
+        "calories": 740
+      }
+    ],
+    "variants": [
+      {
+        "name": "Gaeng keow wan moo (pork)",
+        "calories": 235,
+        "note": "Curry only, Thai Department of Health"
+      },
+      {
+        "name": "Gaeng keow wan gai (chicken)",
+        "calories": 240,
+        "note": "Curry only"
+      },
+      {
+        "name": "Khanom jeen gaeng keow wan",
+        "calories": 580,
+        "note": "Over rice noodles, heavier ladle"
+      },
+      {
+        "name": "Gaeng keow wan look chin pla (fish balls)",
+        "calories": 260,
+        "note": "Curry only, fish balls are lean"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in Thai green curry with rice?",
+        "a": "About 500 for a food court bowl of chicken green curry with a 200g plate of rice. A restaurant sized bowl with thick coconut cream pushes that to 700 or more."
+      },
+      {
+        "q": "Is green curry healthier than red curry?",
+        "a": "They are nearly identical. The Thai Department of Health lists green curry chicken at 240 calories a cup and red curry chicken at 235. Green curry is usually a bit sweeter, red curry a bit saltier."
+      },
+      {
+        "q": "Is green curry high in fat?",
+        "a": "Yes, about 16 to 20g of fat per bowl, nearly all from coconut milk. Massaman and panang are richer still."
+      }
+    ],
+    "related": [
+      "red-curry",
+      "panang-curry",
+      "massaman-curry",
+      "kari-ayam"
+    ],
+    "source": "Thai Department of Health (กรมอนามัย) via hdmall.co.th: gaeng keow wan gai 1 cup = 240 kcal; rice plate 200g = 260 kcal added for the with rice serving"
+  },
+  {
+    "slug": "red-curry",
+    "name": "Red Curry (Gaeng Phed)",
+    "aka": [
+      "แกงเผ็ด",
+      "แกงเผ็ดไก่",
+      "Gaeng Ped Gai",
+      "Kaeng Phet",
+      "Thai Red Chicken Curry"
+    ],
+    "category": "lauk",
+    "region": [
+      "th"
+    ],
+    "serving": "1 bowl (curry only)",
+    "servingGrams": 250,
+    "calories": 235,
+    "protein": 14,
+    "carbs": 10,
+    "fat": 16,
+    "metaDescription": "A food court bowl of Thai red curry with chicken is about 235 calories. With a plate of rice, 495. Here is what the coconut milk actually costs you.",
+    "summary": "Chicken or pork in a red chili coconut curry with bamboo shoots or Thai eggplant and basil. Hotter and less sweet than green curry, and the base for a lot of khao rad gaeng shop trays.",
+    "answer": "A bowl of gaeng phed gai with eggplant is about 235 calories, per the Thai Department of Health, for a typical 250g curry shop ladle. Add a 200g plate of rice and the meal is about 495 calories. Coconut milk is 145 of the 235.",
+    "realTalk": [
+      "Red curry and green curry are the same calorie problem in different colours. The Thai table puts red curry chicken at 235 per cup and green at 240. The paste is different, the coconut milk is the same, and the coconut milk is 60 percent of the number. A curry shop ladle uses about 80ml. A restaurant bowl uses 150ml and doubles the calories.",
+      "Red curry is a good pick at a khao rad gaeng shop (the rice and curry counter) because it is one of the thinner curries. Panang and massaman use coconut cream and sit at 320 or more per cup. Red curry with bamboo shoots is 235, and if you pick the fish ball or chicken version over the pork belly one, you keep it there. Pork belly red curry from a restaurant can be 400 plus per bowl.",
+      "The rice and curry shop trick is to order one curry over rice (khao rad gaeng) rather than two toppings. One ladle of red curry over 200g of rice is about 495 calories. Add a second topping like a fried egg or moo krob and the plate is 650 to 800 before you sit down."
+    ],
+    "lighter": [
+      "Choose the chicken or fish ball version; pork belly red curry roughly doubles the fat.",
+      "At a khao rad gaeng shop, ask for one ladle only (took diaw) and leave the pooled sauce at the edge of the plate.",
+      "Bamboo shoot and eggplant are free; ask for extra vegetables rather than extra meat.",
+      "Eat it with a 150g rice portion instead of 200g and the meal drops to about 430."
+    ],
+    "components": [
+      {
+        "name": "Coconut milk",
+        "grams": 80,
+        "calories": 145
+      },
+      {
+        "name": "Chicken",
+        "grams": 50,
+        "calories": 80
+      },
+      {
+        "name": "Bamboo shoot or eggplant, basil",
+        "grams": 40,
+        "calories": 15
+      },
+      {
+        "name": "Red curry paste, fish sauce, sugar",
+        "grams": 10,
+        "calories": 15
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small cup",
+        "calories": 180
+      },
+      {
+        "label": "Standard curry shop bowl",
+        "calories": 235
+      },
+      {
+        "label": "With 1 plate rice",
+        "calories": 495
+      }
+    ],
+    "variants": [
+      {
+        "name": "Gaeng phed look chin pla (fish balls)",
+        "calories": 220,
+        "note": "Curry only"
+      },
+      {
+        "name": "Gaeng phed gai (chicken)",
+        "calories": 235,
+        "note": "Thai Department of Health figure"
+      },
+      {
+        "name": "Gaeng phed ped yang (roast duck)",
+        "calories": 340,
+        "note": "Duck skin plus lychee and pineapple"
+      },
+      {
+        "name": "Gaeng phed moo sam chan (pork belly)",
+        "calories": 400,
+        "note": "Restaurant portion"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in red curry with rice?",
+        "a": "About 495 for a curry shop ladle of chicken red curry over a 200g plate of rice. Restaurant bowls with thick coconut cream push that to 650 or more."
+      },
+      {
+        "q": "Is red curry spicier than green curry?",
+        "a": "Usually yes. Red curry uses dried red chilies and less palm sugar; green curry uses fresh green chilies and is sweeter. Calories are nearly the same at 235 versus 240 a cup."
+      },
+      {
+        "q": "Is Thai red curry keto friendly?",
+        "a": "Without rice it is low carb, about 10g carbs a bowl, but it is not a free food: 16g of fat and 235 calories a bowl adds up if you drink the sauce."
+      }
+    ],
+    "related": [
+      "green-curry",
+      "panang-curry",
+      "massaman-curry",
+      "gulai"
+    ],
+    "source": "Thai Department of Health (กรมอนามัย) via hdmall.co.th: gaeng phed gai sai makhuea 1 cup = 235 kcal"
+  },
+  {
+    "slug": "massaman-curry",
+    "name": "Massaman Curry",
+    "aka": [
+      "แกงมัสมั่น",
+      "มัสมั่นไก่",
+      "Matsaman",
+      "Gaeng Massaman Gai",
+      "Thai Beef Massaman"
+    ],
+    "category": "lauk",
+    "region": [
+      "th"
+    ],
+    "serving": "1 bowl (curry only)",
+    "servingGrams": 250,
+    "calories": 325,
+    "protein": 16,
+    "carbs": 22,
+    "fat": 19,
+    "metaDescription": "Massaman curry is about 325 calories a bowl, the heaviest of the Thai coconut curries because of peanuts and potato. With rice, around 585.",
+    "summary": "A slow cooked coconut curry with chicken or beef, potato, onion and roasted peanuts, flavoured with cinnamon, cardamom and tamarind. Southern Thai Muslim origin, mild, sweet and rich.",
+    "answer": "A cup of massaman gai is about 325 calories, per the Thai Department of Health. That is roughly 90 more than green or red curry, because massaman adds potato (40 calories), peanuts (45) and more palm sugar to the same coconut base. With a 200g plate of rice the meal is about 585 calories.",
+    "realTalk": [
+      "Massaman is the curry that wins international polls and it is also the heaviest of the standard four. Green and red curries are about 240 per cup. Panang is around 320. Massaman is 325 in the official table and can go to 500 in a restaurant serving, because it is the one curry where the extras (potato, peanuts, fried shallots) all bring their own calories on top of the coconut milk.",
+      "Beef massaman is a bigger portion than chicken in most restaurants, since a braised chunk of brisket or shin runs 100 to 120g against 60g of chicken in a food court ladle. Beef massaman from a sit down restaurant is closer to 450 per bowl. The tamarind and palm sugar mean there is about 10g of sugar in there as well, which is why it tastes like it does.",
+      "It is still a decent plate of food. 16g of protein, and the potato means you need less rice to feel full. A bowl of massaman with 150g of rice is about 520 calories and it will hold you for hours. The mistake is treating it like a soup and eating it with a full plate of rice plus roti on the side."
+    ],
+    "lighter": [
+      "Order chicken rather than beef; the food court chicken version is 325 while restaurant beef is nearer 450.",
+      "Eat the potato and skip half the rice; the potato already covers the carbs.",
+      "Leave the fried shallot and extra peanut topping some shops sprinkle on; that is another 60 to 80 calories.",
+      "Massaman with roti instead of rice sounds lighter but is not: one Thai roti is 250 to 300 calories, more than a small plate of rice."
+    ],
+    "components": [
+      {
+        "name": "Coconut milk",
+        "grams": 80,
+        "calories": 145
+      },
+      {
+        "name": "Chicken or beef",
+        "grams": 60,
+        "calories": 110
+      },
+      {
+        "name": "Potato",
+        "grams": 50,
+        "calories": 40
+      },
+      {
+        "name": "Roasted peanuts",
+        "grams": 8,
+        "calories": 45
+      },
+      {
+        "name": "Onion, tamarind, palm sugar, spices",
+        "grams": 30,
+        "calories": 15
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small cup",
+        "calories": 260
+      },
+      {
+        "label": "Standard bowl (chicken)",
+        "calories": 325
+      },
+      {
+        "label": "Restaurant beef bowl with rice",
+        "calories": 710
+      }
+    ],
+    "variants": [
+      {
+        "name": "Massaman gai (chicken)",
+        "calories": 325,
+        "note": "Thai Department of Health figure"
+      },
+      {
+        "name": "Massaman nuea (beef)",
+        "calories": 450,
+        "note": "Restaurant portion, bigger meat chunks"
+      },
+      {
+        "name": "Massaman with roti",
+        "calories": 600,
+        "note": "One roti adds about 275"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in massaman curry with rice?",
+        "a": "About 585 for a food court chicken massaman over a 200g plate of rice. A restaurant beef massaman with rice is closer to 700."
+      },
+      {
+        "q": "Why is massaman higher in calories than green curry?",
+        "a": "Same coconut milk base, but massaman adds potato, roasted peanuts, fried shallots and more palm sugar. Those extras add roughly 90 calories a cup."
+      },
+      {
+        "q": "Is massaman curry healthy?",
+        "a": "It is filling and has 16g of protein a bowl, but 19g of fat and about 10g of sugar. One bowl with a modest rice portion is fine; it is not a dish to have daily."
+      }
+    ],
+    "related": [
+      "panang-curry",
+      "green-curry",
+      "red-curry",
+      "kari-ayam"
+    ],
+    "source": "Thai Department of Health (กรมอนามัย) via hdmall.co.th: gaeng massaman gai 1 cup = 325 kcal"
+  },
+  {
+    "slug": "panang-curry",
+    "name": "Panang Curry",
+    "aka": [
+      "พะแนง",
+      "พะแนงหมู",
+      "Phanaeng",
+      "Panaeng Moo",
+      "Penang Curry"
+    ],
+    "category": "lauk",
+    "region": [
+      "th"
+    ],
+    "serving": "1 bowl (curry only)",
+    "servingGrams": 200,
+    "calories": 320,
+    "protein": 20,
+    "carbs": 9,
+    "fat": 23,
+    "metaDescription": "Panang curry is about 320 calories for a 200g bowl, the thickest and fattiest of the Thai curries. Coconut cream is 160 of it. With rice, about 580.",
+    "summary": "A thick, dry style coconut curry with sliced pork or beef, kaffir lime leaf and a touch of peanut in the paste. Less sauce than green curry, but what sauce there is comes from coconut cream rather than milk.",
+    "answer": "A 200g bowl of panang moo is about 320 calories, using the foodmany.com figure of 158 calories per 100g. It is thicker than green or red curry because it is made with coconut cream, so even a smaller ladle carries more fat. With a plate of rice it is about 580 calories.",
+    "realTalk": [
+      "Panang looks like the small portion at a curry shop and it is, by weight. The catch is that it is reduced coconut cream rather than coconut milk, so 100g of panang is about 158 calories while 100g of green curry is under 100. A 200g bowl of panang and a 250g bowl of green curry end up at about the same 240 to 320 range, but the panang has far less liquid, so people eat all of it.",
+      "It is also the highest protein curry per spoon. Sliced pork or beef is the main ingredient with almost no vegetables, so a 200g bowl has about 20g of protein. That makes it a decent topping over rice if you stop at one ladle. The Thai table has panang at roughly 158 per 100g; a restaurant panang nuea with 150g of beef is nearer 450.",
+      "Watch the khao rad gaeng plate. Panang is often paired with a fried egg or with pad pak, and because the panang itself is dry, shops give a generous ladle. A plate of rice with panang and a fried egg is about 690 calories, and it is a small looking plate."
+    ],
+    "lighter": [
+      "Ask for one ladle (took diaw); panang is dense, so a second ladle is another 320.",
+      "Pick chicken or fish panang where offered; pork belly and beef versions run 20 to 30 percent higher.",
+      "Skip the fried egg on the side; the plate is already 23g of fat.",
+      "Use panang as the only topping and fill the rest of the plate with a clear vegetable stir fry."
+    ],
+    "components": [
+      {
+        "name": "Coconut cream",
+        "grams": 70,
+        "calories": 160
+      },
+      {
+        "name": "Sliced pork",
+        "grams": 70,
+        "calories": 130
+      },
+      {
+        "name": "Panang paste, palm sugar, kaffir lime",
+        "grams": 15,
+        "calories": 25
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small ladle (150g)",
+        "calories": 240
+      },
+      {
+        "label": "Standard bowl (200g)",
+        "calories": 320
+      },
+      {
+        "label": "With 1 plate rice",
+        "calories": 580
+      }
+    ],
+    "variants": [
+      {
+        "name": "Panang gai (chicken)",
+        "calories": 290,
+        "note": "Leaner meat, same cream"
+      },
+      {
+        "name": "Panang moo (pork)",
+        "calories": 320,
+        "note": "The usual food court version"
+      },
+      {
+        "name": "Panang nuea (beef, restaurant)",
+        "calories": 450,
+        "note": "Bigger meat portion"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is panang curry high in calories?",
+        "a": "For its size, yes. About 320 calories for a 200g bowl, which is denser than green curry because it uses coconut cream instead of milk. With rice, expect around 580."
+      },
+      {
+        "q": "Panang vs massaman, which is heavier?",
+        "a": "Close. Massaman is 325 a cup with potato and peanuts; panang is about 320 for a smaller 200g bowl. Per gram, panang is the richer one."
+      },
+      {
+        "q": "Can I eat panang curry on a diet?",
+        "a": "One ladle over 150g of rice is about 515 calories with 20g of protein. That works as a meal. Two ladles plus a fried egg does not."
+      }
+    ],
+    "related": [
+      "massaman-curry",
+      "green-curry",
+      "red-curry",
+      "rendang"
+    ],
+    "source": "foodmany.com: panang moo 158 kcal per 100g, scaled to a 200g curry shop bowl"
+  },
+  {
+    "slug": "khao-man-gai",
+    "name": "Khao Man Gai",
+    "aka": [
+      "ข้าวมันไก่",
+      "Khao Mun Gai",
+      "Thai Chicken Rice",
+      "Kao Man Gai"
+    ],
+    "category": "rice",
+    "region": [
+      "th"
+    ],
+    "serving": "1 plate",
+    "servingGrams": 300,
+    "calories": 596,
+    "protein": 28,
+    "carbs": 70,
+    "fat": 22,
+    "metaDescription": "Khao man gai is 596 calories a plate per the Thai Department of Health. The chicken fat rice is the big number; the poached chicken is the good part.",
+    "summary": "Poached chicken sliced over rice cooked in chicken fat and stock, served with a fermented soybean, ginger and chili sauce, cucumber and a cup of clear soup. Thailand's version of Hainanese chicken rice, 40 to 60 baht at any shophouse.",
+    "answer": "A standard plate of khao man gai is 596 calories for a 300g serving, based on the Thai Department of Health food table. About 340 of that is the chicken fat rice, 165 is the chicken, and the sauce is another 45. The clear soup on the side is close to zero.",
+    "realTalk": [
+      "The rice is the problem, not the chicken. Khao man means fat rice: jasmine rice cooked in rendered chicken fat and stock, which takes plain rice from 130 calories per 100g to around 170. On a 200g scoop that is a 340 calorie base before any chicken lands on it. The poached chicken itself is honest, about 165 calories for 90g and most of that is protein.",
+      "The version you order matters more than the shop. Steamed chicken (khao man gai tom) is 596. Ask for gai tod (fried chicken) and the batter and frying oil push it to about 700. Pasom (half steamed, half fried) lands around 650. The tao jiao sauce is 45 calories for a small dish and the pickled ginger inside it is free, so do not skip the sauce, just do not drink it.",
+      "Compared with Malaysian or Singaporean chicken rice at around 607, the Thai plate is nearly identical. It is a full meal with 28g of protein. The trap is ordering piset (special) with extra chicken and extra rice, which is usually a 750 to 800 calorie plate, or adding a side of blood tofu and liver, which is more protein but another 80 calories."
+    ],
+    "lighter": [
+      "Order gai tom (steamed) not gai tod; that alone saves about 100 calories.",
+      "Ask for khao noi (less rice) or khao plao (plain rice). Plain rice instead of fat rice cuts about 80 calories.",
+      "Ask for ok (breast) instead of the default thigh; leaner and higher in protein.",
+      "Drink the clear soup and eat the cucumber first; both are nearly free and they slow you down."
+    ],
+    "components": [
+      {
+        "name": "Chicken fat rice",
+        "grams": 200,
+        "calories": 340
+      },
+      {
+        "name": "Poached chicken",
+        "grams": 90,
+        "calories": 165
+      },
+      {
+        "name": "Soybean ginger chili sauce",
+        "grams": 30,
+        "calories": 45
+      },
+      {
+        "name": "Clear soup and cucumber",
+        "grams": 120,
+        "calories": 20
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small plate (40 baht)",
+        "calories": 480
+      },
+      {
+        "label": "Standard plate",
+        "calories": 596
+      },
+      {
+        "label": "Piset with extra chicken and rice",
+        "calories": 780
+      }
+    ],
+    "variants": [
+      {
+        "name": "Khao man gai tom (steamed)",
+        "calories": 596,
+        "note": "Thai Department of Health figure"
+      },
+      {
+        "name": "Khao man gai pasom (mixed)",
+        "calories": 650,
+        "note": "Half steamed, half fried"
+      },
+      {
+        "name": "Khao man gai tod (fried)",
+        "calories": 700,
+        "note": "Batter and frying oil"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is khao man gai healthy?",
+        "a": "It is a complete meal with 28g of protein, but the rice is cooked in chicken fat, so 596 calories with 22g of fat for a normal plate. Steamed chicken with plain rice brings it under 500."
+      },
+      {
+        "q": "How many calories in khao man gai tod?",
+        "a": "About 700 for a standard plate. The fried chicken adds batter and oil worth roughly 100 calories over the steamed version."
+      },
+      {
+        "q": "Khao man gai vs pad kra pao, which is lighter?",
+        "a": "Khao man gai at 596 is slightly lighter than pad kra pao with a fried egg at 630, and it has a bit more protein. Without the egg, pad kra pao at 478 wins."
+      }
+    ],
+    "related": [
+      "chicken-rice",
+      "khao-kha-moo",
+      "pad-kra-pao",
+      "khao-pad"
+    ],
+    "source": "Thai Department of Health (กรมอนามัย) via health.kapook.com: khao man gai 300g = 596 kcal"
+  },
+  {
+    "slug": "khao-pad",
+    "name": "Khao Pad (Thai Fried Rice)",
+    "aka": [
+      "ข้าวผัด",
+      "ข้าวผัดหมูใส่ไข่",
+      "Khao Phat",
+      "Kao Pad Moo",
+      "Thai Fried Rice"
+    ],
+    "category": "rice",
+    "region": [
+      "th"
+    ],
+    "serving": "1 plate",
+    "servingGrams": 315,
+    "calories": 557,
+    "protein": 20,
+    "carbs": 72,
+    "fat": 20,
+    "metaDescription": "Thai fried rice with pork and egg is 557 calories a plate per the Thai Department of Health. The oil is a fifth of it. Here is how to keep it under 500.",
+    "summary": "Jasmine rice stir fried with egg, pork or chicken, onion, tomato and a little soy and fish sauce, served with cucumber, spring onion and a wedge of lime. The plate every aharn tam sang shop can make in ninety seconds.",
+    "answer": "A plate of khao pad moo sai kai (pork fried rice with egg) is 557 calories for 315g, per the Thai Department of Health. The rice is about 285, the pork and egg together about 185, and the wok oil about 100. Thai fried rice is lighter than most Malaysian or Indonesian versions because it uses less oil and no sambal.",
+    "realTalk": [
+      "Thai khao pad is one of the lighter fried rices in the region. Nasi goreng kampung is around 630 and mamak nasi goreng is 660, because they start with a lot of oil and chili paste. Thai fried rice is cooked fast with about a tablespoon of oil, soy sauce and fish sauce, and the tomato and onion add bulk without calories. That is how a full 315g plate stays at 557.",
+      "The protein changes things. Pork at 60g is about 110 calories. Shrimp for the same weight is 60. Crab fried rice is a different order entirely, since shops use double the oil to get the fluffy texture, which is why khao pad poo comes in at 680. Chicken fried rice sits right at the 557 mark. Khao pad American, with fried chicken, ham, hot dog and a fried egg on top, is 650 and higher.",
+      "The condiments are free but the extras are not. The cucumber, spring onion and lime add nothing. Prik nam pla (chili in fish sauce) is zero calories. A fried egg on top is another 110. Kao piset (extra rice) is another 130. The base plate is fine; the upgrades are where 557 becomes 800."
+    ],
+    "lighter": [
+      "Order khao pad goong (shrimp) instead of pork; shrimp is half the calories for the same weight.",
+      "Ask for mai sai nam man yer (less oil); the difference is about 60 to 80 calories.",
+      "Squeeze the lime and use prik nam pla for flavour instead of adding a fried egg on top.",
+      "Skip kao piset. A standard plate already has 220g of rice."
+    ],
+    "components": [
+      {
+        "name": "Jasmine rice",
+        "grams": 220,
+        "calories": 285
+      },
+      {
+        "name": "Pork",
+        "grams": 60,
+        "calories": 110
+      },
+      {
+        "name": "Egg",
+        "grams": 50,
+        "calories": 75
+      },
+      {
+        "name": "Cooking oil",
+        "grams": 11,
+        "calories": 100
+      },
+      {
+        "name": "Onion, tomato, sauces",
+        "grams": 40,
+        "calories": 15
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small plate",
+        "calories": 450
+      },
+      {
+        "label": "Standard plate with pork and egg",
+        "calories": 557
+      },
+      {
+        "label": "Large with fried egg on top",
+        "calories": 720
+      }
+    ],
+    "variants": [
+      {
+        "name": "Khao pad goong (shrimp)",
+        "calories": 500,
+        "note": "Shrimp is leaner than pork"
+      },
+      {
+        "name": "Khao pad moo sai kai (pork, egg)",
+        "calories": 557,
+        "note": "Thai Department of Health figure"
+      },
+      {
+        "name": "Khao pad American",
+        "calories": 650,
+        "note": "Fried chicken, ham, hot dog, fried egg"
+      },
+      {
+        "name": "Khao pad poo (crab)",
+        "calories": 680,
+        "note": "Double oil for the fluffy texture"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is Thai fried rice healthy?",
+        "a": "It is a reasonable one plate meal at 557 calories with 20g of protein. It is lighter than nasi goreng because Thai cooks use less oil. The weak point is that it is mostly rice, 72g of carbs a plate."
+      },
+      {
+        "q": "How many calories in khao pad without egg?",
+        "a": "About 480 for a standard plate. The egg is 75 calories and a good chunk of the protein, so keeping it is usually the better trade."
+      },
+      {
+        "q": "Which Thai fried rice has the fewest calories?",
+        "a": "Shrimp fried rice at around 500. Crab fried rice is the heaviest of the common ones at 680 because of the oil, and khao pad American is 650 plus."
+      }
+    ],
+    "related": [
+      "khao-pad-poo",
+      "pad-kra-pao",
+      "nasi-goreng-kampung",
+      "yong-chow-fried-rice"
+    ],
+    "source": "Thai Department of Health (กรมอนามัย) via health.kapook.com: khao pad moo sai kai 315g = 557 kcal"
+  },
+  {
+    "slug": "pad-see-ew",
+    "name": "Pad See Ew",
+    "aka": [
+      "ผัดซีอิ๊ว",
+      "Phat Si-io",
+      "Pad Siew",
+      "Kuay Teow Pad See Ew",
+      "Thai Soy Sauce Noodles"
+    ],
+    "category": "noodles",
+    "region": [
+      "th"
+    ],
+    "serving": "1 plate",
+    "servingGrams": 350,
+    "calories": 679,
+    "protein": 24,
+    "carbs": 82,
+    "fat": 28,
+    "metaDescription": "Pad see ew with pork and egg is 679 calories a plate, the heaviest of the Thai stall noodles. Wide rice noodles soak up oil and dark soy. Breakdown inside.",
+    "summary": "Wide fresh rice noodles stir fried on high heat with dark soy sauce, egg, Chinese kale and pork or chicken until the edges char. The savoury, smoky one on the noodle cart, next to pad thai.",
+    "answer": "A plate of pad see ew moo sai kai is 679 calories for 350g, per the Thai Department of Health. That makes it the heaviest common noodle plate in Thailand, above pad thai (577) and well above rad na (397). The wide noodles are 300 calories on their own and they absorb about 1.5 tablespoons of oil.",
+    "realTalk": [
+      "Sen yai (wide fresh rice noodles) are the reason. They come pre oiled so they do not stick, and then they hit a wok with another ladle of oil, and their flat surface soaks it up. 200g of wide noodles is about 300 calories before cooking and closer to 420 after. That is the whole difference between pad see ew at 679 and rad na at 397, which uses the same noodles but in a starch gravy instead of fried.",
+      "The dark soy sauce is sweet soy, so there is sugar in there too, about 8 to 10g per plate. Together with the egg and pork it is a fatty, sweet, salty plate, which is exactly why it tastes so good at 11pm. The Chinese kale is the only free ingredient and there is usually only 40g of it.",
+      "It is not a bad plate of food, it is a big one. 24g of protein and 82g of carbs is a proper meal and then some. The way to eat pad see ew is as the meal, on its own, with nothing else. As a shared side dish next to a fried rice and a curry, which is how it turns up on a lot of tables, it is 680 calories that nobody is counting."
+    ],
+    "lighter": [
+      "Order rad na instead. Same noodles, same kale, same pork, but 397 calories because the noodles sit in gravy rather than frying in oil.",
+      "Ask for mai sai nam man yer (less oil). Wide noodles show the difference clearly; the plate will look less glossy and be about 100 calories lighter.",
+      "Choose chicken breast over pork, which saves about 50 calories.",
+      "Ask for extra kana (Chinese kale). It is free and makes the plate bigger."
+    ],
+    "components": [
+      {
+        "name": "Wide rice noodles (sen yai)",
+        "grams": 200,
+        "calories": 300
+      },
+      {
+        "name": "Pork",
+        "grams": 60,
+        "calories": 110
+      },
+      {
+        "name": "Egg",
+        "grams": 50,
+        "calories": 75
+      },
+      {
+        "name": "Cooking oil",
+        "grams": 20,
+        "calories": 180
+      },
+      {
+        "name": "Chinese kale",
+        "grams": 40,
+        "calories": 10
+      },
+      {
+        "name": "Dark soy, oyster sauce, sugar",
+        "grams": 20,
+        "calories": 20
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small plate",
+        "calories": 520
+      },
+      {
+        "label": "Standard plate with pork and egg",
+        "calories": 679
+      },
+      {
+        "label": "Large piset plate",
+        "calories": 850
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is pad see ew healthier than pad thai?",
+        "a": "No. Pad see ew is 679 calories versus 577 for pad thai, per the Thai Department of Health. It has slightly more protein but about 6g more fat and more sugar from the sweet dark soy."
+      },
+      {
+        "q": "How many calories in pad see ew with chicken?",
+        "a": "About 630 for a standard plate. Chicken is a little leaner than pork, so you save around 50 calories."
+      },
+      {
+        "q": "Why is pad see ew so high in calories?",
+        "a": "Wide rice noodles absorb a lot of oil when stir fried, roughly 1.5 tablespoons per plate, which is 180 calories on top of 300 calories of noodles."
+      }
+    ],
+    "related": [
+      "pad-thai",
+      "rad-na",
+      "char-kuey-teow",
+      "wat-tan-hor"
+    ],
+    "source": "Thai Department of Health (กรมอนามัย) via health.kapook.com: kuay teow pad see ew moo sai kai 350g = 679 kcal"
+  },
+  {
+    "slug": "rad-na",
+    "name": "Rad Na",
+    "aka": [
+      "ราดหน้า",
+      "ราดหน้าเส้นใหญ่",
+      "Rat Na",
+      "Lad Na",
+      "Kuay Teow Rad Na",
+      "Thai Gravy Noodles"
+    ],
+    "category": "noodles",
+    "region": [
+      "th"
+    ],
+    "serving": "1 plate",
+    "servingGrams": 354,
+    "calories": 397,
+    "protein": 18,
+    "carbs": 58,
+    "fat": 11,
+    "metaDescription": "Rad na with pork is 397 calories for a full 354g plate per the Thai Department of Health, the lightest of the Thai stir fried noodle plates. Here is why.",
+    "summary": "Wide rice noodles briefly seared with dark soy, then covered in a thick soybean gravy with pork and Chinese kale. Thickened with tapioca starch, served with vinegar chilies and sugar on the table.",
+    "answer": "A plate of rad na sen yai moo is 397 calories for a 354g serving, based on the Thai Department of Health table. It is the lightest of the three big stall noodle plates, against 577 for pad thai and 679 for pad see ew, because the noodles are cooked in gravy rather than fried in oil.",
+    "realTalk": [
+      "Rad na and pad see ew use the same wide noodles, the same pork and the same kale, and one is 397 while the other is 679. The gravy is the difference. In rad na the noodles get a quick sear and then sit under a soybean and stock gravy thickened with tapioca starch. That gravy is about 80 calories for 150ml. In pad see ew the same noodles fry in 180 calories of oil.",
+      "The plate is also huge. 354g is one of the biggest servings in the Thai food table, and it is 40 percent gravy. So you get a plate you cannot finish for under 400 calories, with 18g of protein. That is a good deal by any measure, and it is why rad na is the plate to order when you want noodles at night.",
+      "The extras are where it can slip. The vinegar chilies and prik pon on the table are free. The sugar jar is not, and a lot of people spoon two teaspoons in, which is 30 calories. Rad na mee krob (over crispy fried egg noodles) instead of wide noodles is a different dish at around 560, because the crispy noodles are deep fried."
+    ],
+    "lighter": [
+      "Order rad na sen yai (wide rice noodles), not rad na mee krob (crispy noodles); the crispy version is about 160 calories more.",
+      "Ask for extra kana. The kale is free and there is room in the gravy for more.",
+      "Skip the sugar jar. Use vinegar chilies and chili flakes for flavour.",
+      "Pick pork loin (moo) or chicken over crispy pork belly (moo krob), which adds around 200 calories."
+    ],
+    "components": [
+      {
+        "name": "Wide rice noodles, seared",
+        "grams": 150,
+        "calories": 205
+      },
+      {
+        "name": "Pork slices",
+        "grams": 60,
+        "calories": 130
+      },
+      {
+        "name": "Soybean gravy with tapioca starch",
+        "grams": 150,
+        "calories": 80
+      },
+      {
+        "name": "Chinese kale",
+        "grams": 40,
+        "calories": 10
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small plate",
+        "calories": 320
+      },
+      {
+        "label": "Standard plate with pork",
+        "calories": 397
+      },
+      {
+        "label": "Rad na mee krob (crispy noodles)",
+        "calories": 560
+      }
+    ],
+    "variants": [
+      {
+        "name": "Rad na gai (chicken)",
+        "calories": 370,
+        "note": "Leaner than pork"
+      },
+      {
+        "name": "Rad na sen yai moo (pork)",
+        "calories": 397,
+        "note": "Thai Department of Health figure"
+      },
+      {
+        "name": "Rad na mee krob",
+        "calories": 560,
+        "note": "Deep fried egg noodle base"
+      },
+      {
+        "name": "Rad na moo krob (crispy pork belly)",
+        "calories": 600,
+        "note": "Pork belly adds about 200"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is rad na healthy?",
+        "a": "For a noodle plate, yes. 397 calories for a 354g serving with 18g of protein and only 11g of fat. It is the lightest of the Thai stir fried noodle dishes."
+      },
+      {
+        "q": "Rad na vs pad see ew, which has fewer calories?",
+        "a": "Rad na by a wide margin: 397 versus 679 per plate. Same ingredients, but rad na noodles sit in gravy instead of frying in oil."
+      },
+      {
+        "q": "How many calories in rad na mee krob?",
+        "a": "Around 560. The crispy egg noodles are deep fried before the gravy goes on, which adds about 160 calories over the wide rice noodle version."
+      }
+    ],
+    "related": [
+      "pad-see-ew",
+      "pad-thai",
+      "wat-tan-hor",
+      "ipoh-hor-fun"
+    ],
+    "source": "Thai Department of Health (กรมอนามัย) via health.kapook.com: rad na sen yai moo 354g = 397 kcal"
+  },
+  {
+    "slug": "khao-soi",
+    "name": "Khao Soi",
+    "aka": [
+      "ข้าวซอย",
+      "ข้าวซอยไก่",
+      "Khao Soy",
+      "Khao Soi Gai",
+      "Chiang Mai Curry Noodles"
+    ],
+    "category": "noodles",
+    "region": [
+      "th"
+    ],
+    "serving": "1 bowl",
+    "servingGrams": 400,
+    "calories": 700,
+    "protein": 30,
+    "carbs": 60,
+    "fat": 38,
+    "metaDescription": "A bowl of khao soi gai is about 700 calories. Coconut curry broth, egg noodles and fried noodles on top make it the heaviest noodle soup in Thailand.",
+    "summary": "Northern Thai egg noodles in a coconut milk curry broth with a chicken drumstick, topped with a nest of deep fried crispy noodles, served with pickled mustard greens, shallots and lime. The Chiang Mai dish everyone travels for.",
+    "answer": "A standard bowl of khao soi gai with a chicken drumstick is about 700 calories for a 400g serving, using the foodmany.com figure of 200 calories per 100g. The coconut curry broth is about 250, the boiled and fried noodles together about 310, and the drumstick around 160. It is the most calorie dense noodle soup on a Thai menu.",
+    "realTalk": [
+      "Khao soi is a curry and a noodle soup and a plate of fried snacks all in one bowl, which is why it is 700 calories when a normal Thai noodle soup is 300. The broth is coconut milk with red curry paste, about 250 calories for 200ml. The soft egg noodles underneath are 210 for 150g. Then the handful of deep fried noodles on top is another 100, and they are the part everyone loves.",
+      "The published numbers disagree more than usual on this one. Some Thai calorie tables list khao soi at around 400 per cup, which describes a small bowl with thin broth. Chiang Mai shops serve big bowls with thick coconut broth and a whole drumstick, and 700 is closer to what lands on the table. Beef khao soi with a chunk of braised shin is heavier still, around 800.",
+      "The sides are the redeeming feature. Pickled mustard greens, raw shallot, lime and chili paste are all close to zero, and they cut through the fat. The bowl has 30g of protein, so it is a complete meal. It is just not a light one, and a second bowl, which is a normal thing to do in Chiang Mai, is a 1,400 calorie lunch."
+    ],
+    "lighter": [
+      "Ask for mai sai mee krob (no crispy noodles) or eat half of the nest; that is 50 to 100 calories of deep fried flour.",
+      "Eat the noodles and chicken and leave the last third of the broth. Most of the coconut fat is in the liquid.",
+      "Order khao soi gai over khao soi nuea; the drumstick is leaner than braised beef and the bowl is about 100 calories lighter.",
+      "Load up on the pickled greens and shallots. They are free and they make the bowl feel bigger."
+    ],
+    "components": [
+      {
+        "name": "Egg noodles, boiled",
+        "grams": 150,
+        "calories": 210
+      },
+      {
+        "name": "Crispy fried noodles",
+        "grams": 20,
+        "calories": 100
+      },
+      {
+        "name": "Coconut curry broth",
+        "grams": 200,
+        "calories": 250
+      },
+      {
+        "name": "Chicken drumstick",
+        "grams": 100,
+        "calories": 160
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small bowl (50 baht)",
+        "calories": 480
+      },
+      {
+        "label": "Standard bowl with drumstick",
+        "calories": 700
+      },
+      {
+        "label": "Large with extra crispy noodles",
+        "calories": 850
+      }
+    ],
+    "variants": [
+      {
+        "name": "Khao soi gai (chicken)",
+        "calories": 700,
+        "note": "foodmany.com figure, 350 to 400g bowl"
+      },
+      {
+        "name": "Khao soi moo (pork)",
+        "calories": 720,
+        "note": "Pork slices, similar broth"
+      },
+      {
+        "name": "Khao soi nuea (beef)",
+        "calories": 800,
+        "note": "Braised beef shin, bigger portion"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Why is khao soi so high in calories?",
+        "a": "Three reasons in one bowl: coconut milk broth (about 250 calories), egg noodles (210) and deep fried crispy noodles on top (100). Most Thai noodle soups have a clear broth and no fried topping."
+      },
+      {
+        "q": "How many calories in khao soi without the crispy noodles?",
+        "a": "About 600 for a standard bowl. The crispy nest is roughly 100 calories, and it is the easiest thing to cut."
+      },
+      {
+        "q": "Is khao soi healthy?",
+        "a": "It has 30g of protein and a proper meal's worth of food, but 38g of fat, mostly saturated from coconut. One bowl is a full meal. It is not a soup to have alongside anything else."
+      }
+    ],
+    "related": [
+      "curry-laksa",
+      "mee-kari",
+      "green-curry",
+      "boat-noodles"
+    ],
+    "source": "foodmany.com: khao soi gai 1 bowl 350g = 700 kcal (200 kcal per 100g). kindeediet.com lists 398 kcal per small cup; picked the larger figure as closer to a Chiang Mai shop bowl"
+  },
+  {
+    "slug": "boat-noodles",
+    "name": "Boat Noodles (Kuay Teow Reua)",
+    "aka": [
+      "ก๋วยเตี๋ยวเรือ",
+      "Kuaitiao Ruea",
+      "Guay Tiew Rua",
+      "Thai Boat Noodle Soup",
+      "Kuay Teow Nam Tok"
+    ],
+    "category": "noodles",
+    "region": [
+      "th"
+    ],
+    "serving": "1 bowl",
+    "servingGrams": 200,
+    "calories": 300,
+    "protein": 14,
+    "carbs": 40,
+    "fat": 9,
+    "metaDescription": "A bowl of boat noodles is about 300 calories, and the tiny 15 baht bowls are around 180. The problem is nobody stops at one. Numbers from a Thai dietitian.",
+    "summary": "Rice noodles in a dark, intense broth thickened with pork or beef blood, with sliced meat, meatballs, morning glory and bean sprouts, topped with fried garlic and pork cracklings. Served in small bowls so you order five.",
+    "answer": "A standard 200g bowl of boat noodles is about 300 calories, per the dietitians at eatwellconcept.com, for a normal recipe without extra pork cracklings. The small 15 to 20 baht bowls that most shops serve are around 180. Most people eat three to five of those, which is 540 to 900 calories.",
+    "realTalk": [
+      "Boat noodles are cheap per bowl and expensive per meal. A single small bowl is about 180 calories: a small tangle of sen lek noodles, four slices of pork, one meatball, a splash of dark broth. Nobody eats one. The stack of empty bowls is the whole culture of the dish, and a stack of five is 900 calories, which is more than a plate of pad see ew.",
+      "The broth is not as heavy as it looks. The dark colour comes from blood and dark soy, not fat, and 100ml is about 60 calories. What adds up is the topping: a spoon of kaap moo (pork cracklings) is 40 calories, and the fried garlic in oil is another 20. Ask for it without cracklings and the bowl drops to about 260.",
+      "It is a good high volume, low calorie choice if you set a number before you sit down. Three small bowls is about 540 calories with 40g of protein, plenty of broth and vegetables, and you will feel full. The mistake is the side plate of deep fried pork skin or the sweet Thai tea that always seems to come with it."
+    ],
+    "lighter": [
+      "Decide on three bowls before you order, not after. Three small bowls is about 540 calories; six is 1,080.",
+      "Say mai sai kaap moo (no pork cracklings) to save 40 calories a bowl.",
+      "Choose sen lek or sen mee (thin rice noodles) over sen yai or egg noodles; thinner noodles hold less broth and oil.",
+      "Order nam (soup) rather than haeng (dry). The dry version is tossed in oil and dark soy and runs 30 to 50 calories more per bowl."
+    ],
+    "components": [
+      {
+        "name": "Thin rice noodles (sen lek)",
+        "grams": 80,
+        "calories": 105
+      },
+      {
+        "name": "Pork slices and meatball",
+        "grams": 50,
+        "calories": 90
+      },
+      {
+        "name": "Dark blood broth",
+        "grams": 100,
+        "calories": 60
+      },
+      {
+        "name": "Morning glory, bean sprouts",
+        "grams": 20,
+        "calories": 5
+      },
+      {
+        "name": "Pork cracklings and fried garlic",
+        "grams": 5,
+        "calories": 40
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small 15 baht bowl",
+        "calories": 180
+      },
+      {
+        "label": "Standard 200g bowl",
+        "calories": 300
+      },
+      {
+        "label": "Large bowl with extra cracklings",
+        "calories": 420
+      }
+    ],
+    "variants": [
+      {
+        "name": "Kuay teow reua nam (soup), small",
+        "calories": 180,
+        "note": "The classic stack bowl"
+      },
+      {
+        "name": "Kuay teow reua haeng (dry), small",
+        "calories": 225,
+        "note": "Tossed in oil and dark soy"
+      },
+      {
+        "name": "Standard bowl, pork",
+        "calories": 300,
+        "note": "eatwellconcept.com figure"
+      },
+      {
+        "name": "Standard bowl, beef with tendon",
+        "calories": 340,
+        "note": "Tendon and braised beef add a little"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in 5 bowls of boat noodles?",
+        "a": "About 900 if they are the small 15 to 20 baht bowls at 180 each. That is a full dinner's worth, and it is easy to do without noticing."
+      },
+      {
+        "q": "Is boat noodle broth fattening?",
+        "a": "Not really. The dark colour is from blood and soy, and 100ml of broth is about 60 calories. The pork cracklings and fried garlic on top are the fattier part."
+      },
+      {
+        "q": "Are boat noodles healthy?",
+        "a": "In moderation they are a decent choice: about 300 calories per standard bowl with 14g of protein, lots of broth, some vegetables. The sodium is high, and the count depends entirely on how many bowls you stack."
+      }
+    ],
+    "related": [
+      "yen-ta-fo",
+      "kuey-teow-soup",
+      "sabah-beef-noodles",
+      "khao-soi"
+    ],
+    "source": "eatwellconcept.com (Thai dietitians): boat noodles about 300 kcal per 200g bowl, standard recipe without extra cracklings"
+  },
+  {
+    "slug": "moo-ping",
+    "name": "Moo Ping",
+    "aka": [
+      "หมูปิ้ง",
+      "Moo Bing",
+      "Thai Grilled Pork Skewers",
+      "Mu Ping"
+    ],
+    "category": "snacks",
+    "region": [
+      "th"
+    ],
+    "serving": "1 skewer",
+    "servingGrams": 35,
+    "calories": 130,
+    "protein": 8,
+    "carbs": 5,
+    "fat": 9,
+    "metaDescription": "One moo ping skewer is about 130 calories. Two skewers with a bag of sticky rice, the classic 30 baht breakfast, is around 430. Full breakdown here.",
+    "summary": "Thin slices of pork shoulder marinated in coconut milk, palm sugar, garlic, coriander root and soy, threaded on bamboo and grilled over charcoal. Sold at every morning market and BTS station exit, 10 baht a stick.",
+    "answer": "One skewer of moo ping is about 130 calories for roughly 35g of pork, per foodmany.com. The classic breakfast of two skewers plus a small bag of sticky rice is about 430 calories. The pork is fattier than it looks because the marinade uses coconut milk and the cut is shoulder with fat left on.",
+    "realTalk": [
+      "Moo ping is small, so it feels harmless, and at 130 calories per stick one or two is fine. The trouble is the maths of a 10 baht stick: five sticks is 50 baht and 650 calories, which is a full meal eaten standing up at a bus stop. Most of the calories are fat, because moo ping is made from pork shoulder or neck with the fat kept on for tenderness, then brushed with coconut milk while it grills.",
+      "The marinade also has sugar. Palm sugar and sweet soy are why the edges caramelise, and there is about 4 to 5g of sugar per stick. Not a lot on its own, but it is why moo ping tastes sweet and why you can eat six without thinking. The charcoal grill drips some fat off, which is the one thing working in your favour.",
+      "The sticky rice is the other half of the breakfast. A small 100g bag is about 170 calories, a regular 150g bag is 260. Two moo ping and a small bag is 430 calories with 16g of protein, which is a perfectly reasonable breakfast. Four moo ping and a big bag is 780, which is not."
+    ],
+    "lighter": [
+      "Set the number before you order: 2 sticks is 260 calories, 4 is 520.",
+      "Ask for the small bag of khao niao, or share one bag between two people.",
+      "Pick the leaner looking sticks. Shops thread fatty and lean pieces together; the ones with visible white fat are 20 to 30 calories more.",
+      "Pair it with som tam instead of a second bag of sticky rice."
+    ],
+    "components": [
+      {
+        "name": "Pork shoulder slices",
+        "grams": 30,
+        "calories": 85
+      },
+      {
+        "name": "Coconut milk, palm sugar, soy marinade",
+        "grams": 5,
+        "calories": 25
+      },
+      {
+        "name": "Oil and coconut milk brushed while grilling",
+        "grams": 2,
+        "calories": 20
+      }
+    ],
+    "portions": [
+      {
+        "label": "1 skewer",
+        "calories": 130
+      },
+      {
+        "label": "2 skewers with small sticky rice",
+        "calories": 430
+      },
+      {
+        "label": "5 skewers",
+        "calories": 650
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in moo ping with sticky rice?",
+        "a": "Two skewers (260) with a 100g bag of sticky rice (170) is about 430 calories. With a regular 150g bag it is around 520."
+      },
+      {
+        "q": "Is moo ping healthy?",
+        "a": "It is a reasonable protein snack at 130 calories and 8g of protein a stick. The fat is 9g a stick, so it stops being reasonable somewhere around stick four."
+      },
+      {
+        "q": "Moo ping vs satay, which is lighter?",
+        "a": "Satay. A chicken satay stick is about 50 calories because it is smaller and made from lean meat. Moo ping is bigger, fattier and glazed with coconut milk, so 130 per stick."
+      }
+    ],
+    "related": [
+      "khao-niao",
+      "satay",
+      "som-tam",
+      "gai-tod"
+    ],
+    "source": "foodmany.com: moo ping 1 skewer = 130 kcal; kindeediet.com lists moo yang 1 skewer = 125 kcal"
+  }
+]

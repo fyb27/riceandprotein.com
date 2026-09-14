@@ -1,0 +1,798 @@
+[
+  {
+    "slug": "samgyeopsal",
+    "name": "Samgyeopsal",
+    "aka": ["삼겹살", "Korean Grilled Pork Belly", "Samgyupsal", "Samgyeopsal-gui"],
+    "category": "lauk",
+    "region": ["kr"],
+    "serving": "1 serving (1인분, 200g raw belly, grilled, with ssam)",
+    "servingGrams": 295,
+    "calories": 630,
+    "protein": 36,
+    "carbs": 8,
+    "fat": 52,
+    "metaDescription": "One 200g serving of samgyeopsal is about 630 calories once grilled, and 52g of that is fat. Here is what the ssam, the rice and the soju add.",
+    "summary": "Samgyeopsal is thick-cut pork belly grilled at the table and eaten wrapped in lettuce with garlic, ssamjang and kimchi. One 1인분 order is 150g to 200g of raw meat.",
+    "answer": "A standard 200g serving of samgyeopsal is about 630 calories after grilling, based on the fatsecret.kr figure of 349 kcal per 100g for grilled belly. Around 52g of that is fat, because pork belly is roughly one third fat by weight. The lettuce, garlic and ssamjang add less than 50 calories on top.",
+    "realTalk": [
+      "Pork belly is about 33 percent fat, so a 200g order starts at 660 calories raw. Some of that drips into the grill tray, which is why the grilled number sits closer to 630. The problem is nobody eats one order. Two people at a samgyeopsal restaurant usually put away 3 servings between them, which is 950 calories each before the rice, the doenjang jjigae and the drinks.",
+      "The wrap is nearly free. A lettuce leaf, a perilla leaf, a clove of grilled garlic and a smear of ssamjang come to about 20 calories per ssam. Eating 10 wraps costs you 200 calories of vegetables and sauce, and it slows you down, which is the real benefit. The bowl of rice (300 calories) and the fried rice at the end (about 450) are where the meal gets out of hand.",
+      "At 15,000 to 18,000 won per 1인분 in Seoul now, samgyeopsal is not cheap protein either. 36g of protein for 630 calories is a poor ratio compared with the 목살 (pork neck) on the same menu, which gives you about 45g protein for 430 calories per 200g."
+    ],
+    "lighter": [
+      "Order 목살 (pork neck) for half the table instead of all belly. 200g of neck is about 430 calories versus 630 for belly.",
+      "Let the fat render fully and keep the meat at the edge of the grill so it drips, not sits in oil. That is easily 50 calories saved per serving.",
+      "Wrap everything. A ssam with lettuce, perilla and garlic is about 20 calories and makes you eat slower.",
+      "Skip the fried rice at the end. That 볶음밥 is around 450 calories and you are already full.",
+      "Grill the kimchi and mushrooms in the fat instead of ordering a second serving of meat."
+    ],
+    "components": [
+      {"name": "Pork belly, 200g raw, grilled", "grams": 200, "calories": 560},
+      {"name": "Ssamjang", "grams": 15, "calories": 35},
+      {"name": "Lettuce and perilla leaves", "grams": 50, "calories": 10},
+      {"name": "Grilled garlic and kimchi", "grams": 30, "calories": 25}
+    ],
+    "portions": [
+      {"label": "150g serving (some shops)", "calories": 480},
+      {"label": "200g serving, standard", "calories": 630},
+      {"label": "300g (1.5 servings) plus rice", "calories": 1250}
+    ],
+    "variants": [
+      {"name": "Moksal (pork neck), 200g", "calories": 430, "note": "Leaner cut, more protein"},
+      {"name": "Samgyeopsal, 200g", "calories": 630, "note": "Standard belly"},
+      {"name": "Gochujang samgyeopsal, 200g", "calories": 680, "note": "Sauce adds sugar"},
+      {"name": "Daepae samgyeopsal, 200g", "calories": 690, "note": "Thin slices absorb more fat"}
+    ],
+    "faq": [
+      {"q": "How many calories in 1인분 of samgyeopsal?", "a": "About 630 for a 200g serving after grilling. Shops that serve 150g portions come in closer to 480."},
+      {"q": "Is samgyeopsal good for weight loss?", "a": "Not really. It is about 33 percent fat, so 52g of fat per serving. If you want grilled pork on a diet, moksal (neck) has half the fat for the same weight."},
+      {"q": "Does grilling remove fat from pork belly?", "a": "Some. Rendering drops the raw 660 calories to roughly 630 for a 200g serving. It does not turn belly into a lean cut."},
+      {"q": "How many calories in a full samgyeopsal meal?", "a": "Two servings of meat, a bowl of rice, jjigae and half a bottle of soju is around 1,700 calories. That is a full day for many people."}
+    ],
+    "related": ["bulgogi", "galbi", "bossam", "kimchi-jjigae"],
+    "source": "fatsecret.kr 삼겹살구이 349 kcal per 100g, scaled to a 200g restaurant 1인분"
+  },
+  {
+    "slug": "ramyeon",
+    "name": "Ramyeon",
+    "aka": ["라면", "Korean Instant Noodles", "Shin Ramyun", "신라면", "Ramyun"],
+    "category": "noodles",
+    "region": ["kr"],
+    "serving": "1 pack cooked with 1 egg",
+    "servingGrams": 550,
+    "calories": 575,
+    "protein": 16,
+    "carbs": 80,
+    "fat": 21,
+    "metaDescription": "A pack of Shin Ramyun is 500 calories on the label, 575 with an egg. The fried noodle block is 440 of that. Here is the full breakdown.",
+    "summary": "Ramyeon is Korean instant noodles, boiled with the soup powder in one pot and usually finished with an egg, a slice of cheese or kimchi. Shin Ramyun is the benchmark pack.",
+    "answer": "A 120g pack of Shin Ramyun is 500 calories on the Nongshim label, with 79g of carbs, 16g of fat and 1,790mg of sodium. Add the egg most people crack in and a bowl of ramyeon is about 575 calories. Add a slice of cheese and it is 640.",
+    "realTalk": [
+      "The noodle block is fried before it is dried, which is why 110g of noodles carries 440 calories and 16g of fat. The soup powder is only about 60 calories, but it holds most of the 1,790mg of sodium, which is 90 percent of the daily limit in one bowl. The calories are the noodles. The salt is the soup.",
+      "Then there are the extras. An egg is 75 calories, a slice of cheese is 65, half a cup of leftover rice dunked into the broth is 150. A convenience store ramyeon with egg, cheese and rice is 790 calories, which is more than a bowl of jajangmyeon. The pack itself is not the problem. The habit of turning it into a three-course meal is.",
+      "Prices are still low, around 1,000 to 1,500 won a pack at a mart and 3,500 to 4,500 won cooked at a bunsik shop. At that price it is an easy late-night default. Two packs in one sitting, which plenty of people do, is 1,000 calories and 3,600mg of sodium before any toppings."
+    ],
+    "lighter": [
+      "Drink half the broth or less. That saves close to 900mg of sodium and about 30 calories from the fat floating on top.",
+      "Use half the soup powder. The noodles taste the same, and the sodium drops by 45 percent.",
+      "Keep the egg, skip the cheese and rice. The egg adds 6g of protein for 75 calories; the cheese and rice add 215 calories and no benefit.",
+      "Throw in 100g of bean sprouts, mushrooms or cabbage. About 25 calories and it doubles the bowl.",
+      "Look for the non-fried versions (건면). Shin Ramyun's dry noodle version is 350 calories for a 97g pack."
+    ],
+    "components": [
+      {"name": "Fried noodle block", "grams": 110, "calories": 440},
+      {"name": "Soup powder and dried flakes", "grams": 10, "calories": 60},
+      {"name": "Egg", "grams": 50, "calories": 75}
+    ],
+    "portions": [
+      {"label": "Pack only, no toppings", "calories": 500},
+      {"label": "Pack with 1 egg", "calories": 575},
+      {"label": "Pack with egg, cheese and rice", "calories": 790}
+    ],
+    "variants": [
+      {"name": "Shin Ramyun Cup (77g)", "calories": 285, "note": "Smaller portion"},
+      {"name": "Shin Ramyun Dry Noodle (건면, 97g)", "calories": 350, "note": "Non-fried noodles"},
+      {"name": "Shin Ramyun Black (101g)", "calories": 445, "note": "Richer broth, smaller block"},
+      {"name": "Shin Ramyun (120g)", "calories": 500, "note": "The standard pack"},
+      {"name": "Shin Ramyun Gold (125g)", "calories": 540, "note": "Larger block, more oil"}
+    ],
+    "faq": [
+      {"q": "How many calories in one Shin Ramyun?", "a": "500 calories per 120g pack on the Nongshim label. Cooked with an egg it is about 575."},
+      {"q": "Why is ramyeon so high in calories?", "a": "The noodle block is deep fried before drying. 110g of noodles is 440 calories and 16g of fat. The soup is only about 60."},
+      {"q": "Is ramyeon bad for weight loss?", "a": "One pack at 500 calories fits a diet if it is your meal, not a snack. The bigger issue is 1,790mg of sodium, which causes water retention the next day."},
+      {"q": "How much sodium is in Shin Ramyun?", "a": "1,790mg per pack, about 90 percent of the 2,000mg daily recommendation. Leaving the broth cuts that roughly in half."}
+    ],
+    "related": ["jjamppong", "budae-jjigae", "kimbap", "indomie-goreng"],
+    "source": "Nongshim Shin Ramyun label (120g, 500 kcal, 1,790mg sodium) via fatsecret.kr; egg added"
+  },
+  {
+    "slug": "bulgogi",
+    "name": "Bulgogi",
+    "aka": ["불고기", "Korean Marinated Beef", "Beef Bulgogi", "So-bulgogi"],
+    "category": "lauk",
+    "region": ["kr"],
+    "serving": "1 serving (200g cooked, no rice)",
+    "servingGrams": 200,
+    "calories": 330,
+    "protein": 34,
+    "carbs": 12,
+    "fat": 15,
+    "metaDescription": "A 200g serving of beef bulgogi is about 330 calories with 34g of protein. The marinade sugar is the only thing to watch. Full breakdown inside.",
+    "summary": "Bulgogi is thin-sliced beef marinated in soy sauce, sugar, pear and garlic, then grilled or pan-cooked with onions and mushrooms. It is one of the leaner dishes on a Korean barbecue menu.",
+    "answer": "A 200g serving of beef bulgogi is about 330 calories, using the fatsecret.kr figure of 163 kcal per 100g for cooked so-bulgogi. It gives you around 34g of protein and 15g of fat. Add a 210g bowl of rice and the meal lands near 630 calories.",
+    "realTalk": [
+      "This is the dish to order when everyone else is ordering samgyeopsal. Bulgogi uses sirloin or chuck sliced paper thin, so 200g of cooked meat is 330 calories, roughly half of what the same weight of pork belly costs you. The 34g of protein per serving is real, not marketing.",
+      "The marinade is where the sugar hides. A typical bulgogi sauce is soy, sugar, grated pear, garlic and sesame oil, and 30g of it per serving adds about 55 calories and 10g of sugar. Ttukbaegi bulgogi, the brothy version served bubbling in a stone bowl with glass noodles, comes in at 320 to 380 calories per serving with the noodles included.",
+      "The catch is that bulgogi is almost always eaten with rice, and the sweet juices make rice go fast. One bowl of rice is 300 calories. Two bowls, which the sauce practically demands, turns a 330 calorie dish into a 930 calorie meal. A bulgogi lunch set at 10,000 to 13,000 won typically lands at about 700 with rice and side dishes."
+    ],
+    "lighter": [
+      "Order it with one bowl of rice and stop there. Rice is the swing factor, 300 calories per bowl.",
+      "Pile on the onions, mushrooms and scallions from the pan. They are cooked in the same sauce and add about 20 calories per handful.",
+      "Choose beef bulgogi over pork bulgogi (돼지불고기). Pork bulgogi is about 185 kcal per 100g and usually has a gochujang sauce with more sugar.",
+      "Ask for less sauce, or leave the pooled sauce on the plate. That is most of the 12g of carbs.",
+      "Wrap it in lettuce like samgyeopsal. Same fullness, fewer spoonfuls of rice."
+    ],
+    "components": [
+      {"name": "Beef sirloin, thin sliced", "grams": 130, "calories": 230},
+      {"name": "Marinade (soy, sugar, pear, garlic)", "grams": 30, "calories": 55},
+      {"name": "Onion, mushroom, scallion", "grams": 40, "calories": 20},
+      {"name": "Sesame oil", "grams": 5, "calories": 25}
+    ],
+    "portions": [
+      {"label": "Side portion (100g)", "calories": 165},
+      {"label": "1 serving (200g), no rice", "calories": 330},
+      {"label": "1 serving with a bowl of rice", "calories": 630}
+    ],
+    "variants": [
+      {"name": "Mushroom bulgogi, 200g", "calories": 270, "note": "Less meat, more mushroom"},
+      {"name": "Ttukbaegi bulgogi, 1 bowl", "calories": 320, "note": "Broth and glass noodles"},
+      {"name": "Beef bulgogi, 200g", "calories": 330, "note": "Standard"},
+      {"name": "Pork bulgogi, 200g", "calories": 370, "note": "Fattier cut, gochujang sauce"},
+      {"name": "Bulgogi jeongol, 1 serving", "calories": 380, "note": "Hot pot with noodles and tofu"}
+    ],
+    "faq": [
+      {"q": "How many calories in bulgogi with rice?", "a": "About 630 for a 200g serving of bulgogi plus a 210g bowl of rice. The rice is nearly half the total."},
+      {"q": "Is bulgogi healthy for weight loss?", "a": "Yes, as Korean barbecue goes. 330 calories and 34g of protein per 200g serving. The only thing to manage is the rice you eat with it."},
+      {"q": "How much sugar is in bulgogi?", "a": "Roughly 10g per serving from the marinade. That is about 2.5 teaspoons, most of it from sugar and pear."},
+      {"q": "Is pork bulgogi higher in calories than beef?", "a": "Yes. Pork bulgogi is around 185 kcal per 100g versus 163 for beef, and the gochujang-based sauce adds more sugar."}
+    ],
+    "related": ["samgyeopsal", "galbi", "bibimbap", "japchae"],
+    "source": "fatsecret.kr 소불고기 163 kcal per 100g, scaled to a 200g cooked serving"
+  },
+  {
+    "slug": "tteokbokki",
+    "name": "Tteokbokki",
+    "aka": ["떡볶이", "Spicy Rice Cakes", "Ddeokbokki", "Topokki"],
+    "category": "snacks",
+    "region": ["kr"],
+    "serving": "1 serving (1인분, street cart or bunsik shop)",
+    "servingGrams": 250,
+    "calories": 335,
+    "protein": 9,
+    "carbs": 66,
+    "fat": 5,
+    "metaDescription": "A street serving of tteokbokki is about 335 calories, and 66g of it is carbs. Rice cakes are dense. Here is why one paper cup fills you up fast.",
+    "summary": "Tteokbokki is cylinder rice cakes and fish cake simmered in a sweet gochujang sauce, sold by the cup at street carts and by the plate at bunsik shops for 3,000 to 5,000 won.",
+    "answer": "A standard 1인분 of tteokbokki is about 335 calories for a 250g serving, per fatsecret.kr, and the Korean MFDS survey puts a 200g portion at 304. Almost all of it is carbs, about 66g, because rice cakes are compressed rice. The sauce adds sugar but very little fat.",
+    "realTalk": [
+      "Rice cakes are rice with the air pressed out. 150g of tteok, roughly 12 to 15 pieces, is 215 calories, the same as a full bowl of cooked rice but in a much smaller pile. That is why a paper cup from a cart feels heavier than it looks, and why you feel full after one serving even though it is only 335 calories.",
+      "The sauce is gochujang, gochugaru, sugar and syrup, and a 60g ladle of it is about 50 calories with 10g of sugar. It is not the calorie problem. The fried add-ons are. A single tempura-battered item (튀김) is 100 to 150 calories, an egg is 75, and a slice of cheese melted on top is 65. Cheese tteokbokki with two twigim runs past 600.",
+      "Bunsik shop plates are usually bigger than the cart cup. A 3,500 won plate can be 300g to 350g, and the popular takeaway brands like Sinjeon list 137 kcal per 100g, so a 400g takeaway container is 550 calories before the sundae and twigim you ordered on the side."
+    ],
+    "lighter": [
+      "Order it with sundae rather than twigim. 100g of sundae is about 160 calories; 3 pieces of twigim are 350.",
+      "Skip the cheese on top. That is 65 to 130 calories of pure fat added to a dish that was almost fat-free.",
+      "Get the cup, not the plate. A 250g cart serving is 335; a 400g takeaway container is 550.",
+      "Eat the fish cake and cabbage first. They are protein and volume for a few calories, and you will leave rice cakes behind.",
+      "Add a boiled egg instead of twigim if you want it more filling. 75 calories and 6g of protein."
+    ],
+    "components": [
+      {"name": "Rice cakes (garaetteok)", "grams": 150, "calories": 215},
+      {"name": "Fish cake", "grams": 30, "calories": 60},
+      {"name": "Gochujang sauce with sugar", "grams": 60, "calories": 50},
+      {"name": "Cabbage and scallion", "grams": 20, "calories": 10}
+    ],
+    "portions": [
+      {"label": "Small cup (200g)", "calories": 300},
+      {"label": "1 serving (250g), standard", "calories": 335},
+      {"label": "Takeaway container (400g) with cheese", "calories": 620}
+    ],
+    "variants": [
+      {"name": "Gungjung tteokbokki (soy sauce)", "calories": 320, "note": "Similar, less sugar"},
+      {"name": "Street tteokbokki, 1 serving", "calories": 335, "note": "Standard"},
+      {"name": "Rabokki (with ramyeon)", "calories": 560, "note": "Half a noodle block added"},
+      {"name": "Cheese tteokbokki", "calories": 470, "note": "Two slices of cheese"},
+      {"name": "Rose tteokbokki (cream sauce)", "calories": 620, "note": "Cream and cheese in the sauce"}
+    ],
+    "faq": [
+      {"q": "How many calories in one serving of tteokbokki?", "a": "About 335 for a 250g street serving. The MFDS survey figure is 304 per 200g, so the number scales with the size of the cup."},
+      {"q": "Is tteokbokki fattening?", "a": "It is low in fat (5g) but dense in carbs (66g). One serving is fine; the problem is the twigim, cheese and sundae that go with it."},
+      {"q": "How many rice cakes are in a serving?", "a": "Usually 12 to 15 pieces, around 150g. That alone is 215 calories, the same as a bowl of rice."},
+      {"q": "Is rose tteokbokki higher in calories?", "a": "Yes, by a lot. The cream and cheese sauce pushes it to about 620 per serving, nearly double the standard version."}
+    ],
+    "related": ["eomuk", "sundae", "kimbap", "ramyeon"],
+    "source": "fatsecret.kr 매운 떡볶이 1인분 335 kcal; MFDS restaurant survey 떡볶이 200g 304 kcal"
+  },
+  {
+    "slug": "eomuk",
+    "name": "Eomuk",
+    "aka": ["어묵", "오뎅", "Odeng", "Korean Fish Cake Skewer", "Eomuk-tang"],
+    "category": "snacks",
+    "region": ["kr"],
+    "serving": "1 skewer (with a cup of broth)",
+    "servingGrams": 195,
+    "calories": 100,
+    "protein": 6,
+    "carbs": 8,
+    "fat": 4,
+    "metaDescription": "One eomuk skewer from a street cart is about 100 calories, broth included. It is the cheapest protein on the cart. Here is the full breakdown.",
+    "summary": "Eomuk is a sheet of fish cake folded onto a wooden skewer and kept hot in a tray of anchovy and radish broth. Street carts sell it for 1,000 won a stick with free broth in a paper cup.",
+    "answer": "One eomuk skewer is about 100 calories, using fatsecret.kr figures of 96 kcal per skewer and 201 kcal per 100g of fish cake. The broth in the cup adds around 10 calories. Three skewers, which is a normal stop at a cart, come to 300.",
+    "realTalk": [
+      "Eomuk is fish paste mixed with wheat starch and a little sugar, then fried in a sheet. A 45g skewer is about 90 calories with 6g of protein, which makes it the best deal on the cart next to a 335 calorie cup of tteokbokki. The broth is anchovy, kelp and radish, close to zero calories unless the vendor has been topping it up with the tteokbokki sauce.",
+      "Where it goes wrong is quantity and dipping. The skewers are small and people eat 4 or 5 while waiting for the tteokbokki, which is 400 to 500 calories that nobody counts. A squeeze of the sweet soy or mustard sauce adds 15 to 20 calories per stick. And the eomuk in the tray has been sitting in salty broth, so 3 skewers with a cup of broth is roughly 1,200mg of sodium.",
+      "The bunsik shop version, eomuk-tang served in a bowl with 5 or 6 pieces and radish for 4,000 to 6,000 won, is about 300 to 350 calories. It is a fair meal for the price and one of the few street foods with a decent protein-to-calorie ratio."
+    ],
+    "lighter": [
+      "Two skewers and a cup of broth is a 200 calorie snack with 12g of protein. Stop at two.",
+      "Skip the sweet soy sauce. It is 15 to 20 calories per stick and adds sodium to something already salty.",
+      "Use eomuk to replace twigim next to your tteokbokki. Same fullness, a third of the calories.",
+      "Drink the broth but do not go for a second cup. The broth is fine on calories, heavy on salt."
+    ],
+    "components": [
+      {"name": "Fish cake sheet on skewer", "grams": 45, "calories": 90},
+      {"name": "Anchovy radish broth", "grams": 150, "calories": 10}
+    ],
+    "portions": [
+      {"label": "1 skewer with broth", "calories": 100},
+      {"label": "3 skewers with broth", "calories": 300},
+      {"label": "Eomuk-tang bowl (6 pieces)", "calories": 330}
+    ],
+    "variants": [
+      {"name": "Thin street skewer", "calories": 100, "note": "Standard cart size"},
+      {"name": "Thick Busan-style skewer", "calories": 140, "note": "Double weight of fish cake"},
+      {"name": "Eomuk-tang bowl", "calories": 330, "note": "5 to 6 pieces plus radish"},
+      {"name": "Eomuk bokkeum (stir-fried), side dish", "calories": 125, "note": "Cooked in oil and sugar"}
+    ],
+    "faq": [
+      {"q": "How many calories in one odeng skewer?", "a": "About 100 including the broth. A thick Busan-style skewer with double the fish cake is closer to 140."},
+      {"q": "Is eomuk healthy?", "a": "It is a decent snack: 6g of protein for 100 calories. The downside is sodium, around 400mg per skewer with broth."},
+      {"q": "How many calories in a bowl of eomuk-tang?", "a": "About 330 for a bowl with 5 to 6 pieces, radish and broth. It is one of the lighter hot meals at a bunsik shop."},
+      {"q": "Is fish cake mostly fish?", "a": "Usually 60 to 70 percent fish paste, the rest wheat starch, sugar and oil from frying. That is why it has 8g of carbs per skewer."}
+    ],
+    "related": ["tteokbokki", "sundae", "kimbap", "curry-fish-balls"],
+    "source": "fatsecret.kr 어묵꼬치 1개 96 kcal, 어묵 201 kcal per 100g; broth estimated"
+  },
+  {
+    "slug": "jjamppong",
+    "name": "Jjamppong",
+    "aka": ["짬뽕", "Korean Spicy Seafood Noodle Soup", "Jjambbong", "Champong"],
+    "category": "noodles",
+    "region": ["kr"],
+    "serving": "1 bowl",
+    "servingGrams": 900,
+    "calories": 690,
+    "protein": 30,
+    "carbs": 105,
+    "fat": 17,
+    "metaDescription": "A bowl of jjamppong is about 690 calories. The noodles are 360 of that, the chili oil another 130. Here is how it compares with jajangmyeon.",
+    "summary": "Jjamppong is the spicy red seafood noodle soup from Korean Chinese restaurants: thick wheat noodles in a chili-oil broth with squid, mussels, pork and stir-fried cabbage. It is the other half of the jajangmyeon decision.",
+    "answer": "A bowl of jjamppong is about 690 calories, based on the Korean MFDS restaurant survey figure of 688 for a full 1인분 bowl. Around 360 of that is the 250g of wheat noodles and another 130 is the chili oil the vegetables are stir-fried in. The seafood and pork add about 150 with 30g of protein.",
+    "realTalk": [
+      "Jjamppong looks like the light choice next to jajangmyeon because it is a soup. It is about 690 calories to jajangmyeon's 797, so yes, lighter, but only by 100. The noodles are identical: 250g of thick wheat noodles at about 360 calories. The difference is that the black bean sauce is fried in more oil than the chili broth.",
+      "The broth is not free. Restaurants stir-fry the cabbage, onion, squid and pork in a wok with 15g or more of chili-infused oil before adding stock, and that oil ends up as the red slick on top of the soup. Drink all the broth and you take in most of that 130 calories plus around 2,500mg of sodium, which is more than a full day's worth.",
+      "At 8,000 to 10,000 won a bowl it is a big lunch, and the bowls are large: 900g to 1,000g with broth. The lunch special that pairs it with a half plate of tangsuyuk pushes the meal past 1,300 calories. If you finish the noodles and leave half the broth, the bowl is closer to 620."
+    ],
+    "lighter": [
+      "Leave the broth. Eat the noodles, seafood and vegetables and you save about 70 calories and roughly half the sodium.",
+      "Order jjamppong-bap (짬뽕밥) if you can control the rice. A bowl of rice is 300 calories versus 360 for the noodles, and rice does not soak up the chili oil the same way.",
+      "Skip the tangsuyuk set. That half plate is 600 calories on its own.",
+      "Ask for extra vegetables (야채 많이). Most shops will, and the cabbage and bean sprouts are nearly free.",
+      "Pick the seafood-only version (해물짬뽕) over chadol (brisket) jjamppong, which is about 880."
+    ],
+    "components": [
+      {"name": "Wheat noodles, cooked", "grams": 250, "calories": 360},
+      {"name": "Squid, mussels, shrimp", "grams": 100, "calories": 90},
+      {"name": "Pork slices", "grams": 30, "calories": 60},
+      {"name": "Cabbage, onion, zucchini, bean sprouts", "grams": 120, "calories": 40},
+      {"name": "Chili oil and cooking oil", "grams": 15, "calories": 130},
+      {"name": "Broth", "grams": 350, "calories": 10}
+    ],
+    "portions": [
+      {"label": "Noodles and toppings, broth left", "calories": 620},
+      {"label": "Full bowl", "calories": 690},
+      {"label": "Full bowl plus half tangsuyuk set", "calories": 1300}
+    ],
+    "variants": [
+      {"name": "Jjamppong-bap (with rice)", "calories": 550, "note": "Rice instead of noodles"},
+      {"name": "Jjamppong, standard bowl", "calories": 690, "note": "MFDS 688 kcal"},
+      {"name": "Samseon jjamppong (extra seafood)", "calories": 720, "note": "More seafood, same noodles"},
+      {"name": "Chadol jjamppong (brisket)", "calories": 880, "note": "Fatty beef added"}
+    ],
+    "faq": [
+      {"q": "Is jjamppong or jajangmyeon lower in calories?", "a": "Jjamppong, at about 690 versus 797 for jajangmyeon. The noodles are the same; the black bean sauce uses more oil than the chili broth."},
+      {"q": "How much sodium is in jjamppong?", "a": "Roughly 2,500mg per bowl if you drink the broth, well over the 2,000mg daily guideline. Leaving the broth roughly halves it."},
+      {"q": "Is jjamppong healthy?", "a": "It has 30g of protein from seafood and pork and a decent amount of vegetables, but 690 calories and the sodium make it a full meal, not a light one."},
+      {"q": "How many calories in jjamppong-bap?", "a": "About 550 with a standard bowl of rice. Rice is slightly lower than the noodles and absorbs less chili oil."}
+    ],
+    "related": ["jajangmyeon", "tangsuyuk", "ramyeon", "budae-jjigae"],
+    "source": "MFDS restaurant nutrition survey 짬뽕 1인분 688 kcal; fatsecret.kr 짬뽕 764 kcal cross-check"
+  },
+  {
+    "slug": "tangsuyuk",
+    "name": "Tangsuyuk",
+    "aka": ["탕수육", "Korean Sweet and Sour Pork", "Tangsooyuk"],
+    "category": "lauk",
+    "region": ["kr"],
+    "serving": "1 person's share (about 200g, a third of a small plate)",
+    "servingGrams": 200,
+    "calories": 590,
+    "protein": 22,
+    "carbs": 60,
+    "fat": 28,
+    "metaDescription": "One share of tangsuyuk is about 590 calories, and a whole small plate is near 1,800. The batter and sauce are most of it. Here is the maths.",
+    "summary": "Tangsuyuk is pork strips in a thick starch batter, deep fried and served with a sweet and sour sauce, poured over or on the side depending on which side of the bumeok versus jjikmeok argument you are on.",
+    "answer": "A single person's share of tangsuyuk, about 200g, is roughly 590 calories, matching the fatsecret.kr 1인분 figure of 591. A whole small plate (소, about 600g) is close to 1,800 calories, which is why it is meant to be shared by 3 people. The batter and sauce are about two thirds of the total.",
+    "realTalk": [
+      "Nobody orders tangsuyuk alone, and that is the problem. A small plate is 1,800 calories, a large one about 2,600, and it arrives next to two bowls of jajangmyeon at 797 each. Split a small plate three ways and each person adds 590 calories to an 800 calorie noodle bowl. That is a 1,400 calorie lunch on a Tuesday.",
+      "The pork itself is lean. 130g of loin strips would be about 180 calories before battering. The potato starch batter soaks up oil during the double fry and turns that into 420, and then 70g of the sweet and sour sauce adds another 150 with roughly 25g of sugar. The pineapple, cucumber and onion in the sauce are the only things you can eat freely.",
+      "Whether you dip or pour makes a small difference, about 40 calories. Dipping (찍먹) means you use less sauce and the batter stays crisp, so you eat slower. Pouring (부먹) soaks the batter and most people eat the whole puddle. At 18,000 to 25,000 won for a small plate, either way it is an expensive way to eat 600 calories of batter."
+    ],
+    "lighter": [
+      "Share a small plate between 3 or 4 people, not 2. Your share drops from 900 to 450 to 590.",
+      "Dip, do not pour. You use about a third less sauce, and that is 40 to 50 calories and 8g of sugar.",
+      "Pick the biggest pieces of meat and leave the batter crumbs and sauce pool on the plate.",
+      "If it comes with jjamppong or jajangmyeon, eat half the noodles. The set is the calorie problem, not the tangsuyuk alone.",
+      "Eat all the vegetables and pineapple in the sauce. They are about 20 calories and fill space."
+    ],
+    "components": [
+      {"name": "Battered fried pork strips", "grams": 130, "calories": 420},
+      {"name": "Sweet and sour sauce", "grams": 70, "calories": 150},
+      {"name": "Pineapple, onion, cucumber, carrot", "grams": 30, "calories": 20}
+    ],
+    "portions": [
+      {"label": "Lunch set half plate (150g)", "calories": 440},
+      {"label": "One share of a small plate (200g)", "calories": 590},
+      {"label": "Whole small plate (소, about 600g)", "calories": 1780}
+    ],
+    "variants": [
+      {"name": "Jjikmeok (sauce on side), 200g", "calories": 550, "note": "Less sauce used"},
+      {"name": "Standard share, 200g", "calories": 590, "note": "Sauce poured"},
+      {"name": "Kkanpunggi (fried chicken), 200g", "calories": 600, "note": "Similar batter, garlic chili sauce"},
+      {"name": "Sichuan tangsuyuk, 1 serving", "calories": 600, "note": "Spicy sauce, same batter"}
+    ],
+    "faq": [
+      {"q": "How many calories in a small plate of tangsuyuk?", "a": "About 1,780 for a whole 소 plate of roughly 600g. That is meant for 3 people; one share is about 590."},
+      {"q": "Is tangsuyuk high in sugar?", "a": "Yes. The sauce is sugar, vinegar and starch, about 25g of sugar in a 70g portion. Dipping instead of pouring cuts that by a third."},
+      {"q": "Does jjikmeok (dipping) have fewer calories than bumeok (pouring)?", "a": "Slightly, about 40 to 50 calories less per share because you use less sauce. It is not a big enough gap to argue about."},
+      {"q": "How many calories in tangsuyuk with jajangmyeon?", "a": "About 1,400 for a bowl of jajangmyeon (797) plus one share of tangsuyuk (590). It is a full day of food for a lot of people."}
+    ],
+    "related": ["jajangmyeon", "jjamppong", "sweet-sour-chicken", "korean-fried-chicken"],
+    "source": "fatsecret.kr 탕수육 1인분 591 kcal (197 kcal per 100g); small plate scaled to 600g"
+  },
+  {
+    "slug": "mul-naengmyeon",
+    "name": "Mul Naengmyeon",
+    "aka": ["물냉면", "Cold Buckwheat Noodle Soup", "Naengmyeon", "Pyongyang Naengmyeon", "평양냉면"],
+    "category": "noodles",
+    "region": ["kr"],
+    "serving": "1 bowl",
+    "servingGrams": 850,
+    "calories": 480,
+    "protein": 17,
+    "carbs": 90,
+    "fat": 5,
+    "metaDescription": "A bowl of mul naengmyeon is about 480 calories, almost all of it from the 220g of buckwheat noodles. The icy broth is nearly free. Full breakdown.",
+    "summary": "Mul naengmyeon is chewy buckwheat noodles served in an icy beef or dongchimi broth with sliced radish, cucumber, pear and half a boiled egg. The summer noodle, and the standard chaser after Korean barbecue.",
+    "answer": "A restaurant bowl of mul naengmyeon is about 480 calories. The Korean MFDS restaurant survey puts a full bowl at 552 and fatsecret.kr's generic entry at 383, and a standard 220g portion of noodles with broth lands between them. Roughly 330 of the calories are the noodles, and the cold broth is only about 60 even with its sugar.",
+    "realTalk": [
+      "The noodles are the entire bowl. 220g of cooked buckwheat and starch noodles is about 330 calories, and there is very little else: 25g of beef brisket, half an egg, some radish and pear. That is why naengmyeon feels light but still carries 90g of carbs. It is a plate of noodles in cold water.",
+      "The broth is sweeter than it tastes. Restaurant naengmyeon broth is beef stock or dongchimi juice with sugar and vinegar, and 400ml of it is about 60 calories with 10g of sugar. The habit of adding more sugar and vinegar at the table can double that. Still, compared with a 690 calorie bowl of jjamppong, naengmyeon broth is a rounding error.",
+      "The problem is when you eat it. A bowl of naengmyeon at 11,000 to 16,000 won is usually not lunch. It is the finisher after 2 servings of galbi or samgyeopsal, which means adding 480 calories to a meal that was already 1,200. The 사리 (extra noodles) for 3,000 won is another 300 on top."
+    ],
+    "lighter": [
+      "Share one bowl after barbecue instead of ordering one each. Half a bowl is 240 calories and you only wanted the cold broth anyway.",
+      "Skip the 사리 (extra noodles). Each refill is around 300 calories.",
+      "Do not add the table sugar. The broth already has about 10g in it.",
+      "Choose mul (water) over bibim. Bibim naengmyeon runs about 620 because of the gochujang and sesame oil sauce.",
+      "Eat the egg and the beef first. That is most of the 17g of protein in the bowl."
+    ],
+    "components": [
+      {"name": "Buckwheat noodles, cooked", "grams": 220, "calories": 330},
+      {"name": "Cold beef or dongchimi broth (sweetened)", "grams": 400, "calories": 60},
+      {"name": "Beef brisket slices", "grams": 25, "calories": 45},
+      {"name": "Half boiled egg", "grams": 25, "calories": 40},
+      {"name": "Radish, cucumber, pear", "grams": 40, "calories": 15}
+    ],
+    "portions": [
+      {"label": "Half bowl (shared after barbecue)", "calories": 240},
+      {"label": "1 bowl, standard", "calories": 480},
+      {"label": "1 bowl plus 사리 (extra noodles)", "calories": 780}
+    ],
+    "variants": [
+      {"name": "Pyongyang naengmyeon (plain broth)", "calories": 450, "note": "Less sugar in the broth"},
+      {"name": "Mul naengmyeon, standard", "calories": 480, "note": "Typical restaurant bowl"},
+      {"name": "Chik naengmyeon (arrowroot)", "calories": 500, "note": "Darker, chewier noodle"},
+      {"name": "Hoe naengmyeon (raw fish)", "calories": 560, "note": "Spicy sauce with skate"},
+      {"name": "Bibim naengmyeon", "calories": 620, "note": "Gochujang sauce, sesame oil"}
+    ],
+    "faq": [
+      {"q": "Is mul naengmyeon good for a diet?", "a": "It is one of the lighter Korean noodle bowls at about 480 calories and only 5g of fat. The 90g of carbs is the catch, so it works as a meal, not as a side after barbecue."},
+      {"q": "Which has fewer calories, mul naengmyeon or bibim naengmyeon?", "a": "Mul, at about 480 versus 620 for bibim. The bibim sauce is gochujang, sugar and sesame oil on the same noodles."},
+      {"q": "How many calories in the naengmyeon broth?", "a": "About 60 for 400ml. It is beef or radish-water stock with sugar and vinegar, so it is not zero, but it is not the problem either."},
+      {"q": "How many calories in naengmyeon after Korean barbecue?", "a": "The same 480, but on top of a 1,000 to 1,200 calorie meal. Splitting one bowl between two people is the usual fix."}
+    ],
+    "related": ["bibim-naengmyeon", "galbi", "samgyeopsal", "zaru-soba"],
+    "source": "MFDS restaurant survey 물냉면 552 kcal per bowl and fatsecret.kr 383 kcal; mid figure for a 220g noodle bowl"
+  },
+  {
+    "slug": "korean-fried-chicken",
+    "name": "Korean Fried Chicken",
+    "aka": ["치킨", "양념치킨", "Yangnyeom Chicken", "Chimaek", "치맥", "KFC Korean"],
+    "category": "lauk",
+    "region": ["kr"],
+    "serving": "Half a yangnyeom chicken (반마리, about 8 pieces)",
+    "servingGrams": 400,
+    "calories": 950,
+    "protein": 60,
+    "carbs": 55,
+    "fat": 52,
+    "metaDescription": "Half a yangnyeom chicken is about 950 calories, a whole one close to 1,900. Here is what the batter, the sauce and the beer add up to.",
+    "summary": "Korean fried chicken is a whole chicken cut into 10 to 12 pieces, thin-battered and double fried, then either left plain (후라이드) or tossed in a sweet gochujang glaze (양념). Ordered by the box, eaten with beer and pickled radish.",
+    "answer": "Half a yangnyeom (sauced) chicken is about 950 calories, based on fatsecret.kr chain data: a whole Nene yangnyeom chicken is listed at 1,827 calories for 700g, and a single BBQ Chicken yangnyeom piece at 267. A whole chicken to yourself is around 1,900. The sauce alone adds about 180 calories per half.",
+    "realTalk": [
+      "Chicken delivery is the biggest hidden calorie source in Korea, because the box is designed for sharing and rarely is. A whole chicken is 10 to 12 pieces at 230 to 270 calories each. Two people splitting a box with a large beer each are at about 1,150 calories per person, at 10pm, after dinner.",
+      "The batter is thin, which is why Korean fried chicken feels lighter than American, but double frying pushes oil into every crack. A plain fried piece is about 230 calories; the yangnyeom glaze adds around 40 per piece and 15g of sugar per half chicken. Honey, soy garlic and cheese powder versions land in the same range, 950 to 1,050 per half.",
+      "A box costs 20,000 to 24,000 won now, which is another reason to finish it. The pickled radish (치킨무) on the side is about 20 calories for the whole tub and the only thing on the table that will not hurt. A 500ml draft beer is 210 calories; the second one is where a normal dinner becomes a 1,400 calorie night."
+    ],
+    "lighter": [
+      "Order half and half (반반) with plain fried and stop at 4 pieces. That is about 900 calories for two people, not for one.",
+      "Plain fried (후라이드) over yangnyeom saves about 180 calories per half chicken and most of the sugar.",
+      "Look for the oven-roasted or air-fried lines. Kyochon and Goobne style baked pieces run about 150 to 180 each versus 250 fried.",
+      "One beer, not two. Each 500ml draft is 210 calories.",
+      "Eat the drumsticks and breast pieces first and leave the wing tips and skin scraps. The skin is where the oil is."
+    ],
+    "components": [
+      {"name": "Double fried chicken pieces", "grams": 320, "calories": 700},
+      {"name": "Yangnyeom sauce (gochujang, sugar, syrup)", "grams": 70, "calories": 180},
+      {"name": "Pickled radish", "grams": 60, "calories": 20},
+      {"name": "Peanut and sesame garnish", "grams": 10, "calories": 50}
+    ],
+    "portions": [
+      {"label": "1 piece yangnyeom", "calories": 270},
+      {"label": "Half chicken (반마리)", "calories": 950},
+      {"label": "Whole chicken", "calories": 1900}
+    ],
+    "variants": [
+      {"name": "Oven roasted, half", "calories": 650, "note": "Goobne style, not fried"},
+      {"name": "Plain fried (후라이드), half", "calories": 780, "note": "No sauce"},
+      {"name": "Soy garlic (간장), half", "calories": 900, "note": "Kyochon style"},
+      {"name": "Yangnyeom, half", "calories": 950, "note": "Standard sauced"},
+      {"name": "Snow cheese or honey butter, half", "calories": 1050, "note": "Powder or butter on top"}
+    ],
+    "faq": [
+      {"q": "How many calories in a whole Korean fried chicken?", "a": "About 1,900 for a whole yangnyeom chicken, or 1,550 for plain fried. Chain data lists a whole Nene yangnyeom at 1,827."},
+      {"q": "How many calories in one piece of yangnyeom chicken?", "a": "About 270. BBQ Chicken lists a 96g yangnyeom piece at 267 calories; a plain fried piece is closer to 230."},
+      {"q": "Is Korean fried chicken healthier than American?", "a": "Slightly, because the batter is thinner, but double frying makes up for it. A piece is still 230 to 270 calories. Oven roasted chains are the real difference at about 160 per piece."},
+      {"q": "How many calories in chimaek?", "a": "Half a chicken and a 500ml beer is about 1,160. That is the standard order for one person and more than half a day's calories."}
+    ],
+    "related": ["dakgalbi", "tangsuyuk", "ayam-goreng", "chicken-65"],
+    "source": "fatsecret.kr chain data: Nene 양념치킨 whole 700g 1,827 kcal; BBQ 양념치킨 1 piece 96g 267 kcal"
+  },
+  {
+    "slug": "japchae",
+    "name": "Japchae",
+    "aka": ["잡채", "Korean Glass Noodle Stir-fry", "Chapchae", "Sweet Potato Noodles"],
+    "category": "noodles",
+    "region": ["kr"],
+    "serving": "1 plate (200g)",
+    "servingGrams": 200,
+    "calories": 380,
+    "protein": 9,
+    "carbs": 58,
+    "fat": 13,
+    "metaDescription": "A 200g plate of japchae is about 380 calories. The glass noodles are pure starch and the sesame oil adds 90 more. Here is the breakdown.",
+    "summary": "Japchae is sweet potato glass noodles stir-fried with beef, spinach, carrot, onion and mushrooms in soy sauce, sugar and sesame oil. Served at every Korean celebration and as a banchan or a rice topping.",
+    "answer": "A 200g plate of japchae is about 380 calories, using the fatsecret.kr figure of 190 kcal per 100g. Around 180 of that is the glass noodles, which are almost pure sweet potato starch, and about 90 comes from the sesame and cooking oil. Japchae-bap, japchae over rice, is roughly 670.",
+    "realTalk": [
+      "Glass noodles look light because they are clear. They are not. Dangmyeon is sweet potato starch and nothing else, so 120g of cooked noodles is 180 calories and 43g of carbs with almost no protein. The vegetables are the only part that is mostly water, and they are outnumbered about 2 to 1 by noodles on a typical plate.",
+      "The oil is the second surprise. Japchae is stir-fried in vegetable oil and then finished with sesame oil, and 10g of oil across a 200g plate is 90 calories. Add 15g of sugar and soy in the seasoning and about 30 more. That is why a dish that reads as vegetables and noodles ends up at 380, the same as a bowl of kimbap.",
+      "As a banchan, a 60g side scoop is only about 115 calories and fine. As japchae-bap at a Korean Chinese restaurant for 8,000 won, it is a 300g plate of noodles on 200g of rice with a fried egg, which fatsecret.kr lists at 673. Same ingredients, three times the portion."
+    ],
+    "lighter": [
+      "Treat it as a side, not a main. A 60g banchan scoop is about 115 calories; a 200g plate is 380.",
+      "Ask for extra vegetables or add your own spinach and mushrooms at home. They are about 25 calories per 100g.",
+      "At home, cut the oil to 5g per serving and use the sesame oil for aroma at the end only. That saves 45 calories a plate.",
+      "Add more beef. 60g of lean beef instead of 30g doubles the protein to about 18g for 50 extra calories.",
+      "Skip japchae-bap. Rice plus glass noodles is two starches on one plate, about 670 calories."
+    ],
+    "components": [
+      {"name": "Sweet potato glass noodles, cooked", "grams": 120, "calories": 180},
+      {"name": "Beef strips", "grams": 30, "calories": 55},
+      {"name": "Spinach, carrot, onion, mushroom", "grams": 60, "calories": 25},
+      {"name": "Sesame oil and cooking oil", "grams": 10, "calories": 90},
+      {"name": "Soy sauce and sugar", "grams": 15, "calories": 30}
+    ],
+    "portions": [
+      {"label": "Banchan scoop (60g)", "calories": 115},
+      {"label": "1 plate (200g)", "calories": 380},
+      {"label": "Japchae-bap (with rice and egg)", "calories": 670}
+    ],
+    "variants": [
+      {"name": "Vegetable-only japchae, 200g", "calories": 340, "note": "No beef, slightly less oil"},
+      {"name": "Standard japchae, 200g", "calories": 380, "note": "Beef and vegetables"},
+      {"name": "Bibigo packaged japchae, 322g", "calories": 390, "note": "Full pack"},
+      {"name": "Japchae-bap, 1 plate", "calories": 670, "note": "Over rice with fried egg"}
+    ],
+    "faq": [
+      {"q": "Are glass noodles lower in calories than regular noodles?", "a": "No. Cooked dangmyeon is about 150 kcal per 100g, close to cooked wheat noodles, and it is nearly all starch with no protein."},
+      {"q": "Is japchae healthy?", "a": "As a side it is fine, about 115 calories per scoop with real vegetables. As a 200g main it is 380 calories with only 9g of protein, so it needs meat or egg alongside."},
+      {"q": "How many calories in japchae-bap?", "a": "About 670 for the restaurant plate: japchae over 200g of rice with a fried egg."},
+      {"q": "Is japchae gluten free?", "a": "The noodles are, since they are sweet potato starch. The soy sauce usually is not, unless it is a gluten-free brand."}
+    ],
+    "related": ["bulgogi", "bibimbap", "jajangmyeon", "kimbap"],
+    "source": "fatsecret.kr 잡채 190 kcal per 100g, scaled to a 200g plate"
+  },
+  {
+    "slug": "galbitang",
+    "name": "Galbitang",
+    "aka": ["갈비탕", "Korean Short Rib Soup", "Beef Rib Soup", "Galbi-tang"],
+    "category": "soup",
+    "region": ["kr"],
+    "serving": "1 bowl (no rice)",
+    "servingGrams": 700,
+    "calories": 470,
+    "protein": 34,
+    "carbs": 12,
+    "fat": 30,
+    "metaDescription": "A bowl of galbitang is about 470 calories with 34g of protein, and the bowl of rice adds 300. Here is where the fat in the broth comes from.",
+    "summary": "Galbitang is beef short ribs simmered for hours in a clear broth with radish and glass noodles, served with rice, kimchi and salt on the side. The wedding banquet soup, and a 12,000 to 15,000 won lunch.",
+    "answer": "A bowl of galbitang is about 470 calories without rice, per the fatsecret.kr 1인분 figure of 466. The 3 pieces of short rib give you around 34g of protein and most of the 30g of fat, since rib meat is marbled and the broth carries rendered fat. With the bowl of rice that comes with it, the meal is about 770.",
+    "realTalk": [
+      "Short rib is a fatty cut, and the soup does not hide it. 200g of bone-in ribs, about 3 pieces, is 340 calories on its own with roughly 24g of fat. Well-run restaurants chill the broth overnight and skim the fat cap, which is why some bowls are 350 and others are 600. If there is a visible oil layer on top, assume the higher number.",
+      "The broth is otherwise honest. It is beef bone stock with radish, and 400ml is about 60 calories, less if skimmed. The 30g of glass noodles at the bottom add 45 calories, and the egg garnish and scallion another 25. Compared with seolleongtang at 425 with noodles, galbitang is close, just with more meat and more fat per bowl.",
+      "The rice is the choice. Galbitang comes with a bowl of rice, and the habit is to tip it into the soup, which is 300 calories and easy to finish because the broth makes it slide down. 770 calories with 34g of protein is a solid lunch. The 1,050 calorie version is when you take the second bowl of rice that the ajumma offers."
+    ],
+    "lighter": [
+      "Skim the fat off the top with your spoon before you start. That is 50 to 100 calories in the first minute.",
+      "Eat half the rice and put the rest aside. Half a bowl into the soup is 150 calories and still filling.",
+      "Ask for extra radish (무). It is nearly free and takes up space.",
+      "Trim the fat strip on the ribs. Each piece has about 10g of visible fat on the edge.",
+      "Choose galbitang over gamjatang when the choice is there. Gamjatang runs about 600 and has more fat in the broth."
+    ],
+    "components": [
+      {"name": "Beef short ribs, 3 pieces, bone-in", "grams": 200, "calories": 340},
+      {"name": "Beef bone broth with rendered fat", "grams": 400, "calories": 60},
+      {"name": "Glass noodles", "grams": 30, "calories": 45},
+      {"name": "Radish, egg garnish, scallion", "grams": 60, "calories": 25}
+    ],
+    "portions": [
+      {"label": "Bowl, fat skimmed, no rice", "calories": 380},
+      {"label": "1 bowl, no rice", "calories": 470},
+      {"label": "1 bowl with rice", "calories": 770}
+    ],
+    "variants": [
+      {"name": "Bibigo packaged galbitang, 400g", "calories": 115, "note": "Mostly broth, 1 rib"},
+      {"name": "Restaurant galbitang, skimmed", "calories": 380, "note": "Fat cap removed"},
+      {"name": "Restaurant galbitang, standard", "calories": 470, "note": "3 ribs, noodles"},
+      {"name": "Wang (king) galbitang", "calories": 630, "note": "5 or 6 ribs"}
+    ],
+    "faq": [
+      {"q": "How many calories in galbitang with rice?", "a": "About 770: 470 for the soup and 300 for a standard bowl of rice tipped in."},
+      {"q": "Is galbitang healthy?", "a": "It has 34g of protein and real vegetables, but also about 30g of fat from the ribs. Skimming the broth and eating one bowl of rice keeps it around 700 for the meal."},
+      {"q": "Which is lower in calories, galbitang or seolleongtang?", "a": "Seolleongtang, at about 425 per bowl with noodles versus 470 for galbitang. Galbitang has more meat and more protein per bowl."},
+      {"q": "Why is galbitang so expensive?", "a": "Beef short rib is one of the priciest cuts in Korea, and a bowl uses 200g of it. Most restaurants charge 12,000 to 16,000 won for a bowl with 3 ribs."}
+    ],
+    "related": ["seolleongtang", "gamjatang", "samgyetang", "galbi"],
+    "source": "fatsecret.kr 갈비탕 1인분 466 kcal"
+  },
+  {
+    "slug": "haemul-pajeon",
+    "name": "Haemul Pajeon",
+    "aka": ["해물파전", "Korean Seafood Scallion Pancake", "Pajeon", "파전"],
+    "category": "snacks",
+    "region": ["kr"],
+    "serving": "1 whole pancake (restaurant size, about 300g)",
+    "servingGrams": 300,
+    "calories": 600,
+    "protein": 20,
+    "carbs": 62,
+    "fat": 30,
+    "metaDescription": "A whole restaurant haemul pajeon is about 600 calories. The batter and frying oil are most of it, the seafood barely 80. Here is the breakdown per slice.",
+    "summary": "Haemul pajeon is a thick pan-fried pancake of scallions and mixed seafood in a wheat and egg batter, cut into wedges and dipped in soy vinegar. Rainy day food, and the standard partner for a bowl of makgeolli.",
+    "answer": "A whole restaurant haemul pajeon, about 300g, is roughly 600 calories, based on the fatsecret.kr Bibigo figure of 270 calories per 130g piece scaled up. About 260 of that is the flour batter and 180 is the oil it fries in. The seafood is only around 80 calories, and one wedge of 8 is about 75.",
+    "realTalk": [
+      "Pajeon is a fried batter with things in it, and the batter is thick. A restaurant pancake uses about 120g of flour and starch plus an egg, which is 335 calories before it touches the pan. Then it fries in 20g or more of oil on a hot griddle, and the crispy edges everyone fights over are where that 180 calories of oil sits.",
+      "The seafood and scallions are the healthy part and the smallest part. 80g of squid, shrimp and clams is about 80 calories with 15g of protein, and 60g of scallions is 20. If you made the same pancake with double the scallions and half the flour, it would be about 400 and taste better, but no restaurant does that.",
+      "At 15,000 to 20,000 won a plate it is meant for sharing, and two people usually split one alongside a kettle of makgeolli. Half a pajeon is 300 calories, and a 750ml bottle of makgeolli is about 340 more, so a rainy evening at the jeon house is 640 per person before the second bottle."
+    ],
+    "lighter": [
+      "Split one pajeon between 3 people. That is 200 calories each, which is a reasonable snack with drinks.",
+      "Eat the centre wedges, not the edges. The crispy rim soaked up most of the oil.",
+      "Skip the dipping sauce if it has sugar in it. Plain soy and vinegar is about 5 calories; sweet versions are 30.",
+      "At home, use a non-stick pan and 5g of oil per pancake instead of 20. That drops a whole pancake to about 470.",
+      "Order kimchi jeon or buchu jeon instead. Both are thinner and about 400 for a whole pancake."
+    ],
+    "components": [
+      {"name": "Wheat flour and starch batter", "grams": 120, "calories": 260},
+      {"name": "Squid, shrimp, clams", "grams": 80, "calories": 80},
+      {"name": "Scallions", "grams": 60, "calories": 20},
+      {"name": "Egg", "grams": 50, "calories": 75},
+      {"name": "Frying oil", "grams": 20, "calories": 180}
+    ],
+    "portions": [
+      {"label": "1 wedge (of 8)", "calories": 75},
+      {"label": "Whole pancake (300g)", "calories": 600},
+      {"label": "Whole pancake with a bottle of makgeolli", "calories": 940}
+    ],
+    "variants": [
+      {"name": "Buchu jeon (chive pancake)", "calories": 380, "note": "Thinner, less batter"},
+      {"name": "Kimchi jeon", "calories": 420, "note": "Thin, kimchi in batter"},
+      {"name": "Haemul pajeon, standard", "calories": 600, "note": "Thick, seafood loaded"},
+      {"name": "Dongnae pajeon (Busan)", "calories": 720, "note": "Extra egg, rice flour batter"}
+    ],
+    "faq": [
+      {"q": "How many calories in one slice of pajeon?", "a": "About 75 per wedge if the pancake is cut into 8. Edge pieces are closer to 90 because they hold more oil."},
+      {"q": "Is pajeon healthy?", "a": "The scallions and seafood are, but they are about 100 calories out of 600. The rest is flour and frying oil. Share it and it is fine."},
+      {"q": "How many calories in pajeon with makgeolli?", "a": "A whole pajeon (600) with a 750ml bottle of makgeolli (about 340) is roughly 940. Split between two, 470 each."},
+      {"q": "Which jeon has the fewest calories?", "a": "Buchu (chive) jeon at about 380 for a whole thin pancake, then kimchi jeon at 420. Haemul pajeon is the thickest and heaviest at 600."}
+    ],
+    "related": ["tteokbokki", "eomuk", "bindaetteok", "banh-xeo"],
+    "source": "fatsecret.kr 해물파전 (비비고 130g 270 kcal, about 207 kcal per 100g) scaled to a 300g restaurant pancake"
+  },
+  {
+    "slug": "hotteok",
+    "name": "Hotteok",
+    "aka": ["호떡", "Korean Sweet Pancake", "Hoddeok", "Seed Hotteok", "씨앗호떡"],
+    "category": "snacks",
+    "region": ["kr"],
+    "serving": "1 piece (street cart)",
+    "servingGrams": 90,
+    "calories": 280,
+    "protein": 5,
+    "carbs": 46,
+    "fat": 9,
+    "metaDescription": "One street hotteok is about 280 calories. Fried dough around a pocket of melted brown sugar. Here is why the seed version is not lighter.",
+    "summary": "Hotteok is a yeasted dough ball stuffed with brown sugar, cinnamon and chopped nuts, pressed flat on an oiled griddle until the sugar melts into syrup. Winter street food, 1,500 to 2,000 won a piece.",
+    "answer": "One street hotteok is about 280 calories for a 90g piece. Fatsecret.kr lists a 70g shop hotteok at 270 and a large one at 344, so the cart size falls in that range. About 150 of the calories are the dough, 90 the sugar filling and 45 the oil on the griddle.",
+    "realTalk": [
+      "Hotteok is a doughnut with the sugar on the inside. The 60g of dough is 150 calories, the 25g of brown sugar and cinnamon filling melts into about 90 calories of syrup, and the griddle is slick with oil, so each piece picks up 5g or so, another 45. That is 280 in something you finish in 4 bites while walking.",
+      "The seed hotteok (씨앗호떡) from Busan is not the healthy version, even though it has sunflower seeds and nuts in it. Fatsecret.kr lists it at 363 per piece, higher than plain, because it is deep fried in a shallow pool of oil rather than griddled, then split and stuffed with seeds and more sugar.",
+      "The price makes it dangerous. At 1,500 won a piece, two hotteok is 560 calories for 3,000 won, which is the same as a full bowl of bibimbap for a quarter of the cost. Winter markets in Seoul usually have a hotteok cart within 30 metres of the bungeoppang cart, and people hit both."
+    ],
+    "lighter": [
+      "One piece, eaten slowly, is a 280 calorie treat. Two is a meal's worth of sugar.",
+      "Choose the griddled plain version over the Busan seed hotteok. That is 280 versus about 360.",
+      "Ask the vendor for less oil (기름 조금만). Some carts will dab it on paper, which saves 20 to 30 calories.",
+      "Have it with a bottle of water, not a sweet latte. The drink can double the sugar.",
+      "The supermarket frozen versions (삼립 꿀호떡, 57g) are about 165 each, half the size and calories of a cart piece."
+    ],
+    "components": [
+      {"name": "Wheat dough, pressed and griddled", "grams": 60, "calories": 150},
+      {"name": "Brown sugar, cinnamon and nut filling", "grams": 25, "calories": 90},
+      {"name": "Griddle oil absorbed", "grams": 5, "calories": 45}
+    ],
+    "portions": [
+      {"label": "Small shop piece (70g)", "calories": 220},
+      {"label": "1 street piece (90g)", "calories": 280},
+      {"label": "2 pieces", "calories": 560}
+    ],
+    "variants": [
+      {"name": "Frozen supermarket hotteok (57g)", "calories": 165, "note": "Samlip honey hotteok"},
+      {"name": "Plain street hotteok", "calories": 280, "note": "Griddled"},
+      {"name": "Seed hotteok (Busan)", "calories": 360, "note": "Fried, then stuffed with seeds"},
+      {"name": "Cheese or japchae hotteok", "calories": 320, "note": "Savoury filling"}
+    ],
+    "faq": [
+      {"q": "How many calories in one hotteok?", "a": "About 280 for a street cart piece of around 90g. Smaller shop pieces at 70g are closer to 220."},
+      {"q": "Is seed hotteok healthier than regular hotteok?", "a": "No. It is about 360 calories per piece, more than plain, because it is fried in more oil and still has the brown sugar filling."},
+      {"q": "How much sugar is in a hotteok?", "a": "Roughly 20g, mostly the brown sugar filling that melts into syrup. That is about 5 teaspoons."},
+      {"q": "Is hotteok vegan?", "a": "Usually yes. The dough is flour, water, yeast and a little sugar, and the filling is sugar, cinnamon and nuts. Check for milk in the dough at bakery versions."}
+    ],
+    "related": ["bungeoppang", "tteokbokki", "apam-balik", "pisang-goreng"],
+    "source": "fatsecret.kr 호떡 (호떡당 70g 270 kcal, 일반 1개 344 kcal); street piece scaled to 90g"
+  },
+  {
+    "slug": "bungeoppang",
+    "name": "Bungeoppang",
+    "aka": ["붕어빵", "Korean Fish-Shaped Pastry", "Bungeo-ppang", "Red Bean Fish Bread", "잉어빵"],
+    "category": "snacks",
+    "region": ["kr"],
+    "serving": "1 piece",
+    "servingGrams": 60,
+    "calories": 110,
+    "protein": 3,
+    "carbs": 20,
+    "fat": 2.5,
+    "metaDescription": "One bungeoppang is about 110 calories, and the usual bag of 3 is 330. Red bean paste is the filling. Here is how the cream version compares.",
+    "summary": "Bungeoppang is a fish-shaped waffle filled with sweet red bean paste, baked in a cast iron mould at street carts through winter. Sold 3 for 2,000 won, or 2 for 1,000 if you find an old cart.",
+    "answer": "One bungeoppang is about 110 calories for a 60g piece, per fatsecret.kr, with around 20g of carbs. The batter is roughly 75 calories and the red bean filling 35. A standard bag of 3 is 330, which is more than most people expect from something the size of a hand.",
+    "realTalk": [
+      "This is one of the lighter street snacks in Korea because it is baked in a mould, not fried. The batter is flour, sugar, egg and milk, about 75 calories per fish, and the 20g of red bean paste is 35. At 110 per piece it is less than half a hotteok. The problem is only that nobody buys one.",
+      "The bag of 3 is 330 calories, the same as a bowl of tteokbokki, and the fresh ones go down in about 2 minutes. The cream custard version (슈크림 붕어빵) is a little higher at around 130 because the filling has butter and egg yolk, and the ingeoppang (잉어빵), the shinier cousin with oil in the batter, runs about 150 per piece.",
+      "Convenience store and frozen bungeoppang are heavier. Ottogi's frozen red bean version is 165 for a 60g piece because the batter is richer, and Orion's snack pack fish is 121 for just 29g. If you want the 110 calorie number, it has to come off a cart."
+    ],
+    "lighter": [
+      "Buy 3, eat 1 now and give 2 away. 110 calories is a snack; 330 is a meal's worth of sugar.",
+      "Red bean over cream. Red bean is about 110 per piece, custard cream 130.",
+      "Skip the ingeoppang carts. The oil in the batter pushes it to about 150 each.",
+      "Eat it with unsweetened tea or coffee instead of a sweet drink. The fish already has 10g of sugar in it.",
+      "Pair one with a skewer of eomuk (100 calories) for a 210 calorie street snack with some protein."
+    ],
+    "components": [
+      {"name": "Waffle batter, baked", "grams": 40, "calories": 75},
+      {"name": "Sweet red bean paste", "grams": 20, "calories": 35}
+    ],
+    "portions": [
+      {"label": "1 piece", "calories": 110},
+      {"label": "Bag of 3", "calories": 330},
+      {"label": "Bag of 5", "calories": 550}
+    ],
+    "variants": [
+      {"name": "Mini bungeoppang (20g)", "calories": 55, "note": "Bite-size version"},
+      {"name": "Red bean bungeoppang, cart", "calories": 110, "note": "Standard"},
+      {"name": "Cream custard bungeoppang", "calories": 130, "note": "Butter and yolk in filling"},
+      {"name": "Ingeoppang (oiled batter)", "calories": 150, "note": "Crispier, shinier skin"},
+      {"name": "Frozen Ottogi red bean (60g)", "calories": 165, "note": "Richer batter"}
+    ],
+    "faq": [
+      {"q": "How many calories in 3 bungeoppang?", "a": "About 330 for the standard bag of 3 red bean fish, roughly 110 each."},
+      {"q": "Is bungeoppang healthier than hotteok?", "a": "Yes, by a wide margin. It is baked, not fried: about 110 per piece versus 280 for a hotteok."},
+      {"q": "What is the difference between bungeoppang and ingeoppang?", "a": "Ingeoppang has oil in the batter for a crisp, shiny skin and a thinner shell. That takes it from about 110 to 150 calories per piece."},
+      {"q": "How much sugar is in a bungeoppang?", "a": "Around 10g per piece, from the sweetened red bean paste and the batter. Three pieces is about 30g, close to the daily added sugar limit."}
+    ],
+    "related": ["hotteok", "eomuk", "tteokbokki", "kuih-bahulu"],
+    "source": "fatsecret.kr 붕어빵 1개 110 kcal; frozen brand figures for variants"
+  },
+  {
+    "slug": "sundae",
+    "name": "Sundae",
+    "aka": ["순대", "Korean Blood Sausage", "Soondae", "Chal Sundae", "찰순대"],
+    "category": "snacks",
+    "region": ["kr"],
+    "serving": "1 serving (1인분, about 200g with liver and lung)",
+    "servingGrams": 200,
+    "calories": 300,
+    "protein": 12,
+    "carbs": 44,
+    "fat": 8,
+    "metaDescription": "A serving of sundae is about 300 calories, and most of it is the glass noodle filling, not the blood. Here is what the liver and salt dip add.",
+    "summary": "Sundae is pig intestine stuffed with glass noodles, pork blood and glutinous rice, steamed and sliced, served with slices of liver and lung and a dip of seasoned salt. The 4,000 won plate next to every tteokbokki cart.",
+    "answer": "A 1인분 plate of sundae is about 300 calories for roughly 200g, using the fatsecret.kr figure of 160 kcal per 100g for chal sundae plus the 40g of liver and lung on the side. Around 44g of the calories are carbs from the glass noodle filling. It is filling for the number.",
+    "realTalk": [
+      "Street sundae is mostly noodles. The filling is glass noodles and a little pork blood for colour, so 160g of sliced sundae is 255 calories with 12g of protein. The traditional version (피순대) with more blood, rice and vegetables is denser in protein but rarer, and the two are about the same on calories per 100g.",
+      "The plate is a decent deal at 4,000 to 5,000 won. The 40g of steamed liver and lung on the side is about 45 calories and where most of the protein and iron are. The salt dip (소금) is zero calories; the ssamjang some regions use is about 30 per spoon. Dipping sundae in tteokbokki sauce, which is the standard move, adds around 20 calories a slice.",
+      "Sundae bokkeum, the stir-fried version with vegetables, perilla and a sweet spicy sauce, is where it gets heavy: about 500 to 600 for a shared plate because of the oil and sugar. Sundae-guk, sundae in pork bone soup with rice, is around 550 for a full bowl and a normal 10,000 won lunch."
+    ],
+    "lighter": [
+      "Eat the liver and lung first. 45 calories for most of the protein on the plate.",
+      "Use salt, not tteokbokki sauce, as the dip. That saves 20 calories a slice across 10 or so slices.",
+      "Pick sundae over twigim as your tteokbokki side. 300 calories versus about 350 for 3 pieces of fried tempura.",
+      "Skip sundae bokkeum unless it is shared by 3. The sauce and oil push a plate past 500.",
+      "In sundae-guk, leave half the rice out of the soup. The soup alone is about 280."
+    ],
+    "components": [
+      {"name": "Steamed chal sundae, sliced", "grams": 160, "calories": 255},
+      {"name": "Steamed liver and lung", "grams": 40, "calories": 45}
+    ],
+    "portions": [
+      {"label": "Half plate (100g)", "calories": 160},
+      {"label": "1 serving (200g)", "calories": 300},
+      {"label": "Sundae-guk with rice", "calories": 550}
+    ],
+    "variants": [
+      {"name": "Chal sundae (glass noodle), 200g", "calories": 300, "note": "Standard street"},
+      {"name": "Pi sundae (blood and rice), 200g", "calories": 310, "note": "More blood, more protein"},
+      {"name": "Sundae-guk with rice", "calories": 550, "note": "Pork bone soup"},
+      {"name": "Sundae bokkeum, 1 shared plate", "calories": 560, "note": "Stir-fried with sauce"}
+    ],
+    "faq": [
+      {"q": "How many calories in a plate of sundae?", "a": "About 300 for a 1인분 of around 200g including the liver and lung. Without the offal, 160g of sundae is about 255."},
+      {"q": "Is sundae high in protein?", "a": "Not especially. Street chal sundae is mostly glass noodles, about 12g of protein per plate. The liver on the side has more protein per gram than the sausage."},
+      {"q": "Is sundae healthy?", "a": "It is steamed, not fried, at about 150 to 160 kcal per 100g, which makes it one of the lighter street foods. The liver adds iron. The dips and the fried versions are where it goes wrong."},
+      {"q": "How many calories in sundae-guk?", "a": "About 550 for a bowl with rice, or around 280 for the soup and sundae alone."}
+    ],
+    "related": ["tteokbokki", "eomuk", "gamjatang", "kway-chap"],
+    "source": "fatsecret.kr 찰순대 160 kcal per 100g; 순대 1인분 269 kcal cross-check; offal estimated"
+  }
+]

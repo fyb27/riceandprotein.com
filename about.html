@@ -19,7 +19,8 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/site.css">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -29,7 +30,7 @@
         "@id": "https://riceandprotein.com/#author",
         "name": "Rice and Protein",
         "url": "https://riceandprotein.com/about.html",
-        "description": "Lost over 40kg going from 128kg to 86kg using calories in vs calories out. No keto, no supplements. Writing about what actually worked.",
+        "description": "Lost 42kg going from 128kg to 86kg using calories in vs calories out. No keto, no supplements. Writing about what actually worked.",
         "knowsAbout": ["weight loss", "calorie deficit", "volume eating", "Malaysian food", "nutrition"]
       },
       {
@@ -51,53 +52,24 @@
   }
   </script>
   <style>
-    :root { --bg:#F7F7F7; --bg2:#EFEFEF; --accent:#C8622A; --accent2:#A84E22; --text:#1C1C1A; --muted:#767676; --border:#E0E0E0; --white:#ffffff; --max:680px; --header-h:56px; }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); font-size: 16px; line-height: 1.65; -webkit-font-smoothing: antialiased; display: flex; flex-direction: column; min-height: 100vh; }
-    a { text-decoration: none; color: inherit; }
-    button { font-family: 'DM Sans', sans-serif; cursor: pointer; }
-
-    .site-header { position: fixed; top: 0; left: 0; right: 0; z-index: 100; height: var(--header-h); background: var(--text); display: flex; align-items: center; }
-    .header-inner { width: 100%; max-width: 1000px; margin: 0 auto; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; }
-    .site-logo { font-family: 'DM Serif Display', serif; font-size: 18px; font-weight: 400; color: var(--white); }
-    .site-logo span { color: var(--accent); }
-    .site-nav { display: flex; align-items: center; }
-    .nav-list { display: flex; align-items: center; gap: 28px; list-style: none; }
-    .nav-list > li > a { font-size: 11px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: rgba(255,255,255,0.7); transition: color 0.2s; }
-    .nav-list > li > a:hover { color: var(--white); }
-    .has-dropdown { position: relative; }
-    .has-dropdown::after { content: ''; position: absolute; top: 100%; left: 0; right: 0; height: 10px; }
-    .nav-dropdown { position: absolute; top: calc(100% + 10px); right: 0; background: var(--text); border: 1px solid rgba(255,255,255,0.12); min-width: 210px; padding: 8px 0; list-style: none; opacity: 0; pointer-events: none; transition: opacity 0.18s ease; z-index: 200; }
-    .has-dropdown:hover .nav-dropdown, .has-dropdown:focus-within .nav-dropdown { opacity: 1; pointer-events: all; }
-    .nav-dropdown li a { display: block; padding: 10px 20px; font-size: 13px; color: rgba(255,255,255,0.65); font-weight: 400; transition: color 0.15s, background 0.15s; }
-    .nav-dropdown li a:hover { color: var(--white); background: rgba(255,255,255,0.07); }
-    .nav-toggle { display: none; flex-direction: column; gap: 5px; background: none; border: none; padding: 4px; cursor: pointer; }
-    .nav-toggle span { display: block; width: 22px; height: 2px; background: var(--white); }
-
-    .page { max-width: var(--max); margin: 0 auto; padding: calc(var(--header-h) + 48px) 24px 80px; flex: 1; width: 100%; display: flex; flex-direction: column; justify-content: center; }
-    .page-title { font-family: 'DM Serif Display', serif; font-size: clamp(34px, 5vw, 52px); font-weight: 400; line-height: 1.05; color: var(--text); margin-bottom: 40px; letter-spacing: -0.5px; }
-    .page-title span { color: var(--accent); }
-    .about-body { font-size: 16px; color: var(--text); line-height: 1.85; }
-    .about-body p { margin-bottom: 24px; }
-
-    .site-footer { background: var(--text); color: rgba(255,255,255,0.45); padding: 48px 24px; text-align: center; }
-    .footer-logo { font-family: 'DM Serif Display', serif; font-size: 20px; color: var(--white); margin-bottom: 10px; }
-    .footer-logo span { color: var(--accent); }
-    .footer-tag { font-size: 13px; margin-bottom: 20px; }
-    .footer-links { display: flex; gap: 28px; justify-content: center; list-style: none; }
-    .footer-links a { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: rgba(255,255,255,0.4); transition: color 0.2s; }
-    .footer-links a:hover { color: var(--white); }
-    .footer-backlink { font-size: 12px; color: rgba(255,255,255,0.22); margin-top: 18px; }
-    .footer-backlink a { color: rgba(255,255,255,0.22); transition: color 0.2s; }
-    .footer-backlink a:hover { color: rgba(255,255,255,0.5); }
-
+    .hero { padding: calc(var(--header-h) + 72px) 0 44px; text-align: center; }
+    .hero .display { max-width: 640px; margin: 0 auto; }
+    .hero .lede { max-width: 540px; margin: 18px auto 0; }
+    .about-stats { margin-bottom: 64px; }
+    .about-stats .card { padding: 30px 12px 26px; }
+    .about-stats .stat__num { font-size: clamp(34px, 5vw, 48px); }
+    .about-stats .stat__num small { font-size: 15px; font-weight: 500; letter-spacing: 0; color: var(--muted); margin-left: 3px; }
+    .about-stats .stat__label { margin-top: 8px; font-size: 13px; }
+    .story { padding-bottom: 56px; }
+    .story h2:first-child { margin-top: 0; }
+    .site-now { padding-bottom: 72px; }
+    .site-now .card-grid--2 { margin-top: 24px; }
     @media (max-width: 640px) {
-      .site-nav { display: none; } .nav-toggle { display: flex; }
-      .site-nav.is-open { display: block; position: fixed; top: var(--header-h); left: 0; right: 0; background: var(--text); padding: 20px 24px; z-index: 99; border-top: 1px solid rgba(255,255,255,0.1); }
-      .site-nav.is-open .nav-list { flex-direction: column; align-items: flex-start; gap: 14px; }
-      .site-nav.is-open .nav-dropdown { position: static; opacity: 1; pointer-events: all; background: transparent; border: none; padding: 6px 0 0 16px; }
-      .site-nav.is-open .has-dropdown::after { display: none; }
-      .page { padding: calc(var(--header-h) + 48px) 16px 72px; }
+      .about-stats { grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 48px; }
+      .about-stats .card { padding: 22px 8px 20px; }
+      .about-stats .stat__num { font-size: 30px; }
+      .about-stats .stat__num small { font-size: 12px; }
+      .about-stats .stat__label { font-size: 12px; }
     }
   </style>
 </head>
@@ -108,8 +80,22 @@
       <a href="index.html" class="site-logo">Rice and <span>Protein</span></a>
       <nav class="site-nav" id="site-nav">
         <ul class="nav-list">
-          <li><a href="about.html">About</a></li>
-          <li><a href="foods.html">Food Calories</a></li>
+          <li><a href="index.html">Calculator</a></li>
+          <li class="has-dropdown">
+            <a href="foods.html">Food Calories</a>
+            <ul class="nav-dropdown">
+              <li><a href="foods/malaysia.html">Malaysia</a></li>
+              <li><a href="foods/singapore.html">Singapore</a></li>
+              <li><a href="foods/indonesia.html">Indonesia</a></li>
+              <li><a href="foods/thailand.html">Thailand</a></li>
+              <li><a href="foods/vietnam.html">Vietnam</a></li>
+              <li><a href="foods/philippines.html">Philippines</a></li>
+              <li><a href="foods/hong-kong.html">Hong Kong</a></li>
+              <li><a href="foods/japan.html">Japan</a></li>
+              <li><a href="foods/korea.html">Korea</a></li>
+              <li><a href="foods.html">All foods by category</a></li>
+            </ul>
+          </li>
           <li class="has-dropdown">
             <a href="diets.html">Diets</a>
             <ul class="nav-dropdown">
@@ -121,7 +107,7 @@
               <li><a href="diets/omad.html">OMAD</a></li>
             </ul>
           </li>
-          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
@@ -132,25 +118,98 @@
   </header>
 
   <div class="page">
-    <h1 class="page-title">About Rice and <span>Protein</span></h1>
 
-    <div class="about-body">
-      <p>Welcome to Rice and Protein.</p>
-      <p>When I first started, I had no idea what I was doing. Calories, macros, protein, they all just sounded like gym jargon that had nothing to do with someone like me. I only knew one thing for sure: I was unhappy with where I'd ended up.</p>
-      <p>I was 128kg (about 282 lbs) at 183cm. I tried keto and gave up after two weeks. I tried just starving myself and lasted three days. Nothing stuck, because none of it made sense and none of it was something I could actually live with for the long haul. I love food too much to give it up forever, and I'm guessing you do too.</p>
-      <p>Eventually I figured out the basics, applied them consistently, and dropped all the way down to 86kg. No supplements. No extreme diets. No swearing off the food I love. Just understanding how food actually works and making smarter choices most of the time. These days I hold steady at a healthy 92kg without really thinking about it.</p>
-      <p>That's why I built this site. I wanted to put everything I wish I'd had when I started, in one place, explained simply, for free. If you're new to all this and feel lost, you're exactly who this is for.</p>
-      <p>I really do hope you find it useful. If you have questions or just want to say hi, <a href="contact.html" style="color:var(--accent);">drop me a message</a>.</p>
+    <section class="hero">
+      <p class="eyebrow">About</p>
+      <h1 class="display">From 128kg to 86kg, eating rice the whole way.</h1>
+      <p class="lede">I'm a regular guy from Malaysia who was 128kg at 183cm. No keto, no supplements, no giving up the food I love. This is what actually worked, with the real numbers.</p>
+    </section>
+
+    <div class="card-grid about-stats">
+      <div class="card stat">
+        <span class="stat__num">128<small>kg</small></span>
+        <span class="stat__label">Where I started</span>
+      </div>
+      <div class="card stat">
+        <span class="stat__num">86<small>kg</small></span>
+        <span class="stat__label">Lowest I reached</span>
+      </div>
+      <div class="card stat">
+        <span class="stat__num">92<small>kg</small></span>
+        <span class="stat__label">Where I sit today</span>
+      </div>
     </div>
+
+    <div class="story body-text">
+
+      <h2>The photo that started it</h2>
+      <p>Someone took a photo of me. I don't remember the occasion, but I remember opening it and feeling genuinely disappointed in myself. Not angry, not fired up. Just sad. I was 128kg at 183cm (about 282 lbs at 6 feet), and I had let it happen.</p>
+      <p>I'll be honest about something else too. I was in a pretty deep depression around that time, and the weight and the mood fed each other. I felt bad so I ate, I ate so I felt worse, repeat. I'm not going to pretend a chicken breast fixes brain chemistry. But taking back control of this one thing was the first domino for me.</p>
+
+      <h2>Everything I tried first</h2>
+      <p>Like most people, I assumed losing weight meant picking a Diet with a capital D and suffering through it.</p>
+      <p>Keto lasted two weeks. I love rice, bread and noodles, and cutting all of it made me the weird guy at every meal out. It was expensive as well, all that meat and cheese adds up fast. Paleo was the same problem with a different label. Intermittent fasting was cheap at least, but by 11am I was angry and foggy, and after a few days I would cave and eat everything in sight.</p>
+      <p>All of them worked for a bit, because all of them put me in a calorie deficit. None of them lasted, because they were too restrictive, too expensive, or too hungry. Willpower runs out. Mine always did.</p>
+
+      <h2>What finally worked: more food, fewer calories</h2>
+      <p>I stopped trying to eat less food and started eating more food that happened to be low in calories. That's <a href="diets/volume-eating.html">volume eating</a>, and it flipped everything.</p>
+      <p>My problem was never discipline. My problem was that I was always hungry. So instead of fighting the hunger, I removed it. Big piles of vegetables, lots of lean protein, a sensible amount of rice instead of a mountain of it. I was eating plates so big I sometimes couldn't finish them, and still losing weight. For the first time, losing weight did not feel like punishment.</p>
+
+      <h2>The real numbers</h2>
+      <p>I ate <strong>2,200 calories a day</strong>. That was below what my body burned, but high enough that I was never starving. To find your own number you need your TDEE, which is just how many calories you burn in a day. <a href="index.html">The calculator on the homepage</a> gives you that in two minutes.</p>
+      <p>The unglamorous part that made the real difference: <strong>I weighed my food on a kitchen scale and logged everything in MyFitnessPal.</strong> Every meal, every day. It takes about a week to become automatic. Almost everyone underestimates how much they eat, and the scale does not let you lie to yourself. That honesty was the single most important habit of the whole thing.</p>
+      <p>I kept protein high, because protein keeps you full and protects your muscle while the fat comes off. I also started lifting, <strong>3 or 4 times a week</strong>, heavy every time, mostly a push, pull, legs split. You can lose weight without the gym, it's all calories in the end. But lifting is what stopped me from ending up a smaller, softer version of the same shape.</p>
+      <p>None of this was fast, and none of it was dramatic. It was the same boring routine, repeated, for a long time.</p>
+
+      <h2>I still ate fast food and big meals out</h2>
+      <p>I never gave up the food I love. Not once did I tell myself I could never have my favourite meal again. A big meal is not a crime, it's a budgeting problem.</p>
+      <p>When I knew a big meal was coming, a wedding, a birthday, dinner with friends, I planned around it. A long walk that day, one or two hours, or eating a bit lighter for the next couple of days. You cannot dodge every social occasion, and you shouldn't have to. The week is what matters, not the single meal.</p>
+
+      <h2>Where I am now</h2>
+      <p>The lowest I hit was 86kg (190 lbs). Today I sit at a comfortable <strong>92kg</strong> (about 203 lbs), and I'm fine with that. I'm not chasing the lowest number anymore. I settled at a weight I can hold without thinking about it, while still enjoying my life and my food. That is the actual win.</p>
+      <p>I still lift heavy. That part never stopped, because it stopped being a chore a long time ago. So: 128kg down to 86, now holding at 92. That's 42kg lost, with no keto, no supplements and no giving up rice. Just understanding how food works, being honest with a kitchen scale, and lifting.</p>
+
+    </div>
+
+    <section class="site-now">
+      <h2 class="section-title">What this site is now</h2>
+      <div class="body-text">
+        <p>When I started, I was completely clueless. Calories, TDEE, protein, it all sounded like gym talk that wasn't meant for someone like me. I wasted months on diets that were never going to last. This site is what I wish I'd had on day one, explained simply and for free.</p>
+        <p>It does two things.</p>
+      </div>
+      <div class="card-grid card-grid--2">
+        <a href="foods.html" class="card link-card">
+          <div class="link-card__title">Calorie database for Asian food</div>
+          <div class="link-card__sub">Malaysia, Singapore, Indonesia, Thailand, Vietnam, the Philippines, Hong Kong, Japan and Korea. Real portions, real numbers, so you know what that plate actually costs you.</div>
+        </a>
+        <a href="index.html" class="card link-card">
+          <div class="link-card__title">Free TDEE calculator</div>
+          <div class="link-card__sub">Find out how many calories your body burns in a day, then pick a deficit you can live with. No sign up, takes two minutes.</div>
+        </a>
+      </div>
+      <div class="body-text" style="margin-top:24px;">
+        <p>If you have a question, spotted a wrong number, or just want to say hi, <a href="contact.html">drop me a message</a>.</p>
+      </div>
+    </section>
+
   </div>
+
+  <section class="band">
+    <h2 class="band__title">Get your numbers, then check your food.</h2>
+    <p class="band__sub">That's day one. It's the same two steps I took at 128kg.</p>
+    <div class="band__actions">
+      <a href="index.html" class="btn btn--primary">Use the calculator</a>
+      <a href="foods.html" class="btn btn--ghost">Browse food calories</a>
+    </div>
+  </section>
 
   <footer class="site-footer">
     <div class="footer-logo">Rice and <span>Protein</span></div>
-    <p class="footer-tag">Simple tools for people who want real results.</p>
+    <p class="footer-tag">Calorie counts for Asian food, plus a free TDEE calculator.</p>
     <ul class="footer-links">
-      <li><a href="blog.html">Blog</a></li>
-      <li><a href="about.html">About</a></li>
       <li><a href="foods.html">Food Calories</a></li>
+      <li><a href="diets.html">Diets</a></li>
+      <li><a href="about.html">About</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
     <p class="footer-backlink">Web design by <a href="https://sabahwebs.com">Sabah Webs</a></p>

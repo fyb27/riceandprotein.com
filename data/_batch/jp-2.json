@@ -1,0 +1,810 @@
+[
+  {
+    "slug": "gyoza",
+    "name": "Gyoza",
+    "aka": ["餃子", "ぎょうざ", "Japanese Dumplings", "Yaki Gyoza", "Pan-Fried Dumplings"],
+    "category": "snacks",
+    "region": ["jp"],
+    "serving": "1 plate (6 pieces)",
+    "servingGrams": 150,
+    "calories": 390,
+    "protein": 15,
+    "carbs": 36,
+    "fat": 19,
+    "metaDescription": "A plate of 6 gyoza is about 390 calories. Fine as a meal, dangerous as a side. Here is what the wrapper, the filling and the oil each cost you.",
+    "summary": "Thin wheat wrappers around minced pork, cabbage, garlic and chives, pan-fried on one side and steamed with a splash of water. Sold in plates of 6 at ramen shops, Gyoza no Ohsho and every izakaya in the country.",
+    "answer": "A standard plate of 6 pan-fried gyoza is about 390 calories, around 65 calories per dumpling. Roughly a third of that is the frying oil. A plate costs 330 to 363 yen at Ohsho, which is why it ends up next to a 600 calorie bowl of ramen more often than it should.",
+    "realTalk": [
+      "One gyoza is about 65 calories, which sounds harmless until you count how they are eaten. Nobody orders 2. The plate is 6, the Ohsho double is 12, and a 12 piece order is 780 calories before you have touched your fried rice. The filling itself is not the problem. Minced pork with cabbage is about 35 calories per dumpling. The wrapper adds 15 and the pan oil adds another 15, so half the plate's calories come from the 2 parts you do not taste as food.",
+      "The real trap is that gyoza is almost never the main dish. It is the side to a 525 calorie tonkotsu ramen or a 630 calorie plate of chahan. A ramen and gyoza set at a typical shop is 900 to 950 calories, and the beer that usually joins it is another 150. That is a 1,100 calorie lunch for about 1,300 yen, and it does not feel heavy while you eat it because each dumpling is 2 bites.",
+      "The dipping sauce is nearly free at about 10 calories for soy, vinegar and rayu chilli oil, unless you pour the rayu with a heavy hand. Rayu is pure oil, 40 calories per teaspoon. Two teaspoons of it in the dish adds 80 calories to a 390 calorie plate. Most people use a few drops. If you use it like a sauce, it is worth knowing."
+    ],
+    "lighter": [
+      "Order 6, not 12. The second plate is another 390 calories and you will not remember eating it.",
+      "Sui gyoza (boiled) is about 50 calories per piece instead of 65 because there is no pan oil. Many shops offer it.",
+      "Eat the gyoza as the protein and skip the chahan. Gyoza plus a plain bowl of rice is 640 calories, gyoza plus fried rice is 1,020.",
+      "Go easy on the rayu. Vinegar and soy are the flavour, the chilli oil is just fat with colour.",
+      "At home, a non-stick pan and a teaspoon of oil instead of 2 tablespoons drops the plate by around 80 calories."
+    ],
+    "components": [
+      {"name": "Wrappers, 6 pieces", "grams": 36, "calories": 100},
+      {"name": "Pork and cabbage filling", "grams": 100, "calories": 200},
+      {"name": "Frying oil absorbed", "grams": 9, "calories": 80},
+      {"name": "Soy, vinegar, rayu dip", "grams": 10, "calories": 10}
+    ],
+    "portions": [
+      {"label": "3 pieces", "calories": 195},
+      {"label": "1 plate, 6 pieces", "calories": 390},
+      {"label": "Double plate, 12 pieces", "calories": 780}
+    ],
+    "variants": [
+      {"name": "Sui gyoza (boiled), 6 pieces", "calories": 300, "note": "No pan oil"},
+      {"name": "Standard yaki gyoza, 6 pieces", "calories": 390, "note": "Pan-fried"},
+      {"name": "Hane-tsuki gyoza with crispy lattice, 6 pieces", "calories": 430, "note": "Flour and oil skirt adds about 40"},
+      {"name": "Age gyoza (deep-fried), 6 pieces", "calories": 480, "note": "Wrapper soaks up more oil"}
+    ],
+    "faq": [
+      {"q": "How many calories are in one gyoza?", "a": "About 65 calories for a standard pan-fried gyoza weighing around 25g. Boiled ones are closer to 50, deep-fried closer to 80."},
+      {"q": "Is gyoza good for weight loss?", "a": "As a main dish with rice and a salad, yes. A 6 piece plate at 390 calories has 15g of protein. The problem is when it is a side to ramen or fried rice, which pushes the meal past 900 calories."},
+      {"q": "How many calories in Ohsho gyoza?", "a": "A 6 piece plate at Gyoza no Ohsho lands in the same range, roughly 390 to 420 calories depending on how much oil the pan gets. The double plate is about 800."},
+      {"q": "Are frozen gyoza lower in calories?", "a": "Slightly. Supermarket frozen gyoza are smaller, around 20g each and about 45 to 50 calories per piece. A 12 pack cooked with a teaspoon of oil is roughly 600 calories."}
+    ],
+    "related": ["tonkotsu-ramen", "chicken-karaage", "shoyu-ramen", "yakisoba"],
+    "source": "estimate from components"
+  },
+  {
+    "slug": "chicken-karaage",
+    "name": "Chicken Karaage",
+    "aka": ["唐揚げ", "から揚げ", "からあげ", "Japanese Fried Chicken", "Tori no Karaage"],
+    "category": "lauk",
+    "region": ["jp"],
+    "serving": "5 pieces",
+    "servingGrams": 175,
+    "calories": 468,
+    "protein": 28,
+    "carbs": 27,
+    "fat": 28,
+    "metaDescription": "Chicken karaage is about 94 calories per piece and 468 for a 5 piece plate, using Matsunoya's published figures. How to make it fit.",
+    "summary": "Bite-sized pieces of chicken thigh marinated in soy, ginger and garlic, dusted in potato starch and deep-fried. Sold at teishoku chains, konbini hot counters, bento shops and every festival stall.",
+    "answer": "One piece of chicken karaage is about 94 calories, so a 5 piece plate is 468 calories. Those are Matsunoya's published numbers for their karaage, each piece about 35g. A karaage teishoku with rice and miso soup runs 900 to 1,000 calories.",
+    "realTalk": [
+      "Karaage looks like a light snack because each piece is small, but 94 calories per piece is more than a slice of pizza per bite. Thigh meat with skin is about 200 calories per 100g before it touches the fryer. The starch coating soaks up oil, and a 35g piece ends up with about 6g of fat, which is where 55 of its 94 calories sit. Five pieces is 28g of fat, the same as a McDonald's Big Mac.",
+      "The good news is the protein. A 5 piece plate has 28g of protein, more than most rice dishes in Japan. That is why a karaage bento at 800 calories keeps you full for hours while a 450 calorie onigiri and salad does not. The trick is the rice. Bento shops pack 250 to 300g of rice under the chicken, which is 390 to 470 calories on its own before the 468 of chicken.",
+      "Konbini karaage is a smaller version of the same thing. Lawson's Karaage-kun is 5 nugget-sized pieces at around 220 calories for the pack, less than half a restaurant plate because each piece is about 15g of breast meat instead of 35g of thigh. If you want the taste for a 250 yen snack and 220 calories, that is a reasonable trade. A full teishoku is 4 times that."
+    ],
+    "lighter": [
+      "Order 3 pieces instead of 5. Matsunoya lists 3 pieces at 281 calories, which is a proper protein serving.",
+      "Ask for less rice or leave a third of it. Rice is 250 to 300 calories of a karaage teishoku that nobody notices.",
+      "Squeeze the lemon and skip the mayo. Karaage mayo is 80 to 100 calories per squeeze.",
+      "Breast meat karaage (mune karaage) is about 70 calories per piece instead of 94. Some chains offer it.",
+      "At home, air-fry or shallow-fry with a tablespoon of oil. The starch still crisps and each piece drops to about 65 calories."
+    ],
+    "components": [
+      {"name": "Chicken thigh with skin, raw", "grams": 150, "calories": 300},
+      {"name": "Potato starch and flour coating", "grams": 20, "calories": 70},
+      {"name": "Frying oil absorbed", "grams": 11, "calories": 98}
+    ],
+    "portions": [
+      {"label": "3 pieces", "calories": 281},
+      {"label": "5 pieces", "calories": 468},
+      {"label": "8 pieces", "calories": 750}
+    ],
+    "variants": [
+      {"name": "Lawson Karaage-kun, 5 pieces", "calories": 220, "note": "Small breast-meat nuggets"},
+      {"name": "Breast meat karaage, 5 pieces", "calories": 350, "note": "Leaner cut"},
+      {"name": "Standard thigh karaage, 5 pieces", "calories": 468, "note": "Matsunoya figure"},
+      {"name": "Karaage with mayo, 5 pieces", "calories": 560, "note": "One squeeze of mayo adds about 90"},
+      {"name": "Karaage teishoku", "calories": 950, "note": "5 pieces, rice, miso soup, cabbage"}
+    ],
+    "faq": [
+      {"q": "How many calories in one piece of karaage?", "a": "About 94 calories for a standard 35g restaurant piece of thigh karaage. Konbini nugget-sized pieces are about 45 each."},
+      {"q": "Is karaage healthier than KFC?", "a": "Per 100g they are close. Karaage is about 270 calories per 100g, KFC original recipe about 250. Karaage usually has no bone, so you eat more meat per piece and the plate adds up faster."},
+      {"q": "How many calories in a karaage bento?", "a": "Typically 800 to 900 calories. That is 5 pieces of karaage at 468 plus 280g of rice at 440, with a little pickle and pasta salad on the side."},
+      {"q": "Can I eat karaage while cutting weight?", "a": "Yes, in a 3 piece portion with rice kept to 150g. That meal is about 520 calories with 25g of protein, which is a normal lunch."}
+    ],
+    "related": ["gyoza", "tonkatsu", "katsudon", "oyakodon"],
+    "source": "Matsunoya published nutrition PDF (単品本格唐揚げ 1個 94 kcal, 5個 468 kcal), Sep 2026"
+  },
+  {
+    "slug": "tempura",
+    "name": "Tempura",
+    "aka": ["天ぷら", "てんぷら", "Tempura Moriawase", "Assorted Tempura", "Ebi Tempura"],
+    "category": "lauk",
+    "region": ["jp"],
+    "serving": "1 assorted plate (2 prawns + 4 vegetables)",
+    "servingGrams": 170,
+    "calories": 480,
+    "protein": 14,
+    "carbs": 44,
+    "fat": 27,
+    "metaDescription": "An assorted tempura plate is about 480 calories, and a single prawn tempura is about 85. The batter and oil, not the prawn, are the cost. Full breakdown.",
+    "summary": "Prawns, sweet potato, pumpkin, aubergine, shiso and other vegetables dipped in a cold flour and egg batter and fried in light oil. Served as a plate with tentsuyu dipping sauce, on rice as tendon, or on top of udon and soba.",
+    "answer": "A standard assorted tempura plate with 2 prawns and 4 pieces of vegetable is about 480 calories. One prawn tempura is about 85 calories, one piece of kabocha or sweet potato about 90, and a kakiage fritter 120 to 180. On rice as a tendon, the meal reaches 750 to 850 calories.",
+    "realTalk": [
+      "A raw prawn is 15 calories. The same prawn as tempura is 85. That is the whole story of tempura in one line. The batter is flour and egg, which adds about 30 calories per piece, and then the batter soaks up frying oil, which adds another 40. Tempura is 20 to 25 percent oil by weight when it comes out of the fryer, so the light and crispy texture is doing a lot of hiding.",
+      "Vegetables are worse than they look. A slice of kabocha or sweet potato is 90 calories as tempura because the batter clings to the flat surface and the vegetable itself is starchy. Shishito peppers and shiso leaves are the cheap ones at about 30 calories each because they are thin and barely weigh anything. Kakiage, the fritter of shredded vegetables and small shrimp, is the heaviest single item on the plate at 120 to 180 calories because it is basically a puck of batter.",
+      "The way tempura is served decides the number. A 480 calorie plate with grated daikon and tentsuyu is a reasonable main. The same pieces on 280g of rice with sweet tare sauce as a tendon is 800 calories. On a bowl of udon it is 370 to 450 calories. At a good Tokyo counter, a 10 piece omakase course runs 1,000 calories and about 8,000 yen, so at least the price slows you down."
+    ],
+    "lighter": [
+      "Pick the plate over the tendon. The rice and sweet tare add 300 to 350 calories.",
+      "Choose prawns, shishito and shiso over kabocha and sweet potato. Each swap saves 50 to 60 calories.",
+      "Skip the kakiage. It is the one piece that is mostly batter.",
+      "Use the grated daikon and tentsuyu generously. They add almost nothing and the acid cuts the oil feeling.",
+      "At Marugame or Hanamaru, one prawn tempura on a kake udon is about 380 calories, a filling lunch."
+    ],
+    "components": [
+      {"name": "Prawn tempura, 2 pieces", "grams": 60, "calories": 170},
+      {"name": "Kabocha tempura, 1 slice", "grams": 35, "calories": 90},
+      {"name": "Aubergine tempura, 1 piece", "grams": 30, "calories": 70},
+      {"name": "Shishito and shiso tempura", "grams": 20, "calories": 40},
+      {"name": "Small kakiage", "grams": 40, "calories": 110}
+    ],
+    "portions": [
+      {"label": "Prawn tempura, 1 piece", "calories": 85},
+      {"label": "Assorted plate, 6 pieces", "calories": 480},
+      {"label": "Tendon (tempura on rice)", "calories": 800}
+    ],
+    "variants": [
+      {"name": "Tempura udon", "calories": 370, "note": "Kake udon with 1 prawn tempura"},
+      {"name": "Assorted plate, 6 pieces", "calories": 480, "note": "2 prawns, 4 vegetables"},
+      {"name": "Tempura soba set", "calories": 620, "note": "Zaru soba with 4 pieces"},
+      {"name": "Tendon, standard", "calories": 800, "note": "Tenya style bowl with sweet tare"},
+      {"name": "Omakase counter course, 10 pieces", "calories": 1000, "note": "No rice"}
+    ],
+    "faq": [
+      {"q": "How many calories in one ebi tempura?", "a": "About 85 calories for a standard prawn tempura. The prawn is 15 of that, the batter and oil are the other 70."},
+      {"q": "Is tempura unhealthy?", "a": "It is deep-fried, so it carries 20 to 25 percent oil by weight. A 480 calorie plate is fine as a main once a week. The issue is tendon at 800 calories or tempura as a side to a full meal."},
+      {"q": "Which tempura has the fewest calories?", "a": "Shiso leaf and shishito pepper at about 30 each. Then prawn and squid at 80 to 90, then kabocha and sweet potato at 90 to 100, and kakiage at 120 to 180."},
+      {"q": "How many calories in tempura sauce?", "a": "Tentsuyu is about 15 calories per small dish. Tendon tare, the sweet thick sauce on tendon, is closer to 60 to 80 because of the sugar."}
+    ],
+    "related": ["tempura-udon", "zaru-soba", "tonkatsu", "chicken-karaage"],
+    "source": "estimate from components"
+  },
+  {
+    "slug": "okonomiyaki",
+    "name": "Okonomiyaki",
+    "aka": ["お好み焼き", "おこのみやき", "Japanese Savoury Pancake", "Buta-tama", "Osaka Okonomiyaki"],
+    "category": "lauk",
+    "region": ["jp"],
+    "serving": "1 pancake (buta-tama, Osaka style)",
+    "servingGrams": 320,
+    "calories": 550,
+    "protein": 21,
+    "carbs": 50,
+    "fat": 29,
+    "metaDescription": "An Osaka-style pork okonomiyaki is about 550 calories. Half of it is the toppings you add at the table. Here is how to keep it under 400.",
+    "summary": "A griddle pancake of shredded cabbage, flour batter and egg with pork belly slices on top, finished with sweet brown sauce, mayonnaise, aonori and bonito flakes. Osaka mixes everything, Hiroshima layers it with noodles.",
+    "answer": "One Osaka-style buta-tama okonomiyaki is about 550 calories. The pancake itself, cabbage, batter, egg and pork, is about 450. The sauce, mayo and toppings add another 100. A Hiroshima-style one with a layer of yakisoba noodles is closer to 750.",
+    "realTalk": [
+      "The name means 'grilled how you like it', which is exactly the problem. The base is fine. A 120g pile of cabbage is 28 calories and an egg is 80. The 50g of flour batter is 180. What pushes it past 500 is the 40g of pork belly at 160 calories and then the table work. Okonomi sauce is 35 calories per tablespoon and mayo is 70 per tablespoon, and most people do not stop at one of each.",
+      "Hiroshima style changes the maths. The same pancake gets a full serving of yakisoba noodles griddled in, another 200 calories, and often a fried egg on top for 90 more. A 'Hiroshima special' with noodles, pork and extra egg is 750 to 800 calories for around 1,200 yen, roughly the same as a large katsudon. It also weighs close to 500g, so at least you feel it.",
+      "The upside nobody mentions is the cabbage. A single okonomiyaki holds 100 to 150g of cabbage, which is more vegetable than most Japanese meals manage in a day. Made at home with a lighter hand, half the flour, thin pork loin instead of belly, sauce brushed on rather than poured, the same size pancake comes in at 350 to 400 calories and still tastes like the real thing."
+    ],
+    "lighter": [
+      "Ask for sauce only, no mayo. The mayo zigzag alone is 70 to 140 calories.",
+      "Choose seafood (ika or ebi) over pork belly. Squid is 40 calories for the same weight that pork belly is 160.",
+      "Skip the noodle layer. Osaka style over Hiroshima style saves about 200 calories.",
+      "At home, halve the flour and double the cabbage. The pancake still holds together with 1 egg.",
+      "Share one pancake and add a plate of grilled vegetables from the same teppan. A half is 275 calories."
+    ],
+    "components": [
+      {"name": "Flour and dashi batter", "grams": 60, "calories": 180},
+      {"name": "Egg, 1 whole", "grams": 55, "calories": 80},
+      {"name": "Shredded cabbage", "grams": 120, "calories": 28},
+      {"name": "Pork belly slices", "grams": 40, "calories": 160},
+      {"name": "Okonomi sauce and mayo", "grams": 35, "calories": 90},
+      {"name": "Aonori, bonito flakes, pickled ginger", "grams": 8, "calories": 12}
+    ],
+    "portions": [
+      {"label": "Half pancake", "calories": 275},
+      {"label": "1 buta-tama pancake", "calories": 550},
+      {"label": "1 Hiroshima style with noodles", "calories": 750}
+    ],
+    "variants": [
+      {"name": "Ika-tama (squid), no mayo", "calories": 400, "note": "Lean seafood, sauce only"},
+      {"name": "Buta-tama, sauce only", "calories": 480, "note": "Skip the mayo"},
+      {"name": "Buta-tama, full toppings", "calories": 550, "note": "Standard Osaka order"},
+      {"name": "Modan-yaki (with noodles)", "calories": 700, "note": "Osaka pancake plus a layer of yakisoba"},
+      {"name": "Hiroshima special with egg", "calories": 800, "note": "Noodles, pork, extra fried egg"}
+    ],
+    "faq": [
+      {"q": "How many calories in an okonomiyaki?", "a": "About 550 for a standard Osaka-style pork okonomiyaki with sauce and mayo. Hiroshima style with noodles is 750 to 800."},
+      {"q": "Is okonomiyaki healthy?", "a": "Healthier than it looks. It contains 100 to 150g of cabbage and 20g of protein. The calories come from pork belly, flour and mayo, all of which can be cut. A lighter home version is 350 to 400."},
+      {"q": "How many calories in okonomiyaki sauce and mayo?", "a": "Okonomi sauce is about 35 calories per tablespoon, Japanese mayo about 70 per tablespoon. A typical restaurant finish uses 2 tablespoons of sauce and 1 of mayo, around 140 calories."},
+      {"q": "Osaka or Hiroshima okonomiyaki, which has fewer calories?", "a": "Osaka, by about 200 calories. Hiroshima style adds a full serving of yakisoba noodles and usually a fried egg."}
+    ],
+    "related": ["takoyaki", "yakisoba", "gyoza", "tonkotsu-ramen"],
+    "source": "estimate from components"
+  },
+  {
+    "slug": "takoyaki",
+    "name": "Takoyaki",
+    "aka": ["たこ焼き", "たこやき", "Octopus Balls", "Tako-yaki"],
+    "category": "snacks",
+    "region": ["jp"],
+    "serving": "1 tray (8 pieces)",
+    "servingGrams": 200,
+    "calories": 400,
+    "protein": 12,
+    "carbs": 40,
+    "fat": 21,
+    "metaDescription": "A tray of 8 takoyaki is about 400 calories, roughly 50 per ball. Street stall versions with extra oil and mayo go higher. Numbers per ball inside.",
+    "summary": "Balls of dashi-flavoured batter cooked in a dimpled iron pan around a piece of boiled octopus, with pickled ginger and spring onion, then brushed with sauce, mayo, aonori and bonito flakes. The Osaka street snack sold in trays of 6, 8 or 12.",
+    "answer": "A tray of 8 takoyaki is about 400 calories, so around 50 calories per ball. The batter and the oil in the pan make up most of it, with the sauce and mayo adding about 70. Chain stalls like Gindaco that cook in more oil for a crisp shell run higher, closer to 550 for 8.",
+    "realTalk": [
+      "One takoyaki is about 50 calories and the octopus inside is 4 of them. The ball is batter, roughly 6g of flour with dashi and egg, cooked in a pan that is oiled between every batch. Some of that oil ends up in the crust. A tray of 8 has about 12g of oil from the pan, which is 108 calories, more than a quarter of the tray. That is before anyone reaches for the sauce.",
+      "The topping is a set routine and it costs about 70 calories. Sauce is 25, mayo is 40, and the aonori and bonito flakes are almost nothing. Where trays differ is the cooking style. A festival stall making soft, gooey takoyaki uses less oil and a tray is 350 to 400 calories. Gindaco fries the shell crisp in a lot of oil and its 8 piece tray is around 550 calories for 650 yen. Same food, 150 calorie gap.",
+      "Portion size is the real variable. Takoyaki is sold as a snack, but 8 balls is 200g of food and 400 calories, which is a light meal. A 12 piece tray at 600 calories is a full one. Since it is usually eaten standing, between other things, on the way to dinner, it is easy to forget that it counted."
+    ],
+    "lighter": [
+      "Order 6 instead of 8 or 12. Six is 300 calories and still feels like a snack.",
+      "Ask for no mayo. That is 40 to 60 calories off, and the sauce carries the flavour anyway.",
+      "Salt and ponzu style (shio or ponzu takoyaki) is about 40 calories less per tray than sauce and mayo.",
+      "Festival-style soft takoyaki beats crispy chain takoyaki by about 150 calories per tray.",
+      "Count it as lunch. Eight takoyaki and a bottle of tea is a 400 calorie meal, not a zero."
+    ],
+    "components": [
+      {"name": "Flour, egg and dashi batter", "grams": 130, "calories": 200},
+      {"name": "Boiled octopus, 8 pieces", "grams": 40, "calories": 30},
+      {"name": "Pan oil absorbed", "grams": 12, "calories": 108},
+      {"name": "Takoyaki sauce", "grams": 20, "calories": 25},
+      {"name": "Mayonnaise", "grams": 6, "calories": 42}
+    ],
+    "portions": [
+      {"label": "6 pieces", "calories": 300},
+      {"label": "8 pieces", "calories": 400},
+      {"label": "12 pieces", "calories": 600}
+    ],
+    "variants": [
+      {"name": "Shio or ponzu, 8 pieces", "calories": 360, "note": "No sauce and mayo"},
+      {"name": "Festival stall, sauce and mayo, 8 pieces", "calories": 400, "note": "Soft style, less oil"},
+      {"name": "Gindaco crispy style, 8 pieces", "calories": 550, "note": "Fried in more oil"},
+      {"name": "Cheese mentaiko, 8 pieces", "calories": 600, "note": "Cheese and mentaiko mayo on top"}
+    ],
+    "faq": [
+      {"q": "How many calories in one takoyaki?", "a": "About 50 calories with sauce and mayo. The octopus piece is only 4 of those. Crispy chain-style balls are closer to 70 each."},
+      {"q": "Is takoyaki a healthy snack?", "a": "Not especially. It is mostly refined flour and oil with 12g of protein per tray of 8. A tray is 400 calories, which is a light meal rather than a snack."},
+      {"q": "How many calories in Gindaco takoyaki?", "a": "Gindaco cooks its takoyaki in more oil for a crisp shell, so an 8 piece tray is around 550 calories, about 150 more than a soft festival-style tray."},
+      {"q": "Takoyaki or okonomiyaki, which is lighter?", "a": "A tray of 8 takoyaki at 400 calories is lighter than a full okonomiyaki at 550, but per 100g they are nearly identical. It comes down to how much you eat."}
+    ],
+    "related": ["okonomiyaki", "yakisoba", "gyoza", "chicken-karaage"],
+    "source": "estimate from components"
+  },
+  {
+    "slug": "tonkatsu",
+    "name": "Tonkatsu",
+    "aka": ["とんかつ", "豚カツ", "ロースかつ", "Rosu Katsu", "Japanese Pork Cutlet"],
+    "category": "lauk",
+    "region": ["jp"],
+    "serving": "1 rosu katsu (cutlet only, no rice)",
+    "servingGrams": 160,
+    "calories": 442,
+    "protein": 19,
+    "carbs": 24,
+    "fat": 30,
+    "metaDescription": "A single tonkatsu cutlet is 442 calories and the full teishoku is 830, using Matsunoya's published numbers. Where the fat sits and what to cut.",
+    "summary": "A thick pork loin cutlet coated in panko breadcrumbs and deep-fried until the crust shatters, sliced and served with shredded cabbage, tonkatsu sauce and mustard. The teishoku adds rice, miso soup and pickles.",
+    "answer": "One rosu (loin) tonkatsu cutlet is about 442 calories on its own. That is Matsunoya's published figure for their single cutlet. As a teishoku with rice, cabbage and miso soup it is 830 calories, and as a katsudon on rice with egg it reaches 1,011.",
+    "realTalk": [
+      "The cutlet alone is 442 calories, and 30g of that is fat, which means 270 of the 442 calories are fat calories. A 120g piece of raw pork loin has about 15g of fat to begin with. The panko crust then soaks up another 10 to 15g of oil in the fryer. That is why a hire (fillet) katsu, made from a leaner cut, comes in about 100 calories lower at the same weight. The crust is identical, the meat underneath is not.",
+      "The teishoku is where people lose track. Matsunoya's rosu katsu teishoku is 830 calories: 442 for the cutlet, about 250 for the rice, 28 for the miso soup, and the rest is cabbage, pickles and sauce. Many tonkatsu specialists offer free rice and cabbage refills, and a second scoop of rice is another 250. A 'refill twice' lunch is 1,300 calories, more than a full day of eating for some people, for about 1,000 yen.",
+      "Tonkatsu sauce is 25 calories per tablespoon, not terrible. The cabbage is 20 calories for the whole pile and worth eating first. The other thing to know is the size range. A regular cutlet is 120g raw. The 'thick cut' or 'rib loin' cutlets that specialist shops push are 180 to 200g and 650 to 700 calories on their own, so the same teishoku becomes 1,100."
+    ],
+    "lighter": [
+      "Order hire katsu instead of rosu. Same crust, leaner meat, about 100 calories less.",
+      "Skip the rice refill. One bowl is 250 calories, two is 500.",
+      "Eat the cabbage first with a squeeze of lemon and take the refill on that instead. Cabbage is 20 calories a pile.",
+      "Leave the fatty edge of the loin. On a rosu katsu that strip is 50 to 70 calories.",
+      "Katsu curry and katsudon add 250 to 600 calories over the plain cutlet. Have the cutlet as a teishoku."
+    ],
+    "components": [
+      {"name": "Pork loin, raw", "grams": 120, "calories": 260},
+      {"name": "Panko, flour and egg coating", "grams": 35, "calories": 110},
+      {"name": "Frying oil absorbed", "grams": 8, "calories": 72}
+    ],
+    "portions": [
+      {"label": "Cutlet only", "calories": 442},
+      {"label": "Rosu katsu teishoku", "calories": 830},
+      {"label": "Rosu katsu don (katsudon)", "calories": 1011}
+    ],
+    "variants": [
+      {"name": "Hire katsu (fillet), cutlet only", "calories": 340, "note": "Leaner cut, same crust"},
+      {"name": "Rosu katsu, cutlet only", "calories": 442, "note": "Matsunoya published figure"},
+      {"name": "Hire katsu teishoku", "calories": 730, "note": "With rice, cabbage, miso soup"},
+      {"name": "Rosu katsu teishoku", "calories": 830, "note": "Matsunoya published figure"},
+      {"name": "Thick-cut rib loin teishoku", "calories": 1100, "note": "180 to 200g cutlet"}
+    ],
+    "faq": [
+      {"q": "How many calories in a tonkatsu set meal?", "a": "About 830 calories for a rosu katsu teishoku with rice, cabbage and miso soup. That is Matsunoya's published number. Specialist shops with bigger cutlets are 900 to 1,100."},
+      {"q": "Hire or rosu katsu, which is lower in calories?", "a": "Hire (fillet) is about 100 calories lower per cutlet, around 340 versus 442, because fillet has about a third of the fat of loin."},
+      {"q": "Is tonkatsu high in protein?", "a": "Moderately. A single cutlet has about 19g of protein, but 30g of fat. Chicken karaage delivers more protein per calorie."},
+      {"q": "How many calories in tonkatsu sauce?", "a": "About 25 calories per tablespoon. Two tablespoons on a cutlet is 50 calories, less than the rice refill most people take without thinking."}
+    ],
+    "related": ["katsudon", "katsu-curry", "chicken-karaage", "miso-soup"],
+    "source": "Matsunoya published nutrition PDF (単品ロースかつ 442 kcal, ロースかつ定食 830 kcal, ロースかつ丼 1011 kcal), Sep 2026"
+  },
+  {
+    "slug": "miso-soup",
+    "name": "Miso Soup",
+    "aka": ["味噌汁", "みそ汁", "Misoshiru", "Tofu Wakame Miso Soup"],
+    "category": "soup",
+    "region": ["jp"],
+    "serving": "1 bowl (tofu and wakame)",
+    "servingGrams": 180,
+    "calories": 40,
+    "protein": 3,
+    "carbs": 4,
+    "fat": 1.5,
+    "metaDescription": "A bowl of miso soup is about 40 calories with tofu and wakame, and only 28 at Matsunoya. The one Japanese dish you never have to think about.",
+    "summary": "Dashi stock with miso paste stirred in, plus tofu cubes and wakame seaweed, or whatever vegetables are in season. It comes with almost every teishoku in Japan and costs 100 to 150 yen on its own.",
+    "answer": "A standard bowl of miso soup with tofu and wakame is about 40 calories. Matsunoya publishes its plain miso soup at 28 calories. The miso paste is most of that, the tofu adds about 15, and the dashi and seaweed are close to zero. Tonjiru, the pork and root vegetable version, is 140 to 180.",
+    "realTalk": [
+      "Miso soup is the cheapest way to feel like you ate more. A bowl is 180ml of hot salty liquid for 40 calories, and it slows the meal down. The miso paste is 12 to 15g per bowl at about 2 calories per gram. Tofu is 25g at 14 calories. Wakame, dried, is 1g and rounds to nothing. Even if you double the tofu, you are at 55.",
+      "The trade-off is salt. A bowl carries 1.2 to 1.6g of salt, and Matsunoya lists theirs at 1.6g. Japan's health ministry suggests under 7.5g a day for men, so 2 bowls at breakfast and dinner is nearly half the budget. Nobody gains weight from miso soup, but if you are watching blood pressure, one bowl a day is the sensible ceiling. Reduced-salt miso pastes (genen miso) cut that by about a third.",
+      "Watch for the upgraded versions. Tonjiru with pork belly, daikon, carrot and konnyaku is 140 to 180 calories a bowl and 7g of fat, still reasonable as a side. Miso soup with a whole fried tofu pouch or nameko mushrooms in a thick broth is 80 to 100. The instant cup versions from the konbini are 30 to 45 and fine, just salty."
+    ],
+    "lighter": [
+      "There is nothing to cut. At 40 calories, drink the bowl and enjoy it.",
+      "Use it as the starter. A bowl of hot soup before a teishoku means you eat the rice slower and often leave some.",
+      "If salt is the concern, pick genen (reduced salt) miso at home, about 1g of salt per bowl instead of 1.5.",
+      "Add more tofu and wakame, not more miso. Extra tofu is 15 calories and 2g of protein per 25g.",
+      "Tonjiru at 150 calories with a small rice bowl is a proper 400 calorie lunch on its own."
+    ],
+    "components": [
+      {"name": "Miso paste", "grams": 12, "calories": 22},
+      {"name": "Silken tofu", "grams": 25, "calories": 14},
+      {"name": "Dried wakame", "grams": 1, "calories": 2},
+      {"name": "Dashi stock", "grams": 150, "calories": 3}
+    ],
+    "portions": [
+      {"label": "Plain miso soup (Matsunoya)", "calories": 28},
+      {"label": "Tofu and wakame bowl", "calories": 40},
+      {"label": "Tonjiru (pork and vegetables)", "calories": 150}
+    ],
+    "variants": [
+      {"name": "Plain, spring onion only", "calories": 28, "note": "Matsunoya published figure"},
+      {"name": "Tofu and wakame", "calories": 40, "note": "Standard teishoku bowl"},
+      {"name": "Instant cup miso soup", "calories": 40, "note": "Konbini or supermarket sachet"},
+      {"name": "Nameko mushroom and aburaage", "calories": 85, "note": "Fried tofu pouch adds most of it"},
+      {"name": "Tonjiru", "calories": 150, "note": "Pork belly, daikon, carrot, konnyaku"}
+    ],
+    "faq": [
+      {"q": "How many calories in a bowl of miso soup?", "a": "About 40 calories for a standard bowl with tofu and wakame. A plain bowl is around 28, tonjiru with pork is 140 to 180."},
+      {"q": "Is miso soup good for weight loss?", "a": "Yes. At 40 calories a bowl it adds volume and warmth to a meal for almost nothing, which makes it easier to eat less of the rice. The only caution is salt at about 1.5g per bowl."},
+      {"q": "How much salt is in miso soup?", "a": "About 1.2 to 1.6g per bowl. Two bowls a day is roughly 40 percent of the 7.5g daily limit Japan recommends for men."},
+      {"q": "Does miso soup have protein?", "a": "A little. About 3g per bowl from the miso and tofu. It is not a protein source, it is a low calorie side."}
+    ],
+    "related": ["tonkatsu", "gyudon", "oyakodon", "salmon-nigiri"],
+    "source": "Matsunoya published nutrition PDF (みそ汁 28 kcal, 豚汁 143 kcal); tofu and wakame bowl estimated from components"
+  },
+  {
+    "slug": "salmon-nigiri",
+    "name": "Salmon Nigiri",
+    "aka": ["サーモン握り", "サーモン寿司", "サーモンにぎり", "Salmon Sushi", "Sake Nigiri"],
+    "category": "rice",
+    "region": ["jp"],
+    "serving": "1 plate (2 pieces)",
+    "servingGrams": 60,
+    "calories": 93,
+    "protein": 7,
+    "carbs": 12,
+    "fat": 2.5,
+    "metaDescription": "A plate of 2 salmon nigiri is 93 calories at Kura Sushi, about 47 per piece. The rice is more than the fish. How 10 plates add up.",
+    "summary": "A slice of raw salmon pressed over a small mound of vinegared sushi rice with a dab of wasabi. The best-selling plate at every kaiten sushi chain in Japan for years running, priced at 110 to 160 yen.",
+    "answer": "A plate of 2 salmon nigiri is 93 calories at Kura Sushi, so about 47 calories per piece. The rice is about 30 of each piece and the salmon about 17. At a traditional sushi shop with bigger rice balls and thicker cuts, a piece is closer to 65 to 70.",
+    "realTalk": [
+      "Nobody gets fat on 2 pieces of salmon sushi. People get fat on 12 plates of it. Kura lists a salmon plate at 93 calories, which sounds like a diet food until you do the kaiten maths. Ten plates is 930 calories and 1,200 yen, and 10 plates is a perfectly normal lunch for an adult man in Japan. Fifteen plates is 1,400. The conveyor belt is the reason the number matters.",
+      "The rice is the bigger half. Each nigiri sits on 18 to 20g of sushi rice seasoned with sugar and vinegar, about 30 calories. The salmon slice is 8 to 10g at chain shops, about 17 calories. That is why 'shari half' (half rice) options exist at Kura and Sushiro. Ordering half rice drops the plate to about 65 calories and lets you eat 15 plates for the calories of 10.",
+      "The variations are not equal. Plain salmon at 93 is the cheap one. Aburi cheese salmon at Kura is 120 for the plate, salmon with onion mayo is around 130, and anything with 'mayo' or 'cheese' in the name adds 30 to 50 per plate. Ten plates of the fancy salmon is 1,300 instead of 930, and it is the same fish."
+    ],
+    "lighter": [
+      "Order shari-half (half rice) where offered. Drops each plate from 93 to about 65.",
+      "Stick to plain salmon, tuna and squid. Mayo and cheese toppings add 30 to 50 per plate.",
+      "Set a plate count before you sit down. Eight plates is 750 calories, twelve is 1,100.",
+      "Mix in sashimi plates with no rice. Five slices of salmon sashimi is about 90 calories with no carbs.",
+      "Chawanmushi at 67 calories and miso soup at 40 fill you up between plates for almost nothing."
+    ],
+    "components": [
+      {"name": "Sushi rice, 2 balls", "grams": 36, "calories": 59},
+      {"name": "Raw salmon, 2 slices", "grams": 20, "calories": 36},
+      {"name": "Wasabi and soy sauce", "grams": 4, "calories": 2}
+    ],
+    "portions": [
+      {"label": "1 piece", "calories": 47},
+      {"label": "1 plate, 2 pieces", "calories": 93},
+      {"label": "10 plates", "calories": 930}
+    ],
+    "variants": [
+      {"name": "Shari-half salmon, 2 pieces", "calories": 65, "note": "Half rice option at Kura and Sushiro"},
+      {"name": "Plain salmon, 2 pieces", "calories": 93, "note": "Kura Sushi published figure"},
+      {"name": "Aburi cheese salmon, 2 pieces", "calories": 120, "note": "Kura Sushi published figure"},
+      {"name": "Salmon onion mayo, 2 pieces", "calories": 130, "note": "Mayo adds about 40"},
+      {"name": "Traditional sushi-ya salmon, 2 pieces", "calories": 135, "note": "Bigger rice ball, thicker cut"}
+    ],
+    "faq": [
+      {"q": "How many calories in one salmon nigiri?", "a": "About 47 calories at a kaiten chain, based on Kura's 93 per 2 piece plate. At a traditional shop with more rice and a thicker slice, about 65 to 70."},
+      {"q": "Is salmon sushi good for weight loss?", "a": "Per piece, yes. It has protein and omega-3 fat for under 50 calories. The problem is volume. Ten plates is over 900 calories, so decide on a plate count first."},
+      {"q": "How many calories in 10 plates of sushi?", "a": "Around 900 to 1,000 for plain fish plates like salmon, tuna and squid. Closer to 1,300 if half the plates are mayo, cheese or tempura toppings."},
+      {"q": "Salmon nigiri or salmon sashimi?", "a": "Sashimi has no rice, so 5 slices is about 90 calories with 15g of protein. Nigiri is 93 for 2 pieces with 7g of protein. Sashimi wins for protein per calorie."}
+    ],
+    "related": ["kaisen-don", "miso-soup", "zaru-soba", "unagi-don"],
+    "source": "Kura Sushi menu page (サーモン 1皿 93 kcal, あぶりチーズサーモン 120 kcal), Sep 2026"
+  },
+  {
+    "slug": "japanese-curry-rice",
+    "name": "Japanese Curry Rice",
+    "aka": ["カレーライス", "カレー", "Kare Raisu", "CoCo Ichibanya Curry", "Pork Curry"],
+    "category": "rice",
+    "region": ["jp"],
+    "serving": "1 plate (pork curry, rice 300g)",
+    "servingGrams": 500,
+    "calories": 701,
+    "protein": 11,
+    "carbs": 127,
+    "fat": 18,
+    "metaDescription": "A plate of Japanese curry rice is 701 calories at CoCo Ichibanya with 300g of rice. Toppings push it past 1,100. How to order it under 500.",
+    "summary": "Thick, mildly sweet brown curry sauce made from a roux block, poured over a plate of white rice with fukujinzuke pickles on the side. CoCo Ichibanya lets you pick rice weight, spice level and toppings, which is where the calories swing.",
+    "answer": "A standard plate of Japanese curry rice is about 701 calories, which is CoCo Ichibanya's published figure for its pork curry with 300g of rice. The rice is 468 of that and the sauce about 233. Beef curry is 823, chicken nikomi 769, and a rosu katsu curry is 1,116.",
+    "realTalk": [
+      "The rice is two thirds of the plate. CoCo Ichi's standard 300g of rice is 468 calories before a drop of sauce lands on it, and the pork curry sauce itself is only about 230. That is the opposite of what most people assume. The curry looks rich, but it is a thin layer of roux, flour and a little pork over a very large pile of carbohydrate. At 127g of carbs, one plate is more carbs than 3 bowls of ramen noodles.",
+      "Toppings are how a 701 calorie plate becomes a 1,100 one. Rosu katsu curry is 1,116 by CoCo Ichi's own table, fried chicken curry is 1,026, and the cheese topping adds about 150. The base curry costs about 600 yen, and each topping is 200 to 300 yen, so the bill and the calories climb together. A 'katsu, cheese, extra sauce' order is 1,300 calories for about 1,200 yen.",
+      "The good news is that CoCo Ichi is the easiest chain in Japan to order light at. Rice comes in 100g steps. Drop from 300g to 200g and the plate is about 545 calories. Choose the 150g option and it is 467. Add the spinach or vegetable topping instead of katsu and you have a 550 calorie plate with something green on it, which is rare for a curry shop."
+    ],
+    "lighter": [
+      "Order rice at 200g instead of 300g. Saves 156 calories, and the plate still looks full.",
+      "Pick pork or chicken nikomi over beef. Beef sauce is about 120 calories more per plate.",
+      "Skip the katsu. Rosu katsu curry is 1,116, pork curry is 701.",
+      "Vegetable toppings (spinach, asparagus, mushroom) add 20 to 60. Cheese, egg and cream croquette add 100 to 200.",
+      "Eat the fukujinzuke pickles freely. A serving is 3 calories."
+    ],
+    "components": [
+      {"name": "White rice", "grams": 300, "calories": 468},
+      {"name": "Pork curry sauce", "grams": 200, "calories": 233}
+    ],
+    "portions": [
+      {"label": "Pork curry, rice 200g", "calories": 545},
+      {"label": "Pork curry, rice 300g", "calories": 701},
+      {"label": "Rosu katsu curry, rice 300g", "calories": 1116}
+    ],
+    "variants": [
+      {"name": "Pork curry, rice 150g", "calories": 467, "note": "Small rice option"},
+      {"name": "Pork curry, rice 300g", "calories": 701, "note": "CoCo Ichi published figure"},
+      {"name": "Chicken nikomi curry, rice 300g", "calories": 769, "note": "CoCo Ichi published figure"},
+      {"name": "Beef curry, rice 300g", "calories": 823, "note": "CoCo Ichi published figure"},
+      {"name": "Fried chicken curry, rice 300g", "calories": 1026, "note": "CoCo Ichi published figure, 5 pieces"},
+      {"name": "Rosu katsu curry, rice 300g", "calories": 1116, "note": "CoCo Ichi published figure"}
+    ],
+    "faq": [
+      {"q": "How many calories in CoCo Ichibanya curry?", "a": "The base pork curry with 300g of rice is 701 calories. Beef is 823, chicken nikomi 769, rosu katsu curry 1,116. Every 100g of rice changes the total by 156."},
+      {"q": "Is Japanese curry high in calories?", "a": "The sauce is moderate at about 230 calories per serving. The rice is the issue at 468 for a standard 300g plate. Cut the rice to 200g and a plate is 545."},
+      {"q": "How many calories in a curry roux block?", "a": "One block of supermarket roux like Vermont or Java Curry is about 90 to 100 calories and makes one serving of sauce. Most of that is fat and flour."},
+      {"q": "What is the lowest calorie order at CoCo Ichi?", "a": "Pork curry with 150g rice and a vegetable topping, around 500 calories. The soup curry and cauliflower rice options go lower still, under 400."}
+    ],
+    "related": ["katsu-curry", "gyudon", "katsudon", "omurice"],
+    "source": "CoCo Ichibanya published nutrition PDF (ポークカレー ライス300g 701 kcal, ビーフ 823, チキンにこみ 769, ロースカツカレー 1116, ライス100g 156), Sep 2026"
+  },
+  {
+    "slug": "omurice",
+    "name": "Omurice",
+    "aka": ["オムライス", "Omu-rice", "Omelette Rice", "Japanese Omelette Rice"],
+    "category": "rice",
+    "region": ["jp"],
+    "serving": "1 plate",
+    "servingGrams": 400,
+    "calories": 750,
+    "protein": 22,
+    "carbs": 90,
+    "fat": 32,
+    "metaDescription": "A plate of omurice is about 750 calories. The ketchup rice is 500 of it before the egg goes on. Demi-glace and cheese versions hit 900. Full breakdown.",
+    "summary": "Ketchup-fried rice with chicken and onion wrapped in a thin omelette, or topped with a soft runny one that is split open at the table. Finished with ketchup or demi-glace sauce. A yoshoku classic at family restaurants, kissaten and Pomunoki.",
+    "answer": "A standard plate of omurice is about 750 calories. The chicken rice inside is about 500 calories on its own because it is 220g of rice fried in butter with ketchup. The 2 egg omelette and the butter it is cooked in add 210, and the ketchup on top another 20. Demi-glace or cheese versions run 850 to 950.",
+    "realTalk": [
+      "Omurice is fried rice wearing a disguise. The rice inside is cooked in butter with ketchup, and ketchup is a quarter sugar by weight. A 220g portion of chicken rice has 10g of butter and 25g of ketchup in it, which is 100 calories of fat and sugar hidden inside what looks like plain orange rice. The omelette on top is 2 eggs at 150 plus another knob of butter to get it glossy. Then more ketchup on top.",
+      "The fancier the sauce, the higher the number. Ketchup is about 20 calories for the squiggle on top. Demi-glace sauce, the dark one at yoshoku restaurants, is 100 to 150 for a ladle because it is stock reduced with butter and flour. A cheese omurice with demi-glace and a cream sauce is 900 to 950 calories. Pomunoki's large size is about 500g of rice and clears 1,200.",
+      "There is not much protein for the size. A 750 calorie plate has about 22g of protein, most of it from the 2 eggs, because the chicken in chicken rice is 30g of diced thigh at most. Compare that with a 468 calorie plate of 5 karaage carrying 28g. Omurice is comfort food with a big carb load, and it is best treated as the whole meal rather than a main with sides."
+    ],
+    "lighter": [
+      "Choose the ketchup version over demi-glace or cream sauce. Saves 100 to 200 calories.",
+      "Skip the cheese. Melted cheese inside or on top is another 100.",
+      "At home, cook the rice in 1 teaspoon of oil instead of a tablespoon of butter, and use 150g of rice. The plate drops to about 500.",
+      "Order the small size where offered. Pomunoki's S size is about 550 versus 750 for the regular.",
+      "Add a side salad and eat it first. The plate has no vegetables apart from the onion."
+    ],
+    "components": [
+      {"name": "Chicken rice (rice, chicken, onion, ketchup, butter)", "grams": 280, "calories": 495},
+      {"name": "Eggs, 2 whole", "grams": 110, "calories": 150},
+      {"name": "Butter for the omelette", "grams": 8, "calories": 60},
+      {"name": "Ketchup topping", "grams": 20, "calories": 20}
+    ],
+    "portions": [
+      {"label": "Small plate (rice 150g)", "calories": 550},
+      {"label": "Standard plate", "calories": 750},
+      {"label": "Large with demi-glace", "calories": 1000}
+    ],
+    "variants": [
+      {"name": "Home version, light butter, rice 150g", "calories": 500, "note": "One teaspoon oil, ketchup only"},
+      {"name": "Standard ketchup omurice", "calories": 750, "note": "Family restaurant size"},
+      {"name": "Demi-glace omurice", "calories": 870, "note": "Ladle of demi-glace adds about 120"},
+      {"name": "Cheese omurice with cream sauce", "calories": 950, "note": "Cheese inside, white sauce on top"},
+      {"name": "Pomunoki L size", "calories": 1200, "note": "About 500g of rice"}
+    ],
+    "faq": [
+      {"q": "How many calories in omurice?", "a": "About 750 for a standard plate with ketchup. Demi-glace versions are 850 to 900, and cheese with cream sauce around 950."},
+      {"q": "Is omurice healthy?", "a": "It is a large carb plate with 2 eggs. About 90g of carbs and 32g of fat with 22g of protein. Fine as a full meal, heavy as a side. A home version with less butter and rice is 500."},
+      {"q": "Why is omurice so high in calories?", "a": "The rice is fried in butter with ketchup, which adds fat and sugar, and the omelette is cooked in more butter. About 160 of the 750 calories come from butter and ketchup alone."},
+      {"q": "How many calories in Pomunoki omurice?", "a": "The regular size lands around 750 to 850 depending on the sauce. The L size uses roughly double the rice and clears 1,200."}
+    ],
+    "related": ["japanese-curry-rice", "oyakodon", "katsu-curry", "yakisoba"],
+    "source": "estimate from components"
+  },
+  {
+    "slug": "kaisen-don",
+    "name": "Kaisen Don",
+    "aka": ["海鮮丼", "かいせん丼", "Seafood Rice Bowl", "Sashimi Bowl", "Chirashi Don"],
+    "category": "rice",
+    "region": ["jp"],
+    "serving": "1 bowl",
+    "servingGrams": 380,
+    "calories": 580,
+    "protein": 32,
+    "carbs": 82,
+    "fat": 12,
+    "metaDescription": "A kaisen don is about 580 calories, with 32g of protein and most of the calories in the rice underneath. One of the better donburi choices. Full numbers.",
+    "summary": "Assorted raw fish and seafood, usually salmon, tuna, squid, prawn, ikura and tamago, laid over a bowl of sushi rice. Sold at fish markets, sushi shops and donburi chains for 1,200 to 2,500 yen.",
+    "answer": "A standard kaisen don is about 580 calories. The 250g of sushi rice is 400 of that. The 90g of assorted sashimi on top is only about 135 calories and gives the bowl 32g of protein. Ikura, tamago and the soy sauce make up the rest.",
+    "realTalk": [
+      "Kaisen don is the rare donburi where the topping is the light part. Ninety grams of mixed sashimi is 135 calories and 25g of protein. Compare that with the same bowl topped with beef for gyudon (633) or a fried cutlet for katsudon (866). The seafood is doing nothing wrong. The rice is the same 250g of sweetened, vinegared rice that goes under everything else, and that is 400 calories.",
+      "The mix matters a little. Salmon is the fattiest common fish at 200 calories per 100g, tuna akami is 125, squid is 85, and prawn is 90. A bowl that is all salmon and toro is 100 calories more than one weighted towards tuna, squid and whitefish. Ikura is 270 per 100g but you only get 10 to 15g, so 30 to 40 calories. Uni is similar. Neither is worth worrying about.",
+      "Where it goes wrong is the market 'deluxe' bowl. Tourist market kaisen don at 3,000 yen come piled with 200g of fish, a crab leg and double ikura, and the extra fish alone is another 250 calories. Still not terrible at 850 for that much protein, but it is not the 580 you had in mind. The miso soup on the side is 40 and worth having."
+    ],
+    "lighter": [
+      "Ask for sukuname (less rice). Dropping to 180g of rice saves about 110 calories.",
+      "Choose tuna, squid and whitefish heavy bowls over all-salmon or toro bowls. About 100 calories less.",
+      "Go easy on the soy sauce. A tablespoon is only 10 calories but 1.5g of salt.",
+      "Skip the tamago if you do not care for it. Sweet omelette is 25 calories a slice and the one sugary thing on the bowl.",
+      "Order the sashimi teishoku instead if you want less rice. Same fish, 150g rice, miso soup, about 480."
+    ],
+    "components": [
+      {"name": "Sushi rice", "grams": 250, "calories": 400},
+      {"name": "Assorted sashimi (salmon, tuna, squid, prawn)", "grams": 90, "calories": 135},
+      {"name": "Ikura", "grams": 10, "calories": 27},
+      {"name": "Tamago (sweet omelette)", "grams": 15, "calories": 25},
+      {"name": "Soy sauce, wasabi, shiso, pickled ginger", "grams": 15, "calories": 5}
+    ],
+    "portions": [
+      {"label": "Small bowl (rice 180g)", "calories": 470},
+      {"label": "Standard bowl", "calories": 580},
+      {"label": "Deluxe market bowl (double fish, ikura)", "calories": 850}
+    ],
+    "variants": [
+      {"name": "Tekka don (tuna only)", "calories": 520, "note": "Lean akami tuna over rice"},
+      {"name": "Standard kaisen don", "calories": 580, "note": "Mixed fish, some ikura"},
+      {"name": "Salmon ikura don", "calories": 650, "note": "Fattier fish, more ikura"},
+      {"name": "Deluxe market bowl", "calories": 850, "note": "200g fish, crab, uni, double ikura"}
+    ],
+    "faq": [
+      {"q": "How many calories in a kaisen don?", "a": "About 580 for a standard bowl. The rice is 400 of that and the sashimi only 135. Deluxe market bowls with double fish reach 850."},
+      {"q": "Is kaisen don good for weight loss?", "a": "One of the better donburi options. About 580 calories with 32g of protein and only 12g of fat. Gyudon has less protein at more calories, katsudon almost 300 more calories."},
+      {"q": "Which fish in kaisen don has the most calories?", "a": "Salmon and toro at about 200 calories per 100g. Lean tuna is 125, squid 85, prawn 90. An all-salmon bowl is roughly 100 calories more than a tuna and squid bowl."},
+      {"q": "How much protein in a kaisen don?", "a": "About 32g, mostly from 90g of fish. That is more than a katsudon or oyakodon manages."}
+    ],
+    "related": ["salmon-nigiri", "unagi-don", "gyudon", "miso-soup"],
+    "source": "estimate from components"
+  },
+  {
+    "slug": "kitsune-udon",
+    "name": "Kitsune Udon",
+    "aka": ["きつねうどん", "狐うどん", "Fried Tofu Udon", "Aburaage Udon"],
+    "category": "noodles",
+    "region": ["jp"],
+    "serving": "1 bowl",
+    "servingGrams": 580,
+    "calories": 390,
+    "protein": 14,
+    "carbs": 62,
+    "fat": 9,
+    "metaDescription": "A bowl of kitsune udon is about 390 calories, with the sweet fried tofu pouch making up 115 of it. One of the lighter noodle bowls in Japan. Full breakdown.",
+    "summary": "Thick wheat udon in a clear dashi and soy broth, topped with a large square of aburaage, fried tofu simmered in sweet soy until it soaks up the juice like a sponge. Named after the fox, who supposedly likes fried tofu.",
+    "answer": "A standard bowl of kitsune udon is about 390 calories. The 250g of cooked udon is 240 of that, the aburaage pouch about 115, and the broth around 30. It is one of the lightest noodle bowls in Japan, roughly 200 calories less than a bowl of miso ramen.",
+    "realTalk": [
+      "Udon gets treated as heavy because the noodles are thick, but a bowl of kake udon, just noodles and broth, is only 270 calories at Marugame's regular size. Kitsune udon is that bowl plus one piece of sweet fried tofu, and the tofu is where the 115 extra calories sit. Aburaage is deep-fried tofu, about 380 calories per 100g before it is simmered in sugar and soy, so a 30g pouch that has soaked up sweet broth comes to around 115.",
+      "The broth is close to free. About 300ml of dashi with soy and mirin is 30 calories, though it carries 3 to 4g of salt if you drink it all. Kansai broth is lighter in colour and slightly lower in salt than Kanto broth, but the calorie difference is nothing. Leaving half the soup saves 15 calories and half the salt, which is the better reason to do it.",
+      "The number climbs with the extras, not the bowl. Marugame and Hanamaru put tempura by the till, and one kakiage is 150 to 180 calories, a chikuwa tempura about 100, an inari sushi 100 to 120 each. A kitsune udon with a kakiage and 2 inari is 720 calories, nearly double the bowl. The large size (oomori) adds about 130 calories of noodles too."
+    ],
+    "lighter": [
+      "Stick with the regular size. Oomori adds about 130 calories of noodles.",
+      "Skip the tempura tray. One kakiage adds 150 to 180, and it soaks up broth.",
+      "Leave half the broth. Saves only 15 calories but nearly 2g of salt.",
+      "Add wakame or spring onion from the free topping bar. Both are close to zero.",
+      "If you want more protein, an onsen egg adds 70 calories and 6g of protein, better value than a second aburaage."
+    ],
+    "components": [
+      {"name": "Cooked udon noodles", "grams": 250, "calories": 238},
+      {"name": "Sweet simmered aburaage", "grams": 30, "calories": 115},
+      {"name": "Dashi broth with soy and mirin", "grams": 300, "calories": 30},
+      {"name": "Spring onion, kamaboko", "grams": 10, "calories": 7}
+    ],
+    "portions": [
+      {"label": "Kake udon (no tofu)", "calories": 275},
+      {"label": "Kitsune udon, regular", "calories": 390},
+      {"label": "Kitsune udon, large (oomori)", "calories": 520}
+    ],
+    "variants": [
+      {"name": "Kake udon", "calories": 275, "note": "Noodles and broth only"},
+      {"name": "Kitsune udon", "calories": 390, "note": "One aburaage pouch"},
+      {"name": "Kitsune udon with onsen egg", "calories": 460, "note": "Egg adds about 70"},
+      {"name": "Kitsune udon with kakiage", "calories": 560, "note": "Fritter adds 150 to 180"},
+      {"name": "Kitsune udon, kakiage, 2 inari", "calories": 780, "note": "The typical full tray"}
+    ],
+    "faq": [
+      {"q": "How many calories in kitsune udon?", "a": "About 390 for a regular bowl. Kake udon with no tofu is about 275, and the large size is around 520."},
+      {"q": "Is udon lower in calories than ramen?", "a": "Usually yes. Kitsune udon is 390 and a plain kake udon 275, while shoyu ramen is 421, tonkotsu 525 and miso ramen 621. The udon broth has almost no fat."},
+      {"q": "How many calories in aburaage?", "a": "A single 30g pouch simmered in sweet soy is about 115 calories. Dry aburaage is around 380 per 100g because it is deep-fried tofu."},
+      {"q": "Is kitsune udon good for a diet?", "a": "Reasonable. It is 390 calories with 14g of protein, and the broth fills you up. The trap is the tempura counter at the till, which can double the meal."}
+    ],
+    "related": ["tempura-udon", "zaru-soba", "shoyu-ramen", "tempura"],
+    "source": "estimate from components"
+  },
+  {
+    "slug": "onigiri-tuna-mayo",
+    "name": "Tuna Mayo Onigiri",
+    "aka": ["ツナマヨおにぎり", "ツナマヨネーズおむすび", "シーチキンマヨ", "Tuna Mayonnaise Rice Ball", "Konbini Onigiri"],
+    "category": "snacks",
+    "region": ["jp"],
+    "serving": "1 onigiri",
+    "servingGrams": 110,
+    "calories": 197,
+    "protein": 4,
+    "carbs": 37,
+    "fat": 4,
+    "metaDescription": "A 7-Eleven tuna mayo onigiri is 197 calories, about 25 more than the salmon one. The most popular konbini snack in Japan, with its real numbers.",
+    "summary": "A triangle of white rice around a spoon of canned tuna mixed with mayonnaise, wrapped in a sheet of crisp nori. The top-selling onigiri filling at every convenience chain, 200 to 270 yen.",
+    "answer": "A tuna mayo onigiri from 7-Eleven is 197 calories, with 37g of carbs, 4g of protein and 4g of fat. That is the published figure for their soy-sauce rice tuna mayo. A salmon onigiri from the same shelf is 174, and a plain salt one about 170.",
+    "realTalk": [
+      "One tuna mayo onigiri is 197 calories, which is about the same as a slice and a half of bread. The rice is 90g and makes up 140 of the calories. The tuna mayo filling is only 15g, about 45 calories, and the nori and seasoning are the last 10. It is a small, dense carb snack with almost no protein, 4g, because the tuna is mostly mayo by the time it goes in.",
+      "The 'mayo' part gets blamed, but the difference between tuna mayo and grilled salmon onigiri at 7-Eleven is 23 calories. The filling is too small to matter much. What matters is how many you eat. A konbini lunch of 2 onigiri, a karaage-kun and a sweet milk tea is about 750 calories with 20g of protein, which is a poor deal. Two onigiri and a salad chicken breast instead is 520 with 30g of protein for the same 700 yen.",
+      "Onigiri are a decent snack in a country where the alternatives are 400 calorie melon pan and 350 calorie sandwiches. The trouble is the rice is refined, the protein is low, and hunger comes back in 90 minutes. Pair one with a boiled egg (70) or a stick of cheese (60) and the 260 calorie combination holds you much longer than a second onigiri at 394."
+    ],
+    "lighter": [
+      "Pick salmon, kombu or ume over tuna mayo. Saves 20 to 40 calories per onigiri.",
+      "One onigiri plus a salad chicken breast (110 calories, 24g protein) beats 2 onigiri for the same fullness.",
+      "Skip the extra-large 'omusubi' sizes. They are 130 to 150g of rice and 270 to 300 calories.",
+      "Look for the mochi-mugi or brown rice versions. Similar calories, more fibre, slower hunger.",
+      "Drink unsweetened tea with it. The sweet milk tea in the same basket is 150 to 200 calories."
+    ],
+    "components": [
+      {"name": "White rice", "grams": 90, "calories": 140},
+      {"name": "Tuna and mayonnaise filling", "grams": 15, "calories": 45},
+      {"name": "Nori sheet", "grams": 1, "calories": 2},
+      {"name": "Salt and seasoning oil", "grams": 2, "calories": 10}
+    ],
+    "portions": [
+      {"label": "1 onigiri", "calories": 197},
+      {"label": "2 onigiri", "calories": 394},
+      {"label": "Large omusubi size", "calories": 290}
+    ],
+    "variants": [
+      {"name": "Ume (pickled plum)", "calories": 165, "note": "Lowest on the shelf"},
+      {"name": "Grilled salmon", "calories": 174, "note": "7-Eleven published figure"},
+      {"name": "Tuna mayo", "calories": 197, "note": "7-Eleven published figure"},
+      {"name": "Mentaiko mayo", "calories": 210, "note": "Cod roe with mayo"},
+      {"name": "Tempura shrimp tenmusu", "calories": 250, "note": "Fried prawn inside"}
+    ],
+    "faq": [
+      {"q": "How many calories in a tuna mayo onigiri?", "a": "About 197 at 7-Eleven, around 190 to 230 across chains depending on rice weight and how much mayo is in the filling."},
+      {"q": "Is onigiri healthy for weight loss?", "a": "It is a controlled portion of rice at under 200 calories, which is useful. It has almost no protein though, 4g, so pair it with an egg, salad chicken or edamame rather than a second onigiri."},
+      {"q": "Which konbini onigiri has the fewest calories?", "a": "Ume, kombu and plain salt onigiri at 160 to 170. Anything with mayo, tempura or fried filling is 200 to 250."},
+      {"q": "How much rice is in one onigiri?", "a": "About 90 to 100g of cooked rice in a standard konbini onigiri, which is roughly 140 to 150 calories on its own."}
+    ],
+    "related": ["melon-pan", "chicken-karaage", "kaisen-don", "miso-soup"],
+    "source": "7-Eleven Japan product page (直巻しょうゆおむすび ツナマヨネーズ 197 kcal; 炭火焼紅しゃけ 174 kcal), Sep 2026"
+  },
+  {
+    "slug": "melon-pan",
+    "name": "Melon Pan",
+    "aka": ["メロンパン", "Melonpan", "Melon Bread", "Japanese Cookie Bun"],
+    "category": "snacks",
+    "region": ["jp"],
+    "serving": "1 bun",
+    "servingGrams": 105,
+    "calories": 420,
+    "protein": 8,
+    "carbs": 66,
+    "fat": 14,
+    "metaDescription": "One melon pan is about 420 calories, more than a bowl of udon. There is no melon in it, just a cookie crust on a sweet bun. Here is what that costs.",
+    "summary": "A soft sweet bun topped with a layer of cookie dough, scored in a crosshatch to look like a melon. Sold at every konbini, bakery and train station in Japan for 130 to 250 yen. No melon involved, apart from the occasional green-tinted version.",
+    "answer": "A standard melon pan is about 420 calories. It weighs around 105g and is two things stacked: a 60g sweet bun at about 170 calories, and a 40g layer of butter and sugar cookie dough at about 190, plus the sugar sprinkled on top. That is more calories than a bowl of kitsune udon.",
+    "realTalk": [
+      "Melon pan is a cookie glued to a bread roll, and the calories are exactly what that sounds like. The bun underneath is a normal sweet roll, 60g and 170 calories. The crust is cookie dough made from butter, sugar and flour, 40g and 190 calories, and then a spoon of granulated sugar goes on top for another 30. A konbini melon pan with a 'buttery' crust is 400 to 450 calories, and the big bakery ones at 130g clear 500.",
+      "It has almost no protein, about 8g, and 66g of carbs, most of them sugar and white flour. Eaten as breakfast with a sweet coffee it is a 550 calorie start to the day that leaves you hungry by 10am. This is a common Japanese breakfast, a melon pan and a can of cafe au lait from the same konbini, and it is roughly the calories of a full teishoku with a fraction of the staying power.",
+      "The filled versions make it worse. A whipped cream melon pan, split and stuffed, is 520 to 580 calories. Chocolate chip crust adds 40. The 'ice cream melon pan' sold at tourist spots in Asakusa and Kobe is a warm bun with a scoop inside for 600 to 700. Compared with all of that, a plain small melon pan at 350 is the sensible one, if there is such a thing."
+    ],
+    "lighter": [
+      "Pick the smallest one on the shelf. Konbini mini melon pan are about 80g and 320 calories.",
+      "Skip whipped cream or chocolate versions. They add 100 to 160.",
+      "Have half now, half later. A bun keeps, and 210 calories is a snack, 420 is a meal.",
+      "Pair it with black coffee or unsweetened tea, not cafe au lait. Saves 100 to 150.",
+      "If it is breakfast, add a boiled egg or salad chicken from the same shop for protein."
+    ],
+    "components": [
+      {"name": "Sweet bread dough", "grams": 60, "calories": 170},
+      {"name": "Cookie crust (butter, sugar, flour)", "grams": 40, "calories": 190},
+      {"name": "Granulated sugar topping", "grams": 8, "calories": 32},
+      {"name": "Egg wash and butter", "grams": 5, "calories": 30}
+    ],
+    "portions": [
+      {"label": "Mini melon pan (80g)", "calories": 320},
+      {"label": "Standard melon pan (105g)", "calories": 420},
+      {"label": "Large bakery melon pan (130g)", "calories": 520}
+    ],
+    "variants": [
+      {"name": "Mini konbini melon pan", "calories": 320, "note": "About 80g"},
+      {"name": "Standard melon pan", "calories": 420, "note": "Konbini or bakery, about 105g"},
+      {"name": "Chocolate chip melon pan", "calories": 460, "note": "Chips in the crust"},
+      {"name": "Whipped cream melon pan", "calories": 550, "note": "Split and filled"},
+      {"name": "Ice cream melon pan", "calories": 650, "note": "Tourist street version"}
+    ],
+    "faq": [
+      {"q": "How many calories in a melon pan?", "a": "About 420 for a standard 105g bun. Mini ones are around 320, large bakery ones 500 or more, and cream-filled ones 550."},
+      {"q": "Is melon pan bad for you?", "a": "It is a dessert. About 66g of carbs, mostly sugar and white flour, 14g of fat, and only 8g of protein. As an occasional treat it is fine, as a daily breakfast it is 420 calories that do not keep you full."},
+      {"q": "Does melon pan contain melon?", "a": "No. The name comes from the crosshatched cookie crust that looks like a melon skin. Some green versions add melon flavouring, which changes nothing about the calories."},
+      {"q": "Melon pan or onigiri for breakfast?", "a": "Onigiri. Two onigiri are about 370 calories with the same fullness and less sugar than one 420 calorie melon pan. Add an egg and you are ahead on protein too."}
+    ],
+    "related": ["onigiri-tuna-mayo", "dorayaki", "taiyaki", "mochi-daifuku"],
+    "source": "estimate from components"
+  },
+  {
+    "slug": "yakitori",
+    "name": "Yakitori",
+    "aka": ["焼き鳥", "やきとり", "焼鳥", "Grilled Chicken Skewers", "Momo Tare"],
+    "category": "lauk",
+    "region": ["jp"],
+    "serving": "2 skewers (thigh, tare sauce)",
+    "servingGrams": 100,
+    "calories": 231,
+    "protein": 19,
+    "carbs": 7,
+    "fat": 15,
+    "metaDescription": "Two thigh yakitori skewers with tare are 231 calories at Torikizoku, about 115 per stick. Breast is 165, skin is 380. Every cut ranked.",
+    "summary": "Bite-sized chicken pieces on bamboo skewers grilled over charcoal, brushed with sweet soy tare or seasoned with salt. Sold by the stick at yakitori-ya and izakaya, with thigh, breast, skin, meatball and every organ on the menu.",
+    "answer": "Two skewers of thigh yakitori with tare sauce are 231 calories, which is Torikizoku's published figure for its momo kizoku-yaki, so roughly 115 per skewer. The salt version is 208. Breast skewers are 165 for 2, tsukune meatballs 171, and chicken skin skewers around 380.",
+    "realTalk": [
+      "Yakitori is one of the best deals in Japanese food if you order by cut. Two thigh skewers at Torikizoku are 231 calories with 19g of protein and cost 390 yen. Two breast skewers are 165 with 23g of protein. That is more protein than a 468 calorie plate of karaage for a third of the calories. The chicken is grilled, not fried, so the only fat is what was in the bird.",
+      "The cut is everything. Torikizoku's own table shows the range. Momo (thigh) tare 231, momo shio 208, mune (breast) tare 165, mune shio 146, tsukune tare 171, bonjiri (tail) 219, and kawa (skin) chips at 385. Skin is nearly all fat, 36g of it per serving. Tare adds 20 to 25 calories over shio because of the sugar in the sauce, small compared with choosing skin over breast.",
+      "The problem is never the skewers, it is the izakaya around them. A typical yakitori night is 8 to 10 skewers at about 100 each, so 900 calories, plus 2 or 3 beers at 150 each, plus a plate of fries or fried gyoza. That is 1,500 calories and 4,000 yen. The skewers were the best part of the order and the smallest part of the total."
+    ],
+    "lighter": [
+      "Order mune (breast), sasami (tenderloin) and negima. All under 90 calories a stick.",
+      "Choose shio over tare when you do not care. Saves about 12 calories per skewer.",
+      "Skip kawa (skin) and bonjiri (tail). A skin skewer is about 190, more than 2 breast skewers.",
+      "Add edamame, cabbage with miso or a tomato salad between rounds. All under 110 for a plate.",
+      "Swap beer for highball. A highball is about 100 calories versus 150 to 200 for a draught beer."
+    ],
+    "components": [
+      {"name": "Chicken thigh, grilled, 2 skewers", "grams": 85, "calories": 190},
+      {"name": "Tare sauce (soy, mirin, sugar)", "grams": 12, "calories": 25},
+      {"name": "Charcoal grill drippings retained", "grams": 3, "calories": 16}
+    ],
+    "portions": [
+      {"label": "1 skewer", "calories": 115},
+      {"label": "2 skewers (1 serving)", "calories": 231},
+      {"label": "10 skewers, mixed cuts", "calories": 1000}
+    ],
+    "variants": [
+      {"name": "Mune (breast) shio, 2 skewers", "calories": 146, "note": "Torikizoku published figure"},
+      {"name": "Mune tare, 2 skewers", "calories": 165, "note": "Torikizoku published figure"},
+      {"name": "Tsukune tare, 2 skewers", "calories": 171, "note": "Torikizoku published figure"},
+      {"name": "Momo shio, 2 skewers", "calories": 208, "note": "Torikizoku published figure"},
+      {"name": "Momo tare, 2 skewers", "calories": 231, "note": "Torikizoku published figure"},
+      {"name": "Kawa (skin), 2 skewers", "calories": 380, "note": "Mostly fat"}
+    ],
+    "faq": [
+      {"q": "How many calories in one yakitori skewer?", "a": "About 115 for a thigh skewer with tare, 80 for a breast skewer, and 190 for a skin skewer. Torikizoku's serving of 2 thigh skewers is 231."},
+      {"q": "Is yakitori healthy?", "a": "Grilled chicken on a stick is about as good as izakaya food gets. Two thigh skewers are 231 calories with 19g of protein. The danger is the beer and fried sides around it."},
+      {"q": "Tare or shio, which is lower in calories?", "a": "Shio, by about 10 to 12 calories per skewer. Torikizoku's momo is 231 with tare and 208 with shio for 2 skewers."},
+      {"q": "How many calories in a yakitori dinner?", "a": "Ten mixed skewers are about 1,000 calories. Add 2 beers and a fried side and the night is 1,500. Stick to breast and thigh with edamame and a highball and it is closer to 800."}
+    ],
+    "related": ["chicken-karaage", "gyoza", "edamame", "satay"],
+    "source": "Torikizoku published allergen and nutrition PDF (もも貴族焼 たれ 231 kcal per 2 skewers, 塩 208, むね たれ 165, つくね たれ 171), Sep 2026"
+  }
+]

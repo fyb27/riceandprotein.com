@@ -1,0 +1,1848 @@
+[
+  {
+    "slug": "chicken-adobo",
+    "name": "Chicken Adobo",
+    "aka": [
+      "Adobong Manok",
+      "Filipino Chicken Adobo",
+      "Adobo with Rice"
+    ],
+    "category": "rice",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 plate with rice",
+    "servingGrams": 380,
+    "calories": 520,
+    "protein": 30,
+    "carbs": 62,
+    "fat": 16,
+    "metaDescription": "A carinderia plate of chicken adobo with 1 cup rice is about 520 calories. Here is where the number comes from and how to trim it.",
+    "summary": "Chicken braised in soy sauce, vinegar, garlic, bay leaf and peppercorns, then spooned over a cup of white rice. The default lunch at every carinderia in the country.",
+    "answer": "A carinderia plate of chicken adobo with 1 cup of rice is about 520 calories. That is roughly 255 calories from 180g of adobo (thigh with sauce) and 260 calories from 200g of rice. Skip the rice and the adobo alone is closer to 250.",
+    "realTalk": [
+      "The adobo itself is not the problem. FatSecret puts chicken adobo at 141 calories per 100g, which is modest for a meat dish because the sauce is soy, vinegar and garlic with almost no sugar and only a spoon of oil. A 180g carinderia scoop with one thigh and some sauce lands around 255 calories. The rice is what doubles the plate. One cup of steamed rice is 200g and 260 calories, and most people order a second cup for 55 pesos more.",
+      "The variable nobody tracks is the cut. Thigh with skin is what most carinderias use, because it survives 40 minutes of simmering without drying out. A skinless breast piece of the same weight drops the adobo portion from 255 to about 170 calories. Pork adobo made with liempo goes the other way, closer to 400 calories for the same scoop, because pork belly is 50 percent fat by weight.",
+      "Watch the sauce. Adobo sauce reduces down to a thin layer of chicken fat and soy, and the habit of spooning extra sauce over the rice adds 40 to 60 calories per ladle. If the carinderia adds a spoon of oil or fries the chicken first (adobong pritong manok), add another 80 calories. The 520 figure assumes standard simmered adobo, one thigh, one cup of rice."
+    ],
+    "lighter": [
+      "Ask for breast or ask the cook to leave the skin off. Same sauce, about 85 calories less per plate.",
+      "Order half rice. Half a cup is 130 calories and adobo sauce covers it just fine.",
+      "Skip the extra sauce ladle. Each one is mostly chicken fat and soy, about 50 calories.",
+      "Pair it with a plain vegetable side like ensaladang talong or steamed okra instead of a second ulam."
+    ],
+    "components": [
+      {
+        "name": "Chicken thigh adobo with sauce",
+        "grams": 180,
+        "calories": 255
+      },
+      {
+        "name": "Steamed white rice",
+        "grams": 200,
+        "calories": 260
+      },
+      {
+        "name": "Extra sauce spooned over rice",
+        "grams": 20,
+        "calories": 20
+      }
+    ],
+    "portions": [
+      {
+        "label": "Adobo with half cup rice",
+        "calories": 390
+      },
+      {
+        "label": "Adobo with 1 cup rice",
+        "calories": 520
+      },
+      {
+        "label": "Adobo with 2 cups rice",
+        "calories": 780
+      }
+    ],
+    "variants": [
+      {
+        "name": "Skinless breast adobo with rice",
+        "calories": 430,
+        "note": "Same sauce, leaner cut"
+      },
+      {
+        "name": "Standard chicken thigh adobo with rice",
+        "calories": 520,
+        "note": "Carinderia default"
+      },
+      {
+        "name": "Adobo sa gata with rice",
+        "calories": 610,
+        "note": "Coconut milk adds about 90"
+      },
+      {
+        "name": "Pork belly adobo with rice",
+        "calories": 700,
+        "note": "Liempo is half fat by weight"
+      },
+      {
+        "name": "Adobo flakes with rice",
+        "calories": 750,
+        "note": "Shredded and fried in oil"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in chicken adobo without rice?",
+        "a": "About 250 calories for a 180g carinderia scoop of thigh adobo with sauce. FatSecret lists 141 calories per 100g. A single thigh with sauce (152g) is listed at 107 calories, but that figure counts bone weight."
+      },
+      {
+        "q": "Is chicken adobo good for weight loss?",
+        "a": "Yes, as far as ulam goes. It is high in protein (about 25g per scoop), has no sugar and no coconut milk, and the sauce is mostly vinegar and soy. Just control the rice, since 1 cup is 260 calories on its own."
+      },
+      {
+        "q": "Is chicken adobo or pork adobo higher in calories?",
+        "a": "Pork adobo, by a wide margin. The same 180g scoop of pork belly adobo is about 400 calories versus 255 for chicken thigh. Chicken breast adobo is lowest at around 170."
+      },
+      {
+        "q": "How many calories in a cup of adobo sauce?",
+        "a": "About 100 to 150 calories per cup, mostly from rendered chicken fat and the tablespoon of oil used to sauté the garlic. One ladle over rice is about 50 calories."
+      }
+    ],
+    "related": [
+      "tapsilog",
+      "sinangag",
+      "chicken-inasal",
+      "chicken-rice"
+    ],
+    "source": "FatSecret generic chicken adobo (141 kcal/100g), rice and sauce from components"
+  },
+  {
+    "slug": "sinigang-na-baboy",
+    "name": "Sinigang na Baboy",
+    "aka": [
+      "Pork Sinigang",
+      "Sinigang",
+      "Sour Tamarind Pork Soup"
+    ],
+    "category": "soup",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 bowl",
+    "servingGrams": 350,
+    "calories": 320,
+    "protein": 22,
+    "carbs": 10,
+    "fat": 22,
+    "metaDescription": "A carinderia bowl of sinigang na baboy is about 320 calories. The broth is nearly free, the pork belly is the whole number. Full breakdown inside.",
+    "summary": "Sour tamarind soup with pork ribs or belly, kangkong, radish, string beans and tomato. The one dish every Filipino asks for on a rainy day.",
+    "answer": "A 350g carinderia bowl of sinigang na baboy is about 320 calories. FatSecret lists sinigang at 222 calories per cup (240g), and a real bowl with 90g of pork is about 1.5 cups. Nearly all of that is the pork. The sour broth and vegetables together are under 60 calories.",
+    "realTalk": [
+      "The broth is water, tamarind, tomato and fish sauce, so a cup of it is about 15 calories before the pork goes in. That is why sinigang is one of the better carinderia soups if you are counting. The number only moves when the cook uses liempo instead of ribs. Pork belly is around 350 calories per 100g cooked, so a bowl loaded with three thick belly slices can hit 450 to 500 while a bowl with two rib pieces stays near 300.",
+      "The rice is where sinigang gets expensive. Nobody eats it without at least 1 cup of rice (260 calories), and sinigang broth on rice is the specific reason people go back for a second cup. A standard lunch of one bowl and two cups of rice is 840 calories. The soup did not do that, the refill did.",
+      "The oil floating on top is real. Belly fat renders into the broth during the 45 minutes of simmering and forms a layer of about 15 to 20g in a family pot, which is 130 to 180 calories spread across the servings. Some carinderias skim it, most do not. Ask for a bowl from the bottom of the pot with more vegetables and less of the top layer."
+    ],
+    "lighter": [
+      "Order sinigang na hipon or bangus instead. Shrimp brings the bowl down to about 190 calories, milkfish to about 240.",
+      "Ask for more kangkong and labanos. The vegetables are under 30 calories per handful and they soak up the sour broth.",
+      "Stick to 1 cup of rice and let the broth do the flavouring instead of pouring more soup on a refill.",
+      "Skim the fat layer off the top of your bowl with a spoon. That alone can save 50 to 80 calories."
+    ],
+    "components": [
+      {
+        "name": "Pork belly and ribs",
+        "grams": 90,
+        "calories": 230
+      },
+      {
+        "name": "Sour tamarind broth",
+        "grams": 200,
+        "calories": 30
+      },
+      {
+        "name": "Kangkong, radish, string beans, tomato",
+        "grams": 80,
+        "calories": 25
+      },
+      {
+        "name": "Sinigang mix and fish sauce",
+        "grams": 10,
+        "calories": 15
+      },
+      {
+        "name": "Rendered pork fat in broth",
+        "grams": 5,
+        "calories": 20
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small bowl",
+        "calories": 220
+      },
+      {
+        "label": "Standard carinderia bowl",
+        "calories": 320
+      },
+      {
+        "label": "Large bowl with extra liempo",
+        "calories": 480
+      }
+    ],
+    "variants": [
+      {
+        "name": "Sinigang na hipon",
+        "calories": 190,
+        "note": "Shrimp instead of pork"
+      },
+      {
+        "name": "Sinigang na bangus",
+        "calories": 240,
+        "note": "Milkfish belly"
+      },
+      {
+        "name": "Sinigang na baka",
+        "calories": 300,
+        "note": "Beef shank, leaner than pork"
+      },
+      {
+        "name": "Sinigang na baboy (ribs)",
+        "calories": 320,
+        "note": "Standard"
+      },
+      {
+        "name": "Sinigang na liempo",
+        "calories": 420,
+        "note": "All belly, no ribs"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in sinigang na baboy with rice?",
+        "a": "About 580 calories for one bowl and 1 cup of rice. Two cups of rice pushes it to 840. The soup itself is only 320 of that."
+      },
+      {
+        "q": "Is sinigang healthy?",
+        "a": "The broth and vegetables are, at under 60 calories per bowl. The pork is the only heavy part. Pick ribs or shrimp over belly and it is one of the leanest full meals at a carinderia."
+      },
+      {
+        "q": "How many calories in sinigang broth only?",
+        "a": "About 15 to 25 calories per cup if it has been skimmed, up to 60 if the pork fat layer is still on top. Tamarind, tomato and fish sauce add almost nothing."
+      },
+      {
+        "q": "Which sinigang has the least calories?",
+        "a": "Sinigang na hipon at about 190 calories per bowl, then bangus at 240. Pork belly sinigang is the heaviest at 400 plus."
+      }
+    ],
+    "related": [
+      "bulalo",
+      "tinola",
+      "sup-daging",
+      "tomyam"
+    ],
+    "source": "FatSecret generic sinigang (222 kcal per cup) scaled to a 350g bowl"
+  },
+  {
+    "slug": "lechon",
+    "name": "Lechon",
+    "aka": [
+      "Lechon Baboy",
+      "Litson",
+      "Filipino Roast Pig",
+      "Cebu Lechon"
+    ],
+    "category": "lauk",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 serving (3 to 4 slices with skin)",
+    "servingGrams": 120,
+    "calories": 380,
+    "protein": 26,
+    "carbs": 1,
+    "fat": 30,
+    "metaDescription": "A fiesta serving of lechon (about 120g with skin) is around 380 calories. The skin is 150 of that. Here is the math per slice and per kilo.",
+    "summary": "Whole pig roasted over charcoal for hours until the skin blisters. Sold by the kilo at fiestas, weddings and every Cebu lechon house.",
+    "answer": "A typical fiesta plate of lechon, about 120g or 3 to 4 slices with skin, is around 380 calories. Roast pork with skin runs 300 to 330 calories per 100g. A 250g lechon house serving with sarsa is closer to 800. The skin alone is about 500 calories per 100g.",
+    "realTalk": [
+      "The skin is the whole story. Lechon skin is rendered pork rind, essentially chicharon that never left the pig, and it runs about 500 calories per 100g. The meat underneath, once the fat cap is trimmed, is about 220 calories per 100g. So a 120g plate with 30g of skin and 90g of meat is 380 calories, but the same weight of pure skin would be 600. At a fiesta, the people fighting over the crispy bits are eating twice the calories of the ones taking meat from the loin.",
+      "Lechon houses sell by the kilo, and a quarter kilo (250g) is a normal single order for one hungry person. That is about 800 calories before rice and before the Mang Tomas. The liver sauce is 40 calories per 30g spoon, which sounds small until you use four spoons. Cebu lechon skips the sauce entirely because it is stuffed with lemongrass and salt, so the count is a bit lower per plate.",
+      "The morning-after version matters too. Leftover lechon becomes lechon paksiw (simmered in vinegar and liver sauce) at about 350 calories per cup, or gets fried into lechon kawali style pieces at 500 plus. Most fiesta lechon is eaten three times over two days, and the 380 figure is only the first plate."
+    ],
+    "lighter": [
+      "Go for the loin and shoulder slices, skip the belly cuts. Belly lechon is about 30 percent higher per slice.",
+      "Take one piece of skin, not a handful. Each 10g shard is about 50 calories.",
+      "Use Mang Tomas sparingly or squeeze calamansi and vinegar instead, which is close to zero.",
+      "Fill half the plate with atchara or ensalada before adding meat. It slows you down."
+    ],
+    "components": [
+      {
+        "name": "Roast pork meat",
+        "grams": 80,
+        "calories": 190
+      },
+      {
+        "name": "Crispy skin",
+        "grams": 30,
+        "calories": 150
+      },
+      {
+        "name": "Liver sauce (Mang Tomas)",
+        "grams": 30,
+        "calories": 40
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small taste, 2 slices",
+        "calories": 250
+      },
+      {
+        "label": "Fiesta plate, 3 to 4 slices with skin",
+        "calories": 380
+      },
+      {
+        "label": "Quarter kilo from a lechon house",
+        "calories": 800
+      }
+    ],
+    "variants": [
+      {
+        "name": "Lechon meat only, no skin",
+        "calories": 230,
+        "note": "Per 100g, trimmed"
+      },
+      {
+        "name": "Lechon manok (quarter chicken)",
+        "calories": 320,
+        "note": "Rotisserie chicken"
+      },
+      {
+        "name": "Lechon baboy with skin",
+        "calories": 380,
+        "note": "Standard 120g plate"
+      },
+      {
+        "name": "Lechon belly roll",
+        "calories": 450,
+        "note": "All belly, 120g"
+      },
+      {
+        "name": "Lechon kawali",
+        "calories": 520,
+        "note": "Deep fried belly, 130g"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in 100g of lechon?",
+        "a": "About 300 to 330 calories with skin, or 220 without. The skin alone is around 500 calories per 100g."
+      },
+      {
+        "q": "How many calories in a kilo of lechon?",
+        "a": "Roughly 3,000 to 3,300 calories per kilo as served, skin included. A quarter kilo order is about 800."
+      },
+      {
+        "q": "Is lechon or lechon kawali higher in calories?",
+        "a": "Lechon kawali, because it is belly only and deep fried. Gram for gram it is about 400 calories per 100g against 320 for roast lechon."
+      },
+      {
+        "q": "How many calories in Mang Tomas lechon sauce?",
+        "a": "About 40 calories per 30g serving, mostly sugar and breadcrumbs. Four spoons at a fiesta is 160 calories on top of the meat."
+      }
+    ],
+    "related": [
+      "lechon-kawali",
+      "crispy-pata",
+      "siu-yoke",
+      "liempo"
+    ],
+    "source": "estimate from components"
+  },
+  {
+    "slug": "lechon-kawali",
+    "name": "Lechon Kawali",
+    "aka": [
+      "Crispy Fried Pork Belly",
+      "Litson Kawali",
+      "Bagnet"
+    ],
+    "category": "lauk",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 serving",
+    "servingGrams": 130,
+    "calories": 520,
+    "protein": 27,
+    "carbs": 4,
+    "fat": 44,
+    "metaDescription": "A carinderia serving of lechon kawali (130g) is about 520 calories, almost all of it pork belly fat. Numbers per piece, with rice, and lighter swaps.",
+    "summary": "Pork belly boiled until tender, then deep fried until the skin puffs and cracks. Served chopped with lechon sauce or toyomansi.",
+    "answer": "A carinderia serving of lechon kawali, about 130g or 6 to 8 chopped pieces, is around 520 calories. Deep fried pork belly runs about 400 calories per 100g. With 1 cup of rice the plate is 780. The dipping sauce adds another 20 to 40.",
+    "realTalk": [
+      "Pork belly is about half fat by weight before it touches the pan. Boiling it first renders some of that out, then frying puts oil back in, and you end with roughly 400 calories per 100g. A 130g carinderia scoop is 520 calories, which is more than a Jollibee Chickenjoy with rice. Each chopped cube is around 70 calories, so counting cubes is the honest way to track it.",
+      "Bagnet, the Ilocano version, is fried twice and comes out even drier and crunchier. The second fry pushes it past 450 calories per 100g. Lechon kawali houses in Manila usually serve 200g portions for 180 to 220 pesos, which is 800 calories before rice. Add the standard cup and the sizzling plate crowd is at 1,060 for lunch.",
+      "The sauce choice moves the number less than people think. Mang Tomas is 40 calories per 30g, toyomansi is about 10, spiced vinegar is nearly zero. What actually matters is whether the pieces came from the thin end of the belly (more meat) or the thick end (more fat). Ask for the leaner end if the cook lets you pick."
+    ],
+    "lighter": [
+      "Order the small portion (90g) and pair it with a vegetable ulam like pinakbet. That keeps the plate under 600 with rice.",
+      "Dip in spiced vinegar or toyomansi instead of liver sauce.",
+      "Blot the pieces on a paper napkin. Surface oil on fried belly is 30 to 50 calories per serving.",
+      "Make it at home in an air fryer after boiling. The skin still puffs and it drops to about 320 calories per 100g."
+    ],
+    "components": [
+      {
+        "name": "Pork belly, boiled then deep fried",
+        "grams": 120,
+        "calories": 430
+      },
+      {
+        "name": "Frying oil absorbed",
+        "grams": 8,
+        "calories": 70
+      },
+      {
+        "name": "Lechon sauce or toyomansi",
+        "grams": 30,
+        "calories": 20
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small serving (90g)",
+        "calories": 350
+      },
+      {
+        "label": "Standard carinderia serving (130g)",
+        "calories": 520
+      },
+      {
+        "label": "Restaurant plate (200g) with sauce",
+        "calories": 800
+      }
+    ],
+    "variants": [
+      {
+        "name": "Air fryer lechon kawali",
+        "calories": 380,
+        "note": "Per 130g, no oil"
+      },
+      {
+        "name": "Lechon kawali, lean end",
+        "calories": 450,
+        "note": "More meat, less fat cap"
+      },
+      {
+        "name": "Lechon kawali, standard",
+        "calories": 520,
+        "note": "Carinderia serving"
+      },
+      {
+        "name": "Bagnet",
+        "calories": 590,
+        "note": "Fried twice, Ilocos style"
+      },
+      {
+        "name": "Crispy kare kare topping",
+        "calories": 620,
+        "note": "Lechon kawali plus peanut sauce"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in lechon kawali with rice?",
+        "a": "About 780 calories with 1 cup of rice, or 1,040 with 2 cups. The pork alone is 520 for a 130g serving."
+      },
+      {
+        "q": "How many calories in one piece of lechon kawali?",
+        "a": "About 70 calories per chopped cube (roughly 18g). A 6 to 8 piece serving is 420 to 560."
+      },
+      {
+        "q": "Is bagnet higher in calories than lechon kawali?",
+        "a": "Yes, by about 15 percent. Bagnet is fried twice and loses more water, so it lands near 450 calories per 100g versus 400 for regular lechon kawali."
+      },
+      {
+        "q": "Can I eat lechon kawali on a diet?",
+        "a": "Occasionally, in small portions. A 90g serving is 350 calories and gives you about 20g of protein. It is the size, not the dish, that breaks a calorie budget."
+      }
+    ],
+    "related": [
+      "lechon",
+      "crispy-pata",
+      "liempo",
+      "siu-yoke"
+    ],
+    "source": "estimate from components"
+  },
+  {
+    "slug": "kare-kare",
+    "name": "Kare-Kare",
+    "aka": [
+      "Kare Kare",
+      "Oxtail Peanut Stew",
+      "Kare-Kareng Buntot"
+    ],
+    "category": "lauk",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 serving",
+    "servingGrams": 250,
+    "calories": 500,
+    "protein": 28,
+    "carbs": 18,
+    "fat": 34,
+    "metaDescription": "A restaurant serving of kare-kare with oxtail and peanut sauce is around 500 calories before rice. Here is what the sauce, oxtail and bagoong each add.",
+    "summary": "Oxtail and tripe stewed in a thick peanut and annatto sauce with banana heart, string beans, eggplant and pechay. Always eaten with bagoong alamang on the side.",
+    "answer": "A single restaurant serving of kare-kare, about 250g with oxtail, vegetables and peanut sauce, is around 500 calories. The peanut sauce alone is about 200 of that. Add 1 cup of rice and a spoon of bagoong and the full plate reaches 800.",
+    "realTalk": [
+      "Kare-kare is a peanut butter dish. A family-size pot uses 150 to 200g of ground peanuts or peanut butter, which is 900 to 1,200 calories of sauce spread across 6 servings. Your 80g ladle of sauce is about 200 calories before the meat. Then oxtail, which is fatty even after skimming, adds 260 calories per 100g. That is how a dish full of eggplant, string beans and banana heart still lands at 500.",
+      "The bagoong is small but not free. A tablespoon of sautéed shrimp paste is about 30 calories, and most people take three because kare-kare without it tastes flat. Sautéed bagoong has oil and sugar in it, so it is not the same as raw alamang. Count 90 to 100 calories for a normal amount at a restaurant.",
+      "Restaurant kare-kare in Manila runs 350 to 600 pesos for a serving meant for two, and it usually gets finished by one. That is 1,000 calories of ulam before rice. The crispy kare-kare trend, where lechon kawali or bagnet replaces the oxtail, adds another 300 calories per serving because you are putting deep fried belly into peanut sauce."
+    ],
+    "lighter": [
+      "Ask for more vegetables and less sauce. The banana heart, eggplant and string beans are about 25 calories a handful.",
+      "Choose the seafood or vegetable-only version, which lands at 250 to 380 instead of 500.",
+      "One tablespoon of bagoong, not three. That is 60 calories saved.",
+      "Share the restaurant order. It is portioned for two and priced for two."
+    ],
+    "components": [
+      {
+        "name": "Oxtail and tripe",
+        "grams": 100,
+        "calories": 260
+      },
+      {
+        "name": "Peanut annatto sauce",
+        "grams": 80,
+        "calories": 200
+      },
+      {
+        "name": "Banana heart, string beans, eggplant, pechay",
+        "grams": 70,
+        "calories": 25
+      },
+      {
+        "name": "Bagoong alamang, 1 tablespoon",
+        "grams": 15,
+        "calories": 30
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small carinderia scoop",
+        "calories": 350
+      },
+      {
+        "label": "Standard restaurant serving",
+        "calories": 500
+      },
+      {
+        "label": "Large serving with 1 cup rice and bagoong",
+        "calories": 800
+      }
+    ],
+    "variants": [
+      {
+        "name": "Vegetable kare-kare",
+        "calories": 250,
+        "note": "No meat, same sauce"
+      },
+      {
+        "name": "Seafood kare-kare",
+        "calories": 380,
+        "note": "Shrimp and squid"
+      },
+      {
+        "name": "Beef tripe kare-kare",
+        "calories": 450,
+        "note": "Tripe is leaner than oxtail"
+      },
+      {
+        "name": "Oxtail kare-kare",
+        "calories": 500,
+        "note": "Standard"
+      },
+      {
+        "name": "Crispy kare-kare",
+        "calories": 800,
+        "note": "Lechon kawali or bagnet on top"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in kare-kare with rice?",
+        "a": "About 760 calories for one serving with 1 cup of rice, or around 800 once you add bagoong. Two cups of rice takes it past 1,000."
+      },
+      {
+        "q": "Why is kare-kare so high in calories?",
+        "a": "The sauce is ground peanuts or peanut butter, at about 600 calories per 100g, and the meat is oxtail, one of the fattier cuts. The vegetables are only about 25 calories per serving."
+      },
+      {
+        "q": "How many calories in bagoong alamang?",
+        "a": "About 30 calories per tablespoon when sautéed with oil and sugar. Raw alamang is closer to 10 per tablespoon."
+      },
+      {
+        "q": "Is kare-kare healthy?",
+        "a": "It has protein and vegetables, but the peanut sauce and oxtail make it one of the heaviest Filipino ulam at 500 calories per serving. The seafood or vegetable version at 250 to 380 is the better pick if you are cutting."
+      }
+    ],
+    "related": [
+      "bulalo",
+      "sup-ekor",
+      "lechon-kawali",
+      "bicol-express"
+    ],
+    "source": "estimate from components"
+  },
+  {
+    "slug": "sisig",
+    "name": "Sisig",
+    "aka": [
+      "Pork Sisig",
+      "Sizzling Sisig",
+      "Sisig Kapampangan"
+    ],
+    "category": "lauk",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 sizzling plate",
+    "servingGrams": 200,
+    "calories": 530,
+    "protein": 34,
+    "carbs": 10,
+    "fat": 37,
+    "metaDescription": "A sizzling plate of pork sisig with egg and mayo is about 530 calories. FatSecret lists 215 kcal per 100g before toppings.",
+    "summary": "Chopped pig face, ears and belly, boiled, grilled, then fried on a sizzling plate with onion, chili, calamansi, a raw egg and a squeeze of mayonnaise. Pampanga's gift to every beer house.",
+    "answer": "A standard sizzling plate of pork sisig, about 200g with egg and mayo, is around 530 calories. FatSecret puts plain pork sisig at 215 calories per 100g, and the egg (70) and mayo (100) push a restaurant plate past 500. With 1 cup of rice it is 790.",
+    "realTalk": [
+      "Sisig is pig face. Ears, jowl and snout are mostly skin, fat and cartilage, and the belly some cooks add is half fat. FatSecret lists pork sisig at 515 calories per cup, with 35g of fat and 39g of protein, and that is before the sizzling plate toppings. The protein is real, which surprises people, but the fat is higher.",
+      "The toppings are 170 of the 530. A raw egg cracked on top is 70 calories. The squiggle of mayonnaise most restaurants add is 15g, and mayo is 100 calories per 15g. Chicharon crumbled on top is another 55 per 10g. A plain sisig with just calamansi and onion is about 360 calories for the same 200g, which is a meaningful difference for the same dish.",
+      "A sisig plate in a Manila beer house is 150 to 250 pesos and is priced as pulutan for a group. In practice one person clears it with 2 cups of rice, which is 1,050 calories, plus two San Miguel Pale Pilsens at 150 each. That is a 1,350 calorie sitting. The sisig was never the whole problem, the setting was."
+    ],
+    "lighter": [
+      "Order it without mayo and without egg. Same flavour from the calamansi and chili, 170 calories less.",
+      "Try chicken sisig (about 380) or bangus sisig (about 330). Same plate, half the fat.",
+      "Stick to 1 cup of rice. Sisig is salty and pushes you toward a second cup.",
+      "Make it at home with pork shoulder instead of face. Lean pork sisig is about 300 calories per 200g."
+    ],
+    "components": [
+      {
+        "name": "Chopped pork face and belly, grilled and fried",
+        "grams": 150,
+        "calories": 340
+      },
+      {
+        "name": "Chicken liver",
+        "grams": 20,
+        "calories": 30
+      },
+      {
+        "name": "Raw egg on top",
+        "grams": 50,
+        "calories": 70
+      },
+      {
+        "name": "Mayonnaise",
+        "grams": 15,
+        "calories": 100
+      },
+      {
+        "name": "Onion, chili, calamansi",
+        "grams": 15,
+        "calories": 5
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small plate, no toppings",
+        "calories": 360
+      },
+      {
+        "label": "Standard sizzling plate with egg and mayo",
+        "calories": 530
+      },
+      {
+        "label": "Standard plate with 1 cup rice",
+        "calories": 790
+      }
+    ],
+    "variants": [
+      {
+        "name": "Tofu sisig",
+        "calories": 300,
+        "note": "Fried tofu, same seasoning"
+      },
+      {
+        "name": "Bangus sisig",
+        "calories": 330,
+        "note": "Milkfish belly"
+      },
+      {
+        "name": "Chicken sisig",
+        "calories": 380,
+        "note": "Chopped thigh"
+      },
+      {
+        "name": "Pork sisig",
+        "calories": 530,
+        "note": "Standard with egg and mayo"
+      },
+      {
+        "name": "Pork sisig with extra mayo and chicharon",
+        "calories": 650,
+        "note": "Beer house special"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in sisig with rice?",
+        "a": "About 790 calories for a standard plate with 1 cup of rice, or 1,050 with 2 cups. Sisig alone is around 530."
+      },
+      {
+        "q": "How many calories in sisig without mayo and egg?",
+        "a": "About 360 calories for a 200g plate. The egg is 70 and the mayo is 100, so leaving both off saves 170."
+      },
+      {
+        "q": "Is sisig high in protein?",
+        "a": "Yes, about 34g per plate. FatSecret lists 39g of protein per cup of pork sisig. The catch is the 35g of fat that comes with it."
+      },
+      {
+        "q": "Is chicken sisig healthier than pork sisig?",
+        "a": "It is lower in calories, about 380 versus 530 for the same plate, because thigh meat has far less fat than pig face and belly."
+      }
+    ],
+    "related": [
+      "lechon-kawali",
+      "liempo",
+      "pork-bbq",
+      "sinangag"
+    ],
+    "source": "FatSecret generic pork sisig (215 kcal/100g) plus egg and mayo from components"
+  },
+  {
+    "slug": "pancit-canton",
+    "name": "Pancit Canton",
+    "aka": [
+      "Pansit Canton",
+      "Filipino Stir-Fried Egg Noodles",
+      "Canton"
+    ],
+    "category": "noodles",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 plate",
+    "servingGrams": 250,
+    "calories": 450,
+    "protein": 17,
+    "carbs": 55,
+    "fat": 17,
+    "metaDescription": "A plate of pancit canton from a carinderia is about 450 calories. The noodles are 210 of that, the oil is 100. Full breakdown and the bihon comparison.",
+    "summary": "Flour stick noodles stir-fried with soy sauce, pork or chicken, shrimp, cabbage and carrot. The birthday noodle, the fiesta noodle, and the Friday carinderia special.",
+    "answer": "A carinderia plate of pancit canton, about 250g, is around 450 calories. That is 60g of dry canton noodles (210 calories), a tablespoon of oil (105), and about 130 calories of meat, shrimp and vegetables. A bilao slice at a party is closer to 600.",
+    "realTalk": [
+      "Canton noodles are flour and egg noodles that have already been fried once at the factory, which is why they are 350 calories per 100g dry compared to 360 for bihon but with three times the fat. Then the cook adds a tablespoon of oil to the wok, sometimes two. A standard plate ends up with 17g of fat, most of it from the noodle and the pan rather than the pork.",
+      "The fiesta bilao is the version that catches people. A large bilao is about 3kg of pancit for 900 to 1,200 pesos and gets cut into 10 to 12 portions, so each is 250 to 300g. Except nobody takes one slice at a birthday, they take one, then a second because it is there. Two bilao portions with a slice of lechon and rice is a 1,300 calorie plate.",
+      "Instant pancit canton is its own category. A pack of Lucky Me Pancit Canton is listed at 280 to 290 calories on FatSecret, which is less than the carinderia plate because the pack is only 60g of noodles. The problem is the 1,000mg plus of sodium and the fact that one pack is never enough, so people cook two, which is 580."
+    ],
+    "lighter": [
+      "Order pancit bihon instead. Rice noodles absorb less oil, about 70 calories less per plate.",
+      "Ask for extra repolyo and carrots. Vegetables in pancit are about 20 calories a handful.",
+      "One portion, no rice on the side. Pancit is already a carbohydrate, the rice is a second one.",
+      "At home, use half the oil the recipe says and a splash of chicken stock to keep the noodles moving."
+    ],
+    "components": [
+      {
+        "name": "Canton noodles, dry weight",
+        "grams": 60,
+        "calories": 210
+      },
+      {
+        "name": "Cooking oil",
+        "grams": 12,
+        "calories": 105
+      },
+      {
+        "name": "Pork or chicken",
+        "grams": 40,
+        "calories": 70
+      },
+      {
+        "name": "Shrimp",
+        "grams": 20,
+        "calories": 20
+      },
+      {
+        "name": "Cabbage, carrot, snow peas",
+        "grams": 60,
+        "calories": 20
+      },
+      {
+        "name": "Soy sauce and oyster sauce",
+        "grams": 15,
+        "calories": 20
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small carinderia scoop",
+        "calories": 320
+      },
+      {
+        "label": "Standard plate",
+        "calories": 450
+      },
+      {
+        "label": "Bilao slice at a party",
+        "calories": 600
+      }
+    ],
+    "variants": [
+      {
+        "name": "Instant pancit canton, 1 pack",
+        "calories": 285,
+        "note": "Lucky Me, per FatSecret"
+      },
+      {
+        "name": "Pancit bihon",
+        "calories": 380,
+        "note": "Rice noodles"
+      },
+      {
+        "name": "Bihon canton mix",
+        "calories": 420,
+        "note": "Half and half"
+      },
+      {
+        "name": "Pancit canton",
+        "calories": 450,
+        "note": "Standard"
+      },
+      {
+        "name": "Pancit canton with lechon kawali topping",
+        "calories": 650,
+        "note": "Restaurant special"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in pancit canton per cup?",
+        "a": "About 300 calories per cup (roughly 170g). A standard carinderia plate is one and a half cups, or 450 calories."
+      },
+      {
+        "q": "Is pancit canton or pancit bihon healthier?",
+        "a": "Bihon is lower, at about 380 calories per plate versus 450. Rice noodles have almost no fat and absorb less oil in the wok than pre-fried canton noodles."
+      },
+      {
+        "q": "How many calories in Lucky Me Pancit Canton?",
+        "a": "About 280 to 290 calories per pack according to FatSecret, depending on the flavour. Two packs, which is what most people cook, is 570."
+      },
+      {
+        "q": "How many calories in a bilao of pancit canton?",
+        "a": "A large bilao (about 3kg) is roughly 5,400 calories in total, or about 600 per party slice if it is cut into 9 or 10."
+      }
+    ],
+    "related": [
+      "pancit-bihon",
+      "pancit-palabok",
+      "mee-goreng-mamak",
+      "yee-mee"
+    ],
+    "source": "estimate from components; instant pack figure from FatSecret Lucky Me entry"
+  },
+  {
+    "slug": "pancit-bihon",
+    "name": "Pancit Bihon",
+    "aka": [
+      "Pansit Bihon",
+      "Bihon Guisado",
+      "Filipino Rice Noodles"
+    ],
+    "category": "noodles",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 plate",
+    "servingGrams": 250,
+    "calories": 380,
+    "protein": 14,
+    "carbs": 55,
+    "fat": 11,
+    "metaDescription": "A plate of pancit bihon guisado is about 380 calories, the lightest of the common pancit.",
+    "summary": "Thin rice vermicelli stir-fried with soy sauce, chicken or pork, cabbage, carrot and celery. The noodle that shows up at every birthday because it is cheap and feeds a crowd.",
+    "answer": "A carinderia plate of pancit bihon, about 250g, is around 380 calories. Dry bihon is 60g of that at 215 calories, plus about 70 calories of oil and 95 from chicken, vegetables and soy. It is roughly 70 calories lighter than the same plate of pancit canton.",
+    "realTalk": [
+      "Bihon is rice flour and water, nothing else. Dry, it is 360 calories per 100g with less than 1g of fat, which is why it is the lightest pancit on the menu even after the wok. The 60g of dry noodles in a plate swells to about 170g cooked. The oil is the only fat source, and a careful cook uses one tablespoon (about 70 to 100 calories) for a family batch, while a careless one uses a quarter cup.",
+      "The toppings are where carinderia bihon and party bihon differ. Carinderia bihon has 40g of shredded chicken and cabbage, about 80 calories of extras. Party bihon from a caterer gets pork belly slices, shrimp, chicharon crumbs and a boiled egg per bilao, which pushes a slice to 500. Same noodle, different economics.",
+      "A plate of bihon at a carinderia is 35 to 50 pesos and comes with a pandesal or a cup of rice if you ask. The pandesal adds 138, the rice adds 260. Bihon with rice is a carb-on-carb plate at 640 calories with about 18g of protein, which is a poor deal. Bihon alone with an egg on the side is a better lunch at 450."
+    ],
+    "lighter": [
+      "Ask for it without rice or pandesal. The noodles are the carbohydrate.",
+      "Add a boiled egg or a piece of grilled chicken for protein. Bihon on its own is low at 14g.",
+      "Squeeze calamansi over it instead of adding more soy sauce. It brightens the plate with zero calories.",
+      "At home, swap half the noodles for shredded cabbage. The texture holds and the plate drops to about 280."
+    ],
+    "components": [
+      {
+        "name": "Bihon rice noodles, dry weight",
+        "grams": 60,
+        "calories": 215
+      },
+      {
+        "name": "Cooking oil",
+        "grams": 8,
+        "calories": 70
+      },
+      {
+        "name": "Shredded chicken",
+        "grams": 40,
+        "calories": 60
+      },
+      {
+        "name": "Cabbage, carrot, celery",
+        "grams": 60,
+        "calories": 20
+      },
+      {
+        "name": "Soy sauce",
+        "grams": 15,
+        "calories": 15
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small scoop",
+        "calories": 270
+      },
+      {
+        "label": "Standard plate",
+        "calories": 380
+      },
+      {
+        "label": "Party bilao slice with pork and egg",
+        "calories": 500
+      }
+    ],
+    "variants": [
+      {
+        "name": "Pancit bihon, vegetables only",
+        "calories": 310,
+        "note": "No meat"
+      },
+      {
+        "name": "Pancit bihon guisado",
+        "calories": 380,
+        "note": "Standard"
+      },
+      {
+        "name": "Bihon canton mix",
+        "calories": 420,
+        "note": "Half canton"
+      },
+      {
+        "name": "Pancit canton",
+        "calories": 450,
+        "note": "Egg noodles"
+      },
+      {
+        "name": "Pancit bihon with lechon kawali",
+        "calories": 600,
+        "note": "Restaurant topping"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in pancit bihon per cup?",
+        "a": "About 250 calories per cup (170g cooked). A carinderia plate is about 1.5 cups, or 380 calories."
+      },
+      {
+        "q": "Is pancit bihon good for weight loss?",
+        "a": "It is one of the lower calorie pancit at 380 per plate, but it is light on protein at about 14g. Add an egg or chicken and skip the rice to make it a proper meal."
+      },
+      {
+        "q": "How many calories in pancit bihon with rice?",
+        "a": "About 640 calories with 1 cup of rice. Bihon is already noodles, so the rice is a second carbohydrate with no extra protein."
+      },
+      {
+        "q": "Which pancit has the least calories?",
+        "a": "Pancit bihon at 380 per plate, then sotanghon at a similar level, then canton at 450. Palabok and malabon are higher because of the shrimp sauce and toppings."
+      }
+    ],
+    "related": [
+      "pancit-canton",
+      "pancit-palabok",
+      "bee-hoon-goreng",
+      "mee-siam"
+    ],
+    "source": "estimate from components"
+  },
+  {
+    "slug": "pancit-palabok",
+    "name": "Pancit Palabok",
+    "aka": [
+      "Palabok",
+      "Pancit Luglug",
+      "Pancit Malabon"
+    ],
+    "category": "noodles",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 plate",
+    "servingGrams": 300,
+    "calories": 440,
+    "protein": 16,
+    "carbs": 58,
+    "fat": 15,
+    "metaDescription": "A carinderia plate of pancit palabok is about 440 calories. Jollibee's Palabok Fiesta is listed at 305. Where the shrimp sauce, chicharon and egg land.",
+    "summary": "Rice noodles under a thick orange shrimp and annatto sauce, topped with crushed chicharon, smoked fish flakes, shrimp, boiled egg and spring onion. The pancit that looks like a party.",
+    "answer": "A carinderia plate of pancit palabok, about 300g, is around 440 calories. The bihon base is 215, the shrimp sauce about 90, and the toppings (chicharon, egg, tinapa, shrimp) add 140. Jollibee's Palabok Fiesta is listed on FatSecret at 305 calories for their smaller serving.",
+    "realTalk": [
+      "Palabok sauce is shrimp stock thickened with flour and coloured with annatto oil, so a 100g ladle is about 90 calories. That is lighter than a peanut or coconut sauce, and the plate would be modest if it stopped there. It does not. The toppings are the point of palabok, and chicharon (55 calories per 10g), half a boiled egg (35) and tinapa flakes (30) are what push a carinderia plate to 440.",
+      "The Jollibee number is useful as a reference. FatSecret lists Jollibee Palabok Fiesta at 305 calories, and it is a smaller serving with a lighter sauce than what a Malabon carinderia puts down. A fiesta-size plate from a Pancit Malabon specialist, with extra shrimp, squid, egg and a heavy chicharon topping, runs 600 or more and costs 90 to 120 pesos.",
+      "Pancit Malabon is the same idea with thicker noodles and a richer sauce that uses more shrimp fat and sometimes crab fat. Count 10 to 15 percent more than palabok for the same plate. Pancit luglug is the Pampanga name and uses the thickest noodles of the three. All of them get finished with a squeeze of calamansi, which is the one free ingredient on the plate."
+    ],
+    "lighter": [
+      "Ask for less chicharon on top. It is the single heaviest topping at 55 calories per small handful.",
+      "Keep the egg, skip the extra sauce. The egg gives protein, the sauce is flour and oil.",
+      "Order the Jollibee size (305) if you want palabok without committing to a 440 calorie plate.",
+      "Do not add rice or pandesal. Palabok is already a full carbohydrate serving."
+    ],
+    "components": [
+      {
+        "name": "Bihon rice noodles, dry weight",
+        "grams": 60,
+        "calories": 215
+      },
+      {
+        "name": "Shrimp annatto sauce",
+        "grams": 100,
+        "calories": 90
+      },
+      {
+        "name": "Crushed chicharon",
+        "grams": 10,
+        "calories": 55
+      },
+      {
+        "name": "Boiled egg, half",
+        "grams": 25,
+        "calories": 35
+      },
+      {
+        "name": "Tinapa flakes",
+        "grams": 15,
+        "calories": 30
+      },
+      {
+        "name": "Shrimp",
+        "grams": 20,
+        "calories": 20
+      }
+    ],
+    "portions": [
+      {
+        "label": "Jollibee Palabok Fiesta",
+        "calories": 305
+      },
+      {
+        "label": "Carinderia plate",
+        "calories": 440
+      },
+      {
+        "label": "Fiesta serving with extra toppings",
+        "calories": 600
+      }
+    ],
+    "variants": [
+      {
+        "name": "Jollibee Palabok Fiesta",
+        "calories": 305,
+        "note": "Per FatSecret"
+      },
+      {
+        "name": "Pancit bihon guisado",
+        "calories": 380,
+        "note": "No sauce, stir-fried"
+      },
+      {
+        "name": "Pancit palabok",
+        "calories": 440,
+        "note": "Standard carinderia"
+      },
+      {
+        "name": "Pancit malabon",
+        "calories": 500,
+        "note": "Thicker noodle, richer sauce"
+      },
+      {
+        "name": "Palabok bilao slice, loaded",
+        "calories": 600,
+        "note": "Party portion"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in Jollibee palabok?",
+        "a": "About 305 calories for a Palabok Fiesta according to FatSecret. It is a smaller serving than a carinderia plate, which is closer to 440."
+      },
+      {
+        "q": "Is pancit palabok healthy?",
+        "a": "The base is fine at about 300 calories for noodles and shrimp sauce. The chicharon and extra toppings are what push it to 440 plus. Ask for light chicharon and keep the egg."
+      },
+      {
+        "q": "How many calories in pancit malabon?",
+        "a": "About 500 calories per plate, roughly 10 to 15 percent more than palabok, because the sauce uses more shrimp fat and the noodles are thicker."
+      },
+      {
+        "q": "What is the difference between palabok and luglug?",
+        "a": "Same sauce and toppings. Palabok uses thin bihon, luglug uses thick noodles and is the Pampanga name. Calories are close, within about 30 per plate."
+      }
+    ],
+    "related": [
+      "pancit-canton",
+      "pancit-bihon",
+      "mee-rebus",
+      "lor-mee"
+    ],
+    "source": "estimate from components; Jollibee figure from FatSecret Jollibee Pancit Palabok entry (305 kcal)"
+  },
+  {
+    "slug": "lumpia-shanghai",
+    "name": "Lumpia Shanghai",
+    "aka": [
+      "Lumpiang Shanghai",
+      "Filipino Spring Rolls",
+      "Lumpia"
+    ],
+    "category": "snacks",
+    "region": [
+      "ph"
+    ],
+    "serving": "5 pieces",
+    "servingGrams": 100,
+    "calories": 280,
+    "protein": 12,
+    "carbs": 18,
+    "fat": 18,
+    "metaDescription": "Five pieces of lumpia shanghai are about 280 calories, or 55 each. FatSecret lists 110 for two. Numbers per piece, per party plate, and the sweet chili dip.",
+    "summary": "Thin spring rolls filled with ground pork, carrot and onion, rolled tight and deep fried. Served with sweet chili sauce or banana ketchup at every birthday, fiesta and Jollibee party.",
+    "answer": "Five pieces of lumpia shanghai, about 100g, are around 280 calories, or roughly 55 calories per small piece. FatSecret lists lumpia at 110 calories for 2 pieces. Add 2 tablespoons of sweet chili sauce and the plate is 320. Nobody stops at five.",
+    "realTalk": [
+      "Each piece is a 20g roll: about 12g of pork filling (30 calories), a 5g wrapper (14), and the oil it soaks up in the fryer (about 12). That is 55 each, and the wrapper-to-filling ratio is what makes lumpia cheaper per calorie than a meatball. The oil is the swing factor. A thin roll fried in fresh oil absorbs about 2g, a fat roll in tired oil absorbs 4g, which doubles that part of the count.",
+      "The problem is the plate, never the piece. A party tray of 50 pieces costs 350 to 500 pesos and a normal adult clears 10 to 15 across an afternoon without noticing, which is 550 to 830 calories. At a carinderia, lumpia shanghai as ulam is 4 to 5 pieces with a cup of rice, 540 calories, and the pieces there are usually larger, around 30g each.",
+      "The dip is sugar. Sweet chili sauce is about 15 calories per tablespoon, banana ketchup about 12, spiced vinegar is under 5. Two tablespoons of sweet chili on 10 pieces adds 30 calories, which is not dramatic, but it is a lot of sugar for a savoury snack. Vinegar with garlic and chili is the traditional pairing and it happens to be the lightest."
+    ],
+    "lighter": [
+      "Air fry or bake them after rolling. Five pieces drop from 280 to about 200 with no oil in the pan.",
+      "Use ground chicken or a half-pork, half-minced-vegetable filling. Chicken lumpia is about 45 calories each.",
+      "Count them out before you start eating. Ten on a plate is a decision, fifteen from a tray is an accident.",
+      "Dip in spiced vinegar instead of sweet chili sauce."
+    ],
+    "components": [
+      {
+        "name": "Ground pork filling with carrot and onion",
+        "grams": 60,
+        "calories": 150
+      },
+      {
+        "name": "Lumpia wrappers",
+        "grams": 25,
+        "calories": 70
+      },
+      {
+        "name": "Frying oil absorbed",
+        "grams": 7,
+        "calories": 60
+      }
+    ],
+    "portions": [
+      {
+        "label": "3 pieces",
+        "calories": 170
+      },
+      {
+        "label": "5 pieces",
+        "calories": 280
+      },
+      {
+        "label": "10 pieces with sweet chili sauce",
+        "calories": 590
+      }
+    ],
+    "variants": [
+      {
+        "name": "Air fried lumpia shanghai, 5 pieces",
+        "calories": 200,
+        "note": "No frying oil"
+      },
+      {
+        "name": "Lumpiang sariwa, 1 roll",
+        "calories": 220,
+        "note": "Fresh, not fried, with peanut sauce"
+      },
+      {
+        "name": "Chicken lumpia, 5 pieces",
+        "calories": 230,
+        "note": "Leaner filling"
+      },
+      {
+        "name": "Pork lumpia shanghai, 5 pieces",
+        "calories": 280,
+        "note": "Standard"
+      },
+      {
+        "name": "Jumbo carinderia lumpia, 5 pieces",
+        "calories": 420,
+        "note": "30g each"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in one lumpia shanghai?",
+        "a": "About 55 calories for a standard 20g piece. FatSecret lists lumpia at 110 calories per 2 pieces. Jumbo carinderia pieces are closer to 85."
+      },
+      {
+        "q": "How many calories in 10 pieces of lumpia?",
+        "a": "About 560 calories for 10 standard pieces, or around 590 with sweet chili sauce. That is more than a plate of chicken adobo with rice."
+      },
+      {
+        "q": "Is lumpia shanghai healthy?",
+        "a": "It is fried pork in a wrapper, so no, but at 55 calories a piece it is manageable in fives. The wrapper is thin and the filling is real meat. The issue is the party tray, not the roll."
+      },
+      {
+        "q": "How many calories in lumpiang sariwa?",
+        "a": "About 220 calories per fresh roll with peanut sauce. The crepe wrapper is not fried, and the filling is mostly vegetables, so it is lighter than 4 pieces of shanghai."
+      }
+    ],
+    "related": [
+      "popiah",
+      "spring-rolls",
+      "kwek-kwek",
+      "pancit-canton"
+    ],
+    "source": "FatSecret generic lumpia (110 kcal per 2 pieces), scaled to 5 pieces"
+  },
+  {
+    "slug": "tapsilog",
+    "name": "Tapsilog",
+    "aka": [
+      "Tapa Sinangag Itlog",
+      "Beef Tapa with Garlic Rice and Egg",
+      "Tapsi"
+    ],
+    "category": "rice",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 plate",
+    "servingGrams": 350,
+    "calories": 650,
+    "protein": 34,
+    "carbs": 67,
+    "fat": 26,
+    "metaDescription": "A plate of tapsilog is about 650 calories: 230 from the beef tapa, 320 from garlic rice, 90 from the fried egg. Numbers for every silog plate inside.",
+    "summary": "Cured beef tapa fried until the edges crisp, a mound of garlic fried rice, and a sunny-side-up egg. The original silog, served 24 hours a day at every tapsihan.",
+    "answer": "A standard tapsilog plate is about 650 calories. That is 100g of beef tapa (230 calories), 200g of sinangag garlic rice (320), one fried egg (90) and a spoon of atchara (10). A tapsihan that gives extra rice with the meal pushes it to 900.",
+    "realTalk": [
+      "The rice is the biggest item, and it is not plain rice. Sinangag is day-old rice fried in garlic oil, and a 200g cup carries about 8g of oil, so it lands at 320 calories versus 260 for the same cup steamed. Then the egg is fried in more oil, 90 calories rather than the 70 of a boiled one. Between them, the oil on a tapsilog plate is about 150 calories before the beef.",
+      "The tapa itself is the leanest part of the plate. Beef tapa is thin-sliced sirloin or round cured with soy, garlic, sugar and vinegar, and 100g cooked is about 230 calories with 25g of protein. A tapsihan that uses fattier cuts or fries the tapa in lard will run higher, and some places add a spoon of the cooking oil over the rice as a finish. That spoon is 40 calories.",
+      "The silog family runs from about 520 to 700 for a standard plate. Cornsilog (corned beef) and bangsilog (fried bangus) are at the low end, tapsilog and tosilog sit in the middle at 650 to 660, and longsilog is the heaviest at 700 because sweet longganisa is a fatty sausage. The rice and egg are fixed at about 410, so the ulam alone decides the range."
+    ],
+    "lighter": [
+      "Ask for plain steamed rice instead of sinangag. That is 60 calories less and you lose nothing except garlic.",
+      "Ask for the egg boiled or poached. About 20 calories less and no extra frying oil.",
+      "Half rice. Tapa is salty and the atchara is sweet, so half a cup carries the flavour fine.",
+      "Skip the extra oil drizzle some tapsihan spoon over the rice. Ask for it dry."
+    ],
+    "components": [
+      {
+        "name": "Beef tapa, fried",
+        "grams": 100,
+        "calories": 230
+      },
+      {
+        "name": "Sinangag garlic rice",
+        "grams": 200,
+        "calories": 320
+      },
+      {
+        "name": "Fried egg",
+        "grams": 50,
+        "calories": 90
+      },
+      {
+        "name": "Atchara",
+        "grams": 20,
+        "calories": 10
+      }
+    ],
+    "portions": [
+      {
+        "label": "Tapa and rice, no egg",
+        "calories": 560
+      },
+      {
+        "label": "Standard tapsilog",
+        "calories": 650
+      },
+      {
+        "label": "Tapsilog with extra rice",
+        "calories": 910
+      }
+    ],
+    "variants": [
+      {
+        "name": "Cornsilog",
+        "calories": 520,
+        "note": "Corned beef"
+      },
+      {
+        "name": "Bangsilog",
+        "calories": 560,
+        "note": "Fried bangus"
+      },
+      {
+        "name": "Hotsilog",
+        "calories": 620,
+        "note": "Two red hotdogs"
+      },
+      {
+        "name": "Tapsilog",
+        "calories": 650,
+        "note": "Beef tapa"
+      },
+      {
+        "name": "Tosilog",
+        "calories": 660,
+        "note": "Sweet pork tocino"
+      },
+      {
+        "name": "Longsilog",
+        "calories": 700,
+        "note": "Two longganisa"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in tapsilog without egg?",
+        "a": "About 560 calories for tapa and garlic rice only. The fried egg adds 90."
+      },
+      {
+        "q": "How many calories in beef tapa alone?",
+        "a": "About 230 calories per 100g cooked, with roughly 25g of protein. It is the leanest part of the plate."
+      },
+      {
+        "q": "Is tapsilog good for breakfast on a diet?",
+        "a": "It has 34g of protein, which is good. The 650 total is high for one meal, so the fix is plain rice instead of sinangag and a boiled egg, which brings it to about 570."
+      },
+      {
+        "q": "Which silog has the lowest calories?",
+        "a": "Cornsilog at around 520, then bangsilog at 560. Longsilog is the highest of the common ones at about 700."
+      }
+    ],
+    "related": [
+      "longsilog",
+      "sinangag",
+      "chicken-adobo",
+      "nasi-goreng-kampung"
+    ],
+    "source": "estimate from components"
+  },
+  {
+    "slug": "longsilog",
+    "name": "Longsilog",
+    "aka": [
+      "Longganisa Sinangag Itlog",
+      "Longganisa with Garlic Rice and Egg",
+      "Longsi"
+    ],
+    "category": "rice",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 plate",
+    "servingGrams": 330,
+    "calories": 700,
+    "protein": 28,
+    "carbs": 68,
+    "fat": 34,
+    "metaDescription": "A longsilog plate with 2 longganisa is about 700 calories, the heaviest of the silog breakfasts. Where the sausage, garlic rice and egg each land.",
+    "summary": "Two sweet Filipino pork sausages, a mound of garlic fried rice and a fried egg. The silog with the most sugar and the most fat, and the one most people order.",
+    "answer": "A standard longsilog plate with 2 pieces of longganisa is about 700 calories. Two sweet longganisa (90g) are around 290 calories, the 200g of sinangag is 320, and the fried egg is 90. Three sausages with extra rice, a common tapsihan order, is 1,100.",
+    "realTalk": [
+      "Longganisa is pork, pork fat, sugar and garlic in a casing. The sweet Pampanga style (hamonado) is about 320 calories per 100g cooked, and a lot of that is sugar, 8 to 10g per sausage. The fat renders out in the pan and most tapsihan cooks tip it back over the rice. That is why longsilog beats tapsilog by 50 calories even though the sausages weigh less than the tapa.",
+      "The style of longganisa changes the plate a lot. Vigan longganisa is garlicky, sour and leaner, about 240 calories per 2 pieces. Lucban is similar at 260. The skinless sweet ones sold at supermarkets are small, about 110 each, so 2 pieces is only 220. The tapsihan default is the plump sweet kind at 145 each, and the plate assumes that.",
+      "A longsilog at a Manila tapsihan is 75 to 110 pesos and usually comes with a cup of sinangag that is more like 250g than 200g. If the plate looks generous, count 400 for the rice instead of 320. Add a cup of 3-in-1 coffee at 90 calories and breakfast is close to 900 before 8am."
+    ],
+    "lighter": [
+      "Order 1 longganisa instead of 2 and add a second egg. That drops the plate to about 630 with more protein.",
+      "Choose Vigan or Lucban longganisa when the tapsihan has it. About 50 calories less per pair, and less sugar.",
+      "Plain rice instead of sinangag saves 60. Ask them not to drizzle the sausage fat over it.",
+      "Skip the 3-in-1 coffee. Black kape barako is 5 calories."
+    ],
+    "components": [
+      {
+        "name": "Sweet longganisa, 2 pieces",
+        "grams": 90,
+        "calories": 290
+      },
+      {
+        "name": "Sinangag garlic rice",
+        "grams": 200,
+        "calories": 320
+      },
+      {
+        "name": "Fried egg",
+        "grams": 50,
+        "calories": 90
+      }
+    ],
+    "portions": [
+      {
+        "label": "1 longganisa with rice and egg",
+        "calories": 560
+      },
+      {
+        "label": "Standard longsilog, 2 longganisa",
+        "calories": 700
+      },
+      {
+        "label": "3 longganisa with extra rice",
+        "calories": 1100
+      }
+    ],
+    "variants": [
+      {
+        "name": "Skinless longganisa, 2 pieces",
+        "calories": 220,
+        "note": "Small supermarket kind"
+      },
+      {
+        "name": "Vigan longganisa, 2 pieces",
+        "calories": 240,
+        "note": "Garlicky, leaner"
+      },
+      {
+        "name": "Lucban longganisa, 2 pieces",
+        "calories": 260,
+        "note": "Oregano, less sugar"
+      },
+      {
+        "name": "Sweet hamonado longganisa, 2 pieces",
+        "calories": 290,
+        "note": "Tapsihan default"
+      },
+      {
+        "name": "Chorizo de Cebu, 2 pieces",
+        "calories": 310,
+        "note": "Sweet and fatty"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in one longganisa?",
+        "a": "About 145 calories for a standard sweet longganisa (45g cooked). Skinless supermarket ones are about 110, Vigan about 120."
+      },
+      {
+        "q": "Is longsilog or tapsilog higher in calories?",
+        "a": "Longsilog, at about 700 versus 650 for tapsilog. Longganisa has more fat and sugar than beef tapa, and its rendered fat usually ends up on the rice."
+      },
+      {
+        "q": "How much sugar is in longganisa?",
+        "a": "Sweet hamonado longganisa has about 8 to 10g of sugar per piece. Vigan and Lucban styles have almost none, which is why they taste sour and garlicky instead."
+      },
+      {
+        "q": "How many calories in longsilog without rice?",
+        "a": "About 380 calories for 2 longganisa and a fried egg. The 200g of sinangag is 320 of the standard plate."
+      }
+    ],
+    "related": [
+      "tapsilog",
+      "sinangag",
+      "pork-bbq",
+      "nasi-lemak"
+    ],
+    "source": "estimate from components"
+  },
+  {
+    "slug": "halo-halo",
+    "name": "Halo-Halo",
+    "aka": [
+      "Halo Halo",
+      "Haluhalo",
+      "Filipino Shaved Ice Dessert"
+    ],
+    "category": "dessert",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 tall glass",
+    "servingGrams": 400,
+    "calories": 450,
+    "protein": 8,
+    "carbs": 80,
+    "fat": 11,
+    "metaDescription": "A regular tall glass of halo-halo is about 450 calories, and the special with ice cream is 560.",
+    "summary": "Shaved ice over sweetened beans, jackfruit, kaong, nata de coco, sago and banana, topped with evaporated milk, leche flan, ube halaya and sometimes ice cream. Stir before eating.",
+    "answer": "A regular tall glass of halo-halo, about 400g, is around 450 calories. The sweetened fruits and beans are 200 of that, the leche flan 100, the ube halaya 90, and the evaporated milk 80. A special with a scoop of ice cream is closer to 560. The ice is zero.",
+    "realTalk": [
+      "Every layer under the ice is preserved in sugar syrup. Sweetened red beans, garbanzos, kaong, nata de coco, macapuno and minatamis na saging are all about 150 to 200 calories per 100g in their syrup. A regular glass has around 120g of them, which is 200 calories before any topping goes on. The ice is doing nothing except making it feel light.",
+      "The toppings decide whether it is 450 or 650. A slab of leche flan is 100 calories for 40g. Ube halaya is 90 for the same weight because it is mashed purple yam cooked with condensed milk and butter. A scoop of ube ice cream is 100 to 120. A carinderia halo-halo for 50 pesos skips the flan and ice cream and lands around 300. A restaurant special for 150 to 200 pesos has all three and lands past 550.",
+      "It is a dessert most people eat after a full meal. A lunch of sinigang with rice at 580 and then a special halo-halo at 560 is 1,140 calories. The 3pm merienda version on its own is easier to fit, because it replaces a snack instead of following a meal. The sugar hit is about 70g either way, roughly the same as two cans of Coke."
+    ],
+    "lighter": [
+      "Order mais con yelo or saba con yelo instead. Same shaved ice and milk, about 220 to 260 calories.",
+      "Ask for it without leche flan and ube halaya. That takes 190 calories off a special.",
+      "Skip the ice cream scoop. Ube ice cream is 100 to 120 on its own.",
+      "Ask for less evaporated milk, or ask for fresh milk. Evap is 80 calories per 60ml pour."
+    ],
+    "components": [
+      {
+        "name": "Sweetened beans, jackfruit, kaong, nata, banana in syrup",
+        "grams": 120,
+        "calories": 200
+      },
+      {
+        "name": "Evaporated milk",
+        "grams": 60,
+        "calories": 80
+      },
+      {
+        "name": "Leche flan",
+        "grams": 40,
+        "calories": 100
+      },
+      {
+        "name": "Ube halaya",
+        "grams": 40,
+        "calories": 90
+      },
+      {
+        "name": "Shaved ice",
+        "grams": 150,
+        "calories": 0
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small cup, no flan or ube",
+        "calories": 280
+      },
+      {
+        "label": "Regular tall glass",
+        "calories": 450
+      },
+      {
+        "label": "Special with ice cream",
+        "calories": 560
+      }
+    ],
+    "variants": [
+      {
+        "name": "Mais con yelo",
+        "calories": 220,
+        "note": "Sweet corn, ice, milk"
+      },
+      {
+        "name": "Saba con yelo",
+        "calories": 260,
+        "note": "Sweetened banana"
+      },
+      {
+        "name": "Halo-halo, regular",
+        "calories": 450,
+        "note": "Standard glass"
+      },
+      {
+        "name": "Halo-halo special with ice cream",
+        "calories": 560,
+        "note": "Restaurant"
+      },
+      {
+        "name": "Halo-halo with extra leche flan",
+        "calories": 650,
+        "note": "Two slabs"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in a halo-halo special?",
+        "a": "About 560 calories with ice cream, leche flan and ube halaya. A regular glass without ice cream is around 450."
+      },
+      {
+        "q": "How much sugar is in halo-halo?",
+        "a": "Roughly 65 to 75g in a regular glass, from the syrup-preserved beans and fruit, the evaporated milk and the flan. That is about the same as two 330ml cans of soft drink."
+      },
+      {
+        "q": "Is halo-halo healthy?",
+        "a": "No, it is a sugar dessert. The one thing in its favour is volume: 400g of ice and fruit fills you up more than a 450 calorie slice of cake would."
+      },
+      {
+        "q": "How many calories in mais con yelo?",
+        "a": "About 220 calories for a glass of sweet corn, shaved ice, sugar and evaporated milk. It is the lightest of the con yelo desserts."
+      }
+    ],
+    "related": [
+      "ais-kacang",
+      "cendol",
+      "leche-flan",
+      "taho"
+    ],
+    "source": "estimate from components"
+  },
+  {
+    "slug": "bulalo",
+    "name": "Bulalo",
+    "aka": [
+      "Beef Bone Marrow Soup",
+      "Bulalo Soup",
+      "Nilagang Bulalo"
+    ],
+    "category": "soup",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 bowl",
+    "servingGrams": 450,
+    "calories": 520,
+    "protein": 32,
+    "carbs": 18,
+    "fat": 34,
+    "metaDescription": "A bowl of bulalo with shank and marrow is about 520 calories. The marrow alone is 170 of that.",
+    "summary": "Beef shank simmered for hours until the meat slides off the bone, served in clear broth with corn on the cob, cabbage and pechay. The marrow is the prize.",
+    "answer": "A standard bowl of bulalo, about 450g with beef shank, a marrow bone, corn and vegetables, is around 520 calories. The shank meat is 260, the marrow about 170, and the broth, corn and cabbage together under 100. The Tagaytay bowl-for-two is closer to 1,000.",
+    "realTalk": [
+      "Bone marrow is about 780 calories per 100g, almost entirely fat. A single bulalo bone gives 20 to 25g of marrow, which is 160 to 200 calories that most people slurp out in ten seconds. The shank meat around it is honest beef at 260 calories per 120g with 30g of protein. So a bowl is 520 if you eat the marrow and about 350 if you leave it, which nobody does.",
+      "The Tagaytay version is a different animal. Bulalo houses along the ridge sell a bowl for 400 to 600 pesos meant for 2 to 3 people, with two or three bones and 300g of meat. Split in two, each person is at 800 to 1,000 calories of soup, then the rice, then the tawilis. The broth also carries a fat layer from 4 hours of simmering that adds 40 to 80 calories per bowl unless it was skimmed.",
+      "Nilagang baka is bulalo without the marrow bone and is the sensible choice at about 400 calories a bowl with the same meat and vegetables. Kansi, the Ilonggo sour cousin, is around 480 because it uses the same bone but the batuan fruit and less corn. Corn on the cob in bulalo is about 45 calories for a 50g chunk, so it is not the issue."
+    ],
+    "lighter": [
+      "Order nilagang baka. Same shank, same cabbage and corn, no marrow bone, about 120 calories less.",
+      "Eat the marrow from one bone only if the bowl has two. Each bone is roughly 170 calories.",
+      "Skim the fat from the top of the broth. In a long-simmered bulalo that layer is 40 to 80 calories per bowl.",
+      "Fill up on the pechay and cabbage before the rice. They are under 15 calories a handful in this broth."
+    ],
+    "components": [
+      {
+        "name": "Beef shank meat",
+        "grams": 120,
+        "calories": 260
+      },
+      {
+        "name": "Bone marrow",
+        "grams": 22,
+        "calories": 170
+      },
+      {
+        "name": "Beef broth",
+        "grams": 250,
+        "calories": 40
+      },
+      {
+        "name": "Corn on the cob",
+        "grams": 50,
+        "calories": 45
+      },
+      {
+        "name": "Cabbage and pechay",
+        "grams": 40,
+        "calories": 10
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small bowl, no marrow",
+        "calories": 350
+      },
+      {
+        "label": "Standard bowl with marrow",
+        "calories": 520
+      },
+      {
+        "label": "Tagaytay bowl, half of a sharing order",
+        "calories": 900
+      }
+    ],
+    "variants": [
+      {
+        "name": "Nilagang baka",
+        "calories": 400,
+        "note": "No marrow bone"
+      },
+      {
+        "name": "Kansi",
+        "calories": 480,
+        "note": "Ilonggo sour version"
+      },
+      {
+        "name": "Bulalo",
+        "calories": 520,
+        "note": "Standard bowl"
+      },
+      {
+        "name": "Bulalo with 1 cup rice",
+        "calories": 780,
+        "note": "Usual lunch"
+      },
+      {
+        "name": "Bulalo steak (sizzling)",
+        "calories": 850,
+        "note": "Fried shank in gravy"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in bulalo with rice?",
+        "a": "About 780 calories for a standard bowl with 1 cup of rice. With 2 cups, which is normal in Tagaytay, it is 1,040."
+      },
+      {
+        "q": "How many calories in bone marrow from bulalo?",
+        "a": "About 160 to 200 calories per bone. Marrow is roughly 780 calories per 100g and a bulalo bone holds 20 to 25g."
+      },
+      {
+        "q": "Is bulalo healthy?",
+        "a": "The broth, shank and vegetables are fine, about 350 calories with 30g of protein. The marrow and the fat layer on top are what push it to 520. Nilaga is the same dish without them."
+      },
+      {
+        "q": "What is the difference between bulalo and nilaga?",
+        "a": "Bulalo uses the shank cut with the marrow bone, nilaga uses cheaper beef cuts without it. Nilaga is about 400 calories a bowl versus 520 for bulalo."
+      }
+    ],
+    "related": [
+      "sinigang-na-baboy",
+      "tinola",
+      "sup-tulang",
+      "sup-ekor"
+    ],
+    "source": "estimate from components"
+  },
+  {
+    "slug": "tinola",
+    "name": "Tinola",
+    "aka": [
+      "Tinolang Manok",
+      "Chicken Tinola",
+      "Ginger Chicken Soup"
+    ],
+    "category": "soup",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 bowl",
+    "servingGrams": 400,
+    "calories": 300,
+    "protein": 26,
+    "carbs": 12,
+    "fat": 16,
+    "metaDescription": "A bowl of tinolang manok with one chicken piece, green papaya and malunggay is about 300 calories. The lightest of the big three Filipino soups.",
+    "summary": "Chicken simmered in ginger broth with green papaya or sayote, malunggay or chili leaves, and fish sauce. The sick-day soup, the rainy-day soup, and the cheapest ulam at the carinderia.",
+    "answer": "A carinderia bowl of tinolang manok, about 400g with one bone-in chicken piece, papaya and leaves, is around 300 calories. The chicken is 200 of that, the ginger broth about 30, the papaya 30, and the oil used to sauté the ginger and garlic 45. It is the lightest of tinola, sinigang and bulalo.",
+    "realTalk": [
+      "Tinola broth is water, ginger, garlic, onion and patis. A cup of it is about 15 calories, and even after the chicken simmers in it for 30 minutes it stays under 30 because chicken thigh does not shed fat the way pork belly does. The one place calories sneak in is the start, when the cook fries the ginger and garlic in a tablespoon of oil (about 90 calories for the pot, 45 per bowl if the pot serves two).",
+      "The chicken piece is the whole number. A bone-in thigh or leg with skin, about 120g cooked, is 200 calories with 22g of protein. A skinless breast piece of the same weight is 140. Native chicken (manok na bisaya) is leaner and tougher and lands around 160 for the same piece, which is why the long-simmered Visayan tinola tastes different and runs lighter.",
+      "The green papaya and malunggay are practically free, about 30 calories per 80g of papaya and 10 per handful of leaves, and they carry most of the volume. A 400g bowl is mostly broth and vegetable by weight. With 1 cup of rice the meal is 560, which is one of the better carinderia lunches you can order for 60 to 80 pesos."
+    ],
+    "lighter": [
+      "Ask for the breast piece or take the skin off. About 60 calories less per bowl.",
+      "Ask for extra papaya or sayote. It is 30 calories a serving and it fills the bowl.",
+      "One cup of rice. Tinola broth on rice is good enough that people go back, and that second cup is 260.",
+      "Squeeze calamansi and add fresh chili instead of extra patis. Zero calories, more flavour."
+    ],
+    "components": [
+      {
+        "name": "Chicken thigh or leg, bone-in with skin",
+        "grams": 120,
+        "calories": 200
+      },
+      {
+        "name": "Ginger broth",
+        "grams": 200,
+        "calories": 30
+      },
+      {
+        "name": "Green papaya or sayote",
+        "grams": 80,
+        "calories": 30
+      },
+      {
+        "name": "Malunggay or chili leaves",
+        "grams": 20,
+        "calories": 10
+      },
+      {
+        "name": "Oil for sautéing ginger and garlic",
+        "grams": 5,
+        "calories": 45
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small bowl",
+        "calories": 200
+      },
+      {
+        "label": "Standard bowl, 1 chicken piece",
+        "calories": 300
+      },
+      {
+        "label": "Large bowl, 2 chicken pieces",
+        "calories": 450
+      }
+    ],
+    "variants": [
+      {
+        "name": "Tinolang tahong",
+        "calories": 180,
+        "note": "Mussels instead of chicken"
+      },
+      {
+        "name": "Tinolang manok, skinless breast",
+        "calories": 230,
+        "note": "Leanest chicken version"
+      },
+      {
+        "name": "Tinolang manok, thigh",
+        "calories": 300,
+        "note": "Standard"
+      },
+      {
+        "name": "Tinolang native chicken, large bowl",
+        "calories": 380,
+        "note": "Visayan style, more meat"
+      },
+      {
+        "name": "Tinola with 1 cup rice",
+        "calories": 560,
+        "note": "Usual carinderia lunch"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in tinola with rice?",
+        "a": "About 560 calories for a standard bowl with 1 cup of rice. The soup alone is around 300."
+      },
+      {
+        "q": "Is tinola good for weight loss?",
+        "a": "It is one of the best carinderia choices. About 300 calories a bowl with 26g of protein, and most of the volume is broth, papaya and leaves. Pick the breast piece and it drops to 230."
+      },
+      {
+        "q": "How many calories in tinola broth only?",
+        "a": "About 15 to 30 calories per cup. Ginger, garlic, onion and fish sauce add almost nothing, and chicken thigh sheds very little fat into it."
+      },
+      {
+        "q": "Which is lower in calories, tinola or sinigang?",
+        "a": "Tinola, at about 300 per bowl versus 320 for pork sinigang. The gap widens if the sinigang uses pork belly, which can push it past 400."
+      }
+    ],
+    "related": [
+      "sinigang-na-baboy",
+      "bulalo",
+      "sup-ayam",
+      "arroz-caldo"
+    ],
+    "source": "estimate from components"
+  }
+]

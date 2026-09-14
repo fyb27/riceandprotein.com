@@ -1,0 +1,544 @@
+[
+  {
+    "slug": "cha-gio",
+    "name": "Cha Gio",
+    "aka": ["Chả giò", "Nem rán", "Vietnamese Fried Spring Rolls", "Cha Gio Re"],
+    "category": "snacks",
+    "region": ["vn"],
+    "serving": "1 plate (4 rolls) with nuoc cham",
+    "servingGrams": 200,
+    "calories": 480,
+    "protein": 18,
+    "carbs": 42,
+    "fat": 27,
+    "metaDescription": "One cha gio is about 115 calories and a plate of 4 with nuoc cham is 480. The Vietnam NIN table puts a roll at 110. Here is where the oil hides.",
+    "summary": "Minced pork, prawn, taro, carrot, glass noodles and wood ear mushroom rolled in rice paper (south) or thin wheat wrappers (north, where it is nem ran) and deep fried until blistered. Sold 4 to 6 to a plate for 30,000 to 50,000 dong, or dropped on top of bun thit nuong.",
+    "answer": "A single street cha gio weighing about 45g is around 115 calories, close to the 110 per roll in the National Institute of Nutrition table, and a plate of 4 with a bowl of nuoc cham is about 480. Roughly a third of that is frying oil soaked into the wrapper. The same roll fresh, as goi cuon, is 65.",
+    "realTalk": [
+      "The wrapper is the problem, not the filling. Before frying, a 45g cha gio is about 70 calories: 10g of rice paper or wheat skin at 35, 15g of pork and prawn mince at 35, and a spoon of taro, carrot and glass noodles at 15. Then it goes into the oil for 4 to 5 minutes and the wrapper drinks up 4 to 5g of it, which is 40 to 45 calories per roll. That is how you get to 110 to 115, and the NIN figure of 230 per 100g says the same thing. A double fried roll from a cart that keeps them warm in the oil is closer to 135.",
+      "Nobody eats one. The normal order is a plate of 4 to 6, so 460 to 690 before the sauce, and the nuoc cham bowl is another 20 if you finish it. Where cha gio really adds up is as a topping: one on your bun thit nuong takes a 480 bowl to 620, two takes it to 750. At a bia hoi table a plate of 6 nem ran with 2 beers is 1,000 calories and it is only the starter.",
+      "Filling changes less than people expect. Cha gio tom (prawn) is the lightest at around 85 per roll because prawn is lean. Cha gio chay with mung bean and mushroom sounds healthy but the NIN table lists it at 130 per 100g before frying, and once fried it lands at 100 to 110, the same as pork. Cha gio re, the lacy net wrapper version, soaks up the most oil and runs 140 to 150 each. Size matters more than filling: a fat Saigon roll can be 60g and 150 calories."
+    ],
+    "lighter": [
+      "Eat 2 rolls wrapped in lettuce and herbs, not 4 on their own. About 250 with the greens filling the gap.",
+      "Ask for cha gio tom. Prawn filling is about 85 per roll versus 115 for pork.",
+      "Skip the cha gio on top of your bun. Each one adds 135 to the bowl.",
+      "At home, air fry or bake. A baked roll is about 75 because it takes on no oil.",
+      "Order goi cuon when both are on the menu. Same filling, 65 a roll, no frying."
+    ],
+    "components": [
+      {"name": "Rice paper or wheat wrappers", "grams": 40, "calories": 130},
+      {"name": "Pork and prawn mince", "grams": 60, "calories": 130},
+      {"name": "Taro, carrot, glass noodles, wood ear", "grams": 60, "calories": 60},
+      {"name": "Frying oil absorbed", "grams": 18, "calories": 160},
+      {"name": "Nuoc cham", "grams": 40, "calories": 20}
+    ],
+    "portions": [
+      {"label": "1 roll", "calories": 115},
+      {"label": "Plate of 4 rolls", "calories": 480},
+      {"label": "Plate of 6 with sauce", "calories": 700}
+    ],
+    "variants": [
+      {"name": "Cha gio tom (prawn)", "calories": 85, "note": "Per roll"},
+      {"name": "Cha gio chay", "calories": 105, "note": "Per roll, mung bean and mushroom"},
+      {"name": "Cha gio thit (standard)", "calories": 115, "note": "Per roll"},
+      {"name": "Cha gio re (net wrapper)", "calories": 145, "note": "Per roll, soaks up more oil"},
+      {"name": "Bun thit nuong with 2 cha gio", "calories": 750, "note": "The usual Saigon order"}
+    ],
+    "faq": [
+      {"q": "How many calories in 1 cha gio?", "a": "About 110 to 115 for a standard 45g roll, per the National Institute of Nutrition figure of 110. Bigger Saigon rolls of 60g are around 150."},
+      {"q": "Is cha gio the same as nem ran?", "a": "Yes. Nem ran is the northern name, cha gio the southern one. The north tends to use thinner wheat wrappers and cuts rolls into 3 or 4 pieces; calories per gram are about the same, 230 per 100g."},
+      {"q": "Cha gio or goi cuon, which has fewer calories?", "a": "Goi cuon, by a lot. A fresh roll is about 65 calories and a fried cha gio is 115, and the difference is entirely frying oil."},
+      {"q": "How many calories in cha gio chay?", "a": "Roughly 100 to 110 per fried roll, the same as pork. The filling is lighter but the wrapper still absorbs the same oil."}
+    ],
+    "related": ["goi-cuon", "bun-thit-nuong", "bun-cha", "lumpia-shanghai"],
+    "source": "Vietnam National Institute of Nutrition table via Long Chau and FPT Shop (110 per roll, 230 per 100g)"
+  },
+  {
+    "slug": "banh-bao",
+    "name": "Banh Bao",
+    "aka": ["Bánh bao", "Vietnamese Steamed Pork Bun", "Banh Bao Nhan Thit", "Banh Bao Trung Cut"],
+    "category": "snacks",
+    "region": ["vn"],
+    "serving": "1 bun (pork and quail egg)",
+    "servingGrams": 150,
+    "calories": 360,
+    "protein": 14,
+    "carbs": 48,
+    "fat": 12,
+    "metaDescription": "A standard banh bao with pork and quail egg is about 360 calories, most of it the 90g of steamed dough. The fillings, sizes and lighter picks compared.",
+    "summary": "A fist sized steamed bun of soft white dough filled with seasoned minced pork, wood ear mushroom, a slice of lap xuong sausage and one or two quail eggs. Sold warm from glass cabinets on street corners and at every com binh dan for 12,000 to 25,000 dong.",
+    "answer": "A standard banh bao nhan thit with quail egg is around 360 calories, in line with the Long Chau figure of 360 per bun and the Pharmacity range of 350 to 400 for the 2 egg version. The dough is 220 of it, the pork filling about 85, and the quail eggs and lap xuong the last 55. A small 25g bun from a bakery bag is about 75.",
+    "realTalk": [
+      "The dough is where the calories are, and it is more dough than you think. A street banh bao weighs 140 to 160g and roughly 90g of that is steamed wheat dough made with sugar and a little oil, about 240 calories per 100g cooked. So 220 from the bun alone before you find the filling. The pork filling is 35g of minced shoulder with onion and wood ear, around 85. Two quail eggs are 30 and the slice of lap xuong is 25. That is your 360.",
+      "It looks like a snack and eats like a meal. At 360 calories and only 14g of protein, a banh bao is more than a plate of banh cuon (300) and close to a bowl of pho ga (400), but nowhere near as filling, because 150g of bread does not sit in the stomach the way 500g of soup does. The usual move is a banh bao and a ca phe sua da for breakfast, about 490 together, and hunger by 10am.",
+      "The variants spread wide. Long Chau lists banh bao nhan dau xanh (mung bean) at 150, banh bao trung muoi (salted egg) at 150 for a smaller bun, banh bao khong nhan chien (fried plain) at 180, and the big pork and 2 egg version at 350 to 400. The chain shop ones, Tho Phat style, run 180 to 200g and 400 plus. A banh bao chien, deep fried instead of steamed, adds 80 to 100 of oil to whichever version you pick."
+    ],
+    "lighter": [
+      "Pick the single quail egg bun over the 2 egg or dac biet one. Saves 30 to 60.",
+      "Add a boiled egg or a glass of unsweetened soy milk instead of a second bun. About 75 to 90 for another 7g of protein.",
+      "Skip banh bao chien. Frying adds 80 to 100 calories to the same bun.",
+      "The mini bakery banh bao (20 to 30g) are 60 to 90 each. Two of those with an egg beats one big one.",
+      "Treat it as breakfast, not a snack between meals. 360 calories is a meal's worth."
+    ],
+    "components": [
+      {"name": "Steamed wheat dough", "grams": 90, "calories": 220},
+      {"name": "Minced pork and wood ear filling", "grams": 35, "calories": 85},
+      {"name": "Quail eggs (2)", "grams": 20, "calories": 30},
+      {"name": "Lap xuong sausage", "grams": 5, "calories": 25}
+    ],
+    "portions": [
+      {"label": "Mini bakery bun (25g)", "calories": 75},
+      {"label": "Standard bun with quail egg", "calories": 360},
+      {"label": "Large 2 egg dac biet bun", "calories": 420}
+    ],
+    "variants": [
+      {"name": "Banh bao nhan dau xanh", "calories": 150, "note": "Mung bean, Long Chau figure"},
+      {"name": "Banh bao khong nhan chien", "calories": 180, "note": "Plain, fried"},
+      {"name": "Banh bao sua tuoi", "calories": 200, "note": "Milk bun, no filling"},
+      {"name": "Banh bao nhan thit trung cut", "calories": 360, "note": "The standard"},
+      {"name": "Banh bao chien nhan thit", "calories": 450, "note": "Deep fried pork bun"}
+    ],
+    "faq": [
+      {"q": "How many calories in 1 banh bao nhan thit?", "a": "About 360 for a standard bun with pork and quail egg. The 2 egg version is 350 to 400 depending on size, and mini bakery buns are 60 to 90."},
+      {"q": "Is banh bao good for weight loss?", "a": "Not especially. It is 360 calories with only 14g of protein and 48g of refined carbs, so it does not keep you full for its size. A mung bean bun at 150 or half a bun with an egg is the better version."},
+      {"q": "How much protein is in a banh bao?", "a": "Around 14g from the pork, quail eggs and the wheat dough. That is half what you get from a bowl of pho for a similar calorie count."},
+      {"q": "Banh bao or banh mi, which has more calories?", "a": "A banh bao is about 360 and a banh mi thit is 500, but the banh mi has 20g of protein and vegetables. Per calorie the banh mi is the better breakfast."}
+    ],
+    "related": ["banh-mi-thit", "banh-cuon", "char-siew-bao", "pau-kaya"],
+    "source": "Long Chau (360 per pork and quail egg bun; 150 to 200 for other fillings) and Pharmacity (350 to 400 for the 2 egg bun)"
+  },
+  {
+    "slug": "banh-trang-tron",
+    "name": "Banh Trang Tron",
+    "aka": ["Bánh tráng trộn", "Vietnamese Rice Paper Salad", "Rice Paper Mix", "Banh Trang Tron Sai Gon"],
+    "category": "snacks",
+    "region": ["vn"],
+    "serving": "1 bag (150g)",
+    "servingGrams": 150,
+    "calories": 450,
+    "protein": 12,
+    "carbs": 55,
+    "fat": 20,
+    "metaDescription": "A 150g bag of banh trang tron is about 450 calories, based on Vinmec's 300 per 100g. The sate oil, peanuts and shallot oil do most of it.",
+    "summary": "Strips of dried rice paper tossed in a plastic bag with shredded green mango, quail eggs, beef jerky, dried shrimp, peanuts, fried shallots, rau ram, kumquat juice and sate chili oil. The after school snack of the whole country, 15,000 to 25,000 dong a bag from a cart outside any school gate.",
+    "answer": "A normal 150g bag of banh trang tron is around 450 calories. Vinmec puts it at 300 per 100g with 16g of fat, 33g of carbs and 5g of protein, and a 200g bag at close to 600. The rice paper itself is 200 of the 450; the sate oil, shallot oil and peanuts are another 150.",
+    "realTalk": [
+      "Rice paper is dried starch, so it is dense before anything touches it. The 60g of banh trang strips in a bag is about 200 calories, the same as a plate of bun. Then the seller adds what makes it taste good: a spoon of sate (chili in oil) and a spoon of mo hanh (shallot oil), together 12g of oil and about 90 calories, plus 10g of crushed peanuts at 60. The quail eggs are 45 for 3, the bo kho (beef jerky) and dried shrimp about 45. Mango, rau ram and kumquat are 10. Total 450.",
+      "It does not register as a meal because it is a bag you eat with a toothpick standing up. But 450 calories is a bowl of pho bo, and the Vinmec note that 94.5 percent of the energy comes from starch and fat means it does almost nothing for hunger. Most people eat one at 4pm and then have a full dinner at 7. Add the second bag that a lot of students buy and you are at 900 before dinner.",
+      "The size of the bag is the whole story. Vinmec's 300 per 100g is fine, but a cart outside a school in District 1 sells 100g bags at 15,000 dong (300 calories) and 200g bags at 25,000 (600). Banh trang cuon, the rolled version with the same toppings, is 350 to 400 for a similar weight because it uses less oil. Banh trang nuong, the grilled sheet with egg and cheese that tourists call Vietnamese pizza, is 250 to 300 per sheet and often two are ordered."
+    ],
+    "lighter": [
+      "Ask for it sa te, less chili oil, and khong mo hanh. That is 60 to 90 calories out of the bag.",
+      "Buy the small 100g bag (about 300) and eat it slowly. The 200g one is a full meal at 600.",
+      "Extra quail eggs are the best add-on: 15 each and they bring protein. Extra peanuts are 60 a spoon.",
+      "Banh trang cuon with the same toppings is about 100 lighter because there is less oil coating the strips.",
+      "Have it with a glass of tra da (0 calories), not a tra sua (350 plus)."
+    ],
+    "components": [
+      {"name": "Dried rice paper strips", "grams": 60, "calories": 200},
+      {"name": "Sate chili oil and shallot oil", "grams": 12, "calories": 90},
+      {"name": "Crushed peanuts", "grams": 10, "calories": 60},
+      {"name": "Quail eggs (3)", "grams": 30, "calories": 45},
+      {"name": "Beef jerky and dried shrimp", "grams": 15, "calories": 45},
+      {"name": "Green mango, rau ram, kumquat", "grams": 25, "calories": 10}
+    ],
+    "portions": [
+      {"label": "Small bag (100g)", "calories": 300},
+      {"label": "Standard bag (150g)", "calories": 450},
+      {"label": "Large bag (200g) with extra egg", "calories": 620}
+    ],
+    "variants": [
+      {"name": "Banh trang nuong (1 sheet)", "calories": 280, "note": "Grilled with egg and cheese"},
+      {"name": "Banh trang cuon", "calories": 350, "note": "Rolled, less oil"},
+      {"name": "Banh trang tron (standard bag)", "calories": 450, "note": "150g"},
+      {"name": "Banh trang tron full topping", "calories": 600, "note": "Extra jerky, eggs, peanuts"}
+    ],
+    "faq": [
+      {"q": "How many calories in 1 bag of banh trang tron?", "a": "About 300 for a 100g bag, 450 for a 150g one and close to 600 for 200g, using Vinmec's figure of 300 calories per 100g."},
+      {"q": "Is banh trang tron fattening?", "a": "It is easy to overeat. A standard bag is 450 calories with 20g of fat and only 12g of protein, so it adds to the day without filling you up. One bag a week is fine; one a day on top of three meals is 3,000 extra calories a week."},
+      {"q": "How many calories in banh trang nuong?", "a": "About 250 to 300 per sheet with egg, dried shrimp, spring onion and a little cheese. Two sheets is a 550 calorie snack."},
+      {"q": "What is in banh trang tron?", "a": "Dried rice paper strips, green mango, quail eggs, beef jerky, dried shrimp, peanuts, fried shallots, rau ram herb, kumquat juice and sate chili oil. Mixed in a bag and eaten straight away."}
+    ],
+    "related": ["goi-cuon", "cha-gio", "keropok-keping", "bak-kwa"],
+    "source": "Vinmec hospital (300 per 100g; 16g fat, 33g carbs, 5g protein; 600 per 200g bag), scaled to a 150g street bag"
+  },
+  {
+    "slug": "thit-kho-trung",
+    "name": "Thit Kho Trung",
+    "aka": ["Thịt kho trứng", "Thịt kho tàu", "Thịt kho hột vịt", "Vietnamese Caramelised Pork Belly with Eggs"],
+    "category": "lauk",
+    "region": ["vn"],
+    "serving": "1 serving (3 pieces belly, 1 egg)",
+    "servingGrams": 180,
+    "calories": 460,
+    "protein": 26,
+    "carbs": 10,
+    "fat": 34,
+    "metaDescription": "A serving of thit kho trung with 3 pieces of belly and 1 egg is about 460 calories. Long Chau puts a portion at 350 to 550. The belly is the whole story.",
+    "summary": "Cubes of pork belly simmered with duck or chicken eggs in coconut water, fish sauce and nuoc mau caramel until the fat turns to jelly and the sauce goes dark and sweet. The Tet dish in the south, and the Tuesday dish at every com binh dan tray, 25,000 to 40,000 dong with rice.",
+    "answer": "A normal com binh dan serving of thit kho trung, about 100g of braised belly and one duck egg with sauce, is around 460 calories. Long Chau gives 350 to 550 per portion and works a family pot of 500g belly and 5 eggs out at about 487 per person. The belly is 300 of it, the egg 130, and the caramel sauce 30 to 40.",
+    "realTalk": [
+      "Pork belly is 30 to 35 percent fat raw, and thit kho is cooked slowly enough that the fat softens rather than renders out, so you eat all of it. Long Chau's numbers: 100g of lean pork is 145 calories, belly is 260, and the fatty cuts used for kho are up to 394. A com binh dan scoop is 3 cubes, around 100g, at 300 calories once the sauce has gone in. Ask for nac (lean) pieces and the same scoop is 170.",
+      "The egg is the part people miscount. Thit kho in the south uses hot vit, duck eggs, at about 130 calories each, against 78 for a chicken egg and 14 for a quail egg. A serving with 2 duck eggs is 590. The sauce is coconut water (Coca Cola at some quan), fish sauce and 20g or so of caramelised sugar for the pot, so 30 to 40 calories per person, but it soaks into the rice and pushes you to eat more of it.",
+      "The meal is the problem more than the dish. Thit kho trung at 460, a com binh dan plate of rice at 300 and the free bowl of canh is 800 calories for lunch, and a lot of that is fat, 34g in the pork alone. Over Tet, when the pot sits on the stove for 3 days and people eat from it at every meal alongside banh tet, the 460 becomes 1,400 a day from one dish. That is why everyone comes back from Tet 2kg heavier."
+    ],
+    "lighter": [
+      "Ask for thit nac, the lean end of the belly or shoulder. About 170 per scoop instead of 300.",
+      "One egg, not two. A duck egg is 130; swap for a chicken egg at 78 if the quan has them.",
+      "Spoon the meat, leave the sauce. It carries most of the sugar and the fat that has melted into it.",
+      "Take it com, a smaller rice portion. The sweet sauce makes 300g of rice disappear.",
+      "Skim the fat off a home pot after it cools in the fridge. Saves 100 or more per serving."
+    ],
+    "components": [
+      {"name": "Braised pork belly", "grams": 100, "calories": 300},
+      {"name": "Duck egg (1)", "grams": 70, "calories": 130},
+      {"name": "Caramel and coconut water sauce", "grams": 40, "calories": 35},
+      {"name": "Shallots, garlic, pepper", "grams": 5, "calories": 5}
+    ],
+    "portions": [
+      {"label": "Lean pork, 1 chicken egg", "calories": 280},
+      {"label": "Standard, belly and 1 duck egg", "calories": 460},
+      {"label": "Big serving, 2 duck eggs", "calories": 590}
+    ],
+    "variants": [
+      {"name": "Thit kho nac (lean)", "calories": 280, "note": "Shoulder cuts, 1 chicken egg"},
+      {"name": "Thit kho trung cut", "calories": 350, "note": "Belly with 4 quail eggs"},
+      {"name": "Thit kho trung (standard)", "calories": 460, "note": "Belly, 1 duck egg"},
+      {"name": "Thit kho tau Tet portion", "calories": 590, "note": "2 duck eggs, fattier cuts"},
+      {"name": "Thit kho with rice and canh", "calories": 800, "note": "The com binh dan lunch"}
+    ],
+    "faq": [
+      {"q": "How many calories in thit kho trung?", "a": "About 460 for a serving with 100g of belly and one duck egg. Long Chau puts a portion at 350 to 550, with the range depending on how fatty the pork is and how many eggs you take."},
+      {"q": "How many calories in one piece of thit kho?", "a": "Around 100 for a 35g cube of belly with sauce, or 55 to 60 for a lean piece the same size."},
+      {"q": "Is thit kho trung healthy?", "a": "It is high in protein at 26g per serving but also 34g of fat, mostly saturated, plus sugar and salt in the sauce. Fine once a week with a lot of vegetables; not a daily dish if you are trying to lose weight."},
+      {"q": "Thit kho trung or ca kho to, which is lighter?", "a": "Ca kho to at 300 for a clay pot versus 460 for thit kho trung. Fish is leaner than belly, and both come with the same rice."}
+    ],
+    "related": ["ca-kho-to", "canh-chua", "com-tam-suon", "chicken-adobo"],
+    "source": "Long Chau (350 to 550 per portion; 487 per person from a 500g belly, 5 egg pot; pork 145 to 394 per 100g by cut); component estimate at 460"
+  },
+  {
+    "slug": "bo-ne",
+    "name": "Bo Ne",
+    "aka": ["Bò né", "Bò né ốp la", "Vietnamese Sizzling Beef Plate", "Bo Ne Banh Mi"],
+    "category": "western",
+    "region": ["vn"],
+    "serving": "1 hot plate with 1 banh mi",
+    "servingGrams": 350,
+    "calories": 680,
+    "protein": 38,
+    "carbs": 45,
+    "fat": 38,
+    "metaDescription": "A plate of bo ne with egg, pate and one banh mi is about 680 calories. Long Chau puts it at 400 to 600 before bread. Butter and pate are the sneaky part.",
+    "summary": "Thin slices of marinated beef seared on a cast iron plate with butter, a fried egg, a slab of pate, a xiu mai meatball and onion, brought to the table spitting (ne means dodge) with a banh mi and a small salad. Saigon breakfast from 5am, 40,000 to 65,000 dong.",
+    "answer": "A standard bo ne plate with a fried egg, pate, one xiu mai and one banh mi is around 680 calories. Long Chau puts the beef plate itself at 400 to 600 depending on toppings and oil, and the bread adds 190. The 90g of beef is only 170 of it; the egg, pate, xiu mai and the butter it all sizzles in are 310 together.",
+    "realTalk": [
+      "The beef is the lean part of the plate. Long Chau lists lean beef at 147 calories per 100g and fattier cuts at 239 to 306, and a bo ne portion is 80 to 100g of thin sliced round or flank, about 170 once marinated in oil and oyster sauce. What takes the plate to 680 is everything around it: a fried egg at 100, 15g of pate at 50, one xiu mai at 70, and a knob of butter plus oil on the iron plate at 90. That is 310 of extras before the bread.",
+      "The banh mi is the other 190, and a lot of quan put two on the table. Dip both into the egg yolk and pate and you are at 870 for breakfast. Bo ne dac biet adds a sausage and a second egg, another 200. Long Chau's warning that a full plate with sausage, egg, pate, bread and potatoes gets close to 1,000 calories is about right for the big 65,000 dong versions.",
+      "It is a good protein breakfast if you strip it back, 38g on the standard plate. Bo ne with just beef, one egg and one bread is about 480 and keeps you full until lunch, which is the opposite of a 360 calorie banh bao. The cast iron plate is the thing to watch: whatever butter is left on it at the end got absorbed by the bread you wiped it with, and 10g of butter is 75 calories."
+    ],
+    "lighter": [
+      "Order bo ne khong pate, khong xiu mai. Beef and egg only is about 480 with one bread.",
+      "One banh mi, not two. The second loaf is 190 plus whatever it soaks up.",
+      "Ask for it bo (less butter). Most quan will sear in oil only if you say so, saving 40 to 50.",
+      "Do not wipe the plate. The pooled butter and egg yolk on the iron is 60 to 80 calories.",
+      "Eat the tomato, cucumber and onion first. They are 15 calories and the only fibre on the plate."
+    ],
+    "components": [
+      {"name": "Seared marinated beef", "grams": 90, "calories": 170},
+      {"name": "Fried egg", "grams": 55, "calories": 100},
+      {"name": "Pate and xiu mai meatball", "grams": 45, "calories": 120},
+      {"name": "Butter and oil on the plate", "grams": 10, "calories": 90},
+      {"name": "Tomato, cucumber, onion", "grams": 40, "calories": 15},
+      {"name": "Banh mi", "grams": 80, "calories": 190}
+    ],
+    "portions": [
+      {"label": "Beef and egg only, 1 banh mi", "calories": 480},
+      {"label": "Standard plate, 1 banh mi", "calories": 680},
+      {"label": "Dac biet with sausage, 2 eggs, 2 banh mi", "calories": 1050}
+    ],
+    "variants": [
+      {"name": "Bo ne (beef, egg, 1 bread)", "calories": 480, "note": "No pate or xiu mai"},
+      {"name": "Bo ne with pate and xiu mai", "calories": 680, "note": "The standard"},
+      {"name": "Bo bit tet (steak plate)", "calories": 750, "note": "Thicker cut, more butter"},
+      {"name": "Bo ne dac biet", "calories": 1000, "note": "Sausage, 2 eggs, 2 breads"}
+    ],
+    "faq": [
+      {"q": "How many calories in a plate of bo ne?", "a": "About 680 with egg, pate, xiu mai and one banh mi. Long Chau puts the plate at 400 to 600 before bread, and the full version with sausage and two loaves can reach 1,000."},
+      {"q": "Is bo ne healthy for breakfast?", "a": "It is high in protein at 38g, which is good. The downside is 38g of fat from butter, pate, egg yolk and xiu mai. Beef and egg with one bread is a solid 480 calorie breakfast."},
+      {"q": "How many calories in bo ne without bread?", "a": "Around 490 for the standard plate. The banh mi is 190, and most of the bread's job is mopping up butter and yolk, which adds more."},
+      {"q": "Bo ne or pho bo, which has more calories?", "a": "Bo ne at 680 versus pho bo at 450. Bo ne has 10g more protein, but 26g more fat."}
+    ],
+    "related": ["banh-mi-thit", "bo-kho", "pho-bo", "chicken-chop"],
+    "source": "Long Chau (400 to 600 per plate, up to about 1,000 with all toppings and bread; beef 147 to 306 per 100g by cut); component estimate at 680 with 1 banh mi"
+  },
+  {
+    "slug": "ca-phe-sua-da",
+    "name": "Ca Phe Sua Da",
+    "aka": ["Cà phê sữa đá", "Vietnamese Iced Coffee", "Cafe Sua Da", "Ca Phe Sua"],
+    "category": "drinks",
+    "region": ["vn"],
+    "serving": "1 glass",
+    "servingGrams": 200,
+    "calories": 130,
+    "protein": 3,
+    "carbs": 22,
+    "fat": 3,
+    "metaDescription": "A glass of ca phe sua da is about 130 calories, all from the 40g of condensed milk. Long Chau says 95 for a light pour; a sweet Saigon quan pour is 160.",
+    "summary": "Dark roast robusta dripped through a phin filter onto a layer of sweetened condensed milk, stirred and poured over a tall glass of ice. Every corner in Vietnam sells it, from 12,000 dong on a plastic stool to 55,000 at a chain.",
+    "answer": "A standard glass of ca phe sua da is around 130 calories, and nearly all of it is the 40g of condensed milk at the bottom. The coffee itself is 2 calories. Long Chau lists it at 95 for a light 30g pour; Vinshop's 120 to 150 for 30 to 40ml of condensed milk is closer to what a Saigon quan actually gives you.",
+    "realTalk": [
+      "Condensed milk is 320 calories per 100g, so the number is just how much the seller pours. A careful 30g pour (2 tablespoons) is 95 calories, which is the Long Chau figure. The 40g that most street quan use, because customers complain if it is not sweet, is 130. A big 50g pour at a quan that serves it in a tall glass with the spoon standing up is 160. The 40ml of phin coffee adds 2 and the ice adds nothing.",
+      "The habit is the issue, not the glass. One ca phe sua da a day at 130 is 910 calories a week, 47,000 a year, which is about 6kg of body fat if nothing else changes. Two a day, the normal Saigon office pattern, is 12kg. It is the single most common reason a Vietnamese person's diet does not add up on paper: the food is fine and the coffee is 260 a day.",
+      "The alternatives are close cousins. Bac xiu, mostly milk with a little coffee, is about 105 in Long Chau's list but 180 to 220 at chain cafes that use fresh milk and condensed milk together. Ca phe sua tuoi (fresh milk) is 135 in the same list. Ca phe den da with no sugar is 5. Ca phe den with the standard spoon of sugar is 40. The gap between den and sua is 125 calories and about 22g of sugar."
+    ],
+    "lighter": [
+      "Order it it ngot or it sua. Half the condensed milk is 65 calories instead of 130.",
+      "Switch to ca phe den da khong duong. 5 calories, same caffeine.",
+      "Ca phe sua tuoi khong duong (fresh milk, no sugar) is about 60 for the same size glass.",
+      "One a day, not three. Each extra glass is 130 and they do not fill you up.",
+      "Have the second coffee as tra da (iced tea). It is free at most quan and 0 calories."
+    ],
+    "components": [
+      {"name": "Sweetened condensed milk", "grams": 40, "calories": 130},
+      {"name": "Phin drip coffee", "grams": 40, "calories": 2},
+      {"name": "Ice", "grams": 120, "calories": 0}
+    ],
+    "portions": [
+      {"label": "Light pour (30g condensed milk)", "calories": 95},
+      {"label": "Standard glass", "calories": 130},
+      {"label": "Tall sweet glass (50g)", "calories": 160}
+    ],
+    "variants": [
+      {"name": "Ca phe den da khong duong", "calories": 5, "note": "Black, no sugar"},
+      {"name": "Ca phe den da", "calories": 40, "note": "Black with a spoon of sugar"},
+      {"name": "Ca phe sua tuoi khong duong", "calories": 60, "note": "Fresh milk, no sugar"},
+      {"name": "Ca phe sua da", "calories": 130, "note": "40g condensed milk"},
+      {"name": "Bac xiu", "calories": 180, "note": "Chain cafe size with fresh and condensed milk"}
+    ],
+    "faq": [
+      {"q": "How many calories in a ca phe sua da?", "a": "About 130 for a typical street glass with 40g of condensed milk. A light 30g pour is 95 and a heavy 50g pour is 160."},
+      {"q": "Does ca phe sua da make you fat?", "a": "One a day is 130 calories, which is fine inside a normal day. Two or three a day is 260 to 390 of pure sugar and fat, and that adds up to several kilos a year if nothing else changes."},
+      {"q": "How much sugar is in ca phe sua da?", "a": "Around 22g from 40g of condensed milk, close to a can of soft drink. The coffee itself has none."},
+      {"q": "Ca phe sua da or bac xiu, which has more calories?", "a": "Bac xiu, usually. It has more milk in the glass, so 105 in the lightest version and 180 to 220 at chain cafes, versus 130 for a standard ca phe sua da."}
+    ],
+    "related": ["ca-phe-trung", "sinh-to-bo", "kopi-tarik", "teh-tarik"],
+    "source": "Long Chau and Pharmacity (95 for a light pour; bac xiu 105, sua tuoi 135) and Vinshop (120 to 150 for 30 to 40ml condensed milk); settled on 130 for a 40g quan pour"
+  },
+  {
+    "slug": "ca-phe-trung",
+    "name": "Ca Phe Trung",
+    "aka": ["Cà phê trứng", "Vietnamese Egg Coffee", "Hanoi Egg Coffee", "Cafe Trung"],
+    "category": "drinks",
+    "region": ["vn"],
+    "serving": "1 cup",
+    "servingGrams": 150,
+    "calories": 230,
+    "protein": 7,
+    "carbs": 26,
+    "fat": 11,
+    "metaDescription": "A cup of Hanoi egg coffee is about 230 calories: 2 yolks, condensed milk and sugar whipped into foam over strong coffee. Full breakdown and lighter versions.",
+    "summary": "Strong phin coffee under a thick foam of egg yolks whipped with condensed milk and sugar, served in a small cup sitting in a bowl of hot water. Invented at Cafe Giang in Hanoi in 1946, now 25,000 to 45,000 dong across the Old Quarter.",
+    "answer": "A cup of ca phe trung is around 230 calories for a 150ml serving. The two egg yolks are 110, the 25g of condensed milk is 80, and the sugar or honey whipped in adds 30; the coffee underneath is 2. Published figures run from 200 to 255 depending on how much condensed milk goes into the foam.",
+    "realTalk": [
+      "It is a dessert with coffee under it, and the yolks are what make it one. Two egg yolks are 110 calories and 10g of fat, and the classic recipe uses 2 per cup. Khoeplus24h's breakdown for a standard cup is 2 yolks at 110, 25ml of condensed milk at 80, honey at 64 and 70ml of phin coffee at 1, which they round to 225. Most cafes use a little less sweetener than that, so 230 is a fair number for a 150ml cup in the Old Quarter.",
+      "It is small, which is the saving grace. A ca phe trung cup is 120 to 150ml, about half a ca phe sua da, and it is eaten with a spoon slowly because it is hot. Compared by the glass it is 230 against 130 for ca phe sua da, so nearly double, but almost nobody drinks 3 egg coffees a day. The foam has 7g of protein, which the condensed milk coffee does not.",
+      "The tourist versions are bigger. Cafes in the Old Quarter now sell egg coffee in 250ml glasses with double foam for 55,000 dong, which is about 400 calories. Ca phe trung da (iced) uses the same foam over more coffee at roughly the same 240. Cacao trung and matcha trung, the egg foam over chocolate or green tea milk, are 300 to 320 because the base is sweet milk instead of black coffee."
+    ],
+    "lighter": [
+      "Ask for it ngot, less sugar. The whipped honey or sugar is 30 to 60 of the cup.",
+      "Stick with the small traditional cup. The 250ml tourist glass is closer to 400.",
+      "Have it instead of dessert, not with one. It is 230 calories of yolk and sugar either way.",
+      "Ca phe trung over cacao trung: the coffee base is 2 calories, the chocolate milk base is 80 to 100.",
+      "One a day at most. Two yolks and 20g of sugar per cup add up fast."
+    ],
+    "components": [
+      {"name": "Egg yolks (2)", "grams": 34, "calories": 110},
+      {"name": "Sweetened condensed milk", "grams": 25, "calories": 80},
+      {"name": "Sugar or honey", "grams": 8, "calories": 30},
+      {"name": "Phin drip coffee", "grams": 60, "calories": 2}
+    ],
+    "portions": [
+      {"label": "Small traditional cup", "calories": 200},
+      {"label": "Standard cup", "calories": 230},
+      {"label": "Large tourist glass with double foam", "calories": 400}
+    ],
+    "variants": [
+      {"name": "Ca phe trung (standard)", "calories": 230, "note": "Hot, 150ml"},
+      {"name": "Ca phe trung da (iced)", "calories": 240, "note": "Same foam, more coffee"},
+      {"name": "Cacao trung", "calories": 300, "note": "Chocolate milk base"},
+      {"name": "Matcha trung", "calories": 320, "note": "Sweet green tea milk base"}
+    ],
+    "faq": [
+      {"q": "How many calories in egg coffee?", "a": "About 230 for a standard 150ml cup. Published estimates range from 200 to 255 depending on how much condensed milk and sugar go into the foam."},
+      {"q": "Is egg coffee healthy?", "a": "It has 7g of protein from the yolks, more than any other Vietnamese coffee, but also 11g of fat and about 20g of sugar. It is a dessert; treat it like one."},
+      {"q": "Is the egg in egg coffee raw?", "a": "The yolks are whipped raw with condensed milk and then sit on hot coffee, which warms them but does not fully cook them. Established cafes use fresh eggs, and the sugar and heat make it safe in practice."},
+      {"q": "Egg coffee or ca phe sua da, which has more calories?", "a": "Egg coffee at 230 versus 130 for ca phe sua da, though the egg coffee cup is about half the size."}
+    ],
+    "related": ["ca-phe-sua-da", "banh-flan", "kopi-c", "teh-c"],
+    "source": "Khoeplus24h component breakdown (225 per cup: 2 yolks 110, condensed milk 80, honey 64, coffee 1) and Dan Tri (about 200); settled on 230"
+  },
+  {
+    "slug": "sinh-to-bo",
+    "name": "Sinh To Bo",
+    "aka": ["Sinh tố bơ", "Vietnamese Avocado Smoothie", "Avocado Shake", "Sinh To"],
+    "category": "drinks",
+    "region": ["vn"],
+    "serving": "1 glass",
+    "servingGrams": 300,
+    "calories": 340,
+    "protein": 6,
+    "carbs": 32,
+    "fat": 22,
+    "metaDescription": "A glass of sinh to bo is about 340 calories. Long Chau puts it at 300 to 400, and the condensed milk is 100 of it. The avocado itself is the other 190.",
+    "summary": "Half a Dak Lak avocado blended with condensed milk, a splash of fresh milk, sugar and a glass of crushed ice until it is thick enough to hold a straw upright. Sold at every sinh to cart for 20,000 to 35,000 dong, usually next to the sugarcane press.",
+    "answer": "A standard glass of sinh to bo is around 340 calories. The 120g of avocado in it is 190 on its own because avocado is 160 calories per 100g, the 30g of condensed milk is 100, and the fresh milk and sugar make up the last 60. Long Chau's range is 300 to 400 per glass; a version with fresh milk and no condensed milk is about 230.",
+    "realTalk": [
+      "Avocado is the one fruit that is mostly fat, 15g per 100g, so a sinh to bo starts heavy before anything sweet goes in. A cart uses about half a large avocado, 120g, which is 190 calories. Then 30g of condensed milk at 100, 60ml of fresh milk at 40 and a spoon of sugar at 20. That is 350 before the ice, which Long Chau rounds to 300 to 400 per glass. It is the heaviest sinh to on the cart by a wide margin.",
+      "It is also the most filling. A glass has 7g of fibre and 22g of fat, and it takes 10 minutes to get through with a spoon. People who replace a banh mi (500) with a sinh to bo (340) for breakfast usually stay full longer, which is unusual for a drink. The trap is having it as a drink with a meal, because 340 on top of a 700 calorie com tam is a 1,040 calorie lunch.",
+      "The sweetener choice is the lever. Huggies works out a glass with 100g of avocado, 120ml of fresh milk and a little sugar at 220 to 250. The same glass made with condensed milk, which is what most carts do because it keeps without a fridge, is 340. Sinh to bo sau rieng, with durian blended in, is 480. Kem bo, the Da Lat version with a scoop of ice cream on top, is 500."
+    ],
+    "lighter": [
+      "Ask for sua tuoi thay sua dac (fresh milk instead of condensed). Drops the glass to about 230.",
+      "Khong duong, no added sugar. The avocado and milk are sweet enough for most people.",
+      "Have it as a meal, not with one. At 340 with 7g of fibre it works as breakfast on its own.",
+      "A small glass (ly nho) at most carts is about 230.",
+      "Skip the durian and ice cream versions. Each adds 140 to 160."
+    ],
+    "components": [
+      {"name": "Avocado", "grams": 120, "calories": 190},
+      {"name": "Sweetened condensed milk", "grams": 30, "calories": 100},
+      {"name": "Fresh milk", "grams": 60, "calories": 40},
+      {"name": "Sugar", "grams": 5, "calories": 20},
+      {"name": "Crushed ice", "grams": 100, "calories": 0}
+    ],
+    "portions": [
+      {"label": "Small glass, fresh milk", "calories": 230},
+      {"label": "Standard glass", "calories": 340},
+      {"label": "Large glass with durian", "calories": 480}
+    ],
+    "variants": [
+      {"name": "Sinh to bo sua tuoi khong duong", "calories": 230, "note": "Fresh milk, no sugar"},
+      {"name": "Sinh to bo (standard)", "calories": 340, "note": "Condensed milk"},
+      {"name": "Sinh to bo sau rieng", "calories": 480, "note": "Durian added"},
+      {"name": "Kem bo Da Lat", "calories": 500, "note": "With a scoop of ice cream"}
+    ],
+    "faq": [
+      {"q": "How many calories in a sinh to bo?", "a": "About 340 for a standard cart glass with condensed milk. Long Chau gives a range of 300 to 400; a fresh milk, no sugar version is around 230."},
+      {"q": "Is sinh to bo good for weight loss?", "a": "As a meal replacement, yes: 340 calories with 7g of fibre and healthy fat keeps you full for hours. As a drink next to a full meal, no. It is the highest calorie sinh to on the menu."},
+      {"q": "How many calories in avocado alone?", "a": "About 160 per 100g, so the half avocado in a glass is 190 before any milk or sugar. The fat is mostly monounsaturated, the same kind as olive oil."},
+      {"q": "Sinh to bo or nuoc mia, which has more calories?", "a": "Sinh to bo at 340 versus about 220 for a glass of sugarcane juice. The avocado has fat and fibre; the sugarcane is only sugar."}
+    ],
+    "related": ["ca-phe-sua-da", "air-tebu", "che-ba-mau", "buko-juice"],
+    "source": "Long Chau (300 to 400 per glass) and Huggies VN (220 to 250 with fresh milk); component estimate at 340 with condensed milk"
+  },
+  {
+    "slug": "che-ba-mau",
+    "name": "Che Ba Mau",
+    "aka": ["Chè ba màu", "Three Colour Dessert", "Vietnamese Three Color Che", "Che Ba Mau Saigon"],
+    "category": "dessert",
+    "region": ["vn"],
+    "serving": "1 glass",
+    "servingGrams": 250,
+    "calories": 330,
+    "protein": 7,
+    "carbs": 50,
+    "fat": 11,
+    "metaDescription": "A glass of che ba mau is about 330 calories, per the published 329. Red beans, mung bean paste, pandan jelly and a big pour of coconut milk, layered over ice.",
+    "summary": "Three layers in a tall glass: sweetened red beans at the bottom, yellow mung bean paste in the middle, green pandan jelly on top, then crushed ice and a pour of thick coconut milk. The che cart classic, 15,000 to 25,000 dong.",
+    "answer": "A glass of che ba mau is around 330 calories, matching the widely quoted figure of 329 per serving. The coconut milk is the biggest single part at about 90 for 50ml, the sweetened red beans are 90, the mung bean paste 70, and the sugar syrup 55. The pandan jelly is the only cheap layer at 25.",
+    "realTalk": [
+      "The beans are cooked in sugar, so each layer arrives sweet before the syrup goes on. 50g of sweetened red beans is about 90 calories and 40g of mung bean paste is 70, and both are mostly starch and sugar with a little plant protein, 7g in the whole glass. Then the seller pours 50ml of coconut milk, which is 90 calories on its own because coconut milk is 18 percent fat. The published breakdown puts 59 percent of the 329 as carbs and 33 percent as fat, which lines up.",
+      "It is a drink sized dessert, and that is the issue. A glass of che ba mau is 330, the same as a plate of banh cuon or a bowl of chao ga with extra chicken, and it goes down in 5 minutes on a plastic stool. Che Thai, the other big seller on the cart, is heavier at 370 to 440 per Long Chau because of the jackfruit, longan and extra condensed milk. Che dau xanh is lighter at 200 to 250.",
+      "The ice does the visual work. Half the glass is crushed ice, so the actual food is about 150g, and 330 calories in 150g is denser than a banh mi. The coconut milk on top is the lever: ask for it nuoc cot dua and the glass drops to about 280. Extra coconut milk, which a lot of people ask for, takes it to 420. A second glass because the first one felt small is 660."
+    ],
+    "lighter": [
+      "Ask for it nuoc cot dua, less coconut milk. Saves 40 to 50 per glass.",
+      "Che dau xanh or che dau den (single bean) is 200 to 250, a lighter pick from the same cart.",
+      "Share one glass between two. The ice makes it look bigger than it is.",
+      "Have it instead of the ca phe sua da, not after it. Together they are 460 of sugar.",
+      "Skip the extra syrup. Most carts add a spoon of sugar water at the end, another 30."
+    ],
+    "components": [
+      {"name": "Sweetened red beans", "grams": 50, "calories": 90},
+      {"name": "Mung bean paste", "grams": 40, "calories": 70},
+      {"name": "Pandan jelly", "grams": 40, "calories": 25},
+      {"name": "Coconut milk", "grams": 50, "calories": 90},
+      {"name": "Sugar syrup", "grams": 20, "calories": 55},
+      {"name": "Crushed ice", "grams": 100, "calories": 0}
+    ],
+    "portions": [
+      {"label": "Small glass, less coconut milk", "calories": 250},
+      {"label": "Standard glass", "calories": 330},
+      {"label": "Large glass, extra coconut milk", "calories": 420}
+    ],
+    "variants": [
+      {"name": "Che dau xanh", "calories": 220, "note": "Mung bean only"},
+      {"name": "Che ba mau", "calories": 330, "note": "The standard"},
+      {"name": "Che thap cam", "calories": 380, "note": "Mixed, more toppings"},
+      {"name": "Che Thai", "calories": 400, "note": "Jackfruit, longan, condensed milk"}
+    ],
+    "faq": [
+      {"q": "How many calories in che ba mau?", "a": "About 330 per glass, in line with the published figure of 329. Most of it is the sweetened beans and the coconut milk."},
+      {"q": "Is che ba mau healthy?", "a": "It has 7g of plant protein and some fibre from the beans, but it is 50g of carbs, mostly sugar, and 11g of fat from coconut milk. It is dessert, and a big one."},
+      {"q": "Which che has the fewest calories?", "a": "Single bean che like che dau xanh or che dau den at 200 to 250 a glass, or sam bo luong with less syrup. Che ba mau and che Thai are the heavy end at 330 to 440."},
+      {"q": "Is che ba mau vegan?", "a": "Usually yes. Beans, pandan jelly (agar based), coconut milk and sugar. Some carts use gelatin for the jelly, so ask if it matters."}
+    ],
+    "related": ["bubur-cha-cha", "cendol", "banh-flan", "halo-halo"],
+    "source": "Elipsport and Long Chau che guides (329 per glass of che ba mau; che Thai 370 to 440); component cross-check"
+  },
+  {
+    "slug": "banh-flan",
+    "name": "Banh Flan",
+    "aka": ["Bánh flan", "Caramen", "Kem flan", "Vietnamese Caramel Custard"],
+    "category": "dessert",
+    "region": ["vn"],
+    "serving": "1 cup with coffee and ice",
+    "servingGrams": 115,
+    "calories": 125,
+    "protein": 4,
+    "carbs": 18,
+    "fat": 4,
+    "metaDescription": "One street banh flan is about 125 calories, 145 per 100g per Long Chau. The coffee drizzle is 5; the trap is the 3 for 20,000 dong deal.",
+    "summary": "A small egg and milk custard baked in a ramekin over a layer of burnt sugar caramel, tipped out and served in Saigon with crushed ice and a spoon of black coffee, or plain as caramen in Hanoi. 5,000 to 10,000 dong each from a cart.",
+    "answer": "A single street banh flan of about 80g is around 125 calories. Long Chau gives 145 per 100g for a plain flan, and the custard is 90 of the cup, the caramel layer 30, and the spoon of black coffee 5. The small 45g ones sold in packs of 3 to 6 are 65 to 70 each.",
+    "realTalk": [
+      "Flan is eggs, milk and sugar, and there is no fat added beyond the yolks. A cup uses about 1 egg, 60ml of milk and 15g of sugar in the custard, so 90 calories, plus a 12g caramel layer that is pure sugar at 30. Long Chau's 145 per 100g is exactly what that adds up to. Compared with the other things on a che cart, a 125 calorie flan is about a third of a che ba mau (330).",
+      "The size of the cup decides everything. Long Chau's 65 to 70 per piece refers to the small 40 to 50g flans from supermarket packs and carts that sell 3 for 20,000 dong. Nobody eats one of those; three is 200. The big 100g quan version with a thick caramel base is 145, and banh flan pho mai (cheese flan) is 200 per 100g because of the cream cheese folded in. Flan with condensed milk drizzled on top, which some Saigon carts do, is 160 to 170.",
+      "It is one of the few desserts with real protein, about 4g per cup from the egg and milk, and the caramel gives you the sweet hit at 30 calories rather than the 90 of coconut milk on a che. A flan and a ca phe den after dinner is 130. A flan and a ca phe sua da is 255. The Hanoi caramen version served with sua chua (yogurt) and coffee jelly is 220 to 250 for a bigger bowl."
+    ],
+    "lighter": [
+      "Order the plain one, not flan pho mai. Cheese flan is 200 per 100g versus 145.",
+      "Skip the condensed milk drizzle. It adds 35 to 45 to a 125 calorie cup.",
+      "One flan with black coffee and ice is the whole dessert at 130. Do not pair it with che.",
+      "Buy singles, not the 3 for 20,000 pack. Three small ones is 200 calories that feel like nothing.",
+      "Leave the caramel pooled at the bottom. It is 30 calories of pure sugar."
+    ],
+    "components": [
+      {"name": "Egg and milk custard", "grams": 65, "calories": 90},
+      {"name": "Caramel layer", "grams": 12, "calories": 30},
+      {"name": "Black coffee drizzle", "grams": 10, "calories": 5},
+      {"name": "Crushed ice", "grams": 30, "calories": 0}
+    ],
+    "portions": [
+      {"label": "Small cart flan (45g)", "calories": 70},
+      {"label": "Standard cup with coffee and ice", "calories": 125},
+      {"label": "Large flan pho mai (100g)", "calories": 200}
+    ],
+    "variants": [
+      {"name": "Small pack flan", "calories": 70, "note": "45g piece"},
+      {"name": "Banh flan (standard)", "calories": 125, "note": "80g with coffee and ice"},
+      {"name": "Banh flan sua dac", "calories": 165, "note": "Condensed milk drizzle"},
+      {"name": "Banh flan pho mai", "calories": 200, "note": "Cheese custard, 100g"},
+      {"name": "Caramen sua chua (Hanoi)", "calories": 240, "note": "With yogurt and coffee jelly"}
+    ],
+    "faq": [
+      {"q": "How many calories in 1 banh flan?", "a": "About 125 for a standard 80g street flan, or 145 per 100g per Long Chau. The small 45g cart ones are 65 to 70 each."},
+      {"q": "Is banh flan good for a diet?", "a": "It is one of the better desserts: 125 calories with 4g of protein and no added fat beyond the egg. The risk is eating three because they are small."},
+      {"q": "How many calories in flan pho mai?", "a": "About 200 per 100g, so a standard cup is 160 to 200. The cream cheese adds fat that a plain flan does not have."},
+      {"q": "Banh flan or che, which has fewer calories?", "a": "Banh flan, easily. A cup is 125 against 330 for a glass of che ba mau and 400 for che Thai."}
+    ],
+    "related": ["che-ba-mau", "ca-phe-trung", "leche-flan", "egg-tart"],
+    "source": "Long Chau (145 per 100g plain; 200 cheese; 65 to 70 per small piece) and Bazaar Vietnam; scaled to an 80g street cup"
+  }
+]

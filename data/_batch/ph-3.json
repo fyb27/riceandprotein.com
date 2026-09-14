@@ -1,0 +1,1543 @@
+[
+  {
+    "slug": "laing",
+    "name": "Laing",
+    "aka": [
+      "Pinangat na Gabi",
+      "Taro Leaves in Coconut Milk",
+      "Laing Bicol"
+    ],
+    "category": "veg",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 carinderia serving (about 150g)",
+    "servingGrams": 150,
+    "calories": 350,
+    "protein": 9,
+    "carbs": 10,
+    "fat": 31,
+    "metaDescription": "A carinderia serving of laing is about 350 calories. The taro leaves are nearly free, so the number is all coconut milk and pork. Here is the split.",
+    "summary": "Dried taro leaves cooked down slowly in coconut milk with chili, ginger, shrimp paste and bits of pork or dried fish. Bicol's vegetable dish, and the reason 'gulay' is not always low calorie.",
+    "answer": "One carinderia serving of laing is about 350 calories for a 150g scoop. The dried taro leaves are about 30 calories, the coconut milk around 200 and the pork belly bits about 110. It is a vegetable dish by name, but by calories it is a coconut dish.",
+    "realTalk": [
+      "Laing is a lesson in what 'vegetable' means at a carinderia. Dried gabi leaves are light and absorb liquid, so 10g of dried leaves swells to a big serving in the pot. Those leaves are about 30 calories. The coconut milk they soak up is the problem: about 100ml per serving at 200 calories, and some cooks finish with coconut cream on top. Kawaling Pinoy's home recipe card comes to 927 per serving, but that uses a full pound of belly and 5 cups of coconut for 6 people.",
+      "The pork is the second lever. Carinderia laing usually has small belly pieces or a few flakes of tinapa or dried dilis for flavour. About 30g of belly is 110 calories. The dried fish version is about 40 calories for the same weight, so laing na may daing is closer to 280 per serving. Ask which one it is, because they look the same under the coconut.",
+      "The saving grace is that laing is eaten in small amounts. A 40 to 60 peso scoop with 1 cup of rice is about 610 calories, which is a normal lunch. The trouble is when laing is the side to another coconut dish like Bicol Express, and you end up with 870 calories of ulam before the rice. One gata dish per plate is the rule."
+    ],
+    "lighter": [
+      "Ask for the version with dried fish instead of pork belly. About 70 calories less per serving.",
+      "Take it as your only coconut dish. Laing plus Bicol Express plus rice is about 1,130 calories on one plate.",
+      "At home, use light coconut milk or half milk half water. The leaves still cook down fine at about 200 per serving.",
+      "Pair it with a grilled protein like inasal or bangus rather than another rich ulam."
+    ],
+    "components": [
+      {
+        "name": "Dried taro leaves, rehydrated",
+        "grams": 60,
+        "calories": 30
+      },
+      {
+        "name": "Coconut milk reduced",
+        "grams": 75,
+        "calories": 200
+      },
+      {
+        "name": "Pork belly pieces",
+        "grams": 30,
+        "calories": 110
+      },
+      {
+        "name": "Chili, ginger, shrimp paste",
+        "grams": 10,
+        "calories": 10
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small scoop (100g)",
+        "calories": 230
+      },
+      {
+        "label": "Standard scoop (150g)",
+        "calories": 350
+      },
+      {
+        "label": "Standard scoop with 1 cup rice",
+        "calories": 610
+      }
+    ],
+    "variants": [
+      {
+        "name": "Laing with dried fish, light coconut milk",
+        "calories": 200,
+        "note": "Home version"
+      },
+      {
+        "name": "Laing with dried fish (daing or tinapa)",
+        "calories": 280,
+        "note": "No pork"
+      },
+      {
+        "name": "Laing with pork belly",
+        "calories": 350,
+        "note": "Carinderia standard"
+      },
+      {
+        "name": "Laing finished with coconut cream",
+        "calories": 430,
+        "note": "Kakang gata on top"
+      },
+      {
+        "name": "Home style, 1 of 6 servings",
+        "calories": 930,
+        "note": "Kawaling Pinoy card, 1 lb belly"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is laing healthy?",
+        "a": "The taro leaves are, with fibre, iron and vitamin A. But a serving is 350 calories and 31g of fat from the coconut milk, so treat it like a rich ulam, not a salad."
+      },
+      {
+        "q": "How many calories in laing with rice?",
+        "a": "About 610 calories for a standard scoop with 1 cup of rice. With 2 cups it is about 870."
+      },
+      {
+        "q": "Is laing keto?",
+        "a": "It is low carb at about 10g per serving and high in fat, so it fits keto macros. It is still 350 calories, so it is not a free food."
+      },
+      {
+        "q": "Why does laing make your throat itch?",
+        "a": "Undercooked taro leaves contain calcium oxalate crystals. Cooking them a long time in coconut milk without stirring breaks it down, which is why laing simmers for an hour. Nothing to do with calories, but everyone asks."
+      }
+    ],
+    "related": [
+      "bicol-express",
+      "pinakbet",
+      "daun-ubi-tumbuk",
+      "sayur-lemak"
+    ],
+    "source": "estimate from components; Kawaling Pinoy (927 kcal) and Panlasang Pinoy (618 kcal) recipe cards used as home-portion reference"
+  },
+  {
+    "slug": "pinakbet",
+    "name": "Pinakbet",
+    "aka": [
+      "Pakbet",
+      "Pinakbet Tagalog",
+      "Pinakbet Ilocano"
+    ],
+    "category": "veg",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 carinderia serving (about 180g)",
+    "servingGrams": 180,
+    "calories": 230,
+    "protein": 8,
+    "carbs": 14,
+    "fat": 16,
+    "metaDescription": "A carinderia serving of pinakbet is about 230 calories. The vegetables are 60 of that; the pork belly and bagoong oil are the rest. Ilocano vs Tagalog.",
+    "summary": "Squash, ampalaya, eggplant, okra and sitaw stewed with shrimp paste and pieces of pork belly or bagnet. The Ilocano vegetable dish that every region has its own version of.",
+    "answer": "One carinderia serving of pinakbet is about 230 calories for a 180g scoop. The mixed vegetables are only about 60 calories, the pork belly pieces about 130 and the bagoong and cooking oil about 40. FatSecret lists a leaner cup at 152 calories.",
+    "realTalk": [
+      "Pinakbet is one of the better ulam choices, but the pork decides it. Squash, ampalaya, eggplant, okra and sitaw together are about 40 calories per 100g, so the 130g of vegetables in a scoop is 60 calories. Then the cook adds pork belly for flavour, about 30g per serving at 130 calories, and a tablespoon of oil to fry the bagoong. Kawaling Pinoy's Tagalog version comes to 434 per serving with half a pound of belly for 4 people, which is a very pork heavy home portion.",
+      "The Ilocano version with bagnet on top is a different number. Bagnet is deep fried pork belly, about 500 calories per 100g, and a proper Ilocano pinakbet has a handful of it crumbled over the top. That pushes a serving to 350 or more. The Tagalog version with kalabasa and a little belly is the 230 calorie one, and the carinderia version with mostly vegetables and a few pork scraps can be as low as 170.",
+      "At 40 to 50 pesos a scoop it is the cheapest way to fill half your plate. Pinakbet with 1 cup of rice is about 490 calories, and the fibre from the ampalaya and okra makes it more filling than the number suggests. The bagoong is salty rather than caloric, about 15 calories per tablespoon, so the taste does not cost much."
+    ],
+    "lighter": [
+      "Ask for it without the bagnet or with the pork on the side. Vegetables and bagoong alone are about 110 calories per scoop.",
+      "Scoop from the vegetable side of the tray, not where the pork settled at the bottom.",
+      "Use pinakbet as your vegetable next to a lean protein like inasal or grilled bangus. Together with rice that is about 800 for a full plate.",
+      "At home, use shrimp instead of pork belly. Same bagoong flavour at about 150 per serving."
+    ],
+    "components": [
+      {
+        "name": "Mixed vegetables (squash, ampalaya, eggplant, okra, sitaw)",
+        "grams": 130,
+        "calories": 60
+      },
+      {
+        "name": "Pork belly pieces",
+        "grams": 30,
+        "calories": 130
+      },
+      {
+        "name": "Shrimp paste and cooking oil",
+        "grams": 20,
+        "calories": 40
+      }
+    ],
+    "portions": [
+      {
+        "label": "Vegetables only, no pork",
+        "calories": 110
+      },
+      {
+        "label": "Standard scoop with pork",
+        "calories": 230
+      },
+      {
+        "label": "Standard scoop with 1 cup rice",
+        "calories": 490
+      }
+    ],
+    "variants": [
+      {
+        "name": "Pinakbet with shrimp, no pork",
+        "calories": 150,
+        "note": "Bagoong flavour, lean protein"
+      },
+      {
+        "name": "FatSecret generic pinakbet, 1 cup",
+        "calories": 152,
+        "note": "Light on pork"
+      },
+      {
+        "name": "Pinakbet Tagalog, carinderia",
+        "calories": 230,
+        "note": "Kalabasa, a little belly"
+      },
+      {
+        "name": "Pinakbet Ilocano with bagnet",
+        "calories": 360,
+        "note": "Fried pork belly on top"
+      },
+      {
+        "name": "Home style, 1 of 4 servings",
+        "calories": 434,
+        "note": "Kawaling Pinoy card, half a pound of belly"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is pinakbet good for weight loss?",
+        "a": "Yes, as far as carinderia ulam goes. About 230 calories for a scoop with pork, and about 110 without. High fibre, decent protein, and it makes rice go slower."
+      },
+      {
+        "q": "How many calories in pinakbet with bagnet?",
+        "a": "About 360 per serving. Bagnet is deep fried belly at about 500 calories per 100g, and a serving gets 25 to 30g of it."
+      },
+      {
+        "q": "Is pinakbet high in sodium?",
+        "a": "Yes, from the bagoong. A serving can carry 800 to 1,000mg of sodium. Calories are low but it is a salty dish."
+      },
+      {
+        "q": "Pinakbet or laing, which is lower in calories?",
+        "a": "Pinakbet, at about 230 versus 350 for laing. Pinakbet has no coconut milk, which is what makes laing heavy."
+      }
+    ],
+    "related": [
+      "laing",
+      "sayur-campur",
+      "kangkung-belacan",
+      "sinigang-na-baboy"
+    ],
+    "source": "estimate from components; FatSecret generic pinakbet 152 kcal per cup; Kawaling Pinoy recipe card 434 kcal per serving"
+  },
+  {
+    "slug": "dinuguan",
+    "name": "Dinuguan",
+    "aka": [
+      "Pork Blood Stew",
+      "Dinardaraan",
+      "Chocolate Meat",
+      "Tinumis"
+    ],
+    "category": "lauk",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 carinderia serving (about 180g)",
+    "servingGrams": 180,
+    "calories": 330,
+    "protein": 22,
+    "carbs": 6,
+    "fat": 24,
+    "metaDescription": "A carinderia serving of dinuguan is about 330 calories, and the pork cut is what moves it. Numbers for belly, kasim and offal versions, with and without puto.",
+    "summary": "Pork (meat, offal or both) stewed in pig's blood with vinegar, garlic, onion and a long green chili. Dark, sour, savoury, and usually eaten with puto or rice.",
+    "answer": "One carinderia serving of dinuguan is about 330 calories for a 180g ladle. The pork pieces are about 250 of that and the blood gravy about 80. Red Ribbon's version is listed on FatSecret at 255 per cup, and versions made with pork belly go over 450.",
+    "realTalk": [
+      "Pig's blood is not the problem. Cooked blood is about 80 calories per 100g and mostly protein and iron, which surprises people. What decides dinuguan is the pork that goes in. Carinderias use a mix of kasim (shoulder), a bit of belly and offal like intestine and liver, which averages about 300 calories per 100g cooked. An 80g share of that is 250 calories. Kawaling Pinoy's belly-only recipe card lands at 857 per serving, and that is the home version with 2 pounds of belly for 6 people.",
+      "Red Ribbon and Goldilocks sell it as a takeout tub, and Red Ribbon's is listed at 255 calories per cup with 34g of protein. That is leaner than most carinderias because they use more lean meat and less fat. The Ilocano dinardaraan is the opposite: drier, fattier, often with bagnet and chicharon crumbled in, and a serving is 450 to 500.",
+      "The puto is the part everyone forgets. Dinuguan at merienda comes with 2 or 3 puto, and each small puto is about 40 calories. Three puto is 120, so dinuguan with puto is about 450. With 1 cup of rice instead it is about 590. At 50 to 70 pesos a serving it is a high protein ulam at about 22g, so the calorie return is decent if the cook did not use belly."
+    ],
+    "lighter": [
+      "Ask if it is kasim or liempo. Kasim dinuguan is about 280 per serving, liempo dinuguan about 450.",
+      "Take the meat and half the gravy. The gravy is about 80 calories per serving and you do not need all of it.",
+      "Two puto instead of three, or half a cup of rice. That is 80 to 130 calories saved.",
+      "Skip the chicharon topping that some stalls add. A small handful is 100 calories."
+    ],
+    "components": [
+      {
+        "name": "Pork pieces (shoulder, some belly, offal)",
+        "grams": 80,
+        "calories": 250
+      },
+      {
+        "name": "Pork blood and vinegar gravy",
+        "grams": 90,
+        "calories": 75
+      },
+      {
+        "name": "Garlic, onion, green chili",
+        "grams": 10,
+        "calories": 5
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small scoop (120g)",
+        "calories": 220
+      },
+      {
+        "label": "Standard scoop (180g)",
+        "calories": 330
+      },
+      {
+        "label": "Standard scoop with 3 puto",
+        "calories": 450
+      }
+    ],
+    "variants": [
+      {
+        "name": "Red Ribbon dinuguan, 1 cup",
+        "calories": 255,
+        "note": "FatSecret listing, lean meat"
+      },
+      {
+        "name": "Dinuguan with kasim",
+        "calories": 280,
+        "note": "Shoulder, little fat"
+      },
+      {
+        "name": "Carinderia dinuguan, mixed cuts",
+        "calories": 330,
+        "note": "Standard"
+      },
+      {
+        "name": "Dinuguan with liempo",
+        "calories": 450,
+        "note": "Belly-based"
+      },
+      {
+        "name": "Dinardaraan with bagnet",
+        "calories": 500,
+        "note": "Ilocano dry version"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is dinuguan healthy?",
+        "a": "It is high in protein (about 22g per serving) and iron from the blood. Calories depend on the pork cut: 280 with shoulder, 450 with belly. Sodium is also high from the vinegar and patis."
+      },
+      {
+        "q": "How many calories in dinuguan with puto?",
+        "a": "About 450 calories for a standard serving with 3 small puto. Each puto adds about 40."
+      },
+      {
+        "q": "How many calories in pig's blood?",
+        "a": "About 80 calories per 100g cooked, almost all protein. It is the pork fat, not the blood, that makes dinuguan heavy."
+      },
+      {
+        "q": "Is dinuguan high in cholesterol?",
+        "a": "Yes. Blood and offal push a serving to around 150 to 200mg of cholesterol, more if there is liver. If that matters for you, keep it to once a week."
+      }
+    ],
+    "related": [
+      "sisig",
+      "puto",
+      "kare-kare",
+      "bak-kut-teh"
+    ],
+    "source": "estimate from components; FatSecret Red Ribbon dinuguan 255 kcal per cup; Kawaling Pinoy belly recipe card 857 kcal noted as the high end"
+  },
+  {
+    "slug": "caldereta",
+    "name": "Caldereta",
+    "aka": [
+      "Kaldereta",
+      "Beef Caldereta",
+      "Kalderetang Baka",
+      "Kalderetang Kambing"
+    ],
+    "category": "lauk",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 carinderia serving (about 200g)",
+    "servingGrams": 200,
+    "calories": 390,
+    "protein": 28,
+    "carbs": 16,
+    "fat": 23,
+    "metaDescription": "A carinderia serving of beef caldereta is about 390 calories. The liver spread and cheese in the sauce add more than the potatoes do. Beef, goat and pork.",
+    "summary": "Beef (or goat) braised in tomato sauce with liver spread, bell peppers, potatoes, carrots, olives and often cheese. The fiesta stew that shows up at every handaan and most carinderias.",
+    "answer": "One carinderia serving of beef caldereta is about 390 calories for a 200g ladle with meat, vegetables and sauce. The beef is about 230 calories, the sauce with liver spread and cheese about 120, and the potato and carrot pieces about 40. Kawaling Pinoy's home version is 448 per serving.",
+    "realTalk": [
+      "Caldereta looks like a tomato stew but the sauce is richer than tomato. The base is tomato sauce plus a can of liver spread (about 60 calories per tablespoon) plus, in most Tagalog versions, a handful of grated cheese and sometimes peanut butter. About 80g of sauce per serving is 120 calories. The beef is usually brisket or shank with some fat, about 90g cooked per scoop at 230 calories. Kawaling Pinoy's card with bottom round lands at 448 per serving; Panlasang Pinoy's with short ribs hits 610.",
+      "The cut of beef swings it by 150 calories. Shank or round is about 200 calories per 100g cooked, short ribs or brisket with fat closer to 350. Carinderias tend to use whatever is cheap, which is usually fattier. Goat caldereta (kalderetang kambing) is a bit leaner at about 340 per serving, and the pork version made with belly is the heaviest at about 480.",
+      "A serving costs 70 to 100 pesos, more than most ulam, so people do not double up on it. With 1 cup of rice it is about 650 calories, which is a normal lunch. The potato and carrot in the sauce count for something: a serving gets about 40g of them at 40 calories. The olives and bell pepper are close to zero, so they are the parts you can eat freely."
+    ],
+    "lighter": [
+      "Ask for more sauce vegetables and less meat if the cut is fatty. Potato, carrot and bell pepper are about 1 calorie per gram.",
+      "Skim the orange oil that pools on top. That layer is rendered beef fat and about 50 to 80 calories per serving.",
+      "Goat caldereta is leaner than beef if the carinderia has it, about 340 per serving.",
+      "One cup of rice. The sauce is thick enough that half a cup goes a long way."
+    ],
+    "components": [
+      {
+        "name": "Braised beef with some fat",
+        "grams": 90,
+        "calories": 230
+      },
+      {
+        "name": "Tomato sauce with liver spread and cheese",
+        "grams": 80,
+        "calories": 120
+      },
+      {
+        "name": "Potato and carrot",
+        "grams": 40,
+        "calories": 40
+      },
+      {
+        "name": "Bell pepper and olives",
+        "grams": 15,
+        "calories": 5
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small scoop (130g)",
+        "calories": 260
+      },
+      {
+        "label": "Standard scoop (200g)",
+        "calories": 390
+      },
+      {
+        "label": "Standard scoop with 1 cup rice",
+        "calories": 650
+      }
+    ],
+    "variants": [
+      {
+        "name": "Kalderetang kambing (goat)",
+        "calories": 340,
+        "note": "Leaner meat"
+      },
+      {
+        "name": "Beef caldereta, carinderia",
+        "calories": 390,
+        "note": "Standard"
+      },
+      {
+        "name": "Beef caldereta, home style (Kawaling Pinoy)",
+        "calories": 448,
+        "note": "Bottom round, 1 of 6"
+      },
+      {
+        "name": "Pork caldereta with belly",
+        "calories": 480,
+        "note": "Liempo version"
+      },
+      {
+        "name": "Beef caldereta with short ribs",
+        "calories": 610,
+        "note": "Panlasang Pinoy card, 1 of 6"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in caldereta with rice?",
+        "a": "About 650 calories for a standard 200g serving with 1 cup of rice. With 2 cups it is around 910."
+      },
+      {
+        "q": "Is caldereta healthy?",
+        "a": "It has about 28g of protein per serving and some vegetables, but the liver spread and cheese make the sauce about 120 calories per ladle. Moderate, not light."
+      },
+      {
+        "q": "What makes caldereta different from mechado and afritada?",
+        "a": "The liver spread and cheese. Afritada is plain tomato sauce, about 300 per serving. Mechado adds soy and a fat strip through the beef, about 350. Caldereta is the richest at about 390."
+      },
+      {
+        "q": "Beef or goat caldereta, which is lower in calories?",
+        "a": "Goat, at about 340 per serving versus 390 for beef. Goat meat is about 140 calories per 100g cooked, beef with fat closer to 250."
+      }
+    ],
+    "related": [
+      "kare-kare",
+      "daging-masak",
+      "bo-kho",
+      "sup-daging"
+    ],
+    "source": "estimate from components; Kawaling Pinoy recipe card 448 kcal per serving; Panlasang Pinoy 610 kcal (short ribs) as high end"
+  },
+  {
+    "slug": "jollibee-chickenjoy",
+    "name": "Jollibee Chickenjoy",
+    "aka": [
+      "Chickenjoy with Rice",
+      "1-pc Chickenjoy",
+      "Jollibee Fried Chicken"
+    ],
+    "category": "western",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 piece with rice and gravy",
+    "servingGrams": 330,
+    "calories": 600,
+    "protein": 30,
+    "carbs": 65,
+    "fat": 24,
+    "metaDescription": "A 1-pc Chickenjoy with rice and gravy is about 600 calories. Thigh is 380, drumstick 220, so the piece you get matters. Solo and 2-pc numbers too.",
+    "summary": "Jollibee's fried chicken, brined and pressure fried, served with a cup of steamed rice and a small tub of gravy. The most ordered meal in the Philippines.",
+    "answer": "A 1-pc Chickenjoy with rice and gravy is about 600 calories. The chicken piece averages 300 calories (a thigh is listed at 380, a drumstick at 220, a breast at 320), the cup of rice is 260 and the gravy about 40. A 2-pc meal is close to 900.",
+    "realTalk": [
+      "Jollibee does not put a full nutrition table on its Philippine site, but per-piece figures from their US listings are on FatSecret: thigh 380, breast 320, drumstick 220, spicy drumstick 200. The piece you get is random, so 300 is a fair average. The skin and coating are about half of that. A skinless piece of the same chicken would be around 170, but nobody buys Chickenjoy to peel it.",
+      "The rice is a full cup at about 260 calories, and the gravy tub is around 40, mostly flour and chicken fat. So the meal is 600 give or take 80 depending on the piece. The 2-pc Chickenjoy with rice, which is what most adults order, is about 900. Add a regular Coke (about 140) and the peach mango pie (270 on FatSecret) and lunch is 1,300 calories for about 250 pesos.",
+      "For a fast food meal it is not the worst. A 1-pc meal gives you about 30g of protein for 600 calories, better than a Jolly Spaghetti at 560 with 15g. The gravy habit is what adds up: people ask for 2 or 3 extra tubs and pour them all over the rice, which is another 80 to 120 calories that does not register as food."
+    ],
+    "lighter": [
+      "Hope for a drumstick, or ask. A drumstick meal is about 520 versus 680 for a thigh meal.",
+      "One gravy tub, not three. Each extra tub is about 40 calories of flour and fat.",
+      "Skip the drink or get water. A regular Coke adds 140 and the pineapple juice about 120.",
+      "Peel the skin off half the piece. That alone saves about 80 calories and the meat is still juicy."
+    ],
+    "components": [
+      {
+        "name": "Chickenjoy piece (average of thigh, breast, drumstick)",
+        "grams": 110,
+        "calories": 300
+      },
+      {
+        "name": "Steamed rice",
+        "grams": 200,
+        "calories": 260
+      },
+      {
+        "name": "Gravy",
+        "grams": 20,
+        "calories": 40
+      }
+    ],
+    "portions": [
+      {
+        "label": "1-pc Chickenjoy solo, no rice",
+        "calories": 300
+      },
+      {
+        "label": "1-pc Chickenjoy with rice and gravy",
+        "calories": 600
+      },
+      {
+        "label": "2-pc Chickenjoy with rice and gravy",
+        "calories": 900
+      }
+    ],
+    "variants": [
+      {
+        "name": "Spicy drumstick, solo",
+        "calories": 200,
+        "note": "FatSecret Jollibee listing"
+      },
+      {
+        "name": "Drumstick with rice",
+        "calories": 520,
+        "note": "Smallest piece"
+      },
+      {
+        "name": "Breast with rice",
+        "calories": 620,
+        "note": "Most meat"
+      },
+      {
+        "name": "Thigh with rice",
+        "calories": 680,
+        "note": "Most skin"
+      },
+      {
+        "name": "1-pc meal with regular Coke and peach mango pie",
+        "calories": 1010,
+        "note": "The usual add-ons"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in 2-pc Chickenjoy with rice?",
+        "a": "About 900 calories: two pieces averaging 300 each, 1 cup of rice at 260 and a gravy tub at 40. With a Coke it is about 1,040."
+      },
+      {
+        "q": "How many calories in Chickenjoy without rice?",
+        "a": "About 300 per piece on average. A thigh is 380, a breast 320, a drumstick 220 according to the FatSecret Jollibee entries."
+      },
+      {
+        "q": "Is Chickenjoy healthier than KFC?",
+        "a": "About the same. A KFC Original Recipe thigh is about 280 and a Chickenjoy thigh 380, but Chickenjoy pieces are larger. Per gram they are close."
+      },
+      {
+        "q": "How many calories in Jollibee gravy?",
+        "a": "About 40 calories per small tub, from flour, oil and chicken drippings. Three tubs over rice is 120."
+      }
+    ],
+    "related": [
+      "jollibee-spaghetti",
+      "ayam-goreng",
+      "chicken-inasal",
+      "chicken-chop"
+    ],
+    "source": "FatSecret Jollibee entries (thigh 380, breast 320, drumstick 220 kcal); rice and gravy from components"
+  },
+  {
+    "slug": "jollibee-spaghetti",
+    "name": "Jollibee Spaghetti",
+    "aka": [
+      "Jolly Spaghetti",
+      "Filipino Sweet Spaghetti",
+      "Jollibee Spaghetti Solo"
+    ],
+    "category": "western",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 regular serving (solo)",
+    "servingGrams": 280,
+    "calories": 560,
+    "protein": 15,
+    "carbs": 75,
+    "fat": 22,
+    "metaDescription": "A regular Jolly Spaghetti is about 560 calories, most of it from the sweet sauce and the noodles. Numbers for the solo, family pan and Chickenjoy combo.",
+    "summary": "Spaghetti in a sweet tomato and banana ketchup sauce with ground meat, sliced hotdog and grated cheese. The birthday party dish of every Filipino kid, still on the menu for adults.",
+    "answer": "A regular solo Jolly Spaghetti is about 560 calories for a 280g serving, per the FatSecret Jollibee listing (72g carbs, 25g fat, 10g protein). The noodles are about 280 of that, the sweet sauce with meat and hotdog about 230, and the cheese about 50.",
+    "realTalk": [
+      "Sweet spaghetti is heavier than it tastes because the sauce is half sugar. Banana ketchup, tomato sauce and added sugar make the sauce about 130 calories per 100g before the meat goes in. A solo serving gets around 120g of sauce with ground pork and hotdog slices, which is 230 calories. The 200g of cooked noodles is 280. FatSecret lists it at 560 per container, and a second listing for the Jolly Spaghetti at 610, so 560 to 610 is the range.",
+      "The protein is low for the calorie cost. About 15g in a solo serving, most of it from the hotdog and the sprinkle of cheese. Compare that to a 1-pc Chickenjoy with rice at 600 calories and 30g of protein. If you are choosing between the two for the same calories, the chicken meal keeps you full longer.",
+      "The combos are where it goes over 1,000. Chickenjoy with Jolly Spaghetti, which is the classic birthday plate, is about 860 calories. The family pan (about 1.2kg) is around 2,400, meant for 4 to 5 people but easily eaten by 3. At about 65 pesos for a solo it is cheap, and the sweetness means adults eat it fast and go back for the second serving at parties."
+    ],
+    "lighter": [
+      "Order it solo, not as the Chickenjoy combo. That is 560 versus 860.",
+      "Skip the extra cheese sachet. About 50 calories for a sprinkle that is mostly salt.",
+      "At a party, take half a plate of spaghetti and a piece of chicken. About 580 total and you get both.",
+      "Do not pair it with the Coke float. A regular float is about 250 calories on top."
+    ],
+    "components": [
+      {
+        "name": "Cooked spaghetti noodles",
+        "grams": 200,
+        "calories": 280
+      },
+      {
+        "name": "Sweet meat sauce with hotdog slices",
+        "grams": 70,
+        "calories": 230
+      },
+      {
+        "name": "Grated cheese",
+        "grams": 10,
+        "calories": 50
+      }
+    ],
+    "portions": [
+      {
+        "label": "Kids meal portion",
+        "calories": 380
+      },
+      {
+        "label": "Regular solo",
+        "calories": 560
+      },
+      {
+        "label": "Chickenjoy with Jolly Spaghetti combo",
+        "calories": 860
+      }
+    ],
+    "variants": [
+      {
+        "name": "Jolly Spaghetti, regular",
+        "calories": 560,
+        "note": "FatSecret listing, 1 container"
+      },
+      {
+        "name": "Jolly Spaghetti, second FatSecret listing",
+        "calories": 610,
+        "note": "Slightly larger serving"
+      },
+      {
+        "name": "Spaghetti with Yumburger combo",
+        "calories": 810,
+        "note": "Yumburger is 250"
+      },
+      {
+        "name": "Chickenjoy with Jolly Spaghetti",
+        "calories": 860,
+        "note": "The birthday plate"
+      },
+      {
+        "name": "Family pan, whole",
+        "calories": 2400,
+        "note": "About 1.2kg, 4 to 5 servings"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in Jollibee spaghetti with chicken?",
+        "a": "About 860 calories for the Chickenjoy with Jolly Spaghetti combo: 560 for the spaghetti and about 300 for the chicken piece."
+      },
+      {
+        "q": "Why is Filipino spaghetti sweet?",
+        "a": "Banana ketchup and added sugar in the sauce. That sugar is also why a serving carries about 75g of carbs, more than 1.3 cups of rice."
+      },
+      {
+        "q": "Is Jollibee spaghetti or Chickenjoy with rice lower in calories?",
+        "a": "They are close: about 560 for the spaghetti and 600 for a 1-pc Chickenjoy with rice. The Chickenjoy meal has double the protein, so it is the better pick for the same calories."
+      },
+      {
+        "q": "How many calories in a Jollibee spaghetti family pan?",
+        "a": "About 2,400 for the whole pan. Split 4 ways that is 600 each, split 3 ways about 800."
+      }
+    ],
+    "related": [
+      "jollibee-chickenjoy",
+      "pancit-canton",
+      "ramly-burger",
+      "mee-goreng-mamak"
+    ],
+    "source": "FatSecret Jollibee Spaghetti listing (560 kcal per container; 610 kcal in a second listing)"
+  },
+  {
+    "slug": "turon",
+    "name": "Turon",
+    "aka": [
+      "Banana Lumpia",
+      "Turon na Saging",
+      "Fried Banana Roll"
+    ],
+    "category": "snacks",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 piece",
+    "servingGrams": 80,
+    "calories": 220,
+    "protein": 2,
+    "carbs": 36,
+    "fat": 8,
+    "metaDescription": "One turon is about 220 calories: the saba banana is 70, the sugar coat and frying oil are the rest. Numbers with jackfruit and with ice cream.",
+    "summary": "Saba banana (often with a strip of jackfruit) rolled in a lumpia wrapper, rolled in brown sugar and deep fried until the sugar turns to a glassy shell. The 15 peso merienda from every street cart.",
+    "answer": "One street turon is about 220 calories for an 80g piece. The saba banana inside is about 70 calories, the wrapper 35, the caramelised brown sugar shell about 50 and the oil absorbed during frying about 65. Two pieces, which is the usual order, is 440.",
+    "realTalk": [
+      "The banana is the healthy part and it is a third of the calories. A saba banana is about 120 calories per 100g, so the 60g piece inside a turon is about 70. Then it gets a lumpia wrapper (35 calories), a roll in brown sugar that melts into a shell (about 12g, 50 calories) and a trip through hot oil, where the wrapper soaks up about 7g of oil (65 calories). Panlasang Pinoy's recipe card comes out at 292 per piece, but that counts a cup and a half of sugar across 12 pieces as all sticking.",
+      "The vendor's sugar habit is the variable. Some carts roll lightly and the shell is thin, about 200 calories per piece. Others dredge heavily and then drizzle more syrup on the finished turon, which pushes it to 280. The jackfruit strip adds about 15 calories and a lot of flavour, so it is not the thing to worry about.",
+      "Turon is sold in pairs for 25 to 30 pesos and eaten as merienda, usually with a soft drink. Two turon and a Coke is about 580 calories at 4pm, which is bigger than a lot of people's dinner. The turon with ice cream at restaurants (turon a la mode) is about 370 for one piece with a scoop."
+    ],
+    "lighter": [
+      "One piece, not two. 220 versus 440, and one is enough with coffee.",
+      "Pick the cart with the thinner sugar shell. Light coat is about 200, heavy coat about 280.",
+      "Boiled saba (nilagang saging) is about 100 calories for the same banana without wrapper, sugar or oil.",
+      "Skip the soft drink with it. Turon is already 36g of carbs, most of it sugar."
+    ],
+    "components": [
+      {
+        "name": "Saba banana",
+        "grams": 60,
+        "calories": 70
+      },
+      {
+        "name": "Lumpia wrapper",
+        "grams": 10,
+        "calories": 35
+      },
+      {
+        "name": "Caramelised brown sugar shell",
+        "grams": 12,
+        "calories": 50
+      },
+      {
+        "name": "Frying oil absorbed",
+        "grams": 7,
+        "calories": 65
+      }
+    ],
+    "portions": [
+      {
+        "label": "1 piece",
+        "calories": 220
+      },
+      {
+        "label": "2 pieces (usual order)",
+        "calories": 440
+      },
+      {
+        "label": "2 pieces with a regular soft drink",
+        "calories": 580
+      }
+    ],
+    "variants": [
+      {
+        "name": "Boiled saba banana, 1 piece",
+        "calories": 100,
+        "note": "No wrapper, no oil"
+      },
+      {
+        "name": "Turon, light sugar coat",
+        "calories": 200,
+        "note": "Thin shell"
+      },
+      {
+        "name": "Turon, standard",
+        "calories": 220,
+        "note": "Street cart"
+      },
+      {
+        "name": "Turon, heavy sugar with syrup drizzle",
+        "calories": 280,
+        "note": "Some vendors"
+      },
+      {
+        "name": "Turon a la mode (with ice cream)",
+        "calories": 370,
+        "note": "Restaurant dessert"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in 2 pieces of turon?",
+        "a": "About 440 calories. Turon is usually sold in pairs, so that is the real serving for most people."
+      },
+      {
+        "q": "Is turon healthy?",
+        "a": "The banana is. The rest is a fried wrapper and a sugar shell, so a piece is about 220 calories with 36g of carbs and 8g of fat. It is a dessert, not a fruit serving."
+      },
+      {
+        "q": "Turon or banana cue, which has fewer calories?",
+        "a": "About the same. Banana cue is a whole saba coated in caramelised sugar and fried, around 200 to 230 per stick. Turon has the wrapper but slightly less banana."
+      },
+      {
+        "q": "How many calories in turon with jackfruit?",
+        "a": "About 235. The strip of langka adds only 15 calories to a standard piece."
+      }
+    ],
+    "related": [
+      "pisang-goreng",
+      "cempedak-goreng",
+      "halo-halo",
+      "kwek-kwek"
+    ],
+    "source": "estimate from components (saba banana, wrapper, sugar, oil uptake); Panlasang Pinoy recipe card 292 kcal per piece noted"
+  },
+  {
+    "slug": "pandesal",
+    "name": "Pandesal",
+    "aka": [
+      "Pan de Sal",
+      "Filipino Bread Roll",
+      "Pandesal Roll"
+    ],
+    "category": "snacks",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 piece (bakery size, about 35g)",
+    "servingGrams": 35,
+    "calories": 110,
+    "protein": 3,
+    "carbs": 20,
+    "fat": 2,
+    "metaDescription": "One bakery pandesal is about 110 calories plain. The number only gets interesting when you count how many you eat and what goes inside them.",
+    "summary": "A slightly sweet, breadcrumb-dusted bread roll sold warm from neighbourhood bakeries every morning at 3 to 5 pesos each. Eaten plain, dipped in coffee, or stuffed with anything.",
+    "answer": "One standard bakery pandesal is about 110 calories for a 35g roll, or about 310 calories per 100g. FatSecret lists a larger 45g pandesal at 138. Plain, it is a small amount of bread. The usual breakfast of 3 pandesal with butter and coffee is closer to 500.",
+    "realTalk": [
+      "A pandesal on its own is modest. Bread is bread: about 310 calories per 100g, and a corner bakery roll is 30 to 40g, so 100 to 125 calories. FatSecret's entry is 138 for a 45g roll, which is the bigger supermarket size. Kawaling Pinoy's recipe card agrees at 138 per roll from a 24-roll batch. The problem has never been one pandesal.",
+      "It is the count and the palaman (filling). Nobody eats one. Three pandesal is 330 calories, and that is before anything goes inside. A teaspoon of butter or margarine per roll is 35, a tablespoon of peanut butter is 95, a slice of cheese 70, coconut jam about 60. Three pandesal with butter is about 440. Three with peanut butter is about 615. A pandesal with a fried egg and a slice of Spam is about 300 by itself.",
+      "Then the coffee. 3-in-1 sachets are about 100 calories each, so a normal Filipino breakfast of 3 buttered pandesal and one 3-in-1 is around 540 calories, mostly refined flour and sugar, with about 12g of protein. It is not a terrible breakfast, but it is a bigger one than it looks, and it does not hold you until lunch."
+    ],
+    "lighter": [
+      "Two pandesal instead of three saves 110 calories and you will not notice by 10am.",
+      "Fill it with egg, tuna or kesong puti instead of butter or peanut butter. Same calories, 3 to 4 times the protein.",
+      "Black coffee or kapeng barako instead of 3-in-1. About 100 calories saved per cup.",
+      "Whole wheat or malunggay pandesal is the same calories but keeps you full longer."
+    ],
+    "components": [
+      {
+        "name": "Wheat flour",
+        "grams": 22,
+        "calories": 80
+      },
+      {
+        "name": "Sugar",
+        "grams": 3,
+        "calories": 12
+      },
+      {
+        "name": "Butter or shortening and egg",
+        "grams": 3,
+        "calories": 15
+      },
+      {
+        "name": "Breadcrumb coating",
+        "grams": 1,
+        "calories": 3
+      }
+    ],
+    "portions": [
+      {
+        "label": "1 plain pandesal",
+        "calories": 110
+      },
+      {
+        "label": "3 plain pandesal",
+        "calories": 330
+      },
+      {
+        "label": "3 pandesal with butter and 3-in-1 coffee",
+        "calories": 540
+      }
+    ],
+    "variants": [
+      {
+        "name": "Small bakery pandesal (30g)",
+        "calories": 95,
+        "note": "The 3 peso size"
+      },
+      {
+        "name": "Standard pandesal (35g)",
+        "calories": 110,
+        "note": "Most bakeries"
+      },
+      {
+        "name": "Large pandesal (45g)",
+        "calories": 138,
+        "note": "FatSecret listing"
+      },
+      {
+        "name": "Pandesal with butter",
+        "calories": 145,
+        "note": "1 teaspoon"
+      },
+      {
+        "name": "Pandesal with peanut butter",
+        "calories": 205,
+        "note": "1 tablespoon"
+      },
+      {
+        "name": "Pandesal with egg and Spam",
+        "calories": 300,
+        "note": "1 fried egg, 1 slice"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in 2 pandesal?",
+        "a": "About 220 calories for 2 standard 35g rolls, plain. With a teaspoon of butter on each it is about 290."
+      },
+      {
+        "q": "Is pandesal good for weight loss?",
+        "a": "It can fit. Two pandesal with egg or tuna is about 300 calories with 20g of protein. Three with peanut butter and 3-in-1 coffee is over 700, which is the version to avoid."
+      },
+      {
+        "q": "Is pandesal healthier than white bread?",
+        "a": "About the same. Pandesal is white flour with a bit of sugar and fat, roughly 310 calories per 100g, the same as a sliced loaf. Whole wheat pandesal has more fibre at the same calories."
+      },
+      {
+        "q": "How many calories in ube pandesal with cheese?",
+        "a": "About 250 to 300 per piece. Those are bigger rolls (70 to 80g) with ube jam and a cheese centre, so more than double a plain one."
+      }
+    ],
+    "related": [
+      "kaya-toast",
+      "roti-canai",
+      "taho",
+      "coffee-bun"
+    ],
+    "source": "FatSecret generic pandesal (138 kcal per 45g roll, 307 kcal/100g), scaled to a 35g bakery roll; Kawaling Pinoy recipe card 138 kcal"
+  },
+  {
+    "slug": "puto",
+    "name": "Puto",
+    "aka": [
+      "Putong Puti",
+      "Steamed Rice Cake",
+      "Puto Cheese"
+    ],
+    "category": "snacks",
+    "region": [
+      "ph"
+    ],
+    "serving": "3 small pieces",
+    "servingGrams": 75,
+    "calories": 120,
+    "protein": 2,
+    "carbs": 26,
+    "fat": 1,
+    "metaDescription": "Three small puto are about 120 calories, roughly 40 each. Cheese and butter versions cost more. Numbers for putong puti, puto cheese and puto bumbong.",
+    "summary": "Small steamed cakes of rice flour, sugar and a little coconut milk, sold in packs of 10 to 12 or handed out next to a bowl of dinuguan. Plain white, or topped with a cube of cheese.",
+    "answer": "Three small puto are about 120 calories for 75g, or about 40 calories per piece. Plain putong puti is rice flour, sugar and a splash of coconut milk with almost no fat. A puto cheese is about 55 each. Kawaling Pinoy's batch of 36 works out to 39 calories per piece.",
+    "realTalk": [
+      "Puto is one of the lightest kakanin because it is steamed and mostly air. A small 25g piece is about 40 calories: 30 from rice flour, 8 from sugar, 2 from coconut milk. Kawaling Pinoy's recipe card lists 1,421 calories for a batch of 3 dozen, which is 39 each. White King's boxed mix is listed at 100 per serving on FatSecret, which is about 2 to 3 pieces.",
+      "The toppings change it. A cube of cheddar on top adds about 15, so puto cheese is 55. Puto with a slice of salted egg is about 60. Puto pao, the big one stuffed with asado and a quail egg, is a different food entirely at about 180 each. Puto bumbong, the purple Christmas version with butter, sugar and grated coconut, is around 150 to 200 per stick depending on how much butter the vendor brushes on.",
+      "The count is the thing. Puto comes in packs of 10 to 12 for 30 to 50 pesos and a pack disappears during one episode of anything. Ten small puto is 400 calories, about the same as a rice meal but with no protein. With dinuguan, 3 puto is the usual side and adds 120 to a 330 calorie serving."
+    ],
+    "lighter": [
+      "Three pieces is a snack at 120 calories. Ten pieces is a meal at 400. Count them out before you open the pack.",
+      "Plain putong puti over puto cheese saves about 15 per piece, or 150 over a pack.",
+      "Puto bumbong: ask for less butter. The butter and sugar brush is about half the calories.",
+      "Pair puto with something that has protein, like dinuguan or a boiled egg, so it is not just carbs."
+    ],
+    "components": [
+      {
+        "name": "Rice flour",
+        "grams": 25,
+        "calories": 90
+      },
+      {
+        "name": "Sugar",
+        "grams": 6,
+        "calories": 24
+      },
+      {
+        "name": "Coconut milk",
+        "grams": 5,
+        "calories": 6
+      }
+    ],
+    "portions": [
+      {
+        "label": "1 small puto",
+        "calories": 40
+      },
+      {
+        "label": "3 small puto",
+        "calories": 120
+      },
+      {
+        "label": "10 small puto (a pack)",
+        "calories": 400
+      }
+    ],
+    "variants": [
+      {
+        "name": "Putong puti, 1 small",
+        "calories": 40,
+        "note": "Plain"
+      },
+      {
+        "name": "Puto cheese, 1 small",
+        "calories": 55,
+        "note": "Cheddar cube on top"
+      },
+      {
+        "name": "Puto with salted egg, 1 small",
+        "calories": 60,
+        "note": "Itlog na maalat slice"
+      },
+      {
+        "name": "Puto bumbong, 1 stick",
+        "calories": 170,
+        "note": "Butter, sugar, grated coconut"
+      },
+      {
+        "name": "Puto pao, 1 piece",
+        "calories": 180,
+        "note": "Stuffed with asado and quail egg"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in one puto?",
+        "a": "About 40 calories for a small plain putong puti (25g), and about 55 for a puto cheese. A large puto from a Bulacan bakery (50g) is about 80."
+      },
+      {
+        "q": "Is puto healthy?",
+        "a": "It is low fat and low calorie per piece, but it is refined rice flour and sugar with almost no protein or fibre. Fine as a small snack, not as a meal."
+      },
+      {
+        "q": "How many calories in puto bumbong?",
+        "a": "About 150 to 200 per stick. The glutinous purple rice is about 80, and the butter, muscovado sugar and coconut on top add the rest."
+      },
+      {
+        "q": "Puto or kutsinta, which has fewer calories?",
+        "a": "About the same, 40 to 50 each. Kutsinta is denser and chewier but similar in size. Both are rice flour and sugar."
+      }
+    ],
+    "related": [
+      "dinuguan",
+      "kuih-talam",
+      "kuih-kaswi",
+      "tutu-kueh"
+    ],
+    "source": "Kawaling Pinoy recipe card (1421 kcal per 36 pieces, 39 each); White King puto 100 kcal per serving via FatSecret"
+  },
+  {
+    "slug": "isaw",
+    "name": "Isaw",
+    "aka": [
+      "Isaw Manok",
+      "Grilled Chicken Intestine",
+      "Isaw Baboy"
+    ],
+    "category": "snacks",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 stick (chicken)",
+    "servingGrams": 30,
+    "calories": 45,
+    "protein": 4,
+    "carbs": 3,
+    "fat": 2,
+    "metaDescription": "One stick of chicken isaw is about 45 calories, and even 5 sticks is under 250. Pork isaw is roughly double. The sweet basting sauce moves the number.",
+    "summary": "Chicken (or pork) intestines cleaned, boiled, threaded onto a skewer in a zigzag, then grilled and brushed with a sweet soy and ketchup sauce. Dipped in spiced vinegar, sold at 10 to 15 pesos a stick outside every campus.",
+    "answer": "One stick of chicken isaw is about 45 calories for a 30g skewer with its basting sauce. The intestine itself is about 30 calories and the sweet glaze about 15. Pork isaw is fattier and bigger, around 90 per stick. Five chicken sticks with vinegar is about 225 calories.",
+    "realTalk": [
+      "Isaw is the cheapest high protein snack on the street and the numbers back it up. Chicken intestine is about 110 calories per 100g cooked with 15g of protein, and after cleaning and boiling a stick carries about 25g of it, so around 30 calories. Then the vendor brushes on the sauce: soy, banana ketchup, sugar and a bit of oil. About 5g clings per stick, 15 calories. Five sticks is 225 calories with 20g of protein, which beats most merienda.",
+      "Pork isaw (isaw baboy) is the heavy one. Pork intestine is about 200 calories per 100g cooked because of the fat lining, and the sticks are thicker at about 40g, so 90 calories each. Five pork sticks is 450. Same cart, same sauce, double the number. The vinegar dip (sukang maanghang) is about 5 calories per dunk, so it is free for practical purposes.",
+      "The real concern with isaw is not calories but cleaning. A well cleaned intestine is boiled for an hour before grilling. A badly cleaned one gives you a bad night. Pick the cart with a queue. The other thing to watch is the sweet sauce: some vendors dredge the stick through it twice, which doubles the glaze to about 30 calories per stick. Not a big deal on 3 sticks, more noticeable on 10."
+    ],
+    "lighter": [
+      "Chicken isaw over pork isaw. 45 versus 90 per stick, and the chicken has more protein per calorie.",
+      "Dip in vinegar, not the sweet sauce cup. The vinegar is about 5 calories, the sweet sauce about 30 per spoon.",
+      "Five sticks is a snack at 225. Ten sticks is a small meal at 450. Both are fine, just know which one you are having.",
+      "Skip the rice. Isaw is one of the few street foods that does not need it."
+    ],
+    "components": [
+      {
+        "name": "Chicken intestine, boiled and grilled",
+        "grams": 25,
+        "calories": 30
+      },
+      {
+        "name": "Sweet soy ketchup basting sauce",
+        "grams": 5,
+        "calories": 15
+      }
+    ],
+    "portions": [
+      {
+        "label": "1 stick",
+        "calories": 45
+      },
+      {
+        "label": "5 sticks",
+        "calories": 225
+      },
+      {
+        "label": "10 sticks",
+        "calories": 450
+      }
+    ],
+    "variants": [
+      {
+        "name": "Chicken isaw, 1 stick",
+        "calories": 45,
+        "note": "Standard"
+      },
+      {
+        "name": "Chicken isaw, double sauce",
+        "calories": 60,
+        "note": "Dredged twice"
+      },
+      {
+        "name": "Betamax (grilled chicken blood), 1 stick",
+        "calories": 50,
+        "note": "Same cart, similar number"
+      },
+      {
+        "name": "Pork isaw, 1 stick",
+        "calories": 90,
+        "note": "Fattier, thicker"
+      },
+      {
+        "name": "Adidas (grilled chicken feet), 1 stick",
+        "calories": 70,
+        "note": "Skin and cartilage"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is isaw healthy?",
+        "a": "For a street snack, yes. Chicken isaw is about 45 calories a stick with 4g of protein and very little fat. The risks are cleaning and hygiene, not calories."
+      },
+      {
+        "q": "How many calories in 10 sticks of isaw?",
+        "a": "About 450 calories for chicken isaw, about 900 for pork isaw. The sweet sauce adds about 15 per stick either way."
+      },
+      {
+        "q": "Is isaw high in cholesterol?",
+        "a": "Moderately. Intestines carry about 200mg of cholesterol per 100g, so 5 chicken sticks is about 250mg. If you are watching cholesterol, keep it to a few sticks."
+      },
+      {
+        "q": "Chicken or pork isaw, which is lower in calories?",
+        "a": "Chicken, at about 45 per stick versus 90 for pork. Pork intestine has more fat in the lining and the sticks are bigger."
+      }
+    ],
+    "related": [
+      "pork-bbq",
+      "kwek-kwek",
+      "balut",
+      "satay"
+    ],
+    "source": "estimate from components (chicken intestine, cooked; pork intestine, cooked; basting sauce)"
+  },
+  {
+    "slug": "balut",
+    "name": "Balut",
+    "aka": [
+      "Balot",
+      "Fertilised Duck Egg",
+      "Balut Penoy"
+    ],
+    "category": "snacks",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 egg",
+    "servingGrams": 70,
+    "calories": 190,
+    "protein": 14,
+    "carbs": 2,
+    "fat": 14,
+    "metaDescription": "One balut is about 190 calories with 14g of protein. More than a chicken egg because it is a bigger duck egg. Penoy and how the salt and vinegar figure in.",
+    "summary": "A fertilised duck egg incubated for 14 to 18 days, boiled and eaten warm from the shell with rock salt or spiced vinegar. Sold by the balut vendor shouting past your gate at night for 20 to 25 pesos.",
+    "answer": "One balut is about 190 calories with about 14g of protein and 14g of fat, per the figures cited for both chicken and duck balut. That is roughly 2.5 chicken eggs' worth of nutrition in one shell. The salt and vinegar add nothing, and the broth you sip first is about 5 calories.",
+    "realTalk": [
+      "Balut is an egg, so it counts like an egg, just a big one. A duck egg is about 70g of edible content versus 50g for a chicken egg, and duck yolks are richer. The figure that circulates from Philippine sources is 188 calories and 14g of crude protein per balut, and that lines up with USDA duck egg data at about 185 calories per 70g. The embryo adds some protein and calcium (about 100mg) but does not change the calories much.",
+      "As a snack it is one of the best protein deals on the street. 190 calories with 14g of protein for 20 to 25 pesos beats almost everything else the same vendor sells. Chicharon, which balut vendors often carry as well, is 150 calories for a small bag with 8g of protein and a lot more salt. The yolk carries the fat, about 14g, half of it saturated, and about 600mg of cholesterol, which is the thing to be aware of if you eat 2 or 3 a night.",
+      "Penoy is the unfertilised version and is basically a boiled duck egg at about 180 calories. Balut sa puti, the younger 14 to 16 day egg with a white membrane and less embryo, is about the same. The only way balut gets expensive is the habit of eating it with 2 sticks of pork BBQ and a beer, which turns a 190 calorie snack into 600."
+    ],
+    "lighter": [
+      "One balut is a good 190 calorie snack. Two is still fine at 380. Three a night is where the cholesterol gets silly.",
+      "Use the spiced vinegar instead of salt if you are watching sodium. Both are calorie free.",
+      "Eat it instead of a late dinner, not on top of one. It is filling for its size.",
+      "If you want the protein without the yolk fat, eat the white and the embryo and leave half the yolk. About 120 calories that way."
+    ],
+    "components": [
+      {
+        "name": "Duck egg yolk",
+        "grams": 25,
+        "calories": 95
+      },
+      {
+        "name": "Duck egg white",
+        "grams": 25,
+        "calories": 15
+      },
+      {
+        "name": "Embryo and membrane",
+        "grams": 18,
+        "calories": 75
+      },
+      {
+        "name": "Broth",
+        "grams": 10,
+        "calories": 5
+      }
+    ],
+    "portions": [
+      {
+        "label": "Balut, white and embryo only (half the yolk)",
+        "calories": 120
+      },
+      {
+        "label": "1 balut",
+        "calories": 190
+      },
+      {
+        "label": "3 balut",
+        "calories": 570
+      }
+    ],
+    "variants": [
+      {
+        "name": "Chicken egg, boiled, 1 large",
+        "calories": 75,
+        "note": "For comparison"
+      },
+      {
+        "name": "Balut sa puti (14 to 16 days)",
+        "calories": 180,
+        "note": "Less developed embryo"
+      },
+      {
+        "name": "Penoy (unfertilised duck egg)",
+        "calories": 180,
+        "note": "Basically a boiled duck egg"
+      },
+      {
+        "name": "Balut (17 to 18 days)",
+        "calories": 190,
+        "note": "Standard"
+      },
+      {
+        "name": "Balut with 2 pork BBQ sticks and a beer",
+        "calories": 600,
+        "note": "The actual serving for many"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is balut high in protein?",
+        "a": "Yes, about 14g per egg, which is more than 2 chicken eggs. It is one of the highest protein snacks per peso on the street."
+      },
+      {
+        "q": "Is balut high in cholesterol?",
+        "a": "Yes, about 600mg per egg, mostly in the yolk. That is 3 chicken eggs' worth. One a day is fine for most people; several a night is not."
+      },
+      {
+        "q": "How many calories in penoy?",
+        "a": "About 180, close to balut. Penoy is an unfertilised duck egg, so it is a plain hard boiled duck egg with no embryo."
+      },
+      {
+        "q": "Is balut good for weight loss?",
+        "a": "As a snack, yes. 190 calories, 14g of protein, very filling, and it takes a few minutes to eat. Just do not add the pork BBQ and the beer every time."
+      }
+    ],
+    "related": [
+      "kwek-kwek",
+      "isaw",
+      "pork-bbq",
+      "telur-balado"
+    ],
+    "source": "188 kcal and 14g protein per egg as cited on Wikipedia (Balut) from Philippine sources; cross-checked with USDA duck egg"
+  },
+  {
+    "slug": "buko-juice",
+    "name": "Buko Juice",
+    "aka": [
+      "Fresh Buko Juice",
+      "Young Coconut Juice",
+      "Buko Juice with Sugar"
+    ],
+    "category": "drinks",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 cup (350ml, with buko strips and sugar)",
+    "servingGrams": 350,
+    "calories": 160,
+    "protein": 2,
+    "carbs": 34,
+    "fat": 2,
+    "metaDescription": "A cup of buko juice from a stand is about 160 calories with the sugar and buko strips. Straight from the coconut it is about 100. Where the gap comes from.",
+    "summary": "Young coconut water served with strips of soft buko meat, usually with sugar syrup and a lot of ice. From a 25 peso cup at a stand to a whole coconut with a straw at the beach.",
+    "answer": "A regular 350ml cup of buko juice from a stand is about 160 calories: about 60 from the coconut water, 40 from the buko strips and 60 from the sugar syrup the vendor adds. A whole young coconut with its meat and no added sugar is about 100 calories.",
+    "realTalk": [
+      "Coconut water alone is light. About 19 calories per 100ml, so the 300ml in a cup is 57 calories. The soft young buko meat is about 80 calories per 100g, and a cup gets 50g of strips for 40 calories. That is the honest coconut, about 100 calories. Then the stand adds simple syrup, usually 15 to 20g of sugar, because plain buko water tastes flat to people used to soft drinks. That is another 60 to 80 calories.",
+      "The 'buko juice' in a plastic cup at a mall or a Buko Nation type stall is often not straight from a coconut. It is diluted coconut water with sugar, sometimes condensed milk, and more buko strips, and a large cup can hit 250 calories. The bottled versions at the supermarket run 60 to 90 calories per 330ml, which is less than soft drinks but still 15 to 20g of sugar.",
+      "Buko juice is a good replacement for Coke (140 calories) and an even better one if you ask for 'walang asukal' (no sugar), which vendors will do. It is not a free drink though. Two cups of the sweetened kind in an afternoon is 320 calories, which people do not count because it is 'just coconut'. The potassium claim is real, about 250mg per 100ml, useful after a hot day."
+    ],
+    "lighter": [
+      "Ask for walang asukal (no sugar). The cup drops from 160 to about 100.",
+      "Buy the whole coconut. A vendor with a bolo gives you about 100 calories with no way to add syrup.",
+      "Skip the condensed milk versions at mall stalls. Those are 220 to 250 per cup.",
+      "Have the buko strips. They are the part with fibre and they make the drink more filling for about 40 calories."
+    ],
+    "components": [
+      {
+        "name": "Young coconut water",
+        "grams": 280,
+        "calories": 55
+      },
+      {
+        "name": "Young coconut meat strips",
+        "grams": 50,
+        "calories": 40
+      },
+      {
+        "name": "Sugar syrup",
+        "grams": 20,
+        "calories": 65
+      }
+    ],
+    "portions": [
+      {
+        "label": "Regular cup, no sugar",
+        "calories": 100
+      },
+      {
+        "label": "Regular cup with sugar",
+        "calories": 160
+      },
+      {
+        "label": "Large cup with sugar",
+        "calories": 240
+      }
+    ],
+    "variants": [
+      {
+        "name": "Coconut water only, 300ml",
+        "calories": 57,
+        "note": "No meat, no sugar"
+      },
+      {
+        "name": "Whole young coconut, water and meat",
+        "calories": 100,
+        "note": "Beach vendor"
+      },
+      {
+        "name": "Buko juice, regular cup with sugar",
+        "calories": 160,
+        "note": "Street stand"
+      },
+      {
+        "name": "Buko juice with condensed milk, regular",
+        "calories": 220,
+        "note": "Mall stall"
+      },
+      {
+        "name": "Buko pandan drink, regular",
+        "calories": 280,
+        "note": "Cream, gulaman, sugar"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is buko juice good for weight loss?",
+        "a": "Compared to soft drinks, yes. Without sugar it is about 100 calories per cup with potassium and some fibre from the strips. With the vendor's syrup it is 160, which is close to a Coke."
+      },
+      {
+        "q": "How much sugar is in buko juice?",
+        "a": "About 8g naturally from the coconut water and meat, plus 15 to 20g of added syrup at a stand. Ask for no sugar and it is under 10g."
+      },
+      {
+        "q": "Is buko juice the same as coconut water?",
+        "a": "Buko juice is coconut water plus strips of young coconut meat, and usually sugar. Plain coconut water is 19 calories per 100ml; the meat and syrup add the rest."
+      },
+      {
+        "q": "How many calories in a whole buko?",
+        "a": "About 100 calories for a typical young coconut: 300ml of water at 57 calories and about 50g of soft meat at 40. A very meaty older buko can reach 150."
+      }
+    ],
+    "related": [
+      "air-kelapa",
+      "sago-gulaman",
+      "coconut-shake",
+      "air-tebu"
+    ],
+    "source": "estimate from components (USDA coconut water 19 kcal/100ml, young coconut meat, added sugar)"
+  },
+  {
+    "slug": "sago-gulaman",
+    "name": "Sago't Gulaman",
+    "aka": [
+      "Sago at Gulaman",
+      "Samalamig",
+      "Palamig",
+      "Sago Gulaman Drink"
+    ],
+    "category": "drinks",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 large cup (about 400ml)",
+    "servingGrams": 400,
+    "calories": 200,
+    "protein": 1,
+    "carbs": 49,
+    "fat": 0,
+    "metaDescription": "A large cup of sago't gulaman is about 200 calories, and 150 of that is the arnibal syrup. The sago and gulaman are minor. Small, large and mall numbers.",
+    "summary": "Brown sugar syrup (arnibal) flavoured with banana essence or pandan, poured over ice with tapioca pearls and cubes of gulaman jelly. The 15 to 25 peso drink from the samalamig cart on every corner.",
+    "answer": "A large 400ml cup of sago't gulaman is about 200 calories. The arnibal syrup is about 150 of that, the sago pearls about 35 and the gulaman cubes about 10. The ice and water are free. Kawaling Pinoy's recipe card lands at 248 per serving with a heavier syrup pour.",
+    "realTalk": [
+      "Sago't gulaman is brown sugar water with chewy things in it, and the calories follow the sugar. A vendor ladles about 40g of arnibal (brown sugar boiled with water and a drop of banana extract) into a large cup, which is 150 calories. The sago pearls are cooked tapioca starch, about 30g at 35 calories. The gulaman is agar jelly set with a little sugar, about 40g at 10 calories. Then ice and water to the top. Kawaling Pinoy and Panlasang Pinoy both land around 250 per serving, with a cup of sugar for 6 servings.",
+      "The cart drinks are all the same sugar in different colours. Melon juice, buko pandan, black gulaman, the sago't gulaman with a squeeze of calamansi: 150 to 250 per large cup, and the difference is mostly how heavy the vendor's hand is. A large cup is about the same as a can of Coke (140) plus a bit, and people drink 2 in an afternoon because it is 20 pesos and it is hot.",
+      "The mall versions with cream or condensed milk are a step up. A large buko pandan with cream is about 280, and the 'special' sago't gulaman with extra sago and a milk float is around 300. Sago't gulaman is a fine drink to have instead of a soft drink, but it is not water with jelly in it. It is 49g of carbs, all of it sugar and starch."
+    ],
+    "lighter": [
+      "Ask for konting arnibal (less syrup). A vendor will halve it and the cup drops to about 120.",
+      "Small cup instead of large. About 120 versus 200, and it is the same drink.",
+      "Skip the extra sago. Each spoon of pearls is about 20 calories of starch.",
+      "If you want the cold sweet hit, a calamansi juice with less sugar is about 80 for a large cup."
+    ],
+    "components": [
+      {
+        "name": "Arnibal (brown sugar syrup)",
+        "grams": 40,
+        "calories": 150
+      },
+      {
+        "name": "Sago pearls, cooked",
+        "grams": 30,
+        "calories": 35
+      },
+      {
+        "name": "Gulaman cubes",
+        "grams": 40,
+        "calories": 10
+      },
+      {
+        "name": "Ice and water",
+        "grams": 290,
+        "calories": 0
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small cup (250ml)",
+        "calories": 120
+      },
+      {
+        "label": "Large cup (400ml)",
+        "calories": 200
+      },
+      {
+        "label": "Large cup with extra sago and syrup",
+        "calories": 270
+      }
+    ],
+    "variants": [
+      {
+        "name": "Sago't gulaman, less syrup",
+        "calories": 120,
+        "note": "Konting arnibal"
+      },
+      {
+        "name": "Sago't gulaman, large",
+        "calories": 200,
+        "note": "Street cart standard"
+      },
+      {
+        "name": "Home recipe serving (Kawaling Pinoy card)",
+        "calories": 248,
+        "note": "Heavier syrup"
+      },
+      {
+        "name": "Buko pandan drink with cream, large",
+        "calories": 280,
+        "note": "Mall stall"
+      },
+      {
+        "name": "Special sago't gulaman with milk float",
+        "calories": 300,
+        "note": "Extra sago, condensed milk"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is sago't gulaman healthy?",
+        "a": "No, it is sugar water with tapioca and jelly. About 200 calories and 45g of sugar in a large cup. The gulaman itself is nearly free; the arnibal is the problem."
+      },
+      {
+        "q": "How many calories in the sago alone?",
+        "a": "About 35 calories for the 30g of cooked pearls in a large cup. Sago is pure starch, about 120 calories per 100g cooked."
+      },
+      {
+        "q": "Is sago't gulaman lower in calories than Coke?",
+        "a": "Not really. A large cup is about 200 calories versus 140 for a 330ml can of Coke. With less syrup it drops to 120, which is when it becomes the better choice."
+      },
+      {
+        "q": "How many calories in gulaman?",
+        "a": "Almost none. Gulaman is agar, about 5 to 10 calories per 40g cube portion once the sugar in the jelly is counted. It is the syrup and sago around it that add up."
+      }
+    ],
+    "related": [
+      "taho",
+      "cincau",
+      "buko-juice",
+      "sirap-bandung"
+    ],
+    "source": "estimate from components; Kawaling Pinoy (248 kcal) and Panlasang Pinoy (255 kcal) recipe cards used as reference"
+  }
+]

@@ -1,0 +1,1357 @@
+[
+  {
+    "slug": "pho-bo",
+    "name": "Pho Bo",
+    "aka": [
+      "Phở bò",
+      "Beef Pho",
+      "Vietnamese Beef Noodle Soup",
+      "Pho Tai"
+    ],
+    "category": "noodles",
+    "region": [
+      "vn"
+    ],
+    "serving": "1 bowl",
+    "servingGrams": 500,
+    "calories": 450,
+    "protein": 28,
+    "carbs": 55,
+    "fat": 12,
+    "metaDescription": "A street bowl of pho bo is about 450 calories. Most of it is the rice noodles, the broth is nearly free. Here is the full breakdown with tai, chin and nam.",
+    "summary": "Flat rice noodles in a clear beef bone broth with sliced beef, onion, and a plate of herbs on the side. Sold from 5am at every street corner in Hanoi and Saigon for 40,000 to 60,000 dong.",
+    "answer": "A standard bowl of pho bo is about 450 calories for roughly 500g of noodles, beef and broth. Rare beef (tai) lands around 430 and well done brisket (chin) around 455. Order it with fatty brisket, tendon and a side of quay and you are past 700.",
+    "realTalk": [
+      "The 450 calories in a bowl of pho splits about like this: 200g of cooked banh pho noodles is 220, the 80g of beef is 160, and 300ml of broth is only 50 even with the fat floating on top. The herbs, onion and bean sprouts add maybe 10. So half the bowl is noodles. That is the part to control if you want to eat pho five mornings a week without gaining weight.",
+      "The beef cut changes the number more than people expect. Tai (rare sliced round) is lean, about 130 calories per 80g. Nam (flank) and gau (fatty brisket) run 200 to 230 for the same weight. A bowl of tai nam gau with a spoon of the rendered fat from the pot is closer to 600. The quay, those fried dough sticks, are 120 to 150 each and most people eat two.",
+      "Pho is one of the better street breakfasts if you order it plain. You get 28g of protein, the broth fills you up with almost nothing, and there is no oil beyond what is on the beef. The problem is a 60,000 dong bowl at a busy quan is often 250g of noodles, not 200, and the free refill of broth comes with more fat skimmed from the pot."
+    ],
+    "lighter": [
+      "Ask for it bớt bánh (less noodles). That alone drops the bowl from 450 to about 350 with no loss of beef.",
+      "Order tai instead of gau or nam. Same protein, 60 to 90 fewer calories per bowl.",
+      "Skip the quay. Two sticks are 250 to 300 calories, more than half the pho itself.",
+      "Do not add the spoon of fat from the pot that some quan offer. It is 45 calories per teaspoon.",
+      "Load up on the herb plate and bean sprouts. They are basically free and slow you down."
+    ],
+    "components": [
+      {
+        "name": "Banh pho rice noodles (cooked)",
+        "grams": 200,
+        "calories": 220
+      },
+      {
+        "name": "Sliced beef",
+        "grams": 80,
+        "calories": 160
+      },
+      {
+        "name": "Beef bone broth",
+        "grams": 300,
+        "calories": 50
+      },
+      {
+        "name": "Onion, herbs, bean sprouts",
+        "grams": 30,
+        "calories": 10
+      },
+      {
+        "name": "Hoisin and chili sauce",
+        "grams": 10,
+        "calories": 10
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small bowl (bớt bánh)",
+        "calories": 380
+      },
+      {
+        "label": "Standard bowl",
+        "calories": 450
+      },
+      {
+        "label": "Large tai nam gau with pot fat",
+        "calories": 620
+      }
+    ],
+    "variants": [
+      {
+        "name": "Pho tai (rare beef)",
+        "calories": 430,
+        "note": "Lean round, sliced thin"
+      },
+      {
+        "name": "Pho chin (well done brisket)",
+        "calories": 455,
+        "note": "Slightly fattier cut"
+      },
+      {
+        "name": "Pho tai nam",
+        "calories": 520,
+        "note": "Rare beef plus flank"
+      },
+      {
+        "name": "Pho dac biet",
+        "calories": 620,
+        "note": "Everything, including tendon and fatty brisket"
+      },
+      {
+        "name": "Pho with 2 quay",
+        "calories": 720,
+        "note": "Fried dough sticks add 130 to 150 each"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is pho good for weight loss?",
+        "a": "It can be. A plain bowl is 450 calories with 28g protein and a lot of water volume, which is a reasonable breakfast or lunch. Order less noodles and lean beef and it drops to about 350."
+      },
+      {
+        "q": "How many calories in pho broth alone?",
+        "a": "About 15 to 20 calories per 100ml, so a full 300ml ladle is around 50. Almost all of it is from fat that rises to the top; skim it and the broth is close to zero."
+      },
+      {
+        "q": "Does pho have a lot of sodium?",
+        "a": "Yes. One bowl typically carries 1,500 to 2,000mg of sodium from the broth and fish sauce, most of a day's limit. Not a calorie issue but worth knowing if you drink every drop."
+      },
+      {
+        "q": "Pho bo or pho ga, which has fewer calories?",
+        "a": "Pho ga with breast meat is about 400 versus 450 for pho bo. The difference is small; the noodle portion matters more than the meat choice."
+      }
+    ],
+    "related": [
+      "pho-ga",
+      "bun-bo-hue",
+      "hu-tieu-nam-vang",
+      "sabah-beef-noodles"
+    ],
+    "source": "Long Chau pharmacy dietitian page (431 tai, 456 chin) and Vinmec; component cross-check"
+  },
+  {
+    "slug": "pho-ga",
+    "name": "Pho Ga",
+    "aka": [
+      "Phở gà",
+      "Chicken Pho",
+      "Vietnamese Chicken Noodle Soup"
+    ],
+    "category": "noodles",
+    "region": [
+      "vn"
+    ],
+    "serving": "1 bowl",
+    "servingGrams": 480,
+    "calories": 400,
+    "protein": 26,
+    "carbs": 55,
+    "fat": 9,
+    "metaDescription": "A bowl of pho ga is about 400 calories with shredded breast, closer to 450 with thigh and skin.",
+    "summary": "The chicken version of pho: rice noodles in a lighter chicken broth with shredded or sliced free range chicken, spring onion and lime leaf. Hanoi does it with skin on and a pile of fried shallots.",
+    "answer": "A standard bowl of pho ga is around 400 calories, built from 200g of rice noodles, 80g of chicken and 300ml of broth. Shredded breast keeps it near 380; a thigh with the skin on pushes it to about 450. The dry mixed version, pho ga tron, is 500 plus because of the oil and shallots.",
+    "realTalk": [
+      "Pho ga is about 50 calories lighter than pho bo, and the difference is almost entirely the meat. Chicken breast is 110 calories per 80g against 160 for the same weight of beef. The noodles are identical at 220 for 200g, and chicken broth is a little leaner than beef broth, around 45 for the bowl. So you are looking at 400 for a normal quan portion.",
+      "The trap is the Hanoi style bowl. Many quan use ga ta, free range chicken, served with skin on and chopped into bone-in pieces. The skin on an 80g portion adds 60 to 80 calories. Then there is the spoonful of fried shallots in oil that goes on top, another 40. Ask for a lot of chicken and you often get 120g instead of 80, which is fine for protein but now the bowl is 480.",
+      "Pho ga tron, the dry version tossed in soy, chili oil and fried shallots with the broth on the side, is the one to watch. The dressing is 80 to 100 calories of oil and the noodle portion is usually bigger because there is no broth to fill the bowl. Expect 500 to 550 for the same price."
+    ],
+    "lighter": [
+      "Ask for uc (breast) rather than dui (thigh). Same bowl, about 60 fewer calories and more protein.",
+      "Skip the skin. Most quan will happily give you skinless if you say khong da.",
+      "Order bớt bánh, less noodles. Takes the bowl to about 320.",
+      "Stick with the soup version. Pho ga tron adds 100 to 150 calories of dressing.",
+      "The lime, chili and herb plate are free. Use them instead of the shallot oil."
+    ],
+    "components": [
+      {
+        "name": "Banh pho rice noodles (cooked)",
+        "grams": 200,
+        "calories": 220
+      },
+      {
+        "name": "Shredded chicken",
+        "grams": 80,
+        "calories": 120
+      },
+      {
+        "name": "Chicken broth",
+        "grams": 300,
+        "calories": 45
+      },
+      {
+        "name": "Spring onion, herbs",
+        "grams": 20,
+        "calories": 10
+      },
+      {
+        "name": "Chili sauce, lime",
+        "grams": 10,
+        "calories": 5
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small bowl, breast",
+        "calories": 330
+      },
+      {
+        "label": "Standard bowl",
+        "calories": 400
+      },
+      {
+        "label": "Large with thigh and skin",
+        "calories": 500
+      }
+    ],
+    "variants": [
+      {
+        "name": "Pho ga uc (breast)",
+        "calories": 380,
+        "note": "Leanest option"
+      },
+      {
+        "name": "Pho ga dui (thigh, skin on)",
+        "calories": 450,
+        "note": "Skin adds 60 to 80"
+      },
+      {
+        "name": "Pho ga tron (dry mixed)",
+        "calories": 520,
+        "note": "Oil and shallot dressing"
+      },
+      {
+        "name": "Pho ga with long (offal)",
+        "calories": 480,
+        "note": "Heart, liver, gizzard on top"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is pho ga healthier than pho bo?",
+        "a": "Marginally. Pho ga is about 400 calories versus 450 for pho bo, with similar protein around 26 to 28g. Both are decent meals if you control the noodles."
+      },
+      {
+        "q": "How much protein is in a bowl of pho ga?",
+        "a": "About 26g from 80g of chicken plus a little from the broth. Ask for extra chicken and it climbs to 35g for around 480 calories."
+      },
+      {
+        "q": "How many calories in pho ga tron?",
+        "a": "Roughly 500 to 550. The dry version uses more noodles and a dressing of oil, soy and fried shallots that adds over 100 calories compared with the soup version."
+      }
+    ],
+    "related": [
+      "pho-bo",
+      "chao-ga",
+      "mi-quang",
+      "chicken-rice"
+    ],
+    "source": "FPT Shop health page and Long Chau range (300 to 500 per bowl); component estimate at 400 for breast"
+  },
+  {
+    "slug": "bun-cha",
+    "name": "Bun Cha",
+    "aka": [
+      "Bún chả",
+      "Bun Cha Ha Noi",
+      "Hanoi Grilled Pork Noodles",
+      "Obama Noodles"
+    ],
+    "category": "noodles",
+    "region": [
+      "vn"
+    ],
+    "serving": "1 set",
+    "servingGrams": 550,
+    "calories": 500,
+    "protein": 28,
+    "carbs": 52,
+    "fat": 20,
+    "metaDescription": "A set of bun cha is about 500 calories: 200g bun, 100g grilled pork and the sweet fish sauce bowl. Add one nem cua be and you are at 640.",
+    "summary": "Charcoal grilled pork patties and slices of belly floating in a bowl of warm sweet and sour fish sauce, with a plate of bun noodles and a basket of herbs on the side. The Hanoi lunch that Obama and Bourdain made famous, 40,000 to 50,000 dong a set.",
+    "answer": "One set of bun cha is around 500 calories. The 200g of bun is 220, the 100g of grilled pork patties and belly is about 230, and the bowl of dipping sauce adds 40 once you count the sugar. Most people add a nem cua be, which is another 140.",
+    "realTalk": [
+      "Bun cha sits at 500 calories for a standard set, and the split is roughly half noodles, half pork. The 200g plate of bun is 220 calories on its own. The pork is where the fat is: a normal quan gives you two or three patties of minced pork shoulder plus three or four slices of grilled belly, 100g in total and about 230 calories because belly is 30 percent fat and the patties are mixed with fat too.",
+      "The dipping bowl looks innocent because it is mostly liquid, but it is fish sauce, water, vinegar and around 10g of sugar, so 40 calories before you count the pork fat that drips into it off the grill. Most people drink or spoon the whole thing. The green papaya and carrot slices in it are the only free part.",
+      "The real number for most people is not 500. It is 640 to 780, because nem cua be (the square fried crab spring roll) is 140 calories each and quan sell them in pairs. A set with two nem and a second plate of bun, which the owner will bring without asking at a busy place, is over 850 calories for one lunch."
+    ],
+    "lighter": [
+      "Skip the nem cua be. Each one is about 140 calories, mostly from frying oil.",
+      "Ask for cha bam (patties) only and leave the belly slices. Saves around 80 calories.",
+      "Do not accept the free noodle refill. The first plate of 200g is already 220 calories.",
+      "Eat the herb basket: perilla, lettuce, mint, all free and they fill you up.",
+      "Dip rather than drown. Spoon a little sauce over the noodles instead of drinking the bowl."
+    ],
+    "components": [
+      {
+        "name": "Bun rice vermicelli",
+        "grams": 200,
+        "calories": 220
+      },
+      {
+        "name": "Grilled pork patties and belly",
+        "grams": 100,
+        "calories": 230
+      },
+      {
+        "name": "Sweet fish sauce dipping bowl",
+        "grams": 150,
+        "calories": 40
+      },
+      {
+        "name": "Herbs and lettuce",
+        "grams": 100,
+        "calories": 10
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small set",
+        "calories": 420
+      },
+      {
+        "label": "Standard set",
+        "calories": 500
+      },
+      {
+        "label": "Set with 1 nem cua be",
+        "calories": 640
+      }
+    ],
+    "variants": [
+      {
+        "name": "Bun cha, patties only",
+        "calories": 420,
+        "note": "No belly slices"
+      },
+      {
+        "name": "Bun cha standard",
+        "calories": 500,
+        "note": "Patties plus belly"
+      },
+      {
+        "name": "With 1 nem cua be",
+        "calories": 640,
+        "note": "Fried crab spring roll"
+      },
+      {
+        "name": "With 2 nem and noodle refill",
+        "calories": 850,
+        "note": "What most tourists actually order"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories are in bun cha with nem?",
+        "a": "About 640 with one nem cua be and 780 with two. The nem are deep fried and run 140 calories each, so they change the meal more than the pork does."
+      },
+      {
+        "q": "Is bun cha healthy?",
+        "a": "It is a fair meal at 500 calories with 28g protein and a lot of fresh herbs. The downsides are the belly fat and the sugar in the sauce. Order patties only and it is a decent lunch."
+      },
+      {
+        "q": "What is the difference between bun cha and bun thit nuong?",
+        "a": "Bun cha is the Hanoi version with pork served in a bowl of warm dipping sauce; bun thit nuong is the Saigon version with grilled pork on top of noodles and sauce poured over. Both land around 480 to 500 calories."
+      },
+      {
+        "q": "How much sugar is in the bun cha sauce?",
+        "a": "A typical bowl uses about 10g of sugar per serving, roughly 40 calories, plus whatever fat drips in from the grilled pork."
+      }
+    ],
+    "related": [
+      "bun-thit-nuong",
+      "nem-nuong",
+      "cha-gio",
+      "bun-dau-mam-tom"
+    ],
+    "source": "Long Chau pharmacy page (452 per set) and Pharmacity (400 to 500); component cross-check"
+  },
+  {
+    "slug": "bun-bo-hue",
+    "name": "Bun Bo Hue",
+    "aka": [
+      "Bún bò Huế",
+      "Hue Beef Noodle Soup",
+      "Bun Bo",
+      "Spicy Beef Noodle Soup"
+    ],
+    "category": "noodles",
+    "region": [
+      "vn"
+    ],
+    "serving": "1 bowl",
+    "servingGrams": 650,
+    "calories": 630,
+    "protein": 32,
+    "carbs": 62,
+    "fat": 28,
+    "metaDescription": "A bowl of bun bo Hue is about 630 calories, nearly 200 more than pho. The pork hock, chili oil and thick bun are why.",
+    "summary": "Thick round rice noodles in a lemongrass and shrimp paste beef broth stained red with chili oil, topped with beef shank, a slab of pork hock, cubes of pig blood and crab paste cake. Hue's answer to pho, and a lot heavier.",
+    "answer": "A standard bowl of bun bo Hue is around 630 calories, with some quan serving bowls closer to 700. The 220g of thick bun is 240, the beef shank and pork hock together are about 300, and the chili oil floating on the broth is 30 to 60 on its own. It is about 180 calories more than a bowl of pho bo.",
+    "realTalk": [
+      "Bun bo Hue is the heaviest of the big Vietnamese noodle soups, and three things drive the 630 calories. The noodles are thicker and the portion is bigger than pho, so 220g of bun is 240 calories. The gio heo, that slice of pork hock with the skin and fat attached, is 200 calories for an 80g piece. And the broth is finished with sate, chili fried in oil, which is 45 calories per tablespoon and every bowl gets at least one.",
+      "The beef itself is the healthy part. A 60g portion of sliced shank is about 100 calories and mostly protein. The cha cua (crab and pork paste) cube is 60, and the huyet (blood cubes) are almost nothing, maybe 20 for a couple of pieces. So if you removed the pork hock and skipped the chili oil, the bowl would be closer to 400.",
+      "A bowl dac biet at a good Hue quan comes with everything: shank, hock, blood, cha cua, sometimes a piece of beef tendon, and a second spoon of sate. That is 750 to 800 calories, and the broth is salty enough that you will drink a lot of it. The 45,000 dong price makes it feel like a light meal. It is not."
+    ],
+    "lighter": [
+      "Order it khong gio, without the pork hock. That one piece is about 200 calories.",
+      "Ask for it it cay, less chili oil. Each tablespoon of sate is 45 calories.",
+      "Get bớt bún, less noodles. Drops the bowl by about 80.",
+      "Leave the top layer of broth. The oil floats, so the bottom half is far leaner.",
+      "Eat the banana blossom and bean sprouts on the side plate. They add crunch for nearly zero calories."
+    ],
+    "components": [
+      {
+        "name": "Thick bun noodles (cooked)",
+        "grams": 220,
+        "calories": 240
+      },
+      {
+        "name": "Beef shank slices",
+        "grams": 60,
+        "calories": 100
+      },
+      {
+        "name": "Pork hock (gio heo)",
+        "grams": 80,
+        "calories": 200
+      },
+      {
+        "name": "Crab paste cake and blood cubes",
+        "grams": 50,
+        "calories": 60
+      },
+      {
+        "name": "Broth with chili oil",
+        "grams": 240,
+        "calories": 30
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small bowl, no hock",
+        "calories": 500
+      },
+      {
+        "label": "Standard bowl",
+        "calories": 630
+      },
+      {
+        "label": "Dac biet with extra hock and sate",
+        "calories": 780
+      }
+    ],
+    "variants": [
+      {
+        "name": "Bun bo, beef only",
+        "calories": 430,
+        "note": "No pork hock or blood"
+      },
+      {
+        "name": "Bun bo Hue standard",
+        "calories": 630,
+        "note": "Shank, hock, cha cua"
+      },
+      {
+        "name": "Bun bo gio heo (extra hock)",
+        "calories": 720,
+        "note": "Two pieces of hock"
+      },
+      {
+        "name": "Bun bo dac biet",
+        "calories": 780,
+        "note": "Everything plus tendon"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is bun bo Hue higher in calories than pho?",
+        "a": "Yes, by a lot. A standard bowl is about 630 versus 450 for pho bo. The pork hock, the thicker noodles and the chili oil account for the difference."
+      },
+      {
+        "q": "How much fat is in bun bo Hue?",
+        "a": "Around 28g per bowl, more than double a bowl of pho. Most of it comes from the pork hock skin and the sate chili oil on the broth."
+      },
+      {
+        "q": "Can I eat bun bo Hue on a diet?",
+        "a": "Yes if you order it without the pork hock and with less chili oil, which brings it to about 450 with 30g of protein. As a standard bowl it is a full meal's worth of calories."
+      },
+      {
+        "q": "How much sodium is in a bowl?",
+        "a": "Around 2,000mg, similar to pho. The shrimp paste and fish sauce in the broth push it high, so do not drink the whole bowl if that matters to you."
+      }
+    ],
+    "related": [
+      "pho-bo",
+      "bun-rieu",
+      "mi-quang",
+      "curry-laksa"
+    ],
+    "source": "Long Chau and Bazaar Vietnam (637 medium bowl, range 500 to 700)"
+  },
+  {
+    "slug": "bun-thit-nuong",
+    "name": "Bun Thit Nuong",
+    "aka": [
+      "Bún thịt nướng",
+      "Grilled Pork Vermicelli",
+      "Vietnamese Grilled Pork Noodle Bowl"
+    ],
+    "category": "noodles",
+    "region": [
+      "vn"
+    ],
+    "serving": "1 bowl",
+    "servingGrams": 450,
+    "calories": 480,
+    "protein": 24,
+    "carbs": 58,
+    "fat": 17,
+    "metaDescription": "A bowl of bun thit nuong is about 480 calories. The grilled pork is 170, the bun 215, and the peanuts and scallion oil quietly add 45.",
+    "summary": "A Saigon lunch bowl: cold bun vermicelli, lettuce and herbs underneath, charcoal grilled pork slices on top, finished with crushed peanuts, scallion oil, pickled carrot and a pour of sweet fish sauce. Usually 35,000 to 45,000 dong.",
+    "answer": "A standard bowl of bun thit nuong is around 480 calories. The 200g of bun is 215, the 80g of grilled pork is about 170, and the sauce, peanuts and mo hanh (scallion oil) add another 95 between them. Order it with a cha gio on top and the bowl is 620.",
+    "realTalk": [
+      "The 480 calories in bun thit nuong is fairly evenly spread, which is why people underestimate it. Nothing on the bowl looks heavy. The bun is 215 for 200g. The pork is thin sliced shoulder marinated in sugar, fish sauce and lemongrass, then grilled, so 80g is about 170 with the sugar glaze. The mo hanh spoon on top is 30 to 40 on its own, the peanuts are 15, and the sweet nuoc cham you pour over is around 40.",
+      "The marinade is the hidden bit. Vietnamese grilled pork gets a lot of sugar or honey in the marinade, which is what makes it caramelise on the charcoal. A quan may use 10g of sugar per portion of meat, another 40 calories that does not show up as fat. Combined with the sauce, one bowl can carry 20g of sugar.",
+      "The standard order in most Saigon quan is bun thit nuong cha gio, with one or two fried spring rolls chopped on top. Each cha gio is 130 to 140 calories, so the popular version of this bowl is really 620 to 750, not 480. Add the second ladle of sauce that comes when the bowl gets dry and you are at a full dinner's worth."
+    ],
+    "lighter": [
+      "Order it without cha gio. Each roll is about 135 calories of oil and wrapper.",
+      "Ask them to hold the mo hanh. The scallion oil is 30 to 40 calories a spoon.",
+      "Pour half the nuoc cham and taste before adding more. Most of the sugar is in the sauce.",
+      "Ask for extra rau (herbs and lettuce). It is free and makes the bowl bigger.",
+      "Extra pork is a better upgrade than extra bun: 40g more pork is 85 calories and adds 10g of protein."
+    ],
+    "components": [
+      {
+        "name": "Bun rice vermicelli",
+        "grams": 200,
+        "calories": 215
+      },
+      {
+        "name": "Grilled marinated pork",
+        "grams": 80,
+        "calories": 170
+      },
+      {
+        "name": "Sweet fish sauce (nuoc cham)",
+        "grams": 60,
+        "calories": 40
+      },
+      {
+        "name": "Peanuts and scallion oil",
+        "grams": 15,
+        "calories": 45
+      },
+      {
+        "name": "Herbs, lettuce, pickles",
+        "grams": 90,
+        "calories": 10
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small bowl",
+        "calories": 400
+      },
+      {
+        "label": "Standard bowl",
+        "calories": 480
+      },
+      {
+        "label": "With 1 cha gio",
+        "calories": 620
+      }
+    ],
+    "variants": [
+      {
+        "name": "Bun thit nuong",
+        "calories": 480,
+        "note": "Pork only"
+      },
+      {
+        "name": "Bun nem nuong",
+        "calories": 520,
+        "note": "Pork sausage sticks instead"
+      },
+      {
+        "name": "Bun thit nuong cha gio",
+        "calories": 620,
+        "note": "One fried spring roll"
+      },
+      {
+        "name": "Bun thit nuong 2 cha gio, extra sauce",
+        "calories": 780,
+        "note": "The usual big order"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in bun thit nuong cha gio?",
+        "a": "About 620 with one cha gio and 750 with two. The spring rolls are the biggest single add-on at roughly 135 calories each."
+      },
+      {
+        "q": "Is bun thit nuong healthy?",
+        "a": "It is a decent balanced bowl at 480 calories with 24g of protein and a lot of raw vegetables. The sugar in the marinade and sauce is the main downside, around 20g per bowl."
+      },
+      {
+        "q": "Bun thit nuong vs bun cha, which is lighter?",
+        "a": "They are close: about 480 for bun thit nuong and 500 for bun cha. Bun cha has more fat from the belly slices; bun thit nuong has more sugar from the marinade and sauce."
+      }
+    ],
+    "related": [
+      "bun-cha",
+      "nem-nuong",
+      "cha-gio",
+      "com-tam-suon"
+    ],
+    "source": "Bazaar Vietnam and Long Chau (470 to 500 per full bowl)"
+  },
+  {
+    "slug": "hu-tieu-nam-vang",
+    "name": "Hu Tieu Nam Vang",
+    "aka": [
+      "Hủ tiếu Nam Vang",
+      "Phnom Penh Noodle Soup",
+      "Hu Tieu",
+      "Kuy Teav"
+    ],
+    "category": "noodles",
+    "region": [
+      "vn"
+    ],
+    "serving": "1 bowl",
+    "servingGrams": 500,
+    "calories": 400,
+    "protein": 26,
+    "carbs": 50,
+    "fat": 10,
+    "metaDescription": "A bowl of hu tieu Nam Vang is about 400 calories per Vinmec. The dry version with the sauce and fried garlic is closer to 480.",
+    "summary": "Chewy tapioca and rice noodles in a clear pork bone broth with minced pork, sliced pork, a prawn, a slice of liver and a quail egg on top. The Saigon breakfast that came via Phnom Penh, 35,000 to 50,000 dong.",
+    "answer": "A bowl of hu tieu Nam Vang is about 400 calories according to Vinmec, with 180g of noodles making up 200 of that and the mixed pork, prawn, liver and quail egg toppings about 140. The dry version (hu tieu kho) with soy, oil and fried garlic tossed through is closer to 480.",
+    "realTalk": [
+      "Hu tieu Nam Vang is one of the lighter noodle soups in Saigon at about 400 calories, and it is a decent protein bowl because of the mixed toppings. The 180g of hu tieu noodles is 200 calories. The toppings are a spoon of minced pork, three or four slices of lean pork, one or two prawns, a slice of liver and a quail egg, about 90g together and 140 calories. The broth is clear pork bone stock, around 50 for 300ml.",
+      "The version matters. Vinmec lists plain hu tieu thit heo at 351 calories, Nam Vang at 400, hu tieu mi (with egg noodles mixed in) at 410, hu tieu bo kho at 538 and hu tieu xao (stir fried) at 646. The dry hu tieu kho is not on their list but the dressing of dark soy, sugar, pork fat and fried garlic adds about 80 calories over the soup version.",
+      "The thing that makes hu tieu bigger than the number suggests is the free bowl of broth that comes with the dry version and the pile of fried garlic in oil on top. At a busy quan the topping bowl of toi phi (fried garlic) sits on the table and people spoon it on freely. One tablespoon is around 50 calories. Two spoons of that plus a squeeze of chili sauce and the 400 calorie bowl is 520."
+    ],
+    "lighter": [
+      "Stick to the soup version. Hu tieu kho adds about 80 calories of dressing.",
+      "Go easy on the fried garlic bowl on the table. One tablespoon is about 50 calories.",
+      "Ask for extra lean pork or prawns instead of extra noodles. Better protein for the calories.",
+      "Skip the hu tieu mi option. Mixing egg noodles in adds noodles, not toppings.",
+      "The bean sprouts, chives and lettuce on the side plate are free. Eat all of them."
+    ],
+    "components": [
+      {
+        "name": "Hu tieu noodles (cooked)",
+        "grams": 180,
+        "calories": 200
+      },
+      {
+        "name": "Minced pork, sliced pork, prawn, liver, quail egg",
+        "grams": 90,
+        "calories": 140
+      },
+      {
+        "name": "Pork bone broth",
+        "grams": 300,
+        "calories": 50
+      },
+      {
+        "name": "Chives, bean sprouts, fried garlic",
+        "grams": 30,
+        "calories": 10
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small bowl (hu tieu go style)",
+        "calories": 350
+      },
+      {
+        "label": "Standard Nam Vang bowl",
+        "calories": 400
+      },
+      {
+        "label": "Hu tieu kho with extra toppings",
+        "calories": 480
+      }
+    ],
+    "variants": [
+      {
+        "name": "Hu tieu thit heo (plain pork)",
+        "calories": 351,
+        "note": "Vinmec figure"
+      },
+      {
+        "name": "Hu tieu Nam Vang",
+        "calories": 400,
+        "note": "Mixed pork, prawn, liver, quail egg"
+      },
+      {
+        "name": "Hu tieu mi",
+        "calories": 410,
+        "note": "Egg noodles mixed in"
+      },
+      {
+        "name": "Hu tieu kho (dry)",
+        "calories": 480,
+        "note": "Soy and pork fat dressing, broth on the side"
+      },
+      {
+        "name": "Hu tieu bo kho",
+        "calories": 538,
+        "note": "Noodles in beef stew"
+      },
+      {
+        "name": "Hu tieu xao (stir fried)",
+        "calories": 646,
+        "note": "Wok fried in oil"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in hu tieu kho?",
+        "a": "About 480 for the dry version. The soup version is 400; the difference is the dressing of dark soy, sugar, pork fat and fried garlic tossed through the noodles."
+      },
+      {
+        "q": "Is hu tieu healthier than pho?",
+        "a": "Slightly. Hu tieu Nam Vang is about 400 calories versus 450 for pho bo, with similar protein around 26 to 28g. Both are reasonable meals."
+      },
+      {
+        "q": "What is in hu tieu Nam Vang?",
+        "a": "Tapioca rice noodles, minced pork, sliced pork, prawn, pork liver, a quail egg and clear pork bone broth, topped with chives, fried garlic and bean sprouts."
+      },
+      {
+        "q": "How many calories in hu tieu go?",
+        "a": "The cheaper street cart version with just noodles, a little pork and broth is around 350 calories for a smaller bowl."
+      }
+    ],
+    "related": [
+      "pho-bo",
+      "banh-canh-cua",
+      "mi-quang",
+      "kuey-teow-soup"
+    ],
+    "source": "Vinmec hospital (400 per bowl Nam Vang; variants 351 to 646)"
+  },
+  {
+    "slug": "mi-quang",
+    "name": "Mi Quang",
+    "aka": [
+      "Mì Quảng",
+      "Quang Noodles",
+      "Da Nang Turmeric Noodles"
+    ],
+    "category": "noodles",
+    "region": [
+      "vn"
+    ],
+    "serving": "1 bowl",
+    "servingGrams": 400,
+    "calories": 415,
+    "protein": 22,
+    "carbs": 48,
+    "fat": 15,
+    "metaDescription": "A medium bowl of mi Quang is about 415 calories; a large one at a Da Nang quan can hit 680. The turmeric noodles, peanuts and rice cracker explained.",
+    "summary": "Wide yellow turmeric rice noodles with just a ladle of rich broth, not a soup, topped with pork, prawns, a quail egg, crushed peanuts and a toasted sesame rice cracker. The signature of Quang Nam and Da Nang, 30,000 to 40,000 dong.",
+    "answer": "A medium bowl of mi Quang is around 415 calories. Because there is only 100ml of broth, most of the weight is 150g of noodles (190 calories) and about 70g of pork and prawn (110). The peanuts and rice cracker on top are 65 more. A large bowl at a Da Nang quan can reach 680.",
+    "realTalk": [
+      "Mi Quang is a dry-ish noodle bowl, which changes the math compared with pho. The 100ml of broth is concentrated and cooked with annatto oil and pork fat, so it is 40 calories for a small ladle even though there is hardly any of it. The 150g of turmeric noodles is 190. The pork and prawn topping, usually a piece of pork belly or rib and two prawns, is about 110 for 70g. The bowl is 415 in total for a medium portion.",
+      "Two toppings are easy to forget. The crushed roasted peanuts are about 30 calories for a tablespoon and the banh trang me, the black sesame rice cracker you crumble into the bowl, is another 35 for one cracker. Some quan give you two crackers. They are the reason a bowl that looks like noodles and broth reaches 415 rather than 350.",
+      "The size difference between quan is huge with this dish. A small bowl from a street stall in Hoi An is about 320. A large bowl at a sit-down quan in Da Nang with an extra rib, three prawns and a whole chicken thigh (mi Quang ga) can be 600 to 680. The published range of 300 to 500 covers the common sizes; the big bowls go past it."
+    ],
+    "lighter": [
+      "Ask for one rice cracker only, or none. Each one is about 35 calories.",
+      "Mi Quang ga with breast meat is the leanest topping, about 400 for a medium bowl.",
+      "Skip the extra ladle of broth. It is cooked with annatto oil and is 40 calories per 100ml.",
+      "Choose prawn over pork belly if given the option. Same weight, half the calories.",
+      "The banana blossom, herbs and lettuce underneath are free. Mix them through instead of asking for more noodles."
+    ],
+    "components": [
+      {
+        "name": "Turmeric mi Quang noodles (cooked)",
+        "grams": 150,
+        "calories": 190
+      },
+      {
+        "name": "Pork and prawn topping",
+        "grams": 70,
+        "calories": 110
+      },
+      {
+        "name": "Concentrated broth with annatto oil",
+        "grams": 100,
+        "calories": 40
+      },
+      {
+        "name": "Peanuts and sesame rice cracker",
+        "grams": 20,
+        "calories": 65
+      },
+      {
+        "name": "Herbs and banana blossom",
+        "grams": 60,
+        "calories": 10
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small street bowl",
+        "calories": 320
+      },
+      {
+        "label": "Medium bowl",
+        "calories": 415
+      },
+      {
+        "label": "Large Da Nang bowl, extra rib and prawns",
+        "calories": 680
+      }
+    ],
+    "variants": [
+      {
+        "name": "Mi Quang ech (frog)",
+        "calories": 380,
+        "note": "Lean meat"
+      },
+      {
+        "name": "Mi Quang ga (chicken)",
+        "calories": 400,
+        "note": "Breast or thigh"
+      },
+      {
+        "name": "Mi Quang tom thit (prawn and pork)",
+        "calories": 415,
+        "note": "The standard"
+      },
+      {
+        "name": "Mi Quang suon (pork rib)",
+        "calories": 480,
+        "note": "Fattier cut"
+      },
+      {
+        "name": "Mi Quang dac biet",
+        "calories": 620,
+        "note": "Everything plus quail eggs and extra cracker"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is mi Quang high in calories?",
+        "a": "A medium bowl is about 415 calories, similar to pho, but large bowls with extra rib and prawns can reach 680. Portion size varies more than with other noodle dishes."
+      },
+      {
+        "q": "Why is mi Quang yellow?",
+        "a": "The noodles are made with turmeric and the broth is cooked with annatto seed oil. The turmeric adds nothing to the calories; the annatto oil adds about 40 per ladle of broth."
+      },
+      {
+        "q": "How many calories in mi Quang ga?",
+        "a": "About 400 for a medium bowl with chicken, marginally less than the prawn and pork version because chicken is leaner than pork belly."
+      }
+    ],
+    "related": [
+      "pho-ga",
+      "hu-tieu-nam-vang",
+      "bun-bo-hue",
+      "wantan-mee"
+    ],
+    "source": "FPT Shop health and Long Chau (415 medium, 680 large, range 300 to 500)"
+  },
+  {
+    "slug": "bun-rieu",
+    "name": "Bun Rieu",
+    "aka": [
+      "Bún riêu",
+      "Bún riêu cua",
+      "Crab Noodle Soup",
+      "Vietnamese Tomato Crab Noodle Soup"
+    ],
+    "category": "noodles",
+    "region": [
+      "vn"
+    ],
+    "serving": "1 bowl",
+    "servingGrams": 550,
+    "calories": 480,
+    "protein": 24,
+    "carbs": 52,
+    "fat": 20,
+    "metaDescription": "A bowl of bun rieu cua is about 480 calories, per the Vietnam National Institute of Nutrition figure of 465 to 500.",
+    "summary": "Rice vermicelli in a tomato broth made from pounded freshwater paddy crab, with a floating raft of crab and egg paste, fried tofu cubes, blood cubes and sometimes a pork hock. A Hanoi morning staple sold from tiny alley stalls for 30,000 to 40,000 dong.",
+    "answer": "A standard bowl of bun rieu cua is around 480 calories, in line with the National Institute of Nutrition estimate of 465 to 500 for a 300g bowl of noodles and toppings plus broth. The 200g of bun is 220, the crab paste raft and fried tofu are 130 together, and the tomato broth cooked with annatto oil adds 70.",
+    "realTalk": [
+      "Bun rieu looks lighter than pho because it is a tomato soup, but the broth is where the calories hide. The rieu cua, pounded paddy crab, is simmered with tomato and then finished with annatto seeds fried in oil, which gives the red colour. That oil is 40 to 50 calories a bowl, and the 300ml of broth ends up around 70. The 200g of bun is 220, the biggest chunk.",
+      "The toppings vary by quan and each one adds. The crab and egg raft is about 80 calories for a 60g piece. Two cubes of fried tofu are 50. Huyet, the blood cubes, are close to zero. Cha (pork paste) or gio (pork hock) add 60 to 140 depending on which and how many. A basic Hanoi bowl is 400; a Saigon style bun rieu with tofu, cha, hock and a snail or two is 620.",
+      "Then there is the mam tom. A teaspoon of fermented shrimp paste stirred into the broth is only 10 calories but it makes you drink every last spoonful, which means all the annatto oil goes in. And the basket of shredded morning glory, banana blossom and perilla that comes with it is free, so at least the volume is on your side."
+    ],
+    "lighter": [
+      "Ask for it khong dau phu, no fried tofu. Two cubes are about 50 calories.",
+      "Skip the gio heo (pork hock) add-on, which is another 140 or so.",
+      "Leave the last third of the broth. The annatto oil floats and collects at the top.",
+      "Order bớt bún. Dropping to 150g of noodles saves about 55 calories.",
+      "Fill the bowl with the free morning glory and banana blossom before the noodles run out."
+    ],
+    "components": [
+      {
+        "name": "Bun rice vermicelli",
+        "grams": 200,
+        "calories": 220
+      },
+      {
+        "name": "Crab paste raft and fried tofu",
+        "grams": 90,
+        "calories": 130
+      },
+      {
+        "name": "Tomato crab broth with annatto oil",
+        "grams": 300,
+        "calories": 70
+      },
+      {
+        "name": "Blood cubes and pork paste",
+        "grams": 40,
+        "calories": 50
+      },
+      {
+        "name": "Herbs, morning glory, banana blossom",
+        "grams": 80,
+        "calories": 10
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small Hanoi bowl",
+        "calories": 400
+      },
+      {
+        "label": "Standard bowl",
+        "calories": 480
+      },
+      {
+        "label": "Dac biet with pork hock",
+        "calories": 620
+      }
+    ],
+    "variants": [
+      {
+        "name": "Bun rieu chay (vegetarian)",
+        "calories": 280,
+        "note": "Tofu and mushroom, no crab"
+      },
+      {
+        "name": "Bun rieu cua",
+        "calories": 480,
+        "note": "Standard crab version"
+      },
+      {
+        "name": "Bun rieu oc (with snails)",
+        "calories": 500,
+        "note": "Freshwater snails added"
+      },
+      {
+        "name": "Bun rieu gio heo",
+        "calories": 620,
+        "note": "Pork hock piece added"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in bun rieu cua?",
+        "a": "About 480 for a standard bowl. The National Institute of Nutrition puts a 300g bowl of noodles and toppings plus broth at 465 to 500, and some Saigon style bowls with extra toppings run to 530 or more."
+      },
+      {
+        "q": "Is bun rieu good for weight loss?",
+        "a": "It is a reasonable meal at 480 calories with 24g of protein and a lot of vegetables in the side basket. Skip the fried tofu and pork hock and it drops to about 400."
+      },
+      {
+        "q": "Does bun rieu contain a lot of fat?",
+        "a": "Around 20g per bowl. The fried tofu and the annatto oil in the broth are the main sources; the crab itself is lean."
+      }
+    ],
+    "related": [
+      "bun-bo-hue",
+      "banh-canh-cua",
+      "pho-bo",
+      "asam-laksa"
+    ],
+    "source": "Huggies VN quoting Vietnam National Institute of Nutrition (465 to 500 per 300g bowl); Bach Hoa Xanh (530 full bowl)"
+  },
+  {
+    "slug": "banh-canh-cua",
+    "name": "Banh Canh Cua",
+    "aka": [
+      "Bánh canh cua",
+      "Crab Tapioca Noodle Soup",
+      "Vietnamese Udon with Crab",
+      "Banh Canh"
+    ],
+    "category": "noodles",
+    "region": [
+      "vn"
+    ],
+    "serving": "1 bowl",
+    "servingGrams": 550,
+    "calories": 520,
+    "protein": 26,
+    "carbs": 62,
+    "fat": 18,
+    "metaDescription": "A full bowl of banh canh cua is about 520 calories. The thick tapioca noodles and starchy broth do most of it; the crab is the lean part.",
+    "summary": "Fat, chewy tapioca noodles in a thick, gluey pork and crab broth coloured with annatto, topped with crab meat, a whole crab claw, fish cake, quail eggs and fried shallots. A Saigon evening bowl, 45,000 to 70,000 dong depending on how much crab.",
+    "answer": "A full bowl of banh canh cua is around 520 calories. The 180g of thick tapioca noodles is 265, the thickened broth is about 120 because it is made with tapioca starch and pork fat, and the crab, fish cake and quail eggs add about 135 together. A basic bowl without the extras is closer to 380.",
+    "realTalk": [
+      "Banh canh is heavier than it looks because of the noodle itself. Banh canh strands are tapioca and rice, thick like udon, and they hold water without absorbing broth, so a 180g portion is 265 calories, about 20 percent more than the same weight of bun. The broth is the other surprise: it is thickened with tapioca starch until it coats the noodles, and 250ml of it is around 120 calories. Together that is 385 before any topping.",
+      "The crab is the good news. Real crab meat is 100 calories per 100g, so the 40g you get in a normal bowl is only 40 calories and mostly protein. The claw is decorative, maybe 15 calories of meat inside. The fish cake slice is 55 for 30g, and two quail eggs are 35. So a basic bowl is 380 and a full one with everything is 520; the published figures span exactly that range.",
+      "What pushes it past 600 is the extras that Saigon quan pile on. Cha (pork paste), a piece of gio heo, extra crab at 20,000 dong a scoop, and a tablespoon of fried shallots that is 40 calories on its own. A bowl dac biet with a crab claw, two kinds of cha and hock is 640 and it comes with a bread roll to mop up the broth, another 190."
+    ],
+    "lighter": [
+      "Order the basic bowl with crab and quail eggs only. About 380 versus 520 for the full version.",
+      "Ask for it it nuoc, less broth. The thickened broth is 120 calories per bowl.",
+      "Skip the bread roll on the side. One roll is around 190 calories.",
+      "Extra crab is a better add-on than extra cha: 40g of crab is 40 calories, 40g of pork paste is 70.",
+      "Go easy on the fried shallots. One tablespoon is about 40 calories."
+    ],
+    "components": [
+      {
+        "name": "Thick tapioca banh canh noodles",
+        "grams": 180,
+        "calories": 265
+      },
+      {
+        "name": "Thickened crab and pork broth",
+        "grams": 250,
+        "calories": 120
+      },
+      {
+        "name": "Crab meat and prawn",
+        "grams": 50,
+        "calories": 45
+      },
+      {
+        "name": "Fish cake (cha ca)",
+        "grams": 30,
+        "calories": 55
+      },
+      {
+        "name": "Quail eggs",
+        "grams": 20,
+        "calories": 35
+      }
+    ],
+    "portions": [
+      {
+        "label": "Basic bowl, crab and quail egg",
+        "calories": 380
+      },
+      {
+        "label": "Full bowl",
+        "calories": 520
+      },
+      {
+        "label": "Dac biet with claw, cha and hock",
+        "calories": 640
+      }
+    ],
+    "variants": [
+      {
+        "name": "Banh canh ca loc (snakehead fish)",
+        "calories": 400,
+        "note": "Central Vietnam style, clear broth"
+      },
+      {
+        "name": "Banh canh gio heo (pork hock)",
+        "calories": 480,
+        "note": "Clear broth with hock"
+      },
+      {
+        "name": "Banh canh cua",
+        "calories": 520,
+        "note": "Thick crab broth, full toppings"
+      },
+      {
+        "name": "Banh canh ghe (blue crab)",
+        "calories": 560,
+        "note": "More crab, richer broth"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in a bowl of banh canh cua?",
+        "a": "About 380 for a basic bowl and 520 for a full one with crab, fish cake and quail eggs. The thick tapioca noodles and starchy broth make up most of it."
+      },
+      {
+        "q": "Is banh canh higher in calories than pho?",
+        "a": "Yes. A full banh canh cua is around 520 versus 450 for pho bo, mainly because the thick noodles are denser and the broth is thickened with starch."
+      },
+      {
+        "q": "Is banh canh cua healthy?",
+        "a": "It has decent protein at 26g and the crab is lean, but the bowl is high in refined starch from both the noodles and the thickened broth. Fine as a meal, not as a snack."
+      }
+    ],
+    "related": [
+      "bun-rieu",
+      "hu-tieu-nam-vang",
+      "bun-bo-hue",
+      "pan-mee"
+    ],
+    "source": "Bazaar Vietnam (380 basic bowl) and Lemon8 component table (560 full bowl); chose 520 as a standard Saigon quan bowl"
+  },
+  {
+    "slug": "bun-dau-mam-tom",
+    "name": "Bun Dau Mam Tom",
+    "aka": [
+      "Bún đậu mắm tôm",
+      "Tofu Vermicelli with Shrimp Paste",
+      "Bun Dau",
+      "Hanoi Tofu Platter"
+    ],
+    "category": "noodles",
+    "region": [
+      "vn"
+    ],
+    "serving": "1 platter (met) for one",
+    "servingGrams": 500,
+    "calories": 700,
+    "protein": 32,
+    "carbs": 55,
+    "fat": 40,
+    "metaDescription": "A single met of bun dau mam tom is about 700 calories, and the full one with cha com, pork and offal can hit 1,000. The fried tofu is the reason.",
+    "summary": "A bamboo tray of pressed bun noodle cakes, golden deep fried tofu, boiled pork belly, cha com (green rice pork sausage), herbs and a bowl of fermented shrimp paste whipped with lime, sugar and hot oil. Hanoi's lunch on a plastic stool, 35,000 to 60,000 dong.",
+    "answer": "A standard single met of bun dau mam tom is around 700 calories. The 200g of bun is 220, the 90g of deep fried tofu is 210, the cha com is 110 and the boiled pork belly is 120, with the mam tom dip and its spoon of hot oil adding 30. A full met with lòng (offal), dồi (blood sausage) and extra cha com goes to 1,000.",
+    "realTalk": [
+      "People think of bun dau as a light tofu lunch. It is 700 calories for one person, and the tofu is the problem, not the pork. Deep fried tofu absorbs oil: 90g of fried dau comes out at around 210 calories, more than the 50g of boiled pork belly at 120. The cha com, a pork sausage mixed with young green rice and then fried, is 110 for two pieces. The pressed bun is 220 for 200g.",
+      "The mam tom bowl is 30 to 40 calories, which is nothing, but it is mixed with a spoon of the hot oil from the tofu pan to make it foam. That is what you are tasting. Some quan add a full tablespoon, 90 calories, and if you dip every piece of tofu and bun you get all of it. The herbs, cucumber and perilla on the tray are the only free part.",
+      "The real order at most Hanoi quan is the met day du, the full tray, for two people to share. It adds lòng (boiled intestine), dồi (blood sausage), cha quay (fried pork) and sometimes a fried nem. Split in two, each person eats 900 to 1,000 calories. The quan will also refill the tofu without asking if the tray looks empty. Each refill of three cubes is about 100."
+    ],
+    "lighter": [
+      "Ask for dau it chien, tofu fried briefly, or half the tofu. Each fried cube is about 70 calories.",
+      "Order bun dau thit luoc only, tofu and boiled pork, and skip cha com and dồi. About 550.",
+      "Mix your mam tom without the oil. Ask for khong mo and squeeze extra lime instead.",
+      "Eat all the cucumber and herbs first. They fill you up for close to zero.",
+      "Do not accept the tofu refill. Three more cubes is another 100 calories."
+    ],
+    "components": [
+      {
+        "name": "Pressed bun noodle cakes",
+        "grams": 200,
+        "calories": 220
+      },
+      {
+        "name": "Deep fried tofu",
+        "grams": 90,
+        "calories": 210
+      },
+      {
+        "name": "Cha com (green rice sausage)",
+        "grams": 40,
+        "calories": 110
+      },
+      {
+        "name": "Boiled pork belly",
+        "grams": 50,
+        "calories": 120
+      },
+      {
+        "name": "Mam tom with oil and sugar",
+        "grams": 30,
+        "calories": 30
+      },
+      {
+        "name": "Cucumber and herbs",
+        "grams": 90,
+        "calories": 10
+      }
+    ],
+    "portions": [
+      {
+        "label": "Basic bun dau (tofu and pork only)",
+        "calories": 500
+      },
+      {
+        "label": "Standard single met",
+        "calories": 700
+      },
+      {
+        "label": "Full met with offal and blood sausage",
+        "calories": 1000
+      }
+    ],
+    "variants": [
+      {
+        "name": "Bun dau (tofu only)",
+        "calories": 450,
+        "note": "No meat"
+      },
+      {
+        "name": "Bun dau thit luoc",
+        "calories": 550,
+        "note": "Tofu and boiled pork"
+      },
+      {
+        "name": "Bun dau cha com",
+        "calories": 700,
+        "note": "The standard tray"
+      },
+      {
+        "name": "Met day du (full tray, per person)",
+        "calories": 1000,
+        "note": "Offal, blood sausage, fried pork"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in bun dau mam tom?",
+        "a": "About 700 for a standard single tray with tofu, pork belly and cha com. Published estimates range from 465 for a basic tray to 800 or more for the full version."
+      },
+      {
+        "q": "Is bun dau mam tom healthy?",
+        "a": "It has good protein at 32g but is high in fat at 40g, almost all from the deep fried tofu and cha com. Ordering tofu and boiled pork only brings it to a reasonable 550."
+      },
+      {
+        "q": "How many calories in fried tofu?",
+        "a": "About 230 per 100g once fried, versus 80 for the same weight of plain tofu. The oil absorbed during frying nearly triples it."
+      },
+      {
+        "q": "Does mam tom have calories?",
+        "a": "The shrimp paste itself is about 10 calories a tablespoon. The sugar and the spoon of hot oil whipped into it add another 20 to 90 depending on the quan."
+      }
+    ],
+    "related": [
+      "bun-cha",
+      "bun-thit-nuong",
+      "cha-gio",
+      "yong-tau-foo-fried"
+    ],
+    "source": "Long Chau (around 700 per full serving) and FPT Shop; range 465 to 800 across sources"
+  },
+  {
+    "slug": "com-tam-suon",
+    "name": "Com Tam Suon",
+    "aka": [
+      "Cơm tấm sườn",
+      "Cơm tấm sườn bì chả",
+      "Broken Rice with Grilled Pork Chop",
+      "Com Tam Saigon"
+    ],
+    "category": "rice",
+    "region": [
+      "vn"
+    ],
+    "serving": "1 plate (suon bi cha)",
+    "servingGrams": 450,
+    "calories": 700,
+    "protein": 32,
+    "carbs": 70,
+    "fat": 32,
+    "metaDescription": "A plate of com tam suon bi cha is about 700 calories; sources put it between 627 and 767. Add a fried egg and it is 820. Every topping broken down.",
+    "summary": "Broken rice grains topped with a charcoal grilled pork chop, shredded pork skin with toasted rice powder (bi), a steamed egg and pork loaf (cha), scallion oil and a bowl of sweet fish sauce. Saigon's all-day plate, 35,000 to 60,000 dong.",
+    "answer": "A plate of com tam suon bi cha is around 700 calories. The 220g of broken rice is 290, the grilled chop is about 220 for a 90g piece with its sugary marinade, the bi is 55, the cha is 80, and the mo hanh and nuoc mam add 40. Add op la (a fried egg) and it is 820.",
+    "realTalk": [
+      "Com tam is a 700 calorie plate and it does not look like one. The rice is the biggest part: com tam plates are generous, 220g of cooked broken rice is 290 calories, and the grains soak up the fish sauce. The chop is a thin cut pork shoulder or rib marinated in sugar, honey, fish sauce and oil, then grilled over charcoal. A 90g chop is 220 once you count the marinade, and a lot of quan serve 120g chops now.",
+      "The sides add up quietly. Bi, the shredded pork skin tossed with thinh (toasted rice powder), is 55 for a small handful. Cha trung, the steamed pork and egg loaf, is 80 for a 40g slice. The spoon of mo hanh (scallion oil) on top is 30. The nuoc mam is sweet, about 15g of sugar per bowl if you pour it all, so 40 calories. None of these feel like food, and together they are 200.",
+      "The full plate at a proper Saigon com tam quan is suon bi cha op la, with a fried egg, sometimes a second cha, plus the free bowl of canh (clear soup). That is 820 to 900 calories. The published figures range from 627 to 767 for suon bi cha depending on the size of the chop and rice; 700 is a fair middle for what you actually get on the plate."
+    ],
+    "lighter": [
+      "Order com tam suon only, chop and rice. About 550 versus 700 for suon bi cha.",
+      "Ask for it it com, less rice. Cutting 70g of rice saves 90 calories.",
+      "Skip op la. A fried egg in oil is 110 to 120.",
+      "Hold the mo hanh. The scallion oil spoon is about 30.",
+      "Pour half the nuoc mam. The sauce has about 15g of sugar per bowl."
+    ],
+    "components": [
+      {
+        "name": "Broken rice (cooked)",
+        "grams": 220,
+        "calories": 290
+      },
+      {
+        "name": "Grilled marinated pork chop",
+        "grams": 90,
+        "calories": 220
+      },
+      {
+        "name": "Bi (shredded pork skin with rice powder)",
+        "grams": 20,
+        "calories": 55
+      },
+      {
+        "name": "Cha trung (steamed pork egg loaf)",
+        "grams": 40,
+        "calories": 80
+      },
+      {
+        "name": "Scallion oil and sweet fish sauce",
+        "grams": 50,
+        "calories": 40
+      },
+      {
+        "name": "Pickles and cucumber",
+        "grams": 30,
+        "calories": 15
+      }
+    ],
+    "portions": [
+      {
+        "label": "Com tam suon (chop only)",
+        "calories": 550
+      },
+      {
+        "label": "Suon bi cha",
+        "calories": 700
+      },
+      {
+        "label": "Suon bi cha op la",
+        "calories": 820
+      }
+    ],
+    "variants": [
+      {
+        "name": "Com tam suon",
+        "calories": 550,
+        "note": "Chop and rice"
+      },
+      {
+        "name": "Com tam suon bi",
+        "calories": 610,
+        "note": "Chop plus pork skin"
+      },
+      {
+        "name": "Com tam suon bi cha",
+        "calories": 700,
+        "note": "The classic"
+      },
+      {
+        "name": "Com tam suon bi cha op la",
+        "calories": 820,
+        "note": "With fried egg"
+      },
+      {
+        "name": "Com tam dac biet (2 chops, cha, egg, lap xuong)",
+        "calories": 1000,
+        "note": "Chinese sausage adds 100 more"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in com tam suon bi cha?",
+        "a": "About 700 for a standard plate. Published figures range from 627 to 767 depending on the size of the pork chop and the rice portion."
+      },
+      {
+        "q": "Is com tam fattening?",
+        "a": "It is a full meal at 700 calories with 32g of fat, mainly from the chop marinade, scallion oil and cha. Eating it every day without adjusting the rest of your intake will add up."
+      },
+      {
+        "q": "How many calories in the grilled pork chop alone?",
+        "a": "About 220 for a 90g chop, or around 290 for the larger 120g chops many quan now serve. The sugar and oil in the marinade add 40 to 50 on top of the meat."
+      },
+      {
+        "q": "What is bi in com tam?",
+        "a": "Shredded boiled pork skin and lean pork mixed with thinh, toasted rice powder. A small serving is about 55 calories and mostly protein and collagen."
+      }
+    ],
+    "related": [
+      "bun-thit-nuong",
+      "banh-mi-thit",
+      "chicken-rice",
+      "char-siew-rice"
+    ],
+    "source": "Huggies VN (767) and Long Chau (627); component cross-check settled on 700"
+  }
+]

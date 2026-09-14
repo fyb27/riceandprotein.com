@@ -7,3 +7,6 @@ handoff.md
 *.xlsx
 ~$*.xlsx
 Man's_fitness_transformation_*.mp4
+.playwright-mcp/
+seo/
+GSC/

@@ -1,0 +1,583 @@
+[
+  {
+    "slug": "tonkotsu-ramen",
+    "name": "Tonkotsu Ramen",
+    "aka": ["豚骨ラーメン", "とんこつラーメン", "Hakata Ramen", "Pork Bone Ramen"],
+    "category": "noodles",
+    "region": ["jp"],
+    "serving": "1 bowl",
+    "servingGrams": 480,
+    "calories": 525,
+    "protein": 22,
+    "carbs": 62,
+    "fat": 19,
+    "metaDescription": "A bowl of tonkotsu ramen is about 525 calories at Ichiran. The kaedama refill adds 236 more. Here is where the calories actually sit.",
+    "summary": "Thin straight noodles in a cloudy pork bone broth that has been boiled for 12 hours or more, topped with chashu, spring onion and sometimes a soft egg. The Hakata style bowl is smaller than most people expect.",
+    "answer": "A standard bowl of tonkotsu ramen is about 525 calories. That is Ichiran's own figure for its classic bowl with noodles, broth, chashu and the red sauce. A kaedama noodle refill adds another 236 calories, so one bowl plus one refill is 761.",
+    "realTalk": [
+      "The number surprises people because tonkotsu looks heavy. It is the cloudiest, fattiest looking broth on the menu, yet Ichiran's bowl comes in at 525 calories, lower than a miso ramen at 621. The reason is portion size. Hakata style noodles are thin and the standard serving is only about 110g cooked, roughly 236 calories worth, which is why the shop lets you order kaedama refills for 210 yen. The broth itself is where the fat lives, around 150 calories for 300ml, but you are not eating a giant pile of noodles with it.",
+      "The trap is the refill culture. One kaedama is 236 calories. Two kaedama and you are at 997 calories for what still feels like one bowl of ramen. Add a marinated egg for 80 calories and extra chashu for another 150 and a single Ichiran visit lands at 1,200 calories, which is more than half of most people's daily target. The bowl costs about 1,080 yen, and every add-on is cheap, so the bill stays small while the calories do not.",
+      "Drinking the soup matters more here than with shoyu ramen. A shoyu broth is mostly water and salt. A tonkotsu broth is emulsified pork fat, which is why it is white. If you finish the bowl to the bottom you get the full 150 or so calories of broth, plus about 5g of salt. Leaving half the soup saves around 75 calories and 2.5g of salt, and most Japanese ramen eaters leave it anyway."
+    ],
+    "lighter": [
+      "Order the noodles at standard portion and skip kaedama. That alone keeps you at 525 instead of 761.",
+      "Ask for 'abura sukuname' (less oil) when the shop offers it. Ichiran's order sheet has a richness setting, and 'light' drops the fat noticeably.",
+      "Leave the broth. Half a bowl of tonkotsu soup is about 75 calories you never taste as food.",
+      "Add the egg, skip the extra chashu. The egg is 80 calories and 6g of protein. Extra chashu is 150 calories and mostly fat.",
+      "If you want to feel full, order the bean sprout topping. It is under 20 calories and doubles the volume."
+    ],
+    "components": [
+      {"name": "Thin ramen noodles (cooked)", "grams": 110, "calories": 236},
+      {"name": "Tonkotsu broth", "grams": 300, "calories": 150},
+      {"name": "Chashu, 2 slices", "grams": 30, "calories": 80},
+      {"name": "Tare, red pepper sauce, spring onion", "grams": 40, "calories": 40}
+    ],
+    "portions": [
+      {"label": "Half noodles", "calories": 420},
+      {"label": "Standard bowl", "calories": 525},
+      {"label": "Standard bowl + 1 kaedama", "calories": 761}
+    ],
+    "variants": [
+      {"name": "Basic Hakata stall bowl", "calories": 480, "note": "Smaller noodle portion, no red sauce"},
+      {"name": "Ichiran classic", "calories": 525, "note": "Ichiran published figure"},
+      {"name": "With ajitama egg", "calories": 605, "note": "Marinated soft egg adds about 80"},
+      {"name": "Extra chashu", "calories": 675, "note": "3 to 4 extra slices of pork belly"},
+      {"name": "With kaedama refill", "calories": 761, "note": "One extra serving of noodles"}
+    ],
+    "faq": [
+      {"q": "Is tonkotsu ramen higher in calories than other ramen?", "a": "Per bowl, usually not. Ichiran's tonkotsu is 525 calories, while a typical miso ramen is 621. The broth is fattier, but the noodle portion is smaller. Where tonkotsu wins is per refill: each kaedama is 236 calories."},
+      {"q": "How many calories are in Ichiran ramen?", "a": "Ichiran lists its classic tonkotsu bowl at about 525 calories. A kaedama is 236 calories, the half-boiled egg is about 80, and extra chashu adds about 150."},
+      {"q": "Can I eat tonkotsu ramen and still lose weight?", "a": "Yes, as long as one bowl means one bowl. At 525 calories it fits a 1,800 calorie day easily. The problem is the 761 or 997 calorie version with refills, plus gyoza on the side."},
+      {"q": "How much salt is in a bowl of tonkotsu ramen?", "a": "Around 5 to 6g if you drink all the broth, which is most of the 6g daily limit Japan's health ministry suggests. Leaving the soup cuts that roughly in half."}
+    ],
+    "related": ["shoyu-ramen", "miso-ramen", "gyoza", "chicken-karaage"],
+    "source": "Ichiran published figure (525 kcal, kaedama 236) via menuramen.com"
+  },
+  {
+    "slug": "shoyu-ramen",
+    "name": "Shoyu Ramen",
+    "aka": ["醤油ラーメン", "しょうゆラーメン", "Soy Sauce Ramen", "Tokyo Ramen", "Chuka Soba"],
+    "category": "noodles",
+    "region": ["jp"],
+    "serving": "1 bowl",
+    "servingGrams": 726,
+    "calories": 421,
+    "protein": 20,
+    "carbs": 60,
+    "fat": 11,
+    "metaDescription": "A bowl of shoyu ramen is about 421 calories. It is the lightest of the classic ramen styles, and this page shows why, topping by topping.",
+    "summary": "Clear brown chicken or pork broth seasoned with soy sauce, medium curly noodles, one slice of chashu, menma, half an egg and spring onion. The old Tokyo standard, and the lightest bowl on most ramen menus.",
+    "answer": "A standard bowl of shoyu ramen is about 421 calories, based on Japan's calorie.slism.jp reference for a 726g bowl. Roughly 300 of those calories are the noodles. The clear soy broth is only about 40 calories, which is why shoyu is the lowest calorie ramen style.",
+    "realTalk": [
+      "Shoyu ramen is 421 calories because the broth is nearly empty. A clear chicken and soy stock is around 40 calories for 300ml, compared with about 150 for the same amount of tonkotsu. So the whole bowl is basically 200g of cooked noodles at about 300 calories, plus one slice of chashu at 50, plus the toppings. At a neighbourhood shop this bowl costs 800 to 900 yen and it is the one to pick if you eat ramen more than once a week.",
+      "The gap between shops is bigger than the gap between styles. A back-street Tokyo chuka soba with a thin slice of chashu is 421 calories. A modern shop that finishes the bowl with a spoon of chicken oil (chi-yu) and a thick 40g slab of pork belly is closer to 600. The oil floating on top is the tell: a thick golden layer is 50 to 100 calories on its own before you touch the noodles.",
+      "The set meal is where shoyu ramen stops being light. Half fried rice on the side is about 300 calories. A plate of 6 gyoza is about 300. The 'ramen set' at a chain like Hidakaya for 900 yen is therefore around 1,000 calories, not 421. If you want a bigger meal, add a second egg (80 calories) instead of the rice."
+    ],
+    "lighter": [
+      "Pick shoyu over miso or tonkotsu. Same noodle volume, about 200 fewer calories per bowl.",
+      "Skip the ramen set. Ramen plus half chahan is 700 calories; ramen alone is 421.",
+      "Ask for no chicken oil, or 'abura nuki'. Some shops add it by default and it is 50 to 100 calories of pure fat.",
+      "Extra menma or spring onion is nearly free. Extra chashu is about 50 calories per slice."
+    ],
+    "components": [
+      {"name": "Ramen noodles (cooked)", "grams": 200, "calories": 298},
+      {"name": "Clear shoyu broth", "grams": 300, "calories": 40},
+      {"name": "Chashu, 1 slice", "grams": 20, "calories": 50},
+      {"name": "Menma, half egg, naruto, spring onion", "grams": 60, "calories": 30}
+    ],
+    "portions": [
+      {"label": "Small bowl", "calories": 340},
+      {"label": "Standard bowl", "calories": 421},
+      {"label": "Large with extra chashu", "calories": 620}
+    ],
+    "variants": [
+      {"name": "Plain chuka soba", "calories": 400, "note": "Old style, one thin slice of pork"},
+      {"name": "Standard shoyu ramen", "calories": 421, "note": "calorie.slism.jp figure"},
+      {"name": "With chicken oil finish", "calories": 500, "note": "Modern shops add chi-yu on top"},
+      {"name": "Chashu-men", "calories": 600, "note": "4 to 5 slices of pork"},
+      {"name": "Ramen set with half chahan", "calories": 720, "note": "Chain lunch set"}
+    ],
+    "faq": [
+      {"q": "Which ramen has the fewest calories?", "a": "Shoyu and shio (salt) are the lightest at roughly 400 to 420 calories a bowl. Miso is around 620 and tonkotsu around 525, with the gap coming from broth fat."},
+      {"q": "How many calories are the noodles alone in ramen?", "a": "About 300 calories for a standard 200g cooked serving. Noodles are 70 percent of a shoyu ramen's calories, which is why kaedama refills add so much."},
+      {"q": "Is shoyu ramen good for a diet?", "a": "It is one of the better restaurant meals in Japan at 421 calories with 20g of protein. The weak point is salt, around 5g per bowl if you drink the soup."}
+    ],
+    "related": ["tonkotsu-ramen", "miso-ramen", "zaru-soba", "gyoza"],
+    "source": "calorie.slism.jp 醤油ラーメン 1杯 726g 421 kcal"
+  },
+  {
+    "slug": "miso-ramen",
+    "name": "Miso Ramen",
+    "aka": ["味噌ラーメン", "みそラーメン", "Sapporo Ramen", "Sapporo Miso Ramen"],
+    "category": "noodles",
+    "region": ["jp"],
+    "serving": "1 bowl",
+    "servingGrams": 839,
+    "calories": 621,
+    "protein": 26,
+    "carbs": 78,
+    "fat": 22,
+    "metaDescription": "A bowl of miso ramen is about 621 calories, the heaviest of the classic styles. The butter and corn version pushes past 700. Full breakdown inside.",
+    "summary": "Thick curly noodles in a rich miso broth, usually with stir-fried bean sprouts, cabbage, ground pork and a knob of butter. Sapporo's winter ramen, and the biggest bowl on the menu.",
+    "answer": "A standard bowl of miso ramen is about 621 calories, based on the calorie.slism.jp reference for an 839g bowl. That is roughly 200 calories more than a shoyu ramen. The miso broth is cooked with lard, the noodles are thicker, and the stir-fried topping adds another 100.",
+    "realTalk": [
+      "Miso ramen is 621 calories because everything in it is bigger. The noodles are thick Sapporo style and the standard serving is about 230g cooked, around 340 calories. The broth is miso paste blended into pork stock and finished with lard, about 130 calories for 350ml. Then the wok topping of bean sprouts, cabbage and ground pork is fried in oil, another 60 to 70. Compare that with a shoyu bowl where the broth is 40 calories and you can see where the extra 200 comes from.",
+      "The Sapporo classic adds butter and corn. A 10g pat of butter is 75 calories and a spoon of sweet corn is 40, so the famous 'miso butter corn ramen' is about 735 calories for around 1,100 yen. It is still a normal meal, but it is close to a McDonald's Big Mac set. Order it once in winter, not every Friday.",
+      "The bowl is 839g, which is why it fills you up for hours. About 400g of that is broth. If you eat the noodles and toppings and leave the soup, you drop to around 500 calories and cut the salt from roughly 6g to about 3g. The miso broth tastes good enough that people finish it, so decide before you start."
+    ],
+    "lighter": [
+      "Skip the butter. That single 10g pat is 75 calories.",
+      "Ask for extra bean sprouts (moyashi mashi). Many shops do it free and it adds volume at about 15 calories per 100g.",
+      "Leave the broth. Half the bowl's weight is soup and it carries about 130 calories and most of the salt.",
+      "Choose the standard noodle portion. Sapporo shops offer 'omori' for 100 yen extra, which is about 170 more calories.",
+      "Have miso ramen as the whole meal, not with gyoza and rice. The set version is over 900."
+    ],
+    "components": [
+      {"name": "Thick ramen noodles (cooked)", "grams": 230, "calories": 343},
+      {"name": "Miso broth with lard", "grams": 350, "calories": 130},
+      {"name": "Stir-fried bean sprouts, cabbage, corn", "grams": 80, "calories": 60},
+      {"name": "Ground pork", "grams": 30, "calories": 70},
+      {"name": "Butter", "grams": 5, "calories": 37}
+    ],
+    "portions": [
+      {"label": "Small bowl", "calories": 500},
+      {"label": "Standard bowl", "calories": 621},
+      {"label": "Large with butter and corn", "calories": 800}
+    ],
+    "variants": [
+      {"name": "Miso ramen, no butter", "calories": 585, "note": "Standard bowl minus the pat"},
+      {"name": "Standard miso ramen", "calories": 621, "note": "calorie.slism.jp figure"},
+      {"name": "Miso butter corn", "calories": 735, "note": "Sapporo classic with 10g butter"},
+      {"name": "Spicy miso with ground pork", "calories": 700, "note": "Extra chili oil and meat"},
+      {"name": "Miso chashu-men", "calories": 800, "note": "Extra 4 slices of pork"}
+    ],
+    "faq": [
+      {"q": "Why is miso ramen higher in calories than shoyu?", "a": "Three reasons: the broth is made with lard (about 130 calories versus 40), the noodles are thicker and the portion larger (340 versus 300), and the topping is wok-fried in oil. Together that is a 200 calorie gap."},
+      {"q": "How many calories are in miso butter corn ramen?", "a": "About 735 calories. The butter is 75 and the corn about 40 on top of the 621 base bowl."},
+      {"q": "Is miso ramen healthier because of the miso?", "a": "Miso adds a bit of protein and some fermented soy, but the bowl is still 621 calories with 22g of fat and around 6g of salt. Treat it as a full meal, not a health food."},
+      {"q": "How much protein is in a bowl of miso ramen?", "a": "About 26g, from the noodles, the ground pork and the chashu. Adding an egg brings it to around 32g."}
+    ],
+    "related": ["tonkotsu-ramen", "shoyu-ramen", "gyoza", "yakisoba"],
+    "source": "calorie.slism.jp 味噌ラーメン 1杯 838.9g 621 kcal"
+  },
+  {
+    "slug": "tempura-udon",
+    "name": "Tempura Udon",
+    "aka": ["天ぷらうどん", "てんぷらうどん", "Ebi Ten Udon", "Shrimp Tempura Udon"],
+    "category": "noodles",
+    "region": ["jp"],
+    "serving": "1 bowl",
+    "servingGrams": 596,
+    "calories": 370,
+    "protein": 14,
+    "carbs": 62,
+    "fat": 8,
+    "metaDescription": "A bowl of tempura udon is about 370 calories with one shrimp tempura. Add kakiage and it doubles. Real numbers from Marugame and Japan's calorie tables.",
+    "summary": "Thick white wheat noodles in a light dashi and soy broth, topped with a shrimp tempura and spring onion. A standing-soba-shop classic and one of the cheapest hot meals in Japan.",
+    "answer": "A standard bowl of tempura udon with one shrimp tempura is about 370 calories, per the calorie.slism.jp reference for a 596g bowl. Marugame Seimen's kake udon (regular) is 299 calories, and adding one ebi ten at 110 puts you at 409. The noodles are most of it; the broth is under 30.",
+    "realTalk": [
+      "Tempura udon is one of the lighter hot meals in Japan at 370 calories. The udon is 250g cooked, about 240 calories, and the dashi broth is nearly nothing at 25. The one thing with real fat in it is the shrimp tempura, which is about 95 to 110 calories for one piece because the batter soaks up oil. Marugame Seimen publishes 299 for its kake udon regular size and 110 for an ebi ten, and that 409 total is a normal lunch for about 500 yen.",
+      "The number climbs fast at a self-serve counter. Marugame's vegetable kakiage is 490 calories on its own, more than the bowl of udon it sits on. A chikuwa ten is about 140, a kashiwa (chicken) ten 143, and a half-boiled egg tempura around 110. Two pieces of tempura on a large udon and you are at 700 calories, which is a katsu curry territory bill for what feels like a light noodle lunch.",
+      "Udon is almost all carbohydrate. A 370 calorie bowl has about 62g of carbs and only 14g of protein, so it is fine for calories but it will not keep you full past 2pm on its own. Adding one kashiwa ten or a soft egg gives you 10 more grams of protein for about 100 to 140 calories, which is a better trade than a second shrimp."
+    ],
+    "lighter": [
+      "One shrimp tempura, not two. Each is about 110 calories, mostly from the batter.",
+      "Never the kakiage. Marugame's is 490 calories, more than the udon itself.",
+      "Choose kake or kitsune udon when you want something under 400. Kitsune's fried tofu is about 90 calories.",
+      "Regular size (nami). Marugame's large is about 450 calories before toppings.",
+      "Add a soft-boiled egg for protein instead of a second piece of tempura."
+    ],
+    "components": [
+      {"name": "Udon noodles (cooked)", "grams": 250, "calories": 238},
+      {"name": "Dashi soy broth", "grams": 300, "calories": 25},
+      {"name": "Shrimp tempura, 1 piece", "grams": 40, "calories": 95},
+      {"name": "Kamaboko and spring onion", "grams": 10, "calories": 10}
+    ],
+    "portions": [
+      {"label": "Small bowl", "calories": 290},
+      {"label": "Standard bowl", "calories": 370},
+      {"label": "Large with 2 shrimp tempura", "calories": 600}
+    ],
+    "variants": [
+      {"name": "Kake udon, no topping", "calories": 299, "note": "Marugame regular size"},
+      {"name": "Kitsune udon", "calories": 390, "note": "Sweet fried tofu instead of tempura"},
+      {"name": "Tempura udon, 1 shrimp", "calories": 370, "note": "calorie.slism.jp figure"},
+      {"name": "Marugame kake + ebi ten", "calories": 409, "note": "299 + 110, published"},
+      {"name": "Kakiage udon", "calories": 790, "note": "Marugame kakiage is 490 alone"}
+    ],
+    "faq": [
+      {"q": "How many calories is Marugame udon?", "a": "Kake udon regular is 299 calories, large about 450. Toppings: ebi ten 110, kashiwa ten 143, kakiage 490. All published by Marugame Seimen."},
+      {"q": "Is udon lower in calories than ramen?", "a": "Yes. Tempura udon is 370 calories against 421 for shoyu ramen and 621 for miso, mainly because the dashi broth has almost no fat."},
+      {"q": "How many calories is one piece of shrimp tempura?", "a": "About 95 to 110 calories depending on size. The shrimp is around 25 of that; the rest is batter and absorbed oil."}
+    ],
+    "related": ["zaru-soba", "tempura", "shoyu-ramen", "yakisoba"],
+    "source": "calorie.slism.jp 天ぷらうどん 1杯 596.3g 370 kcal; Marugame Seimen published kake udon 299, ebi ten 110"
+  },
+  {
+    "slug": "zaru-soba",
+    "name": "Zaru Soba",
+    "aka": ["ざるそば", "ざる蕎麦", "Mori Soba", "Cold Soba", "Cold Buckwheat Noodles"],
+    "category": "noodles",
+    "region": ["jp"],
+    "serving": "1 plate",
+    "servingGrams": 411,
+    "calories": 362,
+    "protein": 16,
+    "carbs": 71,
+    "fat": 2,
+    "metaDescription": "A plate of zaru soba is about 362 calories with dipping sauce. Only 2g of fat, 16g protein. The lightest noodle meal in Japan, with numbers.",
+    "summary": "Cold buckwheat noodles on a bamboo tray with a soy and dashi dipping sauce, nori strips, wasabi and spring onion. The summer standard at every soba shop.",
+    "answer": "A standard plate of zaru soba is about 362 calories, per calorie.slism.jp for a 411g serving including the dipping sauce. It has 16g of protein and only about 2g of fat. Almost the entire count is the noodles themselves, around 240g cooked.",
+    "realTalk": [
+      "Zaru soba is about as light as a full noodle meal gets: 362 calories, 2g of fat, and 16g of protein because buckwheat has more protein than wheat. The dipping sauce (tsuyu) is about 40 calories for the small cup, and the nori and wasabi are nothing. A plate at a standing shop costs around 400 yen, and at a proper soba restaurant 900 to 1,200.",
+      "The catch is that it is not very filling for the calories. A 362 calorie plate is 71g of carbohydrate and almost nothing else, so you are hungry again in two hours. That is why soba shops sell the 'ten zaru' set with a plate of tempura, which is 532 calories per calorie.slism.jp, or the 'ni-mai mori' double portion at about 700. Most people do not stop at one plate.",
+      "The sobayu at the end is worth knowing about. It is the cloudy water the noodles were boiled in, poured into your leftover tsuyu and drunk like a soup. It is only about 15 to 20 calories and it turns a plate of noodles into something that feels like a finished meal. Drink that instead of ordering a second plate."
+    ],
+    "lighter": [
+      "Order zaru or mori, not ten zaru. The tempura plate adds about 170 calories.",
+      "One plate, then sobayu. The hot soba water is under 20 calories and closes the meal.",
+      "If you need protein, add a cold onsen egg for 80 calories rather than kakiage.",
+      "Watch the tsuyu. Dipping only the tip of the noodles is the traditional way, and it saves salt more than calories."
+    ],
+    "components": [
+      {"name": "Soba noodles (cooked)", "grams": 240, "calories": 312},
+      {"name": "Tsuyu dipping sauce", "grams": 80, "calories": 40},
+      {"name": "Nori, wasabi, spring onion", "grams": 8, "calories": 8}
+    ],
+    "portions": [
+      {"label": "Small plate", "calories": 280},
+      {"label": "Standard plate", "calories": 362},
+      {"label": "Double portion (ni-mai)", "calories": 690}
+    ],
+    "variants": [
+      {"name": "Mori soba (no nori)", "calories": 355, "note": "Same thing without seaweed"},
+      {"name": "Zaru soba", "calories": 362, "note": "calorie.slism.jp figure"},
+      {"name": "Zaru udon", "calories": 290, "note": "Wheat udon version, slightly lower"},
+      {"name": "Tororo soba", "calories": 420, "note": "With grated yam"},
+      {"name": "Ten zaru", "calories": 532, "note": "With tempura plate, calorie.slism.jp"}
+    ],
+    "faq": [
+      {"q": "Is soba good for weight loss?", "a": "It is one of the best restaurant noodle choices at 362 calories a plate with 2g of fat. The weakness is low fullness, so pair it with an egg or tofu side rather than a second plate."},
+      {"q": "How many calories are in soba noodles per 100g?", "a": "Cooked soba is about 130 calories per 100g per the Japanese food composition tables. A standard plate is 240g cooked, so around 312 calories before sauce."},
+      {"q": "Does zaru soba have gluten?", "a": "Usually yes. Most shop soba is 'ni-hachi', 80 percent buckwheat and 20 percent wheat flour. Only 'juwari' soba is 100 percent buckwheat."}
+    ],
+    "related": ["tempura-udon", "tempura", "shoyu-ramen", "yakisoba"],
+    "source": "calorie.slism.jp ざるそば 1人前 411g 362 kcal"
+  },
+  {
+    "slug": "yakisoba",
+    "name": "Yakisoba",
+    "aka": ["焼きそば", "やきそば", "Sauce Yakisoba", "Japanese Fried Noodles"],
+    "category": "noodles",
+    "region": ["jp"],
+    "serving": "1 plate",
+    "servingGrams": 290,
+    "calories": 469,
+    "protein": 15,
+    "carbs": 62,
+    "fat": 18,
+    "metaDescription": "A plate of sauce yakisoba is about 469 calories. Festival packs with mayo run higher. Here is the noodle, pork and sauce breakdown.",
+    "summary": "Steamed wheat noodles stir-fried with pork belly, cabbage and a thick sweet Worcestershire style sauce, finished with aonori and pickled ginger. The matsuri stall and konbini staple.",
+    "answer": "A standard plate of sauce yakisoba is about 469 calories, based on a typical single-serve recipe with pork, cabbage and carrot. The steamed noodle pack alone is about 300 calories. The sauce adds 25 and the pork and frying oil make up the rest.",
+    "realTalk": [
+      "Yakisoba is 469 calories for what is really a fairly small plate, about 290g. The steamed noodle pack is 150g and roughly 300 calories on its own, then 30g of pork belly, cabbage, 5g of oil to fry it and 20g of sauce. At a festival stall you pay 500 to 600 yen for that. The sauce is only 25 calories, so it is not the villain here. The noodles are.",
+      "The festival version drifts higher. Stall cooks use more oil because the griddle is dry and hot, and they finish with a squeeze of mayonnaise. Mayo is 100 calories per tablespoon, so the 'mayo yakisoba' from a stall is about 570 to 600. Konbini yakisoba is around 500 to 550 for the standard tray and closer to 700 for the 'omori' double packs, with the number printed on the label.",
+      "Yakisoba pan is the same thing stuffed into a hot dog bun, and it is the classic 'carbs on carbs' snack. The bun is about 150 calories, so a yakisoba pan is 350 to 400 calories, which is not terrible for a snack but it has almost no protein, about 9g. If you are choosing between that and an onigiri with a boiled egg, take the onigiri and egg."
+    ],
+    "lighter": [
+      "Skip the mayo. One squeeze is about 100 calories on a 469 calorie plate.",
+      "Double the cabbage. It is 23 calories per 100g and the noodles taste the same with more of it.",
+      "Use pork shoulder or chicken thigh instead of pork belly at home. That saves about 60 calories per plate.",
+      "At the konbini, pick the standard tray, not omori. The label difference is usually 150 to 200 calories."
+    ],
+    "components": [
+      {"name": "Steamed yakisoba noodles", "grams": 150, "calories": 297},
+      {"name": "Pork belly slices", "grams": 30, "calories": 75},
+      {"name": "Cabbage, carrot, onion", "grams": 80, "calories": 20},
+      {"name": "Frying oil", "grams": 5, "calories": 45},
+      {"name": "Yakisoba sauce, aonori, beni shoga", "grams": 25, "calories": 30}
+    ],
+    "portions": [
+      {"label": "Small plate", "calories": 350},
+      {"label": "Standard plate", "calories": 469},
+      {"label": "Festival pack with mayo", "calories": 600}
+    ],
+    "variants": [
+      {"name": "Yakisoba pan", "calories": 380, "note": "Half portion in a bun"},
+      {"name": "Shio yakisoba", "calories": 450, "note": "Salt seasoning instead of sauce"},
+      {"name": "Sauce yakisoba", "calories": 469, "note": "Standard home or stall plate"},
+      {"name": "Konbini tray", "calories": 530, "note": "Typical label, standard size"},
+      {"name": "Omori with mayo and egg", "calories": 780, "note": "Double noodles, fried egg on top"}
+    ],
+    "faq": [
+      {"q": "Is yakisoba healthy?", "a": "It is a normal 469 calorie carb-heavy meal with 15g of protein and 18g of fat. Not a health food, not a disaster. The mayo and double noodle versions are where it gets heavy."},
+      {"q": "How many calories are in a konbini yakisoba?", "a": "Usually 500 to 550 for the standard tray and 650 to 750 for the omori size. The exact number is printed on the label."},
+      {"q": "How many calories is yakisoba pan?", "a": "About 350 to 400 calories. A hot dog bun is around 150 calories and it holds roughly half a plate of noodles."}
+    ],
+    "related": ["okonomiyaki", "takoyaki", "miso-ramen", "char-kuey-teow"],
+    "source": "health2sync.com sauce yakisoba 1 serving 469 kcal; calorie.slism.jp 焼きそば 157 kcal/100g"
+  },
+  {
+    "slug": "gyudon",
+    "name": "Gyudon",
+    "aka": ["牛丼", "ぎゅうどん", "Beef Bowl", "Yoshinoya Beef Bowl"],
+    "category": "rice",
+    "region": ["jp"],
+    "serving": "1 bowl (regular)",
+    "servingGrams": 342,
+    "calories": 633,
+    "protein": 20,
+    "carbs": 88,
+    "fat": 24,
+    "metaDescription": "A regular Yoshinoya gyudon is 633 calories, published by Yoshinoya. Sukiya's is higher. Sizes, toppings and the cheese version, all with numbers.",
+    "summary": "Thin sliced beef and onion simmered in a sweet soy and dashi sauce, ladled over a bowl of rice. Japan's fast food, served in under a minute at Yoshinoya, Sukiya and Matsuya.",
+    "answer": "A regular (namimori) gyudon at Yoshinoya is 633 calories, according to Yoshinoya's own nutrition data, with 19.6g of protein, 23.6g of fat and 88.2g of carbs in a 342g bowl. About 390 of those calories are the rice. The beef and sauce are the other 240.",
+    "realTalk": [
+      "A regular gyudon is 633 calories at Yoshinoya and about 730 at Sukiya, because Sukiya serves a bit more rice. For around 500 yen that is one of the cheapest full meals in Japan, and the numbers are all published, which makes it easy to plan around. The rice is 250g and about 390 calories. The beef is fatty short plate cooked in sugar and soy, roughly 200 calories for the meat and 45 for the onion and sauce.",
+      "The size ladder is steep. Yoshinoya's small (komori) is about 490 calories, regular 633, atamono-omori (extra beef, same rice) about 740, omori about 850, and tokumori around 1,000. The 'mega' bowl at Sukiya is over 1,200. The chains price these only 100 to 200 yen apart, so people go up a size without thinking, and each step is roughly a bowl of miso soup's worth of rice or a burger's worth of beef.",
+      "Toppings change the picture. A raw egg is about 80 calories and 6g of protein, which is a reasonable add. Cheese is about 120. Kimchi is 20. The 'tsuyudaku' extra sauce order is mostly free in calories but adds salt. If you want the bowl to do more for you, the egg or the extra beef head is the better spend than the bigger rice."
+    ],
+    "lighter": [
+      "Order 'atama no omori' (extra beef, normal rice) instead of omori. More protein, about 100 fewer calories than the big rice version.",
+      "Add the miso soup and salad set for about 60 calories total. It slows you down and fills the bowl-sized gap.",
+      "Skip the cheese. That is 120 calories on top of 633.",
+      "Ask for 'gohan sukuname' (less rice). Yoshinoya does it free and it drops about 80 calories.",
+      "Yoshinoya's 'gyudon on yasai' swaps some rice for vegetables and lands around 480."
+    ],
+    "components": [
+      {"name": "White rice", "grams": 250, "calories": 390},
+      {"name": "Simmered beef (short plate)", "grams": 70, "calories": 200},
+      {"name": "Onion and sweet soy sauce", "grams": 22, "calories": 45}
+    ],
+    "portions": [
+      {"label": "Small (komori)", "calories": 490},
+      {"label": "Regular (namimori)", "calories": 633},
+      {"label": "Large (omori)", "calories": 850}
+    ],
+    "variants": [
+      {"name": "Yoshinoya gyudon on yasai", "calories": 480, "note": "Vegetables replace part of the rice"},
+      {"name": "Yoshinoya regular", "calories": 633, "note": "Yoshinoya published figure"},
+      {"name": "Regular with raw egg", "calories": 713, "note": "Egg adds about 80"},
+      {"name": "Sukiya regular", "calories": 733, "note": "Sukiya published figure"},
+      {"name": "Cheese gyudon regular", "calories": 850, "note": "Sukiya with cheese topping"},
+      {"name": "Mega gyudon", "calories": 1250, "note": "Sukiya, triple beef"}
+    ],
+    "faq": [
+      {"q": "How many calories in a Yoshinoya gyudon?", "a": "Regular is 633 calories per Yoshinoya's own data. Small is about 490, large about 850 and tokumori around 1,000."},
+      {"q": "Is Sukiya or Yoshinoya gyudon lower in calories?", "a": "Yoshinoya at 633 versus Sukiya at about 733 for regular. Sukiya's bowl carries more rice."},
+      {"q": "Is gyudon good for building muscle?", "a": "It has about 20g of protein per regular bowl, which is average. Adding an egg brings it to 26g. The 'atama no omori' extra beef version reaches about 30g."},
+      {"q": "How much rice is in a gyudon?", "a": "About 250g cooked rice in a regular bowl, which is roughly 390 calories on its own. Large bowls hold 350g or more."}
+    ],
+    "related": ["katsudon", "oyakodon", "unagi-don", "chicken-rice"],
+    "source": "Yoshinoya published nutrition: 牛丼並盛 633 kcal, P19.6 F23.6 C88.2, 342g"
+  },
+  {
+    "slug": "katsudon",
+    "name": "Katsudon",
+    "aka": ["カツ丼", "かつ丼", "Pork Cutlet Rice Bowl", "Tonkatsu Don"],
+    "category": "rice",
+    "region": ["jp"],
+    "serving": "1 bowl",
+    "servingGrams": 504,
+    "calories": 866,
+    "protein": 33,
+    "carbs": 100,
+    "fat": 36,
+    "metaDescription": "A bowl of katsudon is about 866 calories, the heaviest of the common donburi. Here is what the cutlet, egg and rice each add up to.",
+    "summary": "A breaded fried pork cutlet simmered with onion and beaten egg in sweet dashi soy, then slid over a bowl of rice. The soba shop and teishoku-ya heavyweight.",
+    "answer": "A standard bowl of katsudon is about 866 calories, per calorie.slism.jp for a 504g bowl. The fried pork cutlet is roughly 390 of that, the rice about 360, and the egg, onion and sweet sauce make up the last 130. It is the highest calorie of the classic donburi.",
+    "realTalk": [
+      "Katsudon is 866 calories, which puts it above gyudon (633) and oyakodon (631) by a wide margin, and the reason is simple: you are eating a whole tonkatsu, breading and oil included, and then it gets simmered in a sauce with sugar. A 120g cutlet is about 390 calories, the 230g of rice under it is 360, and the egg and sweet dashi bring it home. A bowl at a soba shop or Katsuya is 900 to 1,000 yen.",
+      "The egg is the part people underestimate. One beaten egg is 80 calories, and shops often use one and a half. The sauce it cooks in has sugar and mirin, so the onion and sauce together are 50 to 60 calories rather than the near zero you get with a clear dashi. That is why katsudon runs 130 calories above a plain tonkatsu plus rice even though it looks like the same ingredients.",
+      "The size problem is that katsudon is often the 'treat' order after a hard day, and it usually comes with a small bowl of soba or udon on the side at a soba shop. That set is around 1,100 calories. If you want the cutlet, katsudon at 866 is still a better deal than the katsu curry at CoCo Ichibanya, which is 1,116 for a regular rice serving."
+    ],
+    "lighter": [
+      "Order hire (fillet) katsudon when it exists. The lean cutlet saves 80 to 100 calories against rosu (loin).",
+      "Ask for less rice. Dropping from 230g to 150g saves about 125 calories and the cutlet is still the same size.",
+      "Skip the side noodle set. The mini soba or udon adds 200 to 250 calories.",
+      "Eat it as the only heavy meal of the day. At 866 calories it is half of an 1,800 calorie budget."
+    ],
+    "components": [
+      {"name": "White rice", "grams": 230, "calories": 360},
+      {"name": "Pork loin tonkatsu", "grams": 120, "calories": 390},
+      {"name": "Egg", "grams": 55, "calories": 80},
+      {"name": "Onion and sweet dashi soy sauce", "grams": 60, "calories": 50}
+    ],
+    "portions": [
+      {"label": "Small bowl", "calories": 700},
+      {"label": "Standard bowl", "calories": 866},
+      {"label": "Large bowl with extra egg", "calories": 1100}
+    ],
+    "variants": [
+      {"name": "Hire (fillet) katsudon", "calories": 770, "note": "Leaner cut, less fat"},
+      {"name": "Standard rosu katsudon", "calories": 866, "note": "calorie.slism.jp figure"},
+      {"name": "Sauce katsudon (Fukui style)", "calories": 830, "note": "No egg, cutlet dipped in sauce"},
+      {"name": "Katsudon + mini soba set", "calories": 1100, "note": "Common soba shop set"}
+    ],
+    "faq": [
+      {"q": "Which donburi has the most calories?", "a": "Katsudon at 866 calories tops the common ones. Unaju is about 879 but it is usually a special occasion. Gyudon is 633 and oyakodon 631."},
+      {"q": "How many calories are in the tonkatsu inside a katsudon?", "a": "About 390 for a 120g loin cutlet. The breading and absorbed oil are roughly 40 percent of that."},
+      {"q": "Is katsudon high in protein?", "a": "Fairly high at about 33g per bowl from the pork and egg. The issue is the 36g of fat and 100g of carbs that come with it."}
+    ],
+    "related": ["tonkatsu", "katsu-curry", "gyudon", "oyakodon"],
+    "source": "calorie.slism.jp カツ丼 1人前 503.6g 866 kcal"
+  },
+  {
+    "slug": "oyakodon",
+    "name": "Oyakodon",
+    "aka": ["親子丼", "おやこどん", "Chicken and Egg Rice Bowl", "Parent and Child Bowl"],
+    "category": "rice",
+    "region": ["jp"],
+    "serving": "1 bowl",
+    "servingGrams": 460,
+    "calories": 631,
+    "protein": 30,
+    "carbs": 88,
+    "fat": 16,
+    "metaDescription": "A bowl of oyakodon is about 631 calories with 30g of protein. It is the leanest of the big donburi. Breakdown and lighter orders inside.",
+    "summary": "Chicken thigh and onion simmered in sweet dashi soy, bound with soft egg and poured over rice. The 'parent and child' bowl, cheap at every soba shop and family restaurant.",
+    "answer": "A standard bowl of oyakodon is about 631 calories, per calorie.slism.jp for a 460g bowl. It carries about 30g of protein from the chicken and egg, with only 16g of fat because nothing is fried. The rice is about 390 of the calories.",
+    "realTalk": [
+      "Oyakodon is the donburi to pick when you want to stay on plan. It is 631 calories, nearly the same as a gyudon, but with 30g of protein instead of 20 and 16g of fat instead of 24. Nothing in it is fried. The chicken thigh is about 70g, the eggs are one and a half, and the rest is rice and a sweet dashi sauce. At Nakau or a soba shop it costs 500 to 700 yen.",
+      "The rice is still 60 percent of the bowl. At 250g and 390 calories, the rice outweighs the chicken and egg combined. Ordering 'gohan sukuname' or eating half the rice takes the bowl down to 430 to 500 calories with the same protein, which is a very good lunch. The egg and chicken on top are only about 230 calories together.",
+      "Home versions and restaurant versions differ mostly in sugar. A restaurant warishita has sugar and mirin, about 30 calories per serving. Some shops also finish with a third egg yolk on top for richness, another 55 calories. Neither is a big deal. The bigger jump is the 'omori' rice, which adds about 150 calories, and the pickles and miso soup set, which adds about 50."
+    ],
+    "lighter": [
+      "Ask for less rice or leave a third of it. The chicken and egg are only 230 of the 631 calories.",
+      "Order oyakodon over katsudon every time. Same shop, about 235 fewer calories, similar protein.",
+      "Skip the extra yolk topping some shops offer. It is 55 calories of pure fat.",
+      "Add the miso soup. It is 40 calories and it stretches the meal without adding rice."
+    ],
+    "components": [
+      {"name": "White rice", "grams": 250, "calories": 390},
+      {"name": "Chicken thigh", "grams": 70, "calories": 143},
+      {"name": "Egg", "grams": 55, "calories": 80},
+      {"name": "Onion", "grams": 40, "calories": 15},
+      {"name": "Sweet dashi soy sauce", "grams": 30, "calories": 30}
+    ],
+    "portions": [
+      {"label": "Small bowl", "calories": 500},
+      {"label": "Standard bowl", "calories": 631},
+      {"label": "Large bowl", "calories": 800}
+    ],
+    "variants": [
+      {"name": "Oyakodon, half rice", "calories": 440, "note": "Same toppings, 125g rice"},
+      {"name": "Standard oyakodon", "calories": 631, "note": "calorie.slism.jp figure"},
+      {"name": "With extra yolk", "calories": 690, "note": "Some shops add a raw yolk on top"},
+      {"name": "Tanindon (beef and egg)", "calories": 720, "note": "'Stranger bowl', fattier beef"},
+      {"name": "Oyakodon omori", "calories": 800, "note": "Large rice"}
+    ],
+    "faq": [
+      {"q": "Is oyakodon healthy?", "a": "It is one of the better donburi at 631 calories, 30g protein and 16g fat, because the chicken is simmered rather than fried. The main weakness is 88g of carbs from the rice."},
+      {"q": "Oyakodon or gyudon, which has fewer calories?", "a": "They are close: oyakodon 631, Yoshinoya gyudon 633. Oyakodon has 10g more protein and 8g less fat, so it is the better pick."},
+      {"q": "How much protein is in oyakodon?", "a": "About 30g per bowl, from roughly 70g of chicken thigh and one and a half eggs."}
+    ],
+    "related": ["gyudon", "katsudon", "chicken-karaage", "miso-soup"],
+    "source": "calorie.slism.jp 親子丼 1杯 460.5g 631 kcal"
+  },
+  {
+    "slug": "unagi-don",
+    "name": "Unagi Don",
+    "aka": ["うな丼", "鰻丼", "うなぎ丼", "Unadon", "Unaju", "Eel Rice Bowl", "Kabayaki Eel Bowl"],
+    "category": "rice",
+    "region": ["jp"],
+    "serving": "1 bowl",
+    "servingGrams": 380,
+    "calories": 671,
+    "protein": 30,
+    "carbs": 88,
+    "fat": 22,
+    "metaDescription": "A bowl of unagi don is about 671 calories at Sukiya. A full unaju at a specialist runs 879. Eel, rice and tare, broken down with real numbers.",
+    "summary": "Grilled eel glazed with a sweet soy tare and laid over rice, dusted with sansho pepper. Unadon comes in a bowl, unaju in a lacquer box with more eel. The midsummer 'Doyo no Ushi' tradition.",
+    "answer": "A regular unagi don at Sukiya is 671 calories, per Sukiya's published data, with about 80g of kabayaki eel on 260g of rice. A full unaju at an eel specialist is about 879 calories per calorie.slism.jp, because the box holds nearly double the eel.",
+    "realTalk": [
+      "Unagi don is 671 calories at Sukiya for around 1,000 yen, which is the cheap end. The eel itself is fatty, about 293 calories per 100g as kabayaki, so an 80g piece is 234. The rice is 260g and about 405. The tare is sugar and soy, around 30 calories for the drizzle. Compared with a gyudon, you pay double and get about 40 more calories and 10g more protein, but the eel has omega-3 fat rather than beef tallow.",
+      "The specialist unaju is a different portion. A proper eel shop lays a whole 150g fillet across the box, and calorie.slism.jp puts that at 879 calories with 42g of protein. Those meals cost 3,500 to 5,000 yen, so people eat them once a year in July. The calories are high but the protein is real, and the fat in eel is largely unsaturated. As a once-a-year meal it is one of the more honest 900 calories in Japanese food.",
+      "The extras are small here. Kimosui, the clear soup with eel liver, is about 20 calories. Pickles are 5. Sansho pepper is nothing. So the number you order is the number you eat, unless you go 'omori' rice at Sukiya, which takes the bowl to 817 published. The eel does not change; only the rice does."
+    ],
+    "lighter": [
+      "Order regular rice, not omori. At Sukiya the difference is 671 versus 817.",
+      "Pick unadon over unaju if you are watching calories. The box holds about 70g more eel, roughly 200 calories.",
+      "Eat the kimosui. It is 20 calories and it makes the meal feel complete.",
+      "Share a specialist unaju and add a second bowl of plain rice between two people rather than ordering two boxes."
+    ],
+    "components": [
+      {"name": "White rice", "grams": 260, "calories": 405},
+      {"name": "Kabayaki eel", "grams": 80, "calories": 234},
+      {"name": "Tare glaze", "grams": 15, "calories": 30},
+      {"name": "Sansho pepper", "grams": 1, "calories": 0}
+    ],
+    "portions": [
+      {"label": "Small bowl", "calories": 560},
+      {"label": "Regular bowl", "calories": 671},
+      {"label": "Unaju (full box)", "calories": 879}
+    ],
+    "variants": [
+      {"name": "Sukiya unadon regular", "calories": 671, "note": "Sukiya published"},
+      {"name": "Sukiya unadon omori rice", "calories": 817, "note": "Sukiya published"},
+      {"name": "Unaju at eel specialist", "calories": 879, "note": "calorie.slism.jp, 433g"},
+      {"name": "Hitsumabushi", "calories": 950, "note": "Nagoya style, chopped eel with extra rice and broth"}
+    ],
+    "faq": [
+      {"q": "How many calories is unaju?", "a": "About 879 calories for a standard box per calorie.slism.jp, with 42g of protein and 32g of fat. The cheaper unadon at chains is about 671."},
+      {"q": "Is eel high in fat?", "a": "Yes, kabayaki eel is about 293 calories per 100g with around 21g of fat, but much of that is unsaturated and includes omega-3. It also has 23g of protein per 100g."},
+      {"q": "How many calories in Sukiya unagi don?", "a": "Regular is 671 calories and the large rice version is 817, both published by Sukiya."}
+    ],
+    "related": ["gyudon", "katsudon", "salmon-nigiri", "oyakodon"],
+    "source": "Sukiya published unadon 並盛 671 kcal; calorie.slism.jp うな重 879 kcal for unaju variant"
+  },
+  {
+    "slug": "katsu-curry",
+    "name": "Katsu Curry",
+    "aka": ["カツカレー", "かつカレー", "ロースカツカレー", "Tonkatsu Curry", "CoCo Ichibanya Katsu Curry"],
+    "category": "rice",
+    "region": ["jp"],
+    "serving": "1 plate (rice 300g)",
+    "servingGrams": 600,
+    "calories": 1116,
+    "protein": 35,
+    "carbs": 130,
+    "fat": 48,
+    "metaDescription": "A CoCo Ichibanya rosu katsu curry is 1,116 calories with regular rice. That is the published figure. See how the rice, cutlet and sauce split it.",
+    "summary": "Japanese curry sauce over a plate of rice with a breaded fried pork cutlet on top. The CoCo Ichibanya bestseller and one of the highest calorie standard orders in Japanese chain food.",
+    "answer": "A rosu (pork loin) katsu curry at CoCo Ichibanya is 1,116 calories with the regular 300g rice, per CoCo Ichibanya's published nutrition sheet. The rice is about 470 of that, the cutlet about 400, and the curry sauce roughly 230. Chicken katsu curry is 1,115, nearly identical.",
+    "realTalk": [
+      "Katsu curry is the plate people search after they have eaten it, because 1,116 calories is more than a Big Mac set and it does not feel like it at the time. CoCo Ichibanya publishes everything: the plain pork curry with 300g rice is 701 calories, and the rosu katsu adds about 415. The plate costs around 1,000 yen. For the same money you could have a tonkatsu teishoku at 873 and get a salad and miso soup with it.",
+      "Rice is the lever. CoCo Ichi lets you pick rice by 100g steps. Dropping from 300g to 200g takes the plate to about 960 calories. Going up to 400g is 1,272, and the 'mega' 600g plate with katsu passes 1,500. The cutlet is the same size at every rice level, so the small rice order is the same amount of meat for 156 fewer calories.",
+      "The sauce level and toppings are where it gets silly. Cheese is about 120 calories, cream croquette 200, and a half boiled egg 80. Spice level costs nothing. The 'katsu curry with cheese and egg' that a lot of people order after the gym is about 1,320 calories, which is a full day of food for a small woman. If you need it, order it as your one meal and make the rest of the day protein and vegetables."
+    ],
+    "lighter": [
+      "Rice at 200g. That alone saves 156 calories and the cutlet is untouched.",
+      "Order the plain pork or chicken curry (701 or so) and add a boiled egg for protein. That is half the calories of the katsu version.",
+      "Hire (fillet) katsu instead of rosu when the shop has it. Leaner cut, roughly 80 to 100 fewer calories.",
+      "No cheese, no croquette. Those two toppings are 320 calories together.",
+      "Eat the pickles and salad first. It slows the plate down and you may not finish the rice."
+    ],
+    "components": [
+      {"name": "White rice", "grams": 300, "calories": 468},
+      {"name": "Pork loin cutlet", "grams": 120, "calories": 400},
+      {"name": "Curry sauce", "grams": 200, "calories": 233},
+      {"name": "Fukujinzuke pickles", "grams": 10, "calories": 10}
+    ],
+    "portions": [
+      {"label": "Rice 200g", "calories": 960},
+      {"label": "Rice 300g (regular)", "calories": 1116},
+      {"label": "Rice 400g", "calories": 1272}
+    ],
+    "variants": [
+      {"name": "Plain pork curry, rice 300g", "calories": 701, "note": "CoCo Ichibanya published"},
+      {"name": "Chicken katsu curry", "calories": 1115, "note": "CoCo Ichibanya published"},
+      {"name": "Rosu katsu curry", "calories": 1116, "note": "CoCo Ichibanya published"},
+      {"name": "Katsu curry with cheese and egg", "calories": 1320, "note": "Two most common add-ons"},
+      {"name": "Katsu curry, rice 600g", "calories": 1584, "note": "Mega size"}
+    ],
+    "faq": [
+      {"q": "How many calories in CoCo Ichibanya katsu curry?", "a": "Rosu katsu curry with 300g rice is 1,116 calories per CoCo Ichibanya's nutrition sheet. Chicken katsu is 1,115. Each 100g of rice up or down is about 156 calories."},
+      {"q": "Is Japanese curry high in calories without the katsu?", "a": "A plain pork curry with 300g rice is 701 calories at CoCo Ichibanya. The sauce is about 230 of that because it is a roux made with flour and fat."},
+      {"q": "Can I eat katsu curry on a diet?", "a": "Once in a while, as the only big meal of the day. At 1,116 calories it is 60 percent of an 1,800 calorie budget. The 200g rice version at 960 is a bit easier to fit."},
+      {"q": "What is the lowest calorie curry at CoCo Ichibanya?", "a": "Plain curries with 200g rice come in around 550 calories. Vegetable curry is close to that. Anything with a fried topping jumps past 900."}
+    ],
+    "related": ["tonkatsu", "katsudon", "gyudon", "nasi-kandar"],
+    "source": "CoCo Ichibanya published nutrition PDF (ichibanya.co.jp): ロースカツカレー ライス300g 1116 kcal"
+  }
+]

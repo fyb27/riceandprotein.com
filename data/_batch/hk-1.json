@@ -1,0 +1,1705 @@
+[
+  {
+    "slug": "bo-lo-bao",
+    "name": "Pineapple Bun (Bo Lo Bao)",
+    "aka": [
+      "菠蘿包",
+      "Bo Lo Baau",
+      "Polo Bun",
+      "Hong Kong Pineapple Bun"
+    ],
+    "category": "snacks",
+    "region": [
+      "hk"
+    ],
+    "serving": "1 bun",
+    "servingGrams": 80,
+    "calories": 310,
+    "protein": 7,
+    "carbs": 48,
+    "fat": 10,
+    "metaDescription": "A pineapple bun from a Hong Kong bakery is about 310 calories. No pineapple inside, just a sugar crust on a sweet bun. Here is the full breakdown.",
+    "summary": "The bo lo bao is a soft sweet bun with a cracked sugar-and-lard crust on top that looks like pineapple skin. Every Hong Kong bakery and cha chaan teng sells them, usually for HK$5 to HK$12.",
+    "answer": "One standard pineapple bun (about 80g) is around 310 calories. Roughly 200 of that is the sweet bread itself and the other 95 or so is the crunchy topping, which is basically sugar, flour and lard baked into a shell.",
+    "realTalk": [
+      "There is no fruit in this thing. The name comes from the way the crust cracks in the oven. What you are actually eating is 48g of carbs, most of it refined flour and sugar, packed into something you finish in four bites. A bun at 310 calories is more than a bowl of rice, which sits around 260, and it comes with far less staying power. Most people who buy one at 3pm are hungry again by 5.",
+      "The topping is where the fat hides. That 15g crust adds around 95 calories on its own because it is made with lard or shortening plus a big hit of sugar. The Centre for Food Safety tested pineapple buns in its bread survey and found them low in sodium and moderate in fat compared to cocktail buns and croissants, so among Hong Kong bakery items this is actually one of the tamer choices at roughly 10g of fat.",
+      "Size varies a lot between shops. A small bakery bun can be 65g and closer to 250 calories. The big fluffy ones from the famous cha chaan tengs in Mong Kok and Central push 100g and land near 380 calories. If the bun is warm and the crust is thick and glossy, assume the high end. Add a slab of butter (bo lo yau) and you are looking at around 390 calories before your milk tea arrives."
+    ],
+    "lighter": [
+      "Eat it as a snack on its own, not as a side to a full breakfast set. One bun plus a hot milk tea is about 420 calories, which is a reasonable light breakfast.",
+      "Skip the butter slab. That single 10g piece adds 75 calories and most of the extra fat.",
+      "Pick the smaller buns from neighbourhood bakeries. The difference between a 65g bun and a 100g bun is about 130 calories.",
+      "If you want the crust, pull it off and eat that part, then leave half the plain bread. You keep the good bit for about 180 calories."
+    ],
+    "components": [
+      {
+        "name": "Sweet bun dough (flour, milk, sugar, egg)",
+        "grams": 65,
+        "calories": 200
+      },
+      {
+        "name": "Pineapple crust topping (sugar, flour, lard)",
+        "grams": 15,
+        "calories": 95
+      },
+      {
+        "name": "Egg wash",
+        "grams": 5,
+        "calories": 15
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small bakery bun (65g)",
+        "calories": 250
+      },
+      {
+        "label": "Standard bun (80g)",
+        "calories": 310
+      },
+      {
+        "label": "Large cha chaan teng bun (100g)",
+        "calories": 380
+      }
+    ],
+    "variants": [
+      {
+        "name": "Plain pineapple bun",
+        "calories": 310,
+        "note": "Standard 80g bun"
+      },
+      {
+        "name": "Bo lo yau (with butter)",
+        "calories": 390,
+        "note": "Adds a 10g cold butter slab"
+      },
+      {
+        "name": "Pineapple bun with custard filling",
+        "calories": 400,
+        "note": "Custard adds about 90 calories"
+      },
+      {
+        "name": "Pineapple bun with pork chop",
+        "calories": 620,
+        "note": "Fried bone-in chop inside the bun"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is there pineapple in a pineapple bun?",
+        "a": "No. The name refers to the cracked golden crust, which looks like pineapple skin. The bun is plain sweet bread with a sugar and lard topping, about 310 calories."
+      },
+      {
+        "q": "How many calories in a pineapple bun with butter?",
+        "a": "A bo lo yau with a 10g butter slab is roughly 390 calories. The butter alone is about 75 calories and doubles the fat content of the bun."
+      },
+      {
+        "q": "Is a pineapple bun a healthy breakfast?",
+        "a": "It is 310 calories with about 7g of protein and 48g of refined carbs, so it will not keep you full for long. It is fine as an occasional breakfast but pair it with something with protein, like an egg or a glass of milk."
+      }
+    ],
+    "related": [
+      "bo-lo-yau",
+      "cocktail-bun",
+      "hk-milk-tea",
+      "egg-tart"
+    ],
+    "source": "am730 HK dietitian bread ranking (310 kcal per bun); CFS Hong Kong bread survey for fat and sodium context"
+  },
+  {
+    "slug": "bo-lo-yau",
+    "name": "Bo Lo Yau (Pineapple Bun with Butter)",
+    "aka": [
+      "菠蘿油",
+      "Bo Lo Yau",
+      "Pineapple Bun with Butter",
+      "Polo Yau"
+    ],
+    "category": "snacks",
+    "region": [
+      "hk"
+    ],
+    "serving": "1 bun with butter",
+    "servingGrams": 90,
+    "calories": 390,
+    "protein": 7,
+    "carbs": 48,
+    "fat": 19,
+    "metaDescription": "A bo lo yau (pineapple bun with a cold slab of butter) is about 390 calories. The butter alone adds 75. Here is what you are actually eating.",
+    "summary": "Bo lo yau is a warm pineapple bun split open with a thick slice of cold butter pushed inside so it half melts. It is the signature cha chaan teng snack, usually HK$12 to HK$20 with a milk tea set.",
+    "answer": "One bo lo yau is around 390 calories: about 310 from the pineapple bun and 75 from the 10g butter slab. Fat nearly doubles compared to a plain bun, going from 10g to about 19g, because butter is almost pure fat.",
+    "realTalk": [
+      "The butter is the whole point and also the whole problem. A cha chaan teng slab is usually 10g, sometimes 15g at the generous places, and butter is 7.2 calories per gram. That means the slab is 75 to 110 calories with zero protein and zero carbs. It is the easiest calorie you will ever eat because it melts into the bun and you barely notice it is there.",
+      "A bo lo yau plus a hot milk tea is the classic afternoon tea set, and it lands at about 500 calories. That is a quarter of a normal adult's day in a snack that takes 5 minutes to eat. Compare it to a bowl of century egg congee at 260 calories, which will keep you full for three hours. The bun set will not.",
+      "Not all bo lo yau are equal. The famous places in Mong Kok and Sai Wan use bigger 100g buns and thicker butter, so those push 450 to 480 calories. A basic bakery bun with a thin slice is closer to 350. The tell is how much butter is visible when they bring it out. If you can see a yellow slab thicker than a HK$10 coin, assume the high end."
+    ],
+    "lighter": [
+      "Ask for half the butter. Most cha chaan tengs will do it and you save about 40 calories without losing the taste.",
+      "Order it with a hot lemon tea (36 calories) instead of milk tea (110) and the set drops to under 430.",
+      "Share one bun and each have a boiled egg or a small bowl of congee instead. You get the taste and some actual protein.",
+      "Treat it as a once a week snack rather than a daily 3pm habit. Five bo lo yau a week is nearly 2,000 calories, which is more than half a kilo of body fat per month if nothing else changes."
+    ],
+    "components": [
+      {
+        "name": "Pineapple bun",
+        "grams": 80,
+        "calories": 310
+      },
+      {
+        "name": "Cold butter slab",
+        "grams": 10,
+        "calories": 75
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small bun, thin butter",
+        "calories": 330
+      },
+      {
+        "label": "Standard bo lo yau",
+        "calories": 390
+      },
+      {
+        "label": "Large bun, thick 15g butter",
+        "calories": 470
+      }
+    ],
+    "variants": [
+      {
+        "name": "Plain pineapple bun",
+        "calories": 310,
+        "note": "No butter"
+      },
+      {
+        "name": "Bo lo yau",
+        "calories": 390,
+        "note": "10g butter slab"
+      },
+      {
+        "name": "Bo lo yau with condensed milk",
+        "calories": 440,
+        "note": "About a tablespoon drizzled in"
+      },
+      {
+        "name": "Bo lo yau with pork chop",
+        "calories": 680,
+        "note": "Fried chop plus butter"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How much butter is in a bo lo yau?",
+        "a": "Usually a 10g slab, sometimes 15g at generous places. That is 75 to 110 calories of pure fat added to a 310 calorie bun."
+      },
+      {
+        "q": "Is bo lo yau worse than a croissant?",
+        "a": "About the same. A plain croissant is around 270 calories with 14g fat; a bo lo yau is 390 with 19g fat but is also bigger. Per gram they are close."
+      },
+      {
+        "q": "Can I eat bo lo yau while losing weight?",
+        "a": "Yes, as long as it fits your day. At 390 calories it is a snack, not a meal. Have it and eat lighter at dinner, or skip the butter and save 75 calories."
+      }
+    ],
+    "related": [
+      "bo-lo-bao",
+      "hk-milk-tea",
+      "cocktail-bun",
+      "hk-french-toast"
+    ],
+    "source": "Estimate from components: am730 dietitian figure for pineapple bun (310 kcal) plus 10g butter"
+  },
+  {
+    "slug": "gai-daan-zai",
+    "name": "Egg Waffle (Gai Daan Zai)",
+    "aka": [
+      "雞蛋仔",
+      "Gai Daan Zai",
+      "Egg Puff",
+      "Eggette",
+      "Hong Kong Bubble Waffle"
+    ],
+    "category": "snacks",
+    "region": [
+      "hk"
+    ],
+    "serving": "1 full sheet",
+    "servingGrams": 110,
+    "calories": 390,
+    "protein": 9,
+    "carbs": 70,
+    "fat": 8,
+    "metaDescription": "One full sheet of gai daan zai (Hong Kong egg waffle) is about 390 calories, and the big ones hit 525. It looks light but it is mostly sugar and flour.",
+    "summary": "Gai daan zai is the honeycomb-shaped egg waffle sold from street carts and hole-in-the-wall shops across Hong Kong. One sheet has about 30 little egg-shaped bubbles, crisp outside and cakey inside, for HK$15 to HK$25.",
+    "answer": "A standard sheet of egg waffle is about 390 calories, based on the HK Department of Health figure of 389.5 kcal per piece. Larger sheets from the popular shops weigh more and land around 525 calories. Almost all of it is carbohydrate, about 70g, from flour and sugar.",
+    "realTalk": [
+      "This is the snack that fools people. It is airy, it is not greasy to the touch, and it feels like nothing. But the batter is flour, sugar, egg, evaporated milk and custard powder, and one sheet carries 70g of carbs. That is the same carb load as a bowl and a half of rice, eaten standing on the pavement in Mong Kok in about 6 minutes.",
+      "Sugar is the main driver. A typical batter uses around 30g of sugar per sheet, which is 115 calories before the flour even counts. That is why the outside caramelises and goes crisp. Fat is actually modest at about 8g, which is why it scores better than a Belgian style waffle (格仔餅) with butter, peanut butter and condensed milk, which the same data puts at 440 calories.",
+      "The trendy versions are worse. A matcha or chocolate chip sheet adds 40 to 80 calories. Roll it around a scoop of ice cream and you are at 550 or more. The plain original from a cart is the lowest calorie way to eat this, and at 390 it is still a full meal's worth of energy with only 9g of protein."
+    ],
+    "lighter": [
+      "Share one sheet between two people. Half a sheet is 195 calories, which is a fair snack.",
+      "Stick to the original flavour. Chocolate chip, cheese and matcha versions add 40 to 80 calories each.",
+      "Skip the ice cream roll. That version is over 550 calories, closer to a meal than a snack.",
+      "Eat it instead of dinner carbs, not on top of them. A sheet of egg waffle after a plate of siu mei rice is a 1,300 calorie evening."
+    ],
+    "components": [
+      {
+        "name": "Flour",
+        "grams": 50,
+        "calories": 180
+      },
+      {
+        "name": "Sugar",
+        "grams": 30,
+        "calories": 115
+      },
+      {
+        "name": "Egg",
+        "grams": 50,
+        "calories": 70
+      },
+      {
+        "name": "Evaporated milk",
+        "grams": 20,
+        "calories": 30
+      }
+    ],
+    "portions": [
+      {
+        "label": "Half sheet",
+        "calories": 195
+      },
+      {
+        "label": "Standard full sheet",
+        "calories": 390
+      },
+      {
+        "label": "Large shop sheet (about 150g)",
+        "calories": 525
+      }
+    ],
+    "variants": [
+      {
+        "name": "Original plain",
+        "calories": 390,
+        "note": "Standard cart sheet"
+      },
+      {
+        "name": "Chocolate chip",
+        "calories": 450,
+        "note": "Extra chocolate and sugar"
+      },
+      {
+        "name": "Cheese",
+        "calories": 470,
+        "note": "Shredded cheese in the batter"
+      },
+      {
+        "name": "Egg waffle with ice cream",
+        "calories": 560,
+        "note": "Rolled around one scoop"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in one gai daan zai?",
+        "a": "About 390 calories for a standard sheet, according to HK Department of Health data. The larger shop versions weigh more and reach 525 calories."
+      },
+      {
+        "q": "Is egg waffle healthier than a Belgian waffle?",
+        "a": "Slightly. Egg waffle is about 390 calories with 8g fat. A Hong Kong style grid waffle with butter, peanut butter and condensed milk is around 440 calories with 21g fat."
+      },
+      {
+        "q": "Why is egg waffle so high in calories if it is not fried?",
+        "a": "Because the batter has roughly 30g of sugar and 50g of flour per sheet. That is 70g of carbs, which is the bulk of the 390 calories. No oil needed."
+      }
+    ],
+    "related": [
+      "bo-lo-bao",
+      "curry-fish-balls",
+      "put-chai-ko",
+      "apam-balik"
+    ],
+    "source": "HK Department of Health / HK Food Exchange Handbook via healthyD.com (389.5 kcal per piece); HKET dietitian figure 525 kcal for large sheets"
+  },
+  {
+    "slug": "hk-milk-tea",
+    "name": "Hong Kong Milk Tea",
+    "aka": [
+      "港式奶茶",
+      "絲襪奶茶",
+      "Silk Stocking Milk Tea",
+      "Nai Cha",
+      "Cha Chaan Teng Milk Tea"
+    ],
+    "category": "drinks",
+    "region": [
+      "hk"
+    ],
+    "serving": "1 cup (hot, 240ml)",
+    "servingGrams": 240,
+    "calories": 110,
+    "protein": 3,
+    "carbs": 14,
+    "fat": 5,
+    "metaDescription": "A hot Hong Kong milk tea is about 110 calories per cup according to the Centre for Food Safety. Iced is 130. The evaporated milk is where the fat comes from.",
+    "summary": "Hong Kong milk tea is strong black tea pulled through a cloth filter and mixed with evaporated milk and sugar. Every cha chaan teng serves it, hot in a cup or iced in a glass, for about HK$18 to HK$25.",
+    "answer": "One cup of hot Hong Kong milk tea (240ml) is about 110 calories, based on Centre for Food Safety data. An iced milk tea (300ml) is around 130 calories at normal sweetness and 100 if you order it less sweet. The evaporated milk contributes most of the fat, about 5g per cup.",
+    "realTalk": [
+      "Milk tea on its own is not a big problem. At 110 calories a cup it is less than a can of Coke (140) and it comes with about 3g of protein from the evaporated milk. The problem is frequency. A lot of office workers in Central drink two a day, one at breakfast and one at 3:15pm with the afternoon tea set. That is 220 calories a day, over 1,500 a week, from a drink they do not count.",
+      "The evaporated milk is the calorie driver, not the tea. Black tea is about 2 calories per cup. A cha chaan teng adds around 50 to 60ml of evaporated milk, which is 70 to 80 calories and nearly all the fat. Then 7 to 8g of sugar adds another 30. If you order cha jau (茶走), where condensed milk replaces both the evaporated milk and the sugar, the cup goes up to around 170 calories because condensed milk is roughly 50 calories a tablespoon.",
+      "Iced is a bit higher than hot because the glass is bigger and needs more sugar to taste right over the ice. CFS puts iced milk tea at 130 calories at regular sweetness with about 22g of sugar, which is more than half of the daily 40g limit the WHO suggests. Order it siu tim (少甜, less sweet) and it drops to 100 calories and 15g sugar."
+    ],
+    "lighter": [
+      "Order siu tim or jau tim (少甜 / 走甜). Less sweet saves about 30 calories per glass; no sugar saves nearly 50.",
+      "Choose hot over iced. The hot cup is 240ml and 110 calories; iced is 300ml and 130.",
+      "Avoid cha jau. Condensed milk pushes the cup to about 170 calories.",
+      "If you drink two a day, make one of them a hot lemon tea at 36 calories. That single swap saves over 500 calories a week."
+    ],
+    "components": [
+      {
+        "name": "Strong black tea",
+        "grams": 180,
+        "calories": 2
+      },
+      {
+        "name": "Evaporated milk",
+        "grams": 55,
+        "calories": 75
+      },
+      {
+        "name": "Sugar",
+        "grams": 8,
+        "calories": 32
+      }
+    ],
+    "portions": [
+      {
+        "label": "Hot cup, less sweet",
+        "calories": 85
+      },
+      {
+        "label": "Hot cup, regular (240ml)",
+        "calories": 110
+      },
+      {
+        "label": "Iced glass, regular (300ml)",
+        "calories": 130
+      }
+    ],
+    "variants": [
+      {
+        "name": "Hot lemon tea",
+        "calories": 36,
+        "note": "No milk, half teaspoon sugar"
+      },
+      {
+        "name": "Hot milk tea",
+        "calories": 110,
+        "note": "Evaporated milk plus sugar"
+      },
+      {
+        "name": "Iced milk tea",
+        "calories": 130,
+        "note": "300ml, regular sweetness"
+      },
+      {
+        "name": "Cha jau (condensed milk)",
+        "calories": 170,
+        "note": "Condensed milk replaces evaporated milk and sugar"
+      },
+      {
+        "name": "Iced milk tea with pearls",
+        "calories": 170,
+        "note": "Bubble tea shop version, less sweet"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in a Hong Kong milk tea?",
+        "a": "About 110 calories for a hot 240ml cup and 130 for a 300ml iced glass at regular sweetness, according to the Centre for Food Safety."
+      },
+      {
+        "q": "Does Hong Kong milk tea have a lot of sugar?",
+        "a": "A hot cup has about 7g of sugar. An iced glass at regular sweetness has about 22g, which is over half the WHO daily suggestion of 40g."
+      },
+      {
+        "q": "Is milk tea worse than coffee for weight loss?",
+        "a": "Only slightly. A cha chaan teng hot coffee with milk is about 100 calories and milk tea is 110. Black coffee is 29. The milk and sugar matter more than the tea or coffee."
+      }
+    ],
+    "related": [
+      "yuenyeung",
+      "hk-lemon-tea",
+      "red-bean-ice",
+      "teh-tarik"
+    ],
+    "source": "Centre for Food Safety Hong Kong, Nutrient Content of Non-Prepackaged Beverages (110 kcal hot, 130 kcal iced)"
+  },
+  {
+    "slug": "yuenyeung",
+    "name": "Yuenyeung (Coffee Milk Tea)",
+    "aka": [
+      "鴛鴦",
+      "Yuanyang",
+      "Yin Yeung",
+      "Coffee with Tea",
+      "Hong Kong Coffee Milk Tea"
+    ],
+    "category": "drinks",
+    "region": [
+      "hk"
+    ],
+    "serving": "1 cup (hot, 240ml)",
+    "servingGrams": 240,
+    "calories": 130,
+    "protein": 3,
+    "carbs": 17,
+    "fat": 5,
+    "metaDescription": "A hot yuenyeung is about 130 calories and the iced version is 160, according to the Centre for Food Safety.",
+    "summary": "Yuenyeung is Hong Kong milk tea mixed with coffee, roughly 7 parts tea to 3 parts coffee, with evaporated milk and sugar. It is a cha chaan teng standard, hot or iced, for about HK$20.",
+    "answer": "A hot cup of yuenyeung (240ml) is about 130 calories. The iced version (300ml) is around 160 calories at regular sweetness or 120 less sweet. It runs about 20 calories higher than plain milk tea because the coffee bitterness gets balanced with a bit more sugar.",
+    "realTalk": [
+      "People assume yuenyeung and milk tea are the same calorie-wise. They are close but not identical. CFS data puts hot milk tea at 110 and hot yuenyeung at 130, with the difference being sugar: 7g in milk tea versus 12g in yuenyeung. Cha chaan tengs add more because coffee makes the drink more bitter and customers complain if it is not sweet enough.",
+      "The iced version is where it climbs. At 160 calories and 24g of sugar per 300ml glass, an iced yuenyeung is more than a can of Coke. Two of those a day, which is not unusual for anyone working long hours in Kwun Tong or Tsim Sha Tsui, is 320 calories and nearly 50g of sugar before you count any food.",
+      "The fat side is the same as milk tea: about 5g per cup, all from the 50ml or so of evaporated milk. That is not much on its own. The reason to care about this drink is really the sugar, which is why the less sweet order (少甜) knocks 40 calories off the iced version and brings it to 120, the same as a hot milk tea."
+    ],
+    "lighter": [
+      "Order iced yuenyeung less sweet (少甜). It drops from 160 to 120 calories and sugar goes from 24g to 17g.",
+      "Hot over iced. The 240ml hot cup is 130 calories versus 160 for the iced glass.",
+      "If you want the caffeine hit without the sugar, a hot cha chaan teng black coffee is about 29 calories.",
+      "Do not pair it with a bo lo yau every afternoon. That set is around 520 calories."
+    ],
+    "components": [
+      {
+        "name": "Black tea and coffee blend",
+        "grams": 170,
+        "calories": 5
+      },
+      {
+        "name": "Evaporated milk",
+        "grams": 50,
+        "calories": 70
+      },
+      {
+        "name": "Sugar",
+        "grams": 12,
+        "calories": 48
+      }
+    ],
+    "portions": [
+      {
+        "label": "Hot cup, less sweet",
+        "calories": 100
+      },
+      {
+        "label": "Hot cup, regular (240ml)",
+        "calories": 130
+      },
+      {
+        "label": "Iced glass, regular (300ml)",
+        "calories": 160
+      }
+    ],
+    "variants": [
+      {
+        "name": "Hot milk tea",
+        "calories": 110,
+        "note": "No coffee, less sugar"
+      },
+      {
+        "name": "Iced yuenyeung less sweet",
+        "calories": 120,
+        "note": "17g sugar"
+      },
+      {
+        "name": "Hot yuenyeung",
+        "calories": 130,
+        "note": "12g sugar"
+      },
+      {
+        "name": "Iced yuenyeung regular",
+        "calories": 160,
+        "note": "24g sugar"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in an iced yuenyeung?",
+        "a": "About 160 calories for a 300ml glass at regular sweetness, or 120 calories if you order it less sweet, based on Centre for Food Safety figures."
+      },
+      {
+        "q": "Is yuenyeung higher in calories than milk tea?",
+        "a": "Yes, by about 20 to 30 calories. Hot yuenyeung is 130 versus 110 for milk tea, mostly because more sugar is added to balance the coffee."
+      },
+      {
+        "q": "How much caffeine is in yuenyeung?",
+        "a": "Roughly 100 to 150mg per cup, since it combines strong tea and coffee. That is similar to a regular cup of brewed coffee."
+      }
+    ],
+    "related": [
+      "hk-milk-tea",
+      "hk-lemon-tea",
+      "red-bean-ice",
+      "kopi-tarik"
+    ],
+    "source": "Centre for Food Safety Hong Kong, Nutrient Content of Non-Prepackaged Beverages (130 kcal hot, 160 kcal iced)"
+  },
+  {
+    "slug": "hk-lemon-tea",
+    "name": "Hong Kong Iced Lemon Tea",
+    "aka": [
+      "凍檸茶",
+      "Dung Ling Cha",
+      "Iced Lemon Tea",
+      "檸茶",
+      "Cha Chaan Teng Lemon Tea"
+    ],
+    "category": "drinks",
+    "region": [
+      "hk"
+    ],
+    "serving": "1 glass (iced, 300ml)",
+    "servingGrams": 300,
+    "calories": 140,
+    "protein": 0,
+    "carbs": 35,
+    "fat": 0,
+    "metaDescription": "A cha chaan teng iced lemon tea is about 140 calories and 25g of sugar per glass. Order it less sweet and it drops to 90. The hot version is only 36.",
+    "summary": "Iced lemon tea is black tea over ice with three or four lemon slices you crush with a long spoon, sweetened with syrup. It is the most ordered cold drink in Hong Kong cha chaan tengs, about HK$18 to HK$22.",
+    "answer": "One 300ml glass of iced lemon tea at regular sweetness is about 140 calories, all from roughly 25g of sugar syrup. Order it less sweet (少甜) and it drops to around 90 calories. The hot version with half a teaspoon of sugar is only 36 calories.",
+    "realTalk": [
+      "This drink has a health halo it does not deserve. No milk, has lemon, looks light. But the tea and lemon contribute almost nothing; CFS data shows the 140 calories come entirely from about 25g of sugar syrup, which is 6 teaspoons. That is more sugar than a glass of iced milk tea (22g). It just does not taste as sweet because the lemon masks it.",
+      "The gap between hot and iced is huge. Hot lemon tea at a cha chaan teng is 36 calories because they give you a small cup and half a teaspoon of sugar. Iced is a 300ml glass and the syrup goes in by the ladle. Same ingredients, nearly four times the calories. If you are drinking it for the lemon, the hot one gives you that for basically nothing.",
+      "Less sweet actually works here more than with milk drinks. Because there is no milk fat, the sugar is the only variable. CFS puts less-sweet iced lemon tea at 90 calories and 18g sugar. Ask for no sugar (走甜) and it is under 15 calories, and you can still crush the lemon in and have a drink that tastes like something."
+    ],
+    "lighter": [
+      "Order it 走甜 (no sugar). You get the same tea and lemon for under 15 calories.",
+      "If no sugar is too harsh, 少甜 (less sweet) brings it to 90 calories, saving 50.",
+      "Go hot instead of iced when you can. Hot lemon tea is 36 calories.",
+      "Crush the lemon slices hard and let the drink sit a minute. The stronger lemon flavour makes the reduced sugar version taste fine."
+    ],
+    "components": [
+      {
+        "name": "Black tea",
+        "grams": 250,
+        "calories": 2
+      },
+      {
+        "name": "Sugar syrup",
+        "grams": 33,
+        "calories": 130
+      },
+      {
+        "name": "Lemon slices",
+        "grams": 20,
+        "calories": 5
+      }
+    ],
+    "portions": [
+      {
+        "label": "Iced, less sweet",
+        "calories": 90
+      },
+      {
+        "label": "Iced, regular (300ml)",
+        "calories": 140
+      },
+      {
+        "label": "Large takeaway cup (500ml)",
+        "calories": 230
+      }
+    ],
+    "variants": [
+      {
+        "name": "Iced lemon tea, no sugar",
+        "calories": 15,
+        "note": "走甜"
+      },
+      {
+        "name": "Hot lemon tea",
+        "calories": 36,
+        "note": "Half teaspoon sugar"
+      },
+      {
+        "name": "Iced lemon tea, less sweet",
+        "calories": 90,
+        "note": "少甜, 18g sugar"
+      },
+      {
+        "name": "Iced lemon tea, regular",
+        "calories": 140,
+        "note": "25g sugar"
+      },
+      {
+        "name": "Iced lemon honey",
+        "calories": 100,
+        "note": "Honey instead of syrup, still 21g sugar"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How much sugar is in a Hong Kong iced lemon tea?",
+        "a": "About 25g at regular sweetness, roughly 6 teaspoons. That is more than half the WHO daily suggestion of 40g, in one glass."
+      },
+      {
+        "q": "Is iced lemon tea healthier than milk tea?",
+        "a": "Barely. Iced lemon tea is 140 calories and iced milk tea is 130. Lemon tea has no fat but more sugar. Order either one less sweet and the difference shrinks to nothing."
+      },
+      {
+        "q": "Does iced lemon tea help with weight loss?",
+        "a": "Only the no-sugar version. At 140 calories a glass, the regular version is a small snack's worth of pure sugar. Order 走甜 and it becomes a near-zero calorie drink."
+      }
+    ],
+    "related": [
+      "hk-milk-tea",
+      "yuenyeung",
+      "red-bean-ice",
+      "teh-o-limau"
+    ],
+    "source": "Centre for Food Safety Hong Kong, Nutrient Content of Non-Prepackaged Beverages (140 kcal regular, 90 kcal less sweet, 36 kcal hot)"
+  },
+  {
+    "slug": "red-bean-ice",
+    "name": "Red Bean Ice",
+    "aka": [
+      "紅豆冰",
+      "Hung Dau Bing",
+      "Red Bean Icy Drink",
+      "Iced Red Bean with Evaporated Milk"
+    ],
+    "category": "drinks",
+    "region": [
+      "hk"
+    ],
+    "serving": "1 glass (300ml)",
+    "servingGrams": 300,
+    "calories": 260,
+    "protein": 4,
+    "carbs": 48,
+    "fat": 5,
+    "metaDescription": "Red bean ice is the highest calorie drink on the cha chaan teng menu at about 260 calories and 36g sugar per glass. Here is why and what to order instead.",
+    "summary": "Red bean ice is a tall glass of sweetened red beans, crushed ice, evaporated milk and syrup, eaten with a long spoon. It is the classic Hong Kong summer drink, about HK$22 to HK$28 at a cha chaan teng.",
+    "answer": "One 300ml glass of red bean ice is about 260 calories with 36g of sugar, according to Centre for Food Safety testing. That makes it the highest calorie drink on a typical cha chaan teng menu, roughly double an iced milk tea (130). Ordering it less sweet only brings it down to about 240.",
+    "realTalk": [
+      "Red bean ice tops every cha chaan teng drink ranking in Hong Kong. CFS measured it at 87 calories per 100ml, which is more than a cola (about 42). The reason is that the red beans are cooked in sugar before they go in, then the drink gets syrup, then evaporated milk on top. There are three separate sugar sources in one glass. A 300ml glass ends up around 260 calories, equal to a bowl of rice.",
+      "The evaporated milk is the only thing giving you any nutrition. About 50ml adds 70 calories, 4g of protein and most of the 5g of fat. The beans themselves have some fibre, but 100g of sweetened red bean paste is about 150 calories, and that is what the bottom third of the glass is. So a drink that looks like a snack is really dessert.",
+      "Less sweet barely helps here. CFS found the less-sweet version still lands at 240 calories and 30g sugar, because the beans are pre-sweetened and the shop cannot take that out. This is one drink where the 少甜 order does very little. If you want it, have it as your dessert, not as your drink with lunch."
+    ],
+    "lighter": [
+      "Treat it as dessert. If you order red bean ice, skip the tong sui or the egg tart after.",
+      "Share it. Two spoons in one glass is a 130 calorie treat each.",
+      "If you want something cold and milky for fewer calories, an iced milk tea is 130 and an iced lemon tea less sweet is 90.",
+      "Ask for less syrup (少糖水), not just less sweet. Some shops will hold back the extra syrup and that saves around 40 calories."
+    ],
+    "components": [
+      {
+        "name": "Sweetened red beans",
+        "grams": 100,
+        "calories": 150
+      },
+      {
+        "name": "Evaporated milk",
+        "grams": 50,
+        "calories": 70
+      },
+      {
+        "name": "Sugar syrup",
+        "grams": 10,
+        "calories": 40
+      },
+      {
+        "name": "Crushed ice",
+        "grams": 140,
+        "calories": 0
+      }
+    ],
+    "portions": [
+      {
+        "label": "Less sweet glass",
+        "calories": 240
+      },
+      {
+        "label": "Regular glass (300ml)",
+        "calories": 260
+      },
+      {
+        "label": "Large glass with extra beans",
+        "calories": 340
+      }
+    ],
+    "variants": [
+      {
+        "name": "Iced lemon tea",
+        "calories": 140,
+        "note": "For comparison"
+      },
+      {
+        "name": "Iced yuenyeung",
+        "calories": 160,
+        "note": "For comparison"
+      },
+      {
+        "name": "Red bean ice, less sweet",
+        "calories": 240,
+        "note": "Beans are still pre-sweetened"
+      },
+      {
+        "name": "Tri-colour ice (三色冰)",
+        "calories": 250,
+        "note": "Red bean, grass jelly, sago"
+      },
+      {
+        "name": "Red bean ice, regular",
+        "calories": 260,
+        "note": "36g sugar"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in a red bean ice?",
+        "a": "About 260 calories per 300ml glass, with 36g of sugar, based on Centre for Food Safety data. It is the highest calorie drink on most cha chaan teng menus."
+      },
+      {
+        "q": "Is red bean ice healthy because of the beans?",
+        "a": "The beans add a little fibre and protein, but they are cooked in sugar. A glass has as many calories as a bowl of rice. It is closer to a dessert than a healthy drink."
+      },
+      {
+        "q": "Does ordering red bean ice less sweet help?",
+        "a": "Only a little. Less sweet drops it from 260 to about 240 calories because the beans are already sweetened before they go in the glass."
+      }
+    ],
+    "related": [
+      "hk-milk-tea",
+      "hk-lemon-tea",
+      "mango-pomelo-sago",
+      "ais-kacang"
+    ],
+    "source": "Centre for Food Safety Hong Kong, Nutrient Content of Non-Prepackaged Beverages (260 kcal regular, 240 kcal less sweet per 300ml)"
+  },
+  {
+    "slug": "macaroni-ham-soup",
+    "name": "Macaroni in Soup with Ham",
+    "aka": [
+      "火腿通粉",
+      "Fo Teoi Tung Fan",
+      "Ham Macaroni Soup",
+      "Cha Chaan Teng Macaroni",
+      "餐蛋通粉"
+    ],
+    "category": "western",
+    "region": [
+      "hk"
+    ],
+    "serving": "1 bowl",
+    "servingGrams": 450,
+    "calories": 320,
+    "protein": 14,
+    "carbs": 48,
+    "fat": 8,
+    "metaDescription": "A cha chaan teng bowl of macaroni in soup with ham is about 320 calories, one of the lightest breakfasts on the menu.",
+    "summary": "Macaroni in clear chicken broth with a few slices of ham is the standard Hong Kong cha chaan teng breakfast, usually served in a set with buttered toast and a hot drink for about HK$30 to HK$40.",
+    "answer": "One bowl of ham macaroni soup is around 320 calories, based on a Hong Kong dietitian tally of cha chaan teng breakfasts. About 200 of that is the macaroni, 50 is the ham, and the broth is nearly free. It is one of the lowest calorie hot breakfasts on the menu.",
+    "realTalk": [
+      "Of everything on the cha chaan teng breakfast board, this is the one to order. Ham macaroni soup at 320 calories beats satay beef noodles (667), luncheon meat and egg instant noodles (785) and a buttered toast with fried egg (427). The macaroni is boiled, not fried, and the ham is lean. The broth is mostly water with a bit of chicken stock powder, around 40 calories a bowl.",
+      "The set is the trap. The macaroni bowl comes as a breakfast set with two slices of buttered toast (about 250 calories) and a hot milk tea (110). That takes a 320 calorie bowl to a 680 calorie breakfast. Ask for the toast without butter and it drops by about 100, or skip the toast and the whole thing stays under 450 with the tea.",
+      "Watch the protein swap. Ham gives you about 14g of protein for 50 calories. Change it to luncheon meat (餐肉) and the same two slices are 190 calories with double the fat. Change it to a fried egg on top (煎蛋) and add another 110. The 餐蛋通粉 version, with both, is closer to 600 calories and is one of the most popular orders in Hong Kong."
+    ],
+    "lighter": [
+      "Order the macaroni with ham, not luncheon meat. That single swap saves about 140 calories.",
+      "Ask for the toast dry (多士走油) or skip it. Buttered toast in the set is about 250 calories.",
+      "Add a boiled egg instead of a fried one for 70 calories and an extra 6g of protein.",
+      "Do not drink all the soup. It is low in calories but a cha chaan teng broth can carry over 1,000mg of sodium."
+    ],
+    "components": [
+      {
+        "name": "Cooked macaroni",
+        "grams": 150,
+        "calories": 200
+      },
+      {
+        "name": "Ham slices",
+        "grams": 40,
+        "calories": 50
+      },
+      {
+        "name": "Chicken broth",
+        "grams": 250,
+        "calories": 40
+      },
+      {
+        "name": "Spring onion and oil",
+        "grams": 5,
+        "calories": 30
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small bowl",
+        "calories": 250
+      },
+      {
+        "label": "Standard bowl",
+        "calories": 320
+      },
+      {
+        "label": "Full set with buttered toast and milk tea",
+        "calories": 680
+      }
+    ],
+    "variants": [
+      {
+        "name": "Plain macaroni soup",
+        "calories": 270,
+        "note": "No ham"
+      },
+      {
+        "name": "Ham macaroni soup",
+        "calories": 320,
+        "note": "Standard"
+      },
+      {
+        "name": "Tomato beef macaroni",
+        "calories": 370,
+        "note": "Tomato broth with beef slices"
+      },
+      {
+        "name": "Luncheon meat and egg macaroni",
+        "calories": 600,
+        "note": "餐蛋通粉"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in a cha chaan teng macaroni breakfast?",
+        "a": "The ham macaroni bowl alone is about 320 calories. The full set with buttered toast and milk tea is around 680."
+      },
+      {
+        "q": "Is macaroni soup a good breakfast for weight loss?",
+        "a": "Yes, relative to the other options. At 320 calories with 14g protein it is lighter than almost everything else on a cha chaan teng menu. Just skip the buttered toast."
+      },
+      {
+        "q": "What is the difference between ham and luncheon meat in calories?",
+        "a": "Two slices of ham are about 50 calories. Two slices of fried luncheon meat are about 190. Luncheon meat has roughly four times the fat."
+      }
+    ],
+    "related": [
+      "luncheon-meat-noodles",
+      "tomato-beef-noodles",
+      "satay-beef-noodles",
+      "hk-milk-tea"
+    ],
+    "source": "HK01 registered dietitian ranking of 12 cha chaan teng items (ham macaroni 320 kcal)"
+  },
+  {
+    "slug": "curry-fish-balls",
+    "name": "Curry Fish Balls",
+    "aka": [
+      "咖喱魚蛋",
+      "Ga Lei Yu Daan",
+      "Hong Kong Fish Balls",
+      "Street Fish Balls",
+      "咖哩魚蛋"
+    ],
+    "category": "snacks",
+    "region": [
+      "hk"
+    ],
+    "serving": "1 skewer (6 balls with curry sauce)",
+    "servingGrams": 100,
+    "calories": 120,
+    "protein": 8,
+    "carbs": 12,
+    "fat": 4,
+    "metaDescription": "A skewer of Hong Kong curry fish balls is about 120 calories with the sauce. The balls are only 65 to 75; the curry coating adds the rest.",
+    "summary": "Curry fish balls are the number one Hong Kong street snack: bouncy fried fish balls simmered in a spicy curry gravy, served 5 to 7 on a bamboo skewer for about HK$10 to HK$15 from carts in Mong Kok, Sham Shui Po and outside every MTR exit.",
+    "answer": "One skewer of six curry fish balls with sauce is about 120 calories. The fish balls themselves are 65 to 76 calories for 5 or 6 pieces, according to Hong Kong Department of Health figures, and the curry gravy clinging to them adds roughly 45 more. Protein is around 8g per skewer.",
+    "realTalk": [
+      "Fish balls are the cheapest calories on the street in the good sense. Six balls without sauce are about 76 calories, which is less than a single egg tart (195). The Centre for Health Protection lists them at the very bottom of its street snack ranking, under stinky tofu (174 a piece), fried intestine (160 a skewer) and egg waffle (390 a sheet). Two skewers is still under 250 calories.",
+      "The sauce is where it moves. Hong Kong curry gravy at a street cart is oil, curry powder and a lot of starch to make it stick. A tablespoon is about 51 calories. Most skewers pick up two to three tablespoons of coating, so the sauce can be worth more than the fish balls. If the cart lets the skewer drain before handing it over, you are closer to 100. If it comes dripping, closer to 150.",
+      "The real issue is sodium, not calories. One skewer of six with curry gravy carries around 600mg of sodium, nearly a third of the 2,000mg daily limit. Add the sweet sauce and chili that most people squeeze on top and it goes higher. So while this is the lightest thing on the cart for calories, it is one of the saltiest, which matters if you have blood pressure to watch."
+    ],
+    "lighter": [
+      "Let the skewer drain over the pot before you take it. That knocks the sauce down by about a third.",
+      "Skip the sweet sauce and chili on top. Each squeeze is 15 to 20 calories and more sodium.",
+      "Pick fish balls over siu mai at the same cart. Six siu mai are about 294 calories, four times the fish balls.",
+      "One skewer plus a bottle of water is a fine 120 calorie snack. Two skewers and a soft drink is 400."
+    ],
+    "components": [
+      {
+        "name": "Fish balls (6 pieces)",
+        "grams": 85,
+        "calories": 76
+      },
+      {
+        "name": "Curry gravy coating",
+        "grams": 20,
+        "calories": 45
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small skewer (5 balls)",
+        "calories": 100
+      },
+      {
+        "label": "Standard skewer (6 balls with sauce)",
+        "calories": 120
+      },
+      {
+        "label": "Cup of 12 balls with extra sauce",
+        "calories": 260
+      }
+    ],
+    "variants": [
+      {
+        "name": "Fish balls, plain in clear soup",
+        "calories": 80,
+        "note": "Six pieces, no curry"
+      },
+      {
+        "name": "Curry fish balls",
+        "calories": 120,
+        "note": "Standard skewer"
+      },
+      {
+        "name": "Curry fish balls with sweet sauce and chili",
+        "calories": 150,
+        "note": "Two extra squeezes"
+      },
+      {
+        "name": "Fish siu mai (6 pieces)",
+        "calories": 294,
+        "note": "Same cart, four times the calories"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in a skewer of curry fish balls?",
+        "a": "About 120 calories for six balls with curry sauce. The fish balls alone are around 76 calories according to HK Department of Health data; the sauce adds the rest."
+      },
+      {
+        "q": "Are curry fish balls healthy?",
+        "a": "They are low in calories and have about 8g of protein per skewer, but very high in sodium at around 600mg. Fine as a snack, not great as a daily habit."
+      },
+      {
+        "q": "Fish balls or siu mai, which is lighter?",
+        "a": "Fish balls by a wide margin. Six fish balls are about 76 calories; six fish siu mai are about 294 because siu mai has more starch and fat."
+      }
+    ],
+    "related": [
+      "gai-daan-zai",
+      "stinky-tofu",
+      "fish-ball-noodles",
+      "lok-lok"
+    ],
+    "source": "HK Department of Health / HK Food Exchange Handbook via healthyD (76 kcal per 6 fish balls, 51 kcal per tbsp curry sauce); Centre for Health Protection via Medical Inspire (65 kcal per 5 balls)"
+  },
+  {
+    "slug": "century-egg-pork-congee",
+    "name": "Century Egg and Pork Congee",
+    "aka": [
+      "皮蛋瘦肉粥",
+      "Pei Daan Sau Yuk Zuk",
+      "Preserved Egg and Lean Pork Congee",
+      "Century Egg Porridge"
+    ],
+    "category": "soup",
+    "region": [
+      "hk"
+    ],
+    "serving": "1 bowl",
+    "servingGrams": 470,
+    "calories": 260,
+    "protein": 14,
+    "carbs": 38,
+    "fat": 6,
+    "metaDescription": "A bowl of century egg and lean pork congee is about 260 calories according to the Centre for Food Safety.",
+    "summary": "Pei daan sau yuk zuk is rice cooked down for hours into a smooth porridge, with slivers of lean pork and chunks of century egg stirred through. Congee shops and cha chaan tengs serve it from 6am, about HK$25 to HK$35 a bowl.",
+    "answer": "One bowl of century egg and lean pork congee (about 470g) is around 260 calories, per Centre for Food Safety analysis of Hong Kong congee shops. About 170 calories is the rice congee, 45 is the pork, and 45 is half a century egg. Protein comes in around 14g.",
+    "realTalk": [
+      "This is the meal that makes volume eating easy in Hong Kong. A 470g bowl for 260 calories is about the same as a single pineapple bun (310), and it takes 15 minutes to get through. Rice congee is mostly water: the rice itself is only about 40g dry per bowl, stretched into nearly half a kilo of food. You feel full for hours on very little.",
+      "The toppings are cheap on calories too. Lean pork slivers are around 30g per bowl, roughly 45 calories and 7g of protein. Half a century egg is about 45 calories and another 3g of protein. The whole bowl is only 6g of fat, which is less than one slab of cha chaan teng butter. Compare that to boat congee (300) or pig giblet congee (310) and the century egg version is the lightest of the popular ones.",
+      "What ruins it is the side order. Almost everyone gets a yau tiu (fried dough stick) to dip, and one stick is about 270 calories, more than the congee itself. A zha leung (rice roll wrapped around a dough stick) is 450. So the bowl of congee is 260, but the typical congee shop breakfast with dough stick and a milk tea is 640. The congee was never the problem."
+    ],
+    "lighter": [
+      "Skip the fried dough stick. It adds 270 calories, more than the whole bowl of congee.",
+      "Ask for extra lean pork (加瘦肉) if the shop does it. About 40 more calories for 7g more protein.",
+      "Add a plain steamed rice roll instead of zha leung if you want something to chew. About 130 calories versus 450.",
+      "Go easy on the soy sauce and white pepper. No calories, but a congee shop bowl is already high in sodium from the century egg and stock."
+    ],
+    "components": [
+      {
+        "name": "Rice congee",
+        "grams": 400,
+        "calories": 170
+      },
+      {
+        "name": "Lean pork slivers",
+        "grams": 30,
+        "calories": 45
+      },
+      {
+        "name": "Century egg (half)",
+        "grams": 25,
+        "calories": 45
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small bowl",
+        "calories": 200
+      },
+      {
+        "label": "Standard bowl (470g)",
+        "calories": 260
+      },
+      {
+        "label": "Large bowl with extra egg",
+        "calories": 340
+      }
+    ],
+    "variants": [
+      {
+        "name": "Plain congee",
+        "calories": 140,
+        "note": "450g, no toppings"
+      },
+      {
+        "name": "Century egg and lean pork congee",
+        "calories": 260,
+        "note": "Standard bowl"
+      },
+      {
+        "name": "Boat congee (艇仔粥)",
+        "calories": 300,
+        "note": "Fish, squid, peanuts, pork skin"
+      },
+      {
+        "name": "Pig giblet congee (及第粥)",
+        "calories": 310,
+        "note": "Liver, kidney, intestine"
+      },
+      {
+        "name": "Congee with fried dough stick",
+        "calories": 530,
+        "note": "One yau tiu on the side"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in century egg pork congee?",
+        "a": "About 260 calories per 470g bowl, according to Centre for Food Safety data from Hong Kong congee shops."
+      },
+      {
+        "q": "Is congee good for weight loss?",
+        "a": "Yes, if you skip the fried dough stick. A bowl is 260 calories, very filling, and has 14g of protein. The dough stick adds 270 calories on its own."
+      },
+      {
+        "q": "Is century egg high in calories?",
+        "a": "No. One whole century egg is about 90 calories, similar to a regular egg. Half an egg goes into a bowl of congee, about 45 calories."
+      }
+    ],
+    "related": [
+      "zha-leung",
+      "wonton-soup",
+      "bubur-ayam",
+      "cart-noodles"
+    ],
+    "source": "Centre for Food Safety Hong Kong, Nutrient Values of Indigenous Congee, Rice and Noodle Dishes (260 kcal per 470g)"
+  },
+  {
+    "slug": "cart-noodles",
+    "name": "Cart Noodles (Che Zai Min)",
+    "aka": [
+      "車仔麵",
+      "Che Zai Min",
+      "Cart Noodle",
+      "Hong Kong Cart Noodles"
+    ],
+    "category": "noodles",
+    "region": [
+      "hk"
+    ],
+    "serving": "1 bowl (oil noodles, brisket, pork blood, choy sum, curry soup)",
+    "servingGrams": 600,
+    "calories": 570,
+    "protein": 28,
+    "carbs": 60,
+    "fat": 24,
+    "metaDescription": "A typical bowl of Hong Kong cart noodles is about 570 calories, but it ranges from 280 to 850 depending on what you pick.",
+    "summary": "Cart noodles are the build-your-own bowl of Hong Kong: pick a noodle, a soup base and three or four toppings from a wall of choices at the counter. About HK$35 to HK$50 depending on toppings.",
+    "answer": "A typical bowl of cart noodles with oil noodles, beef brisket, pork blood, choy sum and curry soup is around 570 calories. The same bowl built with rice vermicelli, fish balls, tofu and clear soup is about 360. A heavy build with pork skin, sausage, fried bean curd and satay soup reaches 850.",
+    "realTalk": [
+      "Cart noodles are the only Hong Kong meal where you set the calorie count yourself at the counter. The noodle choice alone swings 100 calories: rice vermicelli is about 175 for a serving, oil noodles 220, instant noodles (出前一丁) 280 and up. Then the soup base adds anywhere from 40 for clear broth to 130 for satay. Before a single topping goes in, the bowl is somewhere between 215 and 410.",
+      "Toppings are where people lose track. Pork skin looks harmless but it is about 230 calories a portion because it is fried before it is braised. Beef brisket is 200, sausage 210, fried fish skin 140, pork intestine 180. On the other side, pork blood is 65, braised tofu 75, fish balls 95, white radish under 30. Three heavy toppings versus three light ones is a 400 calorie difference in the same bowl.",
+      "The 570 calorie bowl above is what most people actually order: oil noodles, brisket, something cheap like pork blood, a green, curry soup. It is a decent meal with 28g of protein. The danger bowl is the one built by hunger at 11pm in Sham Shui Po: instant noodles, satay soup, pork skin, sausage, fried bean curd. That is 850 calories and around 45g of fat, with less protein than the lighter bowl."
+    ],
+    "lighter": [
+      "Pick rice vermicelli or flat rice noodles over oil noodles or instant noodles. Saves 50 to 100 calories.",
+      "Clear soup or brisket gravy (腩汁) over curry or satay. Saves up to 90 calories.",
+      "Choose two lean toppings (brisket, tofu, fish balls, pork blood, radish) instead of pork skin, sausage or fried bean curd.",
+      "Always add a green. Choy sum or lettuce is under 20 calories and makes the bowl bigger.",
+      "Leave half the soup. Satay and curry bases can carry over 1,200mg of sodium a bowl."
+    ],
+    "components": [
+      {
+        "name": "Oil noodles",
+        "grams": 150,
+        "calories": 220
+      },
+      {
+        "name": "Beef brisket",
+        "grams": 90,
+        "calories": 200
+      },
+      {
+        "name": "Pork blood",
+        "grams": 90,
+        "calories": 65
+      },
+      {
+        "name": "Choy sum",
+        "grams": 50,
+        "calories": 10
+      },
+      {
+        "name": "Curry soup base",
+        "grams": 300,
+        "calories": 80
+      }
+    ],
+    "portions": [
+      {
+        "label": "Light build (vermicelli, fish balls, tofu, clear soup)",
+        "calories": 360
+      },
+      {
+        "label": "Typical build (oil noodles, brisket, pork blood, curry)",
+        "calories": 570
+      },
+      {
+        "label": "Heavy build (instant noodles, pork skin, sausage, satay)",
+        "calories": 850
+      }
+    ],
+    "variants": [
+      {
+        "name": "Glass noodles, pork blood, radish, lettuce, clear soup",
+        "calories": 280,
+        "note": "Lightest common build"
+      },
+      {
+        "name": "Vermicelli, fish balls, tofu, choy sum, clear soup",
+        "calories": 360,
+        "note": "Good protein, low fat"
+      },
+      {
+        "name": "Oil noodles, brisket, pork blood, choy sum, curry",
+        "calories": 570,
+        "note": "Typical order"
+      },
+      {
+        "name": "Oil noodles, pork skin, intestine, fried bean curd, satay",
+        "calories": 850,
+        "note": "Heaviest common build"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in a bowl of cart noodles?",
+        "a": "Anywhere from about 280 to 850 depending on your choices. A typical bowl with oil noodles, brisket, curry soup and two other toppings is around 570."
+      },
+      {
+        "q": "Which cart noodle topping has the most calories?",
+        "a": "Pork skin, at about 230 calories a portion, because it is deep fried before braising. Sausage (210) and brisket (200) are close behind."
+      },
+      {
+        "q": "Which soup base is lowest in calories?",
+        "a": "Clear broth at about 40 calories a bowl. Brisket gravy is around 70, curry 80 to 150 and satay 100 to 180."
+      }
+    ],
+    "related": [
+      "beef-brisket-noodles",
+      "satay-beef-noodles",
+      "curry-fish-balls",
+      "wantan-mee"
+    ],
+    "source": "Noah HK cart noodle calorie guide (per-component figures and 570 kcal example bowl); HK01 dietitian cart noodle topping table"
+  },
+  {
+    "slug": "baked-pork-chop-rice",
+    "name": "Baked Pork Chop Rice",
+    "aka": [
+      "焗豬扒飯",
+      "Guk Zyu Paa Faan",
+      "Hong Kong Baked Pork Chop Rice",
+      "Pork Chop Baked Rice"
+    ],
+    "category": "western",
+    "region": [
+      "hk"
+    ],
+    "serving": "1 plate",
+    "servingGrams": 710,
+    "calories": 1300,
+    "protein": 50,
+    "carbs": 135,
+    "fat": 60,
+    "metaDescription": "A cha chaan teng baked pork chop rice is about 1,300 calories per plate according to the Centre for Food Safety. That is most of a day's food in one dish.",
+    "summary": "Baked pork chop rice is a fried breaded pork chop on egg fried rice, covered in tomato sauce and cheese, then baked until the top bubbles. It is the heaviest thing on most Hong Kong cha chaan teng menus, about HK$55 to HK$75.",
+    "answer": "One plate of baked pork chop rice (about 710g) is around 1,300 calories, per Centre for Food Safety testing of Hong Kong restaurants. It carries roughly 60g of fat and 135g of carbs. The fried rice base is about 500 calories, the fried chop about 450, and the sauce and cheese another 300.",
+    "realTalk": [
+      "There is nothing light anywhere on this plate. The rice is fried with egg before it goes in the dish (about 500 calories). The pork chop is battered and deep fried (about 450). Then it gets tomato sauce that has been cooked with oil and sugar (150) and a layer of cheese (160). Four separate fat sources, stacked, then baked. CFS measured it at 1,300 calories, which is more than two roast goose rice plates would cost you in fat.",
+      "Sodium is the other number. The CFS sample came in over 2,000mg per plate, which is the entire daily limit in one lunch. Between the cheese, the sauce and the seasoning in the fried rice, this is one of the saltiest dishes in a cha chaan teng, and it comes with a drink that adds more sugar. A baked pork chop rice with an iced lemon tea is about 1,440 calories.",
+      "The comparison people should see: a plate of steamed rice with a pan-fried pork chop and a bit of gravy (碟頭飯 style) is about 700 calories. Same pork, same rice, half the calories, because nothing is deep fried or covered in cheese. The baked version is the same ingredients with 600 calories of cooking method added on top. The taste difference is real, but so is the number."
+    ],
+    "lighter": [
+      "Order pork chop rice (豬扒飯) instead of baked pork chop rice. The unbaked plate version is around 700 calories.",
+      "If you want the baked one, ask for less rice (少飯). Cha chaan tengs will usually do it and it saves 150 to 200 calories.",
+      "Leave the rice at the edges where the sauce pools. Most of the oil is there.",
+      "Share it. Half a plate plus a bowl of borscht (90 calories) is a 740 calorie lunch with plenty of protein.",
+      "Make it your only big meal that day. A 1,300 calorie lunch plus a normal dinner is well over 2,000 for most people."
+    ],
+    "components": [
+      {
+        "name": "Egg fried rice base",
+        "grams": 300,
+        "calories": 500
+      },
+      {
+        "name": "Fried breaded pork chop",
+        "grams": 180,
+        "calories": 450
+      },
+      {
+        "name": "Tomato sauce",
+        "grams": 150,
+        "calories": 150
+      },
+      {
+        "name": "Cheese topping",
+        "grams": 40,
+        "calories": 160
+      }
+    ],
+    "portions": [
+      {
+        "label": "Less rice (少飯)",
+        "calories": 1100
+      },
+      {
+        "label": "Standard plate (710g)",
+        "calories": 1300
+      },
+      {
+        "label": "Large fast food portion with extra cheese",
+        "calories": 1500
+      }
+    ],
+    "variants": [
+      {
+        "name": "Pork chop rice, plate style (not baked)",
+        "calories": 700,
+        "note": "Steamed rice, pan-fried chop, gravy"
+      },
+      {
+        "name": "Baked chicken chop rice",
+        "calories": 1100,
+        "note": "Chicken thigh instead of pork"
+      },
+      {
+        "name": "Baked pork chop rice",
+        "calories": 1300,
+        "note": "Standard cha chaan teng"
+      },
+      {
+        "name": "Baked pork chop spaghetti",
+        "calories": 1350,
+        "note": "Pasta instead of fried rice"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in baked pork chop rice?",
+        "a": "About 1,300 calories per 710g plate, according to the Centre for Food Safety. Some fast food chain versions measure closer to 1,235 for a 650g plate."
+      },
+      {
+        "q": "Why is baked pork chop rice so high in calories?",
+        "a": "The rice is fried with egg, the pork chop is deep fried, and then tomato sauce and cheese are added on top before baking. Each step adds fat, about 60g in total."
+      },
+      {
+        "q": "What is a lower calorie alternative at a cha chaan teng?",
+        "a": "Plate-style pork chop rice with steamed rice is around 700 calories. Tomato beef macaroni is about 370. Both give you similar protein with far less fat."
+      }
+    ],
+    "related": [
+      "roast-goose-rice",
+      "siu-mei-rice",
+      "sweet-sour-pork-rice",
+      "chicken-chop"
+    ],
+    "source": "Centre for Food Safety Hong Kong, Nutrient Values of Indigenous Congee, Rice and Noodle Dishes (1,300 kcal per 710g)"
+  },
+  {
+    "slug": "roast-goose-rice",
+    "name": "Roast Goose Rice",
+    "aka": [
+      "燒鵝飯",
+      "Siu Ngo Faan",
+      "Roasted Goose with Rice",
+      "Hong Kong Roast Goose"
+    ],
+    "category": "rice",
+    "region": [
+      "hk"
+    ],
+    "serving": "1 plate",
+    "servingGrams": 530,
+    "calories": 970,
+    "protein": 40,
+    "carbs": 90,
+    "fat": 50,
+    "metaDescription": "A plate of roast goose rice from a Hong Kong siu mei shop is about 970 calories according to the Centre for Food Safety. The skin is where half the fat lives.",
+    "summary": "Roast goose rice is a plate of steamed rice with chopped roast goose, skin on, drizzled with the sweet roasting juices. Every siu mei shop in Hong Kong hangs a few birds in the window, and a plate runs about HK$50 to HK$70.",
+    "answer": "One plate of roast goose rice (about 530g) is around 970 calories, per Centre for Food Safety testing. The goose portion with skin is roughly 500 calories, the rice about 390, and the gravy adds 60. Fat is about 50g, most of it from the skin and the layer underneath.",
+    "realTalk": [
+      "Goose is a fatty bird by nature and roasting it with the skin on keeps every gram. A 180g portion of roast goose with skin is about 500 calories and 40g of fat, compared to roast duck at roughly 400 for the same weight and a steamed chicken portion at 250. The meat underneath is good protein, around 35g per plate, but you cannot get to it without eating the skin unless you peel it off yourself.",
+      "The rice underneath is 300g steamed, about 390 calories, and the shop ladles goose drippings over it. That gravy is rendered fat mixed with soy and sugar, around 60 calories per spoonful. CFS lists goose rice at 970 for the plate, slightly under the average siu mei rice figure of 922 for the leaner meats but nearly the same as a char siu rice, because the fat in goose skin does the same job as the honey glaze on char siu.",
+      "For what it is, roast goose rice still beats baked pork chop rice (1,300) or a plate of salted fish chicken fried rice (1,400) at the same shop. It is an honest plate: real meat, real rice, no batter, no cheese. The lever you have is the skin. Peel it off half the pieces and you drop the plate to roughly 800. Order the leg (鵝髀) and it is more meat, less fat, than the breast pieces with the thick skin."
+    ],
+    "lighter": [
+      "Peel the skin off half the pieces. That alone saves about 150 calories.",
+      "Ask for less rice (少飯). About 130 calories saved and you will not miss it.",
+      "Order the goose with a side of plain blanched choy sum (油菜) instead of extra rice. Around 60 calories and a lot more volume.",
+      "Skip the extra gravy. The default drizzle is fine; a second ladle is another 60 calories of goose fat.",
+      "If you are choosing between siu mei, soy sauce chicken rice is about 180 calories per 100g versus 200 for goose or char siu."
+    ],
+    "components": [
+      {
+        "name": "Steamed rice",
+        "grams": 300,
+        "calories": 390
+      },
+      {
+        "name": "Roast goose with skin",
+        "grams": 180,
+        "calories": 500
+      },
+      {
+        "name": "Goose gravy",
+        "grams": 40,
+        "calories": 60
+      },
+      {
+        "name": "Pickled vegetable or cucumber",
+        "grams": 20,
+        "calories": 5
+      }
+    ],
+    "portions": [
+      {
+        "label": "Less rice, skin removed from half",
+        "calories": 700
+      },
+      {
+        "label": "Standard plate (530g)",
+        "calories": 970
+      },
+      {
+        "label": "Large plate with goose leg and extra gravy",
+        "calories": 1150
+      }
+    ],
+    "variants": [
+      {
+        "name": "Soy sauce chicken rice",
+        "calories": 800,
+        "note": "180 kcal per 100g, leaner than goose"
+      },
+      {
+        "name": "Char siu rice",
+        "calories": 920,
+        "note": "Honey glazed pork"
+      },
+      {
+        "name": "Roast goose rice",
+        "calories": 970,
+        "note": "Standard plate"
+      },
+      {
+        "name": "Roast goose leg rice",
+        "calories": 1050,
+        "note": "Bigger portion of meat"
+      },
+      {
+        "name": "Goose and char siu two combo",
+        "calories": 1100,
+        "note": "Extra meat on the plate"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in roast goose rice?",
+        "a": "About 970 calories for a 530g plate, according to Centre for Food Safety testing of Hong Kong siu mei shops."
+      },
+      {
+        "q": "Is roast goose fattier than roast duck?",
+        "a": "Yes. Roast goose with skin is roughly 280 calories per 100g versus about 240 for roast duck. Goose has a thicker fat layer under the skin."
+      },
+      {
+        "q": "How can I make roast goose rice lighter?",
+        "a": "Remove the skin from half the pieces and ask for less rice. That brings a 970 calorie plate down to around 700 without changing the dish."
+      }
+    ],
+    "related": [
+      "siu-mei-rice",
+      "roast-duck",
+      "char-siew-rice",
+      "baked-pork-chop-rice"
+    ],
+    "source": "Centre for Food Safety Hong Kong, Nutrient Values of Indigenous Congee, Rice and Noodle Dishes (970 kcal per 530g)"
+  },
+  {
+    "slug": "hk-french-toast",
+    "name": "Hong Kong French Toast",
+    "aka": [
+      "西多士",
+      "Sai Do Si",
+      "Hong Kong Style French Toast",
+      "Peanut Butter French Toast",
+      "Cha Chaan Teng French Toast"
+    ],
+    "category": "western",
+    "region": [
+      "hk"
+    ],
+    "serving": "1 serving (2 slices with butter and syrup)",
+    "servingGrams": 150,
+    "calories": 580,
+    "protein": 14,
+    "carbs": 55,
+    "fat": 34,
+    "metaDescription": "Hong Kong French toast is about 580 calories for one serving: two slices deep fried with peanut butter, topped with butter and syrup.",
+    "summary": "Sai do si is two slices of white bread sandwiched with peanut butter, dipped in egg, deep fried until golden, then topped with a slab of butter and golden syrup. It is the classic cha chaan teng afternoon tea item, around HK$20 to HK$30.",
+    "answer": "One serving of Hong Kong French toast is about 580 calories, estimated from its parts: two slices of bread (160), peanut butter (90), egg coating (45), oil absorbed during deep frying (135), a butter slab (75) and syrup (60). Fat is about 34g. Larger thick-cut versions reach 850.",
+    "realTalk": [
+      "The Malaysian roti bakar version of French toast is pan fried. The Hong Kong version is deep fried, and that one difference is worth about 135 calories of absorbed oil. Then it gets a butter slab on top (75) and syrup poured over (60). So a dish that starts as 160 calories of bread ends at 580, with 34g of fat. That is more fat than a baked pork chop rice serving of pork.",
+      "The peanut butter filling is not optional at most places and it is worth 90 calories per tablespoon. Some shops use kaya or condensed milk instead, which is similar. The thick-cut version, where each slice is nearly 3cm, absorbs a lot more oil. One Hong Kong dietitian ranking put the heavy peanut butter and butter version at around 850 calories, top of the cha chaan teng list alongside dry fried beef hor fun.",
+      "The context is what makes this bad. Nobody eats French toast as a meal. It comes at 3:30pm with a milk tea (110), after lunch and before dinner. That is a 690 calorie snack window. Do that three afternoons a week and it is over 2,000 calories, which is about a quarter kilo of body fat a week if nothing else in your day changes."
+    ],
+    "lighter": [
+      "Ask for no butter (走牛油) and no syrup (走糖漿). That removes about 135 calories and most of the added sugar.",
+      "Share one serving. Half is 290 calories, still a real treat.",
+      "Order it with a hot lemon tea (36 calories) instead of milk tea (110).",
+      "Skip the thick-cut version. Regular sliced bread absorbs less oil, and the difference can be 200 calories or more.",
+      "If the shop offers it, kaya toast (not fried) is around 370 for two slices."
+    ],
+    "components": [
+      {
+        "name": "White bread (2 slices)",
+        "grams": 60,
+        "calories": 160
+      },
+      {
+        "name": "Peanut butter filling",
+        "grams": 15,
+        "calories": 90
+      },
+      {
+        "name": "Egg coating",
+        "grams": 30,
+        "calories": 45
+      },
+      {
+        "name": "Frying oil absorbed",
+        "grams": 15,
+        "calories": 135
+      },
+      {
+        "name": "Butter slab",
+        "grams": 10,
+        "calories": 75
+      },
+      {
+        "name": "Golden syrup",
+        "grams": 20,
+        "calories": 60
+      }
+    ],
+    "portions": [
+      {
+        "label": "No butter, no syrup",
+        "calories": 445
+      },
+      {
+        "label": "Standard serving",
+        "calories": 580
+      },
+      {
+        "label": "Thick-cut with extra peanut butter",
+        "calories": 850
+      }
+    ],
+    "variants": [
+      {
+        "name": "Kaya toast (Malaysian style, not fried)",
+        "calories": 370,
+        "note": "For comparison"
+      },
+      {
+        "name": "French toast, no butter or syrup",
+        "calories": 445,
+        "note": "Still deep fried"
+      },
+      {
+        "name": "Hong Kong French toast",
+        "calories": 580,
+        "note": "Standard with butter and syrup"
+      },
+      {
+        "name": "French toast with condensed milk",
+        "calories": 630,
+        "note": "Condensed milk replaces or adds to syrup"
+      },
+      {
+        "name": "Thick-cut French toast",
+        "calories": 850,
+        "note": "Hong Kong dietitian figure for the heavy version"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in Hong Kong French toast?",
+        "a": "About 580 calories for a standard two-slice serving with butter and syrup. Thick-cut versions with extra peanut butter can reach 850."
+      },
+      {
+        "q": "Why is Hong Kong French toast so much higher in calories than regular French toast?",
+        "a": "It is deep fried instead of pan fried, filled with peanut butter, and topped with a butter slab and syrup. The frying alone adds about 135 calories of oil."
+      },
+      {
+        "q": "Can I make it lighter at the cha chaan teng?",
+        "a": "Yes. Ask for no butter and no syrup. That drops it to about 445 calories. Sharing one serving between two people takes it under 300 each."
+      }
+    ],
+    "related": [
+      "french-toast",
+      "bo-lo-yau",
+      "hk-milk-tea",
+      "kaya-toast"
+    ],
+    "source": "Estimate from components; FWD HK dietitian ranking cites about 850 kcal for the heavy peanut butter and butter version"
+  },
+  {
+    "slug": "satay-beef-noodles",
+    "name": "Satay Beef Noodles",
+    "aka": [
+      "沙嗲牛肉麵",
+      "沙爹牛肉公仔麵",
+      "Sa De Ngau Yuk Min",
+      "Satay Beef Instant Noodles",
+      "Cha Chaan Teng Satay Beef"
+    ],
+    "category": "noodles",
+    "region": [
+      "hk"
+    ],
+    "serving": "1 bowl",
+    "servingGrams": 500,
+    "calories": 670,
+    "protein": 28,
+    "carbs": 62,
+    "fat": 35,
+    "metaDescription": "A cha chaan teng bowl of satay beef noodles is about 670 calories. The instant noodles are 470 of that before the satay sauce and beef even go in.",
+    "summary": "Satay beef noodles are instant noodles in broth topped with sliced beef stir fried in a peanut and shrimp based satay sauce. It is the most ordered cha chaan teng breakfast in Hong Kong, about HK$35 to HK$45 with a drink.",
+    "answer": "One bowl of satay beef noodles is around 670 calories, based on a Hong Kong dietitian's tally of cha chaan teng breakfasts (667 kcal). About 470 calories is the fried instant noodle cake, 120 is the beef, and the satay sauce and oil add another 80. Fat is about 35g.",
+    "realTalk": [
+      "The beef is not the problem. A cha chaan teng gives you about 70g of sliced beef, roughly 120 calories and 18g of protein. The instant noodles are the problem: one cake of 公仔麵 or 出前一丁 is deep fried at the factory and carries about 470 calories and 18g of fat before it touches water. That is the same as a bo lo yau and a half, sitting at the bottom of your breakfast bowl.",
+      "Satay sauce is the second hit. Hong Kong satay sauce is peanut, dried shrimp, shallot and a lot of oil. The kitchen fries the beef in it, then spoons more over the noodles, so you get around 80 calories of sauce and most of it is fat. One dietitian who ranked cha chaan teng items said satay beef noodles should be a once a week thing at most, and at 667 calories with about 1,300mg sodium, that is reasonable advice.",
+      "This is a breakfast, remember. 670 calories at 8am, with a milk tea (110) and the buttered toast that comes in the set (250), is over 1,000 calories before you sit down at work. For most people trying to lose weight, that is half the day gone. The same beef on rice vermicelli in clear soup would be about 350."
+    ],
+    "lighter": [
+      "Swap the instant noodles for rice vermicelli (米粉) or flat rice noodles (河粉). Saves about 250 calories.",
+      "Ask for the satay sauce on the side or less sauce (少醬). Saves 40 to 60 calories.",
+      "Skip the buttered toast in the set. That is 250 calories on its own.",
+      "Order it as a lunch instead of breakfast if you are going to have it, and go lighter at dinner.",
+      "Drink half the soup. The satay broth is where a lot of the sodium and oil settle."
+    ],
+    "components": [
+      {
+        "name": "Instant noodles (1 cake)",
+        "grams": 100,
+        "calories": 470
+      },
+      {
+        "name": "Sliced beef",
+        "grams": 70,
+        "calories": 120
+      },
+      {
+        "name": "Satay sauce and soup",
+        "grams": 150,
+        "calories": 80
+      }
+    ],
+    "portions": [
+      {
+        "label": "With rice vermicelli instead",
+        "calories": 420
+      },
+      {
+        "label": "Standard bowl",
+        "calories": 670
+      },
+      {
+        "label": "Full set with buttered toast and milk tea",
+        "calories": 1030
+      }
+    ],
+    "variants": [
+      {
+        "name": "Satay beef with rice vermicelli",
+        "calories": 420,
+        "note": "Same beef and sauce, lighter noodle"
+      },
+      {
+        "name": "Satay beef noodles",
+        "calories": 670,
+        "note": "Standard with instant noodles"
+      },
+      {
+        "name": "Satay beef noodles with fried egg",
+        "calories": 780,
+        "note": "Adds one fried egg"
+      },
+      {
+        "name": "Luncheon meat and egg instant noodles",
+        "calories": 785,
+        "note": "The other cha chaan teng classic"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in satay beef noodles?",
+        "a": "About 670 calories per bowl, according to a Hong Kong registered dietitian's cha chaan teng breakfast ranking. Some estimates run to 700 or 800 for bigger bowls."
+      },
+      {
+        "q": "Why are satay beef noodles so high in calories?",
+        "a": "The instant noodle cake is deep fried at the factory and carries about 470 calories on its own. The satay sauce is oil based and adds another 80."
+      },
+      {
+        "q": "Is satay beef noodles healthy for breakfast?",
+        "a": "Not really. It has good protein (28g) but 35g of fat and about 1,300mg sodium. Swapping to rice vermicelli brings it down to around 420 calories."
+      }
+    ],
+    "related": [
+      "luncheon-meat-noodles",
+      "beef-brisket-noodles",
+      "cart-noodles",
+      "macaroni-ham-soup"
+    ],
+    "source": "HK01 registered dietitian ranking of 12 cha chaan teng items (satay beef noodles 667 kcal); FWD HK health blog cites about 700 kcal"
+  }
+]

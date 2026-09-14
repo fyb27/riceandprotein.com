@@ -1,0 +1,581 @@
+[
+  {
+    "slug": "kimchi-jjigae",
+    "name": "Kimchi Jjigae",
+    "aka": ["김치찌개", "Kimchi Stew", "Kimchi Chigae", "Kimchi Jigae"],
+    "category": "soup",
+    "region": ["kr"],
+    "serving": "1 bowl with rice",
+    "servingGrams": 610,
+    "calories": 555,
+    "protein": 21,
+    "carbs": 80,
+    "fat": 15,
+    "metaDescription": "Kimchi jjigae with a bowl of rice is about 555 calories. The stew itself is only 244. Here is where the rest comes from and how to trim it.",
+    "summary": "Kimchi jjigae is the sour, spicy pork and kimchi stew that every Korean lunch spot serves in a black stone pot with a bowl of rice and a few banchan.",
+    "answer": "A standard kimchi jjigae set is about 555 calories: 244 for a 400g pot of stew (MFDS restaurant nutrition data) plus around 310 for a 210g bowl of white rice. The stew on its own is light. The rice and the pork belly are what add up.",
+    "realTalk": [
+      "The stew itself is 244 calories for a full 400g pot. That is less than a bowl of rice. Old kimchi has almost nothing in it, the tofu is 60 to 70 calories, and the broth is mostly water and gochugaru. The pork belly is the only heavy thing in the pot, around 165 calories for the 50g most lunch places put in. If the cook is generous with belly, you can add another 100.",
+      "The 555 figure assumes one bowl of rice, about 210g. Most 8,000 to 9,000 won lunch sets give you free rice refills, and a second bowl takes you to 865 before you touch the banchan. The gyeran-mari or fish cake on the side is another 80 to 150. It is easy to walk out of a kimchi jjigae lunch at 900 calories while thinking you ate soup.",
+      "Tuna kimchi jjigae runs lower, around 104 calories per 200g portion according to FatSecret Korea, because canned tuna in water has a fraction of the fat of belly. Budae-style versions with spam and ramyeon added are a different dish entirely and can double the number. Ask what is in the pot before you assume it is the light option."
+    ],
+    "lighter": [
+      "Ask for tuna (참치) instead of pork belly. The stew drops from around 244 to about 200 for the same pot.",
+      "Stop at one bowl of rice, or ask for half. That single decision is worth 150 to 300 calories.",
+      "Eat the kimchi, tofu and pork, and leave a third of the broth. The broth carries most of the sodium (around 1,960mg per pot) and some of the fat that renders off the pork.",
+      "Skip the fried banchan. A single slice of gyeran-mari is fine, the fried fish cake and japchae are where the extra 150 hides."
+    ],
+    "components": [
+      {"name": "Pork belly", "grams": 50, "calories": 165},
+      {"name": "Aged kimchi", "grams": 120, "calories": 25},
+      {"name": "Tofu", "grams": 80, "calories": 65},
+      {"name": "Broth with gochugaru and oil", "grams": 150, "calories": 20},
+      {"name": "Steamed white rice", "grams": 210, "calories": 310}
+    ],
+    "portions": [
+      {"label": "Stew only, no rice", "calories": 244},
+      {"label": "Stew with 1 bowl rice", "calories": 555},
+      {"label": "Stew with 2 bowls rice and banchan", "calories": 950}
+    ],
+    "variants": [
+      {"name": "Tuna kimchi jjigae, no rice", "calories": 200, "note": "Canned tuna instead of belly"},
+      {"name": "Pork belly kimchi jjigae, no rice", "calories": 244, "note": "MFDS standard 400g pot"},
+      {"name": "With rice", "calories": 555, "note": "One 210g bowl"},
+      {"name": "Extra pork, with rice", "calories": 660, "note": "Double belly"}
+    ],
+    "faq": [
+      {"q": "Is kimchi jjigae good for weight loss?", "a": "The stew is, at 244 calories for a full pot with 15g protein. The rice is what decides the total. One bowl and it is a 555 calorie meal, which fits most deficits."},
+      {"q": "How many calories in kimchi jjigae without rice?", "a": "About 244 calories for a 400g restaurant pot with pork belly, based on Korean MFDS restaurant data. Tuna versions are closer to 200."},
+      {"q": "Why is kimchi jjigae so salty?", "a": "One pot has about 1,960mg of sodium, close to the full daily limit, because both the kimchi and the broth are salted. Leaving some broth helps."},
+      {"q": "Kimchi jjigae vs doenjang jjigae, which is lower?", "a": "Doenjang jjigae is lower at about 145 calories per pot because it uses less meat and no chili oil. Kimchi jjigae is 244."}
+    ],
+    "related": ["doenjang-jjigae", "sundubu-jjigae", "budae-jjigae", "kimchi-bokkeumbap"],
+    "source": "MFDS restaurant nutrition data (김치찌개 400g 244 kcal) via pillyze.com and geniet.co.kr, plus 210g rice"
+  },
+  {
+    "slug": "sundubu-jjigae",
+    "name": "Sundubu Jjigae",
+    "aka": ["순두부찌개", "Soft Tofu Stew", "Soondubu Jjigae", "Sundubu"],
+    "category": "soup",
+    "region": ["kr"],
+    "serving": "1 pot",
+    "servingGrams": 450,
+    "calories": 260,
+    "protein": 16,
+    "carbs": 10,
+    "fat": 17,
+    "metaDescription": "A pot of sundubu jjigae is about 260 calories before rice. Soft tofu, one egg, a little chili oil. Here is the full breakdown.",
+    "summary": "Sundubu jjigae is a bubbling pot of silken tofu in a red chili broth, cracked with a raw egg at the table and served with rice and banchan.",
+    "answer": "One restaurant pot of sundubu jjigae is about 260 calories (FatSecret Korea lists the generic serving at 259). Add the bowl of rice that always comes with it and the meal is around 570. The tofu and egg supply 16g of protein, so it is one of the more filling stews for the calories.",
+    "realTalk": [
+      "The pot is mostly water and silken tofu. A 200g block of soft tofu is about 110 calories, the egg cracked in is 70, and whatever seafood or minced pork the kitchen adds is 40 to 60. The rest of the 260 is the chili oil the broth is built on, which is the one ingredient that varies wildly between shops.",
+      "That chili oil matters more than people think. A kitchen that starts the pot with 2 tablespoons of gochu-gireum is adding about 240 calories before anything else goes in. Most lunch places use a lot less, which is why the average lands around 260, but a very red, glossy surface on the broth is a sign you are at the higher end.",
+      "The rice is the bigger lever. A 210g bowl is around 310 calories, more than the stew. Order the stew with half rice and you are at roughly 415 for a complete lunch with 20g of protein. The Gangneung-style versions with beef and extra fat listed by packaged brands run 450 to 475 per serving, closer to a full meal on their own."
+    ],
+    "lighter": [
+      "Order the seafood (해물) version rather than beef or pork. It typically lands 40 to 60 calories lower.",
+      "Ask for less chili oil (기름 적게). It is a normal request and can save 100 calories.",
+      "Half rice instead of full. The stew is filling enough that most people do not miss it.",
+      "Do not drink all the broth. The flavour is in the top half, the oil settles there too."
+    ],
+    "components": [
+      {"name": "Silken tofu", "grams": 200, "calories": 110},
+      {"name": "Egg", "grams": 50, "calories": 70},
+      {"name": "Clams or minced pork", "grams": 40, "calories": 50},
+      {"name": "Chili oil broth with vegetables", "grams": 160, "calories": 30}
+    ],
+    "portions": [
+      {"label": "Seafood sundubu, no rice", "calories": 220},
+      {"label": "Standard pot, no rice", "calories": 260},
+      {"label": "Pot with 1 bowl rice", "calories": 570}
+    ],
+    "variants": [
+      {"name": "Seafood sundubu", "calories": 220, "note": "Clams, shrimp"},
+      {"name": "Standard pork or mixed", "calories": 260, "note": "FatSecret generic"},
+      {"name": "Kimchi sundubu", "calories": 280, "note": "Extra fat from pork and kimchi"},
+      {"name": "Beef rib (갈비) sundubu", "calories": 475, "note": "Freshjee packaged figure"}
+    ],
+    "faq": [
+      {"q": "Is sundubu jjigae healthy?", "a": "It is one of the better stews: about 260 calories, 16g protein, and most of the volume is tofu and water. The only thing to watch is the chili oil and the sodium."},
+      {"q": "How many calories in sundubu jjigae with rice?", "a": "About 570 calories with a standard 210g bowl of rice. The rice is more than half the total."},
+      {"q": "Is sundubu jjigae high in protein?", "a": "Decent, not high. The tofu and egg give around 16g. Add a side of gyeran-mari or order the beef version to push it past 25g."},
+      {"q": "Does the egg add a lot of calories?", "a": "About 70. It also adds 6g of protein, so it is worth keeping."}
+    ],
+    "related": ["kimchi-jjigae", "doenjang-jjigae", "budae-jjigae", "tau-fu-fah"],
+    "source": "fatsecret.kr generic 순두부찌개 259 kcal per serving"
+  },
+  {
+    "slug": "doenjang-jjigae",
+    "name": "Doenjang Jjigae",
+    "aka": ["된장찌개", "Soybean Paste Stew", "Doenjang Chigae", "Korean Miso Stew"],
+    "category": "soup",
+    "region": ["kr"],
+    "serving": "1 pot",
+    "servingGrams": 400,
+    "calories": 145,
+    "protein": 10,
+    "carbs": 10,
+    "fat": 7,
+    "metaDescription": "Doenjang jjigae is about 145 calories for a full 400g pot. It is the lightest stew on the Korean menu, and here is why.",
+    "summary": "Doenjang jjigae is the fermented soybean paste stew with tofu, zucchini, potato and onion that turns up next to almost every Korean rice meal.",
+    "answer": "A 400g pot of doenjang jjigae is about 145 calories, according to Korean MFDS restaurant nutrition data. That is the lowest number of any common jjigae. With a bowl of rice the meal comes to around 455, and with a grilled fish on the side you are still under 700.",
+    "realTalk": [
+      "There is barely anything in it. The doenjang paste is about 40 calories for the 30g a pot uses, tofu is 60, and the vegetables (zucchini, potato, onion, chili) come to 35. The anchovy stock is close to zero. That is how a full pot that fills you up lands at 145, about the same as one slice of bread.",
+      "Because the stew is so light, it is the rice and the sides that decide your lunch. A 210g bowl of rice is 310, more than double the stew. The typical 8,000 won doenjang jjigae set comes with rice, a fried egg or gyeran-mari, and 3 to 4 banchan, so a realistic total is 500 to 600. Still one of the cheapest, lowest-calorie set meals you can order.",
+      "The versions that go higher are the ones with meat. Chadol doenjang jjigae with beef brisket adds 80 to 120 calories, and some gogi-jip serve it as a rich, oily finisher after samgyeopsal where the pork fat from the grill ends up in the pot. That version is closer to 250. On its own, at a lunch place, it is 145."
+    ],
+    "lighter": [
+      "It is already light. The single biggest saving is stopping at one bowl of rice instead of taking the refill.",
+      "Ask for extra tofu (두부 추가). Most places do it free and it adds protein for about 60 calories.",
+      "Pair it with grilled mackerel (고등어구이) rather than fried pork cutlet. The fish set lands near 650, the cutlet set near 1,000.",
+      "The chadol (brisket) version is nice but adds about 100. Order it when you want the meat, not by default."
+    ],
+    "components": [
+      {"name": "Tofu", "grams": 80, "calories": 60},
+      {"name": "Doenjang paste", "grams": 30, "calories": 40},
+      {"name": "Zucchini, potato, onion, chili", "grams": 100, "calories": 35},
+      {"name": "Anchovy stock", "grams": 190, "calories": 10}
+    ],
+    "portions": [
+      {"label": "Small pot", "calories": 110},
+      {"label": "Standard 400g pot", "calories": 145},
+      {"label": "Chadol (brisket) doenjang jjigae", "calories": 250}
+    ],
+    "variants": [
+      {"name": "Vegetable only", "calories": 110, "note": "No tofu"},
+      {"name": "Standard with tofu", "calories": 145, "note": "MFDS figure"},
+      {"name": "Clam doenjang jjigae", "calories": 165, "note": "Bajirak"},
+      {"name": "Chadol doenjang jjigae", "calories": 250, "note": "Beef brisket"}
+    ],
+    "faq": [
+      {"q": "Is doenjang jjigae good for dieting?", "a": "Yes. At about 145 calories per pot with 10g protein and a lot of volume, it is the best stew on the menu for a calorie deficit. Just watch the rice."},
+      {"q": "How many calories in doenjang jjigae with rice?", "a": "About 455 with a standard 210g bowl of rice. With the usual banchan and an egg, plan on 550 to 600."},
+      {"q": "Is doenjang jjigae high in sodium?", "a": "Yes, roughly 1,500 to 2,000mg per pot from the fermented paste. Drinking less of the broth is the easy fix."},
+      {"q": "Doenjang jjigae or kimchi jjigae for fewer calories?", "a": "Doenjang, at 145 versus 244 for kimchi jjigae. Both are low; the difference is the pork belly in kimchi jjigae."}
+    ],
+    "related": ["kimchi-jjigae", "sundubu-jjigae", "samgyeopsal", "sup-sayur"],
+    "source": "MFDS restaurant nutrition data (된장찌개 400g 145 kcal) via gazilab.co and pillyze.com"
+  },
+  {
+    "slug": "samgyetang",
+    "name": "Samgyetang",
+    "aka": ["삼계탕", "Ginseng Chicken Soup", "Samgye-tang", "Korean Ginseng Chicken"],
+    "category": "soup",
+    "region": ["kr"],
+    "serving": "1 pot (whole young chicken)",
+    "servingGrams": 1000,
+    "calories": 918,
+    "protein": 70,
+    "carbs": 55,
+    "fat": 45,
+    "metaDescription": "Samgyetang is about 918 calories for the full pot. A whole young chicken, rice stuffing and broth. Here is where every calorie sits.",
+    "summary": "Samgyetang is a whole young chicken stuffed with glutinous rice, ginseng, jujube and garlic, simmered in a stone pot and eaten on the hottest days of summer.",
+    "answer": "A full pot of samgyetang is about 918 calories for a 1,000g serving, the highest single-serving figure in the Korean MFDS restaurant survey of 130 dishes. Most of that is the whole chicken (around 600 calories with the skin) and the glutinous rice stuffing (around 210). The broth itself is only about 70.",
+    "realTalk": [
+      "This is a whole bird. A young chicken of about 500g, skin on, bones in, gives you roughly 300g of edible meat and skin and comes to 600 calories. The skin is the swing factor: eat it and you get the fat, peel it and you drop about 150 calories while keeping nearly all of the 70g of protein. Nobody at a samgyetang restaurant will judge you for peeling.",
+      "The stuffing is the surprise. The 60g of raw glutinous rice packed into the cavity swells into a thick porridge inside the bird and is about 210 calories on its own. Then the restaurant usually brings a side bowl of rice too, which most people do not need. Skip the extra rice and you are already saving 300.",
+      "At 15,000 to 20,000 won a pot, samgyetang is a meal, not a soup course. 918 calories with 70g of protein is honestly a fine lunch if it is your main meal of the day. The problem is treating it as a soup and adding rice, a plate of kkakdugi, and a shot of insamju on the side, which pushes a hot summer lunch to 1,200."
+    ],
+    "lighter": [
+      "Peel the skin off the chicken. That is about 150 calories gone, and you keep nearly all the protein.",
+      "Do not order or eat the extra bowl of rice. The stuffing is already 210 calories of rice.",
+      "Eat the meat and half the broth. The broth has chicken fat floating on top, and half a bowl less saves 30 to 40.",
+      "Skip the insamju shot. It is only 50 to 60 calories but it is easy to make it two."
+    ],
+    "components": [
+      {"name": "Whole young chicken, skin on, bone in", "grams": 500, "calories": 600},
+      {"name": "Glutinous rice stuffing", "grams": 60, "calories": 210},
+      {"name": "Ginseng, jujube, garlic, chestnut", "grams": 30, "calories": 40},
+      {"name": "Broth", "grams": 400, "calories": 70}
+    ],
+    "portions": [
+      {"label": "Half chicken (반계탕)", "calories": 520},
+      {"label": "Whole pot, standard", "calories": 918},
+      {"label": "Whole pot plus side bowl of rice", "calories": 1230}
+    ],
+    "variants": [
+      {"name": "Ban-gyetang (half bird)", "calories": 520, "note": "Some shops offer it"},
+      {"name": "Standard samgyetang", "calories": 918, "note": "MFDS 1000g figure"},
+      {"name": "Nurungji samgyetang", "calories": 1050, "note": "Scorched rice added"},
+      {"name": "Ogol (black chicken) samgyetang", "calories": 950, "note": "Similar bird, similar number"}
+    ],
+    "faq": [
+      {"q": "Is samgyetang healthy?", "a": "It is a whole meal with about 70g of protein. The 918 calorie total is a lot for a soup but fine for a main meal. The real question is whether you also eat the extra rice."},
+      {"q": "How many calories in samgyetang without the skin?", "a": "Roughly 770. The skin on a 500g young chicken is about 150 calories of mostly fat."},
+      {"q": "Why is samgyetang so high in calories?", "a": "Because it is an entire chicken plus 60g of glutinous rice in one pot. The broth is only about 70 calories; the bird and stuffing are the rest."},
+      {"q": "Is samgyetang good for building muscle?", "a": "Yes, 70g protein in one sitting is hard to beat. Eat the meat, go easy on the rice, and it is a solid post-gym meal."}
+    ],
+    "related": ["seolleongtang", "gamjatang", "sup-ayam", "sup-herba"],
+    "source": "MFDS restaurant nutrition survey (삼계탕 1,000g 918 kcal) via hidoc.co.kr"
+  },
+  {
+    "slug": "seolleongtang",
+    "name": "Seolleongtang",
+    "aka": ["설렁탕", "Ox Bone Soup", "Seolleong-tang", "Sullungtang", "Korean Beef Bone Soup"],
+    "category": "soup",
+    "region": ["kr"],
+    "serving": "1 bowl (with noodles, no rice)",
+    "servingGrams": 650,
+    "calories": 425,
+    "protein": 33,
+    "carbs": 20,
+    "fat": 20,
+    "metaDescription": "A bowl of seolleongtang is about 425 calories with the meat and noodles, or around 735 once you add the rice. Milky broth, real numbers.",
+    "summary": "Seolleongtang is a milky white ox bone broth simmered for hours, served with sliced brisket, thin somyeon noodles, spring onion, and salt on the table so you season it yourself.",
+    "answer": "A bowl of seolleongtang with brisket slices and noodles is about 425 calories, with 33g of protein. Most people tip the bowl of rice into the soup, which takes it to around 735. The broth looks rich but is only about 170 calories for 500ml; the meat and the rice are the rest.",
+    "realTalk": [
+      "The milky colour fools people. That white comes from bone collagen and emulsified marrow fat, and a 500ml bowl of broth is about 170 calories. Not nothing, but not cream either. The 70g of sliced brisket is 150 and the small tangle of somyeon noodles at the bottom is about 80. That is your 425.",
+      "Then the rice arrives. Almost everyone in a seolleongtang house tips the whole 210g bowl into the soup, and that is the moment it goes from 425 to 735. If you are trying to keep the number down, tip half in and leave the rest. The soup is 650g on its own and nobody leaves hungry.",
+      "Watch the salt. The broth is unseasoned when it lands, and the standard move is a heaped teaspoon of salt plus a big scoop of kkakdugi juice. That is where the 1,500mg of sodium comes from, not the kitchen. Season lightly, eat the kkakdugi rather than pouring its brine in, and you fix most of the problem for free."
+    ],
+    "lighter": [
+      "Tip in half the rice, not the whole bowl. Saves about 155 calories.",
+      "Order the 특 (special) only if you want more meat. It adds 60 to 80g of brisket for about 130 calories and 25g protein, a fair trade.",
+      "Skim the fat that pools on top once the soup sits a minute. It is 40 to 60 calories of pure beef fat.",
+      "Go easy on the salt spoon. It changes nothing about calories but a lot about how you feel after."
+    ],
+    "components": [
+      {"name": "Sliced beef brisket", "grams": 70, "calories": 150},
+      {"name": "Somyeon noodles, cooked", "grams": 60, "calories": 80},
+      {"name": "Ox bone broth", "grams": 500, "calories": 170},
+      {"name": "Spring onion, salt, pepper", "grams": 20, "calories": 5}
+    ],
+    "portions": [
+      {"label": "Bowl, no rice", "calories": 425},
+      {"label": "Bowl with half rice", "calories": 580},
+      {"label": "Bowl with full rice tipped in", "calories": 735}
+    ],
+    "variants": [
+      {"name": "Standard seolleongtang, no rice", "calories": 425, "note": "Brisket and noodles"},
+      {"name": "Special (특) with extra meat", "calories": 555, "note": "About 130g brisket"},
+      {"name": "Doganitang (knee cartilage)", "calories": 480, "note": "More collagen, more fat"},
+      {"name": "Kkori-gomtang (oxtail)", "calories": 600, "note": "Oxtail is fattier"}
+    ],
+    "faq": [
+      {"q": "Is seolleongtang healthy?", "a": "It is a decent meal: 425 calories, 33g protein, plenty of volume. The two things to manage are the rice you tip in and the salt you add yourself."},
+      {"q": "How many calories in seolleongtang with rice?", "a": "About 735 with a full 210g bowl of rice stirred in. Half rice brings it to around 580."},
+      {"q": "Is the white broth high in fat?", "a": "Moderately. About 500ml of broth carries 12 to 15g of fat, roughly 130 calories, from the emulsified marrow. Skimming the top layer removes a good chunk of it."},
+      {"q": "Seolleongtang or samgyetang for fewer calories?", "a": "Seolleongtang by a wide margin: 425 versus 918. Samgyetang is a whole chicken plus rice stuffing."}
+    ],
+    "related": ["samgyetang", "gamjatang", "sup-tulang", "sup-daging"],
+    "source": "geniet.co.kr 설렁탕 424 kcal per serving; weight set to a typical 650g restaurant bowl, macros from components"
+  },
+  {
+    "slug": "budae-jjigae",
+    "name": "Budae Jjigae",
+    "aka": ["부대찌개", "Army Stew", "Army Base Stew", "Budae Chigae", "Korean Spam Stew"],
+    "category": "soup",
+    "region": ["kr"],
+    "serving": "1 serving (share of the pan, no rice)",
+    "servingGrams": 500,
+    "calories": 630,
+    "protein": 28,
+    "carbs": 45,
+    "fat": 36,
+    "metaDescription": "Budae jjigae is about 630 calories per person before rice. Spam, sausage, ramyeon and cheese in one pan. The full breakdown here.",
+    "summary": "Budae jjigae is the army base stew: spam, hot dogs, baked beans, kimchi, tofu and a brick of ramyeon boiled in a shallow pan of red broth at the table, usually shared between two or more.",
+    "answer": "One person's share of budae jjigae is about 630 calories before rice, based on the FatSecret Korea generic serving of 626. The spam and sausage are about 300 of that, the ramyeon brick another 240. Add the bowl of rice most people order and you are at roughly 940.",
+    "realTalk": [
+      "This is the one Korean stew where the meat is processed and the noodles are instant. A 50g slab of spam is 155 calories, two slices of sausage around 150, and the half brick of ramyeon that goes in per person is 240. That is 545 from three ingredients before the kimchi, tofu, beans and broth even register. Nothing in this pan is a vegetable in disguise.",
+      "The 2-person pan at a Uijeongbu-style restaurant is around 18,000 to 22,000 won and comes with rice. The trick most people miss is that the ramyeon is often free to add, so tables order a second brick. Each extra brick is about 480 calories split between whoever eats it. A slice of American cheese melted on top is another 60 to 70.",
+      "Packaged versions from Bibigo and Pulmuone run 295 to 405 per 460g serving, which sounds better until you notice they contain about half the spam and no added ramyeon. The restaurant pan with everything in it is the 630 figure, and 630 with a bowl of rice and a can of cider is a 1,100 calorie dinner."
+    ],
+    "lighter": [
+      "Skip the second ramyeon brick. Each one is about 480 calories shared across the table.",
+      "Ask for extra tofu and kimchi instead of extra spam. Same volume, a fraction of the fat.",
+      "No cheese slice on top. It is 65 calories that melts into the broth and disappears.",
+      "Go without rice. With ramyeon in the pan you already have your carbs, and it saves 310."
+    ],
+    "components": [
+      {"name": "Spam", "grams": 50, "calories": 155},
+      {"name": "Sausage slices", "grams": 50, "calories": 150},
+      {"name": "Ramyeon noodles, half brick", "grams": 55, "calories": 240},
+      {"name": "Kimchi, baked beans, tofu, vegetables", "grams": 150, "calories": 60},
+      {"name": "Red broth", "grams": 200, "calories": 25}
+    ],
+    "portions": [
+      {"label": "Share without ramyeon", "calories": 390},
+      {"label": "Standard share with ramyeon", "calories": 630},
+      {"label": "Share with ramyeon, cheese and rice", "calories": 1010}
+    ],
+    "variants": [
+      {"name": "Packaged Bibigo spam budae jjigae (460g)", "calories": 295, "note": "Less meat, no ramyeon"},
+      {"name": "Restaurant share, no ramyeon", "calories": 390, "note": "Meat, beans, kimchi, tofu"},
+      {"name": "Restaurant share with ramyeon", "calories": 630, "note": "FatSecret generic"},
+      {"name": "With cheese and extra sausage", "calories": 800, "note": "The full pan"}
+    ],
+    "faq": [
+      {"q": "Is budae jjigae unhealthy?", "a": "It is the heaviest common jjigae: about 630 calories per person, 36g fat, and around 2,500mg sodium from spam and sausage. Fine occasionally, not a weekday lunch habit."},
+      {"q": "How many calories in budae jjigae with rice?", "a": "About 940 for one share with a 210g bowl of rice. With ramyeon in the pan the rice is genuinely optional."},
+      {"q": "How much of budae jjigae is the ramyeon?", "a": "About 240 calories per half brick. Tables that add two full bricks are adding close to 1,000 calories to the pan."},
+      {"q": "Is there protein in budae jjigae?", "a": "About 28g per share, mostly from spam and sausage. It is protein with a lot of fat and salt attached."}
+    ],
+    "related": ["kimchi-jjigae", "ramyeon", "sundubu-jjigae", "steamboat"],
+    "source": "fatsecret.kr generic 부대찌개 626 kcal per serving; packaged range 295 to 455 cross-checked"
+  },
+  {
+    "slug": "gamjatang",
+    "name": "Gamjatang",
+    "aka": ["감자탕", "Pork Bone Soup", "Gamja-tang", "Ppyeo Haejangguk", "뼈해장국"],
+    "category": "soup",
+    "region": ["kr"],
+    "serving": "1 bowl (ppyeo-haejangguk size)",
+    "servingGrams": 600,
+    "calories": 600,
+    "protein": 40,
+    "carbs": 30,
+    "fat": 33,
+    "metaDescription": "A single bowl of gamjatang is about 600 calories with the pork bones, potato and greens. Add rice and it is 900. Numbers and tips here.",
+    "summary": "Gamjatang is the pork spine bone stew with potato, ugeoji greens and perilla seed powder, sold as a big shared pot or as a single ppyeo-haejangguk bowl at 24-hour joints.",
+    "answer": "A single-serve bowl of gamjatang (ppyeo-haejangguk) is about 600 calories: two or three pork neck bones with around 150g of meat, a potato, ugeoji greens and a thick perilla broth. Packaged versions from Korean brands run 535 to 810 per 600 to 900g serving, which brackets the restaurant bowl. With rice it is about 910.",
+    "realTalk": [
+      "The meat on the bones is the whole story. Pork neck and spine meat is fatty, around 220 calories per 100g once it has simmered in its own fat, and a single bowl carries about 150g of it if you pick the bones clean. That is 330 calories. The potato is 80, the greens with perilla powder about 60, the broth 80. Nothing exotic, just a lot of fatty pork.",
+      "The 2-person pot at a proper gamjatang place is a different animal. It comes with 6 to 8 bones, more potato, and the table almost always finishes with bokkeumbap fried in the leftover broth. That fried rice at the end is about 450 calories per person on top of the stew, and it is the reason a gamjatang dinner can quietly hit 1,300.",
+      "It is also a 3am food. Ppyeo-haejangguk at a 24-hour place after drinking, with rice tipped in and a soju finish, is closer to 1,000 than 600. The protein is real (about 40g) and the bowl is filling, but hangover eating is not where anyone is counting."
+    ],
+    "lighter": [
+      "Order the single bowl, not the 2-person pot, and skip the fried rice finish. That alone is 450 calories.",
+      "Eat the meat and the greens, leave the fattiest bits on the bone. The fat that clings to spine bones is a lot of the 33g.",
+      "Half rice. The bowl already has a potato in it.",
+      "Skim the perilla broth once. A visible oil layer forms in about a minute, and it is 50 to 80 calories."
+    ],
+    "components": [
+      {"name": "Pork neck bone meat, edible portion", "grams": 150, "calories": 330},
+      {"name": "Potato", "grams": 100, "calories": 90},
+      {"name": "Ugeoji greens with perilla seed powder", "grams": 80, "calories": 60},
+      {"name": "Broth", "grams": 270, "calories": 80}
+    ],
+    "portions": [
+      {"label": "Small bowl, 2 bones", "calories": 480},
+      {"label": "Standard bowl, 3 bones", "calories": 600},
+      {"label": "Bowl with rice", "calories": 910}
+    ],
+    "variants": [
+      {"name": "Packaged boneless gamjatang (460g)", "calories": 260, "note": "Bibigo, much less meat"},
+      {"name": "Ppyeo-haejangguk bowl", "calories": 600, "note": "Restaurant single serve"},
+      {"name": "Share of a 2-person pot", "calories": 750, "note": "More bones per head"},
+      {"name": "Pot share plus bokkeumbap finish", "calories": 1200, "note": "The full dinner"}
+    ],
+    "faq": [
+      {"q": "Is gamjatang healthy?", "a": "It is a high-protein, high-fat bowl: about 600 calories, 40g protein, 33g fat. Good as a main meal, heavy as a side to drinking."},
+      {"q": "How many calories in gamjatang with rice?", "a": "About 910 for a single bowl with a 210g bowl of rice tipped in."},
+      {"q": "Does gamjatang have a lot of potato?", "a": "Usually one medium potato per bowl, about 90 calories. The name refers to the pork bone cut as much as the potato."},
+      {"q": "What about the fried rice at the end?", "a": "Bokkeumbap made in the leftover pot is roughly 450 calories per person because it soaks up the fatty broth. It is the most expensive part of the meal calorie-wise."}
+    ],
+    "related": ["seolleongtang", "samgyetang", "bak-kut-teh", "sup-tulang"],
+    "source": "estimate from components; fatsecret.kr packaged gamjatang range 535 to 810 kcal per 600 to 900g used as a bracket"
+  },
+  {
+    "slug": "bibimbap",
+    "name": "Bibimbap",
+    "aka": ["비빔밥", "Bibimbab", "Korean Mixed Rice", "Dolsot Bibimbap", "돌솥비빔밥"],
+    "category": "rice",
+    "region": ["kr"],
+    "serving": "1 bowl",
+    "servingGrams": 450,
+    "calories": 610,
+    "protein": 24,
+    "carbs": 88,
+    "fat": 18,
+    "metaDescription": "Bibimbap is about 610 calories a bowl. The vegetables are almost free; the rice, sesame oil and gochujang are not. Full breakdown.",
+    "summary": "Bibimbap is a bowl of rice topped with seasoned vegetables, a little beef, a fried egg and a spoon of gochujang, mixed at the table with sesame oil.",
+    "answer": "A restaurant bowl of bibimbap is about 610 calories. Korean MFDS data via Pillyze lists a 450g bowl at 638, while Geniet has 553 to 586, so 610 is a fair middle. Half of it is the 210g of rice (about 310); the vegetables are only 60. The sesame oil and gochujang add about 90 together.",
+    "realTalk": [
+      "Everyone assumes the vegetables make it light. They do, but the vegetables were never the problem. Spinach, bean sprouts, carrot, zucchini and mushroom come to about 60 calories for 150g. The rice underneath is 310. So a bowl with the same toppings on 140g of rice instead of 210g drops to about 510 without you noticing much.",
+      "The sesame oil is the sneaky one. The kitchen drizzles about 5g on top and you probably add another 5g from the bottle on the table. Each teaspoon is 45 calories. The gochujang is another 45 for a full tablespoon, most of it sugar. Together the oil and the sauce can be 130 calories for something that takes up no space in the bowl.",
+      "Dolsot bibimbap is the higher version. The stone bowl is brushed with oil so the rice crisps, which adds 50 to 80 calories, and it usually comes with a raw egg yolk rather than a fried egg (about the same, 70). Yukhoe bibimbap with raw beef is similar in calories to the standard, since the beef replaces the fried egg rather than adding to it."
+    ],
+    "lighter": [
+      "Ask for less rice (밥 적게) and more namul. Most places will do it and it saves 100 to 150.",
+      "Use the gochujang that comes on the bowl and do not add more from the tub. A second tablespoon is 45 calories of mostly sugar.",
+      "Do not add extra sesame oil from the table bottle. The kitchen already put some on.",
+      "Skip dolsot unless you really want the crispy rice. The oiled stone bowl adds 50 to 80."
+    ],
+    "components": [
+      {"name": "Steamed rice", "grams": 210, "calories": 310},
+      {"name": "Seasoned vegetables (namul)", "grams": 150, "calories": 60},
+      {"name": "Minced beef", "grams": 40, "calories": 80},
+      {"name": "Fried egg", "grams": 50, "calories": 70},
+      {"name": "Gochujang sauce", "grams": 25, "calories": 45},
+      {"name": "Sesame oil", "grams": 5, "calories": 45}
+    ],
+    "portions": [
+      {"label": "Small bowl, less rice", "calories": 510},
+      {"label": "Standard bowl", "calories": 610},
+      {"label": "Dolsot with extra sesame oil", "calories": 730}
+    ],
+    "variants": [
+      {"name": "Vegetable bibimbap, no meat or egg", "calories": 470, "note": "Namul, rice, sauce"},
+      {"name": "Standard bibimbap", "calories": 610, "note": "Beef and egg"},
+      {"name": "Yukhoe bibimbap (raw beef)", "calories": 620, "note": "Beef replaces the fried egg"},
+      {"name": "Dolsot bibimbap", "calories": 690, "note": "Oiled stone bowl, crispy rice"}
+    ],
+    "faq": [
+      {"q": "Is bibimbap healthy?", "a": "It is a balanced plate: 610 calories, 24g protein, and 150g of vegetables. The calories come from rice and oil, not the toppings. Cutting the rice makes it a strong diet meal."},
+      {"q": "How many calories in dolsot bibimbap?", "a": "About 690. The stone bowl is oiled before the rice goes in, which adds 50 to 80 calories over a regular bowl."},
+      {"q": "Is bibimbap high in carbs?", "a": "Yes, about 88g, almost all from the 210g of rice. Asking for less rice brings it under 60g."},
+      {"q": "How many calories in the gochujang?", "a": "About 45 per tablespoon (25g), roughly half of it sugar. Most bowls come with 1 to 2 tablespoons."}
+    ],
+    "related": ["kimbap", "kimchi-bokkeumbap", "bulgogi", "nasi-campur"],
+    "source": "MFDS 2020 food composition data via pillyze.com (450g bowl 638 kcal) and geniet.co.kr (553 to 586 kcal); 610 used as a restaurant middle"
+  },
+  {
+    "slug": "kimbap",
+    "name": "Kimbap",
+    "aka": ["김밥", "Gimbap", "Korean Seaweed Rice Roll", "Kim Bap"],
+    "category": "rice",
+    "region": ["kr"],
+    "serving": "1 roll",
+    "servingGrams": 240,
+    "calories": 400,
+    "protein": 13,
+    "carbs": 58,
+    "fat": 13,
+    "metaDescription": "One roll of basic kimbap is about 400 calories. Tuna kimbap is closer to 520. Here is what is in the roll and which fillings add the most.",
+    "summary": "Kimbap is the seaweed and rice roll filled with egg, ham, pickled radish, carrot and spinach, sold sliced into 8 to 10 pieces at every bunsik shop and convenience store.",
+    "answer": "A standard roll of kimbap is about 400 calories. FatSecret Korea lists Barunkim Seonsaeng at 393 for a 230g roll and CU vegetable kimbap at 356 for 272g, while a Kimbap Cheonguk roll is 485 for 300g. Each slice is 40 to 50 calories. Tuna kimbap with mayo runs about 520, and cheese or bulgogi rolls 550 to 570.",
+    "realTalk": [
+      "About 150g of the roll is rice, and that rice is seasoned with sesame oil and salt before it goes anywhere near the seaweed. That is 220 calories from rice plus 45 from the sesame oil, so 265 of the 400 is there before a single filling. The egg strip, ham and crab stick together are about 95. The pickled radish, carrot and spinach are 20.",
+      "Fillings change the number a lot. Tuna kimbap is tuna mixed with mayonnaise, and the mayo alone is 90 to 100 calories, which is why Kimbap Cheonguk lists it at 570 for a 300g roll. Cheese kimbap adds a 60 calorie slice. Bulgogi kimbap adds sweet marinated beef for about 150. Vegetable kimbap with no ham or egg is the low end at 355.",
+      "The trap is the second roll. At 3,500 to 4,500 won a roll it is cheap enough that two rolls with a cup of tteokbokki is a normal order, and that is 1,170 calories for a snack that felt light because it was cold and cut into pieces. One roll and a bowl of eomuk broth is 500 and does the same job."
+    ],
+    "lighter": [
+      "Order vegetable (야채) kimbap. It is about 355 versus 400 for standard and 520 for tuna.",
+      "One roll, not two. The second roll is the whole problem.",
+      "Skip the tuna mayo and cheese versions. Each is 100 to 150 more than the basic roll for the same size.",
+      "Pair it with eomuk broth or a plain soup rather than tteokbokki. Tteokbokki on the side is another 370."
+    ],
+    "components": [
+      {"name": "Seasoned rice", "grams": 150, "calories": 220},
+      {"name": "Sesame oil in rice", "grams": 5, "calories": 45},
+      {"name": "Egg strip and ham", "grams": 45, "calories": 80},
+      {"name": "Crab stick", "grams": 15, "calories": 15},
+      {"name": "Pickled radish, carrot, spinach", "grams": 40, "calories": 20},
+      {"name": "Dried seaweed sheet", "grams": 3, "calories": 10}
+    ],
+    "portions": [
+      {"label": "Vegetable kimbap roll", "calories": 355},
+      {"label": "Standard roll", "calories": 400},
+      {"label": "Tuna mayo roll", "calories": 520}
+    ],
+    "variants": [
+      {"name": "Vegetable kimbap (CU, 272g)", "calories": 356, "note": "No ham or egg"},
+      {"name": "Standard kimbap", "calories": 400, "note": "Egg, ham, crab stick"},
+      {"name": "Kimbap Cheonguk roll (300g)", "calories": 485, "note": "Bigger roll"},
+      {"name": "Tuna kimbap (300g)", "calories": 570, "note": "Tuna with mayonnaise"}
+    ],
+    "faq": [
+      {"q": "Is kimbap good for weight loss?", "a": "One roll is a reasonable 400 calorie meal with 13g protein. The problem is that it is easy to eat two, and tuna or cheese versions add 100 to 170 each."},
+      {"q": "How many calories in one piece of kimbap?", "a": "About 40 to 50 per slice, with 8 to 10 slices in a standard roll."},
+      {"q": "Which kimbap has the most calories?", "a": "Tuna mayo, cheese and bulgogi kimbap are the highest at 520 to 570 per roll. Vegetable kimbap is the lowest at around 355."},
+      {"q": "Is convenience store kimbap lower in calories?", "a": "Usually, because the rolls are smaller: CU and GS25 rolls are 200 to 270g and 290 to 360 calories, versus 400 to 485 for a bunsik shop roll."}
+    ],
+    "related": ["tteokbokki", "eomuk", "bibimbap", "popiah"],
+    "source": "fatsecret.kr: 바르다김선생 393 kcal/230g, CU 야채김밥 356 kcal/272g, 김밥천국 485 kcal/300g; 400 used for a standard 240g roll"
+  },
+  {
+    "slug": "kimchi-bokkeumbap",
+    "name": "Kimchi Bokkeumbap",
+    "aka": ["김치볶음밥", "Kimchi Fried Rice", "Kimchi Bokkeum Bap"],
+    "category": "rice",
+    "region": ["kr"],
+    "serving": "1 plate",
+    "servingGrams": 350,
+    "calories": 525,
+    "protein": 15,
+    "carbs": 75,
+    "fat": 18,
+    "metaDescription": "Kimchi fried rice is about 525 calories a plate with a fried egg on top. The kimchi is nearly free; the oil, spam and rice are not.",
+    "summary": "Kimchi bokkeumbap is day-old rice fried with chopped kimchi, a bit of spam or pork and butter or oil, topped with a fried egg and a sprinkle of seaweed.",
+    "answer": "A plate of kimchi bokkeumbap is about 525 calories, based on the Geniet figure of 523 per serving. The rice is 310 of that, the spam or pork about 110, the cooking oil 45, and the fried egg on top 70. The kimchi itself is under 20 calories.",
+    "realTalk": [
+      "Kimchi fried rice sounds like leftover food, and it is, but a 210g portion of rice is still 310 calories no matter how old it is. The kimchi is 15 calories for a big handful. So the difference between a light plate and a heavy one is entirely what the cook fries it in and what protein goes in.",
+      "Most bunsik places use spam. A 40g dice of spam is 110 calories, and if it is a gogi-jip finishing the meal with bokkeumbap in the samgyeopsal pan, the rice is frying in rendered pork fat and the plate goes past 650. Butter is the other common fat. One tablespoon (14g) is 100 calories, about double the neutral oil most home cooks use.",
+      "The egg on top is 70 calories and 6g of protein, and it is the best thing on the plate. The seaweed flakes and sesame seeds are a rounding error. If you want it as a real meal, a second egg is a better addition than more spam: 70 more calories for another 6g of protein."
+    ],
+    "lighter": [
+      "Ask for tuna instead of spam. Canned tuna in water is about 40 calories for the same 40g, versus 110 for spam.",
+      "Less rice, more kimchi. The kimchi is 15 calories a handful and carries all the flavour.",
+      "Two eggs on top, no cheese. Cheese kimchi bokkeumbap is around 100 calories higher.",
+      "If it is the end-of-meal bokkeumbap at a barbecue place, share one portion between two people."
+    ],
+    "components": [
+      {"name": "Steamed rice", "grams": 210, "calories": 310},
+      {"name": "Kimchi, chopped", "grams": 80, "calories": 15},
+      {"name": "Spam or pork", "grams": 40, "calories": 110},
+      {"name": "Cooking oil or butter", "grams": 5, "calories": 45},
+      {"name": "Fried egg", "grams": 50, "calories": 70}
+    ],
+    "portions": [
+      {"label": "Small plate, tuna", "calories": 430},
+      {"label": "Standard plate with spam and egg", "calories": 525},
+      {"label": "Cheese kimchi bokkeumbap", "calories": 630}
+    ],
+    "variants": [
+      {"name": "Tuna kimchi bokkeumbap", "calories": 450, "note": "Tuna in water instead of spam"},
+      {"name": "Standard with spam", "calories": 525, "note": "Geniet figure"},
+      {"name": "Cheese kimchi bokkeumbap", "calories": 630, "note": "Mozzarella melted through"},
+      {"name": "Barbecue pan bokkeumbap", "calories": 680, "note": "Fried in samgyeopsal fat"}
+    ],
+    "faq": [
+      {"q": "Is kimchi fried rice healthy?", "a": "It is an average plate: 525 calories, 15g protein, high in carbs. Swapping spam for tuna and adding a second egg makes it a much better meal for the same size."},
+      {"q": "How many calories in kimchi fried rice without egg?", "a": "About 455. The fried egg on top is roughly 70 calories."},
+      {"q": "Does kimchi lose its benefits when fried?", "a": "Some of the live bacteria die with heat, but the fibre and the flavour stay. It is still 15 calories a handful."},
+      {"q": "Is kimchi bokkeumbap lower in calories than bibimbap?", "a": "Slightly: about 525 versus 610. Bibimbap has more vegetables and more protein though, so it is the better bowl per calorie."}
+    ],
+    "related": ["kimchi-jjigae", "bibimbap", "kimbap", "nasi-goreng-kampung"],
+    "source": "geniet.co.kr 김치볶음밥 523 kcal per serving"
+  },
+  {
+    "slug": "jajangmyeon",
+    "name": "Jajangmyeon",
+    "aka": ["짜장면", "자장면", "Jjajangmyeon", "Black Bean Noodles", "Jajang Myeon"],
+    "category": "noodles",
+    "region": ["kr"],
+    "serving": "1 bowl",
+    "servingGrams": 650,
+    "calories": 797,
+    "protein": 27,
+    "carbs": 129,
+    "fat": 20,
+    "metaDescription": "A bowl of jajangmyeon is about 797 calories according to Korean MFDS data. Thick noodles, black bean sauce, a lot of carbs. Details here.",
+    "summary": "Jajangmyeon is the Korean-Chinese bowl of thick wheat noodles under a glossy black bean sauce with diced pork, onion and potato, the default delivery meal for moving day.",
+    "answer": "A restaurant bowl of jajangmyeon is about 797 calories for a 650g serving, the figure from the Korean MFDS restaurant nutrition survey. Around 420 of that is the 300g of cooked noodles, with the rest in the chunjang sauce, the pork and the oil the sauce is fried in. It carries about 129g of carbohydrate.",
+    "realTalk": [
+      "Jajangmyeon is a carb bowl. 300g of cooked noodles is 420 calories on its own, and the sauce adds another 130g of stuff that is mostly onion and potato cooked in black bean paste. The pork dice is small, maybe 40g. So you get 27g of protein and 129g of carbs, roughly the ratio of a plate of plain pasta with a spoon of sauce.",
+      "The oil is where restaurants differ. Chunjang is fried in oil before the vegetables go in, and a generous kitchen uses 2 tablespoons per portion, which is 240 calories of oil in the sauce. The MFDS survey found bowls ranging from 400g to 840g across shops, so a big-portion place can be serving you 1,000 calories in one bowl for 7,000 won.",
+      "Ganjajang (the dry, freshly stir-fried version) is listed at 825 in the same survey, slightly higher because the sauce is cooked with more oil to order. Jjajangbap swaps the noodles for rice and lands around the same. The set that really adds up is the half-and-half with tangsuyuk on the side, which turns lunch into a 1,300 calorie sitting."
+    ],
+    "lighter": [
+      "Ask for less noodles (면 적게). Every 100g of noodles you leave is 140 calories.",
+      "Eat the sauce, onion and pork, and leave the last third of the noodles. The sauce is where the flavour and the protein are.",
+      "Skip the tangsuyuk set. Adding a small tangsuyuk is another 480 per person.",
+      "Order it with a side of danmuji and raw onion, and stop there. The onion is free and helps you slow down."
+    ],
+    "components": [
+      {"name": "Wheat noodles, cooked", "grams": 300, "calories": 420},
+      {"name": "Black bean sauce with pork, onion, potato", "grams": 250, "calories": 300},
+      {"name": "Cooking oil in sauce", "grams": 10, "calories": 90},
+      {"name": "Cucumber garnish and danmuji", "grams": 40, "calories": 10}
+    ],
+    "portions": [
+      {"label": "Small bowl, less noodles", "calories": 620},
+      {"label": "Standard bowl", "calories": 797},
+      {"label": "Gop-bbegi (double noodles)", "calories": 1050}
+    ],
+    "variants": [
+      {"name": "Standard jajangmyeon", "calories": 797, "note": "MFDS 650g bowl"},
+      {"name": "Ganjajang", "calories": 825, "note": "Dry-fried sauce"},
+      {"name": "Samseon jajangmyeon", "calories": 850, "note": "Seafood added"},
+      {"name": "Jjamjjamyeon (half jjamppong)", "calories": 830, "note": "Split bowl"}
+    ],
+    "faq": [
+      {"q": "Is jajangmyeon unhealthy?", "a": "It is a high-carb, moderate-fat bowl at about 797 calories with 129g of carbs. Not a diet meal, but fine as an occasional lunch if you skip the tangsuyuk."},
+      {"q": "How many calories in jajangbap?", "a": "About the same as the noodle version, 750 to 800, because a full bowl of rice replaces the noodles."},
+      {"q": "Jajangmyeon or jjamppong for fewer calories?", "a": "They are close: 797 versus 764 in the MFDS survey. Jjamppong has slightly less oil and more seafood, so it edges it on protein too."},
+      {"q": "How much protein is in jajangmyeon?", "a": "About 27g, mostly from the small pork dice and the wheat noodles. It is not a protein meal."}
+    ],
+    "related": ["jjamppong", "tangsuyuk", "mul-naengmyeon", "hokkien-mee-kl"],
+    "source": "MFDS restaurant nutrition survey (짜장면 650g 797 kcal) via hidoc.co.kr"
+  }
+]

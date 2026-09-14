@@ -1,0 +1,1386 @@
+[
+  {
+    "slug": "xoi-xeo",
+    "name": "Xoi Xeo",
+    "aka": [
+      "Xôi xéo",
+      "Xôi",
+      "Vietnamese Sticky Rice with Mung Bean",
+      "Hanoi Sticky Rice"
+    ],
+    "category": "rice",
+    "region": [
+      "vn"
+    ],
+    "serving": "1 packet (goi)",
+    "servingGrams": 180,
+    "calories": 600,
+    "protein": 12,
+    "carbs": 90,
+    "fat": 22,
+    "metaDescription": "A packet of xoi xeo is about 600 calories, around 330 per 100g. The turmeric sticky rice, mung bean and shallot oil add up fast. Every xoi variant compared.",
+    "summary": "Turmeric yellow glutinous rice pressed into a banana leaf, topped with shaved steamed mung bean paste, a drizzle of liquid pork fat and a handful of fried shallots. Hanoi's 10,000 to 15,000 dong breakfast from a basket on the pavement.",
+    "answer": "A standard packet of xoi xeo is around 600 calories, based on the published figure of about 332 per 100g for a 180g portion. The sticky rice is 330, the mung bean paste 80, and the fat drizzle and fried shallots together nearly 190. Add cha or ruoc (pork floss) and it is over 700.",
+    "realTalk": [
+      "Xoi xeo is the densest breakfast on the street and the cheapest, which is a bad combination. Glutinous rice cooked with turmeric is about 235 calories per 100g cooked, so the 140g of rice in a normal packet is 330. The mung bean shaved on top is 80 for 30g. Then the seller ladles on mo, liquid rendered pork fat, and a spoon of fried shallots that were cooked in more of it: 190 calories for 25g of topping. Total 600 for something the size of your fist.",
+      "Per 100g, xoi xeo is 332 calories, which puts it in the same league as fried rice and well above pho at around 90 per 100g. The problem is there is no water in it. A bowl of pho weighs 500g and is 450 calories; a packet of xoi weighs 180g and is 600. You will be hungry again by 10am because 180g of anything does not stretch the stomach.",
+      "The xoi man version from Saigon carts is worse. Plain white sticky rice with cha lua, lap xuong (Chinese sausage), pate, quail eggs and pork floss runs 650 to 750 for a similar size packet, and the sellers pack them bigger. The one lighter option is xoi gac or xoi lac, sticky rice with gac fruit or peanuts and no fat drizzle, at about 380 to 450."
+    ],
+    "lighter": [
+      "Ask for khong mo, no pork fat drizzle. That alone saves about 130 calories.",
+      "Xoi gac or xoi dau xanh without shallots is 380 to 400 for the same packet.",
+      "Ask for a small packet (10,000 dong) instead of the 15,000 one. About 450 versus 600.",
+      "If you want protein, add a boiled egg (75) rather than cha or lap xuong (100 to 150).",
+      "Treat it as a meal, not a snack. At 600 calories it is bigger than a bowl of pho."
+    ],
+    "components": [
+      {
+        "name": "Turmeric glutinous rice (cooked)",
+        "grams": 140,
+        "calories": 330
+      },
+      {
+        "name": "Steamed mung bean paste",
+        "grams": 30,
+        "calories": 80
+      },
+      {
+        "name": "Liquid pork fat drizzle",
+        "grams": 15,
+        "calories": 130
+      },
+      {
+        "name": "Fried shallots in oil",
+        "grams": 10,
+        "calories": 60
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small packet",
+        "calories": 450
+      },
+      {
+        "label": "Standard packet",
+        "calories": 600
+      },
+      {
+        "label": "With cha and pork floss",
+        "calories": 720
+      }
+    ],
+    "variants": [
+      {
+        "name": "Xoi gac (gac fruit)",
+        "calories": 380,
+        "note": "No fat drizzle"
+      },
+      {
+        "name": "Xoi lac (peanut)",
+        "calories": 450,
+        "note": "Peanuts and sesame salt"
+      },
+      {
+        "name": "Xoi xeo",
+        "calories": 600,
+        "note": "Mung bean, pork fat, shallots"
+      },
+      {
+        "name": "Xoi man (Saigon style)",
+        "calories": 700,
+        "note": "Cha, lap xuong, pate, quail egg"
+      },
+      {
+        "name": "Xoi ga (chicken)",
+        "calories": 650,
+        "note": "Shredded chicken and shallot oil"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in 100g of xoi?",
+        "a": "About 330 for xoi xeo with its toppings, and around 235 for plain steamed glutinous rice. The fat drizzle and fried shallots are what push xoi xeo higher."
+      },
+      {
+        "q": "Is xoi good for weight loss?",
+        "a": "Not really. A 180g packet is 600 calories with only 12g of protein, so it is dense and not filling for long. Xoi gac or xoi lac without the fat is a better choice at around 400."
+      },
+      {
+        "q": "Is xoi healthier than banh mi?",
+        "a": "A packet of xoi xeo (600) has more calories than a banh mi thit (500) and less protein. Banh mi is the better breakfast of the two on numbers."
+      },
+      {
+        "q": "Why is sticky rice so high in calories?",
+        "a": "Glutinous rice is not higher per gram than normal rice; it is that it is eaten compressed with no water, so a small packet holds a lot of rice, and it is topped with fat."
+      }
+    ],
+    "related": [
+      "banh-mi-thit",
+      "banh-cuon",
+      "pulut",
+      "lo-mai-kai"
+    ],
+    "source": "Long Chau (664 per serving, 332 per 100g); scaled to a 180g street packet"
+  },
+  {
+    "slug": "banh-cuon",
+    "name": "Banh Cuon",
+    "aka": [
+      "Bánh cuốn",
+      "Vietnamese Steamed Rice Rolls",
+      "Banh Cuon Thanh Tri"
+    ],
+    "category": "snacks",
+    "region": [
+      "vn"
+    ],
+    "serving": "1 plate with cha lua",
+    "servingGrams": 280,
+    "calories": 300,
+    "protein": 14,
+    "carbs": 42,
+    "fat": 9,
+    "metaDescription": "A plate of banh cuon with cha lua is about 300 calories. Plain rolls are 200; add a fried egg or nem and it is 450. One of the lighter Vietnamese breakfasts.",
+    "summary": "Paper thin steamed rice sheets rolled around minced pork and wood ear mushroom, cut up, showered with fried shallots and served with slices of cha lua (pork loaf) and a bowl of warm nuoc cham. Hanoi breakfast, 25,000 to 35,000 dong.",
+    "answer": "A plate of banh cuon with cha lua is around 300 calories. The 200g of rice rolls with their pork and mushroom filling is about 220, the two slices of cha lua are 60, and the fried shallots and dipping sauce add 45. Plain banh cuon with only mushroom is about 200 a plate.",
+    "realTalk": [
+      "Banh cuon is one of the lightest things you can eat at a Hanoi breakfast stall, and the reason is water. The rice batter is steamed on cloth into sheets a millimetre thick, so a 200g plate of rolls is only about 220 calories even with the pork and wood ear filling. Compare that with 180g of xoi at 600. The filling is minced pork shoulder, maybe 30g per plate, so 60 of the 220 is meat.",
+      "The sides are where the plate goes up. Cha lua, the smooth boiled pork loaf, is 130 calories per 100g, so the two slices you get are about 60. Fried shallots are 25 for a teaspoon and most sellers are generous. The nuoc cham is warm, sweet and diluted, around 20 calories a bowl. Some stalls add a drop of ca cuong essence, which is just aroma. That is 300 for the standard plate.",
+      "The heavier orders are banh cuon trung, with a soft egg steamed inside the roll, and banh cuon with nem chua ran (fried fermented pork) or a fried banh tom on the side. Egg adds about 80 per roll. A plate with cha, egg and two fried nem is around 450 to 500. The published range of 200 to 600 per plate covers plain rolls at the bottom and minced pork with all the extras at the top."
+    ],
+    "lighter": [
+      "Order banh cuon chay or nhan moc nhi, mushroom filling only. About 200 a plate.",
+      "Ask for it hanh phi, less fried shallots. Each teaspoon is about 25 calories.",
+      "Skip the nem chua ran or banh tom on the side. Each fried piece is 80 to 120.",
+      "One slice of cha lua instead of two saves 30 and you still get the taste.",
+      "A plate of banh cuon plus a boiled egg is a decent 375 calorie breakfast with 20g of protein."
+    ],
+    "components": [
+      {
+        "name": "Steamed rice rolls with pork and mushroom",
+        "grams": 200,
+        "calories": 200
+      },
+      {
+        "name": "Cha lua pork loaf",
+        "grams": 40,
+        "calories": 60
+      },
+      {
+        "name": "Fried shallots",
+        "grams": 5,
+        "calories": 25
+      },
+      {
+        "name": "Warm nuoc cham",
+        "grams": 50,
+        "calories": 20
+      }
+    ],
+    "portions": [
+      {
+        "label": "Plain plate, mushroom filling",
+        "calories": 200
+      },
+      {
+        "label": "Standard plate with cha lua",
+        "calories": 300
+      },
+      {
+        "label": "With egg and 2 fried nem",
+        "calories": 480
+      }
+    ],
+    "variants": [
+      {
+        "name": "Banh cuon Thanh Tri (no filling)",
+        "calories": 180,
+        "note": "Plain sheets with shallots"
+      },
+      {
+        "name": "Banh cuon nhan moc nhi",
+        "calories": 200,
+        "note": "Mushroom only"
+      },
+      {
+        "name": "Banh cuon thit",
+        "calories": 300,
+        "note": "Minced pork, with cha lua"
+      },
+      {
+        "name": "Banh cuon trung",
+        "calories": 380,
+        "note": "Soft egg inside"
+      },
+      {
+        "name": "Banh cuon full set with nem chua ran",
+        "calories": 480,
+        "note": "Two fried nem on the side"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in banh cuon?",
+        "a": "About 200 for a plain plate and 300 with cha lua. Versions with egg inside or fried nem on the side run 380 to 500."
+      },
+      {
+        "q": "Is banh cuon good for weight loss?",
+        "a": "Yes, it is one of the lighter street breakfasts at 300 calories with 14g of protein. Add a boiled egg for protein and skip the fried sides."
+      },
+      {
+        "q": "Banh cuon or pho, which is lighter?",
+        "a": "Banh cuon at 300 versus pho at 450. Pho has more protein though, 28g against 14g, so it keeps you full longer."
+      },
+      {
+        "q": "What is banh cuon made of?",
+        "a": "A thin batter of rice flour and tapioca starch steamed into sheets, filled with minced pork and wood ear mushroom, and served with cha lua and diluted fish sauce."
+      }
+    ],
+    "related": [
+      "xoi-xeo",
+      "pho-ga",
+      "chee-cheong-fun",
+      "goi-cuon"
+    ],
+    "source": "Pharmacity and Long Chau (200 plain, 300 with egg, up to 590 with pork and extras); component estimate at 300 for the standard plate"
+  },
+  {
+    "slug": "chao-ga",
+    "name": "Chao Ga",
+    "aka": [
+      "Cháo gà",
+      "Vietnamese Chicken Congee",
+      "Chicken Rice Porridge",
+      "Chao"
+    ],
+    "category": "soup",
+    "region": [
+      "vn"
+    ],
+    "serving": "1 bowl",
+    "servingGrams": 400,
+    "calories": 250,
+    "protein": 18,
+    "carbs": 32,
+    "fat": 6,
+    "metaDescription": "A bowl of chao ga is about 250 calories, 60 to 80 per 100g. The quay on the side is another 150 each.",
+    "summary": "Rice simmered in chicken stock until it breaks down, topped with shredded chicken, spring onion, coriander, black pepper and fried shallots. The late night and sick day food of Vietnam, 20,000 to 35,000 dong a bowl.",
+    "answer": "A standard 400g bowl of chao ga is around 250 calories. Congee is 60 to 80 calories per 100g because it is mostly water, so the porridge itself is about 150, the 50g of shredded chicken adds 75, and the fried shallots and oil on top add 25. Two quay (fried dough sticks) on the side would double it.",
+    "realTalk": [
+      "Chao ga is about as cheap as calories get on a Vietnamese street: a 400g bowl for 250 calories, and 18g of that is protein. The rice porridge itself is 60 to 80 calories per 100g depending on how thick the quan makes it, so around 150 for the bowl. The chicken is usually 50g of shredded boiled ga ta, 75 calories. Spring onion, coriander, pepper and a small spoon of fried shallots make up the rest.",
+      "The reason it works for weight loss is volume. 400g of warm liquid stretches the stomach the same way a bowl of pho does, for half the calories. The catch is you will be hungry in two hours because 32g of carbs and 18g of protein is not a lot of food. Ask for extra chicken, 100g instead of 50, and it becomes a 325 calorie bowl with 30g of protein, which holds you much longer.",
+      "The trap is the side order. Quay, the fried dough sticks, are 130 to 150 each and every chao quan sells them. Two quay torn into the bowl is 280 extra, more than the chao itself. The other one is chao long, the offal version, where the fried intestine and liver take a 250 bowl to 400 or more. And a raw egg cracked in, common at late night stalls, adds 75."
+    ],
+    "lighter": [
+      "Skip the quay. Each fried dough stick is 130 to 150, more than half the bowl.",
+      "Ask for them ga, extra chicken. Doubles the protein for 75 more calories.",
+      "Ask for it hanh phi, less fried shallots. The oil is 25 to 40 per spoon.",
+      "Chao ga breast (uc) is leaner than thigh. Ask if they have a choice.",
+      "Order chao ga rather than chao long. The offal version is 150 to 200 higher."
+    ],
+    "components": [
+      {
+        "name": "Rice congee in chicken stock",
+        "grams": 320,
+        "calories": 150
+      },
+      {
+        "name": "Shredded chicken",
+        "grams": 50,
+        "calories": 75
+      },
+      {
+        "name": "Fried shallots and oil",
+        "grams": 5,
+        "calories": 25
+      },
+      {
+        "name": "Spring onion, coriander, pepper",
+        "grams": 25,
+        "calories": 0
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small bowl",
+        "calories": 180
+      },
+      {
+        "label": "Standard bowl",
+        "calories": 250
+      },
+      {
+        "label": "With 2 quay",
+        "calories": 530
+      }
+    ],
+    "variants": [
+      {
+        "name": "Chao trang (plain)",
+        "calories": 150,
+        "note": "No meat"
+      },
+      {
+        "name": "Chao ga",
+        "calories": 250,
+        "note": "Shredded chicken"
+      },
+      {
+        "name": "Chao ga with raw egg",
+        "calories": 325,
+        "note": "Egg stirred in"
+      },
+      {
+        "name": "Chao long (pork offal)",
+        "calories": 420,
+        "note": "Fried intestine, liver, blood"
+      },
+      {
+        "name": "Chao ga with 2 quay",
+        "calories": 530,
+        "note": "Fried dough sticks"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in a bowl of chao ga?",
+        "a": "About 250 for a 400g bowl. Congee is only 60 to 80 calories per 100g, and the chicken adds around 75."
+      },
+      {
+        "q": "Is chao ga good for weight loss?",
+        "a": "Yes, it is one of the lowest calorie hot meals available, as long as you skip the quay. Ask for extra chicken to get 30g of protein for about 325 calories."
+      },
+      {
+        "q": "How many calories in quay?",
+        "a": "About 130 to 150 per stick. Two quay with your chao adds more calories than the chao itself."
+      },
+      {
+        "q": "Chao ga or pho ga, which is lighter?",
+        "a": "Chao ga at 250 versus pho ga at 400. Pho ga has more protein and more noodles; chao is mostly water."
+      }
+    ],
+    "related": [
+      "pho-ga",
+      "bubur-ayam",
+      "canh-chua",
+      "sup-ayam"
+    ],
+    "source": "FPT Shop and bTaskee (60 to 80 per 100g, 160 to 200 per 200g bowl); scaled to a 400g quan bowl with 50g chicken"
+  },
+  {
+    "slug": "bo-kho",
+    "name": "Bo Kho",
+    "aka": [
+      "Bò kho",
+      "Bánh mì bò kho",
+      "Vietnamese Beef Stew",
+      "Bo Kho Banh Mi"
+    ],
+    "category": "soup",
+    "region": [
+      "vn"
+    ],
+    "serving": "1 bowl with 1 banh mi",
+    "servingGrams": 500,
+    "calories": 550,
+    "protein": 34,
+    "carbs": 50,
+    "fat": 24,
+    "metaDescription": "A bowl of bo kho with one banh mi is about 550 calories: 360 for the stew, 190 for the bread. Hu tieu bo kho is 538. The full breakdown and the leaner order.",
+    "summary": "Beef brisket and tendon braised with lemongrass, star anise, annatto and tomato until the sauce is thick and red, with chunks of carrot, served with a baguette for dipping or over hu tieu noodles. A Saigon breakfast, 40,000 to 60,000 dong.",
+    "answer": "A bowl of bo kho with one banh mi is around 550 calories. The 120g of braised brisket and tendon is about 260, the oily broth and carrot together about 105, and the baguette is 190. Order it over noodles as hu tieu bo kho and Vinmec puts it at 538. With two loaves of bread it is 740.",
+    "realTalk": [
+      "Bo kho is a proper protein meal, 34g in a bowl, and the beef is the good part. Brisket and tendon braised for two hours come out at about 215 calories per 100g, so the 120g in a normal bowl is 260. The broth is the tricky bit: it is finished with annatto oil for colour and the fat from the brisket renders into it, so 220ml of that red gravy is around 90 calories. The carrot is 15.",
+      "The bread is the other 190. A standard Saigon banh mi loaf is 80g, and dipping it into the gravy is the whole point, so the bread soaks up another 30 or 40 calories of fat. Most quan put two loaves on the table. If you eat both, the meal is 740. If you order hu tieu bo kho or mi bo kho instead, the noodles take the place of the bread at roughly the same calories, 538 for hu tieu per Vinmec.",
+      "The 360 calorie stew on its own is a decent thing to eat. What makes bo kho a heavy breakfast is the format: the bread, the second bread, and the fact that a quan bowl uses fattier brisket than the 100g at 350 to 400 you see quoted for home versions. Skim the orange layer of oil off the top before you start and you save 40 to 50."
+    ],
+    "lighter": [
+      "One banh mi, not two. The second loaf is 190 calories plus whatever gravy it soaks up.",
+      "Skim the orange oil layer off the top of the bowl. About 40 to 50 calories.",
+      "Ask for nam (brisket) rather than gan (tendon) and gau (fatty brisket). Leaner cut, same protein.",
+      "Order bo kho with a side of bun instead of bread and eat half the noodles. About 460.",
+      "The Vietnamese basil, onion and lime on the side plate are free. Use them."
+    ],
+    "components": [
+      {
+        "name": "Braised beef brisket and tendon",
+        "grams": 120,
+        "calories": 260
+      },
+      {
+        "name": "Bo kho gravy with annatto oil",
+        "grams": 220,
+        "calories": 90
+      },
+      {
+        "name": "Carrot",
+        "grams": 40,
+        "calories": 15
+      },
+      {
+        "name": "Banh mi baguette",
+        "grams": 80,
+        "calories": 190
+      }
+    ],
+    "portions": [
+      {
+        "label": "Bo kho only, no bread",
+        "calories": 360
+      },
+      {
+        "label": "Bo kho with 1 banh mi",
+        "calories": 550
+      },
+      {
+        "label": "Bo kho with 2 banh mi",
+        "calories": 740
+      }
+    ],
+    "variants": [
+      {
+        "name": "Bo kho (stew only)",
+        "calories": 360,
+        "note": "Beef, gravy, carrot"
+      },
+      {
+        "name": "Hu tieu bo kho",
+        "calories": 538,
+        "note": "Vinmec figure"
+      },
+      {
+        "name": "Banh mi bo kho",
+        "calories": 550,
+        "note": "One loaf"
+      },
+      {
+        "name": "Mi bo kho (egg noodles)",
+        "calories": 580,
+        "note": "Egg noodles are denser"
+      },
+      {
+        "name": "Banh mi bo kho, 2 loaves",
+        "calories": 740,
+        "note": "The usual table setting"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in banh mi bo kho?",
+        "a": "About 550 with one baguette and 740 with two. The stew on its own is around 360."
+      },
+      {
+        "q": "Is bo kho healthy?",
+        "a": "It is high in protein at 34g per bowl and the vegetables are real, but the gravy carries a lot of fat from the brisket and annatto oil. Skim the top layer and limit the bread and it is a solid meal."
+      },
+      {
+        "q": "How many calories in 100g of bo kho?",
+        "a": "Around 200 to 220 for the beef in gravy. Sources quoting 350 to 400 per 100g are measuring the fattiest cuts with a lot of oil."
+      },
+      {
+        "q": "Bo kho or pho bo, which is lighter?",
+        "a": "Pho bo at 450 versus bo kho with bread at 550. Bo kho has more protein, 34g against 28g."
+      }
+    ],
+    "related": [
+      "hu-tieu-nam-vang",
+      "banh-mi-thit",
+      "pho-bo",
+      "sup-daging"
+    ],
+    "source": "Vinmec (hu tieu bo kho 538) and Bibi Healthy Bread (bo kho 350 to 500 plus bread 150 to 200); component cross-check"
+  },
+  {
+    "slug": "canh-chua",
+    "name": "Canh Chua",
+    "aka": [
+      "Canh chua cá",
+      "Vietnamese Sour Soup",
+      "Tamarind Fish Soup",
+      "Canh Chua Ca Loc"
+    ],
+    "category": "soup",
+    "region": [
+      "vn"
+    ],
+    "serving": "1 bowl",
+    "servingGrams": 350,
+    "calories": 150,
+    "protein": 14,
+    "carbs": 14,
+    "fat": 4,
+    "metaDescription": "A bowl of canh chua ca is about 150 calories: pineapple, tomato, okra, tamarind broth and a piece of fish. Almost no fat.",
+    "summary": "A sweet and sour tamarind broth with chunks of fish, pineapple, tomato, okra, elephant ear stem and bean sprouts, finished with fried garlic and rice paddy herb. Southern Vietnam's everyday soup, served next to a bowl of rice and a clay pot of ca kho.",
+    "answer": "A bowl of canh chua ca is around 150 calories for 350ml with a 60g piece of fish. The fish is about 65, the pineapple, tomato and vegetables about 30, the tamarind broth with its sugar about 30, and the spoon of fried garlic oil on top 25. Without the fish, a ladle of the soup is about 60.",
+    "realTalk": [
+      "Canh chua is the lowest calorie thing on a Vietnamese table that still tastes like a meal. A full bowl is 150 calories. The broth is water, tamarind, fish sauce and about a teaspoon of sugar per bowl, so 30 calories. The vegetables, 100g of pineapple, tomato, okra and bac ha stem, are another 30. The piece of fish, usually ca loc (snakehead) or ca dieu hong (tilapia), is 65 for 60g and it is lean.",
+      "The published range is 90 to 180 per bowl and the fish is the variable. Canh chua with ca hu or ca basa, the fatty catfish cuts with the belly on, is 250 to 280 because catfish belly is 15 percent fat. With prawns it is about 120. Vegetarian canh chua with tofu is 100. The fried garlic on top is the one thing to watch: a teaspoon of toi phi in oil is 25 calories and some quan use a tablespoon.",
+      "At a com binh dan quan the soup comes as part of a set: a plate of rice at 300, a clay pot of ca kho at 300, and canh chua at 150. The soup is the part you should eat more of. Ask for a second bowl and the meal is 900 calories with an extra 14g of protein and a lot more volume, versus adding a second helping of rice at 150 for nothing."
+    ],
+    "lighter": [
+      "Pick ca loc or prawn over ca basa. The catfish belly version is nearly double.",
+      "Ask for it toi phi, less fried garlic. Each spoon of the oil is about 25.",
+      "Have a second bowl of canh instead of a second plate of rice. 150 calories versus 150 for rice, but with protein and fibre.",
+      "Eat the pineapple and okra. Most people leave them and they are the fibre.",
+      "Drink the broth. It is 30 calories and mostly water; the sourness kills appetite for a while."
+    ],
+    "components": [
+      {
+        "name": "Fish (snakehead or tilapia)",
+        "grams": 60,
+        "calories": 65
+      },
+      {
+        "name": "Pineapple, tomato, okra, elephant ear stem",
+        "grams": 100,
+        "calories": 30
+      },
+      {
+        "name": "Tamarind broth with sugar",
+        "grams": 180,
+        "calories": 30
+      },
+      {
+        "name": "Fried garlic oil and herbs",
+        "grams": 5,
+        "calories": 25
+      }
+    ],
+    "portions": [
+      {
+        "label": "Ladle of soup, no fish",
+        "calories": 60
+      },
+      {
+        "label": "Standard bowl with fish",
+        "calories": 150
+      },
+      {
+        "label": "Big bowl with fatty catfish",
+        "calories": 270
+      }
+    ],
+    "variants": [
+      {
+        "name": "Canh chua chay (tofu)",
+        "calories": 100,
+        "note": "No fish"
+      },
+      {
+        "name": "Canh chua tom (prawn)",
+        "calories": 120,
+        "note": "Lean protein"
+      },
+      {
+        "name": "Canh chua ca loc",
+        "calories": 150,
+        "note": "Snakehead, lean"
+      },
+      {
+        "name": "Canh chua ca dieu hong",
+        "calories": 170,
+        "note": "Tilapia"
+      },
+      {
+        "name": "Canh chua ca basa / ca hu",
+        "calories": 270,
+        "note": "Fatty catfish belly"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in canh chua ca?",
+        "a": "About 150 for a bowl with a piece of lean fish. The published range is 90 to 180; catfish belly versions go higher, around 270."
+      },
+      {
+        "q": "Is canh chua healthy?",
+        "a": "Yes. It is low calorie, low fat, has 14g of protein per bowl and a lot of vegetables. The only additions to watch are the sugar in the broth and the fried garlic oil."
+      },
+      {
+        "q": "Does canh chua have sugar?",
+        "a": "About a teaspoon per bowl, 15 to 20 calories, to balance the tamarind. Some quan use more; if it tastes noticeably sweet it is probably two."
+      },
+      {
+        "q": "Can I eat canh chua for weight loss?",
+        "a": "It is one of the best dishes for it. A bowl of canh chua and a small plate of rice is about 450 calories with 20g of protein and a lot of volume."
+      }
+    ],
+    "related": [
+      "ca-kho-to",
+      "chao-ga",
+      "sup-ikan",
+      "tomyam"
+    ],
+    "source": "Pharmacity and Long Chau (100 to 180 per bowl; 90 to 120 with lean catfish); component estimate at 150 with snakehead"
+  },
+  {
+    "slug": "ca-kho-to",
+    "name": "Ca Kho To",
+    "aka": [
+      "Cá kho tộ",
+      "Cá kho",
+      "Vietnamese Caramelised Fish in Clay Pot",
+      "Braised Fish Clay Pot"
+    ],
+    "category": "lauk",
+    "region": [
+      "vn"
+    ],
+    "serving": "1 clay pot (2 pieces)",
+    "servingGrams": 200,
+    "calories": 300,
+    "protein": 30,
+    "carbs": 14,
+    "fat": 14,
+    "metaDescription": "A clay pot of ca kho to with two pieces of fish is about 300 calories, roughly 120 per 100g of fish. The caramel sauce is 60 of that.",
+    "summary": "Fish steaks braised in a small clay pot with nuoc mau (burnt sugar caramel), fish sauce, black pepper, shallots and a little pork fat until the sauce is dark and sticky. Eaten with white rice and canh chua at every com binh dan quan in the south.",
+    "answer": "A clay pot of ca kho to with two pieces of fish, about 150g of meat plus sauce, is around 300 calories. The fish is 190, the caramel and fish sauce reduction is about 60 because it has 20 to 25g of sugar in it, and the pork fat or oil used to start the braise adds 45. Made with fatty ca basa instead of ca loc it is over 400.",
+    "realTalk": [
+      "Ca kho to is 300 calories for a normal quan pot and 30g of it is protein, which makes it one of the better lauk on the tray. The published figure is about 120 calories per 100g of braised fish, and a two piece pot holds 150g of fish, so 190 from the fish alone. The rest is the sauce: nuoc mau is sugar cooked to caramel, and a pot uses about 20g of it plus fish sauce, so 60 calories of sauce that you will pour over your rice.",
+      "The fish choice changes the number a lot. Ca loc (snakehead) and ca ro (climbing perch) are lean, around 100 calories per 100g cooked. Ca basa and ca hu, the catfish cuts with the belly and skin, are 180 to 200 per 100g because the fat renders into the sauce. Same size pot, 300 versus 420. Ca kho with thit ba chi, where cubes of pork belly are braised in with the fish, is 480 or more.",
+      "The meal is the issue more than the fish. Ca kho is so salty and sweet that it is designed to push rice: most people eat 300g of rice with one pot, which is 390 calories, plus the sauce soaked into it. A pot of ca kho, a big plate of rice and a bowl of canh chua is 850. Take a small plate of rice and the same meal is 650 with the same 45g of protein."
+    ],
+    "lighter": [
+      "Order ca loc or ca ro over ca basa. Lean fish is about 100 per 100g versus 180 to 200.",
+      "Do not pour all the sauce over your rice. Half the pot's sauce is 30 calories of sugar and fat.",
+      "Ask for a small plate of rice (it com). The sauce makes you want to eat more rice than you need.",
+      "Skip the ca kho thit ba chi version. The pork belly adds 150 to 200.",
+      "Have it with canh chua rather than a fried side dish. The soup fills you up for 150."
+    ],
+    "components": [
+      {
+        "name": "Fish steaks (snakehead or tilapia)",
+        "grams": 150,
+        "calories": 190
+      },
+      {
+        "name": "Caramel and fish sauce reduction",
+        "grams": 30,
+        "calories": 60
+      },
+      {
+        "name": "Pork fat or cooking oil",
+        "grams": 5,
+        "calories": 45
+      },
+      {
+        "name": "Shallots, chili, pepper",
+        "grams": 15,
+        "calories": 5
+      }
+    ],
+    "portions": [
+      {
+        "label": "1 piece of fish with sauce",
+        "calories": 170
+      },
+      {
+        "label": "Standard pot, 2 pieces",
+        "calories": 300
+      },
+      {
+        "label": "Pot with fatty ca basa",
+        "calories": 420
+      }
+    ],
+    "variants": [
+      {
+        "name": "Ca bong kho tieu (goby with pepper)",
+        "calories": 240,
+        "note": "Small lean fish"
+      },
+      {
+        "name": "Ca loc kho to",
+        "calories": 280,
+        "note": "Snakehead"
+      },
+      {
+        "name": "Ca dieu hong kho to",
+        "calories": 300,
+        "note": "Tilapia"
+      },
+      {
+        "name": "Ca basa kho to",
+        "calories": 400,
+        "note": "Fatty catfish belly"
+      },
+      {
+        "name": "Ca kho thit ba chi",
+        "calories": 480,
+        "note": "With pork belly cubes"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in ca kho to?",
+        "a": "About 300 for a two piece clay pot with lean fish, or around 120 per 100g of braised fish. Fatty catfish versions are 400 or more."
+      },
+      {
+        "q": "Is ca kho healthy?",
+        "a": "The fish is lean and high in protein. The downside is the sauce, which has 20 to 25g of sugar and a lot of salt per pot. It is fine as the protein on a rice plate."
+      },
+      {
+        "q": "How much sugar is in ca kho?",
+        "a": "Around 20 to 25g per pot from the nuoc mau caramel, about 80 to 100 calories, though a lot of it stays in the pot if you do not scrape the sauce out."
+      },
+      {
+        "q": "What fish is used for ca kho to?",
+        "a": "Snakehead (ca loc) is the classic; ca basa, ca hu, tilapia and small goby (ca bong) are common. The fattier the fish, the higher the calories."
+      }
+    ],
+    "related": [
+      "canh-chua",
+      "com-tam-suon",
+      "asam-pedas",
+      "ikan-masak-lemak"
+    ],
+    "source": "Long Chau (about 120 per 100g braised fish); component estimate for a 2 piece quan pot"
+  },
+  {
+    "slug": "bo-la-lot",
+    "name": "Bo La Lot",
+    "aka": [
+      "Bò lá lốt",
+      "Bò nướng lá lốt",
+      "Beef in Betel Leaf",
+      "Grilled Beef Wrapped in Lolot Leaf"
+    ],
+    "category": "lauk",
+    "region": [
+      "vn"
+    ],
+    "serving": "1 plate (5 rolls)",
+    "servingGrams": 250,
+    "calories": 580,
+    "protein": 30,
+    "carbs": 12,
+    "fat": 44,
+    "metaDescription": "A plate of 5 bo la lot rolls is about 580 calories, around 115 each. The mince is fatty and the scallion oil on top adds 80.",
+    "summary": "Seasoned minced beef and pork fat rolled in lolot leaves and grilled over charcoal until the leaves char, then topped with scallion oil and crushed peanuts. Served with banh hoi, rice paper, herbs and mam nem at street grills from 4pm. Around 50,000 to 70,000 dong a plate.",
+    "answer": "A street plate of five bo la lot rolls is around 580 calories, about 115 per roll. The mince is beef mixed with pork fat, so a 40g roll is 90 to 110 before the mo hanh and peanuts on top add another 30 per roll. The full set with banh hoi, rice paper and dipping sauce is about 850.",
+    "realTalk": [
+      "Bo la lot is a fat bomb hiding behind a leaf. The mince is beef mixed with pork fat or pork mince, usually 20 to 30 percent fat, because lean beef dries out on the grill. So a 40g roll is about 90 to 110 calories, and the published range for a 50 to 60g roll is 120 to 180. Five rolls on a plate is 440 to 550 before toppings. The lolot leaf is nothing, about 1 calorie each.",
+      "Then the seller pours mo hanh over the plate, scallions fried in oil, a tablespoon is 80 calories, and sprinkles peanuts, another 60. That is how a plate of five reaches 580. It comes with mam nem, fermented anchovy sauce with pineapple and sugar, about 40 calories for a small bowl, and most tables have two.",
+      "The way it is actually eaten is the problem: as a set with banh hoi (fine rice vermicelli sheets, 200 calories for a normal serving), rice paper (60 for two sheets), and a plate of herbs and cucumber. Wrapped and dipped, the full bo la lot banh hoi is 850 to 900 calories, and it is usually an appetiser at a bia hoi table before the main dishes. Two beers on top is another 300."
+    ],
+    "lighter": [
+      "Ask for khong mo hanh, no scallion oil. That is 80 calories off a plate of five.",
+      "Wrap in rice paper with lots of herbs and skip the banh hoi. Saves 200 and you still get the bite.",
+      "Three rolls, not five, as a side dish. About 350.",
+      "Dip lightly. The mam nem has sugar and pineapple, about 40 per bowl if you finish it.",
+      "Some quan grill bo la lot with lean beef only, which is drier but 30 fewer calories a roll. Ask."
+    ],
+    "components": [
+      {
+        "name": "Beef and pork fat mince, 5 rolls",
+        "grams": 200,
+        "calories": 440
+      },
+      {
+        "name": "Lolot leaves",
+        "grams": 15,
+        "calories": 5
+      },
+      {
+        "name": "Scallion oil (mo hanh)",
+        "grams": 15,
+        "calories": 80
+      },
+      {
+        "name": "Crushed peanuts",
+        "grams": 10,
+        "calories": 60
+      }
+    ],
+    "portions": [
+      {
+        "label": "3 rolls",
+        "calories": 350
+      },
+      {
+        "label": "Plate of 5 rolls",
+        "calories": 580
+      },
+      {
+        "label": "Full set with banh hoi and rice paper",
+        "calories": 850
+      }
+    ],
+    "variants": [
+      {
+        "name": "Cha la lot (pan fried, lean pork)",
+        "calories": 100,
+        "note": "Per piece, Hanoi home style"
+      },
+      {
+        "name": "Bo la lot, lean beef",
+        "calories": 90,
+        "note": "Per roll"
+      },
+      {
+        "name": "Bo la lot, standard",
+        "calories": 115,
+        "note": "Per roll with toppings"
+      },
+      {
+        "name": "Bo la lot banh hoi set",
+        "calories": 850,
+        "note": "5 rolls with vermicelli sheets"
+      },
+      {
+        "name": "Bo la lot with bo mo chai",
+        "calories": 1100,
+        "note": "Add caul fat wrapped beef, per set"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in one bo la lot roll?",
+        "a": "About 90 to 115 for a 40g street roll with toppings. Larger 50 to 60g rolls are 120 to 180 each."
+      },
+      {
+        "q": "Is bo la lot healthy?",
+        "a": "It is high in protein, 30g per plate of five, but also high in fat at 44g because the mince is cut with pork fat and topped with scallion oil. Fine occasionally, not a diet food."
+      },
+      {
+        "q": "How many calories in bo la lot banh hoi?",
+        "a": "About 850 for a full set of five rolls with banh hoi, rice paper, herbs and mam nem. The banh hoi alone is around 200."
+      },
+      {
+        "q": "What is the leaf used for bo la lot?",
+        "a": "Lolot leaf (la lot, Piper sarmentosum), a relative of betel. It adds aroma and almost no calories."
+      }
+    ],
+    "related": [
+      "nem-nuong",
+      "bun-thit-nuong",
+      "cha-gio",
+      "satay"
+    ],
+    "source": "Long Chau (120 to 180 per 50 to 60g piece); component estimate for a 5 roll street plate"
+  },
+  {
+    "slug": "nem-nuong",
+    "name": "Nem Nuong",
+    "aka": [
+      "Nem nướng",
+      "Nem nướng Nha Trang",
+      "Vietnamese Grilled Pork Sausage",
+      "Nem Nuong Rolls"
+    ],
+    "category": "lauk",
+    "region": [
+      "vn"
+    ],
+    "serving": "1 set (4 sticks with rice paper, greens, sauce)",
+    "servingGrams": 450,
+    "calories": 650,
+    "protein": 30,
+    "carbs": 62,
+    "fat": 30,
+    "metaDescription": "A set of nem nuong Nha Trang is about 650 calories: 4 grilled pork sticks, rice paper, banh hoi, fried ram and the peanut dipping sauce.",
+    "summary": "Sweet, springy pork sausage grilled on skewers over charcoal, rolled up in rice paper with fine vermicelli, a crispy fried wrapper (ram), green mango, cucumber and herbs, then dunked in a thick peanut and pork liver sauce. Nha Trang's signature, 50,000 to 70,000 dong a set.",
+    "answer": "A full set of nem nuong Nha Trang is around 650 calories. The four grilled pork sticks are about 300, the rice paper and banh hoi 170, the fried ram strips 60, the peanut dipping sauce 90, and the plate of greens 25. Published estimates run 600 to 700 per set.",
+    "realTalk": [
+      "Nem nuong is 650 calories for a set, and it is spread across five things so no single one looks bad. The pork sticks are the biggest: nem nuong is minced pork with pork fat, sugar and garlic, so 100g of grilled sticks is about 300 calories, and a set gives you four sticks. The sugar in the mince caramelises on the grill, which is why they taste sweet and why 10g of that 100g is sugar.",
+      "The wrapping is the second 230. Two sheets of rice paper are 60, the banh hoi or bun that goes inside is 110, and the ram chien, the deep fried rice paper strips that give the crunch, are 60 for a small handful. Then the sauce. Nem nuong sauce is peanuts, pork liver, glutinous rice, sugar and oil cooked into a thick dip, about 90 calories for a 50ml bowl, and many people go through two bowls.",
+      "Ordering a second round is the normal move because four sticks does not feel like dinner. Two sets is 1,300 calories. The lighter play is one set of nem plus extra greens and rice paper rather than a second set of everything: each extra stick is 75 and each extra sheet of rice paper is 30, so you can build a bigger meal for about 200 more instead of 650."
+    ],
+    "lighter": [
+      "Skip the ram chien. The fried strips are about 60 per set and add nothing except crunch.",
+      "Wrap with more greens and less banh hoi. The vermicelli sheets are 110 per set.",
+      "One bowl of sauce, not two. Each is around 90 calories of peanut, liver and sugar.",
+      "Order extra nem sticks (75 each) instead of a second full set if still hungry.",
+      "The green mango and cucumber are free and cut the sweetness. Use a lot."
+    ],
+    "components": [
+      {
+        "name": "Grilled pork sausage sticks (4)",
+        "grams": 100,
+        "calories": 300
+      },
+      {
+        "name": "Rice paper and banh hoi",
+        "grams": 60,
+        "calories": 170
+      },
+      {
+        "name": "Fried ram strips",
+        "grams": 15,
+        "calories": 60
+      },
+      {
+        "name": "Peanut and pork liver dipping sauce",
+        "grams": 50,
+        "calories": 90
+      },
+      {
+        "name": "Lettuce, herbs, green mango, cucumber",
+        "grams": 100,
+        "calories": 25
+      }
+    ],
+    "portions": [
+      {
+        "label": "Half set (2 sticks)",
+        "calories": 380
+      },
+      {
+        "label": "Standard set (4 sticks)",
+        "calories": 650
+      },
+      {
+        "label": "Set with extra sauce and ram",
+        "calories": 800
+      }
+    ],
+    "variants": [
+      {
+        "name": "Nem nuong sticks only (4)",
+        "calories": 300,
+        "note": "No wrapping or sauce"
+      },
+      {
+        "name": "Bun nem nuong (noodle bowl)",
+        "calories": 520,
+        "note": "Over vermicelli with nuoc cham"
+      },
+      {
+        "name": "Nem nuong Nha Trang set",
+        "calories": 650,
+        "note": "The standard"
+      },
+      {
+        "name": "Nem nuong Ninh Hoa set",
+        "calories": 700,
+        "note": "Bigger sticks, more ram"
+      },
+      {
+        "name": "Two sets",
+        "calories": 1300,
+        "note": "What two hungry people usually order per person"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in nem nuong?",
+        "a": "About 300 for four grilled sticks on their own, and 650 for a full Nha Trang set with rice paper, banh hoi, ram and dipping sauce."
+      },
+      {
+        "q": "Is nem nuong healthy?",
+        "a": "The pork is high in protein at 30g per set but also carries a lot of fat and sugar, and the sauce adds more. It is a reasonable dinner at 650 if you stop at one set."
+      },
+      {
+        "q": "What is nem nuong sauce made of?",
+        "a": "Ground peanuts, pork liver, glutinous rice, sugar, garlic and oil simmered into a thick paste. A 50ml bowl is around 90 calories."
+      },
+      {
+        "q": "Nem nuong or bo la lot, which has more calories?",
+        "a": "Similar per plate. A nem nuong set is 650; a plate of five bo la lot is 580, or 850 with the banh hoi set. Both are fatty minced meat over charcoal."
+      }
+    ],
+    "related": [
+      "bo-la-lot",
+      "bun-thit-nuong",
+      "goi-cuon",
+      "cha-gio"
+    ],
+    "source": "Long Chau (600 to 700 per set) and Vua Ga Nuong (600 to 667 for 4 sticks, 2 rice paper, greens, sauce)"
+  },
+  {
+    "slug": "banh-xeo",
+    "name": "Banh Xeo",
+    "aka": [
+      "Bánh xèo",
+      "Vietnamese Sizzling Pancake",
+      "Vietnamese Crepe",
+      "Banh Xeo Mien Tay"
+    ],
+    "category": "lauk",
+    "region": [
+      "vn"
+    ],
+    "serving": "1 medium pancake",
+    "servingGrams": 200,
+    "calories": 350,
+    "protein": 14,
+    "carbs": 40,
+    "fat": 15,
+    "metaDescription": "A medium banh xeo is about 350 calories; a small central style one is 250 and a big Mekong plate size one is 500.",
+    "summary": "A crisp turmeric rice flour and coconut milk crepe fried in a hot pan with pork belly, prawns and bean sprouts folded inside, torn up and wrapped in mustard leaf and herbs, then dipped in nuoc cham. Big and thin in the south, small and thick in the centre. About 20,000 to 40,000 dong each.",
+    "answer": "A medium banh xeo is around 350 calories. The batter is rice flour with coconut milk and turmeric, about 170 for one pancake, and it is fried in enough oil to make it crisp, which adds 90. The prawn and pork inside are about 70, the bean sprouts 15. Small central Vietnam ones are 250; the huge southern ones are 500.",
+    "realTalk": [
+      "Banh xeo looks like a light, vegetable heavy snack and it is really a fried pancake. The batter for one medium pancake is about 60g of rice flour and 40ml of coconut milk, 170 calories before it hits the pan. Then it hits the pan with a ladle of oil, because the crispness comes from shallow frying, and a medium pancake absorbs about 10g, 90 calories. That is 260 before the filling.",
+      "The filling is the healthy bit. Two or three prawns and a few slices of pork belly are about 70 calories for 40g, and the bean sprouts are 15. The published figure of 315 to 350 for a medium pancake with 11g fat, 40g carbs and 14g protein lines up with that. What changes it is size. A Hue or Da Nang banh xeo is palm size and 250; a Mekong style one is the size of the pan and 450 to 500.",
+      "Nobody eats one. The typical order at a banh xeo quan is two per person, with a plate of mustard greens and herbs and a bowl of sweet fish sauce, about 40 calories per bowl. Two medium pancakes plus sauce is 740. Two southern ones is 1,000. The greens are free and the pancake is meant to be wrapped in them, so at least the meal has volume."
+    ],
+    "lighter": [
+      "Order the central style small ones. About 250 each versus 350 for medium and 500 for the big southern kind.",
+      "Wrap every piece in a large mustard leaf with herbs. The greens are free and slow you down.",
+      "Ask for it dau, less oil, at a quan that cooks to order. Saves 30 to 50 per pancake.",
+      "One pancake plus a bowl of canh or a goi cuon is a lighter meal than two pancakes.",
+      "Ask for more tom (prawn) and less ba chi (pork belly) in the filling."
+    ],
+    "components": [
+      {
+        "name": "Rice flour and coconut milk batter",
+        "grams": 90,
+        "calories": 170
+      },
+      {
+        "name": "Frying oil absorbed",
+        "grams": 10,
+        "calories": 90
+      },
+      {
+        "name": "Prawns and pork belly",
+        "grams": 40,
+        "calories": 70
+      },
+      {
+        "name": "Bean sprouts and spring onion",
+        "grams": 40,
+        "calories": 15
+      },
+      {
+        "name": "Herbs and mustard leaf",
+        "grams": 20,
+        "calories": 5
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small central style pancake",
+        "calories": 250
+      },
+      {
+        "label": "Medium pancake",
+        "calories": 350
+      },
+      {
+        "label": "Large Mekong style pancake",
+        "calories": 500
+      }
+    ],
+    "variants": [
+      {
+        "name": "Banh khot (mini cups, per 5)",
+        "calories": 350,
+        "note": "Small fried cups with shrimp"
+      },
+      {
+        "name": "Banh xeo mien Trung (central)",
+        "calories": 250,
+        "note": "Small, thick"
+      },
+      {
+        "name": "Banh xeo chay (vegetarian)",
+        "calories": 300,
+        "note": "Mushroom and tofu"
+      },
+      {
+        "name": "Banh xeo tom thit (medium)",
+        "calories": 350,
+        "note": "Prawn and pork"
+      },
+      {
+        "name": "Banh xeo mien Tay (large)",
+        "calories": 500,
+        "note": "Pan sized, extra pork"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in one banh xeo?",
+        "a": "About 350 for a medium pancake with prawn and pork. Small central Vietnam ones are around 250 and the large Mekong style ones about 500."
+      },
+      {
+        "q": "Is banh xeo healthy?",
+        "a": "It has some protein and comes with a lot of raw greens, but the pancake is fried in oil and made with coconut milk, so 15g of fat per medium piece. One is fine; two or three is a heavy meal."
+      },
+      {
+        "q": "Is banh xeo gluten free?",
+        "a": "Usually yes. The batter is rice flour, turmeric and coconut milk. Some stalls add a little wheat flour or beer for crispness, so ask if it matters."
+      },
+      {
+        "q": "How much oil is in banh xeo?",
+        "a": "A medium pancake absorbs about 10g of frying oil, roughly 90 calories, which is a quarter of the total."
+      }
+    ],
+    "related": [
+      "goi-cuon",
+      "cha-gio",
+      "nem-nuong",
+      "apam-balik"
+    ],
+    "source": "Long Chau and Huggies VN (315 to 350 medium, 250 small); component cross-check"
+  },
+  {
+    "slug": "banh-mi-thit",
+    "name": "Banh Mi Thit",
+    "aka": [
+      "Bánh mì thịt",
+      "Bánh mì",
+      "Vietnamese Baguette Sandwich",
+      "Banh Mi Dac Biet",
+      "Banh Mi Saigon"
+    ],
+    "category": "snacks",
+    "region": [
+      "vn"
+    ],
+    "serving": "1 loaf",
+    "servingGrams": 220,
+    "calories": 500,
+    "protein": 20,
+    "carbs": 60,
+    "fat": 20,
+    "metaDescription": "A standard banh mi thit is about 500 calories: 240 for the bread, 120 for pate and butter, 90 for the cold cuts. A stuffed Huynh Hoa style loaf is 900.",
+    "summary": "A crackly, airy baguette split and spread with pate and butter or mayo, layered with cha lua, head cheese, roast pork or cold cuts, then stuffed with pickled carrot and daikon, cucumber, coriander, chili and a splash of Maggi. 20,000 to 35,000 dong from a cart, more at the famous shops.",
+    "answer": "A standard banh mi thit is around 500 calories. The 90g baguette is 240, the pate and butter or mayo spread is about 120, the 50g of cold cuts and cha lua is 90, and the pickles, cucumber and sauce make up the rest. Published figures range from 380 for a lightly filled cart banh mi to 900 for a fully stuffed one.",
+    "realTalk": [
+      "A banh mi is 500 calories and the bread is half of it. A Vietnamese baguette is lighter than a French one because it is part rice flour and mostly air, but a 90g loaf is still 240 calories. The other big piece is the spread. Pate is 320 calories per 100g and butter or mayo is 700, and a cart puts about 15g of pate and 10g of fat on each loaf, so 120 calories that you never see.",
+      "The meat is less than you think. A typical cart gives 50g of mixed cha lua, cold pork, and head cheese, around 90 calories. Roast pork (thit nuong) or xiu mai (meatballs in tomato sauce) are heavier, 130 to 150 for the same weight. Then the pickles, cucumber and coriander are 15, and the Maggi and chili sauce about 20. That is your 500.",
+      "The variance between banh mi is huge. A 15,000 dong banh mi chả with two slices of cha lua is 380. A banh mi from Huynh Hoa in Saigon, stuffed with 150g of meat, pate and a thick layer of butter, weighs 350g and is 900 or more. The published 300 to 350 figures are for the thin cart versions; a real banh mi dac biet from a shop is 500 to 600."
+    ],
+    "lighter": [
+      "Ask for it bo, khong pate: no butter, less pate. Saves 80 to 120 calories.",
+      "Banh mi thit nuong (grilled pork) or ga (chicken) gives more protein for the calories than cold cuts.",
+      "Ask for extra do chua (pickles) and cucumber. They are free and add crunch.",
+      "Skip the extra Maggi and chili sauce. About 20 calories and a lot of sodium.",
+      "Banh mi op la (fried egg) is about 420 and has 13g of protein, a decent breakfast option."
+    ],
+    "components": [
+      {
+        "name": "Vietnamese baguette",
+        "grams": 90,
+        "calories": 240
+      },
+      {
+        "name": "Pate and butter or mayo",
+        "grams": 25,
+        "calories": 120
+      },
+      {
+        "name": "Cha lua and cold cuts",
+        "grams": 50,
+        "calories": 90
+      },
+      {
+        "name": "Pickled carrot, daikon, cucumber, coriander",
+        "grams": 40,
+        "calories": 15
+      },
+      {
+        "name": "Maggi and chili sauce",
+        "grams": 15,
+        "calories": 35
+      }
+    ],
+    "portions": [
+      {
+        "label": "Banh mi cha (cart, lightly filled)",
+        "calories": 380
+      },
+      {
+        "label": "Standard banh mi thit",
+        "calories": 500
+      },
+      {
+        "label": "Huynh Hoa style stuffed loaf",
+        "calories": 900
+      }
+    ],
+    "variants": [
+      {
+        "name": "Banh mi cha lua",
+        "calories": 380,
+        "note": "Pork loaf only"
+      },
+      {
+        "name": "Banh mi op la (fried egg)",
+        "calories": 420,
+        "note": "One or two eggs, no cold cuts"
+      },
+      {
+        "name": "Banh mi thit (dac biet)",
+        "calories": 500,
+        "note": "Mixed cold cuts and pate"
+      },
+      {
+        "name": "Banh mi xiu mai",
+        "calories": 520,
+        "note": "Pork meatballs in tomato sauce"
+      },
+      {
+        "name": "Banh mi thit nuong",
+        "calories": 550,
+        "note": "Grilled marinated pork"
+      },
+      {
+        "name": "Banh mi Huynh Hoa",
+        "calories": 900,
+        "note": "150g meat, heavy pate and butter"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in a banh mi?",
+        "a": "About 500 for a standard banh mi thit. A lightly filled cart banh mi cha is 380 and a heavily stuffed shop version can be 900."
+      },
+      {
+        "q": "Is banh mi healthy?",
+        "a": "It is a reasonable meal at 500 calories with 20g of protein and fresh vegetables. The pate and butter add 20g of fat, so ask for less if you eat one daily."
+      },
+      {
+        "q": "How many calories in the bread alone?",
+        "a": "About 240 for a 90g Vietnamese baguette. It is lighter than a French baguette because it is airier and part rice flour."
+      },
+      {
+        "q": "What is the lowest calorie banh mi?",
+        "a": "Banh mi op la with one egg and no pate at about 380, or banh mi ga (chicken) without butter at around 420."
+      }
+    ],
+    "related": [
+      "bo-kho",
+      "xoi-xeo",
+      "com-tam-suon",
+      "roti-john"
+    ],
+    "source": "Pharmacity (about 500 for a full banh mi thit) and Long Chau (380 to 400 with 50 to 60g meat)"
+  },
+  {
+    "slug": "goi-cuon",
+    "name": "Goi Cuon",
+    "aka": [
+      "Gỏi cuốn",
+      "Vietnamese Fresh Spring Rolls",
+      "Summer Rolls",
+      "Salad Rolls",
+      "Rice Paper Rolls"
+    ],
+    "category": "snacks",
+    "region": [
+      "vn"
+    ],
+    "serving": "2 rolls with dipping sauce",
+    "servingGrams": 200,
+    "calories": 200,
+    "protein": 11,
+    "carbs": 30,
+    "fat": 4,
+    "metaDescription": "Two goi cuon with peanut sauce are about 200 calories, roughly 65 per roll. The fried version, cha gio, is double.",
+    "summary": "Soft rice paper wrapped around prawns, a slice of boiled pork, bun vermicelli, lettuce and herbs, served cold with a peanut hoisin dip or nuoc cham. Sold by the pair from street carts for 10,000 to 15,000 dong each.",
+    "answer": "Two goi cuon with a small bowl of peanut sauce are around 200 calories. Each roll is about 65 to 70: the rice paper is 30, the bun inside 20, the prawn and pork together 30, and the greens almost nothing. The peanut hoisin sauce is 35 for a 20ml pour; the nuoc cham option is about 15.",
+    "realTalk": [
+      "Goi cuon is one of the few street snacks where the number is actually low: 65 to 70 calories per roll, 200 for two with sauce. A sheet of rice paper is about 30 calories, the 20g of bun inside is 20, and a prawn and a slice of boiled pork come to 30. There is no oil anywhere in the roll. The published figures of 49 for a prawn only roll and 67 for a pork and prawn roll match that.",
+      "The sauce is where it moves. The peanut hoisin sauce is hoisin, peanut butter, sugar and sometimes coconut milk, about 35 calories for the 20ml a cart gives you, and 90 if a restaurant gives you a full bowl and you finish it. The alternative, nuoc cham with lime, is 15. The difference over four rolls is 150 calories, which is more than two of the rolls.",
+      "The comparison people want is with cha gio, the fried version. A cha gio is 130 to 150 calories, double a goi cuon, because it is fried in oil. Four goi cuon is 260 before sauce and makes a real light lunch with 22g of protein. Four cha gio is 540. Most menus put them side by side at the same price."
+    ],
+    "lighter": [
+      "Choose nuoc cham (15) over peanut sauce (35 to 90). Or dip, do not pour.",
+      "Ask for goi cuon tom, prawn only. About 50 per roll versus 67 with pork.",
+      "Four rolls with nuoc cham is a 280 calorie meal with 22g of protein.",
+      "Skip the bun inside if the cart makes them to order. Saves 20 per roll.",
+      "Goi cuon over cha gio, every time. Half the calories for the same filling."
+    ],
+    "components": [
+      {
+        "name": "Rice paper (2 sheets)",
+        "grams": 20,
+        "calories": 55
+      },
+      {
+        "name": "Bun vermicelli",
+        "grams": 40,
+        "calories": 45
+      },
+      {
+        "name": "Prawns",
+        "grams": 30,
+        "calories": 30
+      },
+      {
+        "name": "Boiled pork",
+        "grams": 15,
+        "calories": 30
+      },
+      {
+        "name": "Lettuce and herbs",
+        "grams": 40,
+        "calories": 5
+      },
+      {
+        "name": "Peanut hoisin sauce",
+        "grams": 20,
+        "calories": 35
+      }
+    ],
+    "portions": [
+      {
+        "label": "1 roll, no sauce",
+        "calories": 65
+      },
+      {
+        "label": "2 rolls with sauce",
+        "calories": 200
+      },
+      {
+        "label": "4 rolls with full sauce bowl",
+        "calories": 420
+      }
+    ],
+    "variants": [
+      {
+        "name": "Goi cuon chay (tofu)",
+        "calories": 55,
+        "note": "Per roll"
+      },
+      {
+        "name": "Goi cuon tom (prawn only)",
+        "calories": 50,
+        "note": "Per roll"
+      },
+      {
+        "name": "Goi cuon tom thit",
+        "calories": 67,
+        "note": "Per roll, prawn and pork"
+      },
+      {
+        "name": "Bo bia (jicama and Chinese sausage)",
+        "calories": 90,
+        "note": "Per roll"
+      },
+      {
+        "name": "Cha gio (fried)",
+        "calories": 135,
+        "note": "Per roll"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in one goi cuon?",
+        "a": "About 65 to 70 for a prawn and pork roll, or 50 for prawn only. Sauce adds 15 to 45 per roll depending on type and amount."
+      },
+      {
+        "q": "Are goi cuon good for weight loss?",
+        "a": "Yes. They are about the lightest thing on a Vietnamese menu, with protein from the prawns and no oil. Four rolls with nuoc cham is under 300 calories."
+      },
+      {
+        "q": "Goi cuon or cha gio, which is healthier?",
+        "a": "Goi cuon. A fresh roll is about 65 calories and a fried cha gio is 130 to 150, with most of the difference being frying oil."
+      },
+      {
+        "q": "How many calories in peanut sauce for spring rolls?",
+        "a": "About 35 for a 20ml cart portion and up to 90 for a full restaurant bowl. Nuoc cham is about 15."
+      }
+    ],
+    "related": [
+      "cha-gio",
+      "banh-xeo",
+      "popiah",
+      "banh-cuon"
+    ],
+    "source": "Long Chau (49 prawn, 67 pork and prawn per roll) and Pharmacity (40 to 70 per roll); sauce estimated from components"
+  }
+]

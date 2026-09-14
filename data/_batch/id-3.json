@@ -1,0 +1,1822 @@
+[
+  {
+    "slug": "gado-gado",
+    "name": "Gado-Gado",
+    "aka": [
+      "Gado Gado",
+      "Gado-Gado Betawi",
+      "Gado-Gado Siram",
+      "Indonesian Peanut Salad"
+    ],
+    "category": "veg",
+    "region": [
+      "id"
+    ],
+    "serving": "1 plate (vegetables, lontong, tofu, tempe, half egg, peanut sauce, emping)",
+    "servingGrams": 285,
+    "calories": 390,
+    "protein": 16,
+    "carbs": 32,
+    "fat": 22,
+    "metaDescription": "A plate of gado-gado is about 390 calories. The vegetables are nearly free; the peanut sauce and the lontong are where the number comes from.",
+    "summary": "Gado-gado is blanched vegetables, lontong, fried tofu and tempe, boiled egg and emping, all covered in a thick peanut sauce ground to order. Jakarta calls it a salad. The peanut sauce disagrees.",
+    "answer": "A standard warung plate of gado-gado is about 390 calories. TKPI (the Indonesian food composition table) lists gado-gado at 137 calories per 100g, and a full plate with lontong weighs around 285g. FatSecret Indonesia lists a smaller 241g bowl at 318 calories.",
+    "realTalk": [
+      "The vegetables are not the problem. A pile of blanched kangkung, cabbage, long beans, bean sprouts and cucumber, about 150g of it, is 55 calories. You could eat three plates of that and nothing would happen. The problem is what goes on top. A 45g ladle of bumbu kacang is about 150 calories, because peanut sauce is fried peanuts, palm sugar, oil and a splash of coconut milk, and the gado-gado lady grinds it by hand so it is generous.",
+      "Then the starch. Most gado-gado comes with lontong or rice, and 60g of lontong is 65 calories. Tahu and tempe goreng add about 60 for a couple of small pieces. Half a boiled egg is 35, a few emping crackers are 25. None of these is big on its own. Together with the sauce they turn a 55 calorie vegetable pile into a 390 calorie plate, and that is the version FatSecret and TKPI agree on within about 20%.",
+      "The Rp 15,000 to 20,000 warung plate is honestly one of the better lunches in Jakarta. You get 16g protein from the egg, tofu and tempe, a lot of fibre and volume, and you are full for hours. The one thing to watch is the gado-gado siram at restaurants, where the sauce is poured until the plate is a lake. That version is closer to 550 calories, with 250 of it in the sauce.",
+      "For comparison: ketoprak, which is the same idea with bihun and no vegetables to speak of, is about 520 for a plate. Gado-gado wins because half the plate is actual vegetables. This was one of the plates I leaned on while dropping 42kg, because it is the rare street meal where asking for more costs nothing."
+    ],
+    "lighter": [
+      "Ask for 'bumbunya sedikit' or the sauce on the side. Half the peanut sauce saves about 75 calories and the vegetables still taste like gado-gado.",
+      "Skip the lontong. Without it the plate is about 325 calories and you barely notice, because the tofu and egg carry it.",
+      "Ask for a whole egg instead of half. It is 35 extra calories for 3g more protein.",
+      "Extra kangkung, extra tauge. The seller will usually pile it on for free.",
+      "Leave the emping. Three crackers are only 25 calories, but they are the part people go back for."
+    ],
+    "components": [
+      {
+        "name": "Blanched vegetables",
+        "grams": 150,
+        "calories": 55
+      },
+      {
+        "name": "Lontong",
+        "grams": 60,
+        "calories": 65
+      },
+      {
+        "name": "Fried tofu and tempe",
+        "grams": 30,
+        "calories": 60
+      },
+      {
+        "name": "Half boiled egg",
+        "grams": 25,
+        "calories": 35
+      },
+      {
+        "name": "Peanut sauce",
+        "grams": 45,
+        "calories": 150
+      },
+      {
+        "name": "Emping",
+        "grams": 5,
+        "calories": 25
+      }
+    ],
+    "portions": [
+      {
+        "label": "No lontong, half sauce",
+        "calories": 250
+      },
+      {
+        "label": "Standard warung plate",
+        "calories": 390
+      },
+      {
+        "label": "Restaurant gado-gado siram with rice",
+        "calories": 620
+      }
+    ],
+    "variants": [
+      {
+        "name": "Vegetables and sauce only",
+        "calories": 205,
+        "note": "No lontong, tofu or egg"
+      },
+      {
+        "name": "Gado-gado, FatSecret bowl",
+        "calories": 318,
+        "note": "241g, lighter on lontong"
+      },
+      {
+        "name": "Standard warung plate with lontong",
+        "calories": 390,
+        "note": "TKPI 137 kcal per 100g"
+      },
+      {
+        "name": "Gado-gado siram, restaurant",
+        "calories": 550,
+        "note": "Double sauce"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in gado-gado?",
+        "a": "About 390 calories for a standard plate with lontong, tofu, tempe, half an egg and peanut sauce. TKPI lists 137 calories per 100g."
+      },
+      {
+        "q": "Is gado-gado good for weight loss?",
+        "a": "Yes, one of the best street options. Half the plate is vegetables, it has 16g protein, and the only thing to control is the peanut sauce at about 150 calories per ladle."
+      },
+      {
+        "q": "How many calories in gado-gado peanut sauce?",
+        "a": "About 150 calories for a 45g ladle, roughly 3.3 calories per gram. It is peanuts, palm sugar and oil, so it adds up faster than anything else on the plate."
+      },
+      {
+        "q": "Gado-gado or ketoprak, which has fewer calories?",
+        "a": "Gado-gado at about 390 versus ketoprak at about 520. Ketoprak swaps most of the vegetables for bihun and lontong, so it is more starch under the same sauce."
+      }
+    ],
+    "related": [
+      "nasi-pecel",
+      "ketoprak",
+      "lontong-sayur",
+      "tempe-goreng"
+    ],
+    "source": "TKPI (gado-gado 137 kcal/100g) scaled to a 285g warung plate; FatSecret Indonesia 318 kcal per 241g bowl as cross-check"
+  },
+  {
+    "slug": "sayur-asem",
+    "name": "Sayur Asem",
+    "aka": [
+      "Sayur Asam",
+      "Sayur Asem Betawi",
+      "Sayur Asem Sunda",
+      "Tamarind Vegetable Soup"
+    ],
+    "category": "veg",
+    "region": [
+      "id"
+    ],
+    "serving": "1 bowl",
+    "servingGrams": 240,
+    "calories": 80,
+    "protein": 3,
+    "carbs": 13,
+    "fat": 3,
+    "metaDescription": "A bowl of sayur asem is about 80 calories. It is the lightest thing on any warteg counter, and the one you should be filling up on.",
+    "summary": "Sayur asem is a sour tamarind broth with young jackfruit, corn, long beans, chayote, melinjo and peanuts. It is served next to fried fish and sambal at Sundanese and Betawi warungs and on every warteg counter.",
+    "answer": "A bowl of sayur asem is about 80 calories. FatSecret Indonesia lists a 240g bowl at 80 calories with 3g fat, 13g carbs and 3g protein. There is no coconut milk in it, so the broth is close to zero and almost all the calories are in the corn, jackfruit and peanuts.",
+    "realTalk": [
+      "This is the soup you want to be greedy with. The broth is water, tamarind, galangal, a little terasi and palm sugar, and a 200ml ladle of it is under 15 calories. Everything else in the bowl is vegetables. The corn cob piece is the biggest single item at about 30 calories, the young jackfruit is 15, the chayote and long beans together are 10, and the melinjo and raw peanuts are 15 to 20 depending on how many the cook threw in.",
+      "Compare that to sayur lodeh, which is the same vegetables in coconut milk at about 160 for the same bowl, or gulai nangka at 200 plus. A warteg will put either in the same size ladle for the same Rp 3,000 to 5,000, and the sayur asem version is half the calories. If you are trying to fill up on volume at a warteg, this is the ladle to ask for twice.",
+      "The Sundanese version served with ikan asin, tempe and sambal terasi is where the meal gets its calories, not the soup. A plate of rice at 260, a piece of ikan asin at 80, tempe goreng at 95 and the sayur asem at 80 is a 515 calorie lunch, and the soup is the smallest part of it. The Betawi version with more peanuts and a heavier hand on the palm sugar runs about 100 per bowl.",
+      "The one warning is the sugar. Some warungs sweeten sayur asem hard, and a bowl with 2 teaspoons of gula merah in the ladle is 110, not 80. It still does not matter much, but if it tastes like dessert that is why."
+    ],
+    "lighter": [
+      "Ask for two ladles. At 80 calories a bowl, doubling the soup is the cheapest way to make a warteg plate feel like more.",
+      "Use it to replace half the rice. A bowl of sayur asem and 100g rice is 210 calories, against 260 for a plain full plate of rice.",
+      "If the broth tastes sweet, ask for the version 'jangan terlalu manis'. Saves about 30 calories of palm sugar.",
+      "Leave the melinjo seeds if you are counting closely. They are the densest thing in the bowl at about 5 calories each.",
+      "Pair it with ikan bakar or a boiled egg, not the fried ikan asin, and the whole meal stays under 500."
+    ],
+    "components": [
+      {
+        "name": "Tamarind broth",
+        "grams": 150,
+        "calories": 12
+      },
+      {
+        "name": "Corn cob piece",
+        "grams": 35,
+        "calories": 30
+      },
+      {
+        "name": "Young jackfruit, chayote, long beans",
+        "grams": 45,
+        "calories": 20
+      },
+      {
+        "name": "Melinjo and raw peanuts",
+        "grams": 10,
+        "calories": 18
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small warteg ladle",
+        "calories": 50
+      },
+      {
+        "label": "Standard bowl",
+        "calories": 80
+      },
+      {
+        "label": "Large Sundanese bowl with extra corn and peanuts",
+        "calories": 130
+      }
+    ],
+    "variants": [
+      {
+        "name": "Sayur asem Sunda (clear, lighter on sugar)",
+        "calories": 70,
+        "note": "Less palm sugar"
+      },
+      {
+        "name": "Sayur asem standard",
+        "calories": 80,
+        "note": "FatSecret bowl"
+      },
+      {
+        "name": "Sayur asem Betawi (more peanuts, sweeter)",
+        "calories": 100,
+        "note": "Extra kacang tanah and gula merah"
+      },
+      {
+        "name": "Sayur asem with rice and ikan asin",
+        "calories": 420,
+        "note": "The Sundanese warung set, no tempe"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in sayur asem?",
+        "a": "About 80 calories per 240g bowl according to FatSecret Indonesia, with only 3g fat. Most of that is corn and jackfruit, not the broth."
+      },
+      {
+        "q": "Is sayur asem good for diet?",
+        "a": "Yes. It is one of the lowest calorie dishes in Indonesian food, no coconut milk, mostly vegetables and water. Eat as much of it as the warung will give you."
+      },
+      {
+        "q": "Sayur asem or sayur lodeh, which is lower in calories?",
+        "a": "Sayur asem by a lot. About 80 calories a bowl against 160 for sayur lodeh, because lodeh is cooked in coconut milk."
+      },
+      {
+        "q": "Does sayur asem have sugar?",
+        "a": "A little. Most recipes use a teaspoon or two of palm sugar per pot to balance the tamarind. A sweet warung version can have 8 to 10g of sugar per bowl."
+      }
+    ],
+    "related": [
+      "sayur-lodeh",
+      "sup-sayur",
+      "pecel-lele",
+      "tempe-goreng"
+    ],
+    "source": "FatSecret Indonesia (sayur asem 1 bowl 240g, 80 kcal)"
+  },
+  {
+    "slug": "sayur-lodeh",
+    "name": "Sayur Lodeh",
+    "aka": [
+      "Lodeh",
+      "Sayur Lodeh Jawa",
+      "Sayur Santan",
+      "Coconut Milk Vegetable Stew"
+    ],
+    "category": "veg",
+    "region": [
+      "id"
+    ],
+    "serving": "1 bowl",
+    "servingGrams": 240,
+    "calories": 160,
+    "protein": 6,
+    "carbs": 14,
+    "fat": 9,
+    "metaDescription": "A bowl of sayur lodeh is about 160 calories, and more than half of that is the coconut milk. The vegetables themselves are barely 40.",
+    "summary": "Sayur lodeh is mixed vegetables, usually chayote, long beans, eggplant, young jackfruit and tempe, simmered in a thin coconut milk broth with galangal and bay leaf. It is the everyday Javanese vegetable dish and the standard warteg ladle.",
+    "answer": "A bowl of sayur lodeh is about 160 calories. FatSecret Indonesia lists a 240g bowl at 162 calories with 9g fat, 15g carbs and 7g protein. Half the calories come from the coconut milk, the vegetables are about 40 and the tempe pieces make up the rest.",
+    "realTalk": [
+      "Lodeh is a coconut milk dish, so the number depends on how thick the santan is. A home style Javanese lodeh uses thin coconut milk and lands around 160 a bowl. A warteg lodeh that has been sitting in a tray of thick santan all morning with a layer of oil on top is closer to 220. A Padang style gulai sayur with the same vegetables is 250 or more. Same chayote, three different numbers.",
+      "The vegetables are the good part and they are nearly free: 120g of labu siam, kacang panjang and terong is about 40 calories. The tempe cubes are worth keeping, 30g gives you 3g protein for about 50 calories. What you can control is the broth. A 100ml ladle of thin santan broth is about 70 calories, and the warteg gives you two ladles if you let them.",
+      "At Rp 3,000 to 5,000 a scoop next to rice, lodeh is the default vegetable at a warteg, and a rice plate with lodeh and telur balado is about 550 calories. That is fine. Where it stops being fine is lontong sayur or lontong cap go meh, where the lodeh is the whole bowl and the santan is thicker, and the meal is 450 to 800.",
+      "Sayur asem is the same vegetables in a tamarind broth at 80 a bowl, half of lodeh. If the warteg has both, that is the easy swap. If they only have lodeh, ask for the vegetables and less kuah and you get most of the benefit."
+    ],
+    "lighter": [
+      "Ask for 'sayurnya saja, kuahnya sedikit'. The vegetables with a spoon of broth is about 90 calories instead of 160.",
+      "Pick the ladle from the bottom of the tray. The oil and the thickest santan float on top.",
+      "If sayur asem is on the counter, take that instead. Same vegetables, 80 calories a bowl.",
+      "Keep the tempe. It is the only protein in the bowl and 30g is worth the 50 calories.",
+      "At home, use one part santan to two parts water. A 240g bowl drops to about 110 calories and it still tastes like lodeh."
+    ],
+    "components": [
+      {
+        "name": "Chayote, long beans, eggplant, jackfruit",
+        "grams": 120,
+        "calories": 40
+      },
+      {
+        "name": "Thin coconut milk broth",
+        "grams": 90,
+        "calories": 65
+      },
+      {
+        "name": "Tempe cubes",
+        "grams": 30,
+        "calories": 50
+      }
+    ],
+    "portions": [
+      {
+        "label": "Vegetables with a spoon of broth",
+        "calories": 90
+      },
+      {
+        "label": "Standard bowl",
+        "calories": 160
+      },
+      {
+        "label": "Warteg ladle, thick santan with oil on top",
+        "calories": 220
+      }
+    ],
+    "variants": [
+      {
+        "name": "Sayur lodeh, thin santan (home style)",
+        "calories": 160,
+        "note": "FatSecret bowl 162"
+      },
+      {
+        "name": "Sayur lodeh warteg, thick santan",
+        "calories": 220,
+        "note": "Been in the tray all morning"
+      },
+      {
+        "name": "Lodeh with rice and telur balado",
+        "calories": 550,
+        "note": "The standard warteg plate"
+      },
+      {
+        "name": "Lontong sayur lodeh",
+        "calories": 450,
+        "note": "Lodeh as the whole bowl over lontong"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in sayur lodeh?",
+        "a": "About 160 calories for a 240g bowl according to FatSecret Indonesia. A thick warteg version with oil floating on top is closer to 220."
+      },
+      {
+        "q": "Is sayur lodeh healthy?",
+        "a": "The vegetables are, and the tempe adds protein. The coconut milk is where the 9g of fat comes from. Less broth, more vegetables, and it is a very good side."
+      },
+      {
+        "q": "Sayur lodeh or sayur asem for diet?",
+        "a": "Sayur asem, at about 80 calories versus 160. It is the same vegetables in tamarind broth instead of coconut milk."
+      },
+      {
+        "q": "How many calories in sayur lodeh with rice?",
+        "a": "About 420 calories with a 200g plate of rice, or 550 if you add a telur balado."
+      }
+    ],
+    "related": [
+      "sayur-asem",
+      "lontong-sayur",
+      "sayur-lemak",
+      "nasi-uduk"
+    ],
+    "source": "FatSecret Indonesia (sayur lodeh 1 bowl 240g, 162 kcal)"
+  },
+  {
+    "slug": "ketoprak",
+    "name": "Ketoprak",
+    "aka": [
+      "Ketoprak Jakarta",
+      "Ketoprak Betawi",
+      "Ketoprak Cirebon",
+      "Tofu Bihun Peanut Sauce"
+    ],
+    "category": "rice",
+    "region": [
+      "id"
+    ],
+    "serving": "1 plate (lontong, bihun, fried tofu, bean sprouts, peanut sauce, kerupuk)",
+    "servingGrams": 285,
+    "calories": 520,
+    "protein": 17,
+    "carbs": 65,
+    "fat": 21,
+    "metaDescription": "A plate of ketoprak from a Jakarta cart is about 520 calories. It looks like a light tofu salad but it is mostly lontong, bihun and peanut sauce.",
+    "summary": "Ketoprak is the Jakarta cart dish of lontong, rice vermicelli, fried tofu and bean sprouts under a garlicky peanut sauce, finished with kecap manis and a kerupuk. The seller grinds the sauce on a stone plate while you wait.",
+    "answer": "A plate of ketoprak is about 520 calories. FatSecret Indonesia lists a 200g portion at 402 calories, which works out to about 200 per 100g, and a normal cart plate weighs closer to 260 to 290g. The lontong and bihun are 180 of it and the peanut sauce about 155.",
+    "realTalk": [
+      "Ketoprak fools people because there is tofu and bean sprouts in it, so it reads as a salad. It is not. Look at what is under the sauce: 120g of lontong at 125 calories and 50g of bihun at 55. That is 180 calories of plain starch before the tofu even shows up. The tauge is the only vegetable and it is 40g, about 12 calories. Gado-gado has 150g of vegetables on the same size plate; ketoprak has a handful.",
+      "The sauce is the other half. The seller grinds fried peanuts, garlic, chili, palm sugar and a splash of water into a paste, 45g of it is about 155 calories, then pours kecap manis over the top for another 25. The tahu goreng is fried and then sits in that sauce, 50g at 90 calories. So sauce plus tofu is 245, more than the starch.",
+      "It costs Rp 12,000 to 18,000 from a cart, which makes it a cheap full meal at 520 calories and 17g protein. That protein is the good news: the tofu and peanuts are doing real work. The bad news is it is 65g of carbs and 21g fat for a plate that most people eat as a snack at 4pm and then still have dinner.",
+      "Ketoprak telur, with a fried egg or omelette strips added, is the version most carts push, and it is about 600. The Cirebon version uses more cabbage and less lontong and comes out lighter at around 450."
+    ],
+    "lighter": [
+      "Ask for 'tanpa lontong' or half. Without the lontong the plate is about 395 calories and the tofu and bihun still fill you.",
+      "Sauce on the side, use half. That is 75 calories saved and the garlic flavour is still there.",
+      "Ask for extra tauge. It is the only vegetable on the plate and the seller usually has a bag of it.",
+      "Add the egg only if you are skipping something else. It is 75 to 100 calories depending on the oil.",
+      "Skip the kerupuk. One is 50 calories and it goes soft in the sauce anyway."
+    ],
+    "components": [
+      {
+        "name": "Lontong",
+        "grams": 120,
+        "calories": 125
+      },
+      {
+        "name": "Bihun",
+        "grams": 50,
+        "calories": 55
+      },
+      {
+        "name": "Fried tofu",
+        "grams": 50,
+        "calories": 90
+      },
+      {
+        "name": "Bean sprouts",
+        "grams": 40,
+        "calories": 12
+      },
+      {
+        "name": "Peanut sauce",
+        "grams": 45,
+        "calories": 155
+      },
+      {
+        "name": "Kecap manis and kerupuk",
+        "grams": 20,
+        "calories": 75
+      }
+    ],
+    "portions": [
+      {
+        "label": "No lontong, half sauce",
+        "calories": 320
+      },
+      {
+        "label": "Standard cart plate",
+        "calories": 520
+      },
+      {
+        "label": "Large with telur and extra kerupuk",
+        "calories": 700
+      }
+    ],
+    "variants": [
+      {
+        "name": "Ketoprak, FatSecret portion",
+        "calories": 402,
+        "note": "200g, lab sized"
+      },
+      {
+        "name": "Ketoprak Cirebon",
+        "calories": 450,
+        "note": "More cabbage, less lontong"
+      },
+      {
+        "name": "Ketoprak Jakarta, standard cart plate",
+        "calories": 520,
+        "note": "About 285g"
+      },
+      {
+        "name": "Ketoprak telur",
+        "calories": 600,
+        "note": "Fried egg added"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in ketoprak?",
+        "a": "About 520 calories for a standard cart plate. FatSecret lists 402 for a 200g portion; a real plate is heavier than that."
+      },
+      {
+        "q": "Is ketoprak healthy for diet?",
+        "a": "It is a full meal, not a snack. 17g protein is decent, but 65g carbs from lontong and bihun and 21g fat from the sauce. Drop the lontong and half the sauce and it is a fair 320 calorie lunch."
+      },
+      {
+        "q": "How many calories in ketoprak telur?",
+        "a": "About 600 calories with a fried egg. Some carts do a thin omelette instead, which is closer to 580."
+      },
+      {
+        "q": "Ketoprak or gado-gado?",
+        "a": "Gado-gado at about 390 calories. It has three times the vegetables and less lontong under the same peanut sauce."
+      }
+    ],
+    "related": [
+      "gado-gado",
+      "lontong-sayur",
+      "nasi-pecel",
+      "ketupat"
+    ],
+    "source": "FatSecret Indonesia (ketoprak 402 kcal per 200g, 201 kcal/100g) scaled to a 285g cart plate"
+  },
+  {
+    "slug": "seblak",
+    "name": "Seblak",
+    "aka": [
+      "Seblak Bandung",
+      "Seblak Ceker",
+      "Seblak Komplit",
+      "Seblak Kuah"
+    ],
+    "category": "noodles",
+    "region": [
+      "id"
+    ],
+    "serving": "1 bowl (kerupuk, egg, macaroni, 2 bakso, 1 sosis, kencur broth)",
+    "servingGrams": 350,
+    "calories": 450,
+    "protein": 16,
+    "carbs": 50,
+    "fat": 20,
+    "metaDescription": "A bowl of seblak komplit is about 450 calories. The soaked kerupuk is more than half of it, and every topping you add is another 50 to 70.",
+    "summary": "Seblak is Bandung's wet kerupuk dish: crackers soaked until chewy and stir fried in a kencur, garlic and chili paste with egg, then loaded with whatever you point at. Macaroni, bakso, sosis, ceker, mie, all of it.",
+    "answer": "A standard bowl of seblak komplit is about 450 calories. FatSecret Indonesia lists a basic 200g seblak at 262 calories and a bowl at 315, and that is before the toppings. Add the two bakso, one sosis and the macaroni most stalls call komplit and you are at 450.",
+    "realTalk": [
+      "The base of seblak is kerupuk, and people forget that kerupuk is fried starch even after it has been soaked. 80g of rehydrated crackers, which is a normal scoop, is about 150 calories. The kencur paste is fried in oil first, and the egg goes into that oil, so the base bowl with egg and paste is already 260 before any topping. FatSecret's 262 figure is basically that bowl.",
+      "Then the toppings, and this is where seblak gets its reputation. Macaroni 50g is 60. Two bakso are 60. One sosis is 70. A handful of mie is 100. Ceker is about 50 for two. Sosis, bakso, and mie together is 230 on top of the base, and a full seblak with everything is 600 to 650. The Rp 15,000 to 20,000 komplit at a normal stall lands around 450 with egg, macaroni, bakso and sosis.",
+      "Level pedas changes nothing. Level 5 and level 1 are the same calories, the chili is free. What is not free is the oil the paste is fried in, about 5g per bowl, and the extra spoon of oil some stalls add for shine, another 45. If your seblak has a red oil ring around the edge, that ring is 50 calories.",
+      "The protein is weak. 16g in a 450 calorie bowl, most from the egg and bakso, because kerupuk has none. That is why seblak does not hold you and why people order it as a snack and then eat dinner two hours later."
+    ],
+    "lighter": [
+      "Seblak kuah (soupy) over seblak nyemek. More water, less oil, about 60 calories less for the same toppings.",
+      "Pick two toppings, not five. Bakso and telur give you protein; sosis and mie give you fat and starch.",
+      "Ask for 'minyaknya sedikit'. Most stalls will skip the extra spoon of oil if you ask before they start.",
+      "Add sawi or kol. Some stalls have vegetables, and it is the only way to get volume that is not kerupuk.",
+      "Skip the extra kerupuk scoop. Each one is 150 calories of soaked cracker."
+    ],
+    "components": [
+      {
+        "name": "Soaked kerupuk",
+        "grams": 80,
+        "calories": 150
+      },
+      {
+        "name": "Egg",
+        "grams": 50,
+        "calories": 70
+      },
+      {
+        "name": "Macaroni",
+        "grams": 50,
+        "calories": 60
+      },
+      {
+        "name": "Bakso, 2 pieces",
+        "grams": 40,
+        "calories": 60
+      },
+      {
+        "name": "Sosis",
+        "grams": 30,
+        "calories": 70
+      },
+      {
+        "name": "Kencur chili paste and cooking oil",
+        "grams": 100,
+        "calories": 40
+      }
+    ],
+    "portions": [
+      {
+        "label": "Seblak telur only (kerupuk, egg, paste)",
+        "calories": 260
+      },
+      {
+        "label": "Seblak komplit standard",
+        "calories": 450
+      },
+      {
+        "label": "Seblak with everything (ceker, mie, sosis, bakso, extra kerupuk)",
+        "calories": 700
+      }
+    ],
+    "variants": [
+      {
+        "name": "Seblak telur, FatSecret 200g",
+        "calories": 262,
+        "note": "Kerupuk, egg, paste"
+      },
+      {
+        "name": "Seblak ceker",
+        "calories": 360,
+        "note": "Base plus 4 chicken feet"
+      },
+      {
+        "name": "Seblak komplit",
+        "calories": 450,
+        "note": "Egg, macaroni, bakso, sosis"
+      },
+      {
+        "name": "Seblak mie komplit",
+        "calories": 550,
+        "note": "Instant noodles added"
+      },
+      {
+        "name": "Seblak nyemek with everything",
+        "calories": 700,
+        "note": "Thick, oily, every topping"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in seblak?",
+        "a": "About 450 calories for a komplit bowl with egg, macaroni, bakso and sosis. A basic seblak telur is around 260; with every topping it passes 650."
+      },
+      {
+        "q": "Is seblak fattening?",
+        "a": "It is 450 calories with only 16g protein and 20g fat, so it does not fill you for long. Eating it as a snack on top of three meals is how it becomes a problem."
+      },
+      {
+        "q": "How many calories in seblak ceker?",
+        "a": "About 360 calories for the base bowl with four chicken feet. Ceker is mostly skin and gelatin, about 25 calories each."
+      },
+      {
+        "q": "Does the spice level change the calories?",
+        "a": "No. Level 1 and level 10 are the same bowl. The chili is nearly zero; the oil and the toppings are what count."
+      }
+    ],
+    "related": [
+      "bakso",
+      "indomie-goreng",
+      "cilok",
+      "batagor"
+    ],
+    "source": "FatSecret Indonesia (seblak 262 kcal per 200g, 315 per bowl) plus component estimate for komplit toppings"
+  },
+  {
+    "slug": "coto-makassar",
+    "name": "Coto Makassar",
+    "aka": [
+      "Coto Mangkasara",
+      "Coto Daging",
+      "Coto Campur",
+      "Makassar Beef Soup"
+    ],
+    "category": "soup",
+    "region": [
+      "id"
+    ],
+    "serving": "1 bowl (no ketupat)",
+    "servingGrams": 300,
+    "calories": 290,
+    "protein": 25,
+    "carbs": 13,
+    "fat": 15,
+    "metaDescription": "A bowl of coto Makassar is about 290 calories without ketupat. The peanut and rice broth is richer than soto, and the two buras on the side add 290 more.",
+    "summary": "Coto Makassar is a thick beef and offal soup from South Sulawesi, cooked with ground roasted peanuts, rice water and a long spice list, served in small bowls with ketupat or buras and a spoon of tauco sambal.",
+    "answer": "A bowl of coto Makassar is about 290 calories without ketupat. FatSecret Indonesia lists a 241g bowl at 289 calories with 25g protein and 15g fat. TKPI has coto mangkasara at 84 to 96 calories per 100g, which puts a 300g bowl in the same range.",
+    "realTalk": [
+      "Coto looks like soto but the broth is thicker for a reason. It is cooked with ground roasted peanuts and the water from washing rice, which is why it is cloudy and slightly nutty, and why a 200ml ladle is about 100 calories against 70 for soto ayam broth. Not coconut milk though, so it is nowhere near soto Betawi at 135 per ladle.",
+      "The meat is the main thing. A bowl of coto campur has around 80g of beef, tripe, lung and liver, about 170 calories and 20g protein. Coto daging (meat only) is a bit leaner. Paru (lung) is the fattiest cut in the mix because it is often fried before it goes in. The 25g protein in a bowl is genuinely good for a Rp 20,000 to 30,000 street soup.",
+      "The trap is the ketupat. Nobody eats coto without buras or ketupat, and the standard is two. Each one is about 145 calories, so the real meal is 580, not 290. Order 'coto daging plus dua ketupat' and you are at 580 with 30g protein, which is still a decent lunch. Order the coto campur with three ketupat, the extra bowl and the perkedel, and you are near 900.",
+      "Bawang goreng and the tauco sambal on the table are about 30 calories a spoon combined. The jeruk nipis is free and it is what cuts the richness, so use it."
+    ],
+    "lighter": [
+      "One ketupat, not two. That is 145 calories saved and the bowl is still a meal.",
+      "Order coto daging instead of coto campur. Skipping the paru and jeroan drops the bowl by 40 to 60 calories.",
+      "Leave the top layer of broth. The rendered beef fat floats, and the last third of the bowl is where the meat is.",
+      "Extra jeruk nipis and sambal, both free, so you want less broth to feel satisfied.",
+      "Skip the second bowl. Coto is served small on purpose and the refill is where most people double the meal."
+    ],
+    "components": [
+      {
+        "name": "Beef and offal",
+        "grams": 80,
+        "calories": 170
+      },
+      {
+        "name": "Peanut and rice water broth",
+        "grams": 200,
+        "calories": 100
+      },
+      {
+        "name": "Fried shallots and tauco sambal",
+        "grams": 20,
+        "calories": 20
+      }
+    ],
+    "portions": [
+      {
+        "label": "Coto daging, half broth",
+        "calories": 210
+      },
+      {
+        "label": "Standard bowl",
+        "calories": 290
+      },
+      {
+        "label": "Coto campur with 2 ketupat",
+        "calories": 600
+      }
+    ],
+    "variants": [
+      {
+        "name": "Coto daging (meat only)",
+        "calories": 250,
+        "note": "No offal"
+      },
+      {
+        "name": "Coto campur",
+        "calories": 290,
+        "note": "FatSecret bowl 289"
+      },
+      {
+        "name": "Coto with 1 ketupat",
+        "calories": 435,
+        "note": "The light order"
+      },
+      {
+        "name": "Coto with 2 ketupat",
+        "calories": 580,
+        "note": "The normal order"
+      },
+      {
+        "name": "Coto kuda (horse meat)",
+        "calories": 260,
+        "note": "Leaner meat, Jeneponto style"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in coto Makassar?",
+        "a": "About 290 calories per bowl without ketupat, and about 580 with the usual two ketupat. FatSecret lists 289 for a 241g bowl."
+      },
+      {
+        "q": "Is coto Makassar healthy?",
+        "a": "For a beef soup it is good: 25g protein, no coconut milk, and the peanut broth is moderate at about 100 calories a ladle. The ketupat and the offal are what push it up."
+      },
+      {
+        "q": "Coto Makassar or soto Betawi, which is lower calorie?",
+        "a": "Coto, at 290 versus 365 for soto Betawi. Coto uses peanuts and rice water for body; soto Betawi uses coconut milk and often evaporated milk."
+      },
+      {
+        "q": "How many calories in ketupat with coto?",
+        "a": "About 145 calories per ketupat or buras. Two of them add 290, doubling the meal."
+      }
+    ],
+    "related": [
+      "soto-betawi",
+      "rawon",
+      "sup-daging",
+      "ketupat"
+    ],
+    "source": "FatSecret Indonesia (coto Makassar 1 bowl 241g, 289 kcal); TKPI coto mangkasara 84 to 96 kcal/100g as cross-check"
+  },
+  {
+    "slug": "sop-buntut",
+    "name": "Sop Buntut",
+    "aka": [
+      "Sup Buntut",
+      "Sop Buntut Goreng",
+      "Sop Buntut Bakar",
+      "Indonesian Oxtail Soup"
+    ],
+    "category": "soup",
+    "region": [
+      "id"
+    ],
+    "serving": "1 bowl (about 3 pieces of oxtail, broth, vegetables, no rice)",
+    "servingGrams": 550,
+    "calories": 380,
+    "protein": 28,
+    "carbs": 8,
+    "fat": 26,
+    "metaDescription": "A bowl of sop buntut is about 380 calories without rice. The oxtail is fatty and the broth catches all of it. The fried version is closer to 500.",
+    "summary": "Sop buntut is oxtail simmered for hours in a clear broth with carrot, potato, tomato, nutmeg and clove, served with fried shallots, emping and sambal. Hotel restaurants made it famous; warungs made it affordable.",
+    "answer": "A bowl of sop buntut with about three pieces of oxtail is roughly 380 calories without rice. TKPI lists the soup at about 71 calories per 100g as served, which for a 550g restaurant bowl gives 390, and building it from the oxtail meat, broth and vegetables lands in the same place. Sop buntut goreng is about 500.",
+    "realTalk": [
+      "Oxtail is not lean. Once the bone is out, cooked oxtail meat is about 260 calories per 100g, and roughly half of that is fat and gelatin. A restaurant bowl has 180 to 200g of bone-in pieces, which is about 100g of actual meat and fat, so 250 calories before the soup. The long simmer pulls fat into the broth, and 300ml of that broth with the shine on top is another 90. The carrot, potato and tomato are 30.",
+      "That makes the plain bowl about 380 calories with 28g protein, which is a good ratio. The problem is the price and the format. At Rp 60,000 to 120,000 a bowl in a Jakarta restaurant, it comes with rice, emping, kerupuk and sambal, and the full set is 700 calories. At a warung it is Rp 30,000 to 45,000 with a smaller piece of tail and closer to 300.",
+      "Sop buntut goreng is the popular variant: the oxtail is boiled, then deep fried, then served with the broth on the side. The frying adds 100 to 120 calories and the crispy edges are exactly where the fat is. Sop buntut bakar (grilled with kecap) is a bit lighter than fried but the kecap glaze adds about 40 calories of sugar.",
+      "Emping is the sneaky add. A small plate of the melinjo crackers next to the bowl is 80 to 100 calories, and they are there to be eaten with the soup. Two rounds of emping is more than the vegetables in the bowl."
+    ],
+    "lighter": [
+      "Ask for the broth 'tanpa lemak' or skim the top yourself. The fat layer on a bowl of sop buntut is 40 to 60 calories.",
+      "Plain sop buntut, not goreng or bakar. The frying step alone adds about 120 calories.",
+      "Half rice. The bowl has 28g protein and the vegetables, so 100g of rice is enough to make it a meal at about 510.",
+      "Skip the emping and kerupuk. Together they are easily 130 calories and neither one is filling.",
+      "Eat the meat off the bone and leave the fat pockets. Oxtail has visible fat between the segments and it is about 9 calories per gram."
+    ],
+    "components": [
+      {
+        "name": "Oxtail, bone-in (about 100g meat and fat)",
+        "grams": 190,
+        "calories": 250
+      },
+      {
+        "name": "Clear broth with rendered fat",
+        "grams": 300,
+        "calories": 90
+      },
+      {
+        "name": "Carrot, potato, tomato",
+        "grams": 55,
+        "calories": 30
+      },
+      {
+        "name": "Fried shallots",
+        "grams": 5,
+        "calories": 15
+      }
+    ],
+    "portions": [
+      {
+        "label": "Warung bowl, smaller piece of tail",
+        "calories": 300
+      },
+      {
+        "label": "Restaurant bowl",
+        "calories": 380
+      },
+      {
+        "label": "Sop buntut goreng with rice and emping",
+        "calories": 850
+      }
+    ],
+    "variants": [
+      {
+        "name": "Sop buntut, warung",
+        "calories": 300,
+        "note": "Smaller tail piece"
+      },
+      {
+        "name": "Sop buntut, restaurant",
+        "calories": 380,
+        "note": "About 3 pieces of tail"
+      },
+      {
+        "name": "Sop buntut bakar",
+        "calories": 460,
+        "note": "Grilled with kecap glaze"
+      },
+      {
+        "name": "Sop buntut goreng",
+        "calories": 500,
+        "note": "Boiled then deep fried"
+      },
+      {
+        "name": "Sop buntut with rice",
+        "calories": 640,
+        "note": "200g rice added"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in sop buntut?",
+        "a": "About 380 calories for a restaurant bowl with three pieces of oxtail, without rice. With rice and emping it is about 700."
+      },
+      {
+        "q": "Is sop buntut high in fat?",
+        "a": "Yes, about 26g per bowl. Oxtail is a fatty cut and the long simmer pushes that fat into the broth. Skimming the top and leaving the fat pockets cuts it a lot."
+      },
+      {
+        "q": "How many calories in sop buntut goreng?",
+        "a": "About 500 calories. Deep frying the boiled oxtail adds roughly 120 calories on top of the plain version."
+      },
+      {
+        "q": "Is sop buntut good for diet?",
+        "a": "It can be. 28g protein, real vegetables, and no coconut milk. Order it plain, skim the broth, half rice, no emping, and it is a 500 calorie meal that fills you."
+      }
+    ],
+    "related": [
+      "sup-ekor",
+      "coto-makassar",
+      "rawon",
+      "sup-tulang"
+    ],
+    "source": "estimate from components (oxtail meat, broth, vegetables), cross-checked against TKPI sop buntut 71 kcal/100g as served"
+  },
+  {
+    "slug": "sate-kambing",
+    "name": "Sate Kambing",
+    "aka": [
+      "Sate Kambing Tegal",
+      "Sate Kambing Muda",
+      "Sate Kambing Balibul",
+      "Goat Satay"
+    ],
+    "category": "lauk",
+    "region": [
+      "id"
+    ],
+    "serving": "10 skewers with kecap sambal (no rice or lontong)",
+    "servingGrams": 170,
+    "calories": 370,
+    "protein": 28,
+    "carbs": 8,
+    "fat": 25,
+    "metaDescription": "Ten skewers of sate kambing are about 370 calories with the kecap. The goat is fattier than chicken sate, but there is no peanut sauce, so it evens out.",
+    "summary": "Sate kambing is young goat cut into chunks with the fat left on, grilled over charcoal and served with kecap manis, sliced shallot, tomato, cabbage and rawit. Tegal and Solo argue about who does it best.",
+    "answer": "Ten skewers of sate kambing with the kecap and shallot dressing come to about 370 calories. FatSecret Indonesia lists one skewer at 32 calories and the meat at 216 calories per 100g, so ten skewers of meat is about 320, and the kecap manis and sambal add 50. With lontong or rice it is about 620.",
+    "realTalk": [
+      "Goat sate is fattier than it looks because the Tegal style deliberately alternates lean meat with a cube of fat on the skewer. That is the point of it. FatSecret puts the meat at 216 calories per 100g with 57% of it from fat. A skewer is 15 to 20g so it is about 32 calories, and ten skewers is 320. There is no peanut sauce, which is why ten goat skewers cost about the same as ten sate ayam with sauce.",
+      "The kecap manis dressing is not zero. The sweet soy pooled on the plate with sliced shallot, tomato and rawit is about 50 calories per plate, and people mop it up with the lontong. Lontong is 145 per piece and most places serve two, so the Rp 35,000 to 50,000 sate kambing meal with lontong is around 620 calories. With rice instead it is about 630.",
+      "Sate kambing muda (young goat) and balibul (under five months) are leaner than older goat, about 10% lower per skewer, and more tender, which is why the price is higher. Sate buntel, the Solo version with minced goat wrapped in caul fat, is much heavier at about 90 calories per skewer because the fat wrapping melts into the meat.",
+      "The protein is the reason to order this over most fried lauk: 28g in ten skewers. Goat also has less fat than lamb of the same cut. The cholesterol reputation is real but it is about portion. Ten skewers at dinner is fine; the Idul Adha day where you eat thirty skewers, then tongseng, then gulai, is not."
+    ],
+    "lighter": [
+      "Ask for 'daging semua, tanpa gajih'. Skewers without the fat cube are about 25 calories each instead of 32.",
+      "One lontong, not two. That is 145 calories saved and ten skewers is enough protein without it.",
+      "Kecap on the side and dip lightly. Most of the 50 calories of dressing is sugar from the sweet soy.",
+      "Eat the raw cabbage, tomato and shallot. They are free and they are what keeps goat sate from being all meat.",
+      "Skip the gulai or tongseng that comes as a set. Sate plus a bowl of gulai kambing is 700 before rice."
+    ],
+    "components": [
+      {
+        "name": "Goat meat and fat, 10 skewers",
+        "grams": 150,
+        "calories": 320
+      },
+      {
+        "name": "Kecap manis, shallot, tomato, rawit",
+        "grams": 20,
+        "calories": 50
+      }
+    ],
+    "portions": [
+      {
+        "label": "5 skewers, light kecap",
+        "calories": 185
+      },
+      {
+        "label": "10 skewers with kecap",
+        "calories": 370
+      },
+      {
+        "label": "10 skewers with 2 lontong and gulai",
+        "calories": 850
+      }
+    ],
+    "variants": [
+      {
+        "name": "Sate kambing muda, lean cut, 10 skewers",
+        "calories": 300,
+        "note": "No fat cubes"
+      },
+      {
+        "name": "Sate kambing Tegal, 10 skewers",
+        "calories": 370,
+        "note": "FatSecret 32 kcal per skewer plus kecap"
+      },
+      {
+        "name": "Sate kambing with 2 lontong",
+        "calories": 660,
+        "note": "The standard set"
+      },
+      {
+        "name": "Sate buntel Solo, 5 skewers",
+        "calories": 450,
+        "note": "Minced goat in caul fat"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in sate kambing?",
+        "a": "About 32 calories per skewer, so 320 for ten skewers of meat and about 370 with the kecap dressing. With two lontong it is around 660."
+      },
+      {
+        "q": "Is sate kambing healthier than sate ayam?",
+        "a": "Per skewer the goat is fattier, but sate ayam comes drowned in peanut sauce. Ten sate kambing with kecap is about 370; ten sate ayam with sauce is about 500. Goat wins on protein too."
+      },
+      {
+        "q": "Does sate kambing raise cholesterol?",
+        "a": "Goat meat has less fat and cholesterol than beef or lamb per 100g. The issue is the fat cubes on the skewer and the portion size at celebrations, not the meat itself."
+      },
+      {
+        "q": "How many calories in sate buntel?",
+        "a": "About 90 calories per skewer, nearly three times a normal goat skewer, because the minced meat is wrapped in caul fat that melts in."
+      }
+    ],
+    "related": [
+      "satay",
+      "tongseng",
+      "sate-padang",
+      "kari-kambing"
+    ],
+    "source": "FatSecret Indonesia (sate kambing 32 kcal per skewer, 216 kcal/100g), kecap dressing estimated"
+  },
+  {
+    "slug": "tongseng",
+    "name": "Tongseng",
+    "aka": [
+      "Tongseng Kambing",
+      "Tongseng Sapi",
+      "Tongseng Solo",
+      "Goat Stew with Cabbage"
+    ],
+    "category": "lauk",
+    "region": [
+      "id"
+    ],
+    "serving": "1 bowl (no rice)",
+    "servingGrams": 250,
+    "calories": 420,
+    "protein": 24,
+    "carbs": 14,
+    "fat": 28,
+    "metaDescription": "A bowl of tongseng kambing is about 420 calories without rice. It is gulai broth with kecap manis stirred in, so the fat and the sugar both show up.",
+    "summary": "Tongseng is goat or beef stir fried with cabbage, tomato and kecap manis, then finished with a ladle of gulai broth. It is the sate seller's second dish, made in the same wok, and it is sweeter and thicker than gulai.",
+    "answer": "A bowl of tongseng kambing is about 420 calories without rice. FatSecret Indonesia lists tongseng at 169 calories per 100g and 422 calories for a bowl, with 61% of the energy from fat. Add a plate of rice and the standard sate warung meal is around 680.",
+    "realTalk": [
+      "Tongseng starts as gulai and then gets worse for you. The seller takes goat pieces, fries them in a wok with garlic and shallot, adds cabbage and tomato, pours in kecap manis, then tops it up with coconut milk gulai broth from the pot. So you get the coconut fat from the gulai and the sugar from the kecap in one bowl. A 250g bowl is 420 calories, 28g of it fat.",
+      "The meat is 80 to 100g of goat with the fat left on, about 220 calories and most of the 24g protein. The gulai broth, maybe 100ml, is 120. The kecap manis, two tablespoons stirred in, is 50 calories of sugar and it is why tongseng tastes the way it does. The cabbage and tomato are 20 and they are the only thing in the bowl you can add freely.",
+      "Tongseng sapi (beef) is a little leaner than kambing, about 380 a bowl, and tongseng ayam is around 320. The Solo style is thinner and sweeter; the Jakarta sate Madura cart version tends to be thicker with more broth and lands closer to 470. Prices are Rp 30,000 to 45,000 a bowl, more for kambing muda.",
+      "It is nearly always eaten with rice, and a lot of it, because the sauce is made for rice. 200g rice is 260, so the bowl becomes 680. Order sate kambing on the side, which is what everybody does, and dinner is 1,050."
+    ],
+    "lighter": [
+      "Ask for 'kuahnya sedikit'. Half the gulai broth is 60 calories saved and the kecap flavour is still there.",
+      "Ask for less kecap or 'jangan terlalu manis'. Each tablespoon of sweet soy is 25 calories of sugar.",
+      "Extra kol. The cabbage is 15 calories a handful and it soaks up the sauce so you use less rice.",
+      "Tongseng ayam or sapi instead of kambing. About 40 to 100 calories less per bowl.",
+      "Tongseng or sate, not both. The combo is the standard order and it is over 1,000 calories with rice."
+    ],
+    "components": [
+      {
+        "name": "Goat meat with fat",
+        "grams": 90,
+        "calories": 220
+      },
+      {
+        "name": "Gulai coconut broth",
+        "grams": 100,
+        "calories": 120
+      },
+      {
+        "name": "Kecap manis",
+        "grams": 20,
+        "calories": 50
+      },
+      {
+        "name": "Cabbage and tomato",
+        "grams": 40,
+        "calories": 20
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small bowl, less broth",
+        "calories": 320
+      },
+      {
+        "label": "Standard bowl",
+        "calories": 420
+      },
+      {
+        "label": "Tongseng with rice and 5 sate kambing",
+        "calories": 870
+      }
+    ],
+    "variants": [
+      {
+        "name": "Tongseng ayam",
+        "calories": 320,
+        "note": "Chicken, less fat"
+      },
+      {
+        "name": "Tongseng sapi",
+        "calories": 380,
+        "note": "Beef"
+      },
+      {
+        "name": "Tongseng kambing",
+        "calories": 420,
+        "note": "FatSecret bowl 422"
+      },
+      {
+        "name": "Tongseng kambing, thick Jakarta cart style",
+        "calories": 470,
+        "note": "More broth and kecap"
+      },
+      {
+        "name": "Tongseng with rice",
+        "calories": 680,
+        "note": "200g rice added"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in tongseng?",
+        "a": "About 420 calories for a bowl of tongseng kambing without rice, according to FatSecret Indonesia. With rice it is around 680."
+      },
+      {
+        "q": "Tongseng or gulai kambing, which is higher in calories?",
+        "a": "Tongseng, by about 50 to 80 calories a bowl. It is gulai broth plus kecap manis plus a wok fry, so it has the same coconut fat with sugar on top."
+      },
+      {
+        "q": "Is tongseng healthy?",
+        "a": "It has 24g protein, but 28g fat and about 12g of sugar from the kecap. Once in a while with less broth and rice it is fine. As a weekly sate warung habit with sate on the side it adds up fast."
+      },
+      {
+        "q": "How many calories in tongseng sapi?",
+        "a": "About 380 calories per bowl. Beef used for tongseng is a bit leaner than goat with the fat left on."
+      }
+    ],
+    "related": [
+      "sate-kambing",
+      "gulai",
+      "kari-kambing",
+      "sup-kambing"
+    ],
+    "source": "FatSecret Indonesia (tongseng 169 kcal/100g, 422 kcal per bowl)"
+  },
+  {
+    "slug": "bebek-goreng",
+    "name": "Bebek Goreng",
+    "aka": [
+      "Bebek Goreng Madura",
+      "Bebek Goreng Surabaya",
+      "Nasi Bebek",
+      "Bebek Goreng Sambal Hitam",
+      "Indonesian Fried Duck"
+    ],
+    "category": "lauk",
+    "region": [
+      "id"
+    ],
+    "serving": "1 piece (thigh) with sambal and lalapan, no rice",
+    "servingGrams": 190,
+    "calories": 380,
+    "protein": 22,
+    "carbs": 6,
+    "fat": 30,
+    "metaDescription": "One piece of bebek goreng with sambal and lalapan is about 380 calories, and 76% of it is fat. Nasi bebek with rice and the black sambal is 650.",
+    "summary": "Bebek goreng is duck simmered in spices until tender, then deep fried until the skin shatters, served with rice, lalapan and a sambal. Surabaya does it with a fiery red sambal; Madura carts in Jakarta do it with sambal hitam and a spoon of duck oil.",
+    "answer": "One piece of bebek goreng with sambal and lalapan is about 380 calories. FatSecret Indonesia lists one piece of fried duck at 337 calories with 28g fat and 15g protein, and a full 236g portion at 674. Add rice and the standard nasi bebek is about 650.",
+    "realTalk": [
+      "Duck is fattier than chicken before it goes anywhere near a fryer. A piece of fried duck thigh with skin is 337 calories on FatSecret with 76% of that from fat, against 390 for a bigger piece of ayam goreng with more meat. Per gram of meat, duck costs you more. The skin is where it lives: strip it and the same piece is about 220.",
+      "The Madura cart version is the one to watch. Nasi bebek Madura comes with rice, a small piece of duck, sambal hitam (a dark, oily shallot sambal), serundeng and a spoon of the duck frying oil poured over the rice. That spoon is 90 calories on its own. The Rp 20,000 to 30,000 plate is about 650, and the duck is the smallest part of it by weight.",
+      "Bebek goreng Surabaya style, the Pak Slamet and Purnama type, gives you a bigger piece, a bright red sambal bawang and raw lalapan. The piece is 380 with sambal, and the plate with rice is around 640. The sambal bawang is made with hot oil so a spoon is 55, but the cabbage, cucumber and basil are nearly zero.",
+      "The protein is only 22g per piece because a duck thigh is small and a lot of the weight is skin and bone. For the same 380 calories, ayam bakar gives you about 32g protein. Bebek is a flavour order, not a protein order, and that is fine once a week."
+    ],
+    "lighter": [
+      "Ask for dada (breast) instead of paha. Duck breast has less skin per gram of meat, about 60 calories less per piece.",
+      "Peel off the fattiest skin flaps. The crispy skin is the best part and it is also 40% of the calories.",
+      "Say no to the minyak bebek on the rice. That spoon of duck oil is 90 calories for zero food.",
+      "Half rice. Nasi bebek with 100g rice is 520 instead of 650.",
+      "Bebek bakar (grilled) if the place does it. About 100 calories less because nothing is fried."
+    ],
+    "components": [
+      {
+        "name": "Fried duck thigh with skin",
+        "grams": 120,
+        "calories": 340
+      },
+      {
+        "name": "Sambal bawang or sambal hitam",
+        "grams": 20,
+        "calories": 30
+      },
+      {
+        "name": "Lalapan",
+        "grams": 50,
+        "calories": 10
+      }
+    ],
+    "portions": [
+      {
+        "label": "Breast piece, skin removed",
+        "calories": 250
+      },
+      {
+        "label": "1 piece with sambal and lalapan",
+        "calories": 380
+      },
+      {
+        "label": "Nasi bebek Madura with duck oil and serundeng",
+        "calories": 700
+      }
+    ],
+    "variants": [
+      {
+        "name": "Bebek bakar, 1 piece",
+        "calories": 280,
+        "note": "Grilled, no frying oil"
+      },
+      {
+        "name": "Bebek goreng, 1 piece",
+        "calories": 380,
+        "note": "FatSecret 337 plus sambal and lalapan"
+      },
+      {
+        "name": "Nasi bebek goreng Surabaya",
+        "calories": 640,
+        "note": "With rice and sambal bawang"
+      },
+      {
+        "name": "Nasi bebek Madura sambal hitam",
+        "calories": 650,
+        "note": "Duck oil on the rice"
+      },
+      {
+        "name": "Bebek goreng full portion, FatSecret 236g",
+        "calories": 674,
+        "note": "Two pieces, no rice"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in bebek goreng?",
+        "a": "About 380 calories for one fried thigh with sambal and lalapan. FatSecret lists the duck alone at 337 per piece. With rice the plate is about 650."
+      },
+      {
+        "q": "Is bebek goreng higher in calories than ayam goreng?",
+        "a": "Per piece they are close, 337 for duck versus 391 for a bigger piece of chicken. Per gram of meat the duck is fattier, because more of the piece is skin and fat."
+      },
+      {
+        "q": "How many calories in nasi bebek Madura?",
+        "a": "About 650 calories. The duck oil spooned over the rice adds around 90 and the sambal hitam is oily too, so the rice ends up carrying more fat than the duck."
+      },
+      {
+        "q": "Is fried duck bad for cholesterol?",
+        "a": "Duck skin is high in saturated fat. Remove the skin and the piece drops to about 220 calories with far less fat, and the meat itself is close to chicken thigh."
+      }
+    ],
+    "related": [
+      "ayam-goreng-kremes",
+      "ayam-geprek",
+      "pecel-lele",
+      "roast-duck"
+    ],
+    "source": "FatSecret Indonesia (bebek goreng 337 kcal per piece, 286 kcal/100g), sambal and lalapan estimated"
+  },
+  {
+    "slug": "pempek",
+    "name": "Pempek",
+    "aka": [
+      "Empek-Empek",
+      "Pempek Palembang",
+      "Pempek Kapal Selam",
+      "Pempek Lenjer",
+      "Mpek-Mpek"
+    ],
+    "category": "snacks",
+    "region": [
+      "id"
+    ],
+    "serving": "1 kapal selam with cuko",
+    "servingGrams": 250,
+    "calories": 400,
+    "protein": 18,
+    "carbs": 46,
+    "fat": 15,
+    "metaDescription": "One pempek kapal selam with cuko is about 400 calories. Small pempek are about 40 each, and the cuko is almost pure sugar at 90 per bowl.",
+    "summary": "Pempek is Palembang's fish and tapioca cake, boiled then fried, served in a bowl of cuko, a dark sweet and sour sauce of palm sugar, tamarind and chili. Kapal selam is the big one with a whole egg inside.",
+    "answer": "One pempek kapal selam with a bowl of cuko is about 400 calories. FatSecret Indonesia lists pempek at 195 calories per 100g and 39 calories per small piece, so a 150g fried kapal selam with its egg is about 310, and the 100ml of cuko you pour over it adds another 90.",
+    "realTalk": [
+      "Pempek is half fish, half tapioca, and that ratio decides the calories. A good Palembang pempek is 195 calories per 100g according to FatSecret with about 13g protein, which is more protein than most fried snacks because the fish is real. The cheap street version with more sago than fish is closer to 220 per 100g and has half the protein. Price tells you: Rp 15,000 to 25,000 for a kapal selam at a proper place, Rp 8,000 at a cart.",
+      "Kapal selam is the heaviest single piece because it is 150g of pempek wrapped around a whole egg and deep fried. About 310 calories with 16g protein. Lenjer (the log) cut into slices is about 40 per slice. Adaan (the round fried ball) is 60 each because it is fried from raw and the dough has more oil in it. Pempek kulit (fish skin) is 70 each and the crispiest, which is the warning.",
+      "The cuko is the part nobody counts. It is palm sugar, tamarind, garlic and chili boiled down to a dark syrup, and 100ml is about 90 calories, all of it sugar. The bowl you get with your pempek holds more than that, and people top it up. A generous soak of cuko is easily 150 calories, which is more than three small pempek.",
+      "A 'pempek campur' plate with 5 small pieces, one kapal selam kecil, bihun and cucumber under cuko is about 550. The pempek is not the problem there, it is the count and the sauce. Pempek rebus (boiled, not fried) is about 30% lower per piece, and some places will do it if you ask."
+    ],
+    "lighter": [
+      "Ask for pempek rebus or bakar. Boiled or grilled pempek skips the frying oil, about 40 calories less per 100g.",
+      "Cuko on the side and dip, do not soak. Halving the sauce saves 45 calories of pure sugar.",
+      "One kapal selam is a meal. Five small pieces plus a kapal selam is two meals.",
+      "Add the cucumber and ebi. The shredded cucumber is free and the dried shrimp powder is 10 calories of flavour.",
+      "Pick lenjer or kapal selam over adaan and kulit. The boiled-then-fried types absorb less oil than the fried-from-raw ones."
+    ],
+    "components": [
+      {
+        "name": "Pempek kapal selam, fried, with egg",
+        "grams": 150,
+        "calories": 310
+      },
+      {
+        "name": "Cuko sauce",
+        "grams": 100,
+        "calories": 90
+      }
+    ],
+    "portions": [
+      {
+        "label": "3 small pempek lenjer with cuko",
+        "calories": 190
+      },
+      {
+        "label": "1 kapal selam with cuko",
+        "calories": 400
+      },
+      {
+        "label": "Pempek campur (5 small, 1 kapal selam kecil, bihun)",
+        "calories": 550
+      }
+    ],
+    "variants": [
+      {
+        "name": "Pempek lenjer, 1 slice",
+        "calories": 40,
+        "note": "FatSecret 39 per small piece"
+      },
+      {
+        "name": "Pempek adaan, 1 ball",
+        "calories": 60,
+        "note": "Fried from raw"
+      },
+      {
+        "name": "Pempek kulit, 1 piece",
+        "calories": 70,
+        "note": "Fish skin, crispiest"
+      },
+      {
+        "name": "Pempek kapal selam kecil",
+        "calories": 250,
+        "note": "Quail egg version"
+      },
+      {
+        "name": "Pempek kapal selam with cuko",
+        "calories": 400,
+        "note": "Standard"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in pempek?",
+        "a": "About 40 calories per small piece, 195 per 100g according to FatSecret Indonesia. A kapal selam with cuko is about 400."
+      },
+      {
+        "q": "How many calories in pempek kapal selam?",
+        "a": "About 310 for the fried pempek with its egg, and about 400 once you add the usual bowl of cuko."
+      },
+      {
+        "q": "Is pempek healthy?",
+        "a": "Better than most fried snacks, because half of it is fish and a kapal selam has about 18g protein. The cuko is the issue: 90 calories of sugar per bowl and it is easy to drink two."
+      },
+      {
+        "q": "How many calories in cuko pempek?",
+        "a": "About 90 calories per 100ml, nearly all from palm sugar. A heavy pour can be 150."
+      }
+    ],
+    "related": [
+      "otak-otak",
+      "batagor",
+      "siomay-bandung",
+      "keropok-lekor"
+    ],
+    "source": "FatSecret Indonesia (pempek 195 kcal/100g, 39 kcal per small piece), cuko estimated from palm sugar content"
+  },
+  {
+    "slug": "batagor",
+    "name": "Batagor",
+    "aka": [
+      "Batagor Bandung",
+      "Bakso Tahu Goreng",
+      "Batagor Kuah",
+      "Fried Tofu Dumplings with Peanut Sauce"
+    ],
+    "category": "snacks",
+    "region": [
+      "id"
+    ],
+    "serving": "1 portion (5 pieces with peanut sauce, kecap, sambal)",
+    "servingGrams": 205,
+    "calories": 600,
+    "protein": 20,
+    "carbs": 48,
+    "fat": 36,
+    "metaDescription": "A portion of batagor is about 600 calories. It is siomay that went through the fryer, then got peanut sauce, so it is the heaviest of the Bandung snacks.",
+    "summary": "Batagor, short for bakso tahu goreng, is tofu and siomay dumplings stuffed with fish paste, deep fried until the wrappers blister, cut up and drowned in peanut sauce, kecap manis, sambal and lime. Bandung's afternoon snack.",
+    "answer": "A portion of batagor with 5 pieces and peanut sauce is about 600 calories. FatSecret Indonesia lists batagor at 290 calories per 100g and 58 calories per piece before sauce, so five fried pieces are about 435, and the peanut sauce, kecap and sambal add roughly 165.",
+    "realTalk": [
+      "Batagor is siomay with an extra step, and the step is a deep fryer. A steamed fish siomay is about 51 calories. Fry it and it is 58 and then it sits in oil, and the tofu pieces are worse because tofu soaks up oil like bread. FatSecret's 290 per 100g figure for batagor is more than double the 138 per 100g for steamed siomay. Same fish paste, same tofu, different number.",
+      "Then the sauce. Batagor peanut sauce is thinner than siomay sauce but there is more of it, and 40g is about 135 calories. Kecap manis and sambal on top, another 30. So the Rp 15,000 to 20,000 portion is about 600 calories with 36g fat. That is more than a plate of nasi goreng, and most people eat it at 4pm as a snack.",
+      "The protein is not bad at 20g because the filling is real fish, usually tenggiri or the cheaper variety. Batagor kuah, the soup version where the fried pieces go into a clear broth, is around 420 because there is no peanut sauce, and it is the better order if you want the crunch without the full 600.",
+      "The Bandung specialists, the Kingsley and Riri type, give bigger pieces and more sauce, and a portion there is closer to 700. Cart batagor near schools uses smaller pieces and is around 450, but people buy two."
+    ],
+    "lighter": [
+      "Order batagor kuah. Fried pieces in broth instead of peanut sauce, about 180 calories less.",
+      "Sauce on the side and use half. That is 65 calories of peanut sauce saved.",
+      "Three pieces, not five. Batagor is dense, and three pieces with sauce is about 400.",
+      "If the stall does both, take siomay. Same filling, steamed, about half the calories per piece.",
+      "Skip the kecap manis. The peanut sauce is already sweet and the kecap is 25 calories a spoon."
+    ],
+    "components": [
+      {
+        "name": "Fried tofu and siomay pieces, 5",
+        "grams": 150,
+        "calories": 435
+      },
+      {
+        "name": "Peanut sauce",
+        "grams": 40,
+        "calories": 135
+      },
+      {
+        "name": "Kecap manis and sambal",
+        "grams": 15,
+        "calories": 30
+      }
+    ],
+    "portions": [
+      {
+        "label": "3 pieces, half sauce",
+        "calories": 350
+      },
+      {
+        "label": "Standard 5 piece portion",
+        "calories": 600
+      },
+      {
+        "label": "Large specialist portion with extra sauce",
+        "calories": 750
+      }
+    ],
+    "variants": [
+      {
+        "name": "Batagor, 1 piece, no sauce",
+        "calories": 58,
+        "note": "FatSecret per piece"
+      },
+      {
+        "name": "Batagor kuah",
+        "calories": 420,
+        "note": "In broth, no peanut sauce"
+      },
+      {
+        "name": "Batagor cart portion",
+        "calories": 450,
+        "note": "Smaller pieces"
+      },
+      {
+        "name": "Batagor standard portion",
+        "calories": 600,
+        "note": "5 pieces with sauce"
+      },
+      {
+        "name": "Batagor Bandung specialist",
+        "calories": 700,
+        "note": "Bigger pieces, more sauce"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in batagor?",
+        "a": "About 600 calories for a standard 5 piece portion with peanut sauce, or about 58 per piece plain according to FatSecret Indonesia."
+      },
+      {
+        "q": "Batagor or siomay, which is lower in calories?",
+        "a": "Siomay. Steamed siomay is about 138 calories per 100g against 290 for fried batagor. A plate of siomay is around 580 with everything; the same in batagor is 700 plus."
+      },
+      {
+        "q": "How many calories in batagor kuah?",
+        "a": "About 420 calories. The pieces are still fried but the broth replaces the peanut sauce, which saves about 180."
+      },
+      {
+        "q": "Is batagor fattening?",
+        "a": "It is 600 calories with 36g fat eaten as a snack, so yes if it is on top of three meals. As a replacement for lunch it is a heavy but real meal with 20g protein."
+      }
+    ],
+    "related": [
+      "siomay-bandung",
+      "pempek",
+      "seblak",
+      "cilok"
+    ],
+    "source": "FatSecret Indonesia (batagor 290 kcal/100g, 58 kcal per piece), sauce estimated from components"
+  },
+  {
+    "slug": "siomay-bandung",
+    "name": "Siomay Bandung",
+    "aka": [
+      "Siomay",
+      "Somay",
+      "Siomay Ikan",
+      "Siomay Bumbu Kacang",
+      "Indonesian Steamed Fish Dumplings"
+    ],
+    "category": "snacks",
+    "region": [
+      "id"
+    ],
+    "serving": "1 plate (3 siomay, tofu, potato, egg, cabbage, bitter gourd, peanut sauce)",
+    "servingGrams": 375,
+    "calories": 580,
+    "protein": 28,
+    "carbs": 50,
+    "fat": 30,
+    "metaDescription": "A full plate of siomay Bandung is about 580 calories. The siomay themselves are about 50 each; the peanut sauce and the potato do the rest.",
+    "summary": "Siomay Bandung is steamed fish dumplings sold from a bicycle cart with steamed tofu, potato, cabbage roll, bitter gourd and a boiled egg, all cut up on a plate and covered in peanut sauce, kecap manis, sambal and lime.",
+    "answer": "A full plate of siomay Bandung is about 580 calories. FatSecret Indonesia lists one fish siomay at 51 calories, and the standard plate has three of them, plus tofu, potato, egg, cabbage and pare, with 50g of peanut sauce at about 170 calories poured on top.",
+    "realTalk": [
+      "The siomay are the light part. Steamed fish paste in a thin wonton skin is 51 calories each according to FatSecret, 138 per 100g, with 4.5g protein per piece, which is a good ratio for a street snack. Three siomay is about 155 calories and 13g protein. If the plate stopped there it would be one of the best snacks in Indonesia. It does not stop there.",
+      "The rest of the plate is steamed, not fried, so it looks innocent. But the potato is 65, the tahu is 60, the egg is 75, and then the peanut sauce goes on. Siomay sauce is thick, 50g of it is about 170 calories, and the seller ladles it until nothing is visible. Kecap manis and sambal on top add 25 more. So the standard Rp 15,000 to 20,000 plate is 580, and 30g of it is fat, nearly all from the sauce.",
+      "The bitter gourd and the cabbage roll are the free part at about 25 calories together, and the pare is the thing people leave. Eat it. Lime is free and cuts the sauce so you need less. The egg is the best value on the plate, 75 calories for 6g protein.",
+      "Siomay ayam (chicken, the Bakmi GM type) is a bit lighter per piece at about 30 because it is smaller. Siomay from a mall food court with 5 pieces and sauce is around 400 because there is no tofu or potato."
+    ],
+    "lighter": [
+      "Sauce on the side and use half. That saves 85 calories and the siomay still taste like siomay.",
+      "Skip the kentang. Steamed potato is 65 calories of plain starch under peanut sauce, and it is the least interesting thing on the plate.",
+      "Double the siomay, drop the tahu. Siomay gives 4.5g protein per piece; tofu gives less for the same calories.",
+      "Eat the pare and the kol. They are 25 calories total and they make the plate bigger.",
+      "Skip the kecap manis drizzle. 25 calories of sugar on a sauce that is already sweet."
+    ],
+    "components": [
+      {
+        "name": "Fish siomay, 3 pieces",
+        "grams": 105,
+        "calories": 155
+      },
+      {
+        "name": "Steamed tofu",
+        "grams": 50,
+        "calories": 60
+      },
+      {
+        "name": "Steamed potato",
+        "grams": 60,
+        "calories": 65
+      },
+      {
+        "name": "Boiled egg",
+        "grams": 50,
+        "calories": 75
+      },
+      {
+        "name": "Cabbage roll and bitter gourd",
+        "grams": 50,
+        "calories": 25
+      },
+      {
+        "name": "Peanut sauce, kecap, sambal",
+        "grams": 60,
+        "calories": 195
+      }
+    ],
+    "portions": [
+      {
+        "label": "3 siomay and egg, half sauce",
+        "calories": 320
+      },
+      {
+        "label": "Standard full plate",
+        "calories": 580
+      },
+      {
+        "label": "Large plate, 5 siomay, extra sauce",
+        "calories": 780
+      }
+    ],
+    "variants": [
+      {
+        "name": "Siomay, 1 piece, no sauce",
+        "calories": 51,
+        "note": "FatSecret per piece"
+      },
+      {
+        "name": "Siomay ayam, 4 pieces (Bakmi GM style)",
+        "calories": 110,
+        "note": "Smaller chicken dumplings"
+      },
+      {
+        "name": "Siomay, 5 pieces with sauce",
+        "calories": 400,
+        "note": "Food court, no tofu or potato"
+      },
+      {
+        "name": "Siomay Bandung full plate",
+        "calories": 580,
+        "note": "Standard cart order"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in siomay?",
+        "a": "About 51 calories per steamed fish siomay according to FatSecret Indonesia. A full siomay Bandung plate with tofu, potato, egg and peanut sauce is about 580."
+      },
+      {
+        "q": "Is siomay good for diet?",
+        "a": "The siomay themselves are, at 4.5g protein for 51 calories. The plate is not, because of 170 calories of peanut sauce. Ask for less sauce, skip the potato, and it is a solid 400 calorie meal with 25g protein."
+      },
+      {
+        "q": "How many calories in siomay peanut sauce?",
+        "a": "About 170 calories per 50g ladle, roughly 3.4 calories per gram. It is fried peanuts, palm sugar, garlic and oil."
+      },
+      {
+        "q": "Siomay or batagor?",
+        "a": "Siomay. It is steamed, so the pieces are about half the calories of fried batagor. A full siomay plate is about 580; a batagor portion is 600 with fewer pieces."
+      }
+    ],
+    "related": [
+      "batagor",
+      "bakso",
+      "siew-mai",
+      "pempek"
+    ],
+    "source": "FatSecret Indonesia (siomay 51 kcal per piece, 138 kcal/100g), plate built from components"
+  },
+  {
+    "slug": "martabak-manis",
+    "name": "Martabak Manis",
+    "aka": [
+      "Terang Bulan",
+      "Martabak Bangka",
+      "Martabak Keju Coklat",
+      "Kue Bandung",
+      "Indonesian Sweet Pancake"
+    ],
+    "category": "snacks",
+    "region": [
+      "id"
+    ],
+    "serving": "1 slice (chocolate, cheese, peanut)",
+    "servingGrams": 90,
+    "calories": 270,
+    "protein": 7,
+    "carbs": 37,
+    "fat": 11,
+    "metaDescription": "One slice of martabak manis is about 270 calories, and a box has 8. Nobody eats one slice, which is how a Rp 60,000 box turns into a 2,000 calorie evening.",
+    "summary": "Martabak manis is the thick, spongy night market pancake cooked in a heavy pan, brushed with butter, then loaded with sugar, chocolate sprinkles, grated cheese, crushed peanuts and condensed milk before being folded and cut into slices.",
+    "answer": "One slice of martabak manis is about 270 calories. FatSecret Indonesia lists a 90g slice at 270 calories with 37g carbs, 11g fat and 7g protein, and 300 calories per 100g. A standard box is 8 slices, so a whole martabak coklat keju is around 2,100 calories.",
+    "realTalk": [
+      "The batter is the innocent part. A slice of the plain sponge is about 130 calories, flour, egg, sugar and baking soda. Everything after that is the problem. The seller brushes the hot pancake with a thick layer of margarine, 15g per slice, which is 110 calories. Then sugar, then meses, then cheese, then condensed milk. By the time it is folded the slice is 270, and the butter and toppings are more than half.",
+      "The count is what gets people. Martabak is sold by the box at Rp 40,000 to 80,000, and a box is 8 slices, 2,100 calories. It arrives at 9pm after dinner, three people share it, and each person eats three slices without noticing, 810 calories. That is a full meal on top of a full meal, and it is why 'martabak night' is the most efficient way to gain weight in Jakarta.",
+      "Topping choice moves the number by about 40 a slice. Kacang wijen (peanut sesame) is the lightest of the classics at about 250. Coklat keju is the standard 270. Keju susu with extra condensed milk is about 300. The premium ones with Nutella, Ovomaltine and Kitkat are 350 to 400 a slice, because the spread alone is 100 calories per tablespoon and they use three.",
+      "The 'tipis kering' (thin crispy) version is the exception. It is a thin crepe with the same toppings, about 150 calories a piece, and a plate of 6 pieces is about 900. Still not light, but half the thick version by weight of toppings."
+    ],
+    "lighter": [
+      "Ask for 'mentega sedikit' or 'tanpa mentega'. The margarine brushing is 110 calories a slice and most people cannot taste the difference under the toppings.",
+      "Buy the half box (setengah). 4 slices at 1,050 calories is still a lot, but it is not a whole box in the house.",
+      "Kacang wijen over keju susu. About 50 calories less per slice, and less condensed milk.",
+      "Skip the extra susu kental manis. The 'ekstra susu' pour is about 60 calories per slice.",
+      "One slice with tea, eaten slowly. It is 270 calories and it is genuinely enough if you are not eating it at the counter."
+    ],
+    "components": [
+      {
+        "name": "Pancake batter, cooked",
+        "grams": 55,
+        "calories": 130
+      },
+      {
+        "name": "Margarine brushing",
+        "grams": 12,
+        "calories": 85
+      },
+      {
+        "name": "Sugar, chocolate sprinkles, cheese, condensed milk",
+        "grams": 23,
+        "calories": 55
+      }
+    ],
+    "portions": [
+      {
+        "label": "1 slice, less butter",
+        "calories": 200
+      },
+      {
+        "label": "1 slice coklat keju",
+        "calories": 270
+      },
+      {
+        "label": "Whole box, 8 slices",
+        "calories": 2100
+      }
+    ],
+    "variants": [
+      {
+        "name": "Martabak tipis kering, 1 piece",
+        "calories": 150,
+        "note": "Thin crispy crepe"
+      },
+      {
+        "name": "Martabak kacang wijen, 1 slice",
+        "calories": 250,
+        "note": "Peanut and sesame"
+      },
+      {
+        "name": "Martabak coklat keju, 1 slice",
+        "calories": 270,
+        "note": "FatSecret 90g slice"
+      },
+      {
+        "name": "Martabak keju susu, 1 slice",
+        "calories": 300,
+        "note": "Extra condensed milk"
+      },
+      {
+        "name": "Martabak Nutella Ovomaltine, 1 slice",
+        "calories": 380,
+        "note": "Premium spreads"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in martabak manis?",
+        "a": "About 270 calories per slice according to FatSecret Indonesia, and a standard 8 slice box is around 2,100."
+      },
+      {
+        "q": "How many calories in martabak keju coklat?",
+        "a": "About 270 to 300 per slice depending on how much condensed milk goes on. The cheese and chocolate together are about 55 calories; the butter brushing is more."
+      },
+      {
+        "q": "Is martabak manis fattening?",
+        "a": "Very. It is 300 calories per 100g, mostly sugar, margarine and refined flour, and it is eaten after dinner in multiples. Three slices is 810 calories."
+      },
+      {
+        "q": "Martabak manis or martabak telur, which is higher in calories?",
+        "a": "Per slice they are close. Martabak telur is about 250 to 300 a slice from egg and oil; martabak manis is 270 from sugar and butter. A whole box of either is over 2,000."
+      }
+    ],
+    "related": [
+      "apam-balik",
+      "murtabak",
+      "pisang-goreng",
+      "kolak"
+    ],
+    "source": "FatSecret Indonesia (martabak manis 270 kcal per 90g slice, 300 kcal/100g)"
+  },
+  {
+    "slug": "cilok",
+    "name": "Cilok",
+    "aka": [
+      "Cilok Bandung",
+      "Cilok Bumbu Kacang",
+      "Cilok Goreng",
+      "Pentol",
+      "Tapioca Balls"
+    ],
+    "category": "snacks",
+    "region": [
+      "id"
+    ],
+    "serving": "1 cup (10 pieces with peanut sauce and kecap)",
+    "servingGrams": 120,
+    "calories": 320,
+    "protein": 3,
+    "carbs": 63,
+    "fat": 5,
+    "metaDescription": "A cup of 10 cilok with peanut sauce is about 320 calories, and there is almost no protein in it. It is boiled tapioca dough, 88% carbs.",
+    "summary": "Cilok, from aci dicolok (tapioca on a stick), is chewy balls of tapioca flour boiled and sold from carts outside every school in West Java with peanut sauce, kecap manis and sambal. Pentol is the East Java cousin.",
+    "answer": "A Rp 5,000 cup of about 10 cilok with peanut sauce and kecap is about 320 calories. FatSecret Indonesia lists cilok at 266 calories per 100g and 40 calories per piece, with 88% of the energy from carbs. The peanut sauce and kecap add about 40 on top of the balls.",
+    "realTalk": [
+      "Cilok is tapioca starch and water, rolled into balls and boiled. That is the whole thing. FatSecret puts it at 266 calories per 100g with 58g of carbs and 2.5g protein, which makes it more carb dense than rice at 130 per 100g, because the balls are packed dough with very little water. Ten small pieces, about 105g, is 280 calories, and you can eat ten without thinking.",
+      "There is no protein worth mentioning. 3g in the whole cup, and that is mostly from the peanut sauce. Cilok isi (stuffed with a bit of minced meat or egg) helps a little, about 5g per cup. Compare it with bakso, where five meatballs give 17g protein for 285 calories. Cilok looks like bakso. It is not bakso. It is the dough without the meat.",
+      "The sauce is thinner than siomay sauce, 15g of it is about 40 calories, and the kecap and sambal squeeze is another 15. So a cup is 320, and the trouble is the cup is Rp 5,000 and it is on the way home from school. Two cups is 640 calories of starch before dinner.",
+      "Cilok goreng (fried) is about 30% more, roughly 420 a cup, because the balls pick up oil on the crispy outside. Cilok kuah (in broth) is the same balls at 300 with a bit of soup, and cilok bakar (grilled with kecap) is around 350 because of the sweet soy glaze."
+    ],
+    "lighter": [
+      "Five, not ten. Cilok is 40 calories a piece and half a cup is 160 with sauce.",
+      "Cilok isi over cilok polos. The filling is the only protein you will get.",
+      "Boiled or kuah, not goreng. Frying adds about 100 calories per cup.",
+      "Ask for sambal instead of kecap. Kecap manis is 25 calories per squeeze; rawit sambal is nearly zero.",
+      "Treat it as the snack, not the pre-snack. A cup of cilok and then bakso is 800 calories in an hour."
+    ],
+    "components": [
+      {
+        "name": "Cilok, 10 pieces",
+        "grams": 105,
+        "calories": 280
+      },
+      {
+        "name": "Peanut sauce",
+        "grams": 15,
+        "calories": 40
+      }
+    ],
+    "portions": [
+      {
+        "label": "5 pieces with sauce",
+        "calories": 160
+      },
+      {
+        "label": "10 pieces with sauce",
+        "calories": 320
+      },
+      {
+        "label": "10 pieces cilok goreng with sauce",
+        "calories": 420
+      }
+    ],
+    "variants": [
+      {
+        "name": "Cilok, 1 piece",
+        "calories": 40,
+        "note": "FatSecret per piece"
+      },
+      {
+        "name": "Cilok kuah, 10 pieces",
+        "calories": 300,
+        "note": "In light broth"
+      },
+      {
+        "name": "Cilok bumbu kacang, 10 pieces",
+        "calories": 320,
+        "note": "Standard cup"
+      },
+      {
+        "name": "Cilok bakar, 10 pieces",
+        "calories": 350,
+        "note": "Grilled with kecap glaze"
+      },
+      {
+        "name": "Cilok goreng, 10 pieces",
+        "calories": 420,
+        "note": "Fried"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in cilok?",
+        "a": "About 40 calories per piece and 266 per 100g according to FatSecret Indonesia. A cup of 10 with peanut sauce is around 320."
+      },
+      {
+        "q": "Is cilok fattening?",
+        "a": "It is nearly pure tapioca starch, 88% carbs, and a cup is 320 calories with no protein to fill you. It is easy to eat two cups, which is more than a plate of rice."
+      },
+      {
+        "q": "Cilok or bakso, which is healthier?",
+        "a": "Bakso, easily. Five bakso give 17g protein for about 285 calories. Ten cilok give 3g protein for 320. Cilok is the dough without the meat."
+      },
+      {
+        "q": "How many calories in cilok goreng?",
+        "a": "About 420 calories for 10 pieces with sauce. Frying adds roughly 10 calories per ball."
+      }
+    ],
+    "related": [
+      "bakso",
+      "batagor",
+      "seblak",
+      "siomay-bandung"
+    ],
+    "source": "FatSecret Indonesia (cilok 266 kcal/100g, 40 kcal per piece, 319 kcal per 120g serving)"
+  }
+]

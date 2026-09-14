@@ -1,0 +1,320 @@
+[
+  {
+    "slug": "dakgalbi",
+    "name": "Dakgalbi",
+    "aka": ["닭갈비", "Chuncheon Dakgalbi", "Korean Spicy Stir-fried Chicken", "Dak-galbi"],
+    "category": "lauk",
+    "region": ["kr"],
+    "serving": "1 serving (1인분, about 300g, no rice)",
+    "servingGrams": 300,
+    "calories": 580,
+    "protein": 35,
+    "carbs": 45,
+    "fat": 28,
+    "metaDescription": "One serving of dakgalbi is about 580 calories before the fried rice at the end. Chicken thigh, gochujang and sweet potato. Here is the full breakdown.",
+    "summary": "Dakgalbi is boneless chicken thigh marinated in gochujang, stir-fried on a big iron pan at the table with cabbage, sweet potato, rice cakes and perilla leaves. Chuncheon's dish, now on every university street for 13,000 to 16,000 won a serving.",
+    "answer": "A 1인분 of dakgalbi is about 580 calories for a 300g serving, using the fatsecret.kr figure of 195 kcal per 100g. It gives you about 35g of protein from 180g of chicken thigh, but the sweet marinade, the rice cakes and the sweet potato bring it to 45g of carbs. The fried rice at the end is another 450.",
+    "realTalk": [
+      "Dakgalbi is thigh meat, skin on, which is why 180g of chicken carries 320 calories rather than the 200 you would get from breast. The gochujang marinade is about 70 calories per serving and roughly 12g of sugar, and the pan is oiled with 8g or so before anything goes in. The chicken itself is honest food; the pan around it is not.",
+      "Then the extras. Tteok (rice cakes), sweet potato and cabbage share the pan, and while the cabbage is nearly free, the rice cakes and sweet potato are about 120 calories per serving. Cheese dakgalbi, where a ring of mozzarella melts on the edge of the pan, adds about 150 per person. That version is 730 before rice.",
+      "The bokkeumbap finish is the real number. When the meat is gone, the staff scrape the pan and fry rice with seaweed and sesame oil in the leftover sauce, about 450 calories a portion, and nobody says no. Two servings of dakgalbi between two people, cheese, and fried rice is about 1,180 per person."
+    ],
+    "lighter": [
+      "Skip the fried rice, or share one portion between two. Half is 225 calories instead of 450.",
+      "Eat the cabbage and perilla wraps the way you would at samgyeopsal. The vegetables are 10 to 15 calories a handful.",
+      "No cheese. That ring of mozzarella is about 150 calories per person and covers up the chicken flavour anyway.",
+      "Order 1 serving for 2 people plus extra vegetables (야채 추가) instead of 2 servings of meat.",
+      "Leave the sweet potato slices. They are about 60 calories each and mostly there to look pretty."
+    ],
+    "components": [
+      {"name": "Chicken thigh, skin on", "grams": 180, "calories": 320},
+      {"name": "Gochujang marinade (with sugar)", "grams": 40, "calories": 70},
+      {"name": "Cabbage, sweet potato, rice cakes, perilla", "grams": 80, "calories": 120},
+      {"name": "Cooking oil", "grams": 8, "calories": 70}
+    ],
+    "portions": [
+      {"label": "Half serving (shared)", "calories": 290},
+      {"label": "1 serving, no rice", "calories": 580},
+      {"label": "1 serving with cheese and fried rice", "calories": 1180}
+    ],
+    "variants": [
+      {"name": "Charcoal grilled dakgalbi (숯불닭갈비), 1 serving", "calories": 420, "note": "Grilled, no pan oil or rice cakes"},
+      {"name": "Standard pan dakgalbi, 1 serving", "calories": 580, "note": "With rice cakes and sweet potato"},
+      {"name": "Cheese dakgalbi, 1 serving", "calories": 730, "note": "Mozzarella ring added"},
+      {"name": "Dakgalbi plus fried rice", "calories": 1030, "note": "Standard finish"}
+    ],
+    "faq": [
+      {"q": "How many calories in dakgalbi with fried rice?", "a": "About 1,030 for one serving of dakgalbi (580) plus the bokkeumbap portion at the end (450)."},
+      {"q": "Is dakgalbi healthy?", "a": "It is chicken and cabbage, so better than most Korean barbecue, but the skin-on thigh, sugar in the marinade and pan oil put it at 580 a serving. Skipping the fried rice makes the biggest difference."},
+      {"q": "How many calories in cheese dakgalbi?", "a": "About 730 per serving. The mozzarella adds roughly 150 calories per person."},
+      {"q": "Is charcoal dakgalbi lower in calories?", "a": "Yes. Chuncheon's grilled version has no pan oil, rice cakes or sweet potato, about 420 for a 250g serving of marinated thigh."}
+    ],
+    "related": ["korean-fried-chicken", "samgyeopsal", "bulgogi", "kimchi-bokkeumbap"],
+    "source": "fatsecret.kr 닭갈비 195 kcal per 100g, scaled to a 300g 1인분"
+  },
+  {
+    "slug": "jokbal",
+    "name": "Jokbal",
+    "aka": ["족발", "Korean Braised Pig's Trotters", "Jokbal Pig Feet", "Bul Jokbal", "불족발"],
+    "category": "lauk",
+    "region": ["kr"],
+    "serving": "1 person's share (about 250g, a third of a small order)",
+    "servingGrams": 250,
+    "calories": 470,
+    "protein": 42,
+    "carbs": 4,
+    "fat": 32,
+    "metaDescription": "One share of jokbal is about 470 calories with 42g of protein. A small order is 1,400 for the table. Here is what the skin, the fat and the ssam add.",
+    "summary": "Jokbal is pig's trotters braised for hours in soy sauce, sugar, ginger and spices until the skin turns glossy and the meat falls off, then sliced and served with salted shrimp, ssamjang and lettuce. The 10pm delivery order across Korea.",
+    "answer": "A single person's share of jokbal, about 250g of sliced meat and skin, is roughly 470 calories, in line with the fatsecret.kr 1인분 figure of 458 and 190 kcal per 100g. It is high in protein at about 42g, but 32g of fat comes with it from the skin. A small (소) order of about 700g is 1,400 calories for the table.",
+    "realTalk": [
+      "Jokbal is skin, fat and tendon around a little meat, and the braising does not change that ratio. 250g of slices is 470 calories with 32g of fat, and most of the fat sits in the skin layer everyone likes best. The upside is 42g of protein, which is more than a serving of samgyeopsal gives you for 160 fewer calories.",
+      "A small order is 700g to 800g and costs 35,000 to 40,000 won, and it arrives with a mountain of sides: lettuce, salted shrimp (새우젓), ssamjang, pickled radish, raw garlic, and often a bowl of makguksu or a small sundae. The sides are cheap on calories, maybe 60 total, but the makguksu that comes in the set is another 400 and the sundae plate 300. The 1,400 calorie order turns into 2,100 for the table quickly.",
+      "Bul jokbal, the spicy version tossed in gochugaru sauce and torched, is about 220 kcal per 100g, so 550 per share, because of the sugar in the sauce. Naengchae jokbal with the cold jellyfish salad and mustard dressing is closer to the plain number and the mustard is free."
+    ],
+    "lighter": [
+      "Pick the meatier slices from the front trotter (앞다리) and leave the pure skin and fat pieces. A slice of mostly skin is about 40 calories and almost no protein.",
+      "Wrap every slice in lettuce with salted shrimp instead of ssamjang. Saeujeot is about 2 calories a spoon; ssamjang is 20.",
+      "Split a small order between 3, not 2. That is 470 each instead of 700.",
+      "Skip the makguksu in the set. Those cold buckwheat noodles are about 400 calories on top.",
+      "Plain over bul jokbal. The spicy glaze adds about 80 calories per share in sugar."
+    ],
+    "components": [
+      {"name": "Braised trotter meat and skin, sliced", "grams": 230, "calories": 440},
+      {"name": "Saeujeot and ssamjang", "grams": 15, "calories": 15},
+      {"name": "Lettuce, garlic, chili", "grams": 40, "calories": 15}
+    ],
+    "portions": [
+      {"label": "Small share (150g)", "calories": 290},
+      {"label": "One share of a small order (250g)", "calories": 470},
+      {"label": "Whole small order (소, about 700g)", "calories": 1400}
+    ],
+    "variants": [
+      {"name": "Naengchae jokbal (cold, with jellyfish), 250g", "calories": 460, "note": "Mustard dressing, no sugar glaze"},
+      {"name": "Plain jokbal, 250g", "calories": 470, "note": "Standard braised"},
+      {"name": "Bul jokbal (spicy), 250g", "calories": 550, "note": "Gochugaru sugar sauce"},
+      {"name": "Jokbal with makguksu set, 1 share", "calories": 870, "note": "Cold noodles added"}
+    ],
+    "faq": [
+      {"q": "How many calories in a small jokbal?", "a": "About 1,400 for a whole 소 order of roughly 700g. Split three ways that is 470 per person."},
+      {"q": "Is jokbal high in protein?", "a": "Yes, about 42g per 250g share, and 17g per 100g. It is also 32g of fat per share, so it is protein with a cost."},
+      {"q": "Is jokbal good for collagen or skin?", "a": "The skin is mostly collagen, which is where the chewy texture comes from. Eating it does not do anything measurable for your own skin. It does add about 40 calories per slice."},
+      {"q": "Which is lower in calories, jokbal or bossam?", "a": "Jokbal, at about 190 kcal per 100g versus 290 for boiled pork belly bossam. Per share it is 470 versus 620."}
+    ],
+    "related": ["bossam", "samgyeopsal", "sundae", "khau-yuk"],
+    "source": "fatsecret.kr 족발 1인분 458 kcal, 돼지족발 190 kcal per 100g"
+  },
+  {
+    "slug": "bossam",
+    "name": "Bossam",
+    "aka": ["보쌈", "Korean Boiled Pork Wraps", "Bossam Pork Belly", "Suyuk", "수육"],
+    "category": "lauk",
+    "region": ["kr"],
+    "serving": "1 person's share (about 180g pork with kimchi and wraps)",
+    "servingGrams": 300,
+    "calories": 620,
+    "protein": 33,
+    "carbs": 12,
+    "fat": 50,
+    "metaDescription": "A share of bossam is about 620 calories, and the boiled pork belly is 520 of that. Boiling does not make belly lean. Full breakdown inside.",
+    "summary": "Bossam is pork belly boiled with doenjang, garlic and coffee or onion until tender, sliced thick and wrapped in napa cabbage or lettuce with radish kimchi, salted shrimp and garlic. Kimchi-making day food, and jokbal's neighbour on the delivery app.",
+    "answer": "One share of bossam is about 620 calories, based on the fatsecret.kr figure of 290 kcal per 100g for the boiled pork belly. A share is roughly 180g of meat (520 calories), plus 60g of bossam kimchi at about 75 and the wraps and salted shrimp. A small order for the table, around 500g of pork, is close to 1,700.",
+    "realTalk": [
+      "People assume boiled is lean. It is not, when the cut is belly. Boiling renders some fat into the pot, but 100g of bossam pork is still about 290 calories, and a share of 6 or 7 thick slices is 520. The 33g of protein is fine, but 50g of fat in one sitting is the number to look at.",
+      "The bossam kimchi is sweeter than regular kimchi. It is radish and cabbage in a gochugaru dressing with sugar, pear and often salted fish, and a 60g pile is about 75 calories with 8g of sugar. Still, the kimchi, cabbage wraps, raw garlic and saeujeot together are under 100 calories a share. The pork is 85 percent of the plate.",
+      "Delivery bossam at 35,000 to 40,000 won for a small order comes with the same set as jokbal: makguksu, a bowl of rice or two, sometimes a small sundae. Two people splitting a small order with the noodles and rice are at about 1,250 each. Some shops now offer a leaner cut (앞다리살 or 목살 bossam) which drops to about 200 kcal per 100g."
+    ],
+    "lighter": [
+      "Ask for the leaner cut if the menu has it (앞다리 or 목살 수육). That is about 360 per share instead of 520 for the pork.",
+      "Wrap in napa cabbage, not lettuce, and use bigger leaves. More vegetable per bite slows you down.",
+      "Trim the thick fat cap off each slice. Each slice has about 15 calories of pure fat on the edge.",
+      "Skip the makguksu and rice in the set. Bossam and kimchi alone is 620; with noodles it is over 1,000.",
+      "Share a small order between 3 people. 500g of pork split 3 ways is 480 each instead of 720."
+    ],
+    "components": [
+      {"name": "Boiled pork belly, sliced", "grams": 180, "calories": 520},
+      {"name": "Bossam kimchi (radish and cabbage)", "grams": 60, "calories": 75},
+      {"name": "Napa cabbage, lettuce, garlic", "grams": 50, "calories": 15},
+      {"name": "Saeujeot (salted shrimp)", "grams": 10, "calories": 10}
+    ],
+    "portions": [
+      {"label": "Small share (120g pork)", "calories": 420},
+      {"label": "1 share (180g pork)", "calories": 620},
+      {"label": "Whole small order (about 500g pork)", "calories": 1700}
+    ],
+    "variants": [
+      {"name": "Lean cut bossam (목살), 1 share", "calories": 450, "note": "Neck instead of belly"},
+      {"name": "Standard belly bossam, 1 share", "calories": 620, "note": "Belly, skin on"},
+      {"name": "Bossam jeongsik (set with rice), 1 serving", "calories": 610, "note": "Chain set, smaller pork portion"},
+      {"name": "Bossam with makguksu set, 1 share", "calories": 1020, "note": "Cold noodles added"}
+    ],
+    "faq": [
+      {"q": "Is bossam healthier than samgyeopsal?", "a": "Marginally. Boiled belly is about 290 kcal per 100g versus 349 grilled, and you eat it with more vegetables. A share is still 620 calories, so it is not diet food."},
+      {"q": "How many calories in bossam kimchi?", "a": "About 75 for a 60g side portion, with roughly 8g of sugar. It is sweeter than regular kimchi."},
+      {"q": "How many calories in a small bossam order?", "a": "About 1,700 for a 소 order with around 500g of pork, before the noodles and rice in the set."},
+      {"q": "Is boiled pork belly lower in fat than grilled?", "a": "A bit. Boiling renders roughly 15 percent of the fat into the water, but belly is still about 25g of fat per 100g after boiling."}
+    ],
+    "related": ["jokbal", "samgyeopsal", "kimchi-jjigae", "khau-yuk"],
+    "source": "fatsecret.kr 보쌈 290 kcal per 100g, 보쌈김치 1 small plate 74 kcal; share scaled to 180g pork"
+  },
+  {
+    "slug": "galbi",
+    "name": "Galbi",
+    "aka": ["갈비", "Korean Grilled Short Ribs", "Yangnyeom Galbi", "양념갈비", "Kalbi", "LA Galbi"],
+    "category": "lauk",
+    "region": ["kr"],
+    "serving": "1 serving (1인분, 200g raw marinated beef rib, grilled)",
+    "servingGrams": 200,
+    "calories": 460,
+    "protein": 35,
+    "carbs": 14,
+    "fat": 30,
+    "metaDescription": "One 200g serving of yangnyeom galbi is about 460 calories after grilling, with 35g of protein and 14g of carbs from the marinade. Here is the breakdown.",
+    "summary": "Galbi is beef short rib, either cut flanken-style across the bone (LA galbi) or butterflied off the bone, marinated in soy, sugar, pear and garlic and grilled at the table over charcoal. The expensive end of the Korean barbecue menu.",
+    "answer": "A 200g serving of marinated beef galbi is about 460 calories after grilling, using fatsecret.kr's 258 kcal per 100g for raw rib meat plus the marinade, minus some fat lost to the grill. It has about 35g of protein and 30g of fat, and the sweet marinade adds around 14g of carbs. Pork galbi is similar at about 480.",
+    "realTalk": [
+      "Short rib is a marbled cut, so 200g of raw rib meat is 500 calories before the marinade. Grilling over charcoal drops that to around 400 as the fat renders and drips, and then the marinade puts 50 back with 12g of sugar. The result, 460 per serving, is lighter than samgyeopsal (630) and heavier than bulgogi (330) for the same weight.",
+      "The number that matters is how many servings you eat. Galbi at 25,000 to 40,000 won per 1인분 for beef means most tables order 2 or 3 servings for 2 people and then add pork galbi at 15,000 when the budget runs out. Two servings each is 920 calories in meat, and that is before the doenjang jjigae, the rice and the cold noodles that always follow.",
+      "The bones count for a lot of the weight. A 200g LA galbi serving with the bones can have only 130g of edible meat, so the real intake is closer to 350. Boneless yangnyeom galbi (갈비살) is nearly all meat, so 200g on the menu is 200g in your stomach, about 460."
+    ],
+    "lighter": [
+      "Order 1 serving per person, not 1.5. The difference is 230 calories each.",
+      "Wrap in lettuce and perilla with a slice of raw garlic. The vegetables are about 20 calories a wrap and slow you down.",
+      "Let the fat drip. Move pieces to the edge of the grill once seared, and do not scrape the caramelised marinade off the grill into your rice.",
+      "Share the naengmyeon after. Half a bowl is 240 calories and it is the broth you wanted anyway.",
+      "Saeng galbi (unmarinated) skips the 12g of sugar per serving if the shop offers it."
+    ],
+    "components": [
+      {"name": "Beef short rib, 200g raw, grilled", "grams": 200, "calories": 400},
+      {"name": "Marinade (soy, sugar, pear, garlic)", "grams": 30, "calories": 50},
+      {"name": "Grilled garlic, lettuce, ssamjang", "grams": 30, "calories": 10}
+    ],
+    "portions": [
+      {"label": "LA galbi with bones, 200g (130g meat)", "calories": 350},
+      {"label": "1 serving boneless, 200g", "calories": 460},
+      {"label": "2 servings plus rice", "calories": 1220}
+    ],
+    "variants": [
+      {"name": "Saeng galbi (unmarinated), 200g", "calories": 400, "note": "No sugar marinade"},
+      {"name": "Yangnyeom galbi, 200g", "calories": 460, "note": "Standard marinated beef"},
+      {"name": "Pork galbi (돼지갈비), 200g", "calories": 480, "note": "Cheaper, similar fat"},
+      {"name": "Galbi-jjim (braised), 1 serving", "calories": 650, "note": "Braised in sweet sauce, more sugar"}
+    ],
+    "faq": [
+      {"q": "How many calories in 1인분 of galbi?", "a": "About 460 for a 200g serving of marinated beef rib after grilling. With bones on the scale, the edible meat is less and the count is closer to 350."},
+      {"q": "Is galbi or samgyeopsal lower in calories?", "a": "Galbi, at about 460 per 200g versus 630 for samgyeopsal. Beef rib is fatty but pork belly is fattier."},
+      {"q": "Is pork galbi lower in calories than beef galbi?", "a": "No, about the same or slightly higher. Pork galbi is usually pork shoulder or rib in a sweeter marinade, about 480 per 200g."},
+      {"q": "How much sugar is in galbi marinade?", "a": "About 12g per serving, from sugar, corn syrup and grated pear. Saeng galbi (unmarinated) has none."}
+    ],
+    "related": ["samgyeopsal", "bulgogi", "galbitang", "mul-naengmyeon"],
+    "source": "fatsecret.kr 소갈비살 258 kcal per 100g; 200g serving with marinade, grill loss estimated"
+  },
+  {
+    "slug": "bingsu",
+    "name": "Bingsu",
+    "aka": ["빙수", "팥빙수", "Patbingsu", "Korean Shaved Ice", "Bingsoo", "Sulbing", "설빙"],
+    "category": "dessert",
+    "region": ["kr"],
+    "serving": "1 bowl patbingsu (cafe size, meant for 2)",
+    "servingGrams": 450,
+    "calories": 450,
+    "protein": 10,
+    "carbs": 85,
+    "fat": 8,
+    "metaDescription": "A cafe bowl of patbingsu is about 450 calories, and a Sulbing injeolmi bowl is closer to 620. The ice is free; the toppings are not. Full breakdown.",
+    "summary": "Bingsu is shaved ice, now usually shaved milk, piled with sweet red beans, condensed milk, rice cakes and fruit. Sold in cafes for 9,000 to 15,000 won in a bowl sized for two people and eaten by one.",
+    "answer": "A cafe bowl of patbingsu is about 450 calories, between the fatsecret.kr generic entry of 373 and the Paris Baguette milk patbingsu at 674 for a 520g bowl. The shaved milk ice is about 130 of that, the sweet red beans 200 and the condensed milk 100. A Sulbing injeolmi bingsu with soybean powder and rice cakes is around 620.",
+    "realTalk": [
+      "Plain shaved ice with syrup is under 100 calories. Bingsu is not that anymore. Cafe bingsu is shaved from frozen sweetened milk, so 250g of the ice itself is about 130 calories, and then the toppings go on: 100g of sweetened red beans at 200 calories and 30g of condensed milk at 100. The bowl reads as ice and is actually a dessert with 85g of carbs.",
+      "The chain bowls are bigger and heavier. Sulbing's injeolmi bingsu is about 620 with its roasted soybean powder, rice cakes and almond slivers. Tous les Jours' mango bingsu is 550 for a 580g bowl. Twosome Place's tiramisu bingsu is listed at 1,040 for an 872g cup, more than a full meal. Bowl size in Korean cafes has crept from 300g to over 800g in ten years.",
+      "The saving grace is the size. Every bingsu bowl is made for 2 spoons, and at 12,000 won people do share. Half a patbingsu is 225 calories, a fair dessert. The problem is the friend who takes 3 spoons and leaves you the rest, or the solo order after a 1,200 calorie barbecue dinner."
+    ],
+    "lighter": [
+      "Share it. Half a bowl is 225 calories; the bowl is designed for 2 anyway.",
+      "Ask for the condensed milk on the side (연유 따로). Using half saves about 50 calories.",
+      "Choose fruit bingsu over injeolmi or tiramisu. Mango and strawberry versions are about 500 to 550; injeolmi is 620 and the cake-topped ones can pass 1,000.",
+      "Eat the fruit and beans and leave the last third of the ice. The bottom of the bowl is where the melted condensed milk pools.",
+      "Old-style patbingsu at a bunsik shop (plain ice, beans, a little syrup) is about 300 and half the price."
+    ],
+    "components": [
+      {"name": "Shaved milk ice", "grams": 250, "calories": 130},
+      {"name": "Sweetened red beans", "grams": 100, "calories": 200},
+      {"name": "Condensed milk", "grams": 30, "calories": 100},
+      {"name": "Rice cakes and fruit", "grams": 30, "calories": 30}
+    ],
+    "portions": [
+      {"label": "Half bowl (shared)", "calories": 225},
+      {"label": "1 cafe bowl patbingsu", "calories": 450},
+      {"label": "1 large chain bowl (injeolmi or cheese)", "calories": 650}
+    ],
+    "variants": [
+      {"name": "Plain shaved ice with syrup", "calories": 90, "note": "Old bunsik style"},
+      {"name": "Mango yogurt bingsu (small)", "calories": 195, "note": "Yogurt base, 250g"},
+      {"name": "Cafe patbingsu", "calories": 450, "note": "Milk ice, red beans, condensed milk"},
+      {"name": "Mango bingsu (Tous les Jours, 580g)", "calories": 550, "note": "Fruit topped"},
+      {"name": "Injeolmi bingsu (Sulbing style)", "calories": 620, "note": "Soybean powder, rice cakes"},
+      {"name": "Tiramisu bingsu (Twosome, 872g)", "calories": 1040, "note": "Cake and cream on top"}
+    ],
+    "faq": [
+      {"q": "How many calories in a Sulbing bingsu?", "a": "About 620 for the injeolmi bingsu, the signature bowl. Fruit versions run 500 to 600 and cheesecake or brownie versions can pass 800."},
+      {"q": "Is bingsu healthy?", "a": "No. A cafe patbingsu is about 450 calories with roughly 60g of sugar, and the bowl is meant for two. Half a bowl is a normal dessert."},
+      {"q": "How many calories in patbingsu?", "a": "About 450 for a standard cafe bowl. The red beans and condensed milk are 300 of that; the milk ice itself is only about 130."},
+      {"q": "Is shaved milk ice higher in calories than plain shaved ice?", "a": "Yes. 250g of plain water ice is 0 calories; the same weight of shaved sweetened milk is about 130."}
+    ],
+    "related": ["hotteok", "bungeoppang", "ais-kacang", "halo-halo"],
+    "source": "fatsecret.kr 팥빙수 1 serving 373 kcal, Paris Baguette 우유팥빙수 520g 674 kcal; cafe bowl set at 450"
+  },
+  {
+    "slug": "banana-milk",
+    "name": "Banana Milk",
+    "aka": ["바나나맛우유", "Binggrae Banana Milk", "Banana Flavoured Milk", "단지우유"],
+    "category": "drinks",
+    "region": ["kr"],
+    "serving": "1 bottle (240ml)",
+    "servingGrams": 240,
+    "calories": 220,
+    "protein": 6,
+    "carbs": 34,
+    "fat": 6,
+    "metaDescription": "One Binggrae banana milk is 220 calories with 27g of sugar, the same as a can of cola. Here is what is in the little yellow jar.",
+    "summary": "Banana milk is the squat yellow jar of banana-flavoured milk from Binggrae, sold in every convenience store and jjimjilbang in Korea since 1974. 240ml, about 1,800 won, and more sugar than most people think.",
+    "answer": "A 240ml Binggrae banana milk is 220 calories on the label, with 34g of carbs, 27g of it sugar, plus 6g of protein and 6g of fat. That is close to a 355ml can of cola for sugar, in a smaller bottle. Two of them, which is a normal jjimjilbang habit, is 440 calories.",
+    "realTalk": [
+      "The jar is small enough to feel like a snack, and it is a full dessert. 27g of sugar is about 7 teaspoons, and only some of it is the natural milk sugar; the rest is added sugar and banana flavouring, since the drink is about 85 percent milk with very little actual banana. The 6g of protein is real and is the only thing separating it from a soft drink.",
+      "It is the default after-sauna and after-school drink because it is 1,800 won and it is everywhere. A sauna visit with two banana milks and a bowl of sikhye is about 600 calories of sugar drinks without a single bite of food. The convenience store combo of banana milk plus a 400 calorie triangle kimbap pair is 620 for a snack.",
+      "The lighter version exists. Binggrae's 바나나맛우유 라이트 is about 130 calories for the same 240ml with the sugar cut roughly in half, and it tastes close enough. Most people never look for it because the yellow jar is the point."
+    ],
+    "lighter": [
+      "Buy the Light version (바나나맛우유 라이트). About 130 calories instead of 220, same bottle.",
+      "One, not two. The second bottle at the jjimjilbang is 220 calories you did not taste.",
+      "Plain milk (흰우유, 200ml) is about 125 calories with the same 6g of protein and no added sugar.",
+      "Have it as dessert, not as a drink with a meal. It is 27g of sugar and belongs in the dessert column.",
+      "Skip the 500ml version some stores sell. That is about 460 calories in one bottle."
+    ],
+    "components": [
+      {"name": "Milk (about 85 percent)", "grams": 205, "calories": 125},
+      {"name": "Added sugar", "grams": 20, "calories": 80},
+      {"name": "Banana flavouring and colouring", "grams": 5, "calories": 10}
+    ],
+    "portions": [
+      {"label": "Light version, 240ml", "calories": 130},
+      {"label": "1 bottle, 240ml", "calories": 220},
+      {"label": "2 bottles", "calories": 440}
+    ],
+    "variants": [
+      {"name": "Binggrae banana milk Light, 240ml", "calories": 130, "note": "Half the sugar"},
+      {"name": "Seoul Milk banana milk, 200ml", "calories": 175, "note": "Carton version"},
+      {"name": "Binggrae banana milk, 240ml", "calories": 220, "note": "The yellow jar"},
+      {"name": "Binggrae strawberry milk, 240ml", "calories": 230, "note": "Same range"},
+      {"name": "Banana milk 500ml bottle", "calories": 460, "note": "Large size"}
+    ],
+    "faq": [
+      {"q": "How many calories in Binggrae banana milk?", "a": "220 per 240ml bottle on the label, with 27g of sugar."},
+      {"q": "How much sugar is in banana milk?", "a": "About 27g per bottle, roughly 7 teaspoons. That is on par with a can of cola."},
+      {"q": "Is banana milk healthy?", "a": "It is milk with added sugar and flavouring. The 6g of protein and calcium are real, but 27g of sugar makes it a dessert, not a health drink."},
+      {"q": "Does Korean banana milk have real banana?", "a": "Very little. It is about 85 percent milk with sugar, banana flavouring and colouring. The Light version cuts the sugar but not the flavour."}
+    ],
+    "related": ["bingsu", "milo-ais", "soya", "bubble-tea"],
+    "source": "Binggrae 바나나맛우유 240ml label (220 kcal, 당류 27g, 단백질 6g, 지방 6g)"
+  }
+]

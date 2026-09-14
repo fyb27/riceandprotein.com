@@ -1,0 +1,1164 @@
+[
+  {
+    "slug": "sinangag",
+    "name": "Sinangag",
+    "aka": [
+      "Garlic Fried Rice",
+      "Sinangag na Kanin",
+      "Filipino Garlic Rice"
+    ],
+    "category": "rice",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 cup",
+    "servingGrams": 200,
+    "calories": 300,
+    "protein": 4,
+    "carbs": 52,
+    "fat": 8,
+    "metaDescription": "One cup of sinangag (garlic fried rice) is about 300 calories, roughly 40 more than plain rice. Here is where the extra comes from and how to cut it.",
+    "summary": "Day-old rice fried in oil with a lot of crushed garlic and salt. It is the sin in tapsilog, longsilog and every other silog plate in the Philippines.",
+    "answer": "One cup of sinangag is about 300 calories for a 200g carinderia scoop. That is 260 calories from the rice itself and about 40 from the tablespoon of oil and the fried garlic. It is only a little more than plain steamed rice, but the oil adds up fast if the cook is generous.",
+    "realTalk": [
+      "The rice is the whole story. A cup of cooked white rice is 200g and about 260 calories before anything touches it. Sinangag adds roughly 1 tablespoon of oil per cup, which is another 120 calories in the pan, but only part of that sticks to the rice. Kawaling Pinoy's recipe card puts it at 247 calories per cup with a quarter cup of oil across 4 cups of rice. A carinderia uses more oil than a home cook, so 300 is the fair number.",
+      "Where people go wrong is the second cup. Silog plates come with 1 cup, and an extra cup of sinangag is 20 to 25 pesos. That second scoop turns a 650 calorie tapsilog into a 950 calorie tapsilog, and the tapa did not change at all. The garlic and salt make it very easy to keep eating, which is the point of the dish and the problem with it.",
+      "The oil varies a lot by cook. Some carinderias fry the garlic in lard or in the fat left over from frying longganisa, which makes the rice taste better and pushes a cup closer to 350 calories. If the rice looks shiny and leaves a film on the plate, count it as 350, not 300."
+    ],
+    "lighter": [
+      "Ask for plain rice instead of sinangag. You save about 40 to 90 calories per cup and the ulam still tastes the same.",
+      "Order half rice. A half cup of sinangag is about 150 calories and is plenty next to a fried egg and tapa.",
+      "If you make it at home, use 1 teaspoon of oil per cup instead of 1 tablespoon. That is 260 plus 40 instead of 260 plus 120.",
+      "Skip the extra scoop. The second cup is where a silog plate goes from lunch to two lunches."
+    ],
+    "components": [
+      {
+        "name": "Cooked white rice",
+        "grams": 180,
+        "calories": 234
+      },
+      {
+        "name": "Cooking oil absorbed",
+        "grams": 6,
+        "calories": 54
+      },
+      {
+        "name": "Fried garlic and salt",
+        "grams": 14,
+        "calories": 15
+      }
+    ],
+    "portions": [
+      {
+        "label": "Half cup",
+        "calories": 150
+      },
+      {
+        "label": "1 cup",
+        "calories": 300
+      },
+      {
+        "label": "2 cups",
+        "calories": 600
+      }
+    ],
+    "variants": [
+      {
+        "name": "Plain steamed rice, 1 cup",
+        "calories": 260,
+        "note": "No oil, no garlic"
+      },
+      {
+        "name": "Sinangag, light oil (home style)",
+        "calories": 275,
+        "note": "1 teaspoon oil per cup"
+      },
+      {
+        "name": "Sinangag, carinderia standard",
+        "calories": 300,
+        "note": "About 1 tablespoon oil per cup"
+      },
+      {
+        "name": "Sinangag fried in lard or longganisa fat",
+        "calories": 350,
+        "note": "Shiny rice, oily plate"
+      },
+      {
+        "name": "Sinangag with egg mixed in",
+        "calories": 380,
+        "note": "One egg scrambled through"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is sinangag higher in calories than plain rice?",
+        "a": "Yes, but not by much. A cup of plain rice is about 260 calories and a cup of sinangag is about 300. The difference is the oil and garlic. The problem is usually the portion, not the frying."
+      },
+      {
+        "q": "How many calories in a silog plate?",
+        "a": "Between 550 and 750 depending on the ulam. Tapsilog is about 650, longsilog about 700. Sinangag is 300 of that and the fried egg is about 90."
+      },
+      {
+        "q": "Can I eat sinangag while losing weight?",
+        "a": "Yes. Keep it to 1 cup, which is 300 calories, and pair it with a lean ulam like chicken inasal or tinola. The second cup is what breaks the budget."
+      },
+      {
+        "q": "Is sinangag the same as fried rice?",
+        "a": "It is the plainest version of fried rice. No egg, no vegetables, no soy sauce, just garlic, oil and salt. That makes it lower in calories than Chinese fried rice, which is about 400 to 450 per cup."
+      }
+    ],
+    "related": [
+      "tapsilog",
+      "longsilog",
+      "chicken-adobo",
+      "nasi-goreng-kampung"
+    ],
+    "source": "Kawaling Pinoy recipe card (247 kcal per cup), adjusted for carinderia oil; rice from USDA"
+  },
+  {
+    "slug": "chicken-inasal",
+    "name": "Chicken Inasal",
+    "aka": [
+      "Inasal na Manok",
+      "Bacolod Chicken Inasal",
+      "Inasal Paa",
+      "Inasal Pecho"
+    ],
+    "category": "lauk",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 piece (paa, leg quarter)",
+    "servingGrams": 250,
+    "calories": 450,
+    "protein": 38,
+    "carbs": 6,
+    "fat": 30,
+    "metaDescription": "A leg quarter of chicken inasal is about 450 calories, and the annatto oil you pour on the rice is a big part of it. Numbers for paa, pecho and unli rice.",
+    "summary": "Chicken marinated in vinegar, calamansi, lemongrass and ginger, grilled over charcoal and basted with annatto oil. Bacolod's dish, now on every corner through Mang Inasal.",
+    "answer": "One leg quarter (paa) of chicken inasal is about 450 calories for a 250g bone-in piece. Around 370 of that is the grilled thigh and drumstick with skin, and the rest is the annatto oil basting and the sugar in the marinade. Add 1 cup of rice and the plate is about 710 calories.",
+    "realTalk": [
+      "The chicken itself is not the issue. Grilled thigh and drumstick with skin is about 220 calories per 100g of edible meat, and a paa gives you around 170g of meat off the bone, so about 375 calories. What pushes inasal past a plain grilled chicken is the atsuete oil. It is chicken fat rendered with annatto seeds, brushed on during grilling and then served in a little dish for your rice. Kawaling Pinoy's recipe card lands at 450 calories per quarter and uses a full pound of chicken skin to make the oil.",
+      "The pour matters more than the piece. Each tablespoon of chicken oil over your rice is about 120 calories. Two tablespoons, which is what most people do without thinking, adds 240 calories to a plate that already has 260 calories of rice in it. The pecho (breast quarter) is a bit leaner at around 380 calories, but the difference is smaller than you would guess because the skin comes with it.",
+      "At Mang Inasal a paa with rice costs about 140 pesos and the unli rice is the trap. Every refill is another 260 calories. One paa, one cup of rice and a spoon of chicken oil is about 830 calories. One paa with three cups of rice and chicken oil on each is about 1,450. Same order slip, twice the calories."
+    ],
+    "lighter": [
+      "Order the pecho instead of the paa and take the skin off. That drops the chicken portion to about 250 calories.",
+      "Skip the chicken oil dish or use 1 teaspoon instead of pouring. That alone saves 100 to 200 calories.",
+      "One cup of rice, not unli. Say it when you order so the refill never shows up.",
+      "Use the sinamak (spiced vinegar) and soy calamansi for flavour instead of the oil. Both are close to zero calories."
+    ],
+    "components": [
+      {
+        "name": "Grilled chicken leg quarter with skin (edible meat)",
+        "grams": 170,
+        "calories": 375
+      },
+      {
+        "name": "Annatto chicken oil basting",
+        "grams": 6,
+        "calories": 55
+      },
+      {
+        "name": "Marinade sugar and vinegar",
+        "grams": 15,
+        "calories": 20
+      }
+    ],
+    "portions": [
+      {
+        "label": "Pecho (breast quarter), skin removed",
+        "calories": 250
+      },
+      {
+        "label": "Paa (leg quarter) with skin",
+        "calories": 450
+      },
+      {
+        "label": "Paa with 1 cup rice and 1 tbsp chicken oil",
+        "calories": 830
+      }
+    ],
+    "variants": [
+      {
+        "name": "Pecho, skinless",
+        "calories": 250,
+        "note": "Leanest order"
+      },
+      {
+        "name": "Pecho with skin",
+        "calories": 380,
+        "note": "Breast quarter, bone-in"
+      },
+      {
+        "name": "Paa with skin",
+        "calories": 450,
+        "note": "Leg quarter, the default"
+      },
+      {
+        "name": "Paa with rice, no chicken oil",
+        "calories": 710,
+        "note": "One cup rice"
+      },
+      {
+        "name": "Paa with unli rice (3 cups) and chicken oil",
+        "calories": 1450,
+        "note": "Where the calories actually go"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in Mang Inasal paa with rice?",
+        "a": "About 710 calories for the paa plus 1 cup of rice, and around 830 if you pour a tablespoon of chicken oil on the rice. Mang Inasal does not publish nutrition facts, so this is built from the components."
+      },
+      {
+        "q": "Is chicken inasal healthy?",
+        "a": "The chicken is. A paa gives you about 38g of protein and it is grilled, not fried. The chicken oil and the unli rice are what turn a 450 calorie piece into a 1,400 calorie meal."
+      },
+      {
+        "q": "Paa or pecho, which is lower in calories?",
+        "a": "Pecho. The breast quarter with skin is about 380 calories versus 450 for the paa. Without skin the pecho drops to about 250."
+      },
+      {
+        "q": "How many calories in the inasal chicken oil?",
+        "a": "About 120 calories per tablespoon. It is rendered chicken fat with annatto, so it is nearly pure fat. The little saucer they give you holds 2 to 3 tablespoons."
+      }
+    ],
+    "related": [
+      "chicken-adobo",
+      "ayam-bakar",
+      "liempo",
+      "sinangag"
+    ],
+    "source": "Kawaling Pinoy recipe card (450 kcal per quarter); grilled chicken from USDA; Mang Inasal publishes no nutrition data"
+  },
+  {
+    "slug": "crispy-pata",
+    "name": "Crispy Pata",
+    "aka": [
+      "Crispy Pork Leg",
+      "Deep Fried Pork Knuckle",
+      "Pata"
+    ],
+    "category": "lauk",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 serving (quarter of a leg, about 200g)",
+    "servingGrams": 200,
+    "calories": 560,
+    "protein": 40,
+    "carbs": 3,
+    "fat": 43,
+    "metaDescription": "One share of crispy pata (a quarter of the leg) is about 560 calories, and a whole pata is over 2,200. Skin, fat and meat broken down.",
+    "summary": "A whole pork leg boiled until tender, dried, then deep fried until the skin blisters. Served with soy, vinegar and chili, and meant to be shared by 4 people.",
+    "answer": "A quarter share of crispy pata is about 560 calories for roughly 200g of skin, fat and meat. A whole pata as served in a restaurant is around 2,200 to 2,500 calories before the rice. The skin and the fat under it carry most of that, since crispy pork skin is close to 550 calories per 100g.",
+    "realTalk": [
+      "Crispy pata is one of the few Filipino dishes where the skin is the main event, and pork skin fried until it shatters is about 550 calories per 100g. A whole front leg gives you around 800g of edible skin, fat and meat after frying, which is where the 2,200 plus figure comes from. Kawaling Pinoy's recipe card lands at 560 calories per serving when a leg is split 4 ways, and that matches what you get at a restaurant table.",
+      "The meat underneath is actually fine. Pork leg meat with the fat trimmed is about 180 calories per 100g, similar to a pork chop. The problem is that nobody eats it that way. A typical share is a piece of skin, the fat layer under it and the meat, and the ratio is roughly 30 percent skin, 30 percent fat, 40 percent meat. That is how 200g lands at 560 calories instead of 360.",
+      "A whole crispy pata costs 600 to 900 pesos in a restaurant and is usually eaten by 3 or 4 people with a platter of rice. Four people, one pata, one cup of rice each: about 820 calories per person. Two people finishing it, which happens, is about 1,100 calories each before rice. The soy-vinegar dip adds almost nothing, maybe 15 calories, so use as much as you like."
+    ],
+    "lighter": [
+      "Take the meat and a small piece of skin, leave the fat layer. That alone cuts a 560 calorie share to about 380.",
+      "Share it 4 ways as intended. A whole pata between 2 people is 1,100 calories each before rice.",
+      "Order pata tim or paksiw na pata instead if you want the leg. The braised versions are about 400 per serving because nothing is deep fried.",
+      "Pair it with a vegetable dish like ensaladang talong or pinakbet instead of a second fried ulam."
+    ],
+    "components": [
+      {
+        "name": "Crispy pork skin",
+        "grams": 60,
+        "calories": 330
+      },
+      {
+        "name": "Pork fat layer",
+        "grams": 40,
+        "calories": 130
+      },
+      {
+        "name": "Pork leg meat",
+        "grams": 90,
+        "calories": 90
+      },
+      {
+        "name": "Soy vinegar dip",
+        "grams": 20,
+        "calories": 10
+      }
+    ],
+    "portions": [
+      {
+        "label": "Meat only with a bit of skin",
+        "calories": 380
+      },
+      {
+        "label": "Quarter share (skin, fat, meat)",
+        "calories": 560
+      },
+      {
+        "label": "Half a pata",
+        "calories": 1120
+      }
+    ],
+    "variants": [
+      {
+        "name": "Pata tim or paksiw na pata, 1 serving",
+        "calories": 400,
+        "note": "Braised, not fried"
+      },
+      {
+        "name": "Crispy pata, quarter share",
+        "calories": 560,
+        "note": "Restaurant portion"
+      },
+      {
+        "name": "Crispy pata, half share",
+        "calories": 1120,
+        "note": "Two people splitting"
+      },
+      {
+        "name": "Whole crispy pata",
+        "calories": 2300,
+        "note": "Before rice and drinks"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in a whole crispy pata?",
+        "a": "About 2,200 to 2,500 calories for a whole front leg after frying, with roughly 800g of edible skin, fat and meat. Split 4 ways that is about 560 each."
+      },
+      {
+        "q": "Is crispy pata worse than lechon kawali?",
+        "a": "Per serving they are close. Lechon kawali is about 520 per serving and crispy pata about 560. Lechon kawali uses belly so it has a bit more fat per bite, but pata has more skin."
+      },
+      {
+        "q": "How many calories in crispy pata skin?",
+        "a": "About 550 calories per 100g. A single piece of skin the size of your palm is about 30g, so around 165 calories."
+      },
+      {
+        "q": "Can I eat crispy pata on a diet?",
+        "a": "As an occasional shared dish, yes. Stick to the meat, keep the skin to one piece and stop at 1 cup of rice, and you are around 500 calories for the meal."
+      }
+    ],
+    "related": [
+      "lechon-kawali",
+      "lechon",
+      "liempo",
+      "siu-yoke"
+    ],
+    "source": "Kawaling Pinoy recipe card (560 kcal per quarter serving); pork skin and leg meat from USDA"
+  },
+  {
+    "slug": "liempo",
+    "name": "Liempo",
+    "aka": [
+      "Inihaw na Liempo",
+      "Grilled Pork Belly",
+      "Pork Liempo"
+    ],
+    "category": "lauk",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 serving (about 150g grilled)",
+    "servingGrams": 150,
+    "calories": 600,
+    "protein": 27,
+    "carbs": 5,
+    "fat": 52,
+    "metaDescription": "A carinderia serving of inihaw na liempo is about 600 calories for 150g of grilled pork belly. Why it is so high and what to order instead.",
+    "summary": "Pork belly slabs marinated in soy, calamansi, garlic and a little sugar, grilled over charcoal. The most ordered ulam at any ihaw-ihaw stall.",
+    "answer": "One serving of inihaw na liempo is about 600 calories for a 150g grilled slab. Pork belly is roughly half fat by weight, and even after some drips into the coals, cooked belly sits near 400 calories per 100g. Add 1 cup of rice and the plate is about 860.",
+    "realTalk": [
+      "Pork belly is the fattiest cut most people eat, and grilling does not fix that. Raw belly is about 50 percent fat. On the grill maybe a fifth of that renders out and drips away, which leaves cooked liempo around 400 calories per 100g. A 150g serving, which is one decent slab or 5 to 6 slices, is 600 calories. Kawaling Pinoy's recipe card goes even higher at 830 per serving because it counts the whole marinade.",
+      "The marinade adds less than people think. Soy sauce, calamansi, garlic and 2 tablespoons of brown sugar across 2 pounds of pork works out to maybe 20 calories per serving that actually clings to the meat. The banana ketchup glaze some stalls brush on adds another 20 to 30. The calories are in the pork, full stop.",
+      "The cheap fix nobody takes is asking for the leaner slab. Belly from closer to the ribs has more meat and less fat, and a 150g piece can be 450 calories instead of 600. At a stall the fatty pieces are the ones that look striped white. A liempo meal with rice at a carinderia runs 100 to 150 pesos and about 860 calories, which is more than a Chickenjoy meal."
+    ],
+    "lighter": [
+      "Pick the slab with more pink than white. A leaner belly piece is about 450 calories instead of 600.",
+      "Order pork chop or pork kasim (shoulder) grilled the same way. Same marinade, about 300 calories per 150g.",
+      "Trim the top fat cap off before eating. That cap alone is about 100 to 150 calories on a standard slab.",
+      "Keep rice to 1 cup and load up on the ensaladang kamatis or atchara on the side."
+    ],
+    "components": [
+      {
+        "name": "Grilled pork belly",
+        "grams": 140,
+        "calories": 560
+      },
+      {
+        "name": "Soy calamansi marinade absorbed",
+        "grams": 8,
+        "calories": 20
+      },
+      {
+        "name": "Sugar and banana ketchup glaze",
+        "grams": 6,
+        "calories": 20
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small serving (100g, 3 to 4 slices)",
+        "calories": 400
+      },
+      {
+        "label": "Standard serving (150g slab)",
+        "calories": 600
+      },
+      {
+        "label": "Liempo with 1 cup rice",
+        "calories": 860
+      }
+    ],
+    "variants": [
+      {
+        "name": "Grilled pork kasim (shoulder), 150g",
+        "calories": 300,
+        "note": "Same marinade, half the fat"
+      },
+      {
+        "name": "Lean liempo slab, 150g",
+        "calories": 450,
+        "note": "More meat than fat"
+      },
+      {
+        "name": "Standard liempo slab, 150g",
+        "calories": 600,
+        "note": "Typical stall piece"
+      },
+      {
+        "name": "Liempo with rice and chicken oil",
+        "calories": 980,
+        "note": "Inasal-style chicken oil on the rice"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in liempo with rice?",
+        "a": "About 860 calories for a 150g grilled slab and 1 cup of rice. Add a second cup of rice and it is around 1,120."
+      },
+      {
+        "q": "Is grilled liempo healthier than lechon kawali?",
+        "a": "A little. Grilling lets some fat drip off, so 150g of inihaw na liempo is about 600 calories versus about 520 for a smaller 120g serving of lechon kawali. Gram for gram they are close, since both are belly."
+      },
+      {
+        "q": "How many calories in one slice of liempo?",
+        "a": "About 100 calories per slice if the slab is cut into 6 pieces of roughly 25g each. Three slices is a 300 calorie ulam."
+      },
+      {
+        "q": "What is the leanest inihaw at the stall?",
+        "a": "Chicken inasal pecho without skin at about 250 calories, then grilled pork kasim at about 300 per 150g, then liempo at 600."
+      }
+    ],
+    "related": [
+      "lechon-kawali",
+      "pork-bbq",
+      "crispy-pata",
+      "chicken-inasal"
+    ],
+    "source": "estimate from components (USDA pork belly, cooked, with grill fat loss); Kawaling Pinoy recipe card 830 kcal per serving noted as the high end"
+  },
+  {
+    "slug": "bicol-express",
+    "name": "Bicol Express",
+    "aka": [
+      "Sinilihan",
+      "Pork in Coconut Milk with Chili",
+      "Bicol Express na Baboy"
+    ],
+    "category": "lauk",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 carinderia serving (about 180g)",
+    "servingGrams": 180,
+    "calories": 520,
+    "protein": 18,
+    "carbs": 6,
+    "fat": 46,
+    "metaDescription": "A carinderia scoop of Bicol Express is about 520 calories. Pork belly plus coconut cream is the reason, and here is how much each part adds.",
+    "summary": "Pork belly simmered in coconut milk and coconut cream with shrimp paste and a lot of green and red chili. From Bicol, sold everywhere, always eaten with too much rice.",
+    "answer": "One carinderia serving of Bicol Express is about 520 calories for a 180g ladle of pork and sauce. The pork belly is about 330 of that and the coconut milk sauce about 180. It is one of the highest calorie ulam per scoop because both main ingredients are mostly fat.",
+    "realTalk": [
+      "Two fatty ingredients in one pot. Pork belly is about 50 percent fat and coconut cream is about 35 percent fat, so there is nothing lean to dilute anything. A 180g carinderia ladle usually holds about 70g of cooked belly (around 330 calories) and 100g of coconut sauce (around 180 calories). The chilies, garlic and bagoong add maybe 10. Home recipes are far worse: Kawaling Pinoy's version works out to 1,100 calories per serving because it uses 2 pounds of belly and both coconut milk and cream for 6 people.",
+      "The sauce is the sneaky part. People eat the pork, then spoon the sauce over rice, then ask for more sauce. Each extra ladle of coconut sauce is about 90 calories, and it soaks straight into the rice so it does not feel like eating anything. A 60 to 80 peso serving with 1 cup of rice is about 780 calories, and with the extra sauce habit it is closer to 900.",
+      "The chili does not burn any of it off. Capsaicin raises your metabolism by a rounding error, maybe 10 calories over the day. What the chili actually does is make you eat more rice to cool down, which is the opposite of helping. If you want Bicol Express to fit, the lever is the cut of pork, not the heat."
+    ],
+    "lighter": [
+      "Order the version made with kasim (shoulder) or chicken if the carinderia has it. Chicken Bicol Express is about 300 per serving.",
+      "Take the pork, leave most of the sauce in the tray. That is about 350 calories instead of 520.",
+      "Ask for it with the gata (coconut milk) only, no kakang gata (cream). About 80 calories less per scoop.",
+      "One cup of rice. The sauce makes rice disappear, so decide the amount before you start."
+    ],
+    "components": [
+      {
+        "name": "Pork belly, cooked",
+        "grams": 70,
+        "calories": 330
+      },
+      {
+        "name": "Coconut milk and cream sauce",
+        "grams": 95,
+        "calories": 180
+      },
+      {
+        "name": "Chili, garlic, shrimp paste",
+        "grams": 15,
+        "calories": 10
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small scoop (120g)",
+        "calories": 350
+      },
+      {
+        "label": "Standard scoop (180g)",
+        "calories": 520
+      },
+      {
+        "label": "Standard scoop with 1 cup rice",
+        "calories": 780
+      }
+    ],
+    "variants": [
+      {
+        "name": "Chicken Bicol Express",
+        "calories": 300,
+        "note": "Breast or thigh instead of belly"
+      },
+      {
+        "name": "Bicol Express with kasim (shoulder)",
+        "calories": 380,
+        "note": "Leaner pork"
+      },
+      {
+        "name": "Standard pork belly Bicol Express",
+        "calories": 520,
+        "note": "Carinderia scoop"
+      },
+      {
+        "name": "Home style, coconut milk plus cream",
+        "calories": 1100,
+        "note": "Kawaling Pinoy recipe card, 1 of 6 servings"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is Bicol Express fattening?",
+        "a": "It is one of the highest calorie Filipino ulam by weight, about 290 calories per 100g. A single carinderia scoop is 520 calories, roughly the same as a Jollibee Chickenjoy with rice."
+      },
+      {
+        "q": "How many calories in Bicol Express with rice?",
+        "a": "About 780 calories for a standard scoop with 1 cup of rice. With 2 cups of rice it is around 1,040."
+      },
+      {
+        "q": "Is Bicol Express keto?",
+        "a": "Technically it is low carb at about 6g per serving, but it is 520 calories of mostly saturated fat. Low carb does not mean low calorie."
+      },
+      {
+        "q": "What is the difference between Bicol Express and laing?",
+        "a": "Same coconut milk base, but laing is built on taro leaves with a little pork, so a serving is about 350 calories versus 520 for Bicol Express, which is built on pork belly."
+      }
+    ],
+    "related": [
+      "laing",
+      "kare-kare",
+      "lechon-kawali",
+      "masak-lemak-cili-api"
+    ],
+    "source": "estimate from components; Kawaling Pinoy (1102 kcal) and Panlasang Pinoy (1224 kcal) recipe cards used as home-portion reference"
+  },
+  {
+    "slug": "pork-bbq",
+    "name": "Pork BBQ",
+    "aka": [
+      "Filipino Pork Barbecue",
+      "Pork BBQ Skewer",
+      "Inihaw na Baboy",
+      "BBQ Stick"
+    ],
+    "category": "lauk",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 stick",
+    "servingGrams": 45,
+    "calories": 130,
+    "protein": 9,
+    "carbs": 8,
+    "fat": 7,
+    "metaDescription": "One stick of Filipino pork BBQ is about 130 calories. The sweet glaze and the fat in the pork are the two things that decide the number.",
+    "summary": "Thin slices of pork marinated in soy, banana ketchup, calamansi, brown sugar and 7-Up, threaded on a stick and grilled over charcoal. Sold from street carts for 20 to 40 pesos.",
+    "answer": "One standard street stick of pork BBQ is about 130 calories for roughly 45g of grilled pork with its sweet glaze. About 100 calories is the pork and 30 is the sugar in the marinade and basting sauce. Three sticks with 1 cup of rice is about 650 calories.",
+    "realTalk": [
+      "Pork BBQ is fairly reasonable per stick. Most vendors use kasim (shoulder) with a bit of fat, which grills to about 220 calories per 100g, so a 40 to 45g stick is around 100 calories of meat. The marinade is where the sugar lives: brown sugar, banana ketchup and 7-Up, then a basting sauce with more of the same. About 8g of sugar sticks to each skewer, which is 30 calories. Kawaling Pinoy's recipe card shows 175 per stick, but that counts a full 3 cups of brown sugar across 50 skewers as if all of it ended up on the meat.",
+      "The stick size is the real variable. A 20 peso street stick is thin, maybe 35g, and lands near 100 calories. The fat 40 peso sticks outside a restaurant can be 80g of pork with visible fat chunks between the slices, and those are 230 to 250 calories each. Ask yourself whether it is 3 bites or 6 bites and you have your answer.",
+      "Nobody eats one. The normal order is 3 to 5 sticks with rice, and vendors sell them in a pile for a reason. Five standard sticks is 650 calories before rice. With 1 cup of rice that is 910 calories, and the sweet glaze makes rice go down fast. Compared to a 150g slab of liempo at 600 calories, BBQ is actually the leaner ihaw choice if you stop at 3 sticks."
+    ],
+    "lighter": [
+      "Three sticks, 1 cup rice, about 650 calories. That is a real meal and easy to remember.",
+      "Pick the sticks with less white fat between the slices. A lean stick is closer to 100 calories.",
+      "Skip the extra basting. Ask for it without the last brush of sauce and save about 15 calories per stick.",
+      "Chicken BBQ sticks are about 90 calories each if the vendor has them."
+    ],
+    "components": [
+      {
+        "name": "Grilled pork shoulder with some fat",
+        "grams": 38,
+        "calories": 95
+      },
+      {
+        "name": "Brown sugar and banana ketchup glaze",
+        "grams": 6,
+        "calories": 25
+      },
+      {
+        "name": "Soy calamansi marinade absorbed",
+        "grams": 3,
+        "calories": 10
+      }
+    ],
+    "portions": [
+      {
+        "label": "1 stick",
+        "calories": 130
+      },
+      {
+        "label": "3 sticks",
+        "calories": 390
+      },
+      {
+        "label": "3 sticks with 1 cup rice",
+        "calories": 650
+      }
+    ],
+    "variants": [
+      {
+        "name": "Chicken BBQ stick",
+        "calories": 90,
+        "note": "Breast or thigh, same glaze"
+      },
+      {
+        "name": "Thin street stick (35g)",
+        "calories": 100,
+        "note": "The 20 peso kind"
+      },
+      {
+        "name": "Standard stick (45g)",
+        "calories": 130,
+        "note": "Most carts"
+      },
+      {
+        "name": "Fat restaurant stick (80g)",
+        "calories": 240,
+        "note": "Visible fat chunks between slices"
+      },
+      {
+        "name": "Stick with extra basting and fat cubes",
+        "calories": 280,
+        "note": "Aristocrat style jumbo"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in 5 sticks of pork BBQ?",
+        "a": "About 650 calories for 5 standard street sticks, or around 1,200 for 5 jumbo sticks. With rice add 260 per cup."
+      },
+      {
+        "q": "Is pork BBQ healthy?",
+        "a": "Per stick it is fine: about 9g of protein for 130 calories. The problems are the sugar glaze (about 8g per stick) and the habit of eating 5 with 2 cups of rice."
+      },
+      {
+        "q": "How much sugar is in pork BBQ?",
+        "a": "About 8g per stick from the brown sugar, banana ketchup and 7-Up in the marinade and basting sauce. Five sticks is 40g of sugar, roughly a can of soft drink."
+      },
+      {
+        "q": "Pork BBQ or liempo, which is lower in calories?",
+        "a": "Pork BBQ. Three sticks is about 390 calories, while a standard 150g liempo slab is about 600, because BBQ uses shoulder and liempo uses belly."
+      }
+    ],
+    "related": [
+      "satay",
+      "liempo",
+      "isaw",
+      "moo-ping"
+    ],
+    "source": "estimate from components (USDA pork shoulder, grilled); Kawaling Pinoy recipe card 175 kcal per skewer noted"
+  },
+  {
+    "slug": "kwek-kwek",
+    "name": "Kwek-Kwek",
+    "aka": [
+      "Kwek Kwek",
+      "Orange Battered Quail Eggs",
+      "Tokneneng (chicken egg version)"
+    ],
+    "category": "snacks",
+    "region": [
+      "ph"
+    ],
+    "serving": "4 pieces with sauce",
+    "servingGrams": 90,
+    "calories": 280,
+    "protein": 8,
+    "carbs": 22,
+    "fat": 18,
+    "metaDescription": "Four pieces of kwek-kwek with sweet sauce are about 280 calories, roughly 65 per egg. The orange batter and the frying oil matter more than the quail egg.",
+    "summary": "Hard boiled quail eggs dipped in an orange annatto flour batter and deep fried, served with a sweet chili vinegar sauce. The 5 peso street snack outside every school.",
+    "answer": "Four pieces of kwek-kwek are about 280 calories including a spoon of the sweet sauce, or roughly 65 calories per piece. The quail egg itself is only 14 calories. The rest is about 35 calories of flour batter and 15 to 20 calories of oil absorbed in the fryer.",
+    "realTalk": [
+      "The egg is the smallest part. A quail egg is about 9g and 14 calories, which is nothing. Then it gets a thick coat of flour and cornstarch batter, about 10g dry per egg, and goes into oil that has been reused since morning. The batter soaks up 3 to 4g of oil per piece. That turns a 14 calorie egg into a 65 calorie ball. Kawaling Pinoy's recipe card comes out at 275 for 3 pieces, but it counts the whole pot of frying oil across the batch, which overstates it.",
+      "The sauce is sugar. The sweet kwek-kwek sauce is vinegar, brown sugar, cornstarch and chili, and a good ladle over 4 pieces is about 30 calories. The spicy vinegar version (sukang maanghang) is closer to 5. Most vendors let you choose, and the spicy vinegar is the one to pick if you are counting.",
+      "At 5 pesos a piece it is easy to eat 8 or 10 while waiting for a jeep. Ten pieces is 650 calories, which is a full meal from something that felt like a snack. The tokneneng version made with a chicken egg is bigger, about 150 calories each, because the batter shell is thicker and there is more egg."
+    ],
+    "lighter": [
+      "Four pieces is a snack at 280 calories. Ten pieces is lunch at 650. Decide before you order.",
+      "Choose the spicy vinegar dip instead of the sweet orange sauce. About 25 calories saved per serving.",
+      "Pick the pieces with the thinner batter shell. A thin coat is about 50 calories per piece instead of 65.",
+      "If you want eggs for protein, plain boiled quail eggs are 14 each. Ten of them is 140 calories, the same as 2 kwek-kwek."
+    ],
+    "components": [
+      {
+        "name": "Quail eggs (4)",
+        "grams": 36,
+        "calories": 56
+      },
+      {
+        "name": "Flour and cornstarch batter",
+        "grams": 36,
+        "calories": 125
+      },
+      {
+        "name": "Frying oil absorbed",
+        "grams": 8,
+        "calories": 70
+      },
+      {
+        "name": "Sweet chili vinegar sauce",
+        "grams": 15,
+        "calories": 30
+      }
+    ],
+    "portions": [
+      {
+        "label": "2 pieces",
+        "calories": 140
+      },
+      {
+        "label": "4 pieces with sauce",
+        "calories": 280
+      },
+      {
+        "label": "10 pieces with sauce",
+        "calories": 650
+      }
+    ],
+    "variants": [
+      {
+        "name": "Plain boiled quail egg",
+        "calories": 14,
+        "note": "No batter, no oil"
+      },
+      {
+        "name": "Kwek-kwek, 1 piece, thin batter",
+        "calories": 50,
+        "note": "Vendor with a light coat"
+      },
+      {
+        "name": "Kwek-kwek, 1 piece, standard",
+        "calories": 65,
+        "note": "Sauce not included"
+      },
+      {
+        "name": "Tokneneng, 1 piece",
+        "calories": 150,
+        "note": "Chicken egg in the same batter"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in one kwek-kwek?",
+        "a": "About 65 calories per piece with a standard batter coat, plus about 7 calories per piece for the sweet sauce."
+      },
+      {
+        "q": "Is kwek-kwek healthy?",
+        "a": "The quail egg is, at 14 calories and 1g of protein. The batter and reused frying oil are not. Four pieces is a 280 calorie snack with 18g of fat, most of it from the fryer."
+      },
+      {
+        "q": "Kwek-kwek or tokneneng, which has more calories?",
+        "a": "Tokneneng, at about 150 per piece, because it is a whole chicken egg in a thicker batter. One tokneneng is roughly 2.5 kwek-kwek."
+      },
+      {
+        "q": "How many calories in the kwek-kwek sauce?",
+        "a": "The sweet orange sauce is about 30 calories per ladle from sugar and cornstarch. The spicy vinegar is about 5."
+      }
+    ],
+    "related": [
+      "lumpia-shanghai",
+      "isaw",
+      "balut",
+      "lok-lok"
+    ],
+    "source": "estimate from components (quail egg USDA 14 kcal, batter and oil uptake); Kawaling Pinoy recipe card 275 kcal per 3 pieces noted"
+  },
+  {
+    "slug": "leche-flan",
+    "name": "Leche Flan",
+    "aka": [
+      "Filipino Caramel Custard",
+      "Flan",
+      "Leche Flan Slice"
+    ],
+    "category": "dessert",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 slice (about 90g)",
+    "servingGrams": 90,
+    "calories": 240,
+    "protein": 6,
+    "carbs": 32,
+    "fat": 10,
+    "metaDescription": "A slice of leche flan is about 240 calories. Egg yolks and condensed milk are the whole recipe, so here is how a llanera splits up.",
+    "summary": "A dense custard of egg yolks, condensed milk and evaporated milk steamed over a layer of caramelised sugar. Richer than any Western flan because there are no egg whites in it.",
+    "answer": "One slice of leche flan is about 240 calories for a 90g piece, which is one llanera cut into 4 or 5. Condensed milk supplies most of the sugar and the egg yolks most of the fat. A whole standard llanera is around 1,000 calories.",
+    "realTalk": [
+      "Leche flan is condensed milk you can cut with a spoon. A standard recipe is 10 to 12 egg yolks, a 14 oz can of condensed milk and a 12 oz can of evaporated milk, plus about half a cup of sugar for the caramel. That is about 2,900 calories in the mixing bowl, poured into 2 or 3 llaneras. Kawaling Pinoy's card puts a 1 of 12 portion at 239 calories, and Goldilocks lists their baked flan at 190 per slice, which is a thinner cut.",
+      "The yolks are why it hits harder than it looks. Each yolk is about 55 calories and 4.5g of fat, and there are no whites to lighten the mix. Per 100g leche flan is about 265 calories, which is denser than ice cream (about 200 per 100g) and about the same as a slice of cake. A 90g slice does not look like much on the plate, which is how a second slice happens.",
+      "At fiestas and buffets it is not really a slice. It is a spoonful on top of halo-halo (about 60 calories for the flan alone), then a real slice later, then a bit more when the tray comes around. Two slices of leche flan is 480 calories, more than the ulam you had for dinner. A slice at a carinderia or bakery is 40 to 60 pesos."
+    ],
+    "lighter": [
+      "Cut the llanera into 6 instead of 4. A 60g slice is about 160 calories and still feels like dessert.",
+      "Have it as the dessert, not as a topping and a dessert. The flan on your halo-halo already counted.",
+      "At home, swap half the condensed milk for evaporated milk and use 8 yolks instead of 12. That drops a slice to about 170.",
+      "Eat it after a protein heavy meal, not with merienda coffee, so it does not become a 500 calorie snack."
+    ],
+    "components": [
+      {
+        "name": "Egg yolks",
+        "grams": 30,
+        "calories": 95
+      },
+      {
+        "name": "Sweetened condensed milk",
+        "grams": 30,
+        "calories": 95
+      },
+      {
+        "name": "Evaporated milk",
+        "grams": 20,
+        "calories": 25
+      },
+      {
+        "name": "Caramel sugar layer",
+        "grams": 8,
+        "calories": 30
+      }
+    ],
+    "portions": [
+      {
+        "label": "Thin slice (60g)",
+        "calories": 160
+      },
+      {
+        "label": "Standard slice (90g)",
+        "calories": 240
+      },
+      {
+        "label": "Whole llanera",
+        "calories": 1000
+      }
+    ],
+    "variants": [
+      {
+        "name": "Leche flan spoonful on halo-halo",
+        "calories": 60,
+        "note": "About 25g"
+      },
+      {
+        "name": "Goldilocks baked flan, 1 slice",
+        "calories": 190,
+        "note": "FatSecret listing"
+      },
+      {
+        "name": "Homemade leche flan, 1 of 12",
+        "calories": 240,
+        "note": "Kawaling Pinoy card"
+      },
+      {
+        "name": "Leche flan, 1 of 6 from a full recipe",
+        "calories": 370,
+        "note": "Panlasang Pinoy card, big slice"
+      },
+      {
+        "name": "Ube leche flan cake, 1 slice",
+        "calories": 420,
+        "note": "Flan layer plus cake"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in a whole leche flan?",
+        "a": "About 1,000 calories for one standard llanera (about 380g). A big oval llanera can reach 1,400."
+      },
+      {
+        "q": "Is leche flan high in sugar?",
+        "a": "Yes. A 90g slice has about 30g of sugar, most of it from the condensed milk and the caramel layer. That is close to a can of soft drink."
+      },
+      {
+        "q": "Leche flan or halo-halo, which is worse?",
+        "a": "Halo-halo, at about 450 calories per tall glass, versus 240 for a slice of flan. But halo-halo usually has a spoon of flan in it too."
+      },
+      {
+        "q": "Can leche flan be made lower in calories?",
+        "a": "Somewhat. Using fewer yolks and swapping some condensed milk for evaporated milk gets a slice down to about 170 calories, but it will be softer and less rich."
+      }
+    ],
+    "related": [
+      "halo-halo",
+      "egg-tart",
+      "tau-fu-fah",
+      "taho"
+    ],
+    "source": "Kawaling Pinoy recipe card (239 kcal per 1/12); Goldilocks baked flan 190 kcal per slice via FatSecret"
+  },
+  {
+    "slug": "taho",
+    "name": "Taho",
+    "aka": [
+      "Tahô",
+      "Silken Tofu with Arnibal",
+      "Tahoooo"
+    ],
+    "category": "dessert",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 cup (regular, about 250g)",
+    "servingGrams": 250,
+    "calories": 220,
+    "protein": 6,
+    "carbs": 40,
+    "fat": 3,
+    "metaDescription": "A regular cup of taho is about 220 calories, and 150 of that is the arnibal syrup. Numbers for small, large and the strawberry version.",
+    "summary": "Warm silken tofu ladled into a cup with brown sugar syrup (arnibal) and sago pearls, sold from two metal buckets by the magtataho walking past your house at 7 in the morning.",
+    "answer": "A regular cup of taho is about 220 calories for a 250g serving. The soft tofu is only about 80 calories, the sago pearls about 30, and the arnibal syrup about 110. The syrup is the whole difference between a healthy breakfast and a sugary one.",
+    "realTalk": [
+      "The tofu part is genuinely good for you. Silken tofu is about 55 calories per 100g with 5g of protein, so the 150g in a regular cup is 80 calories and 7g of protein. Kawaling Pinoy's recipe card comes out at 213 calories per serving, which matches a vendor cup. The rest is arnibal: brown sugar boiled into a syrup. A vendor ladles in about 40g of it, which is 110 calories of straight sugar.",
+      "Ask for 'konting arnibal' (less syrup) and the cup drops to about 150 calories. Most magtataho will do it without blinking. The sago is minor at about 30 calories for a spoonful, though it is also just starch. A large cup at 30 to 35 pesos is about 350 calories, because the vendor scales the syrup with the tofu.",
+      "The strawberry taho from Baguio is a different animal. The strawberry syrup is sugar with fruit flavour and they tend to pour more of it, so a regular cup is closer to 260 calories. Same for the ube and pandan versions at mall stalls, which also add condensed milk. Taho is a 20 peso breakfast that is fine at 220 calories. It is not fine as a 350 calorie large on top of pandesal and coffee."
+    ],
+    "lighter": [
+      "Say 'konting arnibal' and save about 60 calories. Half the syrup, same tofu.",
+      "Regular cup, not large. The large is 350 calories, and the extra is mostly syrup.",
+      "Skip the sago if you do not care about it. About 30 calories saved and nothing lost.",
+      "Make it your protein for the morning instead of an extra: taho plus 1 pandesal is about 330 calories."
+    ],
+    "components": [
+      {
+        "name": "Silken tofu",
+        "grams": 150,
+        "calories": 80
+      },
+      {
+        "name": "Arnibal (brown sugar syrup)",
+        "grams": 40,
+        "calories": 110
+      },
+      {
+        "name": "Sago pearls",
+        "grams": 30,
+        "calories": 30
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small cup",
+        "calories": 150
+      },
+      {
+        "label": "Regular cup",
+        "calories": 220
+      },
+      {
+        "label": "Large cup",
+        "calories": 350
+      }
+    ],
+    "variants": [
+      {
+        "name": "Taho with less syrup (konting arnibal)",
+        "calories": 150,
+        "note": "Half the syrup"
+      },
+      {
+        "name": "Classic taho, regular cup",
+        "calories": 220,
+        "note": "Standard vendor ladle"
+      },
+      {
+        "name": "Strawberry taho, regular cup",
+        "calories": 260,
+        "note": "Baguio style, sweeter syrup"
+      },
+      {
+        "name": "Ube or pandan taho with condensed milk",
+        "calories": 300,
+        "note": "Mall stall version"
+      },
+      {
+        "name": "Large classic taho",
+        "calories": 350,
+        "note": "35 pesos and up"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is taho healthy?",
+        "a": "The tofu is, with about 7g of protein per cup. The arnibal is 110 calories of sugar. Ask for less syrup and it becomes a decent 150 calorie breakfast."
+      },
+      {
+        "q": "How many calories in taho without syrup?",
+        "a": "About 110 calories for the tofu and sago alone. Plain silken tofu is 55 calories per 100g."
+      },
+      {
+        "q": "How much sugar is in a cup of taho?",
+        "a": "About 28 to 30g in a regular cup, nearly all from the arnibal. A large cup is closer to 45g."
+      },
+      {
+        "q": "Is taho good for weight loss?",
+        "a": "It works as a breakfast if it replaces something, not if it is added on top. A regular cup with less syrup is 150 calories and keeps you full for a couple of hours."
+      }
+    ],
+    "related": [
+      "tau-fu-fah",
+      "soya",
+      "sago-gulaman",
+      "halo-halo"
+    ],
+    "source": "Kawaling Pinoy recipe card (213 kcal per serving); silken tofu from USDA"
+  },
+  {
+    "slug": "arroz-caldo",
+    "name": "Arroz Caldo",
+    "aka": [
+      "Arroz Caldo with Chicken",
+      "Chicken Rice Porridge",
+      "Lugaw na may Manok"
+    ],
+    "category": "soup",
+    "region": [
+      "ph"
+    ],
+    "serving": "1 bowl",
+    "servingGrams": 350,
+    "calories": 400,
+    "protein": 20,
+    "carbs": 45,
+    "fat": 15,
+    "metaDescription": "A carinderia bowl of arroz caldo is about 400 calories with the chicken and half an egg. Where the toasted garlic and chicken oil push it, and how to cut it.",
+    "summary": "Rice porridge cooked with ginger, garlic, chicken pieces and safflower, topped with toasted garlic, spring onion, a boiled egg and calamansi. What you eat when it rains or when you are sick.",
+    "answer": "One carinderia bowl of arroz caldo is about 400 calories for a 350g serving with a piece of chicken and half a boiled egg. The porridge itself is around 200 calories, the chicken 120, the egg 35 and the toasted garlic in oil about 45. A plain lugaw bowl without chicken is closer to 220.",
+    "realTalk": [
+      "Porridge stretches a little rice a long way. A 350g bowl of arroz caldo has only about 60g of dry rice in it, cooked in 5 times its weight of broth, so the rice contributes about 200 calories. That is less than a cup of plain rice. The chicken piece, usually a thigh or a chunk of breast with skin, adds 100 to 150. Kawaling Pinoy's recipe card lands at 572 per serving because it splits a whole chicken 6 ways, which is a much bigger piece than a carinderia gives you.",
+      "The toppings are where the oil hides. Toasted garlic is fried in oil and spooned on with some of that oil, about 45 calories. Some places also drizzle chicken fat or use the annatto oil from inasal, which adds 60 more. A whole boiled egg instead of half is another 35. A fully loaded bowl with a big thigh, whole egg and extra oil is about 550 calories, still a reasonable meal.",
+      "The calamansi and patis are free, so use them. A bowl costs 50 to 70 pesos at a carinderia and 90 to 130 at a Goto King or a mall stall, and the mall versions come with more chicken and often a side of tokwa't baboy, which is another 250. As comfort food goes, arroz caldo is one of the better deals: warm, filling, about 20g of protein and under 400 calories if you keep it simple."
+    ],
+    "lighter": [
+      "Ask for breast instead of thigh and pull the skin off. About 60 calories less per bowl.",
+      "Go light on the toasted garlic oil, or ask for the garlic without the oil. Saves about 30 to 40.",
+      "Skip the chicharon topping that some stalls add. A small handful is 100 calories of fried pork skin.",
+      "Add more ginger, calamansi and patis for flavour. All of them are close to zero."
+    ],
+    "components": [
+      {
+        "name": "Rice porridge with ginger broth",
+        "grams": 250,
+        "calories": 200
+      },
+      {
+        "name": "Chicken piece with some skin",
+        "grams": 60,
+        "calories": 120
+      },
+      {
+        "name": "Half a boiled egg",
+        "grams": 25,
+        "calories": 35
+      },
+      {
+        "name": "Toasted garlic in oil, spring onion",
+        "grams": 15,
+        "calories": 45
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small bowl, no egg",
+        "calories": 300
+      },
+      {
+        "label": "Standard bowl with chicken and half egg",
+        "calories": 400
+      },
+      {
+        "label": "Large bowl with big thigh and whole egg",
+        "calories": 550
+      }
+    ],
+    "variants": [
+      {
+        "name": "Plain lugaw, no chicken",
+        "calories": 220,
+        "note": "Porridge, garlic, spring onion"
+      },
+      {
+        "name": "Arroz caldo, breast, no skin",
+        "calories": 340,
+        "note": "Leanest bowl"
+      },
+      {
+        "name": "Arroz caldo, standard",
+        "calories": 400,
+        "note": "Carinderia bowl"
+      },
+      {
+        "name": "Goto (with beef tripe)",
+        "calories": 380,
+        "note": "Tripe is lean, about the same"
+      },
+      {
+        "name": "Arroz caldo with tokwa't baboy on the side",
+        "calories": 650,
+        "note": "Mall stall set"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is arroz caldo good for weight loss?",
+        "a": "Yes, it is one of the better carinderia bowls. About 400 calories with 20g of protein and a lot of water, so it fills you up. Keep the garlic oil and chicharon topping in check."
+      },
+      {
+        "q": "What is the difference between arroz caldo, lugaw and goto?",
+        "a": "Same porridge base. Lugaw is plain (about 220 calories), arroz caldo has chicken (about 400), goto has beef tripe (about 380)."
+      },
+      {
+        "q": "How many calories in a bowl of arroz caldo without egg?",
+        "a": "About 365 calories. The half egg is only 35, so it is not the thing to skip. The garlic oil and chicken skin are bigger."
+      },
+      {
+        "q": "Is arroz caldo high in carbs?",
+        "a": "About 45g per bowl, which is less than a single cup of rice (55g) because the rice is diluted with broth."
+      }
+    ],
+    "related": [
+      "tinola",
+      "bubur-ayam",
+      "pork-porridge",
+      "chao-ga"
+    ],
+    "source": "estimate from components; Kawaling Pinoy recipe card (572 kcal per 1/6 of a whole chicken) used as the high end"
+  }
+]

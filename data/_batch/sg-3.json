@@ -1,0 +1,601 @@
+[
+  {
+    "slug": "tau-suan",
+    "name": "Tau Suan",
+    "aka": [
+      "Tau Suan with You Tiao",
+      "豆爽",
+      "Split Mung Bean Dessert",
+      "Tau Suan Dessert"
+    ],
+    "category": "dessert",
+    "region": [
+      "sg"
+    ],
+    "serving": "1 bowl with you tiao",
+    "servingGrams": 300,
+    "calories": 293,
+    "protein": 8,
+    "carbs": 55,
+    "fat": 5,
+    "metaDescription": "A bowl of tau suan with you tiao is about 293 calories. Without the fried dough it is around 200. The sweet starchy soup is the rest.",
+    "summary": "Tau suan is the Teochew dessert of split mung beans in a thick, clear sweet soup thickened with starch and scented with pandan, served warm with pieces of crisp you tiao on top from Singapore hawker dessert stalls.",
+    "answer": "A standard bowl of tau suan with you tiao is about 293 calories for a 300g serving, with around 5g of fat. The 60g of split mung beans is about 100 calories, the sugar and starch soup about 100, and the half pair of you tiao on top another 95.",
+    "realTalk": [
+      "Mung beans are the good part. 60g of cooked split mung beans is about 100 calories with 7g of protein and a fair amount of fibre. The soup is where it gets sweet. It is water, sugar, sweet potato starch and pandan, thickened until it coats the spoon, about 100 calories for 200ml, nearly all sugar. Then the you tiao, cut into pieces and dropped on top, about 95 for the usual half pair. That is 293 for a dessert most people think of as light because it is not coconut based.",
+      "It is still one of the lighter hawker desserts. Cheng tng is about 160, tau suan 293, bubur cha cha 360, and the coconut based ones like pulut hitam with santan are around 290 as well. The difference is where the calories come from. Tau suan is sugar and fried dough on a base of beans. Bubur cha cha is coconut milk. Neither is a problem once a week. Both are a problem after a 700 calorie lunch.",
+      "The you tiao is optional and the stall will leave it out. Without it a bowl is about 200 calories, and with a small spoon of you tiao on top rather than the full handful it is about 240. The beans are the same. If the stall uses less starch and the soup is thinner, that is another 20 to 30 saved without asking."
+    ],
+    "lighter": [
+      "Order it without you tiao. That is about 95 calories gone and the beans and soup are unchanged.",
+      "Ask for less sugar. Most Teochew dessert stalls will do it and it saves about 40.",
+      "Order the small bowl. The S$1.50 bowl is about 220 with you tiao, the S$2.50 bowl is 293.",
+      "Choose cheng tng if it is on the same menu and you want something even lighter, at about 160.",
+      "Have it as an afternoon snack rather than after dinner. On its own it is a 293 calorie snack with 8g of protein, which is reasonable."
+    ],
+    "components": [
+      {
+        "name": "Split mung beans",
+        "grams": 60,
+        "calories": 100
+      },
+      {
+        "name": "Sweet starch soup",
+        "grams": 200,
+        "calories": 100
+      },
+      {
+        "name": "You tiao, half pair",
+        "grams": 35,
+        "calories": 95
+      }
+    ],
+    "portions": [
+      {
+        "label": "Bowl without you tiao",
+        "calories": 200
+      },
+      {
+        "label": "Standard bowl with you tiao",
+        "calories": 293
+      },
+      {
+        "label": "Large with extra you tiao",
+        "calories": 390
+      }
+    ],
+    "variants": [
+      {
+        "name": "Tau suan, no you tiao, less sugar",
+        "calories": 160,
+        "note": ""
+      },
+      {
+        "name": "Tau suan, no you tiao",
+        "calories": 200,
+        "note": ""
+      },
+      {
+        "name": "Tau suan with you tiao",
+        "calories": 293,
+        "note": "HPB figure"
+      },
+      {
+        "name": "Tau suan with a full pair of you tiao",
+        "calories": 390,
+        "note": ""
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in tau suan?",
+        "a": "About 293 calories for a standard bowl with you tiao. Without the you tiao it is about 200. The split mung beans are around 100 of that and the sweet soup about 100."
+      },
+      {
+        "q": "Is tau suan healthy?",
+        "a": "It is one of the better hawker desserts. Mung beans give about 8g of protein and some fibre, and there is no coconut milk, so the fat is around 5g. The sugar in the soup, about 25g, is the main downside."
+      },
+      {
+        "q": "Is tau suan or cheng tng lower in calories?",
+        "a": "Cheng tng at about 160 is lower. Tau suan at 293 has the starch thickened soup and the you tiao. Without you tiao, tau suan is about 200, closer to cheng tng."
+      },
+      {
+        "q": "What is tau suan made of?",
+        "a": "Split mung beans, steamed until soft, in a soup of water, sugar and sweet potato starch with pandan leaf. It is served warm with pieces of you tiao on top."
+      }
+    ],
+    "related": [
+      "you-tiao",
+      "cheng-tng",
+      "tau-fu-fah",
+      "pulut-hitam"
+    ],
+    "source": "HPB iDAT via danielfooddiary.com 2015"
+  },
+  {
+    "slug": "oyster-omelette",
+    "name": "Oyster Omelette",
+    "aka": [
+      "Orh Luak",
+      "Or Luak",
+      "Oh Chien",
+      "蚝煎",
+      "Oyster Egg",
+      "Orh Jian"
+    ],
+    "category": "lauk",
+    "region": [
+      "sg"
+    ],
+    "serving": "1 plate",
+    "servingGrams": 250,
+    "calories": 487,
+    "protein": 20,
+    "carbs": 30,
+    "fat": 32,
+    "metaDescription": "A hawker plate of oyster omelette is about 487 calories, and a large one about 645. The oysters are the smallest number on the plate. The oil is the biggest.",
+    "summary": "Orh luak is the Singapore hawker plate of eggs and a sweet potato starch batter fried in a lot of oil until crisp at the edges and gooey in the middle, with small oysters folded in at the end, served with a garlic chilli dip.",
+    "answer": "A standard plate of oyster omelette is about 487 calories for a 250g serving, with around 32g of fat. A large plate is about 645. The eggs are about 190 calories, the frying oil about 180, the starch batter 60, and the oysters themselves only about 45.",
+    "realTalk": [
+      "The oysters are almost irrelevant to the number. 60g of small oysters is about 45 calories and 6g of protein. What makes orh luak 487 is the cooking. Two and a half eggs at 190 go into a wok with about 20g of oil, which is 180 on its own, and the starch batter that makes the crispy, sticky texture is another 60. The chilli dip is 12. So about two thirds of the plate is egg and oil, and the oysters are a garnish with a name.",
+      "The HPB numbers show the size problem. The 2014 survey put a plate at 487. The 2015 one, with a bigger plate from a different stall, put it at 645. That is the same dish and a 158 calorie gap, because the stall used more egg, more batter and more oil to fill a bigger plate. A S$6 plate is the first number. A S$10 plate is the second. There is no version of this dish where the cooking is light.",
+      "The crispy style takes more oil than the gooey style. Crispy orh luak is fried longer in more oil until the batter is like a lacy cracker, and it lands nearer 600 for a standard plate. The wetter, softer style with more egg and less batter is closer to the 487. If you have a choice, the messy looking one is the lighter one."
+    ],
+    "lighter": [
+      "Order the small plate. The S$6 plate at 487 against the S$10 plate at 645 is the biggest single decision.",
+      "Ask for less oil. Some stalls will, and it takes off 60 to 90 calories.",
+      "Choose the soft style over the crispy style. Less time in the oil means less oil in the plate.",
+      "Share it. Half a plate at 245 with a bowl of soup or rice is a normal meal with 10g of protein.",
+      "Ask for extra oysters. They are about 8 calories each and they are the part you came for."
+    ],
+    "components": [
+      {
+        "name": "Eggs, 2.5",
+        "grams": 120,
+        "calories": 190
+      },
+      {
+        "name": "Sweet potato starch batter",
+        "grams": 40,
+        "calories": 60
+      },
+      {
+        "name": "Oysters",
+        "grams": 60,
+        "calories": 45
+      },
+      {
+        "name": "Frying oil",
+        "grams": 20,
+        "calories": 180
+      },
+      {
+        "name": "Garlic chilli dip",
+        "grams": 10,
+        "calories": 12
+      }
+    ],
+    "portions": [
+      {
+        "label": "Small plate, shared",
+        "calories": 380
+      },
+      {
+        "label": "Standard plate",
+        "calories": 487
+      },
+      {
+        "label": "Large plate",
+        "calories": 645
+      }
+    ],
+    "variants": [
+      {
+        "name": "Soft style, less oil",
+        "calories": 420,
+        "note": "Ask the stall"
+      },
+      {
+        "name": "Standard plate",
+        "calories": 487,
+        "note": "HPB 2014 figure"
+      },
+      {
+        "name": "Crispy style",
+        "calories": 580,
+        "note": "More batter, longer frying"
+      },
+      {
+        "name": "Large plate",
+        "calories": 645,
+        "note": "HPB 2015 figure, bigger plate"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in oyster omelette?",
+        "a": "About 487 calories for a standard hawker plate and about 645 for a large one. Around 180 of that is frying oil and 190 is egg. The oysters are only about 45."
+      },
+      {
+        "q": "Is oyster omelette healthy?",
+        "a": "Not in the hawker form. It has 20g of protein from the eggs and oysters, which is fine, but 32g of fat from the oil and 30g of starch. It is a share plate, not a personal meal."
+      },
+      {
+        "q": "Why is orh luak so oily?",
+        "a": "The starch batter needs a lot of oil to crisp up and not stick to the wok. Stalls use about 20g of oil per plate, which is 180 calories, more than the oysters and batter combined."
+      },
+      {
+        "q": "How much protein is in oyster omelette?",
+        "a": "About 20g per standard plate, mostly from two and a half eggs. The 60g of oysters adds about 6g. It is a reasonable protein number for a plate that is 487 calories."
+      }
+    ],
+    "related": [
+      "chai-tow-kway",
+      "char-kuey-teow",
+      "telur-dadar",
+      "cereal-prawns"
+    ],
+    "source": "HPB iDAT via danielfooddiary.com 2014 (487) and 2015 (645, larger plate)"
+  },
+  {
+    "slug": "bbq-chicken-wings",
+    "name": "BBQ Chicken Wings",
+    "aka": [
+      "Grilled Chicken Wings",
+      "Hawker Chicken Wings",
+      "烧鸡翅",
+      "Charcoal Chicken Wings",
+      "East Coast Chicken Wings"
+    ],
+    "category": "lauk",
+    "region": [
+      "sg"
+    ],
+    "serving": "2 wings",
+    "servingGrams": 110,
+    "calories": 196,
+    "protein": 17,
+    "carbs": 4,
+    "fat": 13,
+    "metaDescription": "Two hawker BBQ chicken wings are about 196 calories, so 98 each. Six wings with the chilli and lime is about 600. The chilli is what keeps you eating.",
+    "summary": "BBQ chicken wings are the charcoal grilled, soy and honey marinated whole wings sold by the piece at Singapore hawker centres, especially East Coast Lagoon and Chomp Chomp, with a green chilli and lime dip.",
+    "answer": "Two hawker BBQ chicken wings are about 196 calories for a 110g serving, with around 17g of protein and 13g of fat. Each wing is about 98 calories. The marinade of soy, honey and oil adds about 25 of that, and the chilli dip is nearly free.",
+    "realTalk": [
+      "A chicken wing is about half skin and bone by weight, which is why two whole wings at 110g is only about 100g of edible meat and skin. Grilled over charcoal, the fat under the skin drips off, and what stays is about 85 calories of meat and skin per wing plus the marinade. The soy, honey and oil glaze is brushed on twice and adds about 13 per wing. So 98 each, 196 for two, with 17g of protein. As a source of protein at a hawker centre, it is one of the more honest options.",
+      "The problem is nobody eats two. The stalls sell them at S$1.50 to S$2 each and the normal order at East Coast is five or six per person with a plate of stingray and a beer. Six wings is about 590 calories and 51g of protein. That is not a disaster, but it is a full meal, and the stingray, the satay and the beer come on top of it.",
+      "Compared to the other grilled meats on the same row, wings are middle of the pack. A chicken satay stick is about 50, so four sticks with sauce match one wing without the chilli. A grilled stingray with sambal is about 430. A plate of six wings is about the same as the stingray with far more protein. Choose the wings over the sambal sotong if protein is the goal."
+    ],
+    "lighter": [
+      "Order three, not six. Three wings is about 295 calories and 26g of protein, a proper protein serving.",
+      "Peel off the wing tip skin. It is the crispiest part and the fattiest, about 15 calories per wing.",
+      "Use the chilli and lime, not the sweet chilli sauce. The green chilli dip is about 5 calories, the bottled sweet chilli about 30 per spoon.",
+      "Pair with a plate of grilled vegetables or a bowl of clear soup rather than fried carrot cake.",
+      "Skip the beer. A large Tiger is about 220, more than two wings."
+    ],
+    "components": [
+      {
+        "name": "Chicken wing meat and skin, 2 wings",
+        "grams": 100,
+        "calories": 170
+      },
+      {
+        "name": "Soy, honey and oil marinade",
+        "grams": 10,
+        "calories": 26
+      }
+    ],
+    "portions": [
+      {
+        "label": "1 wing",
+        "calories": 98
+      },
+      {
+        "label": "2 wings",
+        "calories": 196
+      },
+      {
+        "label": "6 wings with chilli",
+        "calories": 600
+      }
+    ],
+    "variants": [
+      {
+        "name": "1 wing",
+        "calories": 98,
+        "note": ""
+      },
+      {
+        "name": "2 wings",
+        "calories": 196,
+        "note": "HPB figure"
+      },
+      {
+        "name": "3 wings",
+        "calories": 295,
+        "note": "A sensible protein portion"
+      },
+      {
+        "name": "6 wings",
+        "calories": 590,
+        "note": "The usual East Coast order"
+      },
+      {
+        "name": "Fried chicken wing",
+        "calories": 190,
+        "note": "Per wing, economy bee hoon stall, for comparison"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in one BBQ chicken wing?",
+        "a": "About 98 calories per hawker grilled wing, or 196 for two. That includes the honey soy marinade. Each wing gives about 8 to 9g of protein."
+      },
+      {
+        "q": "Are BBQ chicken wings healthy?",
+        "a": "For a hawker centre, yes. Grilling over charcoal lets the fat drip off, and two wings give 17g of protein for under 200 calories. The issue is portion. Six wings is about 600."
+      },
+      {
+        "q": "Is a grilled wing lower in calories than a fried wing?",
+        "a": "Yes, by a lot. A grilled hawker wing is about 98 calories. A fried wing from an economy bee hoon stall is about 190, because the batter and oil roughly double it."
+      },
+      {
+        "q": "How many calories in chicken wings with rice?",
+        "a": "Two wings with a plate of white rice is about 520. Three wings with rice about 620. The rice is the bigger number, about 325 for a hawker scoop."
+      }
+    ],
+    "related": [
+      "satay",
+      "ayam-bakar",
+      "ayam-goreng",
+      "ngoh-hiang"
+    ],
+    "source": "HPB iDAT via danielfooddiary.com 2015 (196 per 2 pieces)"
+  },
+  {
+    "slug": "black-pepper-crab",
+    "name": "Black Pepper Crab",
+    "aka": [
+      "Singapore Black Pepper Crab",
+      "黑胡椒螃蟹",
+      "Pepper Crab",
+      "Black Pepper Mud Crab"
+    ],
+    "category": "lauk",
+    "region": [
+      "sg"
+    ],
+    "serving": "1 serving (half a 1kg crab with sauce)",
+    "servingGrams": 500,
+    "calories": 344,
+    "protein": 24,
+    "carbs": 6,
+    "fat": 24,
+    "metaDescription": "A serving of black pepper crab, about half a 1kg mud crab, is around 344 calories.",
+    "summary": "Black pepper crab is the Singapore seafood restaurant dish of mud crab wok fried in butter with a thick coating of coarse black pepper, garlic, oyster sauce and soy. The drier, spicier sibling of chilli crab, and usually ordered alongside it.",
+    "answer": "A serving of black pepper crab, about half a 1kg crab with its sauce, is around 344 calories for a 500g shell on portion, with about 24g of protein and 24g of fat. The crab meat itself is about 100 calories. The butter is around 145 and the pepper sauce about 60.",
+    "realTalk": [
+      "A 1kg mud crab gives about 250g of meat once you have fought through the shell, so half a crab is about 120g of meat at roughly 100 calories. Crab meat is lean, about 85 calories per 100g. What you are eating on top of that is the coating. Black pepper crab is fried in a good amount of butter, about 20g per half crab at 145 calories, with oyster sauce, soy and a little sugar for another 60. That is 344 for half a crab. Most of the sauce stays on the shell, which is one of the quiet advantages of this dish.",
+      "Chilli crab is about 450 for the same half crab, because the gravy is thickened with egg and has a lot of sugar and tomato sauce, and it is made to be eaten by the spoon with fried mantou. Black pepper crab has no gravy to mop up. The pepper sauce is dry and clings to the shell, and after you have eaten the meat there is nothing left on the plate to drink. That is why it lands about 100 calories lower.",
+      "The mantou is the trap for both crabs. A fried mantou bun is about 130 calories and the basket comes with six or eight. Two fried mantou with the crab takes 344 to about 600. The steamed ones are about 80 each. Order steamed, and eat the crab with a plate of stir fried vegetables at about 150 instead of rice, and the whole meal for one person is around 500."
+    ],
+    "lighter": [
+      "Choose black pepper over chilli crab. About 100 calories less per half crab, because there is no egg and sugar gravy.",
+      "Order steamed mantou, not fried. 80 calories each against 130.",
+      "Ask the restaurant to go easy on the butter. Some cze char stalls use margarine or oil instead, and less of it drops the dish to about 280.",
+      "Eat the crab with vegetables, not white rice. There is no gravy to justify the rice.",
+      "Share a 1kg crab between two people. That is the 344 serving. One person eating a whole crab is around 700 before mantou."
+    ],
+    "components": [
+      {
+        "name": "Crab meat, from half a 1kg crab",
+        "grams": 120,
+        "calories": 100
+      },
+      {
+        "name": "Butter",
+        "grams": 20,
+        "calories": 145
+      },
+      {
+        "name": "Black pepper, oyster sauce, soy and sugar",
+        "grams": 40,
+        "calories": 60
+      },
+      {
+        "name": "Frying oil",
+        "grams": 4,
+        "calories": 35
+      }
+    ],
+    "portions": [
+      {
+        "label": "Quarter crab",
+        "calories": 170
+      },
+      {
+        "label": "Half a 1kg crab",
+        "calories": 344
+      },
+      {
+        "label": "Half crab with 2 fried mantou",
+        "calories": 600
+      }
+    ],
+    "variants": [
+      {
+        "name": "Black pepper crab, less butter",
+        "calories": 280,
+        "note": "Per half crab"
+      },
+      {
+        "name": "Black pepper crab",
+        "calories": 344,
+        "note": "Per half crab, estimate"
+      },
+      {
+        "name": "Chilli crab",
+        "calories": 450,
+        "note": "Per half crab, with egg gravy"
+      },
+      {
+        "name": "Salted egg crab",
+        "calories": 500,
+        "note": "Per half crab"
+      },
+      {
+        "name": "Whole 1kg black pepper crab, eaten alone",
+        "calories": 690,
+        "note": "Before mantou"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in black pepper crab?",
+        "a": "About 344 calories for half a 1kg crab with its sauce, which is a normal one person share. A whole crab eaten alone is around 690. The crab meat is only about 100 of that, the butter and sauce are the rest."
+      },
+      {
+        "q": "Is black pepper crab healthier than chilli crab?",
+        "a": "Yes, by about 100 calories per serving. Black pepper crab has no egg and sugar gravy, so it is around 344 per half crab against 450 for chilli crab. Both have about 24g of protein."
+      },
+      {
+        "q": "Is black pepper crab keto?",
+        "a": "Close to it. A serving has about 6g of carbs, mostly from the oyster sauce and the little sugar in the marinade. Skip the mantou and it fits a low carb meal."
+      },
+      {
+        "q": "How many calories in fried mantou?",
+        "a": "About 130 calories per fried bun and 80 per steamed bun. The basket of six fried mantou that comes with the crab is around 780 on its own."
+      }
+    ],
+    "related": [
+      "chili-crab",
+      "salted-egg-crab",
+      "kam-heong-crab",
+      "cereal-prawns"
+    ],
+    "source": "estimate from components"
+  },
+  {
+    "slug": "cereal-prawns",
+    "name": "Cereal Prawns",
+    "aka": [
+      "Butter Cereal Prawns",
+      "麦片虾",
+      "Oat Prawns",
+      "Nestum Prawns",
+      "Cereal Prawn Cze Char"
+    ],
+    "category": "lauk",
+    "region": [
+      "sg"
+    ],
+    "serving": "1 serving (4 to 5 prawns, one share of a cze char plate)",
+    "servingGrams": 150,
+    "calories": 330,
+    "protein": 18,
+    "carbs": 22,
+    "fat": 18,
+    "metaDescription": "A share of cereal prawns, 4 to 5 prawns with the cereal, is about 330 calories. The full cze char plate is about 600. The crunchy cereal is butter and sugar.",
+    "summary": "Cereal prawns is the Singapore cze char dish of large prawns deep fried in a light batter, then tossed in a wok with butter, curry leaves, chilli padi and sweetened Nestum cereal until the cereal turns golden and crisp. The cereal is the part everyone scoops up.",
+    "answer": "One share of cereal prawns, about 4 to 5 prawns with cereal, is about 330 calories for a 150g serving, with around 18g of protein and 18g of fat. A full cze char plate of 8 to 10 prawns is about 600. The prawns are about 90 calories of a share, the cereal 100, and the butter 85.",
+    "realTalk": [
+      "The prawns are not the issue. Five large prawns at 90g of meat is about 90 calories with 18g of protein. Everything they are covered in is. The cereal is Nestum, a sweetened wheat and oat cereal, fried in butter with sugar and sometimes milk powder until it crisps. A share of that cereal is about 100 calories, the butter about 85, and the batter on the prawns plus the curry leaf oil and egg yolk another 50. That is 330 for a portion that fits on a saucer.",
+      "The full plate is what arrives at the table. A S$18 to S$25 cze char plate of cereal prawns is 8 to 10 prawns and a generous pile of cereal, about 600 calories. Two people sharing it is 300 each, which is fine. One person eating most of it because it is in front of them, with a bowl of rice at 325, is close to 900 for one dish of a five dish dinner.",
+      "The cereal is the thing to watch, and it is the thing everyone fights over. Once the prawns are gone, the crunchy sweet cereal at the bottom of the plate is about 40 calories a spoonful. Three spoons of leftover cereal is 120, the same as a prawn and a half. It is the best part of the dish. It is also butter and sugar in a crunchy shape."
+    ],
+    "lighter": [
+      "Eat the prawns, leave the loose cereal at the bottom. That is about 100 calories of butter and sugar you do not need.",
+      "Order it as one of five dishes for a table of four, not as your dish. Four prawns is your share.",
+      "Ask for prawns without batter if the stall will do it. Some do, and it takes off about 30 calories a share.",
+      "Have it with steamed fish or a soup as the other dishes, not butter prawns and salted egg chicken. Those are the same trick three times.",
+      "Skip the rice. 325 calories of white rice is more than your share of the prawns."
+    ],
+    "components": [
+      {
+        "name": "Prawns, 5 pieces",
+        "grams": 90,
+        "calories": 90
+      },
+      {
+        "name": "Nestum cereal with sugar",
+        "grams": 25,
+        "calories": 100
+      },
+      {
+        "name": "Butter",
+        "grams": 12,
+        "calories": 85
+      },
+      {
+        "name": "Batter, egg yolk, curry leaves, chilli",
+        "grams": 20,
+        "calories": 50
+      }
+    ],
+    "portions": [
+      {
+        "label": "3 prawns with cereal",
+        "calories": 200
+      },
+      {
+        "label": "Standard share, 4 to 5 prawns",
+        "calories": 330
+      },
+      {
+        "label": "Full cze char plate",
+        "calories": 600
+      }
+    ],
+    "variants": [
+      {
+        "name": "3 prawns with cereal",
+        "calories": 200,
+        "note": ""
+      },
+      {
+        "name": "One share, 4 to 5 prawns",
+        "calories": 330,
+        "note": "FatSecret figure"
+      },
+      {
+        "name": "Half plate with rice",
+        "calories": 625,
+        "note": ""
+      },
+      {
+        "name": "Full plate, 8 to 10 prawns",
+        "calories": 600,
+        "note": "Estimate, cze char portion"
+      },
+      {
+        "name": "Full plate with rice",
+        "calories": 925,
+        "note": "One person, one dish, one rice"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many calories in cereal prawns?",
+        "a": "About 330 calories for a share of 4 to 5 prawns with cereal, and about 600 for a full cze char plate. The prawns are about 90 of a share. The cereal, butter and batter are the rest."
+      },
+      {
+        "q": "Is cereal prawns healthy?",
+        "a": "The prawns are, with 18g of protein per share. The cereal coating is Nestum fried in butter and sugar, about 185 calories per share. Eat the prawns, leave the pile of cereal, and it is a decent dish."
+      },
+      {
+        "q": "What cereal is used for cereal prawns?",
+        "a": "Nestum, the sweetened wheat and oat instant cereal. It is fried in butter with curry leaves and chilli padi, and sometimes milk powder and sugar are added, which is why it tastes like a dessert."
+      },
+      {
+        "q": "Is cereal prawns or butter prawns higher in calories?",
+        "a": "Butter prawns at about 580 per restaurant portion is heavier, because the egg floss soaks up more butter than the cereal does. Cereal prawns is about 330 per share and 600 per full plate."
+      }
+    ],
+    "related": [
+      "butter-prawns",
+      "sambal-udang",
+      "black-pepper-crab",
+      "chili-crab"
+    ],
+    "source": "FatSecret Singapore (330 per serving), full plate estimate from components"
+  }
+]

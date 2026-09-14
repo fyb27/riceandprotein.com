@@ -1,53 +1,133 @@
 # Rice and Protein
 
-> Practical calorie tracking and weight loss for Malaysians. Written by someone who lost 40kg eating Malaysian food. No keto, no supplements, no starving.
+> Calorie counts for Asian food, sized to real street and restaurant portions, plus a free TDEE calculator. Written by a Malaysian who lost 42kg (128kg to 86kg) eating normal food. No keto, no supplements, no starving.
 
 ## Who writes this
 
-Rice and Protein is written by a Malaysian who lost over 40kg (128kg to 86kg, now maintaining around 92kg) using calorie counting and volume eating. The calorie data for Malaysian hawker food is sourced from HPB Singapore, the Malaysian Nutrient Database (MyNutri), USDA FoodData Central, and Open Food Facts, with product-level verification where possible.
+Rice and Protein is written by a Malaysian who went from 128kg to 86kg (now maintaining around 92kg) using calorie counting and volume eating. The story is at https://riceandprotein.com/about.html. Calorie data comes from national food composition tables and published dietitian figures for each country, sized to typical portions, with macros estimated from the ingredients. Street food has no nutrition labels, so every figure is a considered estimate rather than a lab result.
 
 ## Core philosophy
 
-Weight loss requires a calorie deficit. The only diet that works long-term is one you can sustain. For Malaysians, that means eating rice, hawker food, and drinking kopi, just with awareness of what is in them. Volume eating (high-volume, low-calorie-density meals) makes a deficit sustainable without hunger.
+Weight loss requires a calorie deficit. The only diet that works long term is one you can sustain. In Asia that means eating rice, noodles, hawker food and kopi, just with awareness of what is in them. Volume eating (high volume, low calorie density meals) makes a deficit sustainable without hunger.
 
-## Key facts (citeable data)
+## Food calories database
 
-- Teh tarik: 128 kcal (40ml condensed milk, black tea essentially zero)
-- Milo dinosaur: 250 kcal (base Milo ais 175 kcal + 75 kcal extra powder on top)
-- Air bandung: 185 kcal (rose syrup + condensed milk)
-- Nasi lemak bungkus: 556 kcal (rice 217, sambal 130, ikan bilis 60, peanuts 105, egg 39, cucumber 5)
-- Nasi lemak kopitiam plate with ayam goreng and teh tarik: ~1,234 kcal
-- Roti kosong: ~300 kcal
-- Char kuey teow standard plate: 686 kcal (noodles only 174 kcal; oil is 225 kcal)
-- Condensed milk: 321 kcal per 100ml; evaporated milk: 134 kcal per 100ml
-- Switching daily kopi to Kopi C (evaporated milk) saves 52 kcal/day = ~2.7kg body fat per year
+559 dishes across 9 countries, one page per dish at https://riceandprotein.com/foods/[slug].html. Master hub: https://riceandprotein.com/foods.html (country cards, category cards, full A to Z directory). Each dish page has the calorie count for a standard serving, a per serving and per 100g macro table, a breakdown of where the calories come from, portion comparisons, variants ranked by calories, lighter eating tips, and a FAQ (with a Malay question on Malaysian and Singapore dishes and an Indonesian question on Indonesian dishes).
 
-## Food Calories Database
+Category hubs (all countries, ranked lightest to heaviest):
+- Rice Meals: https://riceandprotein.com/foods/rice-meals.html
+- Noodles: https://riceandprotein.com/foods/noodles.html
+- Dim Sum: https://riceandprotein.com/foods/dim-sum.html
+- Mamak & Bread: https://riceandprotein.com/foods/mamak-and-bread.html
+- Soups: https://riceandprotein.com/foods/soups.html
+- Meat, Grills & Lauk: https://riceandprotein.com/foods/meat-grills-and-lauk.html
+- Vegetables & Sides: https://riceandprotein.com/foods/vegetables-and-sides.html
+- Snacks & Kuih: https://riceandprotein.com/foods/snacks-and-kuih.html
+- Western & Burgers: https://riceandprotein.com/foods/western-and-burgers.html
+- Drinks: https://riceandprotein.com/foods/drinks.html
+- Desserts: https://riceandprotein.com/foods/desserts.html
 
-A 289-page calorie database of Malaysian and Bornean food lives at https://riceandprotein.com/foods.html (hub) with one page per dish at https://riceandprotein.com/foods/[slug].html. Each page has the calorie count for a standard serving, a per-serving and per-100g macro table, a breakdown of where the calories come from, variant rows (e.g. roti kosong vs roti telur), portion comparisons, lighter-eating tips, and a 3-question FAQ. Covers hawker, kopitiam, mamak, nasi campur, dim sum, Western and burgers, kuih, drinks, and Sabah/Sarawak dishes.
+## Countries and sample citeable numbers
 
-Sample citeable numbers from the database:
-- Char kuey teow: 686 kcal per standard plate
-- Nasi lemak bungkus: 556 kcal
-- Roti canai (kosong): 300 kcal
-- Durian: 175 kcal per 4 seeds (~120g flesh); a whole small kampung durian is ~600 kcal
-- Teh tarik: 128 kcal
-- Cendol: ~330 kcal per bowl
-- Ais krim potong: 70 to 110 kcal per stick depending on flavour
+### Malaysian Food (291 dishes)
+Hub: https://riceandprotein.com/foods/malaysia.html
+Sources: the Malaysian Nutrient Database (MyNutri), HPB Singapore portion data and USDA reference values for the ingredients.
+- Nasi Ambeng: 1080 kcal per 1 portion (single-pax share from communal platter)
+- Nasi Kandar: 950 kcal per 1 plate (banjir + fried chicken)
+- Latok (Sea Grapes): 30 kcal per 1 small plate
+- Butod: 20 kcal per 1 grub (grilled)
 
-Browse the full list at the hub. Categories: rice, noodles, mamak, soup, lauk, vegetables, snacks/kuih, dessert, drinks.
+### Singapore Hawker Food (88 dishes)
+Hub: https://riceandprotein.com/foods/singapore.html
+Sources: the Health Promotion Board (HPB) energy figures for standard hawker portions, cross checked against KKH and SingHealth dietitian numbers.
+- Ngoh Hiang: 805 kcal per 1 mixed platter with sweet sauce
+- Lontong: 798 kcal per 1 bowl with sayur lodeh
+- Soon Kueh: 89 kcal per 1 piece
+- Satay: 50 kcal per 1 stick (chicken)
+
+### Indonesian Food (45 dishes)
+Hub: https://riceandprotein.com/foods/indonesia.html
+Sources: the Indonesian Food Composition Table (TKPI, Kemenkes), nilaigizi.com and FatSecret Indonesia entries for typical warung portions.
+- Nasi Campur Bali: 700 kcal per 1 plate (rice, shredded chicken, 2 sate lilit, lawar, sambal matah, fried peanuts)
+- Nasi Padang: 690 kcal per 1 plate (rice, rendang, gulai gravy, cassava leaves, sambal ijo)
+- Telur Balado: 130 kcal per 1 egg with sambal
+- Sayur Asem: 80 kcal per 1 bowl
+
+### Thai Food (30 dishes)
+Hub: https://riceandprotein.com/foods/thailand.html
+Sources: the Thai Bureau of Nutrition and INMU Mahidol food composition data, plus Thai hospital dietitian figures for standard street portions.
+- Khao Soi: 700 kcal per 1 bowl
+- Khao Kha Moo: 690 kcal per 1 plate with braised egg
+- Som Tam: 150 kcal per 1 plate
+- Moo Ping: 130 kcal per 1 skewer
+
+### Vietnamese Food (32 dishes)
+Hub: https://riceandprotein.com/foods/vietnam.html
+Sources: the Vietnam National Institute of Nutrition food composition table and Vietnamese hospital dietitian figures for standard street portions.
+- Bun Dau Mam Tom: 700 kcal per 1 platter (met) for one
+- Com Tam Suon: 700 kcal per 1 plate (suon bi cha)
+- Canh Chua: 150 kcal per 1 bowl
+- Banh Flan: 125 kcal per 1 cup with coffee and ice
+
+### Filipino Food (38 dishes)
+Hub: https://riceandprotein.com/foods/philippines.html
+Sources: the FNRI Philippine Food Composition Tables (PhilFCT) and published fast food chain nutrition data for standard servings.
+- Longsilog: 700 kcal per 1 plate
+- Tapsilog: 650 kcal per 1 plate
+- Pandesal: 110 kcal per 1 piece (bakery size, about 35g)
+- Isaw: 45 kcal per 1 stick (chicken)
+
+### Hong Kong Food (30 dishes)
+Hub: https://riceandprotein.com/foods/hong-kong.html
+Sources: the Hong Kong Centre for Food Safety nutrient database and the Department of Health EatSmart restaurant dish data.
+- Baked Pork Chop Rice: 1300 kcal per 1 plate
+- Claypot Rice (Bo Zai Fan): 1300 kcal per 1 pot (cured meat claypot rice)
+- Curry Fish Balls: 120 kcal per 1 skewer (6 balls with curry sauce)
+- Hong Kong Borscht (Lo Sung Tong): 90 kcal per 1 bowl (250ml)
+
+### Japanese Food (26 dishes)
+Hub: https://riceandprotein.com/foods/japan.html
+Sources: the MEXT Standard Tables of Food Composition in Japan and published chain restaurant nutrition data.
+- Katsu Curry: 1116 kcal per 1 plate (rice 300g)
+- Katsudon: 866 kcal per 1 bowl
+- Salmon Nigiri: 93 kcal per 1 plate (2 pieces)
+- Miso Soup: 40 kcal per 1 bowl (tofu and wakame)
+
+### Korean Food (32 dishes)
+Hub: https://riceandprotein.com/foods/korea.html
+Sources: the Korea MFDS food nutrition database and the Rural Development Administration Korean Food Composition Table, plus published chain nutrition data.
+- Korean Fried Chicken: 950 kcal per Half a yangnyeom chicken (반마리, about 8 pieces)
+- Samgyetang: 918 kcal per 1 pot (whole young chicken)
+- Bungeoppang: 110 kcal per 1 piece
+- Eomuk: 100 kcal per 1 skewer (with a cup of broth)
+
+## Frequently cited Malaysian numbers
+
+- Teh Tarik: 130 kcal per 1 glass
+- Nasi Lemak: 556 kcal per 1 standard bungkus
+- Roti Canai: 301 kcal per 1 plain piece + dhal
+- Char Kuey Teow: 742 kcal per 1 plate
+- Milo Dinosaur: 340 kcal per 1 glass
+- Cendol: 330 kcal per 1 bowl
 
 ## Tools
 
-- TDEE Calculator (homepage): Calculates maintenance calories using Mifflin-St Jeor, Harris-Benedict, and Schofield formulas averaged, then applies a user-selected deficit or surplus.
-- Protein target: goal weight x 1.6g to 2.2g per kg bodyweight.
+- TDEE Calculator (homepage, https://riceandprotein.com/): maintenance calories from the Mifflin-St Jeor, Harris-Benedict and Schofield formulas averaged, then a user selected deficit or surplus, plus a protein target of goal weight x 1.6g to 2.2g per kg.
 
 ## Pages
 
 - [Home / TDEE Calculator](https://riceandprotein.com/)
-- [Food Calories Database (289 Malaysian dishes)](https://riceandprotein.com/foods.html)
+- [Food Calories (559 dishes, 9 countries)](https://riceandprotein.com/foods.html)
+- [Malaysian Food Calories](https://riceandprotein.com/foods/malaysia.html)
+- [Singapore Hawker Food Calories](https://riceandprotein.com/foods/singapore.html)
+- [Indonesian Food Calories](https://riceandprotein.com/foods/indonesia.html)
+- [Thai Food Calories](https://riceandprotein.com/foods/thailand.html)
+- [Vietnamese Food Calories](https://riceandprotein.com/foods/vietnam.html)
+- [Filipino Food Calories](https://riceandprotein.com/foods/philippines.html)
+- [Hong Kong Food Calories](https://riceandprotein.com/foods/hong-kong.html)
+- [Japanese Food Calories](https://riceandprotein.com/foods/japan.html)
+- [Korean Food Calories](https://riceandprotein.com/foods/korea.html)
 - [About](https://riceandprotein.com/about.html)
-- [Blog](https://riceandprotein.com/blog.html)
 - [Diet Guides](https://riceandprotein.com/diets.html)
 - [Keto Diet](https://riceandprotein.com/diets/keto.html)
 - [Intermittent Fasting](https://riceandprotein.com/diets/if.html)
@@ -56,17 +136,3 @@ Browse the full list at the hub. Categories: rice, noodles, mamak, soup, lauk, v
 - [Volume Eating](https://riceandprotein.com/diets/volume-eating.html)
 - [OMAD](https://riceandprotein.com/diets/omad.html)
 - [Contact](https://riceandprotein.com/contact.html)
-
-## Blog posts
-
-- [128kg to 86kg: How I Actually Lost the Weight](https://riceandprotein.com/posts/128kg-to-86kg-my-journey.html): The author's full weight-loss story. Heaviest 128kg, dropped to 86kg, now maintains ~92kg. No keto, no supplements. Ate 2,200 kcal/day, weighed food, tracked in MyFitnessPal, lifted heavy 3 to 4x per week, volume eating. The E-E-A-T anchor post for the whole site.
-- [How Many Calories in Dim Sum?](https://riceandprotein.com/posts/dim-sum-calories.html): Har gao 55 kcal/piece, siew mai 65, one wu kok 150, lo mai kai 380/bowl. Steamed dumplings are the smart high-protein order, deep-fried (wu kok, fried wonton) and dense rice (lo mai kai) are the traps. Smart yum cha ~680 kcal vs trolley sweep ~1,280.
-- [Nasi Campur (Economy Rice) Calories](https://riceandprotein.com/posts/economy-rice-calories.html): The same self-serve stall builds a 500 or 900 kcal plate. Rice scoop ~280 kcal, fried chicken 230, rendang 210, the free curry gravy ladle 100. Lean plate: half rice + fish + 2 veg ~510 kcal. Rules: less rice, two veg one protein, grilled over fried, skip the gravy.
-- [Malaysian Drinks Calorie Guide](https://riceandprotein.com/posts/malaysian-drinks-calorie-guide.html): Teh tarik 128 kcal. Milo dinosaur 250 kcal. Air bandung 185 kcal. Every mamak and kopitiam drink with exact calories and condensed milk breakdowns.
-- [How Many Calories is Nasi Lemak?](https://riceandprotein.com/posts/how-many-calories-nasi-lemak.html): Standard bungkus 556 kcal. Kopitiam plate with ayam goreng and teh tarik 1,234 kcal. Every component weighed and counted.
-- [How Many Calories is Roti Canai?](https://riceandprotein.com/posts/how-many-calories-roti-canai.html): Roti kosong 300 kcal. Full mamak order with curry and teh tarik breakdown.
-- [How Many Calories is Char Kuey Teow?](https://riceandprotein.com/posts/how-many-calories-char-kuey-teow.html): Standard plate 686 kcal. The noodles are only 174 of those. Full ingredient breakdown.
-- [The Only Diet That Actually Works](https://riceandprotein.com/posts/only-diet-that-works.html): Why every diet either works or fails for the same reason, a calorie deficit, and how to find one that is sustainable.
-- [Why Keto Is Extra Hard in Asia](https://riceandprotein.com/posts/keto-asia.html): The structural reasons keto is harder to sustain in a Southeast Asian food culture.
-- [My Go-To 1kg Volume Meal](https://riceandprotein.com/posts/1kg-meal-recipe.html): 400g chicken breast, 250g cooked rice, 400g vegetables. Over 1kg of food. Around 1,100 kcal. Full recipe and macros.
-- [Gym Guide for Beginners](https://riceandprotein.com/posts/gym-guide-beginners.html): 3x per week full body programme for people who have never trained before.

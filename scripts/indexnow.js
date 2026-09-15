@@ -47,7 +47,7 @@ if (!urls.length) { console.log('IndexNow: nothing to submit'); process.exit(0);
     const res = await fetch('https://api.indexnow.org/indexnow', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json; charset=utf-8' },
-      body: JSON.stringify({ host: HOST, key, keyLocation: `https://${HOST}/${KEY}`, urlList: batch })
+      body: JSON.stringify({ host: HOST, key, urlList: batch })
     });
     console.log(`IndexNow: ${batch.length} URLs -> HTTP ${res.status}`);
     if (res.status >= 400) { console.error(await res.text()); process.exit(1); }
